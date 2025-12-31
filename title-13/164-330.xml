@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.330"/>
+          <FRBRuri value="/us-ky/act/krs/164.330"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.330/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.330/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.330/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.330/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_330">
+        <num>164.330</num>
+        <content>
+          <p>Each board of regents shall hold its first meeting within thirty (30) days after each appointment of new members. At this meeting there shall be elected a vice chairperson and a secretary for the board. Each board shall appoint a treasurer, and such officers as it deems necessary, but no member of any of the boards shall be appointed treasurer. No member of any board shall draw any salary for his services, but shall be reimbursed for necessary expenditures made in going to and from each meeting of the board and for other legitimate expenses, except a member who resides outside the Commonwealth shall not be reimbursed for out-of-state travel. The expenses shall be paid out of the funds of the appropriate institution.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

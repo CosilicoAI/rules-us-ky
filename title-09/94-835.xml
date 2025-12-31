@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/94.835"/>
+          <FRBRuri value="/us-ky/act/krs/94.835"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/94.835/eng"/>
+          <FRBRuri value="/us-ky/act/krs/94.835/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/94.835/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/94.835/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_94_835">
+        <num>94.835</num>
+        <content>
+          <p>The parking authority may rent or lease to any individual, firm or corporation any portion of the premises established as an off-street parking facility for service concessions, commercial uses or otherwise, after first advertising for bids therefor by publication not less than once a week for two (2) consecutive weeks in a newspaper of general circulation in the city making two (2) publications in all.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

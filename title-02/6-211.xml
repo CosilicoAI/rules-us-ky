@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/6.211"/>
+          <FRBRuri value="/us-ky/act/krs/6.211"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/6.211/eng"/>
+          <FRBRuri value="/us-ky/act/krs/6.211/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/6.211/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/6.211/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6_211">
+        <num>6.211</num>
+        <content>
+          <p>Effective January 1, 1994, in addition to any and all sums, compensation, or expenses now paid the members of the General Assembly, each shall receive an expense allowance of one hundred ten percent (110%) of the expense allowance paid federal employees traveling in the Frankfort, Kentucky area for each calendar day. This sum shall be paid whether the General Assembly is in regular or extraordinary session and shall be in full recompense of any additional expenses incurred in excess of that now received by them.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

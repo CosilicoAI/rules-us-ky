@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/367.730"/>
+          <FRBRuri value="/us-ky/act/krs/367.730"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/367.730/eng"/>
+          <FRBRuri value="/us-ky/act/krs/367.730/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/367.730/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/367.730/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_367_730">
+        <num>367.730</num>
+        <content>
+          <p>Within ten (10) days after the receipt of a notice given under , the manufacturer or its representatives shall examine the mobile home at the home site of the owner and within ten (10) days after such examination shall notify the owner in writing that they either: (1) find no defect, (2) find a defect but believe that it is due to abuse by the owner, an act beyond their control or the action of a third party, (3) find a defect but can and will promptly put the mobile home in a merchantable condition and will agree to a four (4) month extension of the owner’s rights with respect to such defect under the provisions of  to  or (4) accept the owner’s determination that it is nonmerchantable.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

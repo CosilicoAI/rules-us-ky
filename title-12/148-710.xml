@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/148.710"/>
+          <FRBRuri value="/us-ky/act/krs/148.710"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/148.710/eng"/>
+          <FRBRuri value="/us-ky/act/krs/148.710/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/148.710/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/148.710/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_148_710">
+        <num>148.710</num>
+        <content>
+          <p>Within the exterior boundaries of the right-of-way, the natural vegetation shall be kept undisturbed except for any clearing required for construction of the trail, occasional vistas, or trail-use facilities described in . The department shall make every effort to avoid any use of the right-of-way that is incompatible with the purposes for which the trails were established. Development and management of each segment of the state trails system shall be designed to harmonize with and complement any established multiple-use plans for that specific area in order to insure continual maximum benefits from the land. Other uses along the trail which will not substantially interfere with the nature and purposes of the trail may be permitted by the department; provided, that the owner of real property adjacent to any part of the system may hunt on that portion of the system which is adjacent to his property.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

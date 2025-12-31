@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/71.090"/>
+          <FRBRuri value="/us-ky/act/krs/71.090"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/71.090/eng"/>
+          <FRBRuri value="/us-ky/act/krs/71.090/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/71.090/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/71.090/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_71_090">
+        <num>71.090</num>
+        <content>
+          <p>Except as provided in , if the jailer is legally committed to jail, or if for any cause the office of jailer becomes vacant, the sheriff of the county shall perform all the duties of jailer until the jailer is legally discharged from jail, or until a successor to the jailer is elected or appointed and qualified. If the sheriff cannot or should not act the county judge/executive may so certify, and shall, in writing, designate a responsible person to act for the occasion.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

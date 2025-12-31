@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/186.1911"/>
+          <FRBRuri value="/us-ky/act/krs/186.1911"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/186.1911/eng"/>
+          <FRBRuri value="/us-ky/act/krs/186.1911/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/186.1911/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/186.1911/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_186_1911">
+        <num>186.1911</num>
+        <content>
+          <p>In any instance where a transfer of a motor vehicle shall be accompanied by a certificate of title or registration and such vehicle:</p>
+          <p>the owner thereof shall, before delivery of the vehicle to any other person obtain a replacement vehicle identification number from the manufacturer and affix it to the vehicle at the places specified by the Department of Vehicle Regulation or obtain a Kentucky identification number from the department and affix it to the vehicle at the places specified by the Department of Vehicle Regulation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

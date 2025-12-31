@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/156.136"/>
+          <FRBRuri value="/us-ky/act/krs/156.136"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/156.136/eng"/>
+          <FRBRuri value="/us-ky/act/krs/156.136/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/156.136/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/156.136/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_156_136">
+        <num>156.136</num>
+        <content>
+          <p>The Kentucky Board of Education, upon suspension of any officer under , shall name a person to fill the vacancy caused by such suspension. Persons appointed by the Kentucky Board of Education to fill vacancies under  and this section shall hold office only during the time an officer is suspended, not to exceed ninety (90) days from the date of suspension. At the expiration of such period, vacancies shall be filled in the manner provided by law for the office. Persons appointed by the Kentucky Board of Education to fill vacancies caused by suspension shall be paid from funds of the district board of education. Any person employed to fill the position of a superintendent who has been removed by the Kentucky Board of Education under  shall be employed by the district board of education for periods not to exceed one (1) year if the superintendent has appealed to the courts and if the courts have not taken final action.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

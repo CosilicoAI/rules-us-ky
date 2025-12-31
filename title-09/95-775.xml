@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/95.775"/>
+          <FRBRuri value="/us-ky/act/krs/95.775"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/95.775/eng"/>
+          <FRBRuri value="/us-ky/act/krs/95.775/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/95.775/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/95.775/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_95_775">
+        <num>95.775</num>
+        <content>
+          <p>If any member of the police and fire departments of such cities has served twenty (20) years or more and has reached his fifty-first birthday in such police or fire departments, and if his application to be relieved from such police or fire departments is granted, the said board of trustees shall order and direct that such person be paid a monthly pension equal to one-half (1/2) of the amount of the salary said person is or was in receipt of as a member of said department at the time of granting application.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

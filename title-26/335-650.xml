@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/335.650"/>
+          <FRBRuri value="/us-ky/act/krs/335.650"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/335.650/eng"/>
+          <FRBRuri value="/us-ky/act/krs/335.650/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/335.650/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/335.650/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_335_650">
+        <num>335.650</num>
+        <content>
+          <p>The Board of Licensure for Pastoral Counselors fund is hereby created in the State Treasury. All funds received by the board under the provisions of  to shall be deposited with the State Treasurer for credit to the board fund. The fund shall be invested as all other state funds are invested, and income from investment of the fund shall be credited to the fund. The balance remaining in the fund at the end of any fiscal year shall not lapse to the general fund. The money in the board fund shall be appropriated to the board and shall be used for the purpose of carrying out the provisions of  to</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

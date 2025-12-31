@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/367.984"/>
+          <FRBRuri value="/us-ky/act/krs/367.984"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/367.984/eng"/>
+          <FRBRuri value="/us-ky/act/krs/367.984/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/367.984/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/367.984/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_367_984">
+        <num>367.984</num>
+        <content>
+          <p>A civil action under  to may be brought in any court of competent jurisdiction within one (1) year of the date of the occurrence of any violation or within six (6) months of the time the rental-purchase agreement, together with any renewals or extensions thereof, ceases to be in effect, whichever is greater. Notwithstanding the above, a civil action under  to may be maintained by way of recoupment or counterclaim in an action brought against the consumer by the lessor or its assignee.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/5.279"/>
+          <FRBRuri value="/us-ky/act/krs/5.279"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/5.279/eng"/>
+          <FRBRuri value="/us-ky/act/krs/5.279/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/5.279/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/5.279/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_279">
+        <num>5.279</num>
+        <content>
+          <p>The Seventy-ninth Representative District shall consist of the following territory:</p>
+          <p>—CENSUS— COUNTY PREC NAME TRACT BLK SECT FAYETTE B105 BROOKHAVEN FAYETTE B108 DEERFIELD FAYETTE B110 FAIRWAY FAYETTE B111 GAINESWAY FAYETTE B112 GLENDOVER FAYETTE B119 LAKETOWER FAYETTE B120 LANSDOWNE FAYETTE B121 LEAWOOD FAYETTE B125 MALABU FAYETTE B127 MERRICK FAYETTE B128 CHINOE FAYETTE B133 CEDAR RUN FAYETTE B137 SHADELAND FAYETTE B140 SOUTHEASTERN HILLS FAYETTE B143 TATES CREEK FAYETTE B147 ZANDALE FAYETTE B152 EDGEWATER FAYETTE B155 ASCOT FAYETTE B157 KIRKLEVINGTON FAYETTE B158 PARK HILLS FAYETTE B165 OAKS FAYETTE B166 LAKEVIEW FAYETTE B167 GRAY HAWK FAYETTE B168 MONTAVESTA FAYETTE B174 WHISPERING HILLS FAYETTE B181 TABORLAKE FAYETTE B188 CASTLEGATE FAYETTE B189 KITTIWAKE FAYETTE B190 LAREDO FAYETTE B195 WALDEN GROVE FAYETTE B197 AQUEDUCT FAYETTE B211 RHODORA RIDGE FAYETTE C102 BARREN RIVER 003407 1012 FAYETTE C102 BARREN RIVER 003407 1013 FAYETTE C102 BARREN RIVER 003407 1014 FAYETTE C102 BARREN RIVER 003407 1018 FAYETTE C150 WINTER GARDEN FAYETTE C151 COVE LAKE FAYETTE C156 PATCHEN VILLAGE FAYETTE C161 TATESBROOK FAYETTE C162 NIAGARA FAYETTE C171 GROVES POINT FAYETTE C183 MILLCREEK FAYETTE C186 OLD FARM FAYETTE C188 STEPHEN FOSTER FAYETTE C191 PLAINVIEW FAYETTE C212 BROOKEWIND FAYETTE C220 PARK PLACE</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

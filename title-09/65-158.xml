@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/65.158"/>
+          <FRBRuri value="/us-ky/act/krs/65.158"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/65.158/eng"/>
+          <FRBRuri value="/us-ky/act/krs/65.158/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/65.158/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/65.158/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_65_158">
+        <num>65.158</num>
+        <content>
+          <p>Any city, consolidated local government, or urban-county government which makes deductions from the pay of its employees for any cause other than taxes shall, upon the written request of at least thirty percent (30%) of all employees within a department or division, deduct the amount from the pay of an employee as he may note on a signed payroll notification card or voucher for the purposes of employee benefits, insurance, community projects, or union dues. No deduction shall be made pursuant to this section from the pay of any employee who does not sign a payroll notification card or voucher. Upon these deductions, the city, consolidated local government, or urban-county government shall, within thirty (30) days, pay to the elected representative or designated recipient for the employees of the department or division the total amount of the deductions minus the actual cost to the city, consolidated local government, or urban-county government of processing the deductions.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

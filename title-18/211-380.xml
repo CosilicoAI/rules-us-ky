@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/211.380"/>
+          <FRBRuri value="/us-ky/act/krs/211.380"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/211.380/eng"/>
+          <FRBRuri value="/us-ky/act/krs/211.380/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/211.380/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/211.380/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_211_380">
+        <num>211.380</num>
+        <content>
+          <p>If a proposed site fails to meet the criteria established by the cabinet for a septic tank system, a permit shall be granted for an approved on-site sewage disposal system other than a septic tank, including modified subsurface systems, mechanical systems, and any other system appropriate to the individual characteristics of the site which will provide sewage treatment that meets established water quality criteria and health standards.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

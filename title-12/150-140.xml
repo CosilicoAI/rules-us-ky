@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/150.140"/>
+          <FRBRuri value="/us-ky/act/krs/150.140"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/150.140/eng"/>
+          <FRBRuri value="/us-ky/act/krs/150.140/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/150.140/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/150.140/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_150_140">
+        <num>150.140</num>
+        <content>
+          <p>Each circuit clerk responsible for the court before whom any prosecution under this chapter for the violation of any law or regulation for the protection of wildlife may be commenced or shall go on appeal shall, within ten (10) days after the end of each month, report in writing to the commissioner the result of the prosecution, the amount of fine collected or penalty imposed, if any. All moneys collected as fines or penalties for the violation of any law or regulation which, according to law, goes to the game and fish fund, shall be paid to the State Treasurer within ten (10) days after the end of each month and the same shall be paid by the State Treasurer into the game and fish fund within thirty (30) days thereafter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

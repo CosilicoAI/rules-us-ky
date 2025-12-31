@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/151.658"/>
+          <FRBRuri value="/us-ky/act/krs/151.658"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/151.658/eng"/>
+          <FRBRuri value="/us-ky/act/krs/151.658/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/151.658/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/151.658/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_151_658">
+        <num>151.658</num>
+        <content>
+          <p>If the proceeds from the sale of the refunding bonds are to be deposited in trust, interest shall accrue on obligations from the date of delivery to the first or any subsequent available redemption date or dates selected, in its discretion, by the board or to the date or dates of maturity, whichever shall be determined by the board to be most advantageous or necessary to the authority;</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

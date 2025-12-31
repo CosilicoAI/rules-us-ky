@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/32.070"/>
+          <FRBRuri value="/us-ky/act/krs/32.070"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/32.070/eng"/>
+          <FRBRuri value="/us-ky/act/krs/32.070/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/32.070/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/32.070/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_070">
+        <num>32.070</num>
+        <content>
+          <p>Beginning July 1, 1976, or at such earlier date as may be fixed as hereinafter provided, grand jurors, petit jurors and persons summoned for jury service in Circuit Court eligible for payment of the compensation designated in  shall be paid, in addition thereto, the sum of seven dollars and fifty cents ($7.50) per day as reimbursement of expenses incurred, which sum is hereby determined to be the equivalent of the minimum daily expenses reasonably to be incurred by such juror or person. Payment of such reimbursement for expenses may be made beginning as of such date prior to July 1, 1976, but not prior to July 1, 1974, as may be fixed by the Governor upon recommendation of the secretary of justice and public safety if and to the extent that prior to July 1, 1976, the Commonwealth of Kentucky is awarded grant funds by the Law Enforcement Assistance Administration of the United States Department of Justice on a matching basis of not less than ninety percent (90%) federal funds and ten percent (10%) state funds which grant funds are sufficient to pay the full cost of the reimbursement of expenses, and of the administrative expenses related thereto, authorized by this section from the date so fixed through June 30, 1976. Eligible state funds appropriated for the 1974-1976 biennium may be used for matching purposes so long as such use does not reduce the level of services provided in the executive budget for that biennium.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

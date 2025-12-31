@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/189.160"/>
+          <FRBRuri value="/us-ky/act/krs/189.160"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/189.160/eng"/>
+          <FRBRuri value="/us-ky/act/krs/189.160/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/189.160/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/189.160/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_189_160">
+        <num>189.160</num>
+        <content>
+          <p>Whenever a vehicle is used to transport an explosive, it shall be marked on each side and the rear with the word “Explosives” in letters no less than eight (8) inches high, or there shall be displayed on the rear of the vehicle a red flag not less than twenty-four (24) inches square marked with the word “Danger” in white letters six (6) inches high. The vehicle shall be equipped with not less than two (2) fire extinguishers, filled and ready for immediate use, and placed at a convenient point on the vehicle.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

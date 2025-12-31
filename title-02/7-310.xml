@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/7.310"/>
+          <FRBRuri value="/us-ky/act/krs/7.310"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/7.310/eng"/>
+          <FRBRuri value="/us-ky/act/krs/7.310/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/7.310/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/7.310/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_310">
+        <num>7.310</num>
+        <content>
+          <p>The intent of  to is to insure systematic and thorough evaluations of agencies of the state government and their various programs for the purpose of furnishing the Legislature with factual information necessary to the discharge of its legislative duties. The General Assembly finds that adequate information is not available for each session through which the members of the Legislature can determine the needs of the various agencies and departments of the state government, and the effectiveness of their programs. The General Assembly also finds that the legislative session is not adequate time in which to review the financial operations of each agency. It is the intent of  to to provide the Legislature with adequate factual information by which to exercise its valid powers.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

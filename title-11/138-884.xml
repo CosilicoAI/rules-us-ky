@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/138.884"/>
+          <FRBRuri value="/us-ky/act/krs/138.884"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/138.884/eng"/>
+          <FRBRuri value="/us-ky/act/krs/138.884/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/138.884/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/138.884/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_138_884">
+        <num>138.884</num>
+        <content>
+          <p>For the purpose of determining the correctness of any return; determining the amount of tax that should have been paid; determining whether or not the offender should have made a return or paid tax; or collecting any tax, penalty, or interest under  and  the Department of Revenue may examine, or cause to be examined, any books, papers, records, or memoranda that may be relevant to making any determinations, whether the books, papers, records, or memoranda are the property of or in the possession of the offender or another person. The Department of Revenue may require the attendance of any person having knowledge or information that may be relevant; compel the production of books, papers, records, or memoranda by persons required to attend; take testimony on matters material to the determination; and administer oaths or affirmations. The Department of Revenue may issue subpoenas which may be served by authorized agents of the Department of Revenue to compel the attendance of witnesses or the production of documents, books, papers, records, bank records, and any other writing or memoranda.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

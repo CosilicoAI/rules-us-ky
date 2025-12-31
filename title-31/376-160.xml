@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/376.160"/>
+          <FRBRuri value="/us-ky/act/krs/376.160"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/376.160/eng"/>
+          <FRBRuri value="/us-ky/act/krs/376.160/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/376.160/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/376.160/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_376_160">
+        <num>376.160</num>
+        <content>
+          <p>Any lien provided for in  and shall be superior to the lien of any mortgage or other encumbrance thereafter created, and shall be for the whole amount due the employees as such, or due for such materials or supplies. Liens of employees for wages coming due to them within six months before the property or effects shall come to be distributed among the creditors shall be superior to the lien of any mortgage or other encumbrance theretofore or thereafter created. No president or other chief officer, nor any director or stockholder of any such company, shall be deemed an employee within the meaning of .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

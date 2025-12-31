@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/247.953"/>
+          <FRBRuri value="/us-ky/act/krs/247.953"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/247.953/eng"/>
+          <FRBRuri value="/us-ky/act/krs/247.953/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/247.953/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/247.953/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247_953">
+        <num>247.953</num>
+        <content>
+          <p>In consideration of the acceptance of and payment for the bonds of the corporation by the holders thereof, the Commonwealth does hereby pledge to and agree with the holders of any bonds of the corporation issued pursuant to the provisions of  to  that the Commonwealth will not impair, limit, or alter the rights hereby vested in the corporation to fulfill the terms of any agreements made with the holders of the bonds of the corporation, or in any way impair the rights or remedies of the holders thereof, until the bonds, together with the interest thereon, with interest on any unpaid installments of interest, and all costs and expenses in connection with any action or proceedings by or on behalf of the holders, are fully met and discharged. The corporation is authorized to include this pledge and agreement of the Commonwealth in any agreement with the holders of bonds of the corporation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

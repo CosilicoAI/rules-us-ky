@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/74.414"/>
+          <FRBRuri value="/us-ky/act/krs/74.414"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/74.414/eng"/>
+          <FRBRuri value="/us-ky/act/krs/74.414/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/74.414/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/74.414/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_74_414">
+        <num>74.414</num>
+        <content>
+          <p>The commissioners of a water district, in order to abate possible health menaces in their area and to increase the consumption of water in the area, or whenever such commissioners deem it to be for the general benefit of the water district, shall have the authority to contract with any city, water district or sewer construction district, or other incorporated municipality or district, to provide for the operation of a water system, or a sanitary sewer system, or both, regardless of whether or not such water district operated by said board of commissioners has or will acquire any ownership rights in such systems to be so operated, upon such terms and conditions as such board of commissioners may deem appropriate, with or without any consideration being paid to or received by such water districts, other than the general benefit which may accrue to the water district from having more water or sewer customers and consequent increased use of water or sewer services.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

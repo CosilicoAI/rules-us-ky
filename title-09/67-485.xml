@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/67.485"/>
+          <FRBRuri value="/us-ky/act/krs/67.485"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/67.485/eng"/>
+          <FRBRuri value="/us-ky/act/krs/67.485/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/67.485/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/67.485/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_67_485">
+        <num>67.485</num>
+        <content>
+          <p>When any county buildings commission desires to construct, remodel or improve a building under the provisions of , the county buildings commission shall by resolution cause plans and specifications for the building to be duly made and filed in the office of the county clerk. The plans and specifications shall give a full description of the building to be constructed, remodeled or improved, the details thereof and the manner of construction. The plans and specifications shall be prepared by an architect selected by the county buildings commission and approved by the county. If the plans and specifications are approved and if the county offers to lease the building under a lease of the kind provided in , the county buildings commission shall cause its secretary to advertise for bids, and thereafter the county buildings commission through its chairman may contract for the construction, remodeling or improvement of the building.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

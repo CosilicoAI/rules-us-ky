@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/104.670"/>
+          <FRBRuri value="/us-ky/act/krs/104.670"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/104.670/eng"/>
+          <FRBRuri value="/us-ky/act/krs/104.670/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/104.670/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/104.670/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_104_670">
+        <num>104.670</num>
+        <content>
+          <p>The board of directors, as soon as duly appointed and qualified, may levy an annual tax of not more than fifteen cents ($0.15) upon each one hundred dollars ($100) of assessed valuation of property within the district. This tax shall be certified to the county clerks of the various counties and by them to the respective treasurers of their counties. The tax shall be based upon the last preceding assessment for state and county purposes, its collection shall conform to the collection of taxes for counties, and it shall constitute a lien against the property subordinate only to state, county and city ad valorem taxes, and the same provisions concerning the collection of delinquent taxes for counties shall apply. The tax shall be added by the county clerk, as a separate item, to the next state and county tax bill following the levy of the tax by the board of directors, and shall be collected concurrently with the state and county taxes. Neither the property valuation administrator nor the county clerk shall be entitled to any additional compensation for services rendered in connection with the listing of property for taxation nor shall the sheriff receive any additional compensation for the collection of the tax.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

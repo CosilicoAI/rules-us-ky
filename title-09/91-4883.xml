@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/91.4883"/>
+          <FRBRuri value="/us-ky/act/krs/91.4883"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/91.4883/eng"/>
+          <FRBRuri value="/us-ky/act/krs/91.4883/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/91.4883/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/91.4883/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_91_4883">
+        <num>91.4883</num>
+        <content>
+          <p>NOTICE OF ENFORCEMENT OF LIEN FOR DELINQUENT LAND TAXESBY ACTION IN REM Public Notice is hereby given that on the day of , 19, the City of of County, Kentucky, filed a petition, being Action Number , in the Circuit Court of County, Kentucky, at (stating the city), for the enforcement of liens for delinquent land taxes against the real estate situated in such city, all as described in said petition. The object of said suit is to obtain from the court a judgment enforcing the city’s tax and other liens against such real estate and ordering the sale of such real estate for the satisfaction of said liens thereon (except right of redemption in favor of the United States of America if any), including principal, interest, penalties, and costs. Such action is brought against the real estate only and no personal judgment shall be entered therein. The count number assigned by the city to each parcel of real estate, a description of each such parcel by street address and the property valuation administrator’s tax parcel number (district, block, lot and sub-lot), a statement of the total principal amount of all delinquent city tax bills against each such parcel of real estate, all of which, as to each parcel, is more fully set out and mentioned by count in the aforesaid petition, and the name of any taxing authority or person of record owning or holding any tax bill or claiming any right, title, or interest in or to, or lien upon, any such parcel of real estate as set out in the petition, are respectively as follows: (Here set out the respective count numbers, property descriptions, names of taxpayers of record and statements of total principal amounts of tax bills, and names of those other interested persons of record next above referred to.) The total principal amounts of delinquent taxes set out in this notice do not include the lawful interest, penalties, and costs which have accrued against the respective parcels of real estate. Any person or taxing authority owning or holding any tax bill or claiming any right, title, or interest in or to, or lien upon, any such parcel of real estate must file an answer to such suit in the office of the Circuit Court clerk of county in , and a copy of such answer with the city of in accordance with the Kentucky Rules of Civil Procedure, on or before the day of , 19 , and in such answer shall set forth in detail the nature and the amount of such interest and any defense or objection to the enforcement of the tax liens, or any affirmative relief he or it may be entitled to assert with respect thereto. Any person having any right, title, or interest in or to, or lien upon, any parcel of such real estate may have the city’s claims against such parcel dismissed from the action by paying all of the sums mentioned therein to the city of including principal, interest, penalties, and costs then due, at any time prior to the enforcement sale of such real estate by the master commissioner. In the event of failure to answer on or before the date herein fixed as the last day for filing answer in the suit, by any person having the right to answer, such person shall be forever barred and foreclosed as to any defense or objection he might have to the enforcement of such liens for delinquent taxes and the judgment of enforcement may be taken by default. Redemption may be made for a period of sixty (60) days after the master commissioner’s enforcement sale, if the sale price is less than the parcel’s current assessed value as certified by the Department of Revenue. Each such person having any right, title, or interest in or to, or any lien upon, any such parcel of real estate described in the petition so failing to answer or redeem, as aforesaid, shall be forever barred and foreclosed of any right, title, or interest in or to, or lien upon, or any equity of redemption in said real estate. , Kentucky (name of city) Attorney Address Phone Date of first publication</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

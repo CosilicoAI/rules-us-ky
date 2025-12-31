@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/365.835"/>
+          <FRBRuri value="/us-ky/act/krs/365.835"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/365.835/eng"/>
+          <FRBRuri value="/us-ky/act/krs/365.835/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/365.835/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/365.835/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_365_835">
+        <num>365.835</num>
+        <content>
+          <p>The provisions of  to shall not be construed to affect in any way any security interest which the supplier may have in the inventory of the retailer, and any repurchase shall not be subject to the provisions of the bulk sales law. The retailer or supplier may, in person or through a representative, inspect all inventory and certify its acceptability when it is packed for shipment to the supplier under a repurchase arrangement. Failure of the supplier to provide a representative to inspect the inventory within sixty (60) days of the notice of termination shall result in automatic acceptance by the supplier of all returned items.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

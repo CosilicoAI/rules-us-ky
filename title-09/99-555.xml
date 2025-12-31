@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/99.555"/>
+          <FRBRuri value="/us-ky/act/krs/99.555"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/99.555/eng"/>
+          <FRBRuri value="/us-ky/act/krs/99.555/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/99.555/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/99.555/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_99_555">
+        <num>99.555</num>
+        <content>
+          <p>In addition to the power and authority of any agency under , such agency shall have the power and authority to act and receive grants from the federal government, local government, or any other sources, for the preparation, planning and completion of community renewal programs, and as authorized and provided for by section 405 of the Federal Housing Act of 1959, amending and adding to section 103 of the Housing Act of 1949, as amended. Communities and other public bodies shall, in addition to the assistance permitted to be given by them under , have the power and authority to provide, either directly or to the agency, that portion of the total cost of the preparation, planning and completion of the community renewal program for which a grant is not made by the federal government under said section 405 of the Federal Housing Act of 1959.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

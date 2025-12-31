@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/417.070"/>
+          <FRBRuri value="/us-ky/act/krs/417.070"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/417.070/eng"/>
+          <FRBRuri value="/us-ky/act/krs/417.070/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/417.070/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/417.070/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_417_070">
+        <num>417.070</num>
+        <content>
+          <p>If the arbitration agreement
+    provides a method of appointment of arbitrators, this method shall be followed.
+    In the absence thereof, or if the agreed method fails or for any reason cannot
+    be followed, or when an arbitrator appointed fails or is unable to act and
+    his successor has not been duly appointed, the court on application of a party
+    shall appoint one (1) or more arbitrators. An arbitrator so appointed has
+    all the powers of one specifically named in the agreement.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

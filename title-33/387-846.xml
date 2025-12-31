@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/387.846"/>
+          <FRBRuri value="/us-ky/act/krs/387.846"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/387.846/eng"/>
+          <FRBRuri value="/us-ky/act/krs/387.846/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/387.846/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/387.846/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_387_846">
+        <num>387.846</num>
+        <content>
+          <p>If a conservator has been appointed in another state and a petition for a protective order is not pending in this state, the conservator appointed in the other state, after giving notice to the appointing court of an intent to register, may register the protective order in this state by filing as a foreign judgment in a court of this state, in any county in which property belonging to the protected person is located, certified copies of the order and letters of office and of any bond.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

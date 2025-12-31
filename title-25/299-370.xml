@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/299.370"/>
+          <FRBRuri value="/us-ky/act/krs/299.370"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/299.370/eng"/>
+          <FRBRuri value="/us-ky/act/krs/299.370/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/299.370/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/299.370/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_299_370">
+        <num>299.370</num>
+        <content>
+          <p>All portions of membership fees, policy fees, and assessments not necessarily used for expenses of writing insurance and payment of losses and expenses accrued at the time of their collection shall constitute a reserve fund, which may be used from time to time in anticipation of collection of assessments. The reserve fund shall be the property of the company, but in event of liquidation, voluntary or involuntary, the reserve fund shall be apportioned pro rata to the policyholders whose policies are in force at the time of liquidation, in proportion to the amount of premiums paid on the policies from the date of their issuance. The governing authorities of the company may invest the reserve fund or any portion of it in the same securities as fire insurance companies are permitted by law to invest in, and may pledge or sell the securities to raise money to more effectively carry out the lawful purposes of the company.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

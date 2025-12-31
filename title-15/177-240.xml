@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/177.240"/>
+          <FRBRuri value="/us-ky/act/krs/177.240"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/177.240/eng"/>
+          <FRBRuri value="/us-ky/act/krs/177.240/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/177.240/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/177.240/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_240">
+        <num>177.240</num>
+        <content>
+          <p>The highway authorities of the state, county, city, and town are authorized to so design any limited access facility and to so regulate, restrict, or prohibit access as to best serve the traffic for which such facility is intended, and its determination of such design shall be final. In this connection, such highway authorities are authorized to divide and separate any limited access facility into separate roadways by the construction of raised curbings, central dividing sections, or other physical separations, or by designating such separate roadways by signs, markers, stripes, and the proper lane for such traffic by appropriate signs, markers, stripes, and other devices. No person shall have any right of ingress or egress to, from, or across limited access facilities to or from abutting lands, except at such designated points at which access may be permitted, upon such terms and conditions as may be specified from time to time.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

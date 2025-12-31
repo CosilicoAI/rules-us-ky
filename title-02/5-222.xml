@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/5.222"/>
+          <FRBRuri value="/us-ky/act/krs/5.222"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/5.222/eng"/>
+          <FRBRuri value="/us-ky/act/krs/5.222/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/5.222/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/5.222/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_222">
+        <num>5.222</num>
+        <content>
+          <p>The Twenty-second Representative District shall consist of the following territory:</p>
+          <p>—CENSUS— COUNTY PREC NAME TRACT BLK SECT ALLEN SIMPSON WARREN F101 WOODBURN WARREN F103 DRAKE WARREN F106 MATLOCK WARREN F107 MOTLEY 011500 2000 WARREN F107 MOTLEY 011500 2001 WARREN F107 MOTLEY 011500 2002 WARREN F107 MOTLEY 011500 2003 WARREN F107 MOTLEY 011500 2004 WARREN F107 MOTLEY 011500 2005 WARREN F107 MOTLEY 011500 2006 WARREN F107 MOTLEY 011500 2016 WARREN F107 MOTLEY 011500 2056 WARREN F107 MOTLEY 011500 2057 WARREN F107 MOTLEY 011500 2058 WARREN F107 MOTLEY 011500 2065 WARREN F107 MOTLEY 011500 2068 WARREN F107 MOTLEY 011500 2090 WARREN F107 MOTLEY 011500 2091 WARREN F107 MOTLEY 011500 3003 WARREN F107 MOTLEY 011500 3004 WARREN F107 MOTLEY 011500 3006 WARREN F107 MOTLEY 011500 3042 WARREN F107 MOTLEY 011500 3043 WARREN F107 MOTLEY 011500 3044 WARREN F107 MOTLEY 011500 3045 WARREN F107 MOTLEY 011500 3046 WARREN F107 MOTLEY 011500 3047 WARREN F107 MOTLEY 011500 3048 WARREN F107 MOTLEY 011500 3052 0102 WARREN F107 MOTLEY 011500 3053</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

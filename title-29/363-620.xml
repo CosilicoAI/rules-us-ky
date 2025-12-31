@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/363.620"/>
+          <FRBRuri value="/us-ky/act/krs/363.620"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/363.620/eng"/>
+          <FRBRuri value="/us-ky/act/krs/363.620/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/363.620/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/363.620/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_363_620">
+        <num>363.620</num>
+        <content>
+          <p>The director shall investigate complaints made to him concerning violations of the provisions of  to  and shall, upon his own initiative, conduct such investigations as he deems appropriate and advisable to develop information on prevailing procedures in commercial quantity determination and on possible violations of the provisions of  to and to promote the general objective of accuracy in the determination and representation of quantity in commercial transactions.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

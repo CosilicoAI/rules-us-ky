@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/173.330"/>
+          <FRBRuri value="/us-ky/act/krs/173.330"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/173.330/eng"/>
+          <FRBRuri value="/us-ky/act/krs/173.330/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/173.330/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/173.330/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_173_330">
+        <num>173.330</num>
+        <content>
+          <p>A contract for library service made pursuant to subsection (4) of  shall require the existing library to perform all the functions of a library within the governmental unit wanting service. Such contracts shall not be valid nor shall funds be obligated until the contracts are approved in writing by all the contracting parties and have been certified by the Department for Libraries and Archives as providing standard library service for the sum specified. Initial contracts shall be for two (2) years or longer, subject to renewal. The board of trustees of a regional library shall have the same power to contract for library service as is given to a legislative body in subsection (4) of .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

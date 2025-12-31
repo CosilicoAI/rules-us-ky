@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/78.5536"/>
+          <FRBRuri value="/us-ky/act/krs/78.5536"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/78.5536/eng"/>
+          <FRBRuri value="/us-ky/act/krs/78.5536/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/78.5536/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/78.5536/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_78_5536">
+        <num>78.5536</num>
+        <content>
+          <p>1.
+      The recipient of a retirement allowance, by payroll deduction from his or her retirement allowance, electronic funds transfer, or by other method;</p>
+          <p>2.
+    
+    The insurance trust fund established by  or accounts established pursuant to 26  within the funds established in ;</p>
+          <p>3.
+    
+    Another state-administered retirement system, including the systems administered by Kentucky Retirement Systems, under a reciprocal arrangement, except that any portion of the premium paid from the funds specified by subparagraph 2. of this paragraph under a reciprocal agreement shall not exceed the amount that would be payable under this section if all the member’s service were in the County Employees Retirement System. If the board provides for cross-referencing of insurance premiums, the employer’s contribution for the working member or spouse shall be applied toward the premium, and the insurance trust fund established under  or accounts established pursuant to 26  within the funds established in , shall pay the balance; or</p>
+          <p>4.
+      A combination of the fund sources described by subparagraph 1. to 3. of this paragraph.</p>
+          <p>Group rates under the hospital and medical insurance plan shall be made available to the spouse, each dependent child, and each disabled child, regardless of the disabled child’s age, of a recipient who is a former member or the beneficiary, if the premium for the hospital and medical insurance for the spouse, each dependent child, and each disabled child, or beneficiary is paid by payroll deduction from the retirement allowance, electronic funds transfer, or by another method. For purposes of this subsection only, a child shall be considered disabled if he or she has been determined to be eligible for federal Social Security disability benefits or meets the dependent disability standard established by the Department of Employee Insurance in the Personnel Cabinet.</p>
+          <p>Notwithstanding the foregoing provisions of this paragraph, an employee participating in the system prior to July 1, 2003, who is killed as a direct result of an act in line of duty as defined in  or as a result of a duty-related injury as defined in , shall have the monthly premium paid for the beneficiary, if the beneficiary is the member’s spouse, and for each dependent child, so long as they individually remain eligible for a monthly retirement benefit.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

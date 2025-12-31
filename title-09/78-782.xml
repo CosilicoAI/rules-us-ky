@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/78.782"/>
+          <FRBRuri value="/us-ky/act/krs/78.782"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/78.782/eng"/>
+          <FRBRuri value="/us-ky/act/krs/78.782/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/78.782/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/78.782/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_78_782">
+        <num>78.782</num>
+        <content>
+          <p>Notwithstanding the provisions of , the Governor shall appoint each individual trustee described by subparagraphs 1. to 6. of this paragraph solely from each corresponding individual list required to be submitted by the Kentucky League of Cities, the Kentucky Association of Counties, or the Kentucky School Boards Association as provided by subparagraphs 1. to 6. of this paragraph, and the Governor shall not be able to reject the list of applicants submitted, request that another list be provided, or use a list different from the one (1) individual list required to be submitted for each specific appointment or reappointment;</p>
+          <p>If a trustee fails to complete the orientation program within one (1) year from the beginning of his or her first term on the board, the system shall withhold payment of the per diem and travel expenses due to the board member under this section until the trustee has completed the orientation program;</p>
+          <p>In addition to the requirements of this paragraph, the system shall also disclose the name and address of all individual underlying managers or partners in any fund of funds in which system assets are invested;</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

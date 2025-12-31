@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/14.080"/>
+          <FRBRuri value="/us-ky/act/krs/14.080"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/14.080/eng"/>
+          <FRBRuri value="/us-ky/act/krs/14.080/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/14.080/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/14.080/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_080">
+        <num>14.080</num>
+        <content>
+          <p>The Secretary of State shall each month receive from the secretary of the Finance and Administration Cabinet a report of the interest paid on state bonds, and to whom and when paid, and shall record the report in a well-bound book, and carefully file and preserve it. He shall report to each General Assembly, within the first two (2) weeks of its session, the amount of each monthly payment so reported.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

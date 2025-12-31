@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/454.080"/>
+          <FRBRuri value="/us-ky/act/krs/454.080"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/454.080/eng"/>
+          <FRBRuri value="/us-ky/act/krs/454.080/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/454.080/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/454.080/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_454_080">
+        <num>454.080</num>
+        <content>
+          <p>An injunction to stay proceedings on a judgment shall not be granted, in an action brought by the party seeking the injunction, in any other court than that in which the judgment was rendered. Nor shall such injunction be granted, unless the party applying therefor make affidavit that no injunction has been previously granted to stay the proceedings on such judgment.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/171.710"/>
+          <FRBRuri value="/us-ky/act/krs/171.710"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/171.710/eng"/>
+          <FRBRuri value="/us-ky/act/krs/171.710/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/171.710/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/171.710/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_171_710">
+        <num>171.710</num>
+        <content>
+          <p>The head of each state and local agency shall establish such safeguards against removal or loss of records as he shall deem necessary and as may be required by rules and regulations issued under authority of  to  Such safeguards shall include making it known to all officials and employees of the agency that no records are to be alienated or destroyed except in accordance with law, and calling their attention to the penalties provided by law for the unlawful removal or destruction of records.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

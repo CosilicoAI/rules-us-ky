@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/61.645"/>
+          <FRBRuri value="/us-ky/act/krs/61.645"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/61.645/eng"/>
+          <FRBRuri value="/us-ky/act/krs/61.645/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/61.645/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/61.645/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_61_645">
+        <num>61.645</num>
+        <content>
+          <p>If a trustee fails to complete the orientation program within one (1) year from the beginning of his or her first term on the board, the retirement systems shall withhold payment of the per diem and travel expenses due to the board member under this section and  until the trustee has completed the orientation program;</p>
+          <p>In addition to the requirements of this paragraph, the systems shall also disclose the name and address of all individual underlying managers or partners in any fund of funds in which system assets are invested;</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

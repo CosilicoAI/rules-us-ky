@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/189.2301"/>
+          <FRBRuri value="/us-ky/act/krs/189.2301"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/189.2301/eng"/>
+          <FRBRuri value="/us-ky/act/krs/189.2301/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/189.2301/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/189.2301/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_189_2301">
+        <num>189.2301</num>
+        <content>
+          <p>The provisions of this chapter to the contrary notwithstanding, a vehicle that has a valid registration of a declared gross vehicle weight, including any towed unit, of eighty thousand (80,000) pounds or less shall be exempt from any axle weight provisions when operating on any state-maintained highway that is classified as a “AAA” highway, if the vehicle is hauling seventy-nine thousand nine hundred ninety-nine (79,999) pounds or less. A person operating a vehicle under the provisions of this section shall have written documentation verifying the weight of the load being hauled is seventy-nine thousand nine hundred ninety-nine (79,999) pounds or less. The provisions of this section shall not apply to any vehicle operating on the interstate highway system or any vehicle operating on any highway where the vehicle would exceed any posted bridge weight limit.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

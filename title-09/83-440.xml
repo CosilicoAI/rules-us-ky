@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/83.440"/>
+          <FRBRuri value="/us-ky/act/krs/83.440"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/83.440/eng"/>
+          <FRBRuri value="/us-ky/act/krs/83.440/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/83.440/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/83.440/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_83_440">
+        <num>83.440</num>
+        <content>
+          <p>The legislative power of each city of the first class is vested in a legislative body of twelve (12) members, known as the board of aldermen. Members of the board of aldermen shall be elected by the voters of the city at large in such a way that one (1) member shall be a resident of each ward of the city. Representation on the board of aldermen shall be equal and uniform, and for this purpose the board of aldermen shall lay off the city into twelve (12) wards, as nearly equal as practicable in population, as ascertained by the most recent federal census.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

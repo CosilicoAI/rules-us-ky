@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/379.120"/>
+          <FRBRuri value="/us-ky/act/krs/379.120"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/379.120/eng"/>
+          <FRBRuri value="/us-ky/act/krs/379.120/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/379.120/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/379.120/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_379_120">
+        <num>379.120</num>
+        <content>
+          <p>The assignee may administer oaths and examine witnesses concerning claims, and may allow or refuse to allow any claim or part thereof. He shall file in the District Court, within six (6) months after his appointment and every three (3) months thereafter until discharged, a list of all claims presented to him, together with his reasons for refusing any claim not allowed, and sixty (60) days thereafter the report shall be confirmed unless exceptions to it are filed. Any creditor may file exceptions to the report because of the failure to allow his claim, or because of the allowance of any claim, and the court shall hear and determine the exceptions.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

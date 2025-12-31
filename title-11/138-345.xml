@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/138.345"/>
+          <FRBRuri value="/us-ky/act/krs/138.345"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/138.345/eng"/>
+          <FRBRuri value="/us-ky/act/krs/138.345/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/138.345/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/138.345/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_138_345">
+        <num>138.345</num>
+        <content>
+          <p>No person shall secure a refund of tax under  unless the person is the holder of an unrevoked refund permit issued by the Department of Revenue before the purchase of the gasoline or special fuel, which permit shall entitle the person to make application for a refund under  to  To procure a permit, every person shall file with the department an application under oath, on forms furnished by the department, setting forth the information incident to the refunding of the tax paid on gasoline or special fuel as the department may require. The properly completed and signed application shall be filed with the department on or before the date the permit, if approved by the department, is to become effective.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

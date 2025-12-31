@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/5.211"/>
+          <FRBRuri value="/us-ky/act/krs/5.211"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/5.211/eng"/>
+          <FRBRuri value="/us-ky/act/krs/5.211/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/5.211/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/5.211/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_211">
+        <num>5.211</num>
+        <content>
+          <p>The Eleventh Representative District shall consist of the following territory:</p>
+          <p>—CENSUS— COUNTY PREC NAME TRACT BLK SECT DAVIESS B102 NORTHTOWN DAVIESS B104 WESTSIDE DAVIESS C102 STANLEY HENDERSON A102 REED HENDERSON A108 GRANTWOOD HENDERSON A110 WEST BASKETT HENDERSON A111 SPOTTSVILLE HENDERSON A112 NORTH WOLF HILLS HENDERSON A113 PEBBLE CREEK HENDERSON A114 EAST BASKETT HENDERSON A116 SOUTH WOLF HILLS HENDERSON B103 ANTHOSTON HENDERSON B105 NORTH ZION HENDERSON B106 SOAPER HENDERSON B108 HIGHLANDER HENDERSON B110 SOUTH ZION HENDERSON B111 LARUE HENDERSON C101 EAST CORYDON HENDERSON C102 NORTH CAIRO HENDERSON C103 NORTH CORYDON HENDERSON C106 GENEVA HENDERSON C107 WEST WEAVERTON HENDERSON C108 EAST WEAVERTON HENDERSON C109 PENNYRILE HENDERSON D101 HARRIS HENDERSON D102 WEST BELLS HENDERSON D103 AUDUBON HEIGHTS HENDERSON D104 EAST BELLS HENDERSON D106 KAVANAUGH HENDERSON D108 WEST FAIR HENDERSON D109 EAST FAIR HENDERSON E101 YOUNG HENDERSON E103 HART HENDERSON E105 KIMMEL HENDERSON E106 NEWCOMB HENDERSON E107 WEST RICHARDSON HENDERSON E108 WEST BEND GATE HENDERSON E109 FRONTIER HENDERSON E110 BALMORAL HENDERSON E111 EAST RICHARDSON HENDERSON E112 EAST BEND GATE</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

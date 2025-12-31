@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/76.630"/>
+          <FRBRuri value="/us-ky/act/krs/76.630"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/76.630/eng"/>
+          <FRBRuri value="/us-ky/act/krs/76.630/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/76.630/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/76.630/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_76_630">
+        <num>76.630</num>
+        <content>
+          <p>The provisions of  notwithstanding, whenever any district shall determine that it is necessary that any fire plugs, water pipes, mains, and conduits, and other water service related equipment and appliances, belonging to any municipality or a municipally-owned utility, or any water district established pursuant to KRS , must be removed or relocated on, over or under a highway, city street, county road, or other public way, in order to construct, reconstruct, relocate or improve a drainage ditch, storm sewer, sanitary sewer, or any drainage or sewage facility connected therewith, the municipality or municipally-owned utility or the water district shall relocate or remove same in accordance with the reasonable needs of the metropolitan sewer district; and the costs and expenses of such relocation or removal, including the costs of installing such facilities in a new location and the costs of any land, or any rights or interests in lands, and any other rights, acquired to accomplish such relocation or removal, shall be ascertained and paid by the district as a part of the cost of improving, constructing or reconstructing such drainage or sewage facilities, provided such additional costs to the district do not result in an increase in the assessment against the benefited properties.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

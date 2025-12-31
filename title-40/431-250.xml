@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/431.250"/>
+          <FRBRuri value="/us-ky/act/krs/431.250"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/431.250/eng"/>
+          <FRBRuri value="/us-ky/act/krs/431.250/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/431.250/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/431.250/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_431_250">
+        <num>431.250</num>
+        <content>
+          <p>The following persons, and no others, may attend an execution: The executioner and the warden of the institution and his deputy or deputies and guards; the sheriff of the county in which the condemned was convicted; the commissioner of the Department of Corrections and representatives of the Department of Corrections designated by him; the physician and chaplain of the institution; a clergyman and three (3) other persons selected by the condemned; three (3) members of the victim’s family designated by the commissioner from among the victim’s spouse, adult children, parents, siblings, and grandparents; and nine (9) representatives of the news media as follows: one (1) representative from the daily newspaper with the largest circulation in the county where the execution will be conducted, one (1) representative from Associated Press Wire Service, one (1) representative from Kentucky Network, Inc., three (3) representatives for radio and television media within the state, and three (3) representatives for newspapers within the state. Use of audiovisual equipment by the representatives is prohibited during the execution. The Department of Corrections shall issue administrative regulations which govern media representation during the execution.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

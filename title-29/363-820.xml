@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/363.820"/>
+          <FRBRuri value="/us-ky/act/krs/363.820"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/363.820/eng"/>
+          <FRBRuri value="/us-ky/act/krs/363.820/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/363.820/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/363.820/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_363_820">
+        <num>363.820</num>
+        <content>
+          <p>For the purposes of  to  proof of the existence of a weight or measure or a weighing or measuring device in or about any building, enclosure, stand, or vehicle in which or from which it is shown that buying or selling is commonly carried on, shall, in the absence of conclusive evidence to the contrary, be presumptive proof of the regular use of such weight or measure or weighing or measuring device for commercial purposes and of such use by the person in charge of such building, enclosure, stand, or vehicle.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

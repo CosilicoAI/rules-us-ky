@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/367.46961"/>
+          <FRBRuri value="/us-ky/act/krs/367.46961"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/367.46961/eng"/>
+          <FRBRuri value="/us-ky/act/krs/367.46961/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/367.46961/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/367.46961/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_367_46961">
+        <num>367.46961</num>
+        <content>
+          <p>NOTICE OF CANCELLATION RIGHTS BECAUSE YOU AGREED TO BUY THESE GOODS (or services or other appropriate description) AS A RESULT OF AN UNSOLICITED TELEPHONE CALL, KENTUCKY LAW GIVES YOU FOURTEEN (14) DAYS TO CANCEL YOUR AGREEMENT WITH US. IF YOU WANT TO CANCEL, YOU MUST SIGN YOUR NAME BELOW AND RETURN A COPY OF THIS NOTICE, TOGETHER WITH ANY GOODS YOU HAVE RECEIVED, SO THEY ARE POSTMARKED NO LATER THAN MIDNIGHT OF THE FOURTEENTH DAY FOLLOWING THE DATE YOU RECEIVED THE GOODS OR AGREED TO THE SERVICES, OR THE FOURTEENTH DAY FOLLOWING THE DATE YOU RECEIVED THIS NOTICE, WHICHEVER IS LATER. THE NOTICE AND GOODS MUST BE ADDRESSED AS FOLLOWS: (Name and address of Merchant) I want to cancel my agreement to purchase. (Signature) (Name of Consumer — Printed) (Address of Consumer — Printed) (Address — City, State, Zip) (Date)</p>
+          <p>Click to view</p>
+          <p>YOU ARE NOT OBLIGATED TO PAY ANY</p>
+          <p>MONEY UNLESS YOU SIGN THIS CONTRACT</p>
+          <p>AND RETURN IT TO THE MERCHANT.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

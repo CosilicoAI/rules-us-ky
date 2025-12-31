@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/211.9107"/>
+          <FRBRuri value="/us-ky/act/krs/211.9107"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/211.9107/eng"/>
+          <FRBRuri value="/us-ky/act/krs/211.9107/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/211.9107/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/211.9107/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_211_9107">
+        <num>211.9107</num>
+        <content>
+          <p>No person or business entity shall conduct radon measurement, mitigation, or laboratory analysis in this Commonwealth after January 1, 2013, without the appropriate certification pursuant to  to 211.9135. No person or business entity shall advertise or claim to be a “certified measurement contractor,” “certified mitigation contractor,” or “certified radon laboratory,” unless certified pursuant to  to 211.9135. Certification requirements under  to 211.9135 shall apply to a radon measurement contractor, radon mitigation contractor, or radon laboratory, but shall not apply to:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

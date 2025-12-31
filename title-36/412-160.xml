@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/412.160"/>
+          <FRBRuri value="/us-ky/act/krs/412.160"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/412.160/eng"/>
+          <FRBRuri value="/us-ky/act/krs/412.160/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/412.160/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/412.160/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_412_160">
+        <num>412.160</num>
+        <content>
+          <p>In an action for the recovery of money in which the defendant may have given bond with sureties, or for whom sureties may have given bond, pursuant to the provisions of subsection (1) of ; or in which an appellant may have given bond with sureties, or for whom sureties may have given bond, for the purpose of appeal from an inferior court to a circuit court or for the purpose of a supersedeas pending an appeal to the Court of Appeals — if such defendant or appellant have thereafter become a bankrupt under the laws of the United States, upon notice thereof from his adversary being served on the sureties, by summons, the court shall decide whether or not anything, and, if anything, how much, should have been adjudged against the defendant or appellant, but for the bankruptcy; and such decision shall be conclusive as to the liability of the sureties; but they shall not be liable upon a bond given pursuant to subsection (1) of , if property released from an attachment by reason thereof, or its proceeds, have lawfully come to the defendant’s or appellant’s assignee in bankruptcy.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

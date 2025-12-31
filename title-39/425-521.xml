@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/425.521"/>
+          <FRBRuri value="/us-ky/act/krs/425.521"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/425.521/eng"/>
+          <FRBRuri value="/us-ky/act/krs/425.521/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/425.521/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/425.521/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_425_521">
+        <num>425.521</num>
+        <content>
+          <p>If a garnishee, or officer of a corporation summoned as a garnishee, appear in person, he may be examined on oath; and, if it be discovered on such examination that, at the service of the order of attachment upon him, he or the corporation was possessed of any property of the defendant, or was indebted to him, the court may order the delivery of such property, and the payment, or security for the payment, of the sum owing by the garnishee, into court, or to such person as it may direct — who shall give bond, with security, for the same; or the court may permit the garnishee to retain the property or the sum owing upon the execution of a bond with one (1) or more sufficient sureties, to the effect that the sum shall be paid, or the property be forthcoming, as the court may direct. Performance of such bonds, for the forthcoming of property, may be enforced, as in cases of contempt; upon such bonds for payment of money, execution may be issued as upon replevin bonds.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

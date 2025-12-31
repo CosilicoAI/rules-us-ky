@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/156.071"/>
+          <FRBRuri value="/us-ky/act/krs/156.071"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/156.071/eng"/>
+          <FRBRuri value="/us-ky/act/krs/156.071/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/156.071/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/156.071/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_156_071">
+        <num>156.071</num>
+        <content>
+          <p>The Kentucky Board of Education may, any statute to the contrary notwithstanding, delegate the taking of evidence, and the rendition of a written recommendation of disposition to the full board, to a panel of the board, to a single member of the board acting as a hearing officer, or to a hearing officer appointed by the board relative to any hearing, appeal, or decision, judicial or quasi-judicial in nature, which the board is empowered or directed, by this or any other chapter, to conduct, hear, or make; provided, the full board, as provided by statute, makes the final decision or determination, based upon the evidence submitted. For the purpose of serving as a hearing officer for the board, the board and the Department of Education shall not enter into a personal service contract; employ additional staff; or provide additional compensation to existing staff, except for compensatory time for staff who conduct school facility public hearings outside of their regular working hours.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

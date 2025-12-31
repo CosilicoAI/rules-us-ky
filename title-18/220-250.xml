@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/220.250"/>
+          <FRBRuri value="/us-ky/act/krs/220.250"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/220.250/eng"/>
+          <FRBRuri value="/us-ky/act/krs/220.250/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/220.250/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/220.250/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_220_250">
+        <num>220.250</num>
+        <content>
+          <p>Upon the approval of the official plan by the Natural Resources and Environmental Protection Cabinet the board of directors shall pass a resolution accepting the official plan as final and fixing all financing, taxes and rentals as authorized by  to necessary for the construction, maintenance, and operation required to place the plan in effect. After final resolutions are passed fixing the rates and rentals, no alterations of the plan shall be made except as provided herein and as approved by the Natural Resources and Environmental Protection Cabinet.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

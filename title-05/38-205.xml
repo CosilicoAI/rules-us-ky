@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/38.205"/>
+          <FRBRuri value="/us-ky/act/krs/38.205"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/38.205/eng"/>
+          <FRBRuri value="/us-ky/act/krs/38.205/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/38.205/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/38.205/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_205">
+        <num>38.205</num>
+        <content>
+          <p>Except when in the service of the United States, officers and enlisted men, when employed in state active duty, beginning with the day they assemble at their armories or other designated places until the day they return there and have been properly relieved, including, fractional parts of a day which count as a full day, shall receive pay at the same rate as though serving on active duty as a member of the Armed Forces of the United States, but the rate shall not be less than twelve (12) times the prevailing federal minimum hourly wage per day.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

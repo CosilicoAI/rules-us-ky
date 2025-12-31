@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/382.380"/>
+          <FRBRuri value="/us-ky/act/krs/382.380"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/382.380/eng"/>
+          <FRBRuri value="/us-ky/act/krs/382.380/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/382.380/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/382.380/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_382_380">
+        <num>382.380</num>
+        <content>
+          <p>If a deed of trust or mortgage is made to a trustee or to a mortgagee to secure the payment of bonds or other obligations to be issued thereafter, the grantor in the deed of trust or the mortgagor in the mortgage, when or before such additional bonds or other obligations are issued, shall cause to be recorded in the office of the county clerk of the county in which such deed of trust or mortgage was first recorded, a statement by the grantor or the mortgagor acknowledged as deeds are required to be acknowledged, setting forth the amount, the date, the maturity and the description of such additional obligations, and until such statement is so lodged for record no such bonds or other obligations shall be issued by the grantor or the mortgagor or certified by the trustee.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

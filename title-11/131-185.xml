@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/131.185"/>
+          <FRBRuri value="/us-ky/act/krs/131.185"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/131.185/eng"/>
+          <FRBRuri value="/us-ky/act/krs/131.185/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/131.185/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/131.185/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_131_185">
+        <num>131.185</num>
+        <content>
+          <p>Income tax returns shall be kept for five (5) years; primary accounting records of tax payments, seven (7) years; and records containing all data of motor vehicle registration, three (3) years. Records of the department which are not required by this section or other statutory provisions to be preserved for a fixed period may be kept or disposed of according to the discretion of the department.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/367.765"/>
+          <FRBRuri value="/us-ky/act/krs/367.765"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/367.765/eng"/>
+          <FRBRuri value="/us-ky/act/krs/367.765/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/367.765/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/367.765/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_367_765">
+        <num>367.765</num>
+        <content>
+          <p>Each owner who purchases a new mobile home shall be furnished by the dealer selling the mobile home the address of the dealer, manufacturer and wholesaler, if any. In addition, the name and address of the dealer, manufacturer, and the wholesaler shall be affixed to the mobile home in a conspicuous place and shown to the owner by the dealer.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

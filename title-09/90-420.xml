@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/90.420"/>
+          <FRBRuri value="/us-ky/act/krs/90.420"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/90.420/eng"/>
+          <FRBRuri value="/us-ky/act/krs/90.420/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/90.420/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/90.420/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_90_420">
+        <num>90.420</num>
+        <content>
+          <p>Any rights, benefits, choses in action or claims owned or possessed by any employee of a city of the second class or his estate or next of kin, on June 12, 1940, and which arose or grew out of the provisions of Chapter 53 of the Acts of 1938, and any rights, benefits, choses in action or claims arising under any ordinance passed by a city of the second class under the powers conferred by Chapter 53 of the Acts of 1938, are preserved and sustained. The acquired status of any such employee under the civil service system authorized by Chapter 53 of the Acts of 1938 shall not be changed, or his rank or classification altered, nor shall the immunity from examination or the rank or grade acquired by previous service to the city, under the provisions of Chapter 53 of the Acts of 1938 and the ordinances passed thereunder, be destroyed, reduced or altered.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

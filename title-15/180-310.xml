@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/180.310"/>
+          <FRBRuri value="/us-ky/act/krs/180.310"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/180.310/eng"/>
+          <FRBRuri value="/us-ky/act/krs/180.310/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/180.310/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/180.310/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_180_310">
+        <num>180.310</num>
+        <content>
+          <p>The department may agree upon the purchase price and cost of the bridge or upon the terms of the lease, with the owner and such other parties named in  or any of them, and may further agree upon the proportion of the purchase price or annual rental to be contributed by the department and by the other contributing parties. When the contract of purchase or lease and the agreement apportioning the purchase price or annual rental is approved by the Attorney General of this state, the department shall deliver a copy of the contract of purchase or lease and the agreement of apportionment to the Finance and Administration Cabinet, which shall draw a warrant on the State Treasurer at the time and for the amount provided in the purchase or lease contract and agreement of apportionment. The warrant shall specify that it is to be payable only out of the state highway road funds, and it shall be delivered to the seller or owner of the bridge or tunnel concurrently with the warrants or vouchers of the other contributing parties.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

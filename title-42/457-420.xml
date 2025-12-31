@@ -1,0 +1,156 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/457.420"/>
+          <FRBRuri value="/us-ky/act/krs/457.420"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/457.420/eng"/>
+          <FRBRuri value="/us-ky/act/krs/457.420/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/457.420/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/457.420/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_457_420">
+        <num>457.420</num>
+        <content>
+          <p>A document substantially in the following form may be used to create a statutory form power of attorney that has the meaning and effect prescribed by this chapter:</p>
+          <p>KENTUCKY STATUTORY FORM POWER OF ATTORNEY IMPORTANT INFORMATION</p>
+          <p>Click to view</p>
+          <p>This power of attorney authorizes another person (your agent) to make decisions concerning your property for you (the principal). Your agent will be able to make decisions and act with respect to your property (including your money) whether or not you are able to act for yourself. The meaning of authority over subjects listed on this form is explained in the Uniform Power of Attorney Act in KRS .</p>
+          <p>This power of attorney does not authorize the agent to make health-care decisions for you.</p>
+          <p>You should select someone you trust to serve as your agent. Unless you specify otherwise, generally the agent’s authority will continue until you die or revoke the power of attorney or the agent resigns or is unable to act for you.</p>
+          <p>Your agent is entitled to reasonable compensation unless you state otherwise in the Special Instructions.</p>
+          <p>This form provides for designation of one (1) agent. If you wish to name more than one (1) agent you may name a coagent in the Special Instructions. Coagents are not required to act together unless you include that requirement in the Special Instructions.</p>
+          <p>If your agent is unable or unwilling to act for you, your power of attorney will end unless you have named a successor agent. You may also name a second successor agent.</p>
+          <p>This power of attorney becomes effective immediately unless you state otherwise in the Special Instructions.</p>
+          <p>If you have questions about the power of attorney or the authority you are granting to your agent, you should seek legal advice before signing this form.</p>
+          <p>DESIGNATION OF AGENT I, , name the following person as my agent: (Name of Principal) Name of Agent: Agent’s Address: Agent’s Telephone Number:</p>
+          <p>Click to view</p>
+          <p>DESIGNATION OF SUCCESSOR AGENT(S) (OPTIONAL) If my successor agent is unwilling or unable to act for me, I name as my second successor agent: Name of Second Successor Agent: Second Successor Agent’s Address: Second Successor Agent’s Telephone Number:</p>
+          <p>Click to view</p>
+          <p>If my successor agent is unwilling or unable to act for me, I name as my second successor agent: Name of Second Successor Agent: Second Successor Agent’s Address: Second Successor Agent’s Telephone Number:</p>
+          <p>Click to view</p>
+          <p>GRANT OF GENERAL AUTHORITY</p>
+          <p>Click to view</p>
+          <p>I grant my agent and any successor agent general authority to act for me with respect to the following subjects as defined in the Uniform Power of Attorney Act in KRS :</p>
+          <p>(INITIAL each subject you want to include in the agent’s general authority. If you wish to grant general authority over all of the subjects you may initial “All Preceding Subjects” instead of initialing each subject.) (___) Real Property (___) Tangible Personal Property (___) Stocks and Bonds (___) Commodities and Options (___) Banks and Other Financial Institutions (___) Operation of Entity or Business (___) Insurance and Annuities (___) Estates, Trusts, and Other Beneficial Interests (___) Claims and Litigation (___) Personal and Family Maintenance (___) Benefits from Governmental Programs or Civil or Military Service (___) Retirement Plans (___) Taxes (___) All Preceding Subjects</p>
+          <p>Click to view</p>
+          <p>GRANT OF SPECIFIC AUTHORITY (OPTIONAL)</p>
+          <p>Click to view</p>
+          <p>My agent MAY NOT do any of the following specific acts for me UNLESS I have INITIALED the specific authority listed below:</p>
+          <p>(CAUTION: Granting any of the following will give your agent the authority to take actions that could significantly reduce your property or change how your property is distributed at your death. INITIAL ONLY the specific authority you WANT to give your agent.) (___) Create, amend, revoke, or terminate an inter vivos trust (___) Make a gift, subject to the limitations of the Uniform Power of Attorney Act in and any special instructions in this power of attorney  (___) Create or change rights of survivorship (___) Create or change a beneficiary designation (___) Authorize another person to exercise the authority granted under this power of attorney (___) Waive the principal’s right to be a beneficiary of a joint and survivor annuity, including a survivor benefit under a retirement plan (___) Exercise fiduciary powers that the principal has authority to delegate (___) Access the content of electronic communications</p>
+          <p>Click to view</p>
+          <p>LIMITATION ON AGENT’S AUTHORITY</p>
+          <p>Click to view</p>
+          <p>An agent that is not my ancestor, spouse, or descendant MAY NOT use my property to benefit the agent or a person to whom the agent owes an obligation of support unless I have included that authority in the Special Instructions.</p>
+          <p>SPECIAL INSTRUCTIONS (OPTIONAL)</p>
+          <p>Click to view</p>
+          <p>You may give special instructions on the following lines:</p>
+          <p>EFFECTIVE DATE</p>
+          <p>Click to view</p>
+          <p>This power of attorney is effective immediately unless I have stated otherwise in the Special Instructions.</p>
+          <p>NOMINATION OF CONSERVATOR OR GUARDIAN (OPTIONAL)</p>
+          <p>Click to view</p>
+          <p>If it becomes necessary for a court to appoint a conservator of my estate or guardian of my person, I nominate the following person(s) for appointment:</p>
+          <p>Name of Nominee for conservator of my estate: Nominee’s Address: Nominee’s Telephone Number: Name of Nominee for guardian of my person: Nominee’s Address: Nominee’s Telephone Number:</p>
+          <p>Click to view</p>
+          <p>RELIANCE ON THIS POWER OF ATTORNEY</p>
+          <p>Click to view</p>
+          <p>Any person, including my agent, may rely upon the validity of this power of attorney or a copy of it unless that person knows it has terminated or is invalid.</p>
+          <p>SIGNATURE AND ACKNOWLEDGMENT</p>
+          <p>Click to view</p>
+          <p>Your Signature Date Your Name Printed Your Address Your Telephone Number State of County of This document was acknowledged before me on (Date) by (Name of Principal) Signature of Notary (Seal, if any) My commission expires: This document prepared by:</p>
+          <p>Click to view</p>
+          <p>IMPORTANT INFORMATION FOR AGENT</p>
+          <p>Click to view</p>
+          <p>Agent’s Duties</p>
+          <p>When you accept the authority granted under this power of attorney, a special legal relationship is created between you and the principal. This relationship imposes upon you legal duties that continue until you resign or the power of attorney is terminated or revoked. You must:</p>
+          <p>(Principal’s Name) by (Your Signature) as Agent</p>
+          <p>Click to view</p>
+          <p>Unless the Special Instructions in this power of attorney state otherwise, you must also:</p>
+          <p>TERMINATION OF AGENT'S AUTHORITY</p>
+          <p>Click to view</p>
+          <p>You must stop acting on behalf of the principal if you learn of any event that terminates this power of attorney or your authority under this power of attorney. Events that terminate a power of attorney or your authority to act under a power of attorney include:</p>
+          <p>LIABILITY OF AGENT</p>
+          <p>Click to view</p>
+          <p>The meaning of the authority granted to you is defined in the Uniform Power of Attorney Act in KRS . If you violate the Uniform Power of Attorney Act under KRS  or act outside the authority granted, you may be liable for any damages caused by your violation.</p>
+        </content>
+        <subsection eId="sec_457_420__subsec_1">
+          <num>(1)</num>
+          <content>
+            <p>Act loyally for the principal’s benefit;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_457_420__subsec_2">
+          <num>(2)</num>
+          <content>
+            <p>Avoid conflicts that would impair your ability to act in the principal’s best interest;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_457_420__subsec_3">
+          <num>(3)</num>
+          <content>
+            <p>Act with care, competence, and diligence;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_457_420__subsec_4">
+          <num>(4)</num>
+          <content>
+            <p>Keep a record of all receipts, disbursements, and transactions made on behalf of the principal;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_457_420__subsec_1">
+          <num>(1)</num>
+          <content>
+            <p>Death of the principal;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_457_420__subsec_2">
+          <num>(2)</num>
+          <content>
+            <p>The principal’s revocation of the power of attorney or your authority;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_457_420__subsec_3">
+          <num>(3)</num>
+          <content>
+            <p>The occurrence of a termination event stated in the power of attorney;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_457_420__subsec_4">
+          <num>(4)</num>
+          <content>
+            <p>The purpose of the power of attorney is fully accomplished; or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_457_420__subsec_5">
+          <num>(5)</num>
+          <content>
+            <p>If you are married to the principal, a legal action is filed with a court to end your marriage, or for your legal separation, unless the Special Instructions in this power of attorney state that such an action will not terminate your authority.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

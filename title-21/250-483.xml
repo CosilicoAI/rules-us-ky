@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/250.483"/>
+          <FRBRuri value="/us-ky/act/krs/250.483"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/250.483/eng"/>
+          <FRBRuri value="/us-ky/act/krs/250.483/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/250.483/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/250.483/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_250_483">
+        <num>250.483</num>
+        <content>
+          <p>The Division of Fire Prevention in the Department of Housing, Buildings and Construction shall make, promulgate, and enforce administrative regulations setting forth minimum general standards covering the design, construction, location, installation, and operation of equipment for storing, handling, transporting by tank truck, tank trailer, and utilizing anhydrous ammonia. The administrative regulations shall be such as are reasonably necessary for the protection and safety of the public and persons using such materials, and shall be in substantial conformity with the generally-accepted standards of safety concerning the same subject matter. Administrative regulations in substantial conformity with the published standards of the Fertilizer Institute and the Compressed Gas Association for the design, installation, and construction of containers and equipment for the storage and handling of anhydrous ammonia shall be deemed to be in substantial conformity with the generally-accepted standards of safety concerning the same subject matter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

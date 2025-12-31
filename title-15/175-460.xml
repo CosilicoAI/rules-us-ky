@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/175.460"/>
+          <FRBRuri value="/us-ky/act/krs/175.460"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/175.460/eng"/>
+          <FRBRuri value="/us-ky/act/krs/175.460/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/175.460/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/175.460/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_175_460">
+        <num>175.460</num>
+        <content>
+          <p>In the event that the authority and the department shall deem it suitable, feasible, necessary and expedient that any turnpike project or projects be financed or refinanced by the authority and constructed by the authority or by the department on behalf of the authority under this chapter, the authority and the department are empowered to make one or more written agreements with regard thereto in which, as to each such project, the parties may include provisions as to any one or more of the following:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

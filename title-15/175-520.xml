@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/175.520"/>
+          <FRBRuri value="/us-ky/act/krs/175.520"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/175.520/eng"/>
+          <FRBRuri value="/us-ky/act/krs/175.520/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/175.520/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/175.520/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_175_520">
+        <num>175.520</num>
+        <content>
+          <p>Such tolls shall not be subject to supervision or regulation by any other department, commission, board, bureau, or agency of the Commonwealth. The tolls and all other revenues derived from the turnpike project or projects in connection with which the bonds of any issue shall have been issued, except such part thereof as may be necessary to pay such cost of maintenance, repair, and operation and to provide such reserves therefor as may be provided for in the proceedings authorizing the issuance of such bonds or the trust indenture securing the same, shall be set aside in a sinking fund or funds which are hereby pledged to and charged with the payment of the principal of and the interest on such bonds as the same shall become due and the redemption price or the purchase price of bonds retired by call or purchase as therein provided. Such pledge shall be valid and binding from the time when the pledge is made; the tolls or other revenues or other moneys so pledged and thereafter received by the authority shall immediately be subject to the lien of such pledge without any physical delivery thereof or further act; and the lien of any such pledge shall be valid and binding as against all parties having claims of any kind in tort, contract, or otherwise against the authority, irrespective of whether such parties have notice thereof. Neither the proceedings nor any trust indenture by which a pledge is created need be filed or recorded except in the records of the authority and the department. The use and disposition of moneys to the credit of any such sinking fund shall be subject to the provisions of the proceedings authorizing the issuance of such bonds or of such trust indenture. Except as may otherwise be provided in such proceedings or in such trust indenture, any such sinking fund shall be a fund for all bonds provided to be payable therefrom without distinction or priority of one (1) over another.</p>
+          <p>Passenger automobiles15 miles per gallon</p>
+          <p>Single unit trucks10 miles per gallon</p>
+          <p>Semitrailer trucks and buses5 miles per gallon</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

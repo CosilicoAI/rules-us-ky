@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/1.100"/>
+          <FRBRuri value="/us-ky/act/krs/1.100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/1.100/eng"/>
+          <FRBRuri value="/us-ky/act/krs/1.100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/1.100/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/1.100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1_100">
+        <num>1.100</num>
+        <content>
+          <p>The boundary with Virginia and West Virginia begins at the point where the Carolina, now Tennessee, line crosses the top of the Cumberland Mountain, near Cumberland Gap; thence it runs northeastwardly along the top, or highest part of the said Cumberland Mountain, keeping between the headwaters of Cumberland and Kentucky Rivers, on the west side thereof, and the headwaters of Powell’s and Guest’s Rivers, and the Pond Fork of Sandy, on the east side thereof, continuing along the said top, or highest part of said mountain, crossing the road leading over the same at the Little Paint Gap, where by some it is called the Hollow Mountain, and where it terminates at the west fork of Sandy, commonly called Russell’s Fork; thence with a line to be run north 45 deg. east till it intersects the other great principal branch of Sandy, commonly called the northeastwardly
+    branch; thence down the said northeastwardly branch to its junction with the main west branch, and down main Sandy to its confluence with the Ohio.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/92.330"/>
+          <FRBRuri value="/us-ky/act/krs/92.330"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/92.330/eng"/>
+          <FRBRuri value="/us-ky/act/krs/92.330/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/92.330/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/92.330/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_92_330">
+        <num>92.330</num>
+        <content>
+          <p>All taxes and license fees levied or imposed by cities of the home rule class shall be levied or imposed by ordinance. The purpose for which each tax is levied or license fee imposed shall be specified in the ordinance, and the revenue therefrom shall be expended for no other purpose than that for which the tax was levied or the license fee imposed. Failure to specify the purpose of the tax or license fee shall render the ordinance invalid.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

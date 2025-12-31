@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/141.900"/>
+          <FRBRuri value="/us-ky/act/krs/141.900"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/141.900/eng"/>
+          <FRBRuri value="/us-ky/act/krs/141.900/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/141.900/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/141.900/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_141_900">
+        <num>141.900</num>
+        <content>
+          <p>The definitions in this section are the same as the definitions appearing in  prior to its repeal and reenactment in Section 53 of 2018 Ky. Acts chs. 171 and 207. For taxable years beginning prior to January 1, 2018, as used in this chapter, unless the context requires otherwise:</p>
+          <p>b.
+    
+    Exclude the portion of the distributive share of a shareholder’s net income from an S corporation related to a qualified subchapter S subsidiary subject to the franchise tax imposed under  or the capital stock tax imposed under .</p>
+          <p>For purposes of this paragraph, “corporation” shall not include any publicly traded partnership as defined by Section 7704(b) of the Internal Revenue Code that is treated as a partnership for federal tax purposes under Section 7704(c) of the Internal Revenue Code or its publicly traded partnership affiliates. As used in this paragraph, “publicly traded partnership affiliates” shall include any limited liability company or limited partnership for which at least eighty percent (80%) of the limited liability company member interests or limited partner interests are owned directly or indirectly by the publicly traded partnership;</p>
+          <p>Nothing in this subsection shall be interpreted in a manner that goes beyond the limitations imposed and protections provided by the United States Constitution or Pub. L. No. 86-272;</p>
+          <p>The total ownership interest of a corporation shall be determined by aggregating all interests owned or constructively owned by a corporation;</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/426.060"/>
+          <FRBRuri value="/us-ky/act/krs/426.060"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/426.060/eng"/>
+          <FRBRuri value="/us-ky/act/krs/426.060/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/426.060/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/426.060/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_426_060">
+        <num>426.060</num>
+        <content>
+          <p>When an execution is issued jointly against a personal representative, an heir and a devisee, or any two (2) of them, the officer in whose hands it is placed for collection shall sell, first, the estate in the hands of the personal representative; second, the estate descended to the heir; and third, the estate devised. The defendants may, in writing, direct the sale to take place in any order they desire.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

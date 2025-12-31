@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/267.260"/>
+          <FRBRuri value="/us-ky/act/krs/267.260"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/267.260/eng"/>
+          <FRBRuri value="/us-ky/act/krs/267.260/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/267.260/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/267.260/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_267_260">
+        <num>267.260</num>
+        <content>
+          <p>In the construction of the work the contractor may enter upon any land necessary for this purpose, and may remove any bridge or fence and cross private land in going to or from the work. If the right-of-way of the improvement is through timber, the owner may remove it before the work begins. If it is not removed by the landowner, it shall become the property of the contractor and may be removed by him. All logs, stumps and similar obstructions shall be cleared off the right-of-way for its full width by the contractor.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

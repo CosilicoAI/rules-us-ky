@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.225"/>
+          <FRBRuri value="/us-ky/act/krs/164.225"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.225/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.225/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.225/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.225/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_225">
+        <num>164.225</num>
+        <content>
+          <p>Anything in any statutes of the Commonwealth to the contrary notwithstanding, the power over and control of appointments, qualifications, salaries, and compensation payable out of the State Treasury or otherwise, promotions and official relations of all employees of the University of Kentucky, as provided in , and, subject to any restrictions imposed by general law, the retirement ages and benefits of such employees shall be under the exclusive jurisdiction of the board of trustees of the University of Kentucky, which shall be an independent agency and instrumentality of the Commonwealth. No relative of a board of trustee member shall be employed by the university.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

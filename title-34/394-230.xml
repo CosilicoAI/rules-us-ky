@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/394.230"/>
+          <FRBRuri value="/us-ky/act/krs/394.230"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/394.230/eng"/>
+          <FRBRuri value="/us-ky/act/krs/394.230/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/394.230/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/394.230/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_394_230">
+        <num>394.230</num>
+        <content>
+          <p>When any will or any authenticated copy, as provided in , is offered for probate, and an attesting witness resides out of this state, or though in the state is in confinement in another county under legal process, or is unable from sickness, age or other infirmity to attend the court before which the will or copy is offered, or resides at a distance of more than fifty (50) miles, the court may cause a commission to be issued, annexed to the will or copy and directed to any person authorized to take depositions, to take his deposition. The deposition of such witness shall be taken and certified as depositions are taken in other cases, except that no notice need be given of the time and place of taking, unless the probate is opposed by some person who has made himself a party. The proof so given shall have the same effect as if it had been given in the court from which the commission issued.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

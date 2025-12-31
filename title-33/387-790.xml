@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/387.790"/>
+          <FRBRuri value="/us-ky/act/krs/387.790"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/387.790/eng"/>
+          <FRBRuri value="/us-ky/act/krs/387.790/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/387.790/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/387.790/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_387_790">
+        <num>387.790</num>
+        <content>
+          <p>Notwithstanding anything in  to to the contrary, when a guardian or conservator is in reasonable doubt as to the right to use the income or principal from the ward’s estate for the benefit of the ward, the guardian or conservator may apply to the District Court for permission to do so by filing a verified petition stating the reasons for the application. The court may grant the order ex parte, and the order shall be prima facie protection to the guardian or conservator in the settlement of the guardianship or conservatorship accounts.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/233.080"/>
+          <FRBRuri value="/us-ky/act/krs/233.080"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/233.080/eng"/>
+          <FRBRuri value="/us-ky/act/krs/233.080/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/233.080/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/233.080/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_233_080">
+        <num>233.080</num>
+        <content>
+          <p>If the complaint is filed by a citizen, it shall be dismissed only upon a sworn statement by the relator and his attorney, setting forth the reasons why the action should be dismissed. Dismissal shall be approved by the Commonwealth’s or county attorney in writing or in open court. If the court is of the opinion that the action ought not to be dismissed, it may direct the Commonwealth’s or county attorney to prosecute the action to judgment. If an action is continued more than one (1) month, any citizen may be substituted for the relator and prosecute the action to judgment. If the action is brought by a citizen, and the court finds there was no reasonable ground for the action, the costs may be taxed to that citizen.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

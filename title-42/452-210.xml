@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/452.210"/>
+          <FRBRuri value="/us-ky/act/krs/452.210"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/452.210/eng"/>
+          <FRBRuri value="/us-ky/act/krs/452.210/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/452.210/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/452.210/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_452_210">
+        <num>452.210</num>
+        <content>
+          <p>When a criminal or penal action is pending in any Circuit Court, the judge thereof shall, upon the application of the defendant or of the state, order the trial to be held in some adjacent county to which there is no valid objection, if it appears that the defendant or the state cannot have a fair trial in the county where the prosecution is pending. If the judge is satisfied that a fair trial cannot be had in an adjacent county, he may order the trial to be had in the most convenient county in which a fair trial can be had.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

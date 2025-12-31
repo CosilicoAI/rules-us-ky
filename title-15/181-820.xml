@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/181.820"/>
+          <FRBRuri value="/us-ky/act/krs/181.820"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/181.820/eng"/>
+          <FRBRuri value="/us-ky/act/krs/181.820/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/181.820/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/181.820/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_181_820">
+        <num>181.820</num>
+        <content>
+          <p>The commission
+    of any city authorizing bridge revenue bonds under  or  may
+    purchase all ferries, together with necessary lands and appurtenances
+    thereto, which are operating across the stream to be spanned by the
+    bridge to be acquired or constructed and which are within five (5)
+    miles of the location of such bridge. The purchase price of such ferries
+    shall be deemed a part of the cost of the bridge and shall be paid
+    solely from funds received under the provisions of  to  The
+    commission may maintain and operate any ferry so purchased and fix
+    such rates of toll for the use thereof as it deems proper, or it may
+    in its discretion sell or otherwise dispose of any ferry so purchased,
+    or it may abandon or dismantle the ferries when it seems expedient
+    to do so. All tolls collected for the use of the ferries and the proceeds
+    of any sale or disposition of any ferries shall be used to pay the
+    cost of maintaining, repairing and operating the ferries, and any
+    residue shall be paid into the sinking fund provided for the bonds.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

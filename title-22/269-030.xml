@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/269.030"/>
+          <FRBRuri value="/us-ky/act/krs/269.030"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/269.030/eng"/>
+          <FRBRuri value="/us-ky/act/krs/269.030/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/269.030/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/269.030/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_269_030">
+        <num>269.030</num>
+        <content>
+          <p>“All persons interested in property lying in District, County, Kentucky, take notice: “That District, County, Kentucky, desires to refund all (part) of its outstanding bonded indebtedness (and accrued interest) and that at in the City of , on the day of , 19, at o’clock any person having an interest in any property in the district may appear before the board of drainage commissioners (other governing authority) of the district, and show any cause why the refunding should not be done, and taxes in addition to the assessed benefits levied, if necessary, for the purpose of paying interest on the refunding bonds. You are further notified that if a majority of the owners of land in the district, owning a majority of the acres of land therein, object, the refunding will be abandoned. You will further take notice that unless the refunding is abandoned, any owner may, at any time within two weeks after the making of the order to issue refunding bonds, pay the full amount of uncollected principal tax or assessment chargeable to his property for the payment of the bonds proposed to be refunded. Any tract on which the tax or assessment is paid will be released from any tax or assessment for the payment of the refunding bonds, but shall remain subject to any additional taxes that may be levied by the district. “Dated at , Kentucky, the day of , 19 Board of Drainage Commissioners (other governing authority) of County, Kentucky, by .”</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

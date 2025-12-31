@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/315.342"/>
+          <FRBRuri value="/us-ky/act/krs/315.342"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/315.342/eng"/>
+          <FRBRuri value="/us-ky/act/krs/315.342/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/315.342/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/315.342/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_315_342">
+        <num>315.342</num>
+        <content>
+          <p>1.
+    
+    Register as an outsourcing facility with the United States Secretary of Health and Human Services in accordance with 21 b; and</p>
+          <p>2.
+      Submit a copy of a current inspection report resulting from an inspection conducted by the United States Food and Drug Administration that indicates compliance with the requirements of state and federal law and regulations, including all applicable guidance documents and Current Good Manufacturing Practices published by the United States Food and Drug Administration.</p>
+          <p>1.
+      Issue a permit if the out-of-state outsourcing facility meets the requirements of this chapter and the administrative regulations promulgated by the board; or</p>
+          <p>2.
+      Refuse to renew any permit to operate unless the out-of-state outsourcing facility meets the requirements of this chapter and the administrative regulations promulgated by the board.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

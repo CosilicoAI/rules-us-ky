@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/107.010"/>
+          <FRBRuri value="/us-ky/act/krs/107.010"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/107.010/eng"/>
+          <FRBRuri value="/us-ky/act/krs/107.010/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/107.010/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/107.010/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_107_010">
+        <num>107.010</num>
+        <content>
+          <p>Incorporated municipalities are authorized to provide for, construct, and finance improvements, as herein defined, according to the plan set forth in this chapter. The authority hereby conferred is not intended to be in derogation of any authority otherwise conferred upon such municipalities, but is alternative and in addition thereto. If a municipality has taken any step or steps under any other law to provide for, construct or finance any improvements allowed to be undertaken by this chapter, it may abandon the procedure under the other law, if it so desires, and proceed under the provisions of this chapter, if it can do so without impairing any contractual right or contractual rights.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

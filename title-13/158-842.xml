@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/158.842"/>
+          <FRBRuri value="/us-ky/act/krs/158.842"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/158.842/eng"/>
+          <FRBRuri value="/us-ky/act/krs/158.842/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/158.842/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/158.842/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_158_842">
+        <num>158.842</num>
+        <content>
+          <p>Other factors may be included in the strategic plan as deemed appropriate by the committee to improve mathematics achievement of Kentucky students.</p>
+          <p>When the Center for Mathematics created under  becomes operational, the executive director of the center shall be added to the committee, which shall then be composed of twenty-six (26) members. Appointments to the committee shall be made no later than thirty (30) days following March 18, 2005, and the first meeting of the committee shall occur no later than thirty (30) days following appointment of the members.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

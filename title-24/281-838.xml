@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/281.838"/>
+          <FRBRuri value="/us-ky/act/krs/281.838"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/281.838/eng"/>
+          <FRBRuri value="/us-ky/act/krs/281.838/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/281.838/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/281.838/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_281_838">
+        <num>281.838</num>
+        <content>
+          <p>Any person who is a nonresident of the Commonwealth of Kentucky and who operates any motor vehicle as defined in  not entitled to exemption from the payment of the fees imposed by  by reason of the terms of a reciprocal agreement existing between the Commonwealth of Kentucky and the state in which such vehicle is licensed, may, in lieu of the payment of the fees imposed by , obtain from the Department of Vehicle Regulation a temporary permit. Under regulations adopted by the Department of Vehicle Regulation application for such a temporary permit shall be made and such permits shall be issued for a specified period not exceeding ten (10) days, and for a specific vehicle. The fee for each permit shall be twenty-five ($25) dollars for any vehicle subject to the fees in  for a vehicle and any towed unit with a declared gross weight of fifty-five thousand (55,000) pounds or less; or forty dollars ($40) for any vehicle subject to the fees in  for a vehicle and any towed unit with a declared gross weight of fifty-five thousand one (55,001) pounds or more.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

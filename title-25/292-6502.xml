@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/292.6502"/>
+          <FRBRuri value="/us-ky/act/krs/292.6502"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/292.6502/eng"/>
+          <FRBRuri value="/us-ky/act/krs/292.6502/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/292.6502/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/292.6502/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_292_6502">
+        <num>292.6502</num>
+        <content>
+          <p>Only individuals whose registration of a security shows sole ownership by one (1) individual or multiple ownership by two (2) or more with right of survivorship, rather than as tenants in common, may obtain registration in beneficiary form. Multiple owners of a security registered in beneficiary form hold as joint tenants with right of survivorship, as tenants by the entireties, or as owners of community property held in survivorship form, and not as tenants in common.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

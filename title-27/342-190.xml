@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/342.190"/>
+          <FRBRuri value="/us-ky/act/krs/342.190"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/342.190/eng"/>
+          <FRBRuri value="/us-ky/act/krs/342.190/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/342.190/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/342.190/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_342_190">
+        <num>342.190</num>
+        <content>
+          <p>The notice and claim shall be in writing. The notice shall contain the name and address of the employee, and shall state in ordinary language the time, place of occurrence, nature and cause of the accident, with names of witnesses, the nature and extent of the injury sustained, and the work or employment in which the employee was at the time engaged, and shall be signed by him or a person on his behalf, or, in case of his death, by any one (1) or more of his dependents or a person on their behalf. The notice may include the claim.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

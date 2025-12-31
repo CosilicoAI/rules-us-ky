@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.140"/>
+          <FRBRuri value="/us-ky/act/krs/164.140"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.140/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.140/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.140/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.140/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_140">
+        <num>164.140</num>
+        <content>
+          <p>The board of trustees of the university shall prescribe the method by which the alumni may, at their annual meeting or at a special meeting called for that purpose, nominate to the Governor three (3) persons from whom the alumni members shall be appointed. No alumnus shall be permitted to vote for the nomination of alumni trustees in the year in which he secures his degree. If the alumni fail to make nominations to the Governor for any year in which nominations are to be made, the Governor shall for that year appoint the alumni trustees from the entire alumni, a list of which shall be provided by the secretary of the alumni association.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/363.610"/>
+          <FRBRuri value="/us-ky/act/krs/363.610"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/363.610/eng"/>
+          <FRBRuri value="/us-ky/act/krs/363.610/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/363.610/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/363.610/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_363_610">
+        <num>363.610</num>
+        <content>
+          <p>When not otherwise provided by law, the director shall have the power to inspect and test, to ascertain if they are correct, all weights and measures kept, offered, or exposed for sale. It shall be the duty of the director, within a twelve-month period, or less frequently if in accordance with a schedule issued by him, and as much oftener as he may deem necessary, to inspect and test to ascertain if they are correct, all weights and measures commercially used:</p>
+          <p>Provided, that with respect to single-service devices (that is, devices designed to be used commercially only once and to be then discarded) and with respect to devices uniformly mass-produced, as by means of a mold or die, and not susceptible of individual adjustment, tests may be made on representative samples of such devices; and the lots of which such samples are representative shall be held to be correct or incorrect upon the basis of the results of the inspections and tests on such samples.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

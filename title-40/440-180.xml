@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/440.180"/>
+          <FRBRuri value="/us-ky/act/krs/440.180"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/440.180/eng"/>
+          <FRBRuri value="/us-ky/act/krs/440.180/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/440.180/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/440.180/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_440_180">
+        <num>440.180</num>
+        <content>
+          <p>No demand for the extradition of a person charged with crime in another state shall be recognized by the Governor unless in writing alleging, except in cases arising under , that the accused was present in the demanding state at the time of the commission of the alleged crime, and that thereafter he fled from the state, and accompanied by a copy of an indictment found or by information supported by affidavit in the state having jurisdiction of the crime, or by a copy of an affidavit made before a magistrate there, together with a copy of any warrant which was issued thereupon; or by a copy of a judgment of conviction or of a sentence imposed in execution thereof, together with a statement by the executive authority of the demanding state that the person claimed has escaped from confinement or has broken the terms of his bail, probation or parole. The indictment, information, or affidavit made before the magistrate must substantially charge the person demanded with having committed a crime under the law of that state; and the copy of indictment, information, affidavit, judgment of conviction, or sentence must be authenticated by the executive authority making the demand.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

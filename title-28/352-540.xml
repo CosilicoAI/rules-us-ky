@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/352.540"/>
+          <FRBRuri value="/us-ky/act/krs/352.540"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/352.540/eng"/>
+          <FRBRuri value="/us-ky/act/krs/352.540/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/352.540/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/352.540/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_352_540">
+        <num>352.540</num>
+        <content>
+          <p>All persons employing persons in mining work shall, on or before the fifteenth and thirtieth days of each month pay to each employee, within fifteen (15) days of the aforesaid fifteenth or thirtieth day, respectively, in lawful money of the United States, the full amount of wages due him, unless prevented by an unavoidable casualty. If, at any time of payment, the employee is absent from his place of labor he shall be entitled to such payment at any reasonable time thereafter on demand.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

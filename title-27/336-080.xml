@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/336.080"/>
+          <FRBRuri value="/us-ky/act/krs/336.080"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/336.080/eng"/>
+          <FRBRuri value="/us-ky/act/krs/336.080/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/336.080/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/336.080/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_336_080">
+        <num>336.080</num>
+        <content>
+          <p>The secretary may have inspected any place of employment affected by or subject to any law of this state relating to the employment of labor, except places of employment within the jurisdiction of the Department for Natural Resources. In the discharge of his or her duties, the secretary or the secretary’s authorized deputy may enter places of employment at any reasonable time. Upon request, the cabinet shall furnish to any employer a detailed report of any inspection in his or her place of business.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

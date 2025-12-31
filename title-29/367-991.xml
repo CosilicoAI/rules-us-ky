@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/367.991"/>
+          <FRBRuri value="/us-ky/act/krs/367.991"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/367.991/eng"/>
+          <FRBRuri value="/us-ky/act/krs/367.991/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/367.991/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/367.991/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_367_991">
+        <num>367.991</num>
+        <content>
+          <p>Any person or corporation which is subject to the provisions of  to and willfully violates the trust provision found in this chapter shall be guilty of a Class C felony. Each violation of any trust provision of this chapter shall be deemed a separate offense. Either the Attorney General or the appropriate Commonwealth’s attorney may prosecute violators.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

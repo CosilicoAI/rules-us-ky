@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/432.550"/>
+          <FRBRuri value="/us-ky/act/krs/432.550"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/432.550/eng"/>
+          <FRBRuri value="/us-ky/act/krs/432.550/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/432.550/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/432.550/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_432_550">
+        <num>432.550</num>
+        <content>
+          <p>No person shall, except with the consent of the General Assembly or of the Governor when the General Assembly is not in session, bring or cause to be brought into this state any armed person, not a citizen of this state, to preserve the peace, suppress domestic violence or to serve as a deputy of any officer or as a member of a posse comitatus, nor shall any officer knowingly summon any such person or any other person who has come into the state for that purpose to aid in suppressing violence. Any person who violates this section shall be fined not less than one thousand dollars ($1,000) nor more than five thousand dollars ($5,000), or imprisoned for not less than six (6) nor more than twelve (12) months, or both.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/272.231"/>
+          <FRBRuri value="/us-ky/act/krs/272.231"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/272.231/eng"/>
+          <FRBRuri value="/us-ky/act/krs/272.231/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/272.231/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/272.231/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_272_231">
+        <num>272.231</num>
+        <content>
+          <p>An association may organize, form, acquire, operate, own, control, have an interest in, own all or a portion of the stock of, or be the sole member of any other association, foreign association or corporation (hereinafter referred to as a subsidiary association). An association may have included in the articles of incorporation or bylaws of a subsidiary association provisions for the control or management of the subsidiary association by the association to such extent as shall by the board of the association, and the members of the subsidiary association be declared to be for the best interests of the association and the subsidiary association, respectively. Such provisions may be so included in the articles of incorporation or bylaws of a subsidiary association and may by way of illustration, but not of limitation, include the following:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

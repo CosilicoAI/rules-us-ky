@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/12.145"/>
+          <FRBRuri value="/us-ky/act/krs/12.145"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/12.145/eng"/>
+          <FRBRuri value="/us-ky/act/krs/12.145/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/12.145/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/12.145/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_145">
+        <num>12.145</num>
+        <content>
+          <p>Notwithstanding any other statute to the contrary, an agency of state government shall use certified mail or registered mail only for correspondence or notifications that the Finance and Administration Cabinet determines, by promulgation of administrative regulations under KRS , warrant the proof of receipt that those methods of delivery provide. Upon the approval of the Finance and Administrative Cabinet’s administrative regulation, an agency of state government may use any method of governmental, commercial, or electronic delivery for any other correspondence or notification.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

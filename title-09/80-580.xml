@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/80.580"/>
+          <FRBRuri value="/us-ky/act/krs/80.580"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/80.580/eng"/>
+          <FRBRuri value="/us-ky/act/krs/80.580/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/80.580/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/80.580/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_80_580">
+        <num>80.580</num>
+        <content>
+          <p>In addition to its other powers, a housing authority created for a city pursuant to  to may exercise any or all of its powers within the territorial boundaries of any other city for the purpose of planning, undertaking, financing, constructing and operating a housing project or projects within the other city, if a resolution has been adopted by the governing body of the other city in which such authority is to exercise its powers and by the housing authority of the other city (if one has been theretofore created for such other city) declaring (upon findings prescribed in ) that there is a need for the housing authority of the aforesaid city to exercise its powers within the other city. The governing body of the other city shall not adopt a resolution pursuant to this section unless a public hearing has first been held. The clerk of such city shall give notice of the public hearing by publication pursuant to KRS . Upon the date fixed for such public hearing an opportunity to be heard shall be granted to all residents of such city and to all other interested persons.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

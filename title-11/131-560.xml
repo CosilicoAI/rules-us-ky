@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/131.560"/>
+          <FRBRuri value="/us-ky/act/krs/131.560"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/131.560/eng"/>
+          <FRBRuri value="/us-ky/act/krs/131.560/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/131.560/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/131.560/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_131_560">
+        <num>131.560</num>
+        <content>
+          <p>Notwithstanding the provisions of  or  the Department of Revenue shall withhold the Kentucky individual income tax refund otherwise due a taxpayer under KRS  who owes overdue child support or is indebted to any state agency, officer, board, commission, corporation, institution, cabinet, department or other state organization, or any county, city, urban-county government, consolidated local government, or charter county government duly organized in this state, which has complied with the requirements of . After satisfaction of any undisputed delinquent tax liability due the Department of Revenue from such taxpayer, the tax refund balance so withheld shall, except as provided in , be transmitted as soon as practicable to the state agency, or the county, city, urban-county government, consolidated local government, or charter county government duly organized in this state, having established a claim therefor. In the case of multiple state agency or any county, city, urban-county government, consolidated local government, or charter county government duly organized in this state claims against the same tax refund, the state agency having the larger pending claim shall have priority after satisfaction of any undisputed delinquent tax liabilities due the Department of Revenue, followed by other state agency claims. After all state agency claims have been satisfied, the claims of any county, city, urban-county government, consolidated local government, or charter county government duly organized in this state shall be satisfied with the larger pending claims satisfied first, and other claims satisfied in descending order.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

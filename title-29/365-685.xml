@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/365.685"/>
+          <FRBRuri value="/us-ky/act/krs/365.685"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/365.685/eng"/>
+          <FRBRuri value="/us-ky/act/krs/365.685/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/365.685/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/365.685/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_365_685">
+        <num>365.685</num>
+        <content>
+          <p>A transient business permit shall be used hereunder only when all requirements of  to have been met. Such permit shall not be transferable, shall be valid only within the territorial limits of the issuing county, and shall be valid only for a period of ninety (90) days. A permit so issued shall be valid for only one (1) person, unless such person shall be a member of a partnership or employee of a firm or corporation obtaining such permit. The permit shall at all times be conspicuously displayed at any place that the transient merchant is transacting business. If the county clerk refuses to issue the permit, the applicant may apply to the District Court for a hearing. The clerk shall notify the county attorney who shall appear in opposition to the issuance of the permit.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

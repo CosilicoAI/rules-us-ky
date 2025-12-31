@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/186.510"/>
+          <FRBRuri value="/us-ky/act/krs/186.510"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/186.510/eng"/>
+          <FRBRuri value="/us-ky/act/krs/186.510/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/186.510/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/186.510/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_186_510">
+        <num>186.510</num>
+        <content>
+          <p>The licensee shall have his or her license in his or her immediate possession at all times when driving a motor vehicle and shall display it upon demand to the circuit clerk or examiner, a peace officer, a member of the Department of Kentucky State Police, or a field deputy or inspector of the Department of Vehicle Regulation or Transportation Cabinet or, pursuant to  or 83A.088, a safety officer who is in the process of securing information to complete an accident report. It shall be a defense to any charge under this section if the person so charged produces in court an operator’s license, issued to him or her before his or her arrest and valid at the time of his or her arrest.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

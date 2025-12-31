@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/380.060"/>
+          <FRBRuri value="/us-ky/act/krs/380.060"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/380.060/eng"/>
+          <FRBRuri value="/us-ky/act/krs/380.060/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/380.060/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/380.060/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_380_060">
+        <num>380.060</num>
+        <content>
+          <p>NOTICE OF CANCELLATION</p>
+          <p>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
+          <p>(enter date of transaction)</p>
+          <p>You may cancel this contract or offer without penalty or monetary obligation, within fourteen (14) days from the above date. To cancel this transaction, you may use any of the following methods: mail or otherwise deliver a signed and dated copy of this cancellation notice, or any other written notice of cancellation which you sign and date to (enter physical address of debt adjuster) or e-mail a notice of cancellation to (enter name of debt adjuster) at (enter e-mail address of debt adjuster) not later than midnight of (enter date fourteen (14) days after transaction date).</p>
+          <p>I hereby cancel this transaction.</p>
+          <p>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
+          <p>(Date)</p>
+          <p>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
+          <p>(Debtor’s Signature)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

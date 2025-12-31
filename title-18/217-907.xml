@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/217.907"/>
+          <FRBRuri value="/us-ky/act/krs/217.907"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/217.907/eng"/>
+          <FRBRuri value="/us-ky/act/krs/217.907/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/217.907/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/217.907/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_217_907">
+        <num>217.907</num>
+        <content>
+          <p>No legend drug in finished solid dosage form may be manufactured or distributed within the Commonwealth unless it has clearly and prominently marked or imprinted on it an individual symbol, number, company name, words, letters, marking, National Drug Code, or any combination thereof, identifying the drug product and the manufacturer or distributor of the drug product.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

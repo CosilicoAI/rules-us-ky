@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/65.476"/>
+          <FRBRuri value="/us-ky/act/krs/65.476"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/65.476/eng"/>
+          <FRBRuri value="/us-ky/act/krs/65.476/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/65.476/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/65.476/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_65_476">
+        <num>65.476</num>
+        <content>
+          <p>If any land or a portion thereof as to which any local legislative body has accepted a scenic easement is thereafter sought to be condemned for public use and the local legislative body received the easement as a gift without the payment of any compensation therefor, the easement shall terminate as of the time of the filing of the complaint in condemnation as to the land or portion thereof sought to be taken for public use, and the owner shall be entitled to such compensation for the taking as he would have been entitled to had the land not been burdened by the easement.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

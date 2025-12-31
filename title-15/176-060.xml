@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/176.060"/>
+          <FRBRuri value="/us-ky/act/krs/176.060"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/176.060/eng"/>
+          <FRBRuri value="/us-ky/act/krs/176.060/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/176.060/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/176.060/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_176_060">
+        <num>176.060</num>
+        <content>
+          <p>The department may stop or regulate all traffic over any road being constructed or improved until it is ready to be opened to the public, and may designate other roads for the accommodation of traffic until the construction is completed. The department may establish temporary roads while such construction is going on, and may make arrangements with landowners for necessary temporary rights-of-way, and may contract and pay for such rights-of-way out of appropriations from the state road fund by certifying the costs to the Finance and Administration Cabinet. The temporary road shall be opened for travel at least two (2) weeks before work is begun on the road proposed to be constructed or improved.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

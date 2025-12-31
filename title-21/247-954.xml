@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/247.954"/>
+          <FRBRuri value="/us-ky/act/krs/247.954"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/247.954/eng"/>
+          <FRBRuri value="/us-ky/act/krs/247.954/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/247.954/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/247.954/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247_954">
+        <num>247.954</num>
+        <content>
+          <p>The pledge of any assets or revenues of the corporation to the payment of the principal of or the interest on any obligations of the corporation issued in its lending agency capacity shall be valid and binding from the time such pledge is made, and any such assets or revenues shall immediately be subject to the lien of such pledge without any physical delivery thereof or further act; and the lien of any such pledge shall be valid and binding as against all parties having claims of any kind in tort, contract or otherwise, against the corporation, regardless of whether such parties have notice thereof. Nothing herein contained shall be construed to prohibit the corporation from selling any assets subject to any such pledge except to the extent that any such sale may be restricted by the terms of the trust agreement or resolution authorizing the issuance of such obligations.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

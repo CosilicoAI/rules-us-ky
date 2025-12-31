@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/258.365"/>
+          <FRBRuri value="/us-ky/act/krs/258.365"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/258.365/eng"/>
+          <FRBRuri value="/us-ky/act/krs/258.365/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/258.365/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/258.365/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_258_365">
+        <num>258.365</num>
+        <content>
+          <p>Nothing in this chapter shall be construed to prohibit or limit the right of any governing body to pass or enforce any ordinance with respect to the regulation of dogs or other animals, the provisions of which are not inconsistent with the provisions of this chapter. Nothing in this chapter shall be construed to repeal any of the provisions of the fish and game laws of the Commonwealth of Kentucky now in effect, nor any laws relating to the powers and duties of the secretary for health and family services, or any health officer relating to rabid animals or animals affected with any disease, or to prohibit the destroying of any animal in accordance with the provisions of any quarantine regulations, made in accordance with the provisions of any local or state health law.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/220.440"/>
+          <FRBRuri value="/us-ky/act/krs/220.440"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/220.440/eng"/>
+          <FRBRuri value="/us-ky/act/krs/220.440/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/220.440/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/220.440/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_220_440">
+        <num>220.440</num>
+        <content>
+          <p>At or before the issuance of the bonds, the board of directors of the district shall, by resolution, set aside and pledge the revenue derived from services rendered by its sanitary works into a separate and special fund to be used and applied in the payment of the cost, maintenance, operation and depreciation of the works. The resolution shall definitely fix and determine the amount of revenue necessary to be set apart and applied to the payment of the principal and interest of the bonds, and the proportion of the balance of the revenue to be set aside as a proper and adequate depreciation fund. The remaining portion of the balance shall be set aside for reasonable and proper operation and maintenance of the works, except as provided in . The rates to be charged for the service from the works shall be fixed and revised from time to time, in accordance with the provisions of , so as to be sufficient to provide for the payment of interest upon all bonds and to create a sinking fund to pay the principal due, to provide for the operation and maintenance of the works, and to provide an adequate depreciation account.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

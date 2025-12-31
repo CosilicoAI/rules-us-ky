@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/394.630"/>
+          <FRBRuri value="/us-ky/act/krs/394.630"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/394.630/eng"/>
+          <FRBRuri value="/us-ky/act/krs/394.630/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/394.630/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/394.630/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_394_630">
+        <num>394.630</num>
+        <content>
+          <p>Unless the decedent or donee of the power has otherwise provided, the property or interest disclaimed devolves as if the disclaimant had predeceased the decedent or, if the disclaimant is designated to take under a power of appointment exercised by a testamentary instrument, as if the disclaimant had predeceased the donee of the power. A future interest that takes effect in possession or enjoyment after the termination of the estate or interest disclaimed takes effect as if the disclaimant had predeceased the decedent or the donee of the power. A disclaimer relates back for all purposes to the date of the death of the decedent or the donee of the power.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

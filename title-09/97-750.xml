@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/97.750"/>
+          <FRBRuri value="/us-ky/act/krs/97.750"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/97.750/eng"/>
+          <FRBRuri value="/us-ky/act/krs/97.750/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/97.750/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/97.750/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_97_750">
+        <num>97.750</num>
+        <content>
+          <p>The commission may accept gifts of property of any description, for any of the purposes of the commission, if the gift is accompanied by a suitable instrument, executed by the donor, setting forth the purposes for which the gift is made. The gift or the proceeds thereof when reduced to money shall be used by the commission only for the purpose for which given. The commission may exchange or sell, for the purposes set out in  to  any of the property given to it for such purposes.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

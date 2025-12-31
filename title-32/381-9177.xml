@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/381.9177"/>
+          <FRBRuri value="/us-ky/act/krs/381.9177"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/381.9177/eng"/>
+          <FRBRuri value="/us-ky/act/krs/381.9177/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/381.9177/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/381.9177/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_381_9177">
+        <num>381.9177</num>
+        <content>
+          <p>A meeting of the association shall be held at least once each year. Special meetings of the association may be called by the president, a majority of the executive board, or by unit owners having twenty percent (20%), or any lower percentage specified in the bylaws, of the votes in the association. Not less than ten (10) days nor more than sixty (60) days in advance of any meeting, the secretary or other officer specified in the bylaws shall cause notice to be hand-delivered or sent prepaid by United States mail to the mailing address of each unit or to any other mailing address designated in writing by the unit owner. The notice of any meeting shall state the time and place of the meeting and the items on the agenda, including the general nature of any proposed amendment to the declaration or bylaws, any budget changes, and any proposal to remove a director or officer.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

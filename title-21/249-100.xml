@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/249.100"/>
+          <FRBRuri value="/us-ky/act/krs/249.100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/249.100/eng"/>
+          <FRBRuri value="/us-ky/act/krs/249.100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/249.100/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/249.100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_249_100">
+        <num>249.100</num>
+        <content>
+          <p>Trees, plants, or parts of plants, whether nursery-grown or not, that are sold, shipped, or transported into this state shall bear a copy of a certificate of inspection from a state or United States government inspector. Transportation companies within the state shall notify the state entomologist at once when the trees or plants are received by them without a valid certificate. Nursery stock or other trees, plants, or parts of plants shipped into this state in violation of a state or United States quarantine may be seized and destroyed or returned to the shipper at the expense of the owner or possessor.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

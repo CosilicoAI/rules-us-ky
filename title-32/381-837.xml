@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/381.837"/>
+          <FRBRuri value="/us-ky/act/krs/381.837"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/381.837/eng"/>
+          <FRBRuri value="/us-ky/act/krs/381.837/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/381.837/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/381.837/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_381_837">
+        <num>381.837</num>
+        <content>
+          <p>If a condominium does not contain any unit which is designed for occupancy by only one family or household, or if the floor area of all those units which are designed for occupancy by only one (1) family or household does not in the aggregate exceed ten percent (10%) of the floor area of all units in the condominium, then the following provisions shall be applicable, notwithstanding any other provisions of this chapter:</p>
+          <p>The master deed may provide:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/341.305"/>
+          <FRBRuri value="/us-ky/act/krs/341.305"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/341.305/eng"/>
+          <FRBRuri value="/us-ky/act/krs/341.305/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/341.305/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/341.305/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_341_305">
+        <num>341.305</num>
+        <content>
+          <p>Any employing unit which is not a resident of this state and which exercises the privilege of having one or more individuals perform service for it within this state, and any resident employing unit which exercises that privilege and thereafter removes from this state, shall be deemed thereby to appoint the Secretary of State as its agent and attorney for the acceptance of process in any civil action, as provided in  and  In instituting such an action against any such employing unit the secretary shall cause such process or notice to be filed with the Secretary of State and such service shall be sufficient service upon such employing unit, and shall be of the same force and validity as if served upon it personally within this state; provided, that, the secretary shall forthwith send notice of the service of such process or notice, together with a copy thereof, by certified mail, return receipt requested, to such employing unit at its last known address and such return receipt, the secretary’s affidavit of compliance with the provisions of this section, and a copy of the notice of service shall be appended to the original of the process filed in the court in which such action is pending.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

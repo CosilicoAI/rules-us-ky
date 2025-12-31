@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/136.335"/>
+          <FRBRuri value="/us-ky/act/krs/136.335"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/136.335/eng"/>
+          <FRBRuri value="/us-ky/act/krs/136.335/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/136.335/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/136.335/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_136_335">
+        <num>136.335</num>
+        <content>
+          <p>Beginning with calendar year 2000, every life insurance company incorporated under the laws of and doing business in Kentucky shall make an irrevocable election whether to be taxed under the provisions of  or  For insurance companies incorporated under the laws of and doing business in Kentucky, prior to January 1, 2000, the election shall be filed with the commissioner of insurance and the commissioner of the Department of Revenue on or before January 1, 2000. For insurance companies applying for a certificate to do business in Kentucky as a domestic life insurance company, after January 1, 2000, the election shall be filed with the company’s initial application for certificate of authority to do business in Kentucky.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

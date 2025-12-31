@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/350.068"/>
+          <FRBRuri value="/us-ky/act/krs/350.068"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/350.068/eng"/>
+          <FRBRuri value="/us-ky/act/krs/350.068/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/350.068/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/350.068/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_350_068">
+        <num>350.068</num>
+        <content>
+          <p>A surety upon receipt of a copy of a notice of noncompliance for failure to maintain contemporaneous reclamation issued to its insured, may notify the insured by certified mail, return receipt requested, that surety on any area disturbed after thirty (30) days from the effective date of the surety’s notice may be refused unless the violation is abated. A copy of such notice shall be sent by certified mail, return receipt requested, to the cabinet, and shall become effective upon approval by the cabinet. Within thirty (30) days of receipt of a notice of cancellation, the cabinet shall either accept a suitable substitute bond for the canceled area or shall amend the permit to delete the unbonded acreage or shall revoke the permit for lack of a bond. Proof of the abatement shall be documented by notice to the surety from the cabinet. Nothing contained herein shall be construed to relieve the surety of its liability for areas disturbed within the thirty (30) day notice period. The surety shall remain obligated for the full extent of the bond for reclamation of all areas disturbed prior to the cabinet’s approval of the cancellation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

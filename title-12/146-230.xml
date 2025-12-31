@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/146.230"/>
+          <FRBRuri value="/us-ky/act/krs/146.230"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/146.230/eng"/>
+          <FRBRuri value="/us-ky/act/krs/146.230/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/146.230/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/146.230/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_146_230">
+        <num>146.230</num>
+        <content>
+          <p>Streams which substantially meet the following criteria are eligible for inclusion in the Wild Rivers System: Streams or sections of streams that are essentially free-flowing, with shorelines and scenic vistas essentially primitive and unchanged, free from evidence of the works of man, and pleasing to the eye. The waters shall not be polluted beyond feasible correction and shall be kept unpolluted once corrected according to standards established by the Energy and Environment Cabinet through the Office of Kentucky Nature Preserves. The area may provide a high quality fish and wildlife habitat, containing one or more unique or rare species for sport or observation. It may provide opportunities for scientific study or appreciation of essentially undisturbed ecological, geologic, or archaeologic conditions. It shall provide wilderness type recreation such as canoeing and hiking, or specialized uses without disturbing the primitive character of the area.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

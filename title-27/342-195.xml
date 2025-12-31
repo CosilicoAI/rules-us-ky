@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/342.195"/>
+          <FRBRuri value="/us-ky/act/krs/342.195"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/342.195/eng"/>
+          <FRBRuri value="/us-ky/act/krs/342.195/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/342.195/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/342.195/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_342_195">
+        <num>342.195</num>
+        <content>
+          <p>The notice and claim shall be given to the employer, or if the employer is a partnership, then to any one (1) of the general partners. If the employer is a corporation or a limited liability company, the notice or claim may be given to any agent of the corporation or limited liability company upon whom process may be served, or to any officer of the corporation or any member or manager, as the case may be, of the limited liability company authorized to manage the limited liability company under its articles of incorporation or to any agent of the corporation or limited liability company in charge of the business at the place where the injury occurred. Notice or claim may be given by delivery to any such person or as provided in .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

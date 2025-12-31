@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/148.026"/>
+          <FRBRuri value="/us-ky/act/krs/148.026"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/148.026/eng"/>
+          <FRBRuri value="/us-ky/act/krs/148.026/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/148.026/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/148.026/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_148_026">
+        <num>148.026</num>
+        <content>
+          <p>The commissioner of parks may employ or contract with such other persons, firms or corporations as he may deem necessary or desirable to accomplish the duties and functions assigned by law to the Department of Parks; may fix the compensation and the terms of employment or contract of those employed or contracted with; and may assign to them such duties and responsibilities as he may determine; provided, however, that any contract shall be approved by the Finance and Administration Cabinet before it shall become effective. Individuals employed by the commissioner of parks on a temporary basis for specific construction projects under  or for maintenance projects shall be exempt from the requirements of  to 18A.200.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/5.278"/>
+          <FRBRuri value="/us-ky/act/krs/5.278"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/5.278/eng"/>
+          <FRBRuri value="/us-ky/act/krs/5.278/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/5.278/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/5.278/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_278">
+        <num>5.278</num>
+        <content>
+          <p>The Seventy-eighth Representative District shall consist of the following territory:</p>
+          <p>—CENSUS— COUNTY PREC NAME TRACT BLK SECT HARRISON PENDLETON SCOTT D111 WEST OXFORD SCOTT D113 EAST OXFORD 040302 1000 SCOTT D113 EAST OXFORD 040303 1005 SCOTT D113 EAST OXFORD 040303 1034 SCOTT D113 EAST OXFORD 040303 1036 SCOTT D113 EAST OXFORD 040303 1038 SCOTT D113 EAST OXFORD 040303 1075 SCOTT D113 EAST OXFORD 040400 2079 SCOTT D113 EAST OXFORD 040400 2081 SCOTT D113 EAST OXFORD 040400 2082 SCOTT D113 EAST OXFORD 040400 2083 SCOTT D113 EAST OXFORD 040400 2084 SCOTT D113 EAST OXFORD 040400 2085 SCOTT D113 EAST OXFORD 040400 2086 SCOTT D113 EAST OXFORD 040400 2087 SCOTT D113 EAST OXFORD 040400 2088 SCOTT D113 EAST OXFORD 040400 2089 SCOTT D113 EAST OXFORD 040400 2090 SCOTT D113 EAST OXFORD 040400 2091 SCOTT D113 EAST OXFORD 040400 2092 SCOTT D113 EAST OXFORD 040400 2093 SCOTT D113 EAST OXFORD 040400 2094 SCOTT D113 EAST OXFORD 040400 2098 SCOTT D113 EAST OXFORD 040400 2099 SCOTT D113 EAST OXFORD 040400 2100 SCOTT D113 EAST OXFORD 040400 2101 SCOTT D113 EAST OXFORD 040400 2105 SCOTT D113 EAST OXFORD 040400 2106 SCOTT D113 EAST OXFORD 040400 2113 SCOTT D113 EAST OXFORD 040400 2114 SCOTT D113 EAST OXFORD 040400 2115 SCOTT E118 NORTH COURTHOUSE SCOTT E120 SOUTH COURTHOUSE SCOTT E124 GARTH SCHOOL SCOTT F119 ROYAL SPRINGS SCOTT F121 SOUTH BROADWAY SCOTT F125 GEORGETOWN MIDDLE SCHOOL</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

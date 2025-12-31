@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/135.120"/>
+          <FRBRuri value="/us-ky/act/krs/135.120"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/135.120/eng"/>
+          <FRBRuri value="/us-ky/act/krs/135.120/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/135.120/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/135.120/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_135_120">
+        <num>135.120</num>
+        <content>
+          <p>When the property of the defendant in execution, upon a judgment against a defaulting public officer, is encumbered by a previous bona fide mortgage, deed of trust or other encumbrance or prior lien, the officer shall, if no other property is found upon which to levy the execution, levy it upon the encumbered property and return the same. He shall make return of all the facts known to him, giving the date and consideration of the instrument creating the lien, to whom made, when recorded, the evidences of any prior lien, and the names of the parties who claim the same. Proceedings may be instituted by the sheriff or the Department of Revenue, in the name of the state, in the county where the property is located, to have the property sold, the claims and demands, if just, satisfied, all encumbrances removed, and the proceeds of the sale of the property rightfully applied.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

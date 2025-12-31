@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/454.150"/>
+          <FRBRuri value="/us-ky/act/krs/454.150"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/454.150/eng"/>
+          <FRBRuri value="/us-ky/act/krs/454.150/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/454.150/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/454.150/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_454_150">
+        <num>454.150</num>
+        <content>
+          <p>When the Commonwealth shall have received money under a judgment rendered upon constructive service, and the defendant did not appear, and such judgment is thereafter modified or set aside under the provisions of the Rules of Civil Procedure, upon a retrial, the court in making an order for the restoration of such money, shall direct the proper financial officer of the Commonwealth to draw his warrant upon the Treasurer for the proper amount in favor of the party in whose favor the order of restoration may be made, and it shall thereupon become the duty of such officer to draw his warrant in obedience to such order.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/262.707"/>
+          <FRBRuri value="/us-ky/act/krs/262.707"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/262.707/eng"/>
+          <FRBRuri value="/us-ky/act/krs/262.707/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/262.707/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/262.707/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_262_707">
+        <num>262.707</num>
+        <content>
+          <p>If it appears that contiguous territory within an established district would be better served by the organization of a separate district, a petition for withdrawal and formation of a new district may be filed with the board of supervisors by twenty-five (25) or more landowners, or a majority if less than fifty (50) landowners are involved. The petition shall define the boundary involved, state that all obligations to the district have been met, and contain such other information as is necessary for a determination of the feasibility or nonfeasibility of such withdrawal and reorganization. Filing of petition and further proceedings shall be governed by  to  as far as practicable.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

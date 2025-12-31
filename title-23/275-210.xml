@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/275.210"/>
+          <FRBRuri value="/us-ky/act/krs/275.210"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/275.210/eng"/>
+          <FRBRuri value="/us-ky/act/krs/275.210/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/275.210/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/275.210/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_275_210">
+        <num>275.210</num>
+        <content>
+          <p>Except as otherwise provided in , distributions of cash or other assets of a limited liability company shall be allocated among the members and among classes of members in the manner provided in writing in an operating agreement. If the operating agreement does not so provide in writing, each member shall share in any distribution on the basis of the agreed value, as stated in the records of the limited liability company as required by , of the contributions made by each member to the extent they have been received by the limited liability company and have not been returned. A member shall be entitled to receive distributions described in this section from a limited liability company to the extent and at the times or upon the happenings of the events specified in an operating agreement or at the times determined by the members or managers pursuant to .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

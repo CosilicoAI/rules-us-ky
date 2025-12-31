@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/350.097"/>
+          <FRBRuri value="/us-ky/act/krs/350.097"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/350.097/eng"/>
+          <FRBRuri value="/us-ky/act/krs/350.097/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/350.097/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/350.097/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_350_097">
+        <num>350.097</num>
+        <content>
+          <p>The General Assembly finds that the reclamation of coal mine sites can benefit from pollinator habitat sites. These sites are an important conservation resource which will encourage and protect the habitat for pollinators like honeybees, bumble bees, and other bee species. The protection and location of pollinator sites situated on mine sites can increase the revegetation rates during the reclamation period which supports soil and hydrologic stability. Therefore, the General Assembly hereby directs the cabinet to develop a plan in conjunction with the Division of Conservation to encourage coal licensees to locate and protect pollinator sites on reclamation sites and to use high-value trees and shrubs to aid in pollen transfer.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

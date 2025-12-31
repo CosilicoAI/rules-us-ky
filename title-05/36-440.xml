@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/36.440"/>
+          <FRBRuri value="/us-ky/act/krs/36.440"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/36.440/eng"/>
+          <FRBRuri value="/us-ky/act/krs/36.440/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/36.440/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/36.440/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_440">
+        <num>36.440</num>
+        <content>
+          <p>Notwithstanding  to 367.97537 or any other statute relating to the disposition of remains, if a decedent died while in active military service, including state active duty with the National Guard, the person designated by the decedent on the United States Department of Defense Record of Emergency Data, DD Form 93, or its successor form, shall have the primary authority and responsibility for the final disposition of the decedent’s remains.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

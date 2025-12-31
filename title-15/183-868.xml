@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/183.868"/>
+          <FRBRuri value="/us-ky/act/krs/183.868"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/183.868/eng"/>
+          <FRBRuri value="/us-ky/act/krs/183.868/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/183.868/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/183.868/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_183_868">
+        <num>183.868</num>
+        <content>
+          <p>In addition to considering the regulations or standards promulgated by the Federal Aviation Administration in zoning the use of land and structures in areas over which jurisdiction is assumed, the commission shall consider among other things the safety of airport users and surface persons and property, the character of flying operations conducted at the airport, the nature of the terrain, the height of existing structures and trees above the level of the airport, the views of officials of the Federal Aviation Administration as to the safe approaches required for operations at the airport, the future development of the airport including extensions to runways that may be required, the density of dwellings that may safely be permitted in the area, protection of the public investment in the airport and its facilities, the interest of the public in developing a sound public air transportation system within the state and the views and opinions of those owning land in such area.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

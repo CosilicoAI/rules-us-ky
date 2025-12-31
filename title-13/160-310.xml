@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/160.310"/>
+          <FRBRuri value="/us-ky/act/krs/160.310"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/160.310/eng"/>
+          <FRBRuri value="/us-ky/act/krs/160.310/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/160.310/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/160.310/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_160_310">
+        <num>160.310</num>
+        <content>
+          <p>Each board of education may set aside funds to provide for liability and indemnity insurance against the negligence of the drivers or operators of school buses, other motor vehicles, and mobile equipment owned or operated by the board. If the transportation of pupils is let out under contract, the contract shall require the contractor to carry indemnity or liability insurance against negligence in such amount as the board designates. In either case, the indemnity bond or insurance policy shall be issued by some surety or insurance company authorized to transact business in this state, and shall bind the company to pay any final judgment, not to exceed the limits of the policy, rendered against the insured for loss or damage to property of any school child or death or injury of any school child or other person.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

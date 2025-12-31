@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.640"/>
+          <FRBRuri value="/us-ky/act/krs/164.640"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.640/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.640/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.640/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.640/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_640">
+        <num>164.640</num>
+        <content>
+          <p>On or before January 15 following the creation of the extension board, the county judge/executive shall call all duly appointed board members together for an organization meeting. The county judge/executive shall serve as chairman until all officers are elected. The officers of the board shall consist of a chairman, vice chairman, secretary and treasurer. The positions of secretary and treasurer may be held by the same person and this person may be other than a board member, with the approval of the director of extension.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

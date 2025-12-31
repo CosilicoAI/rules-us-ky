@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/394.270"/>
+          <FRBRuri value="/us-ky/act/krs/394.270"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/394.270/eng"/>
+          <FRBRuri value="/us-ky/act/krs/394.270/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/394.270/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/394.270/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_394_270">
+        <num>394.270</num>
+        <content>
+          <p>The record of what is proved or deposed in court by witnesses on the motion to admit a will to record, and any deposition lawfully taken out of court on such motion, of witnesses who cannot be produced at a trial in the Circuit Court before a jury, may, on such trial, be admitted as evidence, to have such weight as the jury thinks they deserve.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

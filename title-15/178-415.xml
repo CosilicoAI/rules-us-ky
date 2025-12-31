@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/178.415"/>
+          <FRBRuri value="/us-ky/act/krs/178.415"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/178.415/eng"/>
+          <FRBRuri value="/us-ky/act/krs/178.415/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/178.415/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/178.415/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_178_415">
+        <num>178.415</num>
+        <content>
+          <p>When the fiscal court has made a determination in accordance with the provisions of  that the road, street, or highway has been dedicated to public use, the county shall have a fee simple title to the part of the road, street, or highway which the plat, filed in the office of the county clerk, indicates as being for street purposes. However, if the road, street, or highway is dedicated in accordance with the provisions of , and a plat does not exist, then the fiscal court shall establish a thirty (30) foot minimum width as a condition precedent to dedication to public use, unless the fiscal court finds that a thirty (30) foot minimum cannot be met due to the topography of the road or other extraordinary circumstances.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

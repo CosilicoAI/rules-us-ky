@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/184.140"/>
+          <FRBRuri value="/us-ky/act/krs/184.140"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/184.140/eng"/>
+          <FRBRuri value="/us-ky/act/krs/184.140/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/184.140/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/184.140/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_184_140">
+        <num>184.140</num>
+        <content>
+          <p>The board of directors shall notify each property owner in writing of the assessment made against him and shall also cause printed notices setting forth the assessments against each property owner to be posted in at least ten (10) public places along the road to be improved or maintained. The property owner may pay the assessment against his property in cash without interest within thirty (30) days from the date of the notice, or may elect to pay the assessment by paying the assessment in ten (10) equal annual installments, the first of which shall be paid within such thirty (30) days without interest, and an agreement executed to pay the other nine (9) installments annually with interest at the rate or rates or method of determining rates as the board of directors determines, payable annually. The notice of assessment shall state the terms.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

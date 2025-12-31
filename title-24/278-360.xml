@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/278.360"/>
+          <FRBRuri value="/us-ky/act/krs/278.360"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/278.360/eng"/>
+          <FRBRuri value="/us-ky/act/krs/278.360/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/278.360/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/278.360/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_278_360">
+        <num>278.360</num>
+        <content>
+          <p>A full and complete record shall be kept of all contested proceedings had before the commission or any commissioner on any formal hearing and may, at the commission’s discretion, be made in videotape or other format in accordance with the Kentucky Rules of Civil Procedure. A stenographic transcript shall not be required. However, a party to a proceeding may, by motion to the commission made prior to the hearing, request that a stenographic transcript be made by a reporter approved by the commission. The commission shall not deny the motion except for a finding of good cause.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

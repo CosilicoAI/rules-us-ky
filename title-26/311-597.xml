@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/311.597"/>
+          <FRBRuri value="/us-ky/act/krs/311.597"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/311.597/eng"/>
+          <FRBRuri value="/us-ky/act/krs/311.597/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/311.597/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/311.597/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_311_597">
+        <num>311.597</num>
+        <content>
+          <p>As used in , “dishonorable, unethical, or unprofessional conduct of a character likely to deceive, defraud, or harm the public or any member thereof” shall include but not be limited to the following acts by a licensee:</p>
+          <p>For the purposes of this paragraph, an electronic, on-line, or telephonic evaluation by questionnaire is inadequate for the initial evaluation of the patient or for any follow-up evaluation.</p>
+          <p>For purposes of this subsection, actual injury to a patient need not be established.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

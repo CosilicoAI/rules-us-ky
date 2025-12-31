@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/41.230"/>
+          <FRBRuri value="/us-ky/act/krs/41.230"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/41.230/eng"/>
+          <FRBRuri value="/us-ky/act/krs/41.230/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/41.230/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/41.230/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_41_230">
+        <num>41.230</num>
+        <content>
+          <p>For services rendered by state depositories, compensation shall be made in the form of a predetermined fee or a predetermined compensating balance. State depositories shall each pay to the state, in proportion to the deposits received, interest at such rate per annum upon the average daily deposit on hand at the close of business hours as is agreed upon between the Treasurer and the state depositories, consistent with the regulations promulgated by the State Investment Commission pursuant to . The interest shall be paid to the Treasurer no later than at the end of each six (6) months or upon maturity commencing with the date of the deposit.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

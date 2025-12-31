@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/137.150"/>
+          <FRBRuri value="/us-ky/act/krs/137.150"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/137.150/eng"/>
+          <FRBRuri value="/us-ky/act/krs/137.150/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/137.150/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/137.150/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_137_150">
+        <num>137.150</num>
+        <content>
+          <p>Any county imposing a tax under  shall immediately after the levy of the tax give notice thereof to each transporter of crude petroleum registered in the county. The transporter shall, after the first day of the month immediately following such notice, proceed as provided in  to collect the county tax and pay it to the sheriff of the county in the manner and at the time payment of such taxes is required to be made to the Department of Revenue. Each county imposing the tax shall, upon the fixing of the levy, certify the same to the department, which shall make the assessment for the county tax in the same manner and at the same value as provided for the state tax, which shall be certified to the county for collection.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

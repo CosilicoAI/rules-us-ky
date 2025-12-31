@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/61.379"/>
+          <FRBRuri value="/us-ky/act/krs/61.379"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/61.379/eng"/>
+          <FRBRuri value="/us-ky/act/krs/61.379/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/61.379/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/61.379/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_61_379">
+        <num>61.379</num>
+        <content>
+          <p>The board shall adopt regulations to carry out the provisions of  to in accordance with KRS . Any public employee who is not restored to a position, or who is discharged without cause within one (1) year after restoration, may appeal to the board for review. Upon review, both the employee and the employer may be represented by counsel. Technical rules as to admission of evidence shall not apply. If the board finds that the employer has violated the provisions of  to or regulations promulgated thereunder, it shall direct the employer to comply with the provisions and to compensate the employee for loss of pay suffered by reason of the violation; except any amount received by the employee during the period from his discharge to reinstatement from other public employment, unemployment compensation, or readjustment allowances from a public agency shall be deducted from such compensation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/280.230"/>
+          <FRBRuri value="/us-ky/act/krs/280.230"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/280.230/eng"/>
+          <FRBRuri value="/us-ky/act/krs/280.230/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/280.230/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/280.230/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_280_230">
+        <num>280.230</num>
+        <content>
+          <p>If no owner of the land on either side of the stream over which a public highway passes will obtain the ferry privilege, or if such an owner, after obtaining the privilege, abandons it or fails to keep it up according to law, the county judge/executive may, after reasonable notice, grant the privilege to another. When it is necessary to the proper exercise of the privilege by such grantee, an action may be brought to condemn permanently, or for not more than twenty (20) years, at the option of the owner of the privilege, not more than two (2) acres of ground adjoining the landing, together with the use, for ferry purposes, of any adjacent uninclosed bank of the stream. Condemnation shall be pursuant to the Eminent Domain Act of Kentucky.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

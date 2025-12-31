@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/36.030"/>
+          <FRBRuri value="/us-ky/act/krs/36.030"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/36.030/eng"/>
+          <FRBRuri value="/us-ky/act/krs/36.030/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/36.030/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/36.030/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_030">
+        <num>36.030</num>
+        <content>
+          <p>The office of the adjutant general, deputy adjutant general, chief-of-staff, or assistant adjutants general shall not necessarily be incompatible with or serve to vacate the commission in the Kentucky National Guard held by the officer appointed as the adjutant general, deputy adjutant general, chief-of-staff, or assistant adjutant general at the time of his or her appointment, nor shall it be incompatible with any office of the National Guard to which he or she might be promoted or appointed, nor interfere with or prevent his or her attending to the duties of the office held at the time or to which he or she may thereafter be promoted or appointed.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

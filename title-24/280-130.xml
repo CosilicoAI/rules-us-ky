@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/280.130"/>
+          <FRBRuri value="/us-ky/act/krs/280.130"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/280.130/eng"/>
+          <FRBRuri value="/us-ky/act/krs/280.130/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/280.130/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/280.130/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_280_130">
+        <num>280.130</num>
+        <content>
+          <p>Each ferry company shall, where it is practicable, maintain at all times at each landing a dock, durably constructed and of sufficient size to accommodate two 2 1/2-ton trucks or two 7-passenger automobiles. The dock shall be securely moored to the shore and shall be provided with iron bars or pipes securely fastened to strong, upright, well-braced posts, the bars or pipes to be kept in place at all times except when the boat is secured to the dock. The construction of the dock, mooring, bars and fastenings shall be strong enough to resist the impact of cars or trucks under reasonable circumstances. Ferry boats using aprons, where it is not practicable to use docks, shall be moored to 3/4-inch iron rings secured to rods of iron of the same size, with splay foot and imbedded in 8-inch concrete roadway. The boat shall have a chain of Swedish iron of 5/8-inch size securely bolted to each gunwale, and the boat shall be moored by fastening the chains to the iron rings. The type of dock or apron shall be subject to the approval of the Department of Highways.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

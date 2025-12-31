@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/234.270"/>
+          <FRBRuri value="/us-ky/act/krs/234.270"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/234.270/eng"/>
+          <FRBRuri value="/us-ky/act/krs/234.270/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/234.270/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/234.270/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_234_270">
+        <num>234.270</num>
+        <content>
+          <p>It is declared to be in the interest of the public welfare that persons involved in the production, transportation, and sale of propane and the manufacture and distribution of propane utilization equipment shall be permitted and encouraged to act jointly and in cooperation to develop programs to enhance consumer and employee safety, to provide research and development, and to inform and educate the public about safety and other issues associated with the use of propane.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

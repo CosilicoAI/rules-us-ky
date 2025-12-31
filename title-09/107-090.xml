@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/107.090"/>
+          <FRBRuri value="/us-ky/act/krs/107.090"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/107.090/eng"/>
+          <FRBRuri value="/us-ky/act/krs/107.090/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/107.090/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/107.090/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_107_090">
+        <num>107.090</num>
+        <content>
+          <p>The assessments may be made without regard to any constitutional or other limits otherwise applicable to taxation for general ad valorem purposes. The annual rate of the improvement assessment shall be fixed when regular county ad valorem taxes are levied and shall be sufficient in each year to provide for the payment of the bonds and interest coupons as they mature. In each year, until accrual of the debt service reserve requirement, the annual rate shall be sufficiently large to provide an additional sum equal to twenty percent (20%) of maximum principal and interest requirement, which additional sum shall constitute a debt service reserve fund as a precaution against possible default by reason of failures in the collection of the annual levies; provided, however, that if the district shall have provided by the third ordinance that the debt service reserve requirement be financed from bond proceeds as one of the costs of the project, the additional annual benefit assessment shall be omitted, but additional levies shall promptly be instituted at any time necessary to maintain the debt service reserve requirement at its prescribed level;</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

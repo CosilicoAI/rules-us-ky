@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/40.330"/>
+          <FRBRuri value="/us-ky/act/krs/40.330"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/40.330/eng"/>
+          <FRBRuri value="/us-ky/act/krs/40.330/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/40.330/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/40.330/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_330">
+        <num>40.330</num>
+        <content>
+          <p>For the purpose of financing the costs of the construction or renovation of Kentucky state veterans’ nursing homes and all proper costs necessary or incidental thereto, the Department of Veterans’ Affairs is hereby authorized to apply to the State Property and Buildings Commission for the issuance of revenue bonds and to enter into any leases or other financing agreements in respect of the Kentucky state veterans’ nursing homes necessary or desirable to provide revenues to amortize and secure the revenue bonds.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

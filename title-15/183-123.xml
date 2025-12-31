@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/183.123"/>
+          <FRBRuri value="/us-ky/act/krs/183.123"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/183.123/eng"/>
+          <FRBRuri value="/us-ky/act/krs/183.123/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/183.123/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/183.123/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_183_123">
+        <num>183.123</num>
+        <content>
+          <p>The acquisition of any lands for the purpose of establishing airports or other air navigation facilities; the acquisition of any airport protection privileges; the acquisition, establishment, construction, enlargement, improvement, maintenance, equipping, and operation of airports and other air navigation facilities, whether by the state separately or jointly with any governmental unit thereof or air board; the assistance of the state in any such acquisition, establishment, construction, enlargement, improvement, maintenance, equipping and operation; and the exercise of any other powers of the cabinet as set out in this chapter, including the zoning of land in and around air facilities, are hereby declared to be public and governmental functions exercised for a public purpose, and matters of public necessity, and such lands and other property and privileges acquired, zoned and used in the manner and for the purposes enumerated in this chapter shall and are hereby declared to be acquired, zoned and used for public and governmental purposes and as a matter of public necessity.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

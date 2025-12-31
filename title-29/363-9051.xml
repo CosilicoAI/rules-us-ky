@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/363.9051"/>
+          <FRBRuri value="/us-ky/act/krs/363.9051"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/363.9051/eng"/>
+          <FRBRuri value="/us-ky/act/krs/363.9051/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/363.9051/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/363.9051/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_363_9051">
+        <num>363.9051</num>
+        <content>
+          <p>The General Assembly finds that the fuel additive methyl tertiary butyl ether, known as MTBE, as a result of leaks in underground storage tanks, has contaminated groundwater in California and other states to such an extent that it has been banned in those states. The legislature further finds that, because Kentuckians rely on groundwater to a great extent both for drinking water and for industrial and agricultural purposes, the continued use of MTBE poses an unacceptable threat to public health.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

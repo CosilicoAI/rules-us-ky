@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/421.110"/>
+          <FRBRuri value="/us-ky/act/krs/421.110"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/421.110/eng"/>
+          <FRBRuri value="/us-ky/act/krs/421.110/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/421.110/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/421.110/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_421_110">
+        <num>421.110</num>
+        <content>
+          <p>Disobedience of a subpoena; intentional evasion of a service of it, by concealment, or otherwise; concealment or removal of a minor to prevent service of a subpoena upon him, or preventing his attendance as a witness, by a person having control of him; or a refusal to be sworn or to answer as a witness, or to subscribe an affidavit or deposition when lawfully ordered, may be punished as a contempt of the court or officer by whom the attendance or testimony of the witness is required.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

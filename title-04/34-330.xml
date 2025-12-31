@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/34.330"/>
+          <FRBRuri value="/us-ky/act/krs/34.330"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/34.330/eng"/>
+          <FRBRuri value="/us-ky/act/krs/34.330/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/34.330/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/34.330/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_330">
+        <num>34.330</num>
+        <content>
+          <p>In the exercise of its powers and duties, the Judicial Retirement and Removal Commission may administer necessary oaths, take testimony under oath, compel the attendance of witnesses, and compel the production of records and other evidence. If any witness refuses to testify concerning any matter on which he may lawfully be interrogated, any Circuit Judge, on application of the commission may compel obedience by proceedings for contempt as in the case of disobedience of a subpoena issued from the Circuit Court.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

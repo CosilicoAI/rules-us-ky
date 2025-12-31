@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/217.135"/>
+          <FRBRuri value="/us-ky/act/krs/217.135"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/217.135/eng"/>
+          <FRBRuri value="/us-ky/act/krs/217.135/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/217.135/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/217.135/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_217_135">
+        <num>217.135</num>
+        <content>
+          <p>Whenever in the judgment of the secretary such action will promote honesty and fair dealing in the interest of consumers, the secretary may promulgate regulations fixing and establishing for any food or class of food: a reasonable definition and standard of identity, a reasonable standard of quality, and fill of container. In prescribing a definition and standard of identity for any food or class of food in which optional ingredients are permitted, the secretary shall, for the purpose of promoting honesty and fair dealing in the interest of consumers, designate the optional ingredients which shall be named on the label. The definitions and standards so promulgated shall conform so far as practicable to the definitions and standards promulgated under authority of the federal act, the Federal Meat Inspection Act, or the Federal Poultry Products Inspection Act.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

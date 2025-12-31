@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/189.287"/>
+          <FRBRuri value="/us-ky/act/krs/189.287"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/189.287/eng"/>
+          <FRBRuri value="/us-ky/act/krs/189.287/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/189.287/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/189.287/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_189_287">
+        <num>189.287</num>
+        <content>
+          <p>The Transportation Cabinet shall promulgate administrative regulations pursuant to KRS  to set forth standards for bicycle equipment and the safe operation of a bicycle. The regulations shall include requirements for lights, reflectors, and audible warning devices. Bicycles and riders which comply with the regulations promulgated under this section are exempt from municipal and other local government regulations concerning safety equipment but not method of operation. In promulgating the administrative regulations, the Transportation Cabinet shall permit use of lightweight modern technological substitutes for lights, reflectors, and bells. The purpose of this section is to encourage bicycling and bicycle touring in this state by enabling bicycle riders to make use of modern technology to make their presence known to other users of the road. The Transportation Cabinet may consult with organizations of bicycle riders to aid it in the search for bicycle safety equipment and rules convenient for long distance bicycle riders.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

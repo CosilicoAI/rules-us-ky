@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.296"/>
+          <FRBRuri value="/us-ky/act/krs/164.296"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.296/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.296/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.296/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.296/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_296">
+        <num>164.296</num>
+        <content>
+          <p>Vocational and nonvocational programs offered at the state universities shall be operated and administered by those universities consistent with the regulations developed by the board of trustees or regents and approved by the Council on Postsecondary Education for the issuance of associate, baccalaureate, or graduate degrees. Joint programming and articulation of vocational-technical education nondegree programs with associate degree programs shall be pursued between the Kentucky Community and Technical College System and other postsecondary institutions when feasible. No public institution of higher education shall offer any new program of a vocational-technical-occupational nature below the associate degree level without the review of the board of regents for the Kentucky Community and Technical College System and the approval of the Council on Postsecondary Education. The board of regents for the Kentucky Community and Technical College System, with approval of the Council on Postsecondary Education, may contract with public institutions of higher education for the operation of specific programs and projects.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

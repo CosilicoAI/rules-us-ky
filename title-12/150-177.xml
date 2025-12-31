@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/150.177"/>
+          <FRBRuri value="/us-ky/act/krs/150.177"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/150.177/eng"/>
+          <FRBRuri value="/us-ky/act/krs/150.177/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/150.177/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/150.177/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_150_177">
+        <num>150.177</num>
+        <content>
+          <p>In addition to the game permits issued under , the commission may issue a special permit to an incorporated nonprofit wildlife conservation organization. The commission shall promulgate administrative regulations governing the number of special permits to be issued per year per species for which a game permit is required. An organization that receives a special permit issued under this section may sell and transfer the permit if all proceeds of the sale are used in Kentucky for wildlife management.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

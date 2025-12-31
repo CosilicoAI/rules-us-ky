@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/395.270"/>
+          <FRBRuri value="/us-ky/act/krs/395.270"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/395.270/eng"/>
+          <FRBRuri value="/us-ky/act/krs/395.270/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/395.270/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/395.270/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_395_270">
+        <num>395.270</num>
+        <content>
+          <p>Two (2) months must run after the date of the qualification of the first personal representative of a decedent’s estate before an action shall be commenced against any executor or administrator thereof, except against an executor de son tort. Any action brought in violation of this section shall be dismissed with costs, except that an alleged creditor whose claim has been denied in writing by the fiduciary may commence action immediately after receipt of such denial.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

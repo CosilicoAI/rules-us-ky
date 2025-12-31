@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/278.490"/>
+          <FRBRuri value="/us-ky/act/krs/278.490"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/278.490/eng"/>
+          <FRBRuri value="/us-ky/act/krs/278.490/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/278.490/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/278.490/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_278_490">
+        <num>278.490</num>
+        <content>
+          <p>Each company engaged in the receipt, transportation or delivery of oil or natural gas for public consumption shall at all reasonable times receive, for transportation and delivery, from such pipes as may be connected up with any main or tributary line, all oil or gas that may be held and stored or ready for delivery, if the main or tributary line has the means or capacity to receive, transport or deliver the oil or gas that is offered. If the main or tributary line is operating to such capacity that it is impossible or impracticable to receive or transport all the oil or gas offered from the connecting lines, the company operating the main or tributary line shall receive and transport the oil or gas that is offered on a proportionate basis, based on the daily production of each producer whose oil or gas is offered for transportation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

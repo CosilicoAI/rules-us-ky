@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/162.040"/>
+          <FRBRuri value="/us-ky/act/krs/162.040"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/162.040/eng"/>
+          <FRBRuri value="/us-ky/act/krs/162.040/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/162.040/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/162.040/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_162_040">
+        <num>162.040</num>
+        <content>
+          <p>So much property in each school district as escheats to the state, and is not required by the provisions of KRS  to be disposed of in some other manner, shall vest in the state for the use and benefit of the public schools in the district. The board of education of the district may, in the name of the state and for the use and benefit of the schools of the district, by its chairman or other officer designated by it, enter upon and take possession of the property, or sue for and recover the property by action at law or in equity. The board may sell and convey any of the property by warranty deed or otherwise.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

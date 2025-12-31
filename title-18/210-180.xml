@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/210.180"/>
+          <FRBRuri value="/us-ky/act/krs/210.180"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/210.180/eng"/>
+          <FRBRuri value="/us-ky/act/krs/210.180/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/210.180/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/210.180/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_210_180">
+        <num>210.180</num>
+        <content>
+          <p>There shall be established and maintained, at each of the institutions operated by the Cabinet for Health and Family Services, a canteen which shall be incorporated and self-supporting. The directors of each canteen shall be appointed by the secretary. All profits from each canteen shall be used exclusively for the benefit of the patients of the institution.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

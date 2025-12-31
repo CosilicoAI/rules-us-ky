@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/157.160"/>
+          <FRBRuri value="/us-ky/act/krs/157.160"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/157.160/eng"/>
+          <FRBRuri value="/us-ky/act/krs/157.160/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/157.160/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/157.160/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_157_160">
+        <num>157.160</num>
+        <content>
+          <p>The chief state school officer, subject to the approval of the Kentucky Board of Education, shall promulgate an administrative regulation for the disposal of textbooks and programs that will no longer be used for instruction. Each superintendent may make obsolete books and materials available to the residents of his district. He may publicize in the newspaper the availability of the books and materials and the procedure for obtaining them in accordance with this section. Any funds accruing from the sale of the books and materials shall be paid into the local district’s account.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

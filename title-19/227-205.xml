@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/227.205"/>
+          <FRBRuri value="/us-ky/act/krs/227.205"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/227.205/eng"/>
+          <FRBRuri value="/us-ky/act/krs/227.205/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/227.205/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/227.205/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_227_205">
+        <num>227.205</num>
+        <content>
+          <p>The Department of Housing, Buildings and Construction is hereby created within the Public Protection Cabinet. The department shall be headed by a commissioner appointed by the Governor in accordance with , and who shall report to the secretary of the Public Protection Cabinet. The office of the commissioner shall also include a deputy commissioner and an executive assistant to the commissioner, who shall be the policy making assistants to the commissioner and shall be appointed pursuant to . The department shall consist of the Division of Fire Prevention, the Division of Building Codes Enforcement, the Division of Plumbing, the Electrical Division, and the Division of Heating, Ventilation, and Air Conditioning (HVAC).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

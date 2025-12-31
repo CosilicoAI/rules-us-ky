@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/403.315"/>
+          <FRBRuri value="/us-ky/act/krs/403.315"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/403.315/eng"/>
+          <FRBRuri value="/us-ky/act/krs/403.315/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/403.315/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/403.315/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_403_315">
+        <num>403.315</num>
+        <content>
+          <p>When determining or modifying a custody order pursuant to ,   or  the court shall consider the safety and well-being of the parties and of the children. If a domestic violence order is being or has been entered against a party by another party or on behalf of a child at issue in the custody hearing, the presumption that joint custody and equally shared parenting time is in the best interest of the child shall not apply as to the party against whom the domestic violence order is being or has been entered. The court shall weigh all factors set out in (2) in determining the best interest of the child.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

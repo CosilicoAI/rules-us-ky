@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/40.480"/>
+          <FRBRuri value="/us-ky/act/krs/40.480"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/40.480/eng"/>
+          <FRBRuri value="/us-ky/act/krs/40.480/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/40.480/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/40.480/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_480">
+        <num>40.480</num>
+        <content>
+          <p>No claimant shall be entitled to an oral hearing as a matter of right, but the adjutant general may in his discretion order a hearing in any case presenting unusual circumstances, or where it appears that documentary evidence of any material fact cannot reasonably be obtained, or where the claim cannot otherwise adequately be determined. If a hearing is ordered, it shall be conducted in accordance with KRS . The adjutant general may investigate any matter which in his judgment is not adequately proven, or which shows or raises an inference of fraud, and may require submission of supplementary proof.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

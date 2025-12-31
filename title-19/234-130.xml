@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/234.130"/>
+          <FRBRuri value="/us-ky/act/krs/234.130"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/234.130/eng"/>
+          <FRBRuri value="/us-ky/act/krs/234.130/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/234.130/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/234.130/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_234_130">
+        <num>234.130</num>
+        <content>
+          <p>The initial license required under  shall be issued by the department and shall expire on the last day of the licensee’s birth month in the next even-numbered year. The department may reduce the license fee on a pro rata basis for initial licenses issued for less than twenty-four (24) months. Renewed licenses shall expire on the last day of the licensee’s birth month of each numbered year after the issuance of the renewed license. Renewal fees shall be the same as the initial license fee.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

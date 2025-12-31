@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/177.915"/>
+          <FRBRuri value="/us-ky/act/krs/177.915"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/177.915/eng"/>
+          <FRBRuri value="/us-ky/act/krs/177.915/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/177.915/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/177.915/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_915">
+        <num>177.915</num>
+        <content>
+          <p>The permit required by  shall be issued in accordance with the administrative regulations of the department, promulgated pursuant to the provisions of  to  when it is shown to the satisfaction of the commissioner that an automobile, vehicle, machinery or material recycling establishment or place of business located closer than 1,000 feet from the right-of-way line of any road is, so far as deemed practical by the secretary, hidden from the view of motorists using such road by an artificial or natural screen, or is by virtue of natural topography so hidden. The screening required in this section may be effected by the construction of a fence, or by planting shrubs, trees, or flowering plants, the foliage of which shall, immediately upon planting, provide a sufficient screen or by making use of foliage already in existence. Any automobile, vehicle, machinery or material recycling establishment or place of business that cannot as a practical matter be screened, shall be required to be removed.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

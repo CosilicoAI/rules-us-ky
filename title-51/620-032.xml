@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/620.032"/>
+          <FRBRuri value="/us-ky/act/krs/620.032"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/620.032/eng"/>
+          <FRBRuri value="/us-ky/act/krs/620.032/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/620.032/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/620.032/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_620_032">
+        <num>620.032</num>
+        <content>
+          <p>By November 1 of each year, beginning in 2021, the Cabinet for Health and Family Services shall submit to the Legislative Research Commission a comprehensive report that does not identify individuals, detailing the number of reports the cabinet has received regarding female genital mutilation as defined in , the number of reports in which the cabinet has investigated and determined that a child is the victim of female genital mutilation, and the number of cases in which services were provided.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

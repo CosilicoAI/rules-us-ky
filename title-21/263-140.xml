@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/263.140"/>
+          <FRBRuri value="/us-ky/act/krs/263.140"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/263.140/eng"/>
+          <FRBRuri value="/us-ky/act/krs/263.140/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/263.140/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/263.140/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_263_140">
+        <num>263.140</num>
+        <content>
+          <p>No unrendered bodies or parts thereof of animals, poultry, fish or by-products thereof shall be sold or offered for sale to the public without a labeled wrapper or other identification and denatured in a manner acceptable to the department. Such label or identification shall plainly state in legible letters at least two (2) inches high that the product is inedible and not sold or intended for human consumption.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

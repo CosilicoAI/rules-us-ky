@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/262.710"/>
+          <FRBRuri value="/us-ky/act/krs/262.710"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/262.710/eng"/>
+          <FRBRuri value="/us-ky/act/krs/262.710/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/262.710/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/262.710/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_262_710">
+        <num>262.710</num>
+        <content>
+          <p>When twenty-five (25) or more landowners within a proposed watershed conservancy district, or, if less than fifty (50) landowners are involved, a majority of the landowners in such proposed district, desire to form a watershed conservancy district, they shall file a petition with the board of supervisors of the soil conservation district. Such petition shall define the boundaries of the proposed district, the number of acres of land involved, reasons for requesting creation of such district, the proposed name for such watershed conservancy district, and other information pertinent to such proposal.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

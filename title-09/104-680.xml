@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/104.680"/>
+          <FRBRuri value="/us-ky/act/krs/104.680"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/104.680/eng"/>
+          <FRBRuri value="/us-ky/act/krs/104.680/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/104.680/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/104.680/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_104_680">
+        <num>104.680</num>
+        <content>
+          <p>The board of directors shall, by resolution, set aside from its annual tax revenue a proper and adequate amount to be deposited into a depreciation fund, which fund shall be used solely for replacing capital equipment, new construction, extensions or additions to the flood control works. The remainder of its annual tax revenue shall be deposited into an operation and maintenance fund to be used solely for operating and maintenance expenses in connection with the flood control works. Money accumulated in the depreciation fund may be invested by the board of directors in the manner authorized by statute for other trust funds and the income from such investments shall be deposited into the depreciation fund.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

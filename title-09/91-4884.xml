@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/91.4884"/>
+          <FRBRuri value="/us-ky/act/krs/91.4884"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/91.4884/eng"/>
+          <FRBRuri value="/us-ky/act/krs/91.4884/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/91.4884/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/91.4884/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_91_4884">
+        <num>91.4884</num>
+        <content>
+          <p>To the person to whom this notice is addressed: Public records indicate that you may own or claim some right, title, or interest in or to, or hold a lien upon a certain parcel of real estate located at (here insert the street address and the property valuation administrator’s tax parcel number) and set out in count number in a certain petition bearing Action No.. filed in the Circuit Court of County, Kentucky at (city) on , 19 , wherein an enforcement of the liens of various delinquent tax bills is sought and a court order asked for the purpose of selling said real estate at a public sale for payment of all delinquent tax bills, together with interest, penalties, and costs. Publication of notice of such enforcement was commenced on the day of , 19, in (here insert name of city). Public records in the office of the county clerk or other public office indicate you may own or claim some interest in this parcel by reason of (Here insert specific reference to any public document of record as disclosed in a thorough examination of title status.). Unless all delinquent city taxes are paid upon the parcel of real estate described in said petition and unless the owners of said real estate shall either have discharged any city tax liens or satisfied any judgment rendered on said liens in favor of the city, prior to the time of the enforcement sale of such real estate by the master commissioner, or within sixty (60) days after the sale if the purchase price at sale is less than the parcel’s certified assessed value, the owner or any taxing authority or person of record claiming any right, title, or interest in or to, or lien upon, any such parcel of real estate shall be forever barred and foreclosed of all right, title and interest and equity of redemption in and to such parcel of real estate; provided, however, that any such person shall have the right to file an answer in said suit on or before the day of, 19 , in the office of the Circuit Court clerk and copy thereof to the city of , in accordance with the Kentucky rules of civil procedure, setting forth in detail the nature and amount of the interest and any defense or objection to the enforcement. Dated, 19 , Kentucky Attorney Address Phone</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

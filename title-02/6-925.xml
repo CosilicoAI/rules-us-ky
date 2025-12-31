@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/6.925"/>
+          <FRBRuri value="/us-ky/act/krs/6.925"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/6.925/eng"/>
+          <FRBRuri value="/us-ky/act/krs/6.925/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/6.925/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/6.925/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6_925">
+        <num>6.925</num>
+        <content>
+          <p>When making a study, the committee may require that testimony be given under oath, which may be administered by the chairman or by any person authorized by law to administer oaths. The committee may require that such testimony or any proceedings of the committee be recorded by an official court reporter or other competent person, under oath. The transcript, when written, certified and approved by the recorder and transcriber as being the direct transcript of the testimony, or proceedings, shall be prima facie a correct statement of said testimony or proceedings provided that the recorder and transcriber’s signature to such certificate is duly acknowledged by him before a notary public or a judicial official of the Commonwealth.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

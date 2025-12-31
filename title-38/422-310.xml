@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/422.310"/>
+          <FRBRuri value="/us-ky/act/krs/422.310"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/422.310/eng"/>
+          <FRBRuri value="/us-ky/act/krs/422.310/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/422.310/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/422.310/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_422_310">
+        <num>422.310</num>
+        <content>
+          <p>The personal attendance of the employee of the hospital charged with the responsibility of being custodian of the original charts or records specified in the subpoena shall be required if the records pertain to a patient treated by a psychiatrist and the hospital has not received within the thirty (30) days preceding service of the subpoena an authorization signed by the patient or his legal guardian permitting the contents of the records to be released. If personal attendance of a witness is required for the reason provided in this section, the hospital may nevertheless elect to substitute true, legible and durable copies of the charts or records specified in the subpoena duces tecum by the giving of a written notice of such election, in which case payment to the hospital of the actual and reasonable expenses of duplication of such charts or records by any party to the proceeding in which the subpoena was issued, or such party’s attorney of record, shall be a condition precedent to the personal attendance of any person pursuant to the subpoena, unless otherwise ordered by the court or other body before which said action or proceeding is pending.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

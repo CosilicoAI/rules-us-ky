@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/250.441"/>
+          <FRBRuri value="/us-ky/act/krs/250.441"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/250.441/eng"/>
+          <FRBRuri value="/us-ky/act/krs/250.441/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/250.441/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/250.441/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_250_441">
+        <num>250.441</num>
+        <content>
+          <p>Any lot of fertilizer not in compliance with the provisions of  to shall be subject to seizure on complaint of the director to a court of competent jurisdiction in the area in which said fertilizer is located. In the event the court finds the said fertilizer to be in violation of  to and orders the condemnation of said fertilizer, it shall be disposed of in any manner consistent with the quality of the fertilizer and the laws of the state, except in no instance shall the disposition of said fertilizer be ordered by the court without first giving the claimant an opportunity to apply to the court for release of said fertilizer or for permission to reprocess or relabel said fertilizer to bring it into compliance with  to</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/392.050"/>
+          <FRBRuri value="/us-ky/act/krs/392.050"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/392.050/eng"/>
+          <FRBRuri value="/us-ky/act/krs/392.050/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/392.050/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/392.050/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_392_050">
+        <num>392.050</num>
+        <content>
+          <p>The surviving spouse shall be entitled, from the time of the deceased spouse’s death until dower or curtesy is assigned, to such share of the rents and profits of the deceased spouse’s real estate as is equal to the surviving spouse’s share in the real estate itself, under , and the surviving spouse shall hold the dwelling house, yard, garden, the stable and lot on which it stands, and an orchard, if there is one, adjoining any of the premises aforesaid, until dower or curtesy is assigned, or, in case of renunciation, under .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

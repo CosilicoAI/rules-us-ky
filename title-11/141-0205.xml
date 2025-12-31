@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/141.0205"/>
+          <FRBRuri value="/us-ky/act/krs/141.0205"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/141.0205/eng"/>
+          <FRBRuri value="/us-ky/act/krs/141.0205/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/141.0205/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/141.0205/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_141_0205">
+        <num>141.0205</num>
+        <content>
+          <p>If a taxpayer is entitled to more than one (1) of the tax credits allowed against the tax imposed by ,  and 141.0401, the priority of application and use of the credits shall be determined as follows:</p>
+        </content>
+        <subsection eId="sec_141_0205__subsec_aa">
+          <num>(aa)</num>
+          <content>
+            <p>The Education Opportunity Account Program tax credit permitted by .</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

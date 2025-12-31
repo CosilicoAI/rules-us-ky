@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/177.780"/>
+          <FRBRuri value="/us-ky/act/krs/177.780"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/177.780/eng"/>
+          <FRBRuri value="/us-ky/act/krs/177.780/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/177.780/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/177.780/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_780">
+        <num>177.780</num>
+        <content>
+          <p>If the question submitting  to to the people at said election on November 8, 1960, shall have been in the form set forth in , then from and after the proclaiming by the Governor that  to has been approved and is in effect, any unissued bonds of the issue for highways, bridges and tunnels, as proposed by  to  approved and authorized by the voters at the election held on November 6, 1956, as aforesaid, may be sold and issued by the commission, at one (1) time or from time to time, in strict conformity with all provisions of said  to  with the sole exception that pursuant to the voters’ authorization and approval of  to  the heretofore prevailing interest rate limitation of three percent (3%) per annum may be disregarded and any or all of said bonds may be sold and issued to bear any interest rate or not exceeding the then prevailing maximum rate as prescribed by statute in and for the Commonwealth generally.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

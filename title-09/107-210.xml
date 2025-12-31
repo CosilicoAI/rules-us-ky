@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/107.210"/>
+          <FRBRuri value="/us-ky/act/krs/107.210"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/107.210/eng"/>
+          <FRBRuri value="/us-ky/act/krs/107.210/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/107.210/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/107.210/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_107_210">
+        <num>107.210</num>
+        <content>
+          <p>If, by reason of miscalculation or the happening of unforeseen events or conditions, the proceeds of the bonds authorized by the third ordinance should prove to be insufficient to provide for the completion of the project and the payment in full of all costs thereof, the governing body shall be authorized to issue and sell additional bonds sufficient to make up the deficiency, and such additional bonds shall rank on a parity as to security and source of payment with the bonds originally authorized. In the case of wastewater collection projects, the metropolitan sewer district shall be required to levy pro rata an additional assessment on owners of benefited property who have elected to make lump-sum payments in full.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

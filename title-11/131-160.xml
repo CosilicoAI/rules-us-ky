@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/131.160"/>
+          <FRBRuri value="/us-ky/act/krs/131.160"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/131.160/eng"/>
+          <FRBRuri value="/us-ky/act/krs/131.160/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/131.160/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/131.160/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_131_160">
+        <num>131.160</num>
+        <content>
+          <p>If any taxpayer required to make bond for the payment of taxes fails to pay the taxes when due, the department shall notify him and his surety by mailing notice to their last known addresses. If, after expiration of a reasonable time from the date of the notice, the amount due remains unpaid, the commissioner shall proceed by suit to collect the amount due, including the penalties, interest and costs. The defaulting taxpayer need not be made a party to any suit brought against his surety.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

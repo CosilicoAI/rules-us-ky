@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/247.401"/>
+          <FRBRuri value="/us-ky/act/krs/247.401"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/247.401/eng"/>
+          <FRBRuri value="/us-ky/act/krs/247.401/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/247.401/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/247.401/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247_401">
+        <num>247.401</num>
+        <content>
+          <p>The General Assembly finds that activities involving the use and exhibition of farm animals are engaged in by a large number of citizens of Kentucky and that these activities also attract to Kentucky a large number of nonresidents, significantly contributing to the economy of Kentucky. Since it is recognized that there are inherent risks in working with, exhibiting, and using farm animals which should be understood by participants in farm animal activities and which are essentially impossible for owners of farm animals or sponsors of farm animal activities to eliminate, it is the purpose of  to 247.4029 to define the areas of responsibility and affirmative acts for which activity sponsors, professionals, and participants shall be responsible, to specify risks of injury for which activity sponsors, professionals, and participants shall not be responsible, and to specify areas of responsibilities of farm animal participants. Therefore, the General Assembly determines that to preserve and promote the long Kentucky tradition of activities involving farm animals and the health and safety of the citizens of Kentucky and visitors to the Commonwealth of Kentucky,  to 247.4029 are necessary to instruct persons voluntarily engaging in farm animal activities of the potential risks inherent in the activities.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/363.630"/>
+          <FRBRuri value="/us-ky/act/krs/363.630"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/363.630/eng"/>
+          <FRBRuri value="/us-ky/act/krs/363.630/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/363.630/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/363.630/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_363_630">
+        <num>363.630</num>
+        <content>
+          <p>The director shall, from time to time, weigh or measure and inspect packages or amounts of commodities kept, offered, or exposed for sale, sold, or in the process of delivery, to determine whether the same contain the amounts represented and whether they be kept, offered, or exposed for sale or sold in accordance with law. When such packages or amounts of commodities are found not to contain the amounts represented, or are found to be kept, offered, or exposed for sale in violation of law, the director may order them off sale and may so mark or tag them as to show them to be illegal. In carrying out the provisions of this section, the director may employ recognized sampling procedures under which the compliance of a given lot of packages will be determined on the basis of the result obtained on a sample selected from and representative of such lot. No person shall:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

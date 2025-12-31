@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.270"/>
+          <FRBRuri value="/us-ky/act/krs/164.270"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.270/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.270/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.270/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.270/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_270">
+        <num>164.270</num>
+        <content>
+          <p>Whenever any real estate held by the Commonwealth for the use or benefit of the University or the Kentucky agricultural experiment station is, in the opinion of the board of trustees of the University, no longer necessary for the purpose of the University or more suitable for some other use consistent with the interests of the University, the board of trustees may, with the approval of the Governor, sell or otherwise dispose of such real estate. Such disposition shall be made in accordance with . This section does not authorize the sale of any real estate situated in the city of Lexington within the area bounded by Winslow Street or Euclid Avenue on the north, Rose Street on the east, Graham Avenue, Graham Avenue extended, and Washington Avenue on the south, and Limestone Street on the west.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/38.510"/>
+          <FRBRuri value="/us-ky/act/krs/38.510"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/38.510/eng"/>
+          <FRBRuri value="/us-ky/act/krs/38.510/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/38.510/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/38.510/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_510">
+        <num>38.510</num>
+        <content>
+          <p>Any right, benefit, or protection that may accrue to a member of the Kentucky National Guard under the Federal Servicemembers Civil Relief Act, 50  et seq., as a result of a call to federal active duty service under Title 10 of the United States Code shall be extended to a member of the Kentucky National Guard called to active duty service under Title 32 of the United States Code, or to state active duty by the Governor of the Commonwealth of Kentucky, if the active duty orders are for a period of thirty (30) days or more.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

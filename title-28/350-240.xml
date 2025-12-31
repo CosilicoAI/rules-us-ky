@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/350.240"/>
+          <FRBRuri value="/us-ky/act/krs/350.240"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/350.240/eng"/>
+          <FRBRuri value="/us-ky/act/krs/350.240/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/350.240/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/350.240/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_350_240">
+        <num>350.240</num>
+        <content>
+          <p>The Energy and Environment Cabinet may adopt reasonable regulations for the reclamation of land disturbed or removed in the mining of clay. Such regulations shall encourage water impoundments and shall follow the standards established in Article III of the Interstate Mining Compact. The cabinet shall have the authority to adopt such regulations prior to the effective date of the Interstate Mining Compact and irrespective of whether the state becomes a member or withdraws from membership in the Interstate Mining Compact.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

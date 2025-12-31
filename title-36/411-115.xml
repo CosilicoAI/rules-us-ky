@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/411.115"/>
+          <FRBRuri value="/us-ky/act/krs/411.115"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/411.115/eng"/>
+          <FRBRuri value="/us-ky/act/krs/411.115/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/411.115/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/411.115/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_411_115">
+        <num>411.115</num>
+        <content>
+          <p>No action shall be brought against any governmental unit for damages, noise abatement or otherwise, arising from the operation of aircraft into or out of an airport unless written notice is given to such governmental unit within seven (7) days of the time within which each such operation occurred. Such notice shall state: (1) The location of the property affected; (2) The approximate time such operation occurred; and (3) If known, the type of aircraft and general direction of its flight.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

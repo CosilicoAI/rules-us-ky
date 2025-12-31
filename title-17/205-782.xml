@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/205.782"/>
+          <FRBRuri value="/us-ky/act/krs/205.782"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/205.782/eng"/>
+          <FRBRuri value="/us-ky/act/krs/205.782/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/205.782/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/205.782/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_205_782">
+        <num>205.782</num>
+        <content>
+          <p>In a county containing a city of the first class, the provisions of  notwithstanding, including those provisions related to priority of other officers, all forms of legal process may be served in any child support action by a constable of the county upon direction by the initiating party. A constable shall not be automatically deemed an interested party in litigation merely by virtue of serving process on behalf of the Commonwealth.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

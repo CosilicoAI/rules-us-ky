@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/352.390"/>
+          <FRBRuri value="/us-ky/act/krs/352.390"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/352.390/eng"/>
+          <FRBRuri value="/us-ky/act/krs/352.390/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/352.390/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/352.390/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_352_390">
+        <num>352.390</num>
+        <content>
+          <p>The Mine Safety Review Commission shall revoke, suspend, or probate certificates if it is established in the judgment of the commission that the holder has become unworthy to hold the certificate by reason of violation of law, intemperate habits, failure to maintain drug- and alcohol-free condition of certification, incapacity, abuse of authority, failure to comply with the mining laws of the Commonwealth of Kentucky, or for other just cause. The same procedure provided in subsections (11) and (12) of  shall apply to the certificate holder.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

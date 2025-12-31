@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/234.294"/>
+          <FRBRuri value="/us-ky/act/krs/234.294"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/234.294/eng"/>
+          <FRBRuri value="/us-ky/act/krs/234.294/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/234.294/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/234.294/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_234_294">
+        <num>234.294</num>
+        <content>
+          <p>The funds, including donations from individuals, associations, concerns, corporations, and grants from state or federal governmental agencies, shall be used for the purpose of promoting and stimulating, by research, market development, and education, the increased use and sale of propane and increased consumer and employee safety. None of these funds shall be used to lobby as defined in . The council shall use and disburse the funds as follows:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

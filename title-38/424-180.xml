@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/424.180"/>
+          <FRBRuri value="/us-ky/act/krs/424.180"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/424.180/eng"/>
+          <FRBRuri value="/us-ky/act/krs/424.180/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/424.180/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/424.180/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_424_180">
+        <num>424.180</num>
+        <content>
+          <p>Any advertisement which a state officer, department or agency is required by law to have published shall, if intended to give statewide notice, be published in such newspaper or newspapers, to be designated by the Finance and Administration Cabinet, as will provide reasonable statewide coverage, unless the Finance and Administration Cabinet approves an alternative and cost-effective method of delivery. If the advertisement particularly affects a local area, it shall be published, for each county in the area, in a newspaper qualified under  to publish advertisements for such county, unless the Finance and Administration Cabinet approves an alternative and cost-effective method of delivery. The latter publication shall be in addition to the former, if the advertisement affects the state at large as well as the local area.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

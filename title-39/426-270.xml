@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/426.270"/>
+          <FRBRuri value="/us-ky/act/krs/426.270"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/426.270/eng"/>
+          <FRBRuri value="/us-ky/act/krs/426.270/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/426.270/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/426.270/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_426_270">
+        <num>426.270</num>
+        <content>
+          <p>If, upon the trial of the motion provided for in , it appears that the defendant had no title to the land sold under execution, the court may set the sale aside, quash the return of the officer, and award execution for the debt as if no sale had been made. If the land sold had been given up by the defendant to the officer for levy and sale and the sale is set aside, the court shall render judgment against the defendant for ten percent (10%) damages upon the amount of the execution, including interest and cost.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

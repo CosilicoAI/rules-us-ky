@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/56.120"/>
+          <FRBRuri value="/us-ky/act/krs/56.120"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/56.120/eng"/>
+          <FRBRuri value="/us-ky/act/krs/56.120/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/56.120/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/56.120/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_56_120">
+        <num>56.120</num>
+        <content>
+          <p>When the amount of damage has been determined, the State Treasurer shall debit the account of the state fire and tornado insurance fund by that amount and credit with an equal amount the account of the agency that has control or custody of the property damaged, and upon warrant from the Finance and Administration Cabinet, the Treasurer shall pay to the agency the amount so credited to it, for the purpose of repairing the damage or reconstructing or replacing the damaged or destroyed property. If the agency deems it impracticable or undesirable to use the money for repair, reconstruction, or replacement of the property damaged or destroyed, it may, with the approval of the Finance and Administration Cabinet, and subject to the provisions of , expend said funds for the acquisition, repair, construction, or reconstruction of property similar to the property damaged or destroyed. No debit, credit, or payment made on account of the damage to any one (1) subject of risk, by any one (1) loss, shall be in excess of one million dollars ($1,000,000), unless the Office of the Controller in the Finance and Administration Cabinet has effected reinsurance upon the subject of risk such as to limit the liability of the state fire and tornado insurance fund to one million dollars ($1,000,000), and unless the excess over this amount has actually been paid into the fund by the reinsuring company or companies.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

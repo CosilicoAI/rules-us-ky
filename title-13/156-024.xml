@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/156.024"/>
+          <FRBRuri value="/us-ky/act/krs/156.024"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/156.024/eng"/>
+          <FRBRuri value="/us-ky/act/krs/156.024/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/156.024/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/156.024/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_156_024">
+        <num>156.024</num>
+        <content>
+          <p>Prior to submission of the formal budgetary requests of the Department of Education, established in , to the Governor and executive branch, complete copies of the budget areas in the board’s jurisdiction shall be forwarded to the Kentucky Board of Education to enable it to fully investigate and review said requests and make recommendations to the Governor.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

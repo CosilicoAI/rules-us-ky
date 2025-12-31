@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/247.6025"/>
+          <FRBRuri value="/us-ky/act/krs/247.6025"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/247.6025/eng"/>
+          <FRBRuri value="/us-ky/act/krs/247.6025/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/247.6025/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/247.6025/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247_6025">
+        <num>247.6025</num>
+        <content>
+          <p>If a majority of the eligible producers in the referendum who vote therein shall vote in favor of the assessment, the Commissioner shall notify, by certified mail, all persons engaged in the business of purchasing corn in this state, that on and after the date specified in the letter, the specified assessment shall be deducted from the producer’s payment by the purchaser, or his agent or representative, from the net marketed price of the corn. The assessment so deducted shall, on or before the fifteenth day of the month following the end of the month in which the corn is sold to the purchaser, be remitted by the purchaser to the duly certified association which conducted the referendum. The books and records of all the purchasers of corn shall at all times be open for inspection by the Commissioner of Agriculture or his duly authorized agents during regular business hours.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/341.360"/>
+          <FRBRuri value="/us-ky/act/krs/341.360"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/341.360/eng"/>
+          <FRBRuri value="/us-ky/act/krs/341.360/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/341.360/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/341.360/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_341_360">
+        <num>341.360</num>
+        <content>
+          <p>Notwithstanding any other provision of this paragraph, any benefits paid to a worker based on service other than as defined in subparagraph 1. of this paragraph performed in an institution of higher education as defined in  shall be deemed to have been paid as a result of Office of Unemployment Insurance, Department of Workforce Investment, error and not recoverable by the cabinet or such institution if such payment is improper by virtue of the retroactive application to October 30, 1983, of subparagraph 2. of this paragraph; or</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

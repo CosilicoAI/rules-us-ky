@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/171.590"/>
+          <FRBRuri value="/us-ky/act/krs/171.590"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/171.590/eng"/>
+          <FRBRuri value="/us-ky/act/krs/171.590/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/171.590/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/171.590/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_171_590">
+        <num>171.590</num>
+        <content>
+          <p>The department shall be responsible for the custody, use, and withdrawal of records transferred to it. All papers, books, and other records of any matters so transferred are public records and shall be open to inspection by any interested person subject to reasonable rules as to time and place of inspection established by the department; provided that whenever any records, the use of which is subject to statutory limitations and restrictions, are so transferred, the department shall enforce such limitations. Restrictions shall not remain in effect after the records have been in existence for fifty (50) years.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

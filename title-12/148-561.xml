@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/148.561"/>
+          <FRBRuri value="/us-ky/act/krs/148.561"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/148.561/eng"/>
+          <FRBRuri value="/us-ky/act/krs/148.561/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/148.561/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/148.561/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_148_561">
+        <num>148.561</num>
+        <content>
+          <p>The Appalachian/Kentucky Artisans Gateway Center Authority is created and established as an independent, de jure municipal corporation and political subdivision of the Commonwealth that shall be a public body corporate and politic. The authority shall develop, operate, and manage the Appalachian/Kentucky Artisans Gateway Center funded by 1998 Ky. Acts ch. 615, Part X, under the reference “Artisans Center — Berea.” The authority shall be attached to the Tourism, Arts and Heritage Cabinet for administrative purposes.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/205.735"/>
+          <FRBRuri value="/us-ky/act/krs/205.735"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/205.735/eng"/>
+          <FRBRuri value="/us-ky/act/krs/205.735/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/205.735/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/205.735/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_205_735">
+        <num>205.735</num>
+        <content>
+          <p>All business concerns doing business in this state, to the extent that they have employees working within this state, or maintain personnel files within this state, or are incorporated under the laws of this state, shall provide the cabinet with the following information upon certification by the secretary that the information is for the purpose of locating a parent, and the establishment, modification, and enforcement of a child support and medical support order, and that the information obtained will be treated as confidential information by this cabinet or the agency or cabinet of any other state which administers the Child Support Enforcement Program pursuant to Part D of Title IV of the Social Security Act for the other state: full name, Social Security account number, date of birth, home address, wages, and number of dependents listed for tax purposes.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

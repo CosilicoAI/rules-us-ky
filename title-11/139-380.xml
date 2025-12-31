@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/139.380"/>
+          <FRBRuri value="/us-ky/act/krs/139.380"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/139.380/eng"/>
+          <FRBRuri value="/us-ky/act/krs/139.380/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/139.380/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/139.380/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_139_380">
+        <num>139.380</num>
+        <content>
+          <p>The tax required to be collected by the retailer under  from the purchaser shall be displayed separately from the list price, the price advertised in the premises, the marked price, or other price on the sales check or other proof of sales. If taxable goods are bundled with services and are sold as a single package for one (1) price, the tax required to be collected by the retailer from the purchaser shall be computed on the entire amount and shall be displayed separately from the list price, the price advertised on the premises, the marked price, or other price on the sales check or other proof of sales.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/136.170"/>
+          <FRBRuri value="/us-ky/act/krs/136.170"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/136.170/eng"/>
+          <FRBRuri value="/us-ky/act/krs/136.170/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/136.170/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/136.170/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_136_170">
+        <num>136.170</num>
+        <content>
+          <p>The Department of Revenue shall allocate the assessed value of the operating property in this state among the counties, cities, and other taxing districts. The location of operating property and the proportion which the length of line or route operated in such taxing district bears to the total length of lines or route operated in this state shall be considered in this allocation and such other reasonable evidence of value as the Department of Revenue may by regulations prescribe; provided, however, that the assessed value of nonoperating tangible property shall be allocated to the county, city, or other taxing district where the property is situated.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

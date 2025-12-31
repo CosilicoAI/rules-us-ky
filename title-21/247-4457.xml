@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/247.4457"/>
+          <FRBRuri value="/us-ky/act/krs/247.4457"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/247.4457/eng"/>
+          <FRBRuri value="/us-ky/act/krs/247.4457/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/247.4457/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/247.4457/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247_4457">
+        <num>247.4457</num>
+        <content>
+          <p>It is hereby further declared to be in the public interest and highly advantageous to the agricultural economy of the state that producers of milk on a commercial basis shall be permitted by referendum to be held among this group and subject to the provisions of  to 247.4483, to levy upon themselves an assessment on this commodity and provide for the collection of the assessment, for the purpose of financing or contributing toward the financing of educational and applied research programs to improve and enhance the production of milk.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

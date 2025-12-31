@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/132.400"/>
+          <FRBRuri value="/us-ky/act/krs/132.400"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/132.400/eng"/>
+          <FRBRuri value="/us-ky/act/krs/132.400/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/132.400/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/132.400/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_132_400">
+        <num>132.400</num>
+        <content>
+          <p>Before entering upon the duties of office, the property valuation administrator shall execute a bond conditioned upon the faithful performance of the duties of the office with a surety to be approved by the Department of Revenue. In counties containing a city of the first class or consolidated local government, the bond shall be in the sum of one hundred thousand dollars ($100,000); in counties containing a city with a population equal to or greater than twenty thousand (20,000) based upon the most recent federal decennial census, fifty thousand dollars ($50,000); in all other counties, twenty thousand dollars ($20,000).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/15.391"/>
+          <FRBRuri value="/us-ky/act/krs/15.391"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/15.391/eng"/>
+          <FRBRuri value="/us-ky/act/krs/15.391/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/15.391/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/15.391/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_391">
+        <num>15.391</num>
+        <content>
+          <p>1.
+      Certification that was the result of an administrative error;</p>
+          <p>2.
+      Plea of guilty to, conviction of, or entering of an Alford plea to any state or federal felony, or any criminal offense committed in another state that would constitute a felony if committed in this state;</p>
+          <p>1.
+    
+    Termination of the peace officer for failure to meet or maintain training requirements, unless the certification is in inactive status. As used in this subparagraph, “inactive status” has the same meaning as in ;</p>
+          <p>2.
+      Termination of the peace officer for professional malfeasance or professional nonfeasance by his or her agency;</p>
+          <p>3.
+      Termination of the peace officer following the plea of guilty to, conviction of, or entering of an Alford plea to any misdemeanor offense, in this state or out of it, that involves:</p>
+          <p>4.
+      Receipt of general discharge under other than honorable conditions from any branch of the Armed Forces of the United States that results in the termination of the peace officer from his or her agency; or</p>
+          <p>5.
+      Resignation or retirement of the peace officer while he or she is under criminal investigation or administrative investigation for professional malfeasance or professional nonfeasance that, in the judgment of the agency that employed the peace officer, would have likely resulted in the termination of that peace officer had the facts leading to the investigation been substantiated prior to his or her resignation or retirement.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

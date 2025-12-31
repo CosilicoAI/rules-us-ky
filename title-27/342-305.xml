@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/342.305"/>
+          <FRBRuri value="/us-ky/act/krs/342.305"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/342.305/eng"/>
+          <FRBRuri value="/us-ky/act/krs/342.305/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/342.305/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/342.305/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_342_305">
+        <num>342.305</num>
+        <content>
+          <p>Any party in interest may file in the Circuit Court of the county in which the injury occurred a certified copy of a memorandum of agreement approved by the administrative law judge, or of an order or decision of the administrative law judge or board, or of an award of the administrative law judge unappealed from, or of an award of the board rendered upon an appeal whether or not there is a motion to reopen or review pending under . The court shall render judgment in accordance therewith and notify the parties. Such judgment shall have the same effect, and all proceedings in relation thereto shall thereafter be the same as though it had been rendered in a suit duly heard and determined by that court. Any such judgment, unappealed from or affirmed on appeal or modified in obedience to the mandate of the Court of Appeals, shall be modified to conform to any decision of the administrative law judge ending, diminishing, or increasing any weekly payment under the provisions of  upon a presentation to it of a certified copy of such decision.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

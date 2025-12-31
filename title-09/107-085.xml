@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/107.085"/>
+          <FRBRuri value="/us-ky/act/krs/107.085"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/107.085/eng"/>
+          <FRBRuri value="/us-ky/act/krs/107.085/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/107.085/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/107.085/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_107_085">
+        <num>107.085</num>
+        <content>
+          <p>In the event the owner or owners of all property or properties which will be subject to assessment for an improvement proposed to be undertaken shall tender to the city their written request or requests, that the improvement be undertaken and financed according to  to  and shall waive the formalities of the “First Ordinance,” the holding of a public hearing, the “Second Ordinance,” and the provisions of , permitting litigation; the governing body may, in its discretion, dispense with all of said proceedings and formalities, and may proceed as provided in  with reference to the “Third Ordinance”; but in all such instances, the written requests of the owners of all properties which will be subject to assessment shall be in recordable form and shall be recorded in the office of the county clerk of the county wherein the respective properties may be situated, and said clerk is authorized to record such instruments as in the case of mortgages, and may charge and receive fees therefor as in the case of mortgages. Each ordinance by which an improvement is undertaken according to this section shall contain a recitation of the receiving of written requests and waivers from the owners of all properties which will be subject to assessment for each such improvement. In such instances the lien for which provision is made in  shall attach upon publication of the ordinance (equivalent to the “Third Ordinance”) which authorizes issuance of the improvement assessment bonds.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

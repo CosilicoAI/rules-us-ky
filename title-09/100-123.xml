@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/100.123"/>
+          <FRBRuri value="/us-ky/act/krs/100.123"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/100.123/eng"/>
+          <FRBRuri value="/us-ky/act/krs/100.123/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/100.123/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/100.123/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_100_123">
+        <num>100.123</num>
+        <content>
+          <p>At any time, the legislative bodies of the cities and counties comprising two (2) or more adjacent planning units whose combined territory form a logical functional area, or portion thereof, by reasons of physical, economic, or social features may enter into an agreement to form a regional planning unit. The agreement for such regional unit may permit the continuation of any of the joint units and their planning commissions, or may serve to replace them. If any joint units are to continue in operation, the agreement shall state clearly the division or assignment of functions between the regional and joint units. Such regional units, shall be financed by the legislative parties in accordance with the agreement.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/394.145"/>
+          <FRBRuri value="/us-ky/act/krs/394.145"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/394.145/eng"/>
+          <FRBRuri value="/us-ky/act/krs/394.145/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/394.145/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/394.145/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_394_145">
+        <num>394.145</num>
+        <content>
+          <p>When any will is offered for probate, the court shall require a verified application to be filed by the person offering the same. Such application shall state the residence of the testator at the time of his death and such other facts as may be necessary to establish the jurisdiction of the court, and the names, ages and post office addresses of the testator’s surviving spouse and, if required by the court, heirs at law, or such as are known. An application for probate and for appointment as executor or administrator with the will annexed may be combined in one (1) application.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

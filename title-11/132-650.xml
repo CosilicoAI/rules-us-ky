@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/132.650"/>
+          <FRBRuri value="/us-ky/act/krs/132.650"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/132.650/eng"/>
+          <FRBRuri value="/us-ky/act/krs/132.650/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/132.650/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/132.650/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_132_650">
+        <num>132.650</num>
+        <content>
+          <p>Any informality or irregularity in the making of an assessment or the tax bills shall not vitiate the same, and the failure of the property valuation administrator, or of anyone required to perform services relative to the assessment, to call on each taxpayer for an assessment list, to notify the taxpayer to list or of an increase of assessment, to finish the assessments or other duties within the times provided by law shall not make the assessment void. Provided, however, that nothing in this section shall be construed to release the property valuation administrator or anyone else from performing his duties in accordance with the requirements of the law. Even though the assessing officer may not have complied literally with all the provisions of the statutes no taxpayer shall be entitled to a final abatement of the taxes by injunction or otherwise on any part of a final assessment unless the taxpayer shows that the assessment was excessive or discriminatory or that the property was not taxable.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

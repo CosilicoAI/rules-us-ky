@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/177.220"/>
+          <FRBRuri value="/us-ky/act/krs/177.220"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/177.220/eng"/>
+          <FRBRuri value="/us-ky/act/krs/177.220/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/177.220/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/177.220/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_220">
+        <num>177.220</num>
+        <content>
+          <p>For the purpose of  to  a limited access facility is defined as a highway or street especially designed for through traffic, and over, from or to which owners or occupants of abutting land or other persons have no right or easement or only a limited right or easement of access, light, air, or view by reason of the fact that their property abuts upon such limited access facility or for any other reason. Such highways or streets may be parkways, from which trucks, buses, and other commercial vehicles shall be excluded; or they may be freeways open to use by all customary forms of street and highway traffic.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

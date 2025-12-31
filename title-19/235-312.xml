@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/235.312"/>
+          <FRBRuri value="/us-ky/act/krs/235.312"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/235.312/eng"/>
+          <FRBRuri value="/us-ky/act/krs/235.312/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/235.312/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/235.312/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_235_312">
+        <num>235.312</num>
+        <content>
+          <p>On or before October 31 of each year, the Department of Fish and Wildlife Resources shall submit a report to the Legislative Research Commission, for referral to the appropriate interim joint committee, detailing the continued training measures that the department has undertaken during the past year for law enforcement officers in the areas of enforcement policy and professionalism training to enhance the public’s experience in interacting with the department’s officers and in enjoying outdoor activities while maintaining a safe and lawful environment. The report shall also include any changes that the department implemented during the past year regarding its law enforcement practices and interactions with the public.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

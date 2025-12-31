@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/16.196"/>
+          <FRBRuri value="/us-ky/act/krs/16.196"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/16.196/eng"/>
+          <FRBRuri value="/us-ky/act/krs/16.196/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/16.196/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/16.196/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_196">
+        <num>16.196</num>
+        <content>
+          <p>There is created within the Department of Kentucky State Police the positions of Trooper R Class and commercial vehicle enforcement officer R class that shall be utilized by the commissioner to retain retired officers commissioned under this chapter on a contractual basis to supplement the ranks of the Kentucky State Police and commercial vehicle enforcement officers.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/273.357"/>
+          <FRBRuri value="/us-ky/act/krs/273.357"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/273.357/eng"/>
+          <FRBRuri value="/us-ky/act/krs/273.357/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/273.357/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/273.357/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_273_357">
+        <num>273.357</num>
+        <content>
+          <p>The dissolution of a corporation either (1) by the filing of articles of dissolution with the Secretary of State, or (2) by a decree of court when the court has not liquidated the assets and affairs of the corporation as provided in  to shall not take away or impair any remedy available to or against the corporation, its directors, officers, or members, for any right or claim existing, or any liability incurred, prior to the dissolution if action or other proceeding thereon is commenced within two (2) years after the date of such dissolution. Any such action or proceeding by or against the corporation may be prosecuted or defended by the corporation in its corporate name. The members, directors, and officers may take corporate or other action appropriate to protect the remedy, right, or claim.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

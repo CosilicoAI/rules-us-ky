@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/162.060"/>
+          <FRBRuri value="/us-ky/act/krs/162.060"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/162.060/eng"/>
+          <FRBRuri value="/us-ky/act/krs/162.060/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/162.060/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/162.060/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_162_060">
+        <num>162.060</num>
+        <content>
+          <p>The chief state school officer shall be furnished a copy of all plans and specifications for new public school buildings contemplated by boards of education and for all additions to or alterations of old buildings. He shall examine or cause to be examined all such plans and specifications and shall approve or disapprove them in accordance with the rules and regulations of the Kentucky Board of Education. Plan reviews for conformance with the Uniform State Building Code shall be conducted only by the Department of Housing, Buildings and Construction. No board of education may award a contract for the erection of a new building or contract for an addition to or alteration of an old building until the plan has been approved by the chief state school officer.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

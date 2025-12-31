@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/96.185"/>
+          <FRBRuri value="/us-ky/act/krs/96.185"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/96.185/eng"/>
+          <FRBRuri value="/us-ky/act/krs/96.185/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/96.185/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/96.185/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_96_185">
+        <num>96.185</num>
+        <content>
+          <p>The board shall keep a complete and accurate record of all meetings and actions taken, and of all receipts and disbursements. Such records shall be open to inspection at any and all times to the governing body of the city. An audit of the board’s records shall be made annually by a certified public accountant to be selected by the board, and the expense of such audit shall constitute an operating expense and be paid as such by the board. The board shall furnish a copy of such audit to the common council when requested so to do.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/171.220"/>
+          <FRBRuri value="/us-ky/act/krs/171.220"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/171.220/eng"/>
+          <FRBRuri value="/us-ky/act/krs/171.220/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/171.220/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/171.220/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_171_220">
+        <num>171.220</num>
+        <content>
+          <p>The department may enter into contracts with any local, state or federal governmental agency or authority for the purpose of enabling the establishment and maintenance of a local public library service. The contracting parties may establish such districts or units of library service as they may mutually agree upon. The library service within such districts shall be carried on according to plans approved by the state librarian.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

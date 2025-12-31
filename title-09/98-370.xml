@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/98.370"/>
+          <FRBRuri value="/us-ky/act/krs/98.370"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/98.370/eng"/>
+          <FRBRuri value="/us-ky/act/krs/98.370/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/98.370/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/98.370/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_98_370">
+        <num>98.370</num>
+        <content>
+          <p>The personnel of the department, except the director of welfare and his private secretary, shall be in the classified service from the date of the establishment of the department; and until such time as the county has an appropriate civil service facility, the positions and places of employment shall be subject to the jurisdiction of the civil service board of the first-class city contained in such county, and shall be governed by and made subject to the provisions of  to  with the exception of . Insofar as practicable, and as may be provided for in any agreements executed in pursuance of  to  all employees holding positions in the classified civil service, who have been appointed on the basis of a competitive examination and whose duties are transferred or may be transferred to the county department of welfare, shall be utilized for duties of a similar character and in the same class by the appointing authority. Persons not in the classified service, upon transfer, shall be included in the classified service hereunder and shall be considered as having satisfied all the requirements for obtaining original appointments and having completed their probationary periods of employment in the same or similar class or position held at the time of their transfer. The employees of any local public welfare department or agency administered by the department under  and shall be, insofar as it is economical and as may be provided in any agreements executed in pursuance of  to  retained as employees of the department and become subject to the laws, rules and regulations of the classified service, as are other employees of the department. This section shall not be construed to compel the appointment of more employees than are necessary to perform properly the duties of the department nor as applying to persons employed less than six (6) months prior to their transfer to the department.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

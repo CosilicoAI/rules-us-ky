@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/16.220"/>
+          <FRBRuri value="/us-ky/act/krs/16.220"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/16.220/eng"/>
+          <FRBRuri value="/us-ky/act/krs/16.220/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/16.220/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/16.220/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_220">
+        <num>16.220</num>
+        <content>
+          <p>In awarding grants under this section, the Kentucky Office of Homeland Security shall give first priority to providing and replacing body armor and second priority to providing firearms and ammunition, with residual funds available for the purchase of body-worn cameras, electronic control devices, electronic control weapons, or electro-muscular disruption technology. Body armor purchased by the department receiving grant funds shall meet or exceed the standards issued by the National Institute of Justice for body armor. No police or sheriff’s department shall apply for a grant to replace existing body armor unless that body armor has been in actual use for a period of five (5) years or longer. Any department applying for grant funds for body-worn cameras shall develop a policy for their use and shall submit that policy with its application for the grant funds to the Office of Homeland Security as part of the application process.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

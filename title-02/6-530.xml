@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/6.530"/>
+          <FRBRuri value="/us-ky/act/krs/6.530"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/6.530/eng"/>
+          <FRBRuri value="/us-ky/act/krs/6.530/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/6.530/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/6.530/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6_530">
+        <num>6.530</num>
+        <content>
+          <p>There is hereby established, within the Legislators’ Retirement Plan, a state fund to be known as the Legislators’ Retirement Fund, which shall consist of the plan members’ contributions, state appropriations to the fund, transfers of money as provided in  and Section 25 of Acts 1980, , and earnings from investment of the fund. The fund may have a subordinate administrative account. The benefits provided to be paid by reason of membership in the Legislators’ Retirement Plan shall not be chargeable to any other retirement fund.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/158.303"/>
+          <FRBRuri value="/us-ky/act/krs/158.303"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/158.303/eng"/>
+          <FRBRuri value="/us-ky/act/krs/158.303/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/158.303/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/158.303/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_158_303">
+        <num>158.303</num>
+        <content>
+          <p>Kentucky schools are encouraged to include a segment concentrating on the prevention of pediatric abusive head trauma, as defined in , during a student’s final year of study at Kentucky high schools. Important areas of concentration for this segment would include information related to the prevention and recognition of pediatric abusive head trauma. This segment should also suggest methods of calming crying infants, techniques for caregivers to use to calm themselves when confronted with an infant that is crying inconsolably, and a discussion relating to selecting responsible care providers for infant children.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

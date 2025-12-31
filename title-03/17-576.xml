@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/17.576"/>
+          <FRBRuri value="/us-ky/act/krs/17.576"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/17.576/eng"/>
+          <FRBRuri value="/us-ky/act/krs/17.576/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/17.576/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/17.576/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_17_576">
+        <num>17.576</num>
+        <content>
+          <p>Communications made in the course of comprehensive sex offender presentence evaluations or treatment to the approved provider and any employee of the approved provider who is assigned to assist in the assessments shall be privileged from disclosure in any civil or criminal proceeding, other than to determine sentence, unless the offender consents in writing to the disclosure or the communication is related to an ongoing criminal investigation. The sexual offender shall be informed in writing of the limits of the privilege created in this section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

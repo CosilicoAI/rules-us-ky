@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/425.056"/>
+          <FRBRuri value="/us-ky/act/krs/425.056"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/425.056/eng"/>
+          <FRBRuri value="/us-ky/act/krs/425.056/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/425.056/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/425.056/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_425_056">
+        <num>425.056</num>
+        <content>
+          <p>Neither the failure of the defendant to oppose the issuance of a writ of possession under this chapter nor his failure to rebut any evidence produced by the plaintiff in connection with proceedings under this chapter shall constitute a waiver of any defense to plaintiff’s claim in the action or any other action or have any effect on the right of the defendant to produce or exclude evidence at the trial of any such action.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

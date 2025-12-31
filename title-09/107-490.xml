@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/107.490"/>
+          <FRBRuri value="/us-ky/act/krs/107.490"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/107.490/eng"/>
+          <FRBRuri value="/us-ky/act/krs/107.490/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/107.490/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/107.490/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_107_490">
+        <num>107.490</num>
+        <content>
+          <p>In order to avoid duplication of functions within the area of the district, the district shall contract with the county for the performance of administrative functions, and all expenditures proposed by the district shall be submitted to the county judge/executive for approval, subject to confirmation by the fiscal court; provided, however, that when a project has been undertaken and bonds issued after initial approval by the fiscal court as required by , the board shall be required to continue any contribution which it has contracted to continue as provided in , to the extent of the income and revenue provided to the board.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

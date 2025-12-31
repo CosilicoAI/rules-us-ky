@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/95.763"/>
+          <FRBRuri value="/us-ky/act/krs/95.763"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/95.763/eng"/>
+          <FRBRuri value="/us-ky/act/krs/95.763/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/95.763/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/95.763/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_95_763">
+        <num>95.763</num>
+        <content>
+          <p>The mayor, by and with the approval of the legislative body, shall appoint three (3) citizens, who have been taxpayers and voters of the city for five (5) years previous to their appointment, and who shall not be less than thirty (30) years of age, who shall constitute the civil service commission of said city. Such appointees shall originally be appointed for one (1) year, two (2) years and three (3) years, respectively, and the successors of such appointees shall be appointed in like manner, each for a period of three (3) years. Any member of the civil service commission shall be eligible for reappointment. Vacancies shall be filled in the same manner as appointments of said commissioners are made, provided that any person appointed to fill a vacancy shall serve only to the end of the term of the commissioner whose office was vacated. Said commissioners shall elect one (1) of their members as chairman and one (1) as secretary of the civil service commission. Each of said commissioners shall qualify by taking the oath as prescribed by the Constitution of Kentucky.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

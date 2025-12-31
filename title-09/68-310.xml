@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/68.310"/>
+          <FRBRuri value="/us-ky/act/krs/68.310"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/68.310/eng"/>
+          <FRBRuri value="/us-ky/act/krs/68.310/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/68.310/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/68.310/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_68_310">
+        <num>68.310</num>
+        <content>
+          <p>Except in case of an emergency concerning which the county judge/executive, the fiscal court and the state local finance officer unanimously agree in writing, and, except for encumbrances or expenditures from the county’s road fund, no county shall, during the first half of any fourth fiscal year, beginning with the fiscal year 1998-1999, encumber or expend more than sixty-five percent (65%) in any fund budgeted for that fiscal year, not counting as current funds any budgetary allotments for or payments of principal and interest of bonded indebtedness. Prior to encumbering or expending any funds from the road fund during the first half of any fourth fiscal year which exceed sixty-five percent (65%) of the amount budgeted, the fiscal court shall assure that there are sufficient funds remaining in the general fund to provide for the excess encumbrance or expenditure from the road fund on a dollar for dollar basis. Those excess funds shall remain in the general fund until on or after January 1 of that fiscal year.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

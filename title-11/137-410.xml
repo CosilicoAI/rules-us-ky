@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/137.410"/>
+          <FRBRuri value="/us-ky/act/krs/137.410"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/137.410/eng"/>
+          <FRBRuri value="/us-ky/act/krs/137.410/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/137.410/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/137.410/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_137_410">
+        <num>137.410</num>
+        <content>
+          <p>Every municipal corporation of the Commonwealth may levy a tax on coin machines. Coin machines shall include any lawful coin or token-operated machine or device which contains no element of chance and which as a result of depositing a coin, token, or other object automatically or by some mechanical operation affords music or amusement of some character with or without vending any merchandise, but in addition to any merchandise. Coin machines shall not include any bona fide merchandise vending machine in which there are no amusement features. Any license tax so imposed by a municipal corporation shall not exceed ten dollars ($10) per machine, except that cities of the first class may levy taxes equal to twenty dollars ($20) per machine.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

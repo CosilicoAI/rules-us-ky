@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/281.751"/>
+          <FRBRuri value="/us-ky/act/krs/281.751"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/281.751/eng"/>
+          <FRBRuri value="/us-ky/act/krs/281.751/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/281.751/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/281.751/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_281_751">
+        <num>281.751</num>
+        <content>
+          <p>Trailers or semitrailers which are operated by carriers or motor carriers under the jurisdiction of this department shall be registered by the owner or operator thereof applying to the county clerk of the county in which he resides or in which such vehicle is principally operated, in accordance with ; provided, however, that the provisions of this section do not apply to the following:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

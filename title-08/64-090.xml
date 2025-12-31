@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/64.090"/>
+          <FRBRuri value="/us-ky/act/krs/64.090"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/64.090/eng"/>
+          <FRBRuri value="/us-ky/act/krs/64.090/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/64.090/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/64.090/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_64_090">
+        <num>64.090</num>
+        <content/>
+        <subsection eId="sec_64_090__subsec_aa">
+          <num>(aa)</num>
+          <content>
+            <p>All services under a writ issued under  to . . . . . 10.00;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_64_090__subsec_bb">
+          <num>(bb)</num>
+          <content>
+            <p>Fingerprinting persons for professional, trade, or commercial purposes, or for personal use, per set of impressions
+    . . . . . 10.00;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_64_090__subsec_cc">
+          <num>(cc)</num>
+          <content>
+            <p>Taking or copying photographs for professional, trade, or commercial purposes, or for personal use, per photograph
+    . . . . . 5.00; and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_64_090__subsec_dd">
+          <num>(dd)</num>
+          <content>
+            <p>For services in summoning grand and petit jurors and performing his or her duties under KRS  the sheriff shall be allowed, for each person so summoned, and paid out of the State Treasury for constructive service the sum of $1.50 and for personal service the sum of $3.00.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

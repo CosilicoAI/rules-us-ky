@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/5.117"/>
+          <FRBRuri value="/us-ky/act/krs/5.117"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/5.117/eng"/>
+          <FRBRuri value="/us-ky/act/krs/5.117/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/5.117/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/5.117/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_117">
+        <num>5.117</num>
+        <content>
+          <p>The Seventeenth Senatorial District shall consist of the following territory:</p>
+          <p>—CENSUS— COUNTY PREC NAME TRACT BLK SECT GRANT KENTON B101 BRACHT KENTON B115 INDEPENDENCE #1 KENTON B116 INDEPENDENCE #2 KENTON B117 INDEPENDENCE #3 KENTON B118 INDEPENDENCE #4 KENTON B119 MORNINGVIEW KENTON B120 NICHOLSON #1 KENTON B121 NICHOLSON #2 KENTON B122 OAKRIDGE KENTON B123 PINER KENTON B126 TAYLOR MILL #1 KENTON B127 TAYLOR MILL #2 KENTON B128 TAYLOR MILL #3 KENTON B129 VISALIA KENTON B130 WHITES TOWER KENTON B131 INDEPENDENCE #5 KENTON B132 INDEPENDENCE #6 KENTON B133 INDEPENDENCE #7 KENTON B134 INDEPENDENCE #8 KENTON B136 INDEPENDENCE #9 KENTON B137 INDEPENDENCE #10 SCOTT</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

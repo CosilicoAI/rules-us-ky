@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/68.210"/>
+          <FRBRuri value="/us-ky/act/krs/68.210"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/68.210/eng"/>
+          <FRBRuri value="/us-ky/act/krs/68.210/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/68.210/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/68.210/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_68_210">
+        <num>68.210</num>
+        <content>
+          <p>The administration of the county uniform budget system shall be under the supervision of the state local finance officer who may inspect and shall supervise the administration of accounts and financial operations and shall prescribe and shall install, by July 1, 1985, a system of uniform accounts for all counties and county officials. Subsequent to every regular and extraordinary session of the General Assembly he shall review the county uniform budget system to determine if it is consistent with state law and generally accepted accounting practices. If he finds the system to be inconsistent with state law or to contain obsolete accounting practices, he shall revise it accordingly. He may require all officials of all local governments and local taxing districts to submit such financial reports as he may deem proper. He may investigate, examine, and supervise the accounts and operations of all local governments and local government officers. This section does not impose upon or transfer to the state local finance officer any post audit functions.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/214.555"/>
+          <FRBRuri value="/us-ky/act/krs/214.555"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/214.555/eng"/>
+          <FRBRuri value="/us-ky/act/krs/214.555/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/214.555/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/214.555/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_214_555">
+        <num>214.555</num>
+        <content>
+          <p>“Your X-ray mammogram shows that your breast tissue is dense. Dense breast tissue is common among women and is not abnormal. However, women with dense breast tissue may have a slightly increased risk for developing breast cancer. Dense breast tissue may also make it more difficult to detect an early breast cancer on your X-ray mammogram. At this time, there are no specific recommendations for additional screening or other measures related to having dense breast tissue. However, you may want to talk to your doctor about other ways that you might be able to reduce your risk of breast cancer. A report of your results was sent to your ordering physician. If you are self-referred, a report of your results was sent to you in addition to this summary.”</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

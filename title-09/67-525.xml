@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/67.525"/>
+          <FRBRuri value="/us-ky/act/krs/67.525"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/67.525/eng"/>
+          <FRBRuri value="/us-ky/act/krs/67.525/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/67.525/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/67.525/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_67_525">
+        <num>67.525</num>
+        <content>
+          <p>The sinking fund shall be deposited in a depositary selected by the county buildings commission. The deposit, where practicable, shall be continuously secured by a pledge to the county buildings commission of direct obligations of the United States, exclusive of accrued interest, at all times at least equal to the balance on deposit in the account or in some other manner acceptable to the purchasers or holders of the bonds. The securities shall be deposited with the county buildings commission or held by a trustee or agent satisfactory to such commission. The sinking fund may be invested in direct obligations of the United States.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

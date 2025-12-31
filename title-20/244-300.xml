@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/244.300"/>
+          <FRBRuri value="/us-ky/act/krs/244.300"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/244.300/eng"/>
+          <FRBRuri value="/us-ky/act/krs/244.300/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/244.300/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/244.300/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_244_300">
+        <num>244.300</num>
+        <content>
+          <p>No retailer selling distilled spirits and wine by the package or by the drink shall sell, deliver, or give away, or cause, permit or procure to be sold, delivered, or given away any distilled spirits or wine on credit, except that a bona fide licensed private club, restaurant, or hotel may sell on reasonable credit to its members, customers, or registered guests. Sales by any retailer selling distilled spirits or wine by the package or by the drink may be made by use of national or bank credit cards wherein the credit card company has agreed to payment to the licensee for such charges. However, nothing in this section shall be construed to authorize a licensee to issue its own credit cards or extend a personal credit to patrons.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

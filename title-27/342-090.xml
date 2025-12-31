@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/342.090"/>
+          <FRBRuri value="/us-ky/act/krs/342.090"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/342.090/eng"/>
+          <FRBRuri value="/us-ky/act/krs/342.090/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/342.090/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/342.090/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_342_090">
+        <num>342.090</num>
+        <content>
+          <p>Payment of death benefits in good faith to a supposed dependent or to a dependent subsequent in right to another or other dependents shall protect and discharge the employer and insurer unless and until the lawful dependent or dependents prior in right have given the employer or insurer written notice of his or their claim. In case the employer or insurer is in doubt as to who are dependents or as to their respective rights, the administrative law judge shall, on application, decide and direct to whom payment shall be made, and payment made under such direction shall release the employer and insurer from all liability. If an appeal is taken from the order of the administrative law judge directing payment, persons receiving payment under such order shall furnish bond for the protection of adverse claimants pending the outcome of the proceedings.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

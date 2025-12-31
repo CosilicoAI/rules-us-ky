@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/278.027"/>
+          <FRBRuri value="/us-ky/act/krs/278.027"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/278.027/eng"/>
+          <FRBRuri value="/us-ky/act/krs/278.027/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/278.027/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/278.027/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_278_027">
+        <num>278.027</num>
+        <content>
+          <p>When application required by  is made to the commission for a certificate that public convenience and necessity require the construction of a new electric transmission line of four hundred (400) kilovolts or more, during the thirty (30) days immediately preceding the public hearing on such application provided for in (1), the commission shall, on at least four (4) days, publish notice of such hearing in a newspaper or newspapers of general circulation in the counties and municipalities within which such transmission facility is proposed to be located in whole or in part. The commission shall not issue such a certificate for a new electric transmission line of four hundred (400) kilovolts or more unless the commission shall first determine that the proposed route of the line will reasonably minimize adverse impact on the scenic and environmental assets of the general area concerned, consistent with engineering and other technical and economic factors appropriate for consideration in determining the route of the line. At the said public hearing provided for in , all persons residing on or owning property affected by the proposed transmission facility may be heard.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

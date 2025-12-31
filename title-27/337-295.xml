@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/337.295"/>
+          <FRBRuri value="/us-ky/act/krs/337.295"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/337.295/eng"/>
+          <FRBRuri value="/us-ky/act/krs/337.295/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/337.295/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/337.295/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_337_295">
+        <num>337.295</num>
+        <content>
+          <p>Regulations issued by the commissioner under  to   and to may include, but are not limited to, regulations defining and governing bona fide executive, administrative, or professional employees; regulations governing learners, apprentices, workers with disabilities, sheltered workshop employees, and students, regulations governing outside salesmen; bonuses; part-time rates; special pay for special or extra work; allowances as part of the wage rates applicable under  for board, lodging, and gratuities; other facilities or services furnished by employers and used by employees; and other special items usual in a particular employer-employee relationship.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

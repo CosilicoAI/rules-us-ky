@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/174.400"/>
+          <FRBRuri value="/us-ky/act/krs/174.400"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/174.400/eng"/>
+          <FRBRuri value="/us-ky/act/krs/174.400/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/174.400/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/174.400/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_174_400">
+        <num>174.400</num>
+        <content>
+          <p>Due to the central geographical location of the Commonwealth with respect to the hazardous materials industry, and since most predictions indicate that the amount of hazardous material in transport should substantially increase in the future, it is the intent of  to to provide for the public health and safety of the citizens and to protect the environment of the Commonwealth when any hazardous material is being transported within, or, in the case of radioactive materials, within or through this state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

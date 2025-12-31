@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/46.020"/>
+          <FRBRuri value="/us-ky/act/krs/46.020"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/46.020/eng"/>
+          <FRBRuri value="/us-ky/act/krs/46.020/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/46.020/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/46.020/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_020">
+        <num>46.020</num>
+        <content>
+          <p>The Department for Local Government shall prepare, and shall cause to be printed and paid for in the same manner as other books, blanks, and records for counties and county officers, all books, blanks, and records necessary for the system of uniform accounting established under . The Department for Local Government shall deliver to each county, district, or other local officer charged with the duty of collecting, disbursing, or handling state funds the books, blanks, and records as are necessary for that officer. Each county, district, or other local officer receiving the books, blanks, or records shall use them in the performance of his duties with reference to the handling and disbursing of state funds. Any of these books, blanks, or records used by state officers or employees shall be printed and paid for in the same manner as other state printing.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

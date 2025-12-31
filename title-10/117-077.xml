@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/117.077"/>
+          <FRBRuri value="/us-ky/act/krs/117.077"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/117.077/eng"/>
+          <FRBRuri value="/us-ky/act/krs/117.077/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/117.077/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/117.077/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_117_077">
+        <num>117.077</num>
+        <content>
+          <p>In case of a medical emergency
+    within fourteen (14) days or less of an election, a registered voter and the
+    registered voter’s spouse may apply for an absentee ballot. The application
+    shall state that the emergency condition occurred within the fourteen (14)
+    day period. The application shall be notarized. The application form may be
+    requested by and delivered by the voter or the spouse, parents, or children
+    of the voter. If the voter has no spouse, parents, or children, the application
+    form may be requested by and delivered by the brother, sister, niece, nephew,
+    or designee of the voter. The application form shall be restricted to the
+    use of the voter. Upon receipt of the application and verification, the county
+    clerk shall issue an absentee ballot.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

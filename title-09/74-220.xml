@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/74.220"/>
+          <FRBRuri value="/us-ky/act/krs/74.220"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/74.220/eng"/>
+          <FRBRuri value="/us-ky/act/krs/74.220/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/74.220/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/74.220/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_74_220">
+        <num>74.220</num>
+        <content>
+          <p>The assessment roll as made up by the commission shall be prima facie evidence in all courts that all steps necessary to be taken have been properly taken, and that all proceedings are regular and valid. The commission may enforce liens under this chapter by an action against the land in the Circuit Court at any time after January 1 of the year for which the assessments were levied. The right to institute such an action shall not prevent sales by the collecting officer as in cases of delinquent state and county taxes. The proceeds of sales in actions under this section shall be paid into the treasury of the district.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

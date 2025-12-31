@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/161.170"/>
+          <FRBRuri value="/us-ky/act/krs/161.170"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/161.170/eng"/>
+          <FRBRuri value="/us-ky/act/krs/161.170/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/161.170/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/161.170/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_161_170">
+        <num>161.170</num>
+        <content>
+          <p>Each teacher in the public schools shall enforce the course of study, the use of the legally authorized textbooks, and the rules and regulations prescribed for the schools. If any teacher willfully refuses or neglects to comply with the law or such rules and regulations, the local superintendent may remove him at any time. When so removed the teacher shall receive payment only for the time taught.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

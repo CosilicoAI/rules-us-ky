@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/162.290"/>
+          <FRBRuri value="/us-ky/act/krs/162.290"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/162.290/eng"/>
+          <FRBRuri value="/us-ky/act/krs/162.290/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/162.290/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/162.290/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_162_290">
+        <num>162.290</num>
+        <content>
+          <p>to and  to are additional and alternate methods for the acquisition of school buildings by boards of education of independent districts embracing cities of any class, and do not include, alter, amend, or repeal any other statute. No proceeding shall be required for the acquisition of any school building or the issuance of bonds under  to except such as are prescribed by those sections.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

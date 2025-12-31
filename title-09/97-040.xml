@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/97.040"/>
+          <FRBRuri value="/us-ky/act/krs/97.040"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/97.040/eng"/>
+          <FRBRuri value="/us-ky/act/krs/97.040/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/97.040/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/97.040/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_97_040">
+        <num>97.040</num>
+        <content>
+          <p>Any authority in which is vested the power to provide, conduct and maintain parks, playgrounds, and recreation centers under  or  may accept any grant or devise of real estate or any bequest or gift of money or any donation, the principal or income of which is to be used for park, playground, or recreation purposes. Money received for such purposes shall, unless otherwise provided by the terms of the bequest, be deposited with the treasurer or department of finance of the city or with the county treasurer or treasurer of the joint board to the account of the authority having charge of such parks, playgrounds, and recreation centers and may be withdrawn and paid out in the same manner as money appropriated for recreational purposes.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

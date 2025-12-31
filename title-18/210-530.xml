@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/210.530"/>
+          <FRBRuri value="/us-ky/act/krs/210.530"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/210.530/eng"/>
+          <FRBRuri value="/us-ky/act/krs/210.530/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/210.530/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/210.530/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_210_530">
+        <num>210.530</num>
+        <content>
+          <p>The Governor is authorized and empowered to designate an officer who shall be the compact administrator and who, acting jointly with like officers of other party states, shall have power to promulgate rules and regulations to carry out more effectively the terms of the compact. The compact administrator shall serve subject to the pleasure of the Governor, and is authorized, empowered, and directed to cooperate with all cabinets, agencies, and officers of and in the government of this state and its subdivisions in facilitating the proper administration of the compact or of any supplementary agreement or agreements entered into by this state thereunder.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

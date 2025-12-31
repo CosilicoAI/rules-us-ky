@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/610.050"/>
+          <FRBRuri value="/us-ky/act/krs/610.050"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/610.050/eng"/>
+          <FRBRuri value="/us-ky/act/krs/610.050/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/610.050/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/610.050/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_610_050">
+        <num>610.050</num>
+        <content>
+          <p>If it appears to the court, by affidavit or by sworn testimony, that the child is a danger to himself or the community, or is in such condition or surroundings that his welfare is being harmed or threatened with harm to such a degree that his best interest requires that his custody be immediately changed by the court from the original custodian to another, the judge may sign an order giving temporary custody of the child to a suitable custodian consenting to temporary custody. However, if this case involves allegations of dependency, neglect, or abuse, no emergency removal or temporary custody orders shall be effective unless the provisions of KRS  are followed; and, if the case involves allegations of mental illness, the provisions of KRS  shall be followed. As a part of such order, the court may direct that the child shall be taken into custody by the peace officer serving the summons or by any other peace officer and placed as directed by the court. In any event, a copy of the temporary custody order shall be served on the parent, guardian or other person exercising custodial control or supervision of the child when the summons is served. The temporary custody order shall be effective until the case is heard on its merits or until modified by the court. As a result of such order, the child shall be placed in custody and care in a home or other suitable facility.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

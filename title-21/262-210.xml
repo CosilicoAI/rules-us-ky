@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/262.210"/>
+          <FRBRuri value="/us-ky/act/krs/262.210"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/262.210/eng"/>
+          <FRBRuri value="/us-ky/act/krs/262.210/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/262.210/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/262.210/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_262_210">
+        <num>262.210</num>
+        <content>
+          <p>Nominating petitions shall be filed with the clerk of the county in which the district lies to nominate candidates for supervisors of the district. Such petitions shall be filed by at least the last date prescribed by the election law generally for filing certificates of nomination prior to a general election. Such petitions shall be filed no later than 4 p.m. local time at the place of filing when filed on the last date on which such papers are permitted to be filed. Each nominating petition shall be subscribed by twenty-five (25) or more qualified voters who are residents of the territory to be encompassed by the district. Resident qualified voters may join in nominating by petition more than one (1) candidate for supervisor. The nominating petition shall state the residence and post office address of each candidate, that he is legally qualified to hold the office, and that the subscribers desire, and are legally qualified, to vote for the candidate. The county clerk shall certify the nomination and election of supervisors to the commission.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

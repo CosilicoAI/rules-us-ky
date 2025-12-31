@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/324.2812"/>
+          <FRBRuri value="/us-ky/act/krs/324.2812"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/324.2812/eng"/>
+          <FRBRuri value="/us-ky/act/krs/324.2812/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/324.2812/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/324.2812/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_324_2812">
+        <num>324.2812</num>
+        <content>
+          <p>Nothing in this chapter or the administrative regulations promulgated under the authority of this chapter shall extend the jurisdiction of the Kentucky Real Estate Commission to community association managers and the management or business activities of not-for-profit community associations, which includes townhouse, condominium, homeowner, or neighborhood associations.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

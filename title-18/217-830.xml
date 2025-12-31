@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/217.830"/>
+          <FRBRuri value="/us-ky/act/krs/217.830"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/217.830/eng"/>
+          <FRBRuri value="/us-ky/act/krs/217.830/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/217.830/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/217.830/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_217_830">
+        <num>217.830</num>
+        <content>
+          <p>Every pharmacy shall post a sign in a location easily seen by patrons at the counter where prescriptions are dispensed stating that: “This pharmacy is required to dispense the lowest priced generic drug in stock which is therapeutically equivalent to the one prescribed for you by your doctor unless you or your doctor do not approve. Ask your pharmacist.” The printing on the sign shall be in letters not less than one (1) inch in height.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

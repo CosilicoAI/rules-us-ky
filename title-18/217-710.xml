@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/217.710"/>
+          <FRBRuri value="/us-ky/act/krs/217.710"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/217.710/eng"/>
+          <FRBRuri value="/us-ky/act/krs/217.710/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/217.710/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/217.710/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_217_710">
+        <num>217.710</num>
+        <content>
+          <p>Before any violation of  to is reported to the Commonwealth’s, county or city attorney for institution of a criminal proceeding, the person against whom such proceeding is contemplated may be given appropriate notice and an opportunity to present his views to the cabinet, either orally or in writing, with regard to such contemplated proceeding. Nothing in  to shall be construed as requiring the cabinet to report for prosecution minor violations of  to whenever it believes that the public interest will be best served by a suitable notice of warning in writing.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

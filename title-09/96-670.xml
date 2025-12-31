@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/96.670"/>
+          <FRBRuri value="/us-ky/act/krs/96.670"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/96.670/eng"/>
+          <FRBRuri value="/us-ky/act/krs/96.670/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/96.670/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/96.670/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_96_670">
+        <num>96.670</num>
+        <content>
+          <p>Any action challenging the validity of any ordinance electing to operate under  to or any election resolution, bond resolution, or election adopted or held thereunder, shall be brought within sixty (60) days from the date on which such ordinance or election resolution or bond resolution was adopted or election held, as the case may be, and if not brought within such time shall be forever barred.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

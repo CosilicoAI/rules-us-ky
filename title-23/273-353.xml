@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/273.353"/>
+          <FRBRuri value="/us-ky/act/krs/273.353"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/273.353/eng"/>
+          <FRBRuri value="/us-ky/act/krs/273.353/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/273.353/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/273.353/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_273_353">
+        <num>273.353</num>
+        <content>
+          <p>Upon the voluntary or involuntary dissolution of a corporation, the portion of the assets distributable to any person who is unknown or cannot be found, or who is under disability and there is no person legally competent to receive such distributive portion, shall be reduced to cash and deposited with the State Treasurer and shall be paid over to such person or to his legal representative upon proof satisfactory to the State Treasurer of his right thereto.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

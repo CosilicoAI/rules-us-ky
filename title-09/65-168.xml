@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/65.168"/>
+          <FRBRuri value="/us-ky/act/krs/65.168"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/65.168/eng"/>
+          <FRBRuri value="/us-ky/act/krs/65.168/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/65.168/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/65.168/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_65_168">
+        <num>65.168</num>
+        <content>
+          <p>Any petitioner or member of the district board of directors may, within thirty (30) days of the fiscal court’s decision, appeal an adverse finding of the fiscal court to the Circuit Court in the county containing the greater part of the district. The Circuit Court shall review the decision of the fiscal court but shall reverse the decision only if such decision is found to be arbitrary or capricious. If the Circuit Court reverses the decision of the fiscal court by ordering the alteration or dissolution of the district, it shall direct the fiscal court to determine, as provided in subsection (5) of , a method for satisfying any legal obligations of the district which might be affected thereby.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/97.740"/>
+          <FRBRuri value="/us-ky/act/krs/97.740"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/97.740/eng"/>
+          <FRBRuri value="/us-ky/act/krs/97.740/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/97.740/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/97.740/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_97_740">
+        <num>97.740</num>
+        <content>
+          <p>The commission may use and permit the use of the memorial for conventions, theatrical and musical performances, public entertainments and other like meetings or assemblages, and may collect reasonable charges therefor, except where such use is for purposes of such a distinct civic character or purely public benefit as shall, in the discretion of the commission, render any charge for such use undesirable. All revenues thus derived shall be held and used by the commission to the extent necessary to maintain and operate the memorial, and to provide for a replacement and improvement fund as provided for in , with balances to be covered with the city treasury under certain circumstances as provided in  to</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

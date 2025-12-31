@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/5.120"/>
+          <FRBRuri value="/us-ky/act/krs/5.120"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/5.120/eng"/>
+          <FRBRuri value="/us-ky/act/krs/5.120/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/5.120/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/5.120/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_120">
+        <num>5.120</num>
+        <content>
+          <p>The Twentieth Senatorial District shall consist of the following territory:</p>
+          <p>—CENSUS— COUNTY PREC NAME TRACT BLK SECT CARROLL HENRY JEFFERSON B152 PRECINCT 152 29 DISTRICT JEFFERSON B165 PRECINCT 165 29 DISTRICT JEFFERSON B170 PRECINCT 170 29 DISTRICT JEFFERSON B171 PRECINCT 171 29 DISTRICT JEFFERSON B174 PRECINCT B174 29 DISTRICT JEFFERSON B176 PRECINCT 176 29 DISTRICT JEFFERSON D116 PRECINCT 116 31 DISTRICT JEFFERSON D120 PRECINCT 120 31 DISTRICT JEFFERSON D122 PRECINCT 122 31 DISTRICT JEFFERSON D137 PRECINCT 137 31 DISTRICT JEFFERSON D141 PRECINCT 141 31 DISTRICT JEFFERSON D142 PRECINCT 142 31 DISTRICT JEFFERSON D143 PRECINCT 143 31 DISTRICT JEFFERSON E166 PRECINCT 166 32 DISTRICT JEFFERSON E167 PRECINCT 167 32 DISTRICT JEFFERSON F111 PRECINCT 111 33 DISTRICT JEFFERSON F126 PRECINCT 126 33 DISTRICT JEFFERSON F143 PRECINCT 143 33 DISTRICT JEFFERSON F149 PRECINCT 149 33 DISTRICT JEFFERSON F150 PRECINCT 150 33 DISTRICT JEFFERSON F162 PRECINCT 162 33 DISTRICT SHELBY TRIMBLE</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

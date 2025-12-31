@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/161.260"/>
+          <FRBRuri value="/us-ky/act/krs/161.260"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/161.260/eng"/>
+          <FRBRuri value="/us-ky/act/krs/161.260/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/161.260/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/161.260/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_161_260">
+        <num>161.260</num>
+        <content>
+          <p>An election shall be held on or before June 1 of each year to elect trustees. The trustees to be elected each year shall depend upon the respective terms of the trustees elected under Acts 1938 (1st Ex. Sess.), Ch. 1, paragraph 7 and Acts 1940, Ch. 192, paragraph 7a, and . Each trustee shall assume office on July 1 following his election and shall serve for a term of four (4) years. The elections shall be conducted by ballot under the supervision of the chief state school officer. Each person who is a contributing member as a result of full-time employment in a position covered by the retirement system or who is an annuitant of the retirement system shall have the right to vote. Each person who is a contributing member as a result of part-time or substitute employment in a position covered by the retirement system shall be permitted to vote as provided in . Nominations for trustees shall be made by a nominating committee consisting of one (1) committee member selected by the retirement system membership of each of the districts of the Kentucky Education Association, and one (1) committee member to be selected by retired teachers, on a statewide basis, from among the annuitants of the retirement system. No person may be a member of the nominating committee who is not a member of the system, except for the committee member to be selected from among the annuitants of the system. The president of the Kentucky Education Association shall preside over the meeting of the nominating committee and the secretary of the Teachers’ Retirement System shall act as secretary to the committee. Two (2) persons shall be nominated by the nominating committee for each position to be filled. All expenses of the election shall be paid by the board of trustees out of its general expense fund.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

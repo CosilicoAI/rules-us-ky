@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/250.710"/>
+          <FRBRuri value="/us-ky/act/krs/250.710"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/250.710/eng"/>
+          <FRBRuri value="/us-ky/act/krs/250.710/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/250.710/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/250.710/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_250_710">
+        <num>250.710</num>
+        <content>
+          <p>The Commissioner shall notify any applicant or owner by certified mail, return receipt requested of any decision to refuse to grant a registration or to revoke a registration within ten (10) days after the decision, and the applicant or owner shall have thirty (30) days after the notification within which to petition the Commissioner for a hearing to be conducted in accordance with KRS . If the applicant or owner is aggrieved by the final order, the applicant or owner may appeal the final order to the Franklin Circuit Court in accordance with KRS . If the owner takes an appeal within the time herein provided, the revocation by the Commissioner shall not become final until finally adjudicated; however, the Commissioner may require the posting of a reasonable and appropriate bond pending final adjudication.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

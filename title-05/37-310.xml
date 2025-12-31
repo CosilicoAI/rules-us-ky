@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/37.310"/>
+          <FRBRuri value="/us-ky/act/krs/37.310"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/37.310/eng"/>
+          <FRBRuri value="/us-ky/act/krs/37.310/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/37.310/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/37.310/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_37_310">
+        <num>37.310</num>
+        <content>
+          <p>If any member of the active militia, when on duty or assembled therefor under competent authority or lawful order, shall do any act in the discharge of his duty, the doing of which causes him to be proceeded against by civil court action, it shall be the duty of the Attorney General to represent the member of the active militia in any civil proceedings so begun. If, under the same conditions, a member of the active militia is proceeded against in a criminal action, the adjutant general may, with the approval of the Governor, appoint for said member of the active militia, legal counsel, who shall represent said member in any criminal proceedings so begun. The compensation paid the legal counsel shall be fixed by the adjutant general, with the written approval of the Governor, and upon proper certification shall be paid from the appropriation for the Department of Military Affairs as other claims against that department are paid.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

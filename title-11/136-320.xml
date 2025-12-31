@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/136.320"/>
+          <FRBRuri value="/us-ky/act/krs/136.320"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/136.320/eng"/>
+          <FRBRuri value="/us-ky/act/krs/136.320/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/136.320/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/136.320/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_136_320">
+        <num>136.320</num>
+        <content>
+          <p>Every company subject to the tax imposed by this subsection shall, by March 1 of each year, return to the Department of Revenue a statement under oath of all premium receipts on business done in this state during the preceding calendar year or since the last return was made. “Premium receipts” includes single premiums, premiums received for original insurance, premiums received for renewal, revival, or reinstatement of the policies, annual and periodical premiums, dividends applied for premiums and additions, and all other premium payments received on policies that have been written in this state, or on the lives of residents of this state, or out of this state on business done in this state, less returned premiums. No deduction shall be made for dividends on life insurance but dividends on accident and health insurance policies may be deducted.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

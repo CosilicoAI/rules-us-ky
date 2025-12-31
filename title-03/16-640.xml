@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/16.640"/>
+          <FRBRuri value="/us-ky/act/krs/16.640"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/16.640/eng"/>
+          <FRBRuri value="/us-ky/act/krs/16.640/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/16.640/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/16.640/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_640">
+        <num>16.640</num>
+        <content>
+          <p>The government and control of the system is hereby vested in the board of trustees of the Kentucky Retirement Systems. The board shall carry out the provisions of  to in the same manner in which it administers the Kentucky Employees Retirement System. In all matters concerning the administration of  to  the same rights, duties, and obligations shall apply to the board, as now apply under the provisions of  to  except that members of the board, when acting for the State Police Retirement System, shall be paid a per diem of thirty dollars ($30) plus actual expenses.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

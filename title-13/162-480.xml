@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/162.480"/>
+          <FRBRuri value="/us-ky/act/krs/162.480"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/162.480/eng"/>
+          <FRBRuri value="/us-ky/act/krs/162.480/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/162.480/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/162.480/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_162_480">
+        <num>162.480</num>
+        <content>
+          <p>When an injury occurs to any building or its contents from fire, tornado, windstorm, cyclone, casualty, explosion, riot, or flood, the business director or secretary of the board of education shall, within thirty (30) days thereafter, prepare and file with the board a sworn written proof of loss, showing in detail the items of injury, and in detail an estimate of the extent of the financial loss and whether and to what extent the loss is covered by insurance, with the names of the companies, the number of the policies, and names of the agents. Before the board of education may appropriate any portion of the insurance fund, a committee appointed by the board shall report to the board in writing, making recommendations and answering in detail the following questions:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

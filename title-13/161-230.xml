@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/161.230"/>
+          <FRBRuri value="/us-ky/act/krs/161.230"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/161.230/eng"/>
+          <FRBRuri value="/us-ky/act/krs/161.230/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/161.230/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/161.230/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_161_230">
+        <num>161.230</num>
+        <content>
+          <p>The Teachers’ Retirement System is established as of July 1, 1940, for the purpose of providing retirement allowances for teachers, their beneficiaries, and survivors under the provisions of  and to  The Teachers’ Retirement System of the State of Kentucky shall be an independent agency and instrumentality of the Commonwealth and this status shall only be amended or changed by the General Assembly. It shall have the powers and the privileges of a corporation and shall be known as the “Teachers’ Retirement System of the State of Kentucky.” Its business shall be transacted, its funds invested, and its cash and securities held in that name, or in the name of its nominee provided that its nominee is authorized by board of trustees’ resolution solely for the purpose of facilitating the transfer of securities. The board of trustees may designate a nominee as provided in ; or it may name as nominee a partnership composed of selected trustees and employees of the system, and formed for the sole purpose of holding legal or registered title of such securities, and for the transfer of securities in accordance with directions of the board of trustees.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/212.640"/>
+          <FRBRuri value="/us-ky/act/krs/212.640"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/212.640/eng"/>
+          <FRBRuri value="/us-ky/act/krs/212.640/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/212.640/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/212.640/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_212_640">
+        <num>212.640</num>
+        <content>
+          <p>In any county containing a city, as defined in , the fiscal court of the county and the legislative body of the city may, by joint action, establish a city-county health department. The department when established shall be governed by a city-county board of health composed of twelve (12) members, one (1) of whom shall be either the mayor, city manager, or the designee of the city manager of the city, whichever is appointed by the city legislative body, one (1) of whom shall be the county judge/executive, one (1) of whom shall be a dentist, one (1) of whom shall be a registered nurse, and three (3) of whom shall be physicians, one (1) of whom shall be a veterinarian, one (1) of whom shall be an engineer engaged in the practice of civil or sanitary engineering, one (1) of whom shall be an optometrist, one (1) licensed pharmacist, and one (1) lay person knowledgeable in consumer affairs residing in each county and appointed in the same manner as county board of health members and to hold office as provided in .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

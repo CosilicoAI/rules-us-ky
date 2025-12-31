@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/396.155"/>
+          <FRBRuri value="/us-ky/act/krs/396.155"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/396.155/eng"/>
+          <FRBRuri value="/us-ky/act/krs/396.155/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/396.155/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/396.155/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_396_155">
+        <num>396.155</num>
+        <content>
+          <p>If any assets of the estate are encumbered by mortgage, pledge, lien, or secured interest, the personal representative may pay the encumbrance or any part thereof, renew or extend any obligation secured by the encumbrance or convey or transfer the assets to the creditor in satisfaction of his lien, in whole or in part, whether or not the holder of the encumbrance has presented a claim, if it appears to be for the best interest of the estate. Payment of an encumbrance does not increase the share of the distributee entitled to the encumbered assets unless the distributee is entitled to exoneration.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

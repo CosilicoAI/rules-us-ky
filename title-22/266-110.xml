@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/266.110"/>
+          <FRBRuri value="/us-ky/act/krs/266.110"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/266.110/eng"/>
+          <FRBRuri value="/us-ky/act/krs/266.110/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/266.110/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/266.110/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_266_110">
+        <num>266.110</num>
+        <content>
+          <p>The board of levee commissioners shall elect a president from its members for a term of four (4) years, and may prescribe who shall preside in his absence. It may make all necessary rules prescribing the duties of its presiding officer and its own government. The board shall also elect a secretary and a treasurer, for a term of four (4) years, or one (1) person to fill both offices. The secretary shall keep a record of the proceedings of all meetings and perform such other duties as the board prescribes. The treasurer shall receive and keep a distinct account of all money belonging to the board, make payments upon the orders of the board, and perform such other similar duties as the board may prescribe. The treasurer shall, before he begins his duties, execute bond to be approved by the board. The board may fix salaries for its officers and members and provide for the payment of any of its employees.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

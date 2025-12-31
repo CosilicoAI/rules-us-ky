@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/391.235"/>
+          <FRBRuri value="/us-ky/act/krs/391.235"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/391.235/eng"/>
+          <FRBRuri value="/us-ky/act/krs/391.235/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/391.235/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/391.235/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_391_235">
+        <num>391.235</num>
+        <content>
+          <p>If a surviving spouse has apparent title to property to which  to applies, a purchaser for value or a lender taking a security interest in the property takes his interest in the property free of any rights of the personal representative or an heir or devisee of the decedent. If a personal representative or an heir or devisee of the decedent has apparent title to property to which  to applies, a purchaser for value or a lender taking a security interest in the property takes his interest in the property free of any rights of the surviving spouse. A purchaser for value or a lender need not inquire whether a vendor or borrower acted properly. The proceeds of a sale or creation of a security interest shall be treated in the same manner as the property transferred to the purchaser for value or a lender.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

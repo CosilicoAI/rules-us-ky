@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/41.240"/>
+          <FRBRuri value="/us-ky/act/krs/41.240"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/41.240/eng"/>
+          <FRBRuri value="/us-ky/act/krs/41.240/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/41.240/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/41.240/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_41_240">
+        <num>41.240</num>
+        <content>
+          <p>The aggregate valuation of all pledged or provided collateral shall be reported to the State Treasurer and State Investment Commission by the state depository within ten (10) days of the close of each quarter after the date of deposit. Such value with respect to pledged collateral other than surety bonds shall be as of the end of the quarter or the preceding business day and, as to surety bonds, the market values shall be obtained from a reputable bond-pricing service. The State Treasurer and Governor may from time to time call for additional collateral to adequately secure the deposits as aggregate face or current market values may require, if the value of collateral is not compliant with state law as of the report date.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

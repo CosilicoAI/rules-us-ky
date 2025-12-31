@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/165.130"/>
+          <FRBRuri value="/us-ky/act/krs/165.130"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/165.130/eng"/>
+          <FRBRuri value="/us-ky/act/krs/165.130/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/165.130/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/165.130/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_165_130">
+        <num>165.130</num>
+        <content>
+          <p>Any work for which a bond issue has been provided may be done by contract or otherwise, in the discretion of the president and trustees of the university. When any contract involves the expenditure of two thousand dollars ($2,000) or more it shall be awarded to the lowest and best bidder. All bids or parts of bids for any such work, or for any supplies, may be rejected by the president and trustees. The president and trustees may do any part of the work by day labor when deemed advisable.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

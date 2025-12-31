@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/266.010"/>
+          <FRBRuri value="/us-ky/act/krs/266.010"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/266.010/eng"/>
+          <FRBRuri value="/us-ky/act/krs/266.010/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/266.010/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/266.010/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_266_010">
+        <num>266.010</num>
+        <content>
+          <p>In counties of less than 200,000 population, when it will be conducive to the public health, convenience or welfare or when it will be of public benefit or utility, a levee district may be created in accordance with the procedures of .  to apply only to levees that have or may receive government aid. All levee districts established prior to 1914 and now existing under the laws of Kentucky are vested with all the powers and rights conferred by  to and are not deprived of any rights previously acquired.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

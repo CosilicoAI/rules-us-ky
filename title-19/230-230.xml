@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/230.230"/>
+          <FRBRuri value="/us-ky/act/krs/230.230"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/230.230/eng"/>
+          <FRBRuri value="/us-ky/act/krs/230.230/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/230.230/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/230.230/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_230_230">
+        <num>230.230</num>
+        <content>
+          <p>The executive director shall cause to be kept a full record of all proceedings before the racing commission and shall preserve at its general office all books, maps, records, documents, licenses, and other papers of the racing commission. All records of the racing commission shall be open to inspection by the public during regular office hours. With approval of the racing commission, the executive director may enter into agreements with any state agency or political subdivision of the state, any postsecondary education institution, or any other person or entity to enlist assistance to implement the duties and responsibilities of the racing commission.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

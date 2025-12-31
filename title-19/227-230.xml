@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/227.230"/>
+          <FRBRuri value="/us-ky/act/krs/227.230"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/227.230/eng"/>
+          <FRBRuri value="/us-ky/act/krs/227.230/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/227.230/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/227.230/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_227_230">
+        <num>227.230</num>
+        <content>
+          <p>The commissioner shall appoint a state fire marshal, who shall appoint such deputy fire marshals, assistants, and employees as are necessary to exercise, discharge, or perform any power, duty or function vested in, imposed upon, or delegated to the state fire marshal by law or regulation. The state fire marshal, under the general direction of the commissioner, shall enforce and administer the provisions of this chapter and any other duties assigned by law or regulation. The chief of each fire department and the sheriff of each county shall be deemed deputies when ordered by the state fire marshal to act as such for their respective jurisdictions. Other deputy fire marshals may be appointed from the members of the fire department as the state fire marshal deems necessary.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

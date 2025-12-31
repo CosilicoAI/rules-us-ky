@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.377"/>
+          <FRBRuri value="/us-ky/act/krs/164.377"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.377/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.377/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.377/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.377/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_377">
+        <num>164.377</num>
+        <content>
+          <p>No person shall knowingly make or cause to be made any key, for which notice of the prohibition against duplication thereof has been given either by impressing into the key the legend “Unlawful to duplicate this key” or by placing the notice “It is unlawful to duplicate this key without the permission of the university.” Upon the receipt for the key which is to be signed by the recipient of the key, for any building, laboratory, facility, room, or other lock of any college or university which is supported wholly, or in part, by the Commonwealth of Kentucky, contrary to any administrative regulation respecting duplication of keys by the board of trustees of such college or university.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

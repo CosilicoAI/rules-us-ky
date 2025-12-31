@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/350.570"/>
+          <FRBRuri value="/us-ky/act/krs/350.570"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/350.570/eng"/>
+          <FRBRuri value="/us-ky/act/krs/350.570/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/350.570/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/350.570/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_350_570">
+        <num>350.570</num>
+        <content>
+          <p>then, upon giving notice by mail to the owners if known, or if not known, by posting notice upon the premises and advertising once in a newspaper of general circulation in the municipality or county in which the land lies, the cabinet and its authorized representatives, agents, and contractors shall have the right to enter upon the property adversely affected by past coal mining practices, and any other property to have access to such property to do all things necessary or expedient to restore, reclaim, abate, control, or prevent the adverse effects. Such entry shall be construed as an exercise of the police power for the protection of public health, safety, and general welfare and shall not be construed as an act of condemnation of property nor of trespass thereon. The moneys expended for such work and the benefits accruing to any such premises so entered upon shall be chargeable against such land and shall mitigate or offset any claim in or any action brought by any owner of any interest in such premises for any alleged damages by virtue of such entry: provided, however, that this provision is not intended to create new rights of action or eliminate existing immunities.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

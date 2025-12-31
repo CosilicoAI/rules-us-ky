@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/311.6191"/>
+          <FRBRuri value="/us-ky/act/krs/311.6191"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/311.6191/eng"/>
+          <FRBRuri value="/us-ky/act/krs/311.6191/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/311.6191/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/311.6191/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_311_6191">
+        <num>311.6191</num>
+        <content>
+          <p>Any member of the impaired physicians program created under , as well as any administrator, staff member, consultant, agent, or employee of the program acting within the scope of his or her duties and without actual malice, and all other persons who furnish information to the program in good faith and without actual malice, shall not be liable for any claim or damages as a result of any statement, decision, opinion, investigation, or action taken by the program, or by any individual member of the program.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

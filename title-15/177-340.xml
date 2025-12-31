@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/177.340"/>
+          <FRBRuri value="/us-ky/act/krs/177.340"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/177.340/eng"/>
+          <FRBRuri value="/us-ky/act/krs/177.340/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/177.340/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/177.340/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_340">
+        <num>177.340</num>
+        <content>
+          <p>If, within thirty
+    (30) days after consulting with a fiscal court, the Department of
+    Rural and Municipal Aid and the fiscal court fail to agree on the
+    selection of any rural and secondary roads for construction, reconstruction,
+    or maintenance under the Rural and Secondary Road Program, the department
+    may proceed toward the construction, reconstruction, or maintenance
+    of any road, which, in its discretion, is essential to a system of
+    secondary highways. Rural and secondary roads constructed, reconstructed,
+    or maintained in accordance with an agreement between the affected
+    county and the Department of Rural and Municipal Aid, or selected
+    for construction, reconstruction, or maintenance by the Department
+    of Rural and Municipal Aid, at its discretion, without agreement with
+    the affected county, may become a part of the highway system of the
+    Commonwealth of Kentucky at the discretion of the Department of Highways.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

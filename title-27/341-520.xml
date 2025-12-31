@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/341.520"/>
+          <FRBRuri value="/us-ky/act/krs/341.520"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/341.520/eng"/>
+          <FRBRuri value="/us-ky/act/krs/341.520/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/341.520/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/341.520/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_341_520">
+        <num>341.520</num>
+        <content>
+          <p>, and  to the extent that they relate to the unemployment trust fund, shall be operative only so long as that fund continues to exist and so long as the secretary of the federal treasury continues to maintain for this state a separate book account of all funds deposited therein by this state for benefit purposes, together with this state’s proportionate share of the earnings of that fund, from which no other state is permitted to make withdrawals. If the unemployment trust fund ceases to exist, or such separate book account is no longer maintained, all money, property or securities therein, belonging to the unemployment insurance fund of this state shall be transferred to the treasurer of the unemployment insurance fund, who shall hold, invest, transfer, sell, deposit, and release such money, property, or securities in a manner approved by the secretary and the Finance and Administration Cabinet, in accordance with this chapter. Such money shall be invested in bonds or other interest-bearing obligations of the United States of America. Investments shall at all times be so made that all the assets of the fund shall always be readily convertible into cash when needed for the payment of benefits. The State Treasurer shall dispose of securities or other property belonging to the unemployment insurance fund only under the direction of the secretary and the secretary of the Finance and Administration Cabinet.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

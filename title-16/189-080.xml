@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/189.080"/>
+          <FRBRuri value="/us-ky/act/krs/189.080"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/189.080/eng"/>
+          <FRBRuri value="/us-ky/act/krs/189.080/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/189.080/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/189.080/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_189_080">
+        <num>189.080</num>
+        <content>
+          <p>Every motor vehicle, when in use on a highway, shall be equipped with a horn or other device capable of making an abrupt sound sufficiently loud to be heard from a distance of at least two hundred (200) feet under all ordinary traffic conditions. Every person operating an automobile or bicycle shall sound the horn or sound device whenever necessary as a warning of the approach of such vehicle to pedestrians or other vehicles, but shall not sound the horn or sound device unnecessarily. A bell may be used on a bicycle.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

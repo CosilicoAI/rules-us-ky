@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/247.085"/>
+          <FRBRuri value="/us-ky/act/krs/247.085"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/247.085/eng"/>
+          <FRBRuri value="/us-ky/act/krs/247.085/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/247.085/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/247.085/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247_085">
+        <num>247.085</num>
+        <content>
+          <p>In addition to the other experiments carried on by the University of Kentucky at Lexington, Kentucky, the College of Agriculture of the University of Kentucky shall do research and supervise the extension program for the improvement of dairy cattle of the State of Kentucky, through the wide distribution of superior germ plasma of carefully chosen dairy cattle bulls in cooperation with the artificial breeding associations located in the State of Kentucky and to provide for developing improved methods of carrying on the work of artificial breeding and to train master technicians.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

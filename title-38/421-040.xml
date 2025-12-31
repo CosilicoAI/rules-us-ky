@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/421.040"/>
+          <FRBRuri value="/us-ky/act/krs/421.040"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/421.040/eng"/>
+          <FRBRuri value="/us-ky/act/krs/421.040/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/421.040/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/421.040/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_421_040">
+        <num>421.040</num>
+        <content>
+          <p>Each witness for the Commonwealth in a felony case shall, immediately after he testifies claim his attendance in open court. The claim may be allowed by the court and if it is allowed it shall be noted of record. Any person who has been subpoenaed or recognized as a witness in a felony case who fails to appear upon the calling of the case, is not entitled to claim as a witness in that case unless he files an affidavit from which it appears that he had a good excuse for failing to attend. When the affidavit is filed the court may allow the witness to claim his attendance. The clerk shall note on his order book the name of each witness who fails to attend the first day of the trial.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

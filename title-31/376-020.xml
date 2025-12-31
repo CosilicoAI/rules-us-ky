@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/376.020"/>
+          <FRBRuri value="/us-ky/act/krs/376.020"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/376.020/eng"/>
+          <FRBRuri value="/us-ky/act/krs/376.020/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/376.020/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/376.020/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_376_020">
+        <num>376.020</num>
+        <content>
+          <p>If the owner claims by executory contract and for any cause the contract is rescinded or set aside, the lien provided for in  shall follow the property into the hands of the person to whom the property may come or with whom it may remain by reason of the rescissions, but only to the extent that the actual value of the property is enhanced by the improvements so placed upon it.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

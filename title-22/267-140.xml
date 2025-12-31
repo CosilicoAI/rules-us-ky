@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/267.140"/>
+          <FRBRuri value="/us-ky/act/krs/267.140"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/267.140/eng"/>
+          <FRBRuri value="/us-ky/act/krs/267.140/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/267.140/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/267.140/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_267_140">
+        <num>267.140</num>
+        <content>
+          <p>Whenever the chief engineer makes a survey to locate a district or to change a natural watercourse that would cross the right-of-way of any railroad company the board shall serve written notice upon the local agent of the company, or its lessee or receiver, that the chief engineer or his assistant will meet the company at the place where the proposed improvement crosses the right-of-way of the company, at a time stated in the notice, at least ten (10) days after the service of the notice, to confer with the company concerning the place where and the manner in which the improvement shall cross the right-of-way. At this meeting, unless for good cause more time is agreed upon, the engineer and the railroad company shall agree, if possible, upon the place where and the manner and method in which the improvement shall cross the right-of-way. If the engineer and the railroad company cannot agree, or if the railroad company fails to confer with the engineer, he shall determine the place and manner of crossing the right-of-way, and shall specify the number and size of openings, and so state in his report.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

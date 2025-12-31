@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/211.210"/>
+          <FRBRuri value="/us-ky/act/krs/211.210"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/211.210/eng"/>
+          <FRBRuri value="/us-ky/act/krs/211.210/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/211.210/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/211.210/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_211_210">
+        <num>211.210</num>
+        <content>
+          <p>The cabinet may examine into all nuisances, sources of filth and causes of sickness that may in its opinion be injurious to the health of the inhabitants in any county in this state, or in any vessel within any harbor or port in any county in this state. Whenever any such nuisance, source of filth or cause of sickness is found to exist on any private property, or in any vessel within any port or harbor in any county in this state, or upon any watercourse in this state, the cabinet may order, in writing, the owner or occupant thereof, at his own expense, to remove the same within twenty-four (24) hours, or within such reasonable time thereafter, as the cabinet may order.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

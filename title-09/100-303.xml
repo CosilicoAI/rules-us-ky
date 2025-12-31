@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/100.303"/>
+          <FRBRuri value="/us-ky/act/krs/100.303"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/100.303/eng"/>
+          <FRBRuri value="/us-ky/act/krs/100.303/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/100.303/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/100.303/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_100_303">
+        <num>100.303</num>
+        <content>
+          <p>For the purpose of preserving the integrity of the official map of the city or county, no permit shall be issued for the construction or material alteration of any building within the lines of any streets, including right-of-way, watercourse, parks and playgrounds, public schools, or other public building sites shown on the official map, except as provided in this section. The official map of a city may include the area outside the city limits over which the approval of subdivision plats is required. Any persons desiring to construct or materially alter a building in the lines of any proposed facility shown on the official map shall apply to the administrative official of the city or county for a building permit. Unless such application is made and the permit is granted, no person shall recover any damages for the taking for public use of any structure or improvement constructed within the lines shown on the map, and any such structure or improvement shall be removed at the expense of the owner when the land is acquired for public use.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

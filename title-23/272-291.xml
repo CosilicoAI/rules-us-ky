@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/272.291"/>
+          <FRBRuri value="/us-ky/act/krs/272.291"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/272.291/eng"/>
+          <FRBRuri value="/us-ky/act/krs/272.291/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/272.291/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/272.291/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_272_291">
+        <num>272.291</num>
+        <content>
+          <p>Any association organized or operated under  to  or any agricultural cooperative association organized under the provisions of KRS  and meeting the requirements of an agricultural cooperative as set forth in , Section 1, 42 U.S. Statutes, p. 388 (Title 7, Sec. 291, U.S.C.A.), or any cooperative association organized under KRS 9 may recover, after a period of five (5) years, any unclaimed stocks, dividends, patronage refunds, or book equities for which the owner cannot be found and which are the result of distributable savings of the cooperative. The mailing of these stocks, dividends, patronage refunds, or book equities to the last-known address of the individual involved as recorded on the records of the cooperative shall be evidence of a bona fide attempt to deliver the same to the individual. When the notice to the individual of these amounts has been returned by the U.S. mail and the amounts have not been called for, after five (5) years, the amounts involved may be placed in the income of the cooperative for the year in which such determination is made and redistributed to the patrons of that year.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/205.766"/>
+          <FRBRuri value="/us-ky/act/krs/205.766"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/205.766/eng"/>
+          <FRBRuri value="/us-ky/act/krs/205.766/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/205.766/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/205.766/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_205_766">
+        <num>205.766</num>
+        <content>
+          <p>For purposes of  to  KRS , and KRS , the Circuit Court and the District Court shall have concurrent jurisdiction to establish, modify, and enforce obligations of child support in cases where the determination of paternity is not an issue, except that the jurisdiction of the District Court in cases not involving the determination of paternity shall be limited to those cases where there is no Circuit Court order of this state previously setting child support.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

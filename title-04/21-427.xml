@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/21.427"/>
+          <FRBRuri value="/us-ky/act/krs/21.427"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/21.427/eng"/>
+          <FRBRuri value="/us-ky/act/krs/21.427/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/21.427/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/21.427/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_427">
+        <num>21.427</num>
+        <content>
+          <p>Months of Judicial Service Percentage of Premium 240 or more 100% 180 to 239, inclusive 75% 120 to 179, inclusive 50% 48 to 119, inclusive 25%</p>
+          <p>Click to view</p>
+          <p>This paragraph shall not apply to members who begin participating in the Judicial Retirement Plan on or after January 1, 2014.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

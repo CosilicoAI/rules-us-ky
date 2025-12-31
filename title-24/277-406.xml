@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/277.406"/>
+          <FRBRuri value="/us-ky/act/krs/277.406"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/277.406/eng"/>
+          <FRBRuri value="/us-ky/act/krs/277.406/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/277.406/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/277.406/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_277_406">
+        <num>277.406</num>
+        <content>
+          <p>Each railroad proposing to discontinue service over or to obtain federal authority for regulatory abandonment of a railroad corridor in the Commonwealth of Kentucky shall, in addition to those notification requirements set out in federal law, notify the Commonwealth’s Railtrail Development Office in the Department for Local Government and the trails coordinator in the Department of Parks that the railroad is attempting to obtain federal authority to do so.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/138.450"/>
+          <FRBRuri value="/us-ky/act/krs/138.450"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/138.450/eng"/>
+          <FRBRuri value="/us-ky/act/krs/138.450/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/138.450/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/138.450/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_138_450">
+        <num>138.450</num>
+        <content>
+          <p>As used in  to  unless the context requires otherwise:</p>
+          <p>means the total consideration given, as determined in ;</p>
+          <p>means the total consideration given, excluding any amount allowed as a trade-in allowance by the seller, as attested to in a notarized affidavit, provided that the retail price established by the notarized affidavit shall not be less than fifty percent (50%) of the difference between the trade-in value, as established by the reference manual, of the motor vehicle offered for registration and the trade-in value, as established by the reference manual, of any motor vehicle offered in trade as part of the total consideration given.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

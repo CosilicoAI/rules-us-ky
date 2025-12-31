@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/452.455"/>
+          <FRBRuri value="/us-ky/act/krs/452.455"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/452.455/eng"/>
+          <FRBRuri value="/us-ky/act/krs/452.455/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/452.455/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/452.455/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_452_455">
+        <num>452.455</num>
+        <content>
+          <p>Excepting the actions mentioned in , an action against a common carrier, whether a corporation or not, upon a contract to carry property, must be brought in the county in which the defendant, or either of several defendants, resides; or in which the contract is made; or in which the carrier agrees to deliver the property. An action against such carrier for an injury to a passenger, or to other person or his property, must be brought in the county in which the defendant, or either of several defendants, resides; or in which the plaintiff or his property is injured; or in which he resides, if he resides in a county into which the carrier passes; provided, if the action be brought by a personal representative, the residence of the decedent, and not that of the personal representative shall control.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

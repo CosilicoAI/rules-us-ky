@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/61.110"/>
+          <FRBRuri value="/us-ky/act/krs/61.110"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/61.110/eng"/>
+          <FRBRuri value="/us-ky/act/krs/61.110/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/61.110/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/61.110/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_61_110">
+        <num>61.110</num>
+        <content>
+          <p>State officers who are required, in the discharge of their duties, to remain at the state capital more than three (3) months in each year, may, with their families, temporarily reside at the state capital for any space of time during the term for which they were elected or appointed, without changing or losing their legal and permanent residence in the district and precinct in which they resided at the time of their temporary removal. Such officers and their families shall for all purposes be regarded as residents of the precinct and district from which they removed. In all cases it shall be necessary for the officer so intending to temporarily remove to file and cause to be recorded, in the clerk’s office of the county judge/executive of the county of his residence and in the clerk’s office of the county judge/executive of Franklin County, a statement of such intention.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

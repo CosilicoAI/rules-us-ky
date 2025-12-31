@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/95.867"/>
+          <FRBRuri value="/us-ky/act/krs/95.867"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/95.867/eng"/>
+          <FRBRuri value="/us-ky/act/krs/95.867/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/95.867/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/95.867/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_95_867">
+        <num>95.867</num>
+        <content>
+          <p>Each active member shall contribute a sum equal to eight percent (8%) of current salary. The director of finance of the city is hereby authorized to deduct such amount from the salary of each active member in semimonthly installments. This contribution shall be made as deduction from salary, notwithstanding that the salary paid in cash to such member may be reduced thereby below the established statutory rate. Every member of the fund shall be deemed to consent and agree to the deduction from salary as herein provided, and shall receipt for his full salary, and payment to such member of salary less such deduction shall constitute a full and complete discharge and acquittance of all claims and demands whatsoever for the services rendered by such member during the period covered by such payment, except as to the benefits herein provided.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

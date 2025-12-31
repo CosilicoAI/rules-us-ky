@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/156.060"/>
+          <FRBRuri value="/us-ky/act/krs/156.060"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/156.060/eng"/>
+          <FRBRuri value="/us-ky/act/krs/156.060/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/156.060/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/156.060/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_156_060">
+        <num>156.060</num>
+        <content>
+          <p>For meetings of the Kentucky Board of Education, a majority of the voting members shall constitute a quorum for the transaction of business. The board shall meet not less than every three (3) months and at other times it may be called as provided in this section. Special meetings of the board may be called by the chairperson, and upon written request of two (2) members, the chairperson shall call a special meeting of the board to be held not later than twenty (20) days following receipt of the written request. The chairperson shall give notice through the secretary by registered or certified mail, return receipt requested, to each member of the board at least ten (10) days prior to the time of any meeting unless all members of the board waive notice in writing. The offices of the board shall be at the seat of government in the Department of Education and shall be provided by the state. Members of the board may receive a per diem of one hundred dollars ($100) for each regular or special meeting attended and actual expenses for attending meetings, and may be reimbursed for other actual and necessary expenditures incurred in the performance of their duties authorized by the board. The per diem and expenses shall be paid out of the appropriation for the board.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

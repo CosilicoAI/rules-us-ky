@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/333.220"/>
+          <FRBRuri value="/us-ky/act/krs/333.220"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/333.220/eng"/>
+          <FRBRuri value="/us-ky/act/krs/333.220/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/333.220/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/333.220/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_333_220">
+        <num>333.220</num>
+        <content>
+          <p>The secretary for health and family services shall appoint an advisory committee to advise the cabinet in the fulfillment of its responsibilities under this chapter. The committee shall be composed of nine (9) appointed members. The secretary for health and family services or his designated representative shall be an ex officio member. All appointed members shall serve for a term of four (4) years or until their successors are appointed and qualified. One (1) member shall be appointed from a list of three (3) names submitted by the Kentucky Hospital Association. One (1) member shall be appointed from a list of three (3) names submitted by the Kentucky State Society of American Medical Technologists. Two (2) members shall be appointed from a list of three (3) names for each position submitted by the Kentucky State Society of Medical Technologists. Five (5) members shall be appointed from a list of three (3) names for each position submitted by the Kentucky Medical Association, provided, however, that at least three (3) of such positions shall be filled only by pathologists who are directors of medical laboratories, and who have been recommended to the Kentucky Medical Association by the Kentucky Society of Pathologists.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

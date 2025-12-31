@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/440.410"/>
+          <FRBRuri value="/us-ky/act/krs/440.410"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/440.410/eng"/>
+          <FRBRuri value="/us-ky/act/krs/440.410/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/440.410/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/440.410/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_440_410">
+        <num>440.410</num>
+        <content>
+          <p>Nothing contained in  to shall be deemed to constitute a waiver by this state of its right, power, or privilege to try such demanded person for crime committed within this state, or of its right, power, or privilege to regain custody of such person by extradition proceedings or otherwise for the purpose of trial, sentence, or punishment for any crime committed within this state, nor shall any proceedings had under  to which result in, or fail to result in, extradition be deemed a waiver by this state of any of its rights, privileges, or jurisdiction in any way whatsoever.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.675"/>
+          <FRBRuri value="/us-ky/act/krs/164.675"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.675/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.675/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.675/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.675/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_675">
+        <num>164.675</num>
+        <content>
+          <p>The extension board is specifically directed to cooperate with the extension service and the United States Department of Agriculture in the accomplishment of the District Cooperative Extension Education Program contemplated by  to  To the end that the state and federal funds allocated to the extension service and the cooperative extension education fund of each district may be more efficiently used by the extension service and the extension board, the director of extension shall coordinate the cooperative extension education programs in the several extension districts.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

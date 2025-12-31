@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.910"/>
+          <FRBRuri value="/us-ky/act/krs/164.910"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.910/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.910/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.910/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.910/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_910">
+        <num>164.910</num>
+        <content>
+          <p>Each and every medical school established and assisted financially by the State of Kentucky shall include in the curriculum a department of general practice of medicine under the direction and supervision of a qualified general practitioner. The minimum requirements for the department shall include courses of study in family care including clinical experience, a program of preceptorships, a program of internships or general practice residencies in a hospital and such other teaching techniques as in the judgment of the management of the school shall be best suited to encourage and implement the preparation of students for the general practice of medicine.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

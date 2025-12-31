@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/318.160"/>
+          <FRBRuri value="/us-ky/act/krs/318.160"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/318.160/eng"/>
+          <FRBRuri value="/us-ky/act/krs/318.160/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/318.160/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/318.160/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_318_160">
+        <num>318.160</num>
+        <content>
+          <p>Except as otherwise provided by law or by regulation of the department, no person shall construct, install, or extensively alter any plumbing, sewerage, or water supply system of any public building or establishment without having first obtained the approval of the department in writing. Detailed plans and specifications of the proposed facility showing the plumbing system, sewage disposal system, and water supply system shall be submitted to the department prior to the construction or alteration of the facility. In the event no public sewer is available, the plan shall include the proposed type of sewage disposal system. In the event a sewage subsoil drainage system is used, or some other type of on-site sewage disposal system that does not have a surface discharge, the application for construction, installation, or alteration of such system shall be submitted to the Cabinet for Health and Family Services or its designated agent. All other plans and specifications shall be submitted in triplicate to the department. The department shall notify the applicant in writing of the approval or disapproval of the plans. The construction, installation, or alteration shall be done in accordance with the approved plans.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

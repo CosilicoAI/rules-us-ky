@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/150.178"/>
+          <FRBRuri value="/us-ky/act/krs/150.178"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/150.178/eng"/>
+          <FRBRuri value="/us-ky/act/krs/150.178/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/150.178/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/150.178/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_150_178">
+        <num>150.178</num>
+        <content>
+          <p>In addition to the game permits issued under , the commission may promulgate administrative regulations allowing the issuance of cooperator permits to individuals or entities who enroll land with the department for public hunting and meet all applicable regulatory requirements. An individual or entity that receives a cooperator permit issued under this section may sell or transfer the permit.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/165.090"/>
+          <FRBRuri value="/us-ky/act/krs/165.090"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/165.090/eng"/>
+          <FRBRuri value="/us-ky/act/krs/165.090/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/165.090/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/165.090/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_165_090">
+        <num>165.090</num>
+        <content>
+          <p>Bonds issued under authority of  shall be placed under the control of the president and trustees of the university, who shall determine when and at what price they shall be sold, but no bonds shall be sold for less than par. Any premium obtained from the bonds shall constitute a part of the sinking fund for their ultimate redemption. The proceeds of the bonds shall be deposited to the credit of the university in the depositories that are selected for the deposit of the funds of the sinking fund commissioners of the city, upon the same agreement as to interest, and shall be withdrawn upon the checks of the treasurer of the university, countersigned by the president thereof.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

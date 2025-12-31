@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/220.060"/>
+          <FRBRuri value="/us-ky/act/krs/220.060"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/220.060/eng"/>
+          <FRBRuri value="/us-ky/act/krs/220.060/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/220.060/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/220.060/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_220_060">
+        <num>220.060</num>
+        <content>
+          <p>No petition with the requisite number of valid signatures shall be declared void on account of alleged defects, but the commissioner may at any time permit the petition to be amended in form and substance to conform to the facts, by correcting any errors in the description of the territory or in any other particular, but shall not add or deduct area except as provided in . Several similar petitions or duplicate copies of the same petition for the organization of the same district may be filed and shall together be regarded as one (1) petition. All such petitions filed shall be considered the same as though filed with the first petition placed on file.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

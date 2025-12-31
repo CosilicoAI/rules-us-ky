@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/15.717"/>
+          <FRBRuri value="/us-ky/act/krs/15.717"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/15.717/eng"/>
+          <FRBRuri value="/us-ky/act/krs/15.717/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/15.717/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/15.717/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_717">
+        <num>15.717</num>
+        <content>
+          <p>The Attorney General, in consultation with legal, victims services, victim advocacy, and mental health professionals with an expertise in domestic violence, shall develop a prosecutor’s manual for Commonwealth’s Attorneys and county attorneys establishing the policies and procedures for the prosecution of domestic violence related crime. The manual shall be completed no later than January 1 after July 15, 1996, and revised by July 31 of every even numbered year which follows. The Attorney General shall distribute a copy of the manual to every Commonwealth’s Attorney and county attorney.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

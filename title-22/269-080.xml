@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/269.080"/>
+          <FRBRuri value="/us-ky/act/krs/269.080"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/269.080/eng"/>
+          <FRBRuri value="/us-ky/act/krs/269.080/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/269.080/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/269.080/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_269_080">
+        <num>269.080</num>
+        <content>
+          <p>If the probable cost of the improvement is more than the income and revenues of the county for the year in which it is to be constructed, the county judge/executive shall order an election to be held in the county to ascertain the will of the qualified voters. The election shall be held in conjunction with a regular election, and the proposition shall be filed with the county clerk not later than the second Tuesday in August preceding the regular election. The proposition to be submitted to the voters shall state the amount, and object for which it is to be expended. The amount shall not exceed two percent (2%) of the value of the taxable property for state purposes, ascertained by the assessment next before the last assessment for state purposes. The proposed debt shall be made payable so as not to require a tax rate of more than fifty cents ($0.50) on each one hundred dollars ($100) in value of property subject to taxation for state purposes. If two-thirds (2/3) of those voting on the proposition vote for it, that fact shall be noted of record in the order book of the county judge/executive. The county judge/executive shall then have semiannual coupon bonds of the county prepared, to be made payable not later than forty (40) years after date, but payable at the option of the county at any time after two (2) years after date. The bonds shall be signed by the county judge/executive and countersigned by the county clerk. The coupons may be signed by the county clerk only. The bonds, when signed, shall be turned over to the fiscal court of the county.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

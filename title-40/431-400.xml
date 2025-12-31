@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/431.400"/>
+          <FRBRuri value="/us-ky/act/krs/431.400"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/431.400/eng"/>
+          <FRBRuri value="/us-ky/act/krs/431.400/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/431.400/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/431.400/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_431_400">
+        <num>431.400</num>
+        <content>
+          <p>In the case of accidental homicide by motor vehicle, when no arrest is made at the scene of the accident and a complaint is later filed against the driver, the court shall not issue a warrant for the arrest of the driver unless there is reason to believe that the driver will flee to avoid a summons or unless circumstances within the discretion of the court require the issuance of a warrant. Instead of a warrant, a summons shall be issued and served upon the driver to have him appear for arraignment and plea at a certain time.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

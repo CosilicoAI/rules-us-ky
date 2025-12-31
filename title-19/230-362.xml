@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/230.362"/>
+          <FRBRuri value="/us-ky/act/krs/230.362"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/230.362/eng"/>
+          <FRBRuri value="/us-ky/act/krs/230.362/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/230.362/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/230.362/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_230_362">
+        <num>230.362</num>
+        <content>
+          <p>Any person holding unclaimed pari-mutuel winning tickets presumed abandoned under the provisions of  shall file annually, on or before September 1 of each year, with the office of the racing commission a list of and the amounts represented by unclaimed pari-mutuel tickets held by such person as of July 1, and other information as the racing commission may require for the administration of  to  The report shall be made in duplicate; the original shall be retained by the racing commission and the copy shall be mailed to the sheriff of the county where the unclaimed pari-mutuel tickets are held. It shall be the duty of the sheriff to post for not less than twenty (20) consecutive days a copy of the report on the courthouse door or the courthouse bulletin board, and to publish the copy in the manner set forth by KRS . The cost of the publication shall be paid by the racing commission. The sheriff shall immediately certify in writing to the racing commission the dates when the list was posted and published. The list shall be posted and published as required on or before October 1 of the year when it is made, and such posting and publishing shall be constructive notice to all holders of pari-mutuel tickets which have remained unclaimed for a period of one (1) year from the time the ticket became payable.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/382.510"/>
+          <FRBRuri value="/us-ky/act/krs/382.510"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/382.510/eng"/>
+          <FRBRuri value="/us-ky/act/krs/382.510/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/382.510/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/382.510/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_382_510">
+        <num>382.510</num>
+        <content>
+          <p>Any county clerk shall receive for record and record any certified copy of any matter in reference to bankruptcy which any Act of Congress of the United States may provide for as being necessary to be filed in the county wherein lands of a bankrupt are situated in order to be notice of said bankruptcy. Such certified copy shall be recorded in the record of deeds and indexed in the general index of deeds in the name of the bankrupt, as grantor, and in the name of the trustee in bankruptcy or receiver (if any), as grantee. The county clerk shall be entitled to a fee pursuant to  for recording each such certified copy, to be paid by the person who offers the copy for recording.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

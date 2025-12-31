@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/65.7637"/>
+          <FRBRuri value="/us-ky/act/krs/65.7637"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/65.7637/eng"/>
+          <FRBRuri value="/us-ky/act/krs/65.7637/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/65.7637/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/65.7637/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_65_7637">
+        <num>65.7637</num>
+        <content>
+          <p>Notwithstanding any other provision of law, no CMRS provider, service supplier, provider of Interconnected Voice over Internet Protocol service as defined in , or entity that provides services or equipment used in a 911 or next generation 911 system, nor their employees, directors, officers, subcontractors, or agents, except in cases of negligence, or wanton or willful misconduct, or bad faith, shall be liable for any damages in a civil action or subject to criminal prosecution resulting from death or injury to any person or from damage to property incurred by any person in connection with developing, adopting, establishing, participating in, implementing, maintaining, or providing access to 911 emergency service as defined in ; in connection with the quality of the service; in connection with ensuring that any 911 call or communication goes through properly; or in connection with providing access to 911 emergency service in connection with providing wireless 911 service, E911 service, or next generation 911 service.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

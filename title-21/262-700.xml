@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/262.700"/>
+          <FRBRuri value="/us-ky/act/krs/262.700"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/262.700/eng"/>
+          <FRBRuri value="/us-ky/act/krs/262.700/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/262.700/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/262.700/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_262_700">
+        <num>262.700</num>
+        <content>
+          <p>Subdistricts of a soil conservation district may be formed in a watershed area, as provided in  to  to be known as watershed conservancy districts, for the purpose of developing and executing plans and programs relating to any phase of conservation of water, water usage, flood prevention, flood control, erosion prevention and control of erosion, floodwater and sediment damages. As a subdistrict of a soil conservation district, a watershed conservancy district shall constitute a governmental subdivision of the state and a public body corporate and politic exercising public power.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

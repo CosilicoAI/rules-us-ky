@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/100.163"/>
+          <FRBRuri value="/us-ky/act/krs/100.163"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/100.163/eng"/>
+          <FRBRuri value="/us-ky/act/krs/100.163/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/100.163/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/100.163/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_100_163">
+        <num>100.163</num>
+        <content>
+          <p>The planning commission shall conduct regular meetings as it deems necessary for the transaction of its business; but there shall be at least six (6) regular meetings annually. The schedule for regular meetings shall be expressed in the rules and regulations of the commission. Special meetings shall be held at the call of the chairman who shall give written or oral notice to all members at least seven (7) days prior to the meeting, which notice shall contain the date, time and place, and the subject or subjects which shall be discussed.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

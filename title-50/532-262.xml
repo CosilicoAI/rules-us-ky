@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/532.262"/>
+          <FRBRuri value="/us-ky/act/krs/532.262"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/532.262/eng"/>
+          <FRBRuri value="/us-ky/act/krs/532.262/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/532.262/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/532.262/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_532_262">
+        <num>532.262</num>
+        <content>
+          <p>When considering appropriate housing for a prisoner who is considered for or who is granted conditional release pursuant to , the Department of Corrections shall approve any form of acceptable housing, including but not limited to apartments, shelters for the homeless or other persons, county jails or restricted custody facilities that a county approves for persons granted conditional release, educational institutions with dormitories if the releasee is enrolled or accepted for enrollment at an educational institution, halfway houses, reentry centers, residential treatment or other programs in which the releasee is enrolled or accepted for enrollment, and other forms of transitional housing meeting the requirements of applicable statutes.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

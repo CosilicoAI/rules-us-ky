@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/120.015"/>
+          <FRBRuri value="/us-ky/act/krs/120.015"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/120.015/eng"/>
+          <FRBRuri value="/us-ky/act/krs/120.015/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/120.015/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/120.015/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_120_015">
+        <num>120.015</num>
+        <content>
+          <p>In any contest over the nomination
+    or election of any state, county, city or district officer, it may be alleged
+    in the pleadings of the contestant that the provisions of , 
+or  have been violated by the contestee or by others in his
+    behalf with his knowledge, and it may likewise be alleged in the pleadings
+    of the contestee that such provisions have been violated by the contestant
+    or by others in his behalf with his knowledge. If it appears upon the trial
+    of the contest that such provisions have been violated by the contestant or
+    by others in his behalf with his knowledge, the contest action shall be dismissed
+    and the contestant shall have no further right to maintain the same. If no
+    such violation by the contestant, or by others in his behalf with his knowledge,
+    appears, and it appears that such provisions have been violated by the contestee
+    or by others in his behalf with his knowledge, the nomination or election
+    of the contestee shall be declared void. In the case of primary elections,
+    if any candidate who is a party to the contest proceedings has not violated
+    the provisions of ,  or  and all candidates
+    who received more votes than he did are also parties and are found to have
+    violated those provisions, such candidate shall be declared nominated.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

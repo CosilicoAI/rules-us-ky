@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/162.190"/>
+          <FRBRuri value="/us-ky/act/krs/162.190"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/162.190/eng"/>
+          <FRBRuri value="/us-ky/act/krs/162.190/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/162.190/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/162.190/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_162_190">
+        <num>162.190</num>
+        <content>
+          <p>All bonds issued under the provisions of  shall have all of the qualities of negotiable instruments, and shall not be subject to taxation. If any of the officers whose signatures appear on the bonds or coupons cease to be such officers before delivery of the bonds, the signatures shall nevertheless be valid for all purposes the same as if the officers had remained in office until delivery. The bonds shall be payable solely from the revenue derived from the school building as provided in , and shall not constitute an indebtedness of the city within the meaning of the constitutional provisions or limitations. It shall be plainly stated on the face of each bond that it was issued under the provisions of  to and that it does not constitute an indebtedness of the city.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

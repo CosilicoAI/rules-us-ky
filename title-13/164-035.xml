@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.035"/>
+          <FRBRuri value="/us-ky/act/krs/164.035"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.035/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.035/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.035/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.035/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_035">
+        <num>164.035</num>
+        <content>
+          <p>The Council on Postsecondary Education, in consultation with the Office of Adult Education and the Collaborative Center for Literacy Development: Early Childhood through Adulthood, shall assess the need for technical assistance, training, and other support to assist in the development of adult education and workforce development that support the state strategic agenda and that include a comprehensive coordinated approach to education and training services. The council shall promote the involvement of universities; colleges; technical institutions; elementary and secondary educational agencies; labor, business, and industry representatives; community-based organizations; citizens’ groups; and other policymakers in the development of the regional strategies.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

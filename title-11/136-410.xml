@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/136.410"/>
+          <FRBRuri value="/us-ky/act/krs/136.410"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/136.410/eng"/>
+          <FRBRuri value="/us-ky/act/krs/136.410/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/136.410/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/136.410/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_136_410">
+        <num>136.410</num>
+        <content>
+          <p>Every bail bondsman doing business in this Commonwealth shall, on or before the first day of March of each year, return to the Department of Revenue a statement of all amounts paid to him or his representatives, as premiums for bail bonds written in the courts of this Commonwealth during the preceding calendar year, or since the last returns were made, and shall at the same time pay a tax of two dollars ($2) upon each one hundred dollars ($100) of such amounts paid to the bail bondsman or his representatives. Amounts received for reimbursement for expenses or court costs are not to be considered as premiums for the purposes of this section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/376.130"/>
+          <FRBRuri value="/us-ky/act/krs/376.130"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/376.130/eng"/>
+          <FRBRuri value="/us-ky/act/krs/376.130/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/376.130/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/376.130/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_376_130">
+        <num>376.130</num>
+        <content>
+          <p>The commissioner shall issue subpoenas for witnesses to appear before him at his sittings, and upon their failure to attend he shall issue attachments as in other cases. The commissioner shall have the same power and authority as an examiner in taking depositions, and shall be governed by the same rules and regulations in respect to the evidence which may be produced before him. He may adjourn from day to day and from time to time, until his duties in the action have been completed and he is ready to report. He shall audit the statements, and make up his report showing the amount due to each claimant, the nature and character of the respective liens, and the evidence upon which each claim was allowed.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

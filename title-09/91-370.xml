@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/91.370"/>
+          <FRBRuri value="/us-ky/act/krs/91.370"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/91.370/eng"/>
+          <FRBRuri value="/us-ky/act/krs/91.370/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/91.370/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/91.370/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_91_370">
+        <num>91.370</num>
+        <content>
+          <p>When any lands, improvements or personal property are not assessed in any year, they may, when the omission is discovered, be assessed retrospectively for that year at any time not later than five (5) years thereafter, but the lien thereby accruing to the city shall not prejudice any rights acquired by purchasers before the assessment. The assessor guilty of the omission, and his sureties, shall be liable to the city for any damage by loss of lien. Any person retrospectively assessed may, within thirty (30) days after notice of the assessment is mailed to him, file in the assessor’s office the complaint provided for in , and if such a complaint is filed in time the assessment shall not become binding and no tax bill shall be issued thereon until the assessment has been passed upon by the board of equalization.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

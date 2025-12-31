@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/160.170"/>
+          <FRBRuri value="/us-ky/act/krs/160.170"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/160.170/eng"/>
+          <FRBRuri value="/us-ky/act/krs/160.170/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/160.170/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/160.170/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_160_170">
+        <num>160.170</num>
+        <content>
+          <p>Every person elected to a board of education shall, before assuming the duties of his office, take the following oath, in addition to the constitutional oath:</p>
+          <p>“State of Kentucky, “County of “, being duly sworn, says that he is eligible under the law to serve as a member of the board of education, and that he will not, while serving as a member of such board, become interested, directly or indirectly, in any contract with or claim against the board, and that he will not in any way influence the hiring or appointment of district employees, except the hiring of the superintendent of schools or school board attorney. “
+    “Subscribed and sworn to before me this day of “”
+    The oath shall be kept on record by the board.</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

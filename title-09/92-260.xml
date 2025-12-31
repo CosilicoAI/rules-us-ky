@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/92.260"/>
+          <FRBRuri value="/us-ky/act/krs/92.260"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/92.260/eng"/>
+          <FRBRuri value="/us-ky/act/krs/92.260/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/92.260/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/92.260/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_92_260">
+        <num>92.260</num>
+        <content>
+          <p>The city council of each city of the fourth class shall each year appoint three (3) discreet freeholders as supervisors of taxes, and fix their compensation. The supervisors shall qualify by taking oath faithfully to perform the duties of their office without favor to rich or poor. They shall select a chairman by vote or lot, and he or either of the supervisors may administer an oath to tell the whole truth concerning his taxable property to any person appearing to have an assessment corrected.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

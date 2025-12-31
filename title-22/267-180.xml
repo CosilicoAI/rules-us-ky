@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/267.180"/>
+          <FRBRuri value="/us-ky/act/krs/267.180"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/267.180/eng"/>
+          <FRBRuri value="/us-ky/act/krs/267.180/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/267.180/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/267.180/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_267_180">
+        <num>267.180</num>
+        <content>
+          <p>When any improvement crosses a public street or highway, the actual cost of constructing it across the street or highway, or removing old bridges or building new ones, shall be paid out of the fund of the drainage district. When any street or highway in the district is benefited by an improvement, the viewers shall assess and give in their report the amount of benefit to the street or highway, and process shall be issued against the county or city owning or controlling it. Such county or city shall have the right to appear before the court and file its exceptions the same as any landowner, and shall be liable for and shall pay the amount finally assessed against it, which may be recovered by suit in the name of the board.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/353.140"/>
+          <FRBRuri value="/us-ky/act/krs/353.140"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/353.140/eng"/>
+          <FRBRuri value="/us-ky/act/krs/353.140/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/353.140/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/353.140/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_353_140">
+        <num>353.140</num>
+        <content>
+          <p>When a well has been filled and securely plugged to a point forty (40) feet below the lowest workable coal bed, and in the judgment of the well operator, the coal operator and the department a permanent outlet to the surface is required, the outlet shall be provided in the following manner: A plug of cement or other suitable material shall be placed in the well at a suitable point, not less than ten (10) feet below the lowest workable coal bed. In this plug and passing through the center of it shall be securely fastened an open pipe, not less than two (2) inches in diameter, which shall extend to the surface. At or above the surface the pipe shall be provided with a device that will permit the free passage of gas and prevent obstruction. After the plug and pipe are set, the hole shall be filled with cement to a point ten (10) feet above the lowest workable coal bed. If there are additional overlying workable coal beds, they shall be treated similarly, if in the judgment of the well operator, the coal operator and the department such treatment is necessary. If the parties cannot agree, the decision of the department shall control.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

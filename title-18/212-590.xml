@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/212.590"/>
+          <FRBRuri value="/us-ky/act/krs/212.590"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/212.590/eng"/>
+          <FRBRuri value="/us-ky/act/krs/212.590/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/212.590/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/212.590/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_212_590">
+        <num>212.590</num>
+        <content>
+          <p>The board shall have the power, by resolution reciting the need therefor and purpose thereof, to condemn real property located anywhere within such county. Eminent domain proceedings shall be conducted in the name of the board by the department of law of such city. The head of the department of law of such city or his assistant shall be the legal representative of the board in all matters and shall serve in that capacity without compensation from the board. In the exercise of its power of eminent domain, the board shall follow such proceedings as are provided in the Eminent Domain Act of Kentucky. All property thus acquired by the board shall be held, used and controlled by it in the same manner as is all other property of the board.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

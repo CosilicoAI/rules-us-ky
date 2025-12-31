@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/381.222"/>
+          <FRBRuri value="/us-ky/act/krs/381.222"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/381.222/eng"/>
+          <FRBRuri value="/us-ky/act/krs/381.222/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/381.222/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/381.222/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_381_222">
+        <num>381.222</num>
+        <content>
+          <p>and shall not apply to any possibility of reverter or right of entry contained in a deed, gift or grant from the Commonwealth or any political subdivision thereof; nor shall they apply where both the fee simple determinable and the succeeding interest, or both the fee simple subject to a right of entry and the right of entry, are for public, charitable or religious purposes; nor shall they affect any lease present or future or any easement, right of way, mortgage or trust, or any communication, transmission, or transportation lines, or any public highway, right to take minerals, or charge for support during the life of a person or persons, or any restrictive covenant without right of entry or reverter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

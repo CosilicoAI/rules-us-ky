@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/247.858"/>
+          <FRBRuri value="/us-ky/act/krs/247.858"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/247.858/eng"/>
+          <FRBRuri value="/us-ky/act/krs/247.858/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/247.858/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/247.858/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247_858">
+        <num>247.858</num>
+        <content>
+          <p>With respect to any referendum conducted under the provisions of  to  the Commissioner of Agriculture shall, before calling and announcing the referendum, fix, determine and publicly announce at least thirty (30) days before the date determined for the referendum, the date, hours and polling places for voting in the referendum, the effective date of the assessment, if adopted, the amount and basis of the assessment proposed to be collected, the means by which such assessment shall be collected if authorized by the handlers, and the general purposes to which the amount so collected shall be applied. No assessment levied under the provisions of any referendum shall exceed one cent ($0.01) for each fifteen (15) dozen lot of eggs or portion thereof bought or sold by a handler.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

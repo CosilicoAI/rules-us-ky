@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/426.640"/>
+          <FRBRuri value="/us-ky/act/krs/426.640"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/426.640/eng"/>
+          <FRBRuri value="/us-ky/act/krs/426.640/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/426.640/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/426.640/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_426_640">
+        <num>426.640</num>
+        <content>
+          <p>The sale of personal property upon which an execution is levied shall be suspended at the instance of any person, other than the defendant in the execution, claiming the property, who shall execute, with one (1) or more sureties sufficient for double its value, a bond to the plaintiff in the execution, to the effect that, if it shall be adjudged that the property or any part of it is subject to the execution, he will pay to the plaintiff the value of the property so subject, and ten percent (10%) thereon, not exceeding the amount due on the execution, and ten percent (10%) thereon.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/16.052"/>
+          <FRBRuri value="/us-ky/act/krs/16.052"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/16.052/eng"/>
+          <FRBRuri value="/us-ky/act/krs/16.052/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/16.052/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/16.052/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_052">
+        <num>16.052</num>
+        <content>
+          <p>BASE SALARY SCHEDULE FOR RANKS BELOW SERGEANT</p>
+          <p>Years of Service Trooper Salary Steps Based on Trooper Rank Senior First Class Master Base Pay $37,887 $43,014 NA NA 3 years $41,310 NA NA NA 5 years $43,014 $44,216 NA NA 7 years NA $45,452 NA NA 9 years NA $46,726 NA NA 10 years NA NA $47,000 NA 13 years NA NA $49,450 NA 15 years NA NA NA $55,356 17 years NA NA NA $58,224 19 years NA NA NA $61,263 21 years NA NA NA $64,397 23 years NA NA NA $67,716 25 years NA NA NA $68,414 27 years NA NA NA $69,118 29 years NA NA NA $69,829</p>
+          <p>Click to view</p>
+          <p>BASE SALARY SCHEDULE SERGEANT AND ABOVE</p>
+          <p>Years of Service Salary Steps Based on Rank Sergeant Lieutenant Captain 6 years $45,271 NA NA 7 years $47,271 $53,500 NA 8 years $47,805 NA $59,100 9 years $49,918 $54,500 NA 11 years $50,911 $56,000 $61,199 13 years $53,108 $58,000 $63,798 15 years $56,966 $61,000 $67,188 17 years $61,093 $65,000 $70,747 19 years $65,510 $70,436 $74,845 21 years $70,235 $74,158 $78,409 23 years $75,292 $78,066 $82,529 25 years $80,702 $82,169 $86,755 27 years $85,491 $86,478 $90,306 29 years $90,686 $91,002 $93,998</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/74.430"/>
+          <FRBRuri value="/us-ky/act/krs/74.430"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/74.430/eng"/>
+          <FRBRuri value="/us-ky/act/krs/74.430/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/74.430/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/74.430/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_74_430">
+        <num>74.430</num>
+        <content>
+          <p>In the interest of the public health and for the purpose of providing an adequate supply of water to cities, water associations, water districts, and facilities owned or operated by federal agencies, any two (2) or more cities, or any two (2) or more water districts organized under this chapter, or any combination of cities, water districts, water associations, and federal agencies may jointly acquire, either by purchase or construction, sources of supply of water and may operate jointly the sources of supply of water and improve and extend them in the manner provided in  to  The governing body of any city, water association, water district, or federal agency desiring to avail themselves of the provisions of  to shall adopt a resolution or ordinance determining and electing to acquire and operate jointly sources of supply of water.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

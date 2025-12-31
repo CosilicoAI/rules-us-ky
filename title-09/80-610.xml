@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/80.610"/>
+          <FRBRuri value="/us-ky/act/krs/80.610"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/80.610/eng"/>
+          <FRBRuri value="/us-ky/act/krs/80.610/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/80.610/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/80.610/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_80_610">
+        <num>80.610</num>
+        <content>
+          <p>In any contract or amendatory or superseding contract for a loan and annual contributions heretofore or hereafter entered into between a housing authority (including any housing authority created under  to  and the federal government with respect to any housing undertaken by said housing authority, any such housing authority is authorized to make such covenants (including covenants with holders of obligations of said authority issued for purposes of the housing project involved), and to confer upon the federal government such rights and remedies, as said housing authority deems necessary to assure the fulfillment of the purposes for which the housing was undertaken. In any such contract, the housing authority may, notwithstanding any other provisions of law, agree to sell and convey the housing (including all lands appertaining thereto) to which such contract relates to the federal government upon the occurrence of such conditions, or upon such defaults on obligations for which any of the annual contributions provided in said contract are pledged, as may be prescribed in such contract, and at a price (which may include the assumption by the federal government of the payment, when due, of the principal of and interest on outstanding obligations of the housing authority issued for purposes of the housing project involved) determined as prescribed therein and upon such other terms and conditions as are therein provided. Any such housing authority is hereby authorized to enter into such supplementary contracts, and to execute such conveyances, as may be necessary to carry out the provisions hereof. Notwithstanding any other provisions of law, any contracts or supplementary contracts or conveyances made or executed pursuant to the provisions of this section shall not be or constitute a mortgage within the meaning or for the purpose of any of the laws of this Commonwealth.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

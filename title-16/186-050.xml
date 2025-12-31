@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/186.050"/>
+          <FRBRuri value="/us-ky/act/krs/186.050"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/186.050/eng"/>
+          <FRBRuri value="/us-ky/act/krs/186.050/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/186.050/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/186.050/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_186_050">
+        <num>186.050</num>
+        <content>
+          <p>Declared Gross Weight of Vehicle and Any Towed Unit Registration Fee 10,001-14,000 30.00 14,001-18,000 50.00 18,001-22,000 132.00 22,001-26,000 160.00 26,001-32,000 216.00 32,001-38,000 300.00 38,001-44,000 474.00 44,001-55,000 669.00 55,001-62,000 1,007.00 62,001-73,280 1,250.00 73,281-80,000 1,410.00</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

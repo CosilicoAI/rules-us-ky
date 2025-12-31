@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/403.213"/>
+          <FRBRuri value="/us-ky/act/krs/403.213"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/403.213/eng"/>
+          <FRBRuri value="/us-ky/act/krs/403.213/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/403.213/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/403.213/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_403_213">
+        <num>403.213</num>
+        <content>
+          <p>The members designated in paragraphs (g) to (j) of this subsection shall be appointed by the Governor from a list of three (3) names for each category submitted by the Cabinet for Health and Family Services. If the status of one (1) of these members changes, the member shall be replaced through appointment by the Governor from a list of three (3) names submitted by the cabinet.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

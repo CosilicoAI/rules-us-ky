@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/100.292"/>
+          <FRBRuri value="/us-ky/act/krs/100.292"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/100.292/eng"/>
+          <FRBRuri value="/us-ky/act/krs/100.292/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/100.292/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/100.292/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_100_292">
+        <num>100.292</num>
+        <content>
+          <p>When it has been discovered that land has been sold or transferred, or that a contract has been entered into for the sale or transfer of land in violation of the provisions of this chapter pertaining to the regulation of subdivisions, the owner or owners of record shall file plats of the land in accordance with this chapter. When land is sold or transferred, or a contract has been entered into for the sale or transfer of land in violation of this chapter, the land shall be governed by the subdivision regulations both prior to and after the platting of the land by the owner of record as if a plat had been filed in accordance with the provisions of this chapter pertaining to subdivision regulations. Plats filed pursuant to this section may be filed by the last transferee in the chain of title including holders of deeds which may otherwise be void under .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

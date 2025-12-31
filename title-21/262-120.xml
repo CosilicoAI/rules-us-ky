@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/262.120"/>
+          <FRBRuri value="/us-ky/act/krs/262.120"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/262.120/eng"/>
+          <FRBRuri value="/us-ky/act/krs/262.120/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/262.120/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/262.120/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_262_120">
+        <num>262.120</num>
+        <content>
+          <p>After the commission has made and recorded a determination that there is need, in the interest of the public health, safety and welfare, for the organization of a district in a particular territory and has defined the boundaries of that district, it shall consider the question whether the operation of a district within those boundaries with the powers conferred upon districts in this chapter is administratively practicable and feasible. To assist the commission in the determination of administrative practicability and feasibility, the commission shall, within a reasonable time after entry of the finding that there is need for the organization of the district and the determination of the boundaries of the district, hold a referendum within the proposed district upon the proposition of the creation of the district, and cause due notice of the referendum to be given. The question shall be submitted to the voters in the following form: “For creation of a soil conservation district of the lands below described and lying in the County (or Counties) of
+    . . . . . ,
+    . . . . . , and
+    . . . . . ” and “Against creation of a soil conservation district of the lands below described and lying in the County (or Counties) of
+    . . . . . , and
+    . . . . . ” The voter shall be instructed to vote “yes” for one or the other of the propositions, as the voter may favor or oppose creation of the district. The boundaries of the proposed district as determined by the commission shall be set forth. Only owners of lands lying within the boundaries of the territory, as determined by the commission, shall be eligible to vote in the referendum.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/406.115"/>
+          <FRBRuri value="/us-ky/act/krs/406.115"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/406.115/eng"/>
+          <FRBRuri value="/us-ky/act/krs/406.115/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/406.115/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/406.115/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_406_115">
+        <num>406.115</num>
+        <content>
+          <p>The court from time to time, after considering the financial resources of both parties, may order a party to pay a reasonable amount for the cost to the other party of maintaining or defending any proceeding under this chapter and for attorney’s fees for private counsel, including sums for legal services rendered and costs incurred prior to commencement of the proceeding, or after entry of judgment. Upon determination that an action under this chapter was initiated in bad faith, the court may order the offending party to pay attorney’s fees to the opposing attorney for legal services rendered and costs incurred. The court may order that the amount be paid directly to the attorney, who may enforce the order in his or her name.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

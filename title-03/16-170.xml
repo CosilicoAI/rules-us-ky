@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/16.170"/>
+          <FRBRuri value="/us-ky/act/krs/16.170"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/16.170/eng"/>
+          <FRBRuri value="/us-ky/act/krs/16.170/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/16.170/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/16.170/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_170">
+        <num>16.170</num>
+        <content>
+          <p>No officer of the department or individual employed as a Trooper R Class or CVE R Class shall, directly or indirectly, give, solicit or receive, or be in any manner concerned in giving, soliciting or receiving, any assessment, subscription or contribution for any political party or political purpose whatever. No officer or individual employed as a Trooper R Class or CVE R Class shall, orally or by letter, solicit or be in any manner concerned in soliciting any assessment, subscription or contribution for any political party or purpose whatever from any person holding a position in the department. No officer of the department or individual employed as a Trooper R Class or CVE R Class shall take any part in political management or affairs or in political campaigns further than to cast his vote and to express privately his opinion. Violation of the provisions hereof shall be grounds for removal.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

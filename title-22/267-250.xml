@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/267.250"/>
+          <FRBRuri value="/us-ky/act/krs/267.250"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/267.250/eng"/>
+          <FRBRuri value="/us-ky/act/krs/267.250/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/267.250/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/267.250/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_267_250">
+        <num>267.250</num>
+        <content>
+          <p>The chief engineer in charge of construction shall make monthly estimates of the amount of work done, and furnish one (1) copy to the contractor and file the other with the secretary of the board. The board shall meet within five (5) days after the filing of such estimate, and if it approves the estimate it shall direct the secretary to draw a warrant in favor of the contractor for eighty percent (80%) of the work done, according to the specifications and contract. When the warrant, properly signed by the president and secretary, is presented to the treasurer of the drainage fund, he shall pay the amount due thereon out of any funds in his hands to the credit of that district. When the work is fully completed and accepted by the chief engineer, he shall make an estimate for the whole amount due, which shall then be paid from the drainage fund on warrants as above provided. If there are insufficient funds in the treasury to pay any warrant presented for payment, that fact shall be endorsed on the back of the warrant and the warrant shall thereafter draw interest at the rate of six percent (6%) per annum until there is money on hand sufficient to pay the warrant and accumulated interest.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

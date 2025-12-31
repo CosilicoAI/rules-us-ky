@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/17.143"/>
+          <FRBRuri value="/us-ky/act/krs/17.143"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/17.143/eng"/>
+          <FRBRuri value="/us-ky/act/krs/17.143/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/17.143/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/17.143/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_17_143">
+        <num>17.143</num>
+        <content>
+          <p>The commissioner shall appoint a qualified person to administer the centralized criminal history record information system. He shall have statistical training and experience and possess a knowledge of criminal law enforcement and administration and of penal and correctional institutions and methods. He shall be furnished with the necessary facilities and equipment and shall appoint clerical and other assistants necessary for the operation of the centralized criminal history record information system.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

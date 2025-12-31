@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/76.340"/>
+          <FRBRuri value="/us-ky/act/krs/76.340"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/76.340/eng"/>
+          <FRBRuri value="/us-ky/act/krs/76.340/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/76.340/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/76.340/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_76_340">
+        <num>76.340</num>
+        <content>
+          <p>If a plan for construction of sewers and/or drains is approved by the county judge/executive, the commissioners shall then examine the real estate in the sewer construction district that may be affected or benefited by construction and operation of such sewers or drains included in such approved plans, and shall classify the land into such number of classes as the commission deems advisable, and shall report its classification and the ratio of benefits for each class, from such sewers or drains to be constructed. This report as to classification shall include a general description of the land in each class with the names of the owners.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

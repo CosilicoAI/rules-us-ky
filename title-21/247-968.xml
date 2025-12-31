@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/247.968"/>
+          <FRBRuri value="/us-ky/act/krs/247.968"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/247.968/eng"/>
+          <FRBRuri value="/us-ky/act/krs/247.968/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/247.968/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/247.968/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247_968">
+        <num>247.968</num>
+        <content>
+          <p>The corporation shall not be required to pay any taxes and assessments to the Commonwealth or any county, municipality or other governmental subdivision of the Commonwealth upon any of its property or upon its obligations or other evidences of indebtedness pursuant to the provisions of  to  or upon any moneys, funds, revenues or other income held or received by the corporation and the bonds or notes of the corporation and the income therefrom shall at all times be exempt from taxation, except for death and gift taxes and taxes of transfers; provided, however, that real or personal property owned by the corporation shall be exempt from all property taxation and special assessments of the Commonwealth or its political subdivisions, but the corporation shall pay, in lieu of such taxes, such amounts as would have been levied had not said real or personal property been owned by the corporation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/95.878"/>
+          <FRBRuri value="/us-ky/act/krs/95.878"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/95.878/eng"/>
+          <FRBRuri value="/us-ky/act/krs/95.878/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/95.878/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/95.878/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_95_878">
+        <num>95.878</num>
+        <content>
+          <p>Except for court or administratively ordered current child support, owed child support, or to-be-owed child support, the right to a retirement annuity, disability annuity, survivor’s annuity or benefit, death benefit, or any other benefit under the provision hereof, by whatever name called, or refund, is personal with the recipient thereof, and the assignment or transfer of such benefit or any part thereof shall be void, except as herein provided. Any such annuity, benefit, or refund shall not answer for debts contracted by the person receiving the same, and it is the intention of this section that they shall not be attached or affected by any judicial proceeding.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

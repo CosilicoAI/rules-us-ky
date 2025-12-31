@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/139.430"/>
+          <FRBRuri value="/us-ky/act/krs/139.430"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/139.430/eng"/>
+          <FRBRuri value="/us-ky/act/krs/139.430/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/139.430/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/139.430/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_139_430">
+        <num>139.430</num>
+        <content>
+          <p>If a purchaser who gives a certificate makes any storage or use of the property other than retention, demonstration or display while holding it for sale in the regular course of business, the storage or use is taxable as of the time the property is first so stored or used. If the sole use of the property, other than retention, demonstration or display in the regular course of business, is the rental of the property while holding it for sale, the purchaser shall pay the tax on the use measured by the amount of the rental charged rather than the sales price of the property to him.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

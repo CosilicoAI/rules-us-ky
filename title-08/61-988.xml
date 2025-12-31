@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/61.988"/>
+          <FRBRuri value="/us-ky/act/krs/61.988"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/61.988/eng"/>
+          <FRBRuri value="/us-ky/act/krs/61.988/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/61.988/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/61.988/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_61_988">
+        <num>61.988</num>
+        <content>
+          <p>Any person injured by a violation of  to may bring an action for injunctive relief in the Circuit Court of the county in which the person resides or in which the covered entity is located. An action for injunctive relief shall be commenced within four (4) years after the cause of action accrues. A cause of action for a continuing violation of  to shall accrue at the time of the latest occurrence of the violation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

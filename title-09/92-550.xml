@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/92.550"/>
+          <FRBRuri value="/us-ky/act/krs/92.550"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/92.550/eng"/>
+          <FRBRuri value="/us-ky/act/krs/92.550/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/92.550/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/92.550/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_92_550">
+        <num>92.550</num>
+        <content>
+          <p>The assessment of property by cities of the second class, the levy of taxes thereon, the tax bills, the sale of property for taxes and the treasurer’s report thereof, and all other acts of record of such cities relating to the assessment of property and the levy of taxes thereon shall be conclusive notice to all persons of such assessment, levy and sales and the liens and rights created thereby. No irregularity in such proceedings shall invalidate or defeat the collection of taxes by the city upon any property subject to taxation therein. The courts shall make all necessary orders to require all such property to bear its just proportion of taxation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

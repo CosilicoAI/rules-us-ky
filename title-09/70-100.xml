@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/70.100"/>
+          <FRBRuri value="/us-ky/act/krs/70.100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/70.100/eng"/>
+          <FRBRuri value="/us-ky/act/krs/70.100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/70.100/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/70.100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_70_100">
+        <num>70.100</num>
+        <content>
+          <p>Except as provided in subsection (1) of  which is hereby made applicable to sheriffs, for two (2) years after the expiration of his term of office a sheriff and his deputies may collect his distrainable fee-bills, or those of any other officer, placed in his hands for collection during his term of office, and may make distress for the same within the time during which the fee retains its distrainable force, and, with his sureties, shall be liable to the person entitled to such fees.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

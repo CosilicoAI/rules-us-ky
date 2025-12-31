@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/278.548"/>
+          <FRBRuri value="/us-ky/act/krs/278.548"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/278.548/eng"/>
+          <FRBRuri value="/us-ky/act/krs/278.548/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/278.548/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/278.548/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_278_548">
+        <num>278.548</num>
+        <content>
+          <p>The commission shall establish a program to make telecommunications relay services available not later than October 1, 1991, and shall make interstate telecommunications relay services available no later than July 1, 1992. The telecommunications relay service, whether intrastate or interstate, shall be operated seven (7) days a week for twenty-four (24) hours per day for all deaf, hard-of-hearing, or speech-impaired telephone subscribers within the Commonwealth. In order to determine the most cost effective method of providing telecommunications relay services that will meet the requirements of the deaf, hard of hearing, and speech-impaired, the commission shall initiate an investigation, conduct public hearings, and solicit the advice and counsel of the deaf, hard-of-hearing persons, and speech-impaired persons and the organizations serving them. The commission may assist the Commission on the Deaf and Hard of Hearing in the TDD distribution program established pursuant to .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/341.180"/>
+          <FRBRuri value="/us-ky/act/krs/341.180"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/341.180/eng"/>
+          <FRBRuri value="/us-ky/act/krs/341.180/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/341.180/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/341.180/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_341_180">
+        <num>341.180</num>
+        <content>
+          <p>Upon direction of the Governor, the secretary with the advice and aid of the advisory councils, shall take all appropriate steps to reduce and prevent unemployment; encourage and assist in the adoption of practical methods of vocational training, retraining and vocational guidance; investigate, recommend, advise, and assist in the establishment and operation by cities, counties, school districts and the state, of reserves for public works to be used in times of business depression and unemployment; and to promote the employment of unemployed workers throughout the state in every feasible way, and to these ends to carry on and publish the results of investigations and research studies.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

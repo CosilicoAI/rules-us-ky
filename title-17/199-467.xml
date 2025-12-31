@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/199.467"/>
+          <FRBRuri value="/us-ky/act/krs/199.467"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/199.467/eng"/>
+          <FRBRuri value="/us-ky/act/krs/199.467/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/199.467/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/199.467/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_199_467">
+        <num>199.467</num>
+        <content>
+          <p>Pursuant to the requirements of the Adoption Assistance and Child Welfare Act of 1980, Pub. L. 96-272, the secretary for health and family services shall adopt by regulation specific goals for each fiscal year for the cabinet as to the maximum number of children, (either in absolute numbers or as a percentage of all children in foster care with respect to whom assistance is provided in that year) who, at any time during such fiscal year, will remain in foster care after having been in such care for a period in excess of twenty-four (24) months, together with a description of the steps to be taken by the state to achieve such goals.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

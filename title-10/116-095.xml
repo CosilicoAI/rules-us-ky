@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/116.095"/>
+          <FRBRuri value="/us-ky/act/krs/116.095"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/116.095/eng"/>
+          <FRBRuri value="/us-ky/act/krs/116.095/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/116.095/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/116.095/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_116_095">
+        <num>116.095</num>
+        <content>
+          <p>The county clerk shall permit any citizen, at all reasonable hours, to inspect or make copies of any registration record, without any fee. He or she shall, upon request, furnish to any citizen a copy of the registration records, for which he or she may charge necessary duplicating costs not to exceed fifty cents ($0.50) per page. If a registered voter’s Social Security number is included on his or her registration information, the Social Security number shall be redacted by the county clerk before it is duplicated and furnished to the citizen requesting the copy and before it is inspected or duplicated by the citizen.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

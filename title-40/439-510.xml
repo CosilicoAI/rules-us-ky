@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/439.510"/>
+          <FRBRuri value="/us-ky/act/krs/439.510"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/439.510/eng"/>
+          <FRBRuri value="/us-ky/act/krs/439.510/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/439.510/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/439.510/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_439_510">
+        <num>439.510</num>
+        <content>
+          <p>All information obtained in the discharge of official duty by any probation or parole officer shall be privileged and shall not be received as evidence in any court. Such information shall not be disclosed directly or indirectly to any person other than the court, board, cabinet, or others entitled under  to to receive such information, unless otherwise ordered by such court, board or cabinet. Information shall be made available to sex offender treatment programs operated or approved by the Department of Corrections or the Department for Behavioral Health, Developmental and Intellectual Disabilities who request the information in the course of conducting an evaluation or treatment pursuant to , 3), or 4).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

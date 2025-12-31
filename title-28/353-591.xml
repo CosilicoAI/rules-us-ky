@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/353.591"/>
+          <FRBRuri value="/us-ky/act/krs/353.591"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/353.591/eng"/>
+          <FRBRuri value="/us-ky/act/krs/353.591/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/353.591/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/353.591/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_353_591">
+        <num>353.591</num>
+        <content>
+          <p>The purpose of  and shall be, upon delegation of authority for administration of the Underground Injection Control Program under Section 1425 of the Safe Drinking Water Act (Public Law 93-523 as amended), to protect underground sources of drinking water and to prevent their endangerment from class II wells.  and shall apply to all persons as defined in ; to all lands including federally-owned lands; and to all class II wells without regard to the time the well was drilled; provided that the department may make reasonable distinctions between existing and new class II wells in the implementation of  and  No provision of  or shall apply to crude oil or natural gas production wells that are not class II wells.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

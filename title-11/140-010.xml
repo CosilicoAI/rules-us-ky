@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/140.010"/>
+          <FRBRuri value="/us-ky/act/krs/140.010"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/140.010/eng"/>
+          <FRBRuri value="/us-ky/act/krs/140.010/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/140.010/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/140.010/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_140_010">
+        <num>140.010</num>
+        <content>
+          <p>All real and personal property within the jurisdiction of this state and any interest therein belonging to inhabitants of this state, all tangible personal property wherever situated belonging to inhabitants of this state that has not acquired a situs for purposes of taxation outside of this state, all intangible property belonging to persons domiciled in this state except partnership property located in another state which is subject to an inheritance or estate tax in that state, all intangible property belonging to nonresidents that has acquired a business situs in this state, all real property or interest therein within this state and all tangible personal property that has acquired a situs in this state and is not taxable elsewhere belonging to persons who are not inhabitants of this state, which shall pass by will or by the laws regulating intestate succession, or by deed, grant, bargain, sale or gift made in contemplation of death or made or intended to take effect in possession or enjoyment at or after the death of the grantor or donor, absolutely or in trust, to any person or to any body politic or corporate, in trust or otherwise, or by reason whereof any person or body politic or corporate shall become beneficially entitled in possession or expectancy to any property or to the income thereof, is subject to a tax upon the fair cash value as of the date of the death of the grantor or donor of the property in excess of the exemptions granted and at the rates prescribed in this chapter. This tax shall be imposed when any such person or corporation becomes beneficially entitled in possession or expectancy to any property or the income thereof by any such transfer.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/80.270"/>
+          <FRBRuri value="/us-ky/act/krs/80.270"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/80.270/eng"/>
+          <FRBRuri value="/us-ky/act/krs/80.270/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/80.270/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/80.270/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_80_270">
+        <num>80.270</num>
+        <content>
+          <p>It is hereby declared that there exist in Kentucky unsafe and unsanitary housing conditions and a shortage of safe and sanitary dwelling accommodations for persons of low income; that these conditions necessitate excessive and disproportionate expenditures of public funds for crime prevention and punishment, public health and safety, fire and accident protection, and other public services and facilities; and that the public interest requires the remedying of these conditions. It is further declared that the assistance provided in  to for the remedying of such conditions constitutes a public use and purpose and an essential governmental function for which public money may be spent and other aid given; that it is a proper public purpose for any public body to aid any housing authority located or operating within its boundaries or jurisdiction, as the public body derives immediate benefits and advantages from such a housing authority or developments; and that the provisions of  to are necessary in the public interest.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

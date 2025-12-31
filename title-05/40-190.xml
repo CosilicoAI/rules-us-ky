@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/40.190"/>
+          <FRBRuri value="/us-ky/act/krs/40.190"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/40.190/eng"/>
+          <FRBRuri value="/us-ky/act/krs/40.190/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/40.190/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/40.190/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_190">
+        <num>40.190</num>
+        <content>
+          <p>For the purpose of providing funds for payment of the veterans’ bonus authorized by this chapter, the State Property and Buildings Commission shall from time to time as funds are anticipated to be required, provide by resolution for the issuance and sale of general obligation bonds of the Commonwealth, for payment of which, both principal and interest when due, the full faith, credit, resources and unlimited taxing power of the Commonwealth shall irrevocably be pledged, together with, additionally, a specific pledge of and first charge upon the proceeds of the retail sales tax required to be levied by the provisions of , referred to in .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

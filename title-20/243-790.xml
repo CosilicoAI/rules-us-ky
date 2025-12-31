@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/243.790"/>
+          <FRBRuri value="/us-ky/act/krs/243.790"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/243.790/eng"/>
+          <FRBRuri value="/us-ky/act/krs/243.790/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/243.790/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/243.790/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_243_790">
+        <num>243.790</num>
+        <content>
+          <p>The sale or distribution of alcoholic beverages manufactured in or imported into this state for shipment permanently out of the state to be sold without the state and consumed without the state shall not be subject to the tax imposed by . Provided, however, the Department of Revenue may, when necessary for the purpose of control enforcement or protection of revenue, prescribe the conditions under which containers of such alcoholic beverages for shipment permanently out of the state to be sold without the state and consumed without the state may be kept and trafficked in without payment of the tax.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

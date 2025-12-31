@@ -1,0 +1,137 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/141.901"/>
+          <FRBRuri value="/us-ky/act/krs/141.901"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/141.901/eng"/>
+          <FRBRuri value="/us-ky/act/krs/141.901/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/141.901/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/141.901/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_141_901">
+        <num>141.901</num>
+        <content>
+          <p>The provisions of this section are the same as appeared in  prior to its repeal and reenactment in Section 60 of 2018 Ky. Acts chs. 171 and 207. This section applies to all corporations for taxable years beginning prior to January 1, 2018, and to a provider, as defined in , for taxable years beginning on or after January 1, 2018.</p>
+          <p>2.
+      Property owned is valued at its original cost. If the original cost of any property is not determinable or is nominal or zero (0) the property shall be valued by the department pursuant to administrative regulations promulgated by the department. Property rented is valued at eight (8) times the net annual rental rate. Net annual rental rate is the annual rental rate paid by the corporation less any annual rental rate received by the corporation from subrentals, provided that the rental and subrentals are reasonable. If the department determines that the annual rental or subrental rate is unreasonable, or if a nominal or zero (0) rate is charged, the department may determine and apply the rental rate as will reasonably reflect the value of the property rented by the corporation.</p>
+          <p>3.
+      The average value of property shall be determined by averaging the values at the beginning and ending of the tax period but the department may require the averaging of monthly values during the tax period if reasonably required to reflect properly the average value of the property.</p>
+          <p>2.
+      Sales of tangible personal property are in this state if:</p>
+          <p>3.
+      Sales, other than sales of tangible personal property, are in this state if the income-producing activity is performed in this state; or the income-producing activity is performed both in and outside this state and a greater proportion of the income-producing activity is performed in this state than in any other state, based on costs of performance.</p>
+          <p>1.
+      Separate accounting;</p>
+          <p>2.
+      The exclusion of any one (1) or more of the factors;</p>
+          <p>3.
+      The inclusion of one (1) or more additional factors which will fairly represent the corporation’s business activity in this state; or</p>
+          <p>1.
+      All business income derived directly or indirectly from the sale of management, distribution, or administration services to or on behalf of regulated investment companies, as defined under the Internal Revenue Code of 1986, as amended, including trustees, and sponsors or participants of employee benefit plans which have accounts in a regulated investment company, shall be apportioned to this state only to the extent that shareholders of the investment company are domiciled in this state as follows:</p>
+          <p>2.
+    
+    All business income derived directly or indirectly from the sale of securities brokerage services by a business which operates within the boundaries of any area of the Commonwealth, which on June 30, 1992, was designated as a Kentucky Enterprise Zone, as described in  before that statute was renumbered in 1992, shall be apportioned to this state only to the extent that customers of the securities brokerage firm are domiciled in this state. The portion of business income apportioned to Kentucky shall be determined by multiplying the total business income from the sale of these services by a fraction determined in the following manner:</p>
+          <p>a.
+      The numerator of the fraction shall be the brokerage commissions and total margin interest paid in respect of brokerage accounts owned by customers domiciled in Kentucky for the brokerage firm’s taxable year;</p>
+          <p>b.
+      The denominator of the fraction shall be the brokerage commissions and total margin interest paid in respect of brokerage accounts owned by all of the brokerage firm’s customers for that year; and</p>
+          <p>c.
+      Nonbusiness income shall be allocated to this state as provided in subsections (4) to (7) of this section.</p>
+          <p>shall include the proportionate share of sales, property, and payroll of the limited liability pass-through entity or general partnership when apportioning income, and shall include the proportionate share of sales in calculating the tax due pursuant to . The phrases “an interest in a limited liability pass-through entity” and “an interest in a general partnership organized or formed as a general partnership after January 1, 2006,” shall extend to each level of multiple-tiered pass-through entities.</p>
+        </content>
+        <subsection eId="sec_141_901__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Net rents and royalties from tangible personal property are allocable to this state if and to the extent that the property is utilized in this state; or in their entirety if the corporation’s commercial domicile is in this state and the corporation is not organized under the laws of or taxable in the state in which the property is utilized.</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_141_901__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The extent of utilization of tangible personal property in a state is determined by multiplying the rents and royalties by a fraction, the numerator of which is the number of days of physical location of the property in the state during the rental or royalty period in the taxable year and the denominator of which is the number of days of physical location of the property everywhere during all rental or royalty periods in the taxable year. If the physical location of the property during the rental or royalty period is unknown or unascertainable by the corporation, the tangible personalty is utilized in the state in which the property was located at the time the rental or royalty payer obtained possession.</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_141_901__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>Net rents and royalties from intangible personal property located in this state are allocable to this state. For purposes of this section, royalties from property leased in Kentucky shall be considered as royalties from intangible personal property.</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_141_901__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Capital gains and losses from sales or other dispositions of tangible personal property are allocable to this state if the property had a situs in this state at the time of the sale, or the corporation’s commercial domicile is in this state and the corporation is not taxable in the state in which the property had a situs.</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_141_901__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Capital gains and losses from sales or other dispositions of intangible personal property are allocable to this state if the corporation’s commercial domicile is in this state.</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_141_901__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A patent is utilized in a state to the extent that it is employed in production, fabrication, manufacturing, or other processing in the state or to the extent that a patented product is produced in the state. If the basis of receipts from patent royalties does not permit allocation to states or if the accounting procedures do not reflect states of utilization, the patent is utilized in the state in which the corporation’s commercial domicile is located.</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_141_901__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>A copyright is utilized in a state to the extent that printing or other publication originates in the state. If the basis of receipts from copyright royalties does not permit allocation to states or if the accounting procedures do not reflect states of utilization, the copyright is utilized in the state in which the corporation’s commercial domicile is located.</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_141_901__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>1.
+    
+    The property factor is a fraction, the numerator of which is the average value of the corporation’s real and tangible personal property owned or rented and used in this state during the tax period and the denominator of which is the average value of all the corporation’s real and tangible personal property owned or rented and used during the tax period; provided, however, that property which has been certified as a pollution control facility as defined in  shall be excluded from the property factor.</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_141_901__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The payroll factor is a fraction, the numerator of which is the total amount paid or payable in this state during the tax period by the corporation for compensation, and the denominator of which is the total compensation paid or payable by the corporation everywhere during the tax period. Compensation is paid or payable in this state if:</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_141_901__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>1.
+      The sales factor is a fraction, the numerator of which is the total sales of the corporation in this state during the tax period, and the denominator of which is the total sales of the corporation everywhere during the tax period.</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_141_901__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A corporation may elect the allocation and apportionment methods for the corporation’s business income provided for in subparagraphs 1. and 2. of this paragraph. The election, if made, shall be irrevocable for a period of five years.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/273.203"/>
+          <FRBRuri value="/us-ky/act/krs/273.203"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/273.203/eng"/>
+          <FRBRuri value="/us-ky/act/krs/273.203/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/273.203/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/273.203/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_273_203">
+        <num>273.203</num>
+        <content>
+          <p>The bylaws may provide the number or percentage of members entitled to vote represented in person or by proxy, or the number or percentage of votes represented in person or by proxy, which shall constitute a quorum at a meeting of members. In the absence of any such provision, members holding one-tenth (1/10) of the votes entitled to be cast on the matter to be voted upon represented in person or by proxy shall constitute a quorum. A majority of the votes entitled to be cast on a matter to be voted upon by the members present or represented by proxy at a meeting at which a quorum is present shall be necessary for the adoption thereof unless a greater proportion is required by  to  the articles of incorporation or the bylaws.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

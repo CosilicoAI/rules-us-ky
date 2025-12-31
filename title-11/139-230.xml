@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/139.230"/>
+          <FRBRuri value="/us-ky/act/krs/139.230"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/139.230/eng"/>
+          <FRBRuri value="/us-ky/act/krs/139.230/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/139.230/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/139.230/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_139_230">
+        <num>139.230</num>
+        <content>
+          <p>To eliminate fractions of one cent ($0.01), and to ensure that the aggregate collections of taxes by a retailer, so far as may be practicable, shall be equal to six percent (6%) of gross receipts or sales price, as the case may be, the tax shall be computed by applying the six percent (6%) rate to the sales price carried to the third decimal place and rounded to the nearest cent by eliminating any fraction less than one-half of one cent ($0.005) and increasing any fraction of one-half of one cent ($0.005) or over to the next higher cent.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/386.023"/>
+          <FRBRuri value="/us-ky/act/krs/386.023"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/386.023/eng"/>
+          <FRBRuri value="/us-ky/act/krs/386.023/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/386.023/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/386.023/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_386_023">
+        <num>386.023</num>
+        <content>
+          <p>Any other provisions of this chapter notwithstanding, and in the absence of an express provision to the contrary in an instrument establishing a fiduciary relationship, whenever such instrument requires, directs, authorizes, or permits a fiduciary to invest funds in obligations of the United States government or in obligations unconditionally guaranteed by the United States government, such fiduciary may invest in and hold such obligations either directly or in the form of securities in any open-end management type investment company or investment trust registered under the Investment Company Act of 1940, as from time to time amended, provided that the portfolio of such investment company or investment trust is limited to such obligations and to repurchase agreements fully collateralized by obligations of the United States government or obligations unconditionally guaranteed by the United States government and provided further that any such investment company or investment trust shall take delivery of such collateral either directly or through an authorized custodian.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

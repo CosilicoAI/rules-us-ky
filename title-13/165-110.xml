@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/165.110"/>
+          <FRBRuri value="/us-ky/act/krs/165.110"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/165.110/eng"/>
+          <FRBRuri value="/us-ky/act/krs/165.110/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/165.110/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/165.110/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_165_110">
+        <num>165.110</num>
+        <content>
+          <p>The president and treasurer of the university shall each give bond with approved surety in a sum fixed by the board of aldermen of the city. The bond shall be payable to the university and obligate the makers to perform faithfully the duties of their offices and faithfully account for and pay over all money or other thing of value that may come into their hands. The bonds shall be kept in force during the time any money received from the bond issue provided for by  is being handled or administered by the university or its officers.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

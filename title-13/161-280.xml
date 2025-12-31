@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/161.280"/>
+          <FRBRuri value="/us-ky/act/krs/161.280"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/161.280/eng"/>
+          <FRBRuri value="/us-ky/act/krs/161.280/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/161.280/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/161.280/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_161_280">
+        <num>161.280</num>
+        <content>
+          <p>Each member of the board of trustees shall, within ten (10) days after his appointment or election, take an oath that he will support the Constitution of the United States and the Constitution of Kentucky, that he will diligently and honestly administer the affairs of the board, and that he will not knowingly violate or willingly permit to be violated any provisions of the law applicable to the retirement system. The oath of office shall be subscribed to by the member making it and certified to by the officer before whom it is taken, and shall be immediately filed in the office of the Secretary of State.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/65.7631"/>
+          <FRBRuri value="/us-ky/act/krs/65.7631"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/65.7631/eng"/>
+          <FRBRuri value="/us-ky/act/krs/65.7631/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/65.7631/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/65.7631/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_65_7631">
+        <num>65.7631</num>
+        <content>
+          <p>When the balance of money collected under this subsection and not yet obligated for permitted uses exceeds three million dollars ($3,000,000) in any fiscal year, the excess amount shall be allocated under subsection (5) of this section.</p>
+          <p>All amounts distributed to PSAPs under this subsection shall be used by the PSAPs solely for the purposes of answering, routing, and properly disposing of 911 calls, training PSAP staff, and public education concerning appropriate use of 911, in accordance with  and (5). Additionally, amounts distributed to PSAPs under this subsection may be used for the purposes of complying with the wireless E911 service requirements established by the FCC order and any rules and regulations which are or may be adopted by the Federal Communications Commission pursuant to the FCC order, including the payment of costs and expenses incurred in designing, upgrading, purchasing, leasing, programming, testing, installing, or maintaining all necessary data, hardware, and software required in order to provide wireless E911 service.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

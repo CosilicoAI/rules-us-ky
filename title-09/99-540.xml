@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/99.540"/>
+          <FRBRuri value="/us-ky/act/krs/99.540"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/99.540/eng"/>
+          <FRBRuri value="/us-ky/act/krs/99.540/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/99.540/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/99.540/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_99_540">
+        <num>99.540</num>
+        <content>
+          <p>Any urban renewal project undertaken pursuant to the preceding section shall be undertaken in accordance with an urban renewal plan for the area of the project. As used in  to  an “urban renewal plan” means a plan, as it exists from time to time, for an urban renewal project, which plan (1) shall conform to the general or master plan for the community as a whole, except as provided for disaster areas; and (2) shall be sufficiently complete to indicate such land acquisition, demolition and removal of structures, redevelopment, improvements, and rehabilitation as may be proposed to be carried out in the area of the urban renewal project, zoning and planning changes, if any, land uses, maximum densities, building requirements, and the plan’s relationship to definite local objectives respecting appropriate land uses, improved traffic, public transportation, public utilities, recreational and community facilities, and other public improvements. An urban renewal plan shall be prepared and approved pursuant to the same procedure as provided in  to with respect to a development plan. Where real property acquired by an agency is to be transferred in accordance with the urban renewal plan, any contract for such transfer and the urban renewal plan, or such part or parts of such contract or plan as the agency may determine, may be recorded in the land records of the community in such manner as to afford actual or constructive notice thereof.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/388.200"/>
+          <FRBRuri value="/us-ky/act/krs/388.200"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/388.200/eng"/>
+          <FRBRuri value="/us-ky/act/krs/388.200/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/388.200/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/388.200/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_388_200">
+        <num>388.200</num>
+        <content>
+          <p>The administrator of veterans affairs, or his successor, is and shall be a party in interest in any proceeding brought under any law of this state for the appointment of a guardian or conservator for any beneficiary, who is a minor or who has been adjudged mentally disabled, or the Veterans Affairs on whose account benefits have been paid or are payable by said Veterans Affairs, and the said administrator or his successor is and shall be an interested party in any court proceeding pertaining to or affecting in any manner the administration of the estate of any such beneficiary on whose account such benefits are payable or whose estate includes assets derived from benefits paid by the Veterans Affairs, its predecessor or successor. Written notice shall be given by certified mail, return receipt requested, unless waived in writing, to the office of the Veterans Affairs having jurisdiction over the area in which the court is located, of the time and place for hearing on any petition or pleading or in connection with any proceeding pertaining to or affecting in any manner the administration of the estate of any such beneficiary of the Veterans Affairs. Said notice shall be deposited in the mails not less than fifteen (15) days prior to the date of such hearing or other proceedings.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

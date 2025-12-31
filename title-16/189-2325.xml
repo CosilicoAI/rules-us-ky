@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/189.2325"/>
+          <FRBRuri value="/us-ky/act/krs/189.2325"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/189.2325/eng"/>
+          <FRBRuri value="/us-ky/act/krs/189.2325/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/189.2325/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/189.2325/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_189_2325">
+        <num>189.2325</num>
+        <content>
+          <p>The secretary of the Transportation Cabinet shall promulgate administrative regulations pursuant to KRS  governing the posting of signs advising motorists that penalties are increased for traffic violations occurring on state-maintained streets or state-maintained highways in a highway work zone. The administrative regulations promulgated by the cabinet shall include guidelines to determine which areas are appropriate to the posting of these signs. The guidelines may include, but are not limited to, the following:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

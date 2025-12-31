@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/156.074"/>
+          <FRBRuri value="/us-ky/act/krs/156.074"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/156.074/eng"/>
+          <FRBRuri value="/us-ky/act/krs/156.074/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/156.074/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/156.074/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_156_074">
+        <num>156.074</num>
+        <content>
+          <p>The Kentucky Board of Education, upon requisition to the Finance and Administration Cabinet, may secure price contract agreements for the purchase of supplies and equipment by district boards of education. The board by regulation shall specify the particular types of supplies and equipment for which contracts shall be secured and may revise such lists from time to time. The board, in consultation with the Finance and Administration Cabinet, shall fix standards of quality and quantity and shall develop standard specifications for supplies and equipment. The Finance and Administration Cabinet shall enter into price contract agreements under the law relating to state purchasing. Such contracts shall establish sources of supply, maximum prices to be paid, and shall set forth the length of time for which such contracts shall be valid, not to exceed one (1) year.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

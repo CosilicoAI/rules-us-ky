@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/159.160"/>
+          <FRBRuri value="/us-ky/act/krs/159.160"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/159.160/eng"/>
+          <FRBRuri value="/us-ky/act/krs/159.160/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/159.160/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/159.160/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_159_160">
+        <num>159.160</num>
+        <content>
+          <p>The principal or teacher in charge of any public, private, or parochial school shall report to the superintendent of schools of the district in which the school is situated the names, ages, and places of residence of all pupils in attendance at his school, together with any other facts that the superintendent may require to facilitate carrying out the laws relating to compulsory attendance and employment of children. The reports shall be made within two (2) weeks of the beginning of each school year.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

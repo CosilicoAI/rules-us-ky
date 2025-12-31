@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/197.105"/>
+          <FRBRuri value="/us-ky/act/krs/197.105"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/197.105/eng"/>
+          <FRBRuri value="/us-ky/act/krs/197.105/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/197.105/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/197.105/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_197_105">
+        <num>197.105</num>
+        <content>
+          <p>A civilian worker is not considered displaced for the purposes of this paragraph if the civilian worker remains employed in a job acceptable to that worker and at equal or higher wages than that worker previously received. The employer shall provide whatever retraining is required of the civilian worker at no cost to the civilian worker;</p>
+          <p>Total deductions from a prisoner’s gross wages shall not exceed eighty percent (80%).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

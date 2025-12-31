@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/92.300"/>
+          <FRBRuri value="/us-ky/act/krs/92.300"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/92.300/eng"/>
+          <FRBRuri value="/us-ky/act/krs/92.300/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/92.300/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/92.300/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_92_300">
+        <num>92.300</num>
+        <content>
+          <p>1.
+      Any bank, trust company, combined bank and trust company, or trust, banking and title insurance company organized and doing business in this state;</p>
+          <p>2.
+      Any savings and loan association whether state or federally chartered;</p>
+          <p>3.
+    
+    The provision of multichannel video programming services or communications services as defined in . It is the intent of the General Assembly to continue the exemption from local license fees and occupational taxes that existed on January 1, 2006, for providers of multichannel video programming services or communications services as defined in  that were taxed under  prior to January 1, 2006. If only a portion of an entity’s business is providing multichannel video programming services or communications services including products or services that are related to and provided in support of the multichannel video programming services or communications services, this exclusion applies only to that portion of the business that provides multichannel video programming services or communications services including products or services that are related to and provided in support of the multichannel video programming services or communications services; or</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

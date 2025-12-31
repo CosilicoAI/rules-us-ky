@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/311.535"/>
+          <FRBRuri value="/us-ky/act/krs/311.535"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/311.535/eng"/>
+          <FRBRuri value="/us-ky/act/krs/311.535/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/311.535/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/311.535/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_311_535">
+        <num>311.535</num>
+        <content>
+          <p>The appointed members of the State Board of Medical Licensure shall hold office for terms of four (4) years and until their successors are appointed and qualify. The commissioner of public health and the deans of the medical schools shall hold office only while holding their respective titles. The terms of all appointed members of the board shall expire on August 31 of the last year of their respective terms.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

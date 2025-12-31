@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/196.703"/>
+          <FRBRuri value="/us-ky/act/krs/196.703"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/196.703/eng"/>
+          <FRBRuri value="/us-ky/act/krs/196.703/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/196.703/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/196.703/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_196_703">
+        <num>196.703</num>
+        <content>
+          <p>The commission or one (1) or more of its members may visit and inspect any state penal institution and may inform and advise the commissioner of the Department of Corrections in regard to the institution’s physical or other condition, its discipline, management, and program, and its general adequacy or inadequacy. The commission or a majority of its members shall have full access to the grounds and buildings and to the books and records belonging or relating to the institution, as well as the right to subpoena witnesses, take proof, or hear testimony under oath relating to the institution.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

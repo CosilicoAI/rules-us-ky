@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/342.281"/>
+          <FRBRuri value="/us-ky/act/krs/342.281"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/342.281/eng"/>
+          <FRBRuri value="/us-ky/act/krs/342.281/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/342.281/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/342.281/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_342_281">
+        <num>342.281</num>
+        <content>
+          <p>Within fourteen (14) days from the date of the award, order, or decision any party may file a petition for reconsideration of the award, order, or decision of the administrative law judge. The petition for reconsideration shall clearly set out the errors relied upon with the reasons and argument for reconsideration of the pending award, order, or decision. All other parties shall have ten (10) days thereafter to file a response to the petition. The administrative law judge shall be limited in the review to the correction of errors patently appearing upon the face of the award, order, or decision and shall overrule the petition for reconsideration or make any correction within ten (10) days after submission.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

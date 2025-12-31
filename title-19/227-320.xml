@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/227.320"/>
+          <FRBRuri value="/us-ky/act/krs/227.320"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/227.320/eng"/>
+          <FRBRuri value="/us-ky/act/krs/227.320/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/227.320/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/227.320/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_227_320">
+        <num>227.320</num>
+        <content>
+          <p>The authorities of any county, city, or other political subdivision shall adopt and enforce the standards of safety promulgated by the commissioner, and may enter upon private property to enforce required fire lane open space in parking lots containing space for ten (10) or more vehicles. Whenever the commissioner, by rules and regulations prescribes a standard of safety from fire loss, such rules and regulations shall establish a minimum requirement concerning the matters covered thereby and shall be so construed in relation to any local rules and regulations.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/416.210"/>
+          <FRBRuri value="/us-ky/act/krs/416.210"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/416.210/eng"/>
+          <FRBRuri value="/us-ky/act/krs/416.210/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/416.210/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/416.210/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_416_210">
+        <num>416.210</num>
+        <content>
+          <p>Any burial association or corporation may, with the approval of the appropriate city, county, urban-county, consolidated local government, or charter county legislative body, condemn land by first recording, in the county clerk’s office of the county where the land lies, a resolution that it needs the land to furnish a burial site for the public. It may condemn a sufficient roadway to have access to the land, not wider than one hundred (100) feet. It may also condemn enough land, not exceeding five (5) acres, adjacent to any land used for a cemetery for a chapel site. If the building of any state highway requires a change in the entrance to any cemetery, the burial association or corporation may condemn any adjacent land, not wider than one hundred (100) feet for the new entrance. The condemnation procedure shall be in the Circuit Court of the county pursuant to the Eminent Domain Act of Kentucky. This section shall not permit condemnation of more than forty (40) acres at any one time.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

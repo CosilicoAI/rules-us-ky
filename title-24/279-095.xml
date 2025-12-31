@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/279.095"/>
+          <FRBRuri value="/us-ky/act/krs/279.095"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/279.095/eng"/>
+          <FRBRuri value="/us-ky/act/krs/279.095/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/279.095/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/279.095/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_279_095">
+        <num>279.095</num>
+        <content>
+          <p>A rural electric cooperative shall be operated on a nonprofit basis for the mutual benefit of its members and patrons. The bylaws of a cooperative or its contracts with members and patrons shall contain such provisions relative to the disposition of revenue and receipts as may be necessary and appropriate to establish and maintain its nonprofit and cooperative character. In the case of a cooperative authorized to issue shares of stock, such bylaws or contracts shall provide that no moneys shall be paid or credits given on the basis of patronage except after the declaration or payment of dividends on the outstanding shares of stock in accordance with the articles of incorporation of the cooperative, and such bylaws or contracts shall otherwise be consistent with the cooperative’s obligations in respect of such shares of stock.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

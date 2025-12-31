@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/234.302"/>
+          <FRBRuri value="/us-ky/act/krs/234.302"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/234.302/eng"/>
+          <FRBRuri value="/us-ky/act/krs/234.302/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/234.302/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/234.302/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_234_302">
+        <num>234.302</num>
+        <content>
+          <p>When in the judgment of the council or an association certified under , a person has engaged in or is about to engage in any acts or practices that constitute a violation of any of the provisions of  to  the council or the certified association may make application to the Franklin Circuit Court for an order enjoining the act or acts or practices, and obtain a restraining order and preliminary injunction against the person.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

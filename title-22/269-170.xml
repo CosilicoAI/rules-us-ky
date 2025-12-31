@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/269.170"/>
+          <FRBRuri value="/us-ky/act/krs/269.170"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/269.170/eng"/>
+          <FRBRuri value="/us-ky/act/krs/269.170/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/269.170/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/269.170/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_269_170">
+        <num>269.170</num>
+        <content>
+          <p>The taxes shall be assessed as of July 1, and payable to the corporation on or after October 1 of the year for which assessed, and shall become due on December 1 of that year. On all taxes paid during October before maturity, there shall be a discount of three percent (3%). On all taxes paid during November there shall be a discount of two percent (2%). After January 1 following maturity, all unpaid taxes shall bear interest at the rate of one-half percent (0.5%) a month or fraction thereof until paid. The corporation shall keep an office where taxes are payable and the address of the office shall be lodged with the county clerk and enrolled in a book kept in his office. Any subsequent changes in the address of the office of the company shall be enrolled in the same book.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

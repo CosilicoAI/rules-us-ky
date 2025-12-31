@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/68.130"/>
+          <FRBRuri value="/us-ky/act/krs/68.130"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/68.130/eng"/>
+          <FRBRuri value="/us-ky/act/krs/68.130/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/68.130/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/68.130/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_68_130">
+        <num>68.130</num>
+        <content>
+          <p>A consolidated local government or the fiscal court of each county containing a city of the first class may appoint an auditor and an assistant auditor, to hold office at the pleasure of the consolidated local government or fiscal court. The auditor and assistant auditor shall each receive an annual salary to be fixed by the consolidated local government or fiscal court and paid out of the consolidated local government or county levy. They shall each execute bond with an incorporated surety company authorized and qualified to become surety on bonds in this state, or with at least two (2) solvent and responsible individuals as surety, the bonds and sureties to be approved by the consolidated local government or fiscal court.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

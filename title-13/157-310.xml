@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/157.310"/>
+          <FRBRuri value="/us-ky/act/krs/157.310"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/157.310/eng"/>
+          <FRBRuri value="/us-ky/act/krs/157.310/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/157.310/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/157.310/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_157_310">
+        <num>157.310</num>
+        <content>
+          <p>It is the intention of the General Assembly to assure substantially equal public school educational opportunities for those in attendance in the public schools of the Commonwealth, but not to limit nor to prevent any school district from providing educational services and facilities beyond those assured by the state supported program. The program shall provide for an efficient system of public schools throughout the Commonwealth, as prescribed by Section 183 of the Constitution of Kentucky, and for the manner of distribution of the public school fund among the districts and its use for public school purposes, as prescribed by Section 186 of the Constitution.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

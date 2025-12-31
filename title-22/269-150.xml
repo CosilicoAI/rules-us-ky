@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/269.150"/>
+          <FRBRuri value="/us-ky/act/krs/269.150"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/269.150/eng"/>
+          <FRBRuri value="/us-ky/act/krs/269.150/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/269.150/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/269.150/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_269_150">
+        <num>269.150</num>
+        <content>
+          <p>“The company’s tax notice. “All holders and persons interested in land within the boundary of the company are hereby notified that the board of commissioners appointed by the county judge/executive under has reported an assessment and apportionment upon the land, and on the day of (insert date) it was filed with the clerk of the Circuit Court. Any person having any complaint to make of excessive or unjust assessment or apportionments shall file such complaint in writing with the clerk of the Circuit Court within thirty days after the filing of said report. As soon as practicable after the expiration of such thirty days, the clerk will set it to a day for hearing.  Signed (insert name). Signed (insert name). Signed (insert name). Board of Commissioners.”</p>
+          <p>Click to view</p>
+          <p>The board of commissioners shall also post copies of the notice at six (6) prominent places within the boundary, within seven (7) days after the filing of the report.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

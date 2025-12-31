@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/158.446"/>
+          <FRBRuri value="/us-ky/act/krs/158.446"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/158.446/eng"/>
+          <FRBRuri value="/us-ky/act/krs/158.446/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/158.446/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/158.446/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_158_446">
+        <num>158.446</num>
+        <content>
+          <p>Of the funds appropriated to support the school safety fund program in the biennial budget, twenty percent (20%) of the funds in 1998-99, and ten percent (10%) in 1999-2000, shall be used for the operation of the Center for School Safety and grants to be distributed by the Center to support exemplary programs in local school districts. The remainder of the appropriation shall be distributed to local school districts on a per pupil basis. The funds shall be used for the purpose of improving school safety and student discipline through alternative education programs and intervention services in compliance with ,  and  School districts shall be responsible for documenting the purposes for which these funds were expended.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

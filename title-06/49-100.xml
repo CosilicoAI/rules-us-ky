@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/49.100"/>
+          <FRBRuri value="/us-ky/act/krs/49.100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/49.100/eng"/>
+          <FRBRuri value="/us-ky/act/krs/49.100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/49.100/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/49.100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_100">
+        <num>49.100</num>
+        <content>
+          <p>The attorneys appointed by the Governor to represent the Commonwealth’s cabinets, departments, bureaus, agencies, or officers, agents, or employees thereof may present any opposition the Commonwealth or any of its cabinets, departments, bureaus, agencies, or officers, agents, or employees thereof may have to the allowance of any claim filed with the Board of Claims. If such attorney is unavailable to represent his respective cabinet, department, bureau, agency, or employee thereof, then the Attorney General, either by regular or special assignment, shall designate one (1) of his assistants to present any opposition the Commonwealth or any of its cabinets, departments, bureaus, agencies, or officers, agents, or employees thereof may have to the allowance of any claim filed with the board.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

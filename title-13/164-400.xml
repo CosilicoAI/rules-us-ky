@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.400"/>
+          <FRBRuri value="/us-ky/act/krs/164.400"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.400/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.400/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.400/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.400/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_400">
+        <num>164.400</num>
+        <content>
+          <p>The respective boards of regents of the state universities and colleges and the Kentucky Community and Technical College System shall establish such incidental fees and nonresident tuition fees as will be sufficient for the purpose of paying the incidental expenses of the university or college and as are consistent with the recommendations of the Council on Postsecondary Education. No money derived from nonresident tuition or other fees paid by students shall be used for any other purpose, except such amount as is over and above that needed to defray the incidental expenses.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

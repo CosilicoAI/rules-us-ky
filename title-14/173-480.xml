@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/173.480"/>
+          <FRBRuri value="/us-ky/act/krs/173.480"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/173.480/eng"/>
+          <FRBRuri value="/us-ky/act/krs/173.480/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/173.480/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/173.480/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_173_480">
+        <num>173.480</num>
+        <content>
+          <p>Upon the creation of a district, the fiscal court of each county in the district shall at once notify the Department for Libraries and Archives of the establishment of the district and shall forward to the department a copy of the petition required pursuant to . The Department for Libraries and Archives shall then recommend to the county judge/executive of each county in the district the names of suitable persons from among the signers of the petition to be appointed to the board. The Department for Libraries and Archives in recommending persons to the county judge/executive for appointment to the board shall recommend twice as many persons for each county as the county is entitled to have members appointed, and the county judge/executive shall immediately, with the approval of the fiscal court, make the selection from those recommended. Where the district consists of one (1) county, the county judge/executive shall appoint five (5) persons from that county as members. The Department for Libraries and Archives shall prescribe by regulation the number of board members when the district consists of more than one (1) county, provided that the board shall consist of not less than one (1) nor more than four (4) members from each county, each county having such number of members as the proportion of its population bears to the total population in the district, and that the total membership of the board consists of not less than five (5) members. Where a county joins an already established district, the Department for Libraries and Archives shall, from among the signers of the petition, recommend to the county judge/executive of each county included in the new district for the first time twice as many persons for appointment to the board as the county is entitled to have appointed, and the county judge/executive shall select the members for the county from this list. The terms of the members of the counties composing the previously existing district shall expire immediately upon the organization of the new board and such vacancies shall be filled as provided in .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

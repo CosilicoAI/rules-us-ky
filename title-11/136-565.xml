@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/136.565"/>
+          <FRBRuri value="/us-ky/act/krs/136.565"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/136.565/eng"/>
+          <FRBRuri value="/us-ky/act/krs/136.565/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/136.565/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/136.565/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_136_565">
+        <num>136.565</num>
+        <content>
+          <p>Notwithstanding any other provisions of  to  the president, vice president, secretary, treasurer, or any other person holding any equivalent corporate office of any financial institution subject to the provisions of  to shall be personally and individually liable jointly and severally, for the taxes under  to in the event that the financial institution is unable to make payment. Neither the corporate dissolution or withdrawal of the financial institution from the Commonwealth nor the cessation of holding any corporate office shall discharge the liability imposed by this section. The personal and individual liability shall apply to each and every person holding a corporate office at the time the taxes become or became due. No person will be personally and individually liable pursuant to this section if that person did not have authority in the management of the business or financial affairs of the financial institution at the time the taxes imposed by  to become or became due. “Taxes” as used in this section includes interest accrued at the rate provided by  and all applicable penalties and fees imposed under the provisions of  to and ,  and</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

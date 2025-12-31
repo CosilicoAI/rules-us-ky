@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/161.1211"/>
+          <FRBRuri value="/us-ky/act/krs/161.1211"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/161.1211/eng"/>
+          <FRBRuri value="/us-ky/act/krs/161.1211/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/161.1211/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/161.1211/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_161_1211">
+        <num>161.1211</num>
+        <content>
+          <p>The board shall not allow a teacher who qualified for Rank I status on the basis of his or her national board certification to maintain that classification if the national board certificate is revoked for misconduct or voided for other reasons.</p>
+          <p>The board shall not allow a teacher who qualified for Rank II status on the basis of his or her national board certification to maintain that classification if the national board certificate is revoked for misconduct or voided for other reasons.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/292.411"/>
+          <FRBRuri value="/us-ky/act/krs/292.411"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/292.411/eng"/>
+          <FRBRuri value="/us-ky/act/krs/292.411/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/292.411/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/292.411/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_292_411">
+        <num>292.411</num>
+        <content>
+          <p>“BEWARE, YOU MAY LOSE YOUR ENTIRE INVESTMENT IN THIS TRANSACTION.</p>
+          <p>IN MAKING AN INVESTMENT DECISION, INVESTORS SHALL RELY ON THEIR OWN EXAMINATION OF THE ISSUER AND THE TERMS OF THE OFFERING, INCLUDING THE MERITS AND RISKS INVOLVED. THESE SECURITIES HAVE NOT BEEN RECOMMENDED BY ANY FEDERAL OR STATE SECURITIES COMMISSION OR DIVISION OR REGULATORY AUTHORITY. FURTHERMORE, THE FOREGOING AUTHORITIES HAVE NOT CONFIRMED THE ACCURACY OR DETERMINED THE ADEQUACY OF THIS DOCUMENT. ANY REPRESENTATION TO THE CONTRARY IS A CRIMINAL OFFENSE. THESE SECURITIES ARE SUBJECT TO RESTRICTIONS ON TRANSFERABILITY AND RESALE AND MAY NOT BE TRANSFERRED OR RESOLD, EXCEPT AS PERMITTED BY SUBSECTION (e) OF SEC RULES 147, 17 C.F.R. SEC. 230.147(e) AS PROMULGATED UNDER THE SECURITIES ACT OF 1933, AS AMENDED, AND THE APPLICABLE STATE SECURITIES LAWS, PURSUANT TO REGISTRATION OR EXEMPTION THEREFROM. INVESTORS SHALL BE AWARE THAT THEY WILL BE REQUIRED TO BEAR THE FINANCIAL RISKS OF THIS INVESTMENT FOR AN INDEFINITE PERIOD OF TIME.”;</p>
+          <p>“I understand and acknowledge that I am investing in a high-risk, speculative business venture. I may lose all of my investment, or under some circumstances more than my investment, and I can afford this loss. This offering has not been reviewed or approved by any state or federal securities commission or division or other regulatory authority and no such person or authority has confirmed the accuracy or determined the adequacy of any disclosure made to me relating to this offering. The securities I am acquiring in this offering are illiquid, there is no ready market for the sale of such securities, it may be difficult or impossible for me to sell or otherwise dispose of this investment, and accordingly, I may be required to hold this investment indefinitely. I may be subject to tax on my share of the taxable income and losses of the company, whether or not I have sold or otherwise disposed of my investment or received any dividends or other distributions from the company.”;</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

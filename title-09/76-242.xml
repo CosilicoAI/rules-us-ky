@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/76.242"/>
+          <FRBRuri value="/us-ky/act/krs/76.242"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/76.242/eng"/>
+          <FRBRuri value="/us-ky/act/krs/76.242/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/76.242/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/76.242/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_76_242">
+        <num>76.242</num>
+        <content>
+          <p>The construction subdistrict shall not include the whole or any part of any incorporated city with a population equal to or greater than three thousand (3,000) based upon the most recent federal decennial census, or any sanitation district or sewer construction district, or that part of a water district in which the water district has exercised its power to establish sanitary sewerage facilities pursuant to  to  except with the consent of the legislative or managing board of such city or district. With such consent, the property owners of such city or district will be considered as freeholders of the construction subdistrict.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

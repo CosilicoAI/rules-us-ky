@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/434.415"/>
+          <FRBRuri value="/us-ky/act/krs/434.415"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/434.415/eng"/>
+          <FRBRuri value="/us-ky/act/krs/434.415/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/434.415/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/434.415/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_434_415">
+        <num>434.415</num>
+        <content>
+          <p>Any person who knowingly installs or reinstalls in a vehicle any object, in lieu of an air bag that was designed in accordance with federal safety regulations for the make, model, and year of the vehicle, as part of a vehicle inflatable restraint system, shall be fined not more than five thousand dollars ($5,000), or be confined in the county jail for not more than twelve (12) months, or both.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

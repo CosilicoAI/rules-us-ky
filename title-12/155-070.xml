@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/155.070"/>
+          <FRBRuri value="/us-ky/act/krs/155.070"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/155.070/eng"/>
+          <FRBRuri value="/us-ky/act/krs/155.070/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/155.070/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/155.070/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_155_070">
+        <num>155.070</num>
+        <content>
+          <p>Notwithstanding any rule at common law or any provision of any general or special law or any provision in their respective charters, agreements of association, articles of organization, or trust indentures: (1) all domestic corporations organized for the purpose of carrying on business within this Commonwealth including without implied limitation any public utility companies and insurance and casualty companies and foreign corporations licensed to do business in the Commonwealth, and all trusts, and private or public pension or retirement funds are hereby authorized to acquire, purchase, hold, sell, assign, transfer, mortgage, pledge or otherwise dispose of any bonds, securities or other evidences of indebtedness created by, or the shares of the capital stock of, the corporation, and while owners of said stock to exercise all the rights, powers and privileges of ownership, including the right to vote thereon, all without the approval of any regulatory authority of the Commonwealth; (2) all financial institutions are hereby authorized to become members of the corporation and to make loans to the corporation as provided herein; (3) a financial institution which does not become a member of the corporation shall not be permitted to acquire any shares of the capital stock of the corporation; and (4) each financial institution which becomes a member of the corporation is hereby authorized to acquire, purchase, hold, sell, assign, transfer, mortgage, pledge, or otherwise dispose of, any bonds, securities or other evidences of indebtedness created by, or the shares of the capital stock of the corporation, and while owners of said stock to exercise all the rights, powers and privileges of ownership, including the right to vote thereon, all without the approval of any regulatory authority of the Commonwealth; provided, that the amount of the capital stock of the corporation which may be acquired by any member pursuant to the authority granted herein shall not exceed ten percent (10%) of the loan limit of such member, except that a public pension or retirement fund which becomes a member may acquire capital stock of the corporation not to exceed twenty-five percent (25%) of the loan limit of such member. The amount of capital stock of the corporation which any member is authorized to acquire pursuant to the authority granted herein is in addition to the amount of capital stock in corporations which such member may otherwise be authorized to acquire.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/221.070"/>
+          <FRBRuri value="/us-ky/act/krs/221.070"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/221.070/eng"/>
+          <FRBRuri value="/us-ky/act/krs/221.070/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/221.070/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/221.070/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_221_070">
+        <num>221.070</num>
+        <content>
+          <p>The secretary shall cause to be made periodically a thorough inspection of each establishment licensed under  to to determine whether or not the premises are equipped and operated in accordance with the requirements of  to and of all other laws of this state applicable to the operation either of refrigerated lockers or of the handling of human food in connection therewith, and of all regulations effective under  to relative to such operation. Such inspection shall also be made of each vehicle used by the operator of refrigerated lockers or of an establishment, handling human food in connection therewith, when such vehicle is used in transporting or distributing human food products to or from refrigerated lockers within this state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

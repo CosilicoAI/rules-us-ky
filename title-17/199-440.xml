@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/199.440"/>
+          <FRBRuri value="/us-ky/act/krs/199.440"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/199.440/eng"/>
+          <FRBRuri value="/us-ky/act/krs/199.440/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/199.440/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/199.440/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_199_440">
+        <num>199.440</num>
+        <content>
+          <p>The secretary may authorize the destruction of any original reports and records that have been properly recorded or summarized in the permanent records of the cabinet or are no longer considered necessary to the proper administration of the cabinet. The destruction or disposition shall be made only by order of the secretary. Any money received from the disposition of the records shall be deposited and credited to the use of the Cabinet for Health and Family Services.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

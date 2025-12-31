@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/97.425"/>
+          <FRBRuri value="/us-ky/act/krs/97.425"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/97.425/eng"/>
+          <FRBRuri value="/us-ky/act/krs/97.425/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/97.425/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/97.425/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_97_425">
+        <num>97.425</num>
+        <content>
+          <p>The term “park property” as used in  to shall be liberally construed, and includes all parks, squares, and areas of land within the management of the city; all buildings, structures, improvements, seats, benches, fountains, trees, plants, herbage, flowers, and other things thereon and the inclosures of same; all shade trees on street or thoroughfares, resting places, watering stations, playgrounds necessary and incidental to such public parks and property, parade grounds, and the like; all connecting parkways and roads or drives between parks, all avenues, roads, ways, drives, walks, with all trees, shrubbery, vines, flowers, and ornaments of any description; all birds, animals, or curiosities or objects of interest or instruction placed in or on any such inclosures, ways, parkways, roads, or places; all maintenance and construction equipment, recreation supplies, and facilities, and any interest or right which the city is able to exercise.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

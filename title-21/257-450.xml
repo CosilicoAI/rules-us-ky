@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/257.450"/>
+          <FRBRuri value="/us-ky/act/krs/257.450"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/257.450/eng"/>
+          <FRBRuri value="/us-ky/act/krs/257.450/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/257.450/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/257.450/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_257_450">
+        <num>257.450</num>
+        <content>
+          <p>All poultry of whatever age or species and all hatching eggs that are sold or offered for sale within this state or enter into this state not in compliance with the provisions of  to shall be quarantined by the Division of Animal Health. Where possible, the division shall make the tests necessary to determine whether or not pullorum disease is present in any of the quarantined poultry. With respect to all other poultry where tests are not possible, and to hatching eggs, sufficient proof must be presented that they have originated from approved flocks. The poultry or flocks found to be infected with pullorum disease, and the poultry and hatching eggs lacking the required proof of origin from approved flocks, shall be destroyed.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

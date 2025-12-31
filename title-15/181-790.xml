@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/181.790"/>
+          <FRBRuri value="/us-ky/act/krs/181.790"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/181.790/eng"/>
+          <FRBRuri value="/us-ky/act/krs/181.790/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/181.790/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/181.790/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_181_790">
+        <num>181.790</num>
+        <content>
+          <p>Any holder of
+    the bonds or coupons attached thereto, and the trustee, unless the
+    rights given by this section are restricted by resolution passed before
+    the issuance of the bonds or by the trust indenture, may bring an
+    action, either at law or in equity, to protect and enforce any right
+    granted under  to or under
+    such resolution or trust indenture and may enforce performance of
+    all duties required by  to  or by
+    such resolution or trust indenture to be performed by the city issuing
+    the bonds, or by the commission or any officer thereof, including
+    the fixing, charging and collecting of tolls for transit over the
+    bridge.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

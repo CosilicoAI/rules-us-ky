@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/394.092"/>
+          <FRBRuri value="/us-ky/act/krs/394.092"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/394.092/eng"/>
+          <FRBRuri value="/us-ky/act/krs/394.092/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/394.092/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/394.092/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_394_092">
+        <num>394.092</num>
+        <content>
+          <p>If after executing a will the testator is divorced or his marriage annulled, the divorce or annulment revokes any disposition or appointment of property made by the will to the former spouse, any provision conferring a general or special power of appointment on the former spouse, and any nomination of the former spouse as executor, trustee, conservator or guardian, unless the will expressly provides otherwise. Property prevented from passing to a former spouse because of revocation by divorce or annulment passes as if the former spouse failed to survive the decedent, and other provisions conferring some power or office on the former spouse are interpreted as if the spouse failed to survive the decedent. If provisions are revoked solely by this section, they are revived by the testator’s remarriage to the former spouse.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

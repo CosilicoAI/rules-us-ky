@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/355.4A"/>
+          <FRBRuri value="/us-ky/act/krs/355.4A"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/355.4A/eng"/>
+          <FRBRuri value="/us-ky/act/krs/355.4A/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/355.4A/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/355.4A/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_355_4A">
+        <num>355.4A</num>
+        <content>
+          <p>A choice of law made pursuant to clause (a) is binding on participating banks. A choice of law made pursuant to clause (b) is binding on the originator, other sender, or a receiving bank having notice that the funds-transfer system might be used in the funds transfer and of the choice of law by the system when the originator, other sender, or receiving bank issued or accepted a payment order. The beneficiary of a funds transfer is bound by the choice of law if, when the funds transfer is initiated, the beneficiary has notice that the funds-transfer system might be used in the funds transfer and of the choice of law by the system. The law of a jurisdiction selected pursuant to this subsection may govern, whether or not that law bears a reasonable relation to the matter in issue.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

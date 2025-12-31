@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/74.200"/>
+          <FRBRuri value="/us-ky/act/krs/74.200"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/74.200/eng"/>
+          <FRBRuri value="/us-ky/act/krs/74.200/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/74.200/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/74.200/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_74_200">
+        <num>74.200</num>
+        <content>
+          <p>When the county judge/executive has confirmed an assessment for the construction of a water system and the assessment has been modified by a court, or for some unforeseen cause it cannot be collected, the commission may modify the assessment as originally confirmed to conform to the judgment of the court and to cover any deficit caused by the order of the county judge/executive or unforeseen occurrence. The relevy shall be made for the additional sum required, in the same ratio as in the original assessment. In any other case where it is ascertained that the amount assessed against the property in the water district is not sufficient to complete the improvements provided for, such deficit may be paid out of current reserve, or the county judge/executive may order a relevy upon the petition of the commission, or any three (3) or more petitioners. The petition must set forth the amount of the deficit, the causes thereof, and the amount necessary to be raised in order to complete the work. The county judge/executive shall give notice of the filing and purpose of the petition and fix a time, not less than ten (10) nor more than twenty (20) days from the giving of the notice, when the petition shall be acted upon. If upon hearing the county judge/executive finds that the relevy asked for in the petition is necessary in order to complete the work, the county judge/executive shall direct such relevy to be made by the commission. The relevy shall be made in the same ratio as the original assessment was made and shall be collected in the same way.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

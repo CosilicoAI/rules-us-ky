@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/117.343"/>
+          <FRBRuri value="/us-ky/act/krs/117.343"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/117.343/eng"/>
+          <FRBRuri value="/us-ky/act/krs/117.343/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/117.343/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/117.343/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_117_343">
+        <num>117.343</num>
+        <content>
+          <p>The county clerk may request
+    reimbursement from the State Board of Elections, for the cost of employing
+    office personnel necessary for the conduct of elections, including the registration
+    and purgation of voters in the county. Such reimbursement shall not exceed
+    fifty cents ($0.50) per registered voter in the county per year. Claims for
+    reimbursement shall be submitted to the state board by July 31 of each year
+    for employment costs for the preceding fiscal year. Claims shall be on forms
+    provided by the State Board of Elections and shall show in detail the employee
+    time and costs. If the State Board of Elections determines that the claims
+    are valid and reasonable, the state board shall submit the claims to the Treasury
+    for payment and they shall be paid within thirty (30) working days. The state
+    board may issue administrative regulations prescribing the method and forms
+    for documenting and submitting the claims.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

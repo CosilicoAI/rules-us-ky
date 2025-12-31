@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/66.543"/>
+          <FRBRuri value="/us-ky/act/krs/66.543"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/66.543/eng"/>
+          <FRBRuri value="/us-ky/act/krs/66.543/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/66.543/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/66.543/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_66_543">
+        <num>66.543</num>
+        <content>
+          <p>Authorized investments for the board’s funds shall be general obligations of the United States and its agencies and obligations of the Commonwealth of Kentucky and its agencies and authorities exclusive of local units of government. Nevertheless, the board may invest in obligations of local units of government, districts, commissions, authorities, and municipalities within the county pursuant to specific parts of the plan when such investments, in the judgment of the board, offer the best method of obtaining a particular facility or improvement.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

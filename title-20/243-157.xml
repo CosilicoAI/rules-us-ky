@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/243.157"/>
+          <FRBRuri value="/us-ky/act/krs/243.157"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/243.157/eng"/>
+          <FRBRuri value="/us-ky/act/krs/243.157/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/243.157/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/243.157/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_243_157">
+        <num>243.157</num>
+        <content>
+          <p>produced on the premises of the microbrewery to consumers at fairs, festivals, and other similar types of events located in wet territory, in accordance with subsection (3)(b)2. and (c)2. of this section; and</p>
+          <p>All other malt beverages produced by the microbrewery which are offered for retail sale shall be sold and physically transferred to a licensed distributor in compliance with all other relevant provisions of KRS Chapters 241 to 244, and a licensed microbrewery shall not otherwise affect sales of malt beverages directly to retail customers except as provided in subsection (3)(b) and (c) of this section under  to if the microbrewery holds a direct shipper license.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

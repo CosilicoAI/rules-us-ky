@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/190.059"/>
+          <FRBRuri value="/us-ky/act/krs/190.059"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/190.059/eng"/>
+          <FRBRuri value="/us-ky/act/krs/190.059/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/190.059/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/190.059/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_190_059">
+        <num>190.059</num>
+        <content>
+          <p>The final order of the commission granting or refusing to grant an application for a license, or to suspend or revoke a license may be appealed by an aggrieved party to the Circuit Court of Franklin County in accordance with KRS . Nothing in this section shall be construed to limit the authority of the court to grant such relief as the circumstances may require. If the issues involved were first presented to the commission by a complaint filed with the commission, the complainant may appeal from the decision of the commission in the same manner as prescribed above.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

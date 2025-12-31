@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/441.540"/>
+          <FRBRuri value="/us-ky/act/krs/441.540"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/441.540/eng"/>
+          <FRBRuri value="/us-ky/act/krs/441.540/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/441.540/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/441.540/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_441_540">
+        <num>441.540</num>
+        <content>
+          <p>If there exists threatened violence or intense feeling and public indignation against a person charged with a crime and in the custody of an officer, and the Circuit Judge of the county that has jurisdiction of the offense charged is of the opinion that the person cannot be safely kept in the jail in that county, the Circuit Judge, with the consent of the Governor, may order such person removed for safekeeping to the state penitentiary most convenient to the county having jurisdiction of the offense charged. In the absence of the Circuit Judge from the county, the District Judge of the county may exercise the powers conferred by this section upon the Circuit Judge. The officer who makes the removal shall be entitled to the actual expenses in making the removal, and in addition he shall receive a fee of five dollars ($5) per day for himself and two and one-half dollars ($2.50) per day each for not more than two (2) guards. The claim for fees and expenses shall be presented for approval to the Circuit Court of the county having jurisdiction of the offense. The compensation shall be allowed by the Circuit or District Judge directing the transfer and paid out of the treasury of the responsible unit of government.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

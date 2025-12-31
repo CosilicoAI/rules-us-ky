@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/223.200"/>
+          <FRBRuri value="/us-ky/act/krs/223.200"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/223.200/eng"/>
+          <FRBRuri value="/us-ky/act/krs/223.200/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/223.200/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/223.200/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_223_200">
+        <num>223.200</num>
+        <content>
+          <p>The secretary of the Energy and Environment Cabinet, with the advice of the board of certification, shall adopt rules and regulations as are reasonably necessary to carry out the intent of  to and  The rules and regulations may include, but are not limited to, provisions establishing standards for classification of water treatment plants and water distribution systems, provisions establishing qualifications of applicants and procedures for examination of candidates, membership, and duties of the board of certification, provisions relating to the renewal, cancellation or revocation of certificates, including the specifications of the grounds therefor, and such other provisions as are necessary for the administration of  to and</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/107.150"/>
+          <FRBRuri value="/us-ky/act/krs/107.150"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/107.150/eng"/>
+          <FRBRuri value="/us-ky/act/krs/107.150/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/107.150/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/107.150/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_107_150">
+        <num>107.150</num>
+        <content>
+          <p>The annual improvement assessment for each project shall be levied by the governing body when the levy for general city or county taxes is made; and such improvement assessment levy shall be due at the same time, or times, when the general city or county taxes are due, and shall be subject to the same penalties and accrual of interest in the event of nonpayment as in the case of such general city or county taxes. The improvement benefit assessments for a wastewater collection system undertaken by a metropolitan sewer district shall be collected by the county officer charged with responsibility for the collection of ad valorem county taxes and shall be enforced in like manner.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

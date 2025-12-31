@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/49.140"/>
+          <FRBRuri value="/us-ky/act/krs/49.140"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/49.140/eng"/>
+          <FRBRuri value="/us-ky/act/krs/49.140/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/49.140/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/49.140/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_140">
+        <num>49.140</num>
+        <content>
+          <p>Orders, awards, and judgments of the Board of Claims may be enforced by filing in the office of the clerk of the Franklin Circuit Court an authenticated copy of the order, award, or judgment, which, when ordered entered by the judge of the court, shall be entered on the order book and become to all effects and purposes an order, award, or judgment of the court, and be enforceable in a like manner.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

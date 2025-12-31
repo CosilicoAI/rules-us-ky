@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.6013"/>
+          <FRBRuri value="/us-ky/act/krs/164.6013"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.6013/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.6013/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.6013/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.6013/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_6013">
+        <num>164.6013</num>
+        <content>
+          <p>The General Assembly finds that the general welfare and material well-being of the citizens of the Commonwealth depend on immediate action to develop a strong, entrepreneurial economy, characterized by knowledge, innovation, and speed and that it is in the best interest of the Commonwealth to promote research, innovation, and high-technology enterprises that utilize the higher-order skills of an educated workforce. The provisions in  to 164.6029, 154.12-274, 154.12-278, 154.12-300 to 154.12-310, and 154.12-320 shall be liberally construed and applied to advance public purposes.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

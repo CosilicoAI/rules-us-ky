@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/156.200"/>
+          <FRBRuri value="/us-ky/act/krs/156.200"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/156.200/eng"/>
+          <FRBRuri value="/us-ky/act/krs/156.200/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/156.200/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/156.200/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_156_200">
+        <num>156.200</num>
+        <content>
+          <p>The chief state school officer shall receive and examine all reports required by law or by the Kentucky Board of Education and, in person or through his assistants, shall examine and advise on the expenditures, business methods and accounts of all boards of education and all institutions placed under the management and control of the Department of Education as established in . He shall see that all financial and educational accounts are accurately and neatly kept and that all reports are made according to the forms adopted by the Kentucky Board of Education.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

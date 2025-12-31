@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.756"/>
+          <FRBRuri value="/us-ky/act/krs/164.756"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.756/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.756/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.756/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.756/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_756">
+        <num>164.756</num>
+        <content>
+          <p>Any person otherwise qualifying for an education loan advanced or guaranteed or approved by the authority or a national direct student loan as authorized by the National Defense Education Act of 1958, as amended, or a federally guaranteed student loan as authorized by the Higher Education Act of 1965, as amended, shall not be disqualified by reason of his being under the age of eighteen (18) years; and any such person, for the purpose of applying for, receiving, and repaying such loan, notwithstanding the provisions of existing laws, shall be deemed to have full capacity to act and shall have all the rights, powers, privileges, and obligations of a person of full age with respect thereto.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

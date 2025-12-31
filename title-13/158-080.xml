@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/158.080"/>
+          <FRBRuri value="/us-ky/act/krs/158.080"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/158.080/eng"/>
+          <FRBRuri value="/us-ky/act/krs/158.080/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/158.080/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/158.080/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_158_080">
+        <num>158.080</num>
+        <content>
+          <p>Private and parochial schools shall be taught in the English language and shall offer instruction in the several branches of study required to be taught in the public schools of the state, consistent with . Except in those school districts operating a year-round school program, the term of the school shall not be for a shorter period in each year than the term of the public school provided in the district in which the child attending the school resides. In those school districts which are operating a year-round school program, the minimum term of private and parochial schools shall be one hundred eighty-five (185) days.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

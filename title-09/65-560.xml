@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/65.560"/>
+          <FRBRuri value="/us-ky/act/krs/65.560"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/65.560/eng"/>
+          <FRBRuri value="/us-ky/act/krs/65.560/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/65.560/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/65.560/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_65_560">
+        <num>65.560</num>
+        <content>
+          <p>A quorum for the transacting of the business of the authority shall consist of four (4) members for a six (6) member authority and five (5) members for an eight (8) member authority. Meetings of the authority may be called by the chairman or by four (4) members for a six (6) member authority and five (5) members for an eight (8) member authority. In case of tie voting by the authority, the issue shall be deemed to have failed passage.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

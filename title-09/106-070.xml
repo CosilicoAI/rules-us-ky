@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/106.070"/>
+          <FRBRuri value="/us-ky/act/krs/106.070"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/106.070/eng"/>
+          <FRBRuri value="/us-ky/act/krs/106.070/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/106.070/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/106.070/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_106_070">
+        <num>106.070</num>
+        <content>
+          <p>Bonds issued pursuant to this chapter shall be negotiable and shall not be subject to taxation. If any officer whose signature or countersignature appears on the bonds or coupons ceases to be an officer before delivery of the bonds, his signature or countersignature shall nevertheless be valid and sufficient for all purposes the same as if he had remained in office until delivery. The bonds shall be sold in a manner and upon terms as the water district commissioners or the city legislative body deems for the best interest of the water district or city, or any contract for the purchase or acquisition of any waterworks may provide that payment shall be made in bonds. The bonds shall be payable solely from the revenue funds derived from the waterworks and shall not constitute an indebtedness of the city within the meaning of the Constitution. It shall be plainly stated on the face of each bond that it does not constitute an indebtedness of the city within the meaning of the Constitution.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

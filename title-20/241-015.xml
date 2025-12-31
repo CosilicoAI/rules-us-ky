@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/241.015"/>
+          <FRBRuri value="/us-ky/act/krs/241.015"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/241.015/eng"/>
+          <FRBRuri value="/us-ky/act/krs/241.015/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/241.015/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/241.015/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_241_015">
+        <num>241.015</num>
+        <content>
+          <p>There is created a Department of Alcoholic Beverage Control, which shall constitute a statutory administrative department of the state government within the meaning of KRS . The department consists of the commissioner of alcoholic beverage control and the Alcoholic Beverage Control Board. The commissioner shall head the department, shall be its executive officer, and shall have charge of the administration of the department and perform all functions of the department not specifically assigned to the board. The Governor shall appoint as commissioner a person with administrative experience in the field of alcoholic beverage control.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/78.990"/>
+          <FRBRuri value="/us-ky/act/krs/78.990"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/78.990/eng"/>
+          <FRBRuri value="/us-ky/act/krs/78.990/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/78.990/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/78.990/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_78_990">
+        <num>78.990</num>
+        <content>
+          <p>Any person who shall knowingly violate any of the provisions of  to shall be guilty of a misdemeanor and shall upon conviction be punished by a fine of not less than fifty dollars ($50) nor more than one thousand dollars ($1,000) or by imprisonment for a term not to exceed six (6) months or by both such fine and imprisonment and if such person be an applicant for any employment covered hereby, he shall be excluded from such examination for a period of three (3) years thereafter and if the name of such person be on any eligible list of the said board, his name shall be removed therefrom and if he be an officer or employee of the county, he shall be removed forthwith therefrom and be ineligible for any such appointment to public office or employment for a period of three (3) years thereafter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

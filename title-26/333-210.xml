@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/333.210"/>
+          <FRBRuri value="/us-ky/act/krs/333.210"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/333.210/eng"/>
+          <FRBRuri value="/us-ky/act/krs/333.210/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/333.210/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/333.210/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_333_210">
+        <num>333.210</num>
+        <content>
+          <p>The secretary shall adopt reasonable rules and regulations to effectuate the purposes and provisions of this chapter, which may include, but not be limited to, the following subject matters: licensure of medical laboratories; qualifications of medical laboratory personnel; standards of performance in the examination of specimens including the operation by the cabinet of a medical laboratory evaluation program; reasonable license fees for medical laboratory licensure; standards of construction of medical laboratories; sanitary conditions within the medical laboratory and its surroundings; and standards of medical laboratory equipment.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

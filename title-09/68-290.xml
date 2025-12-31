@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/68.290"/>
+          <FRBRuri value="/us-ky/act/krs/68.290"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/68.290/eng"/>
+          <FRBRuri value="/us-ky/act/krs/68.290/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/68.290/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/68.290/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_68_290">
+        <num>68.290</num>
+        <content>
+          <p>The fiscal court may transfer money from one (1) budget fund to another to provide for emergencies or increases or decreases in county employment pursuant to . The order of the fiscal court making the transfer shall show the nature of the emergency or personnel increase or decrease and the reason for making the transfer. The fiscal court shall not have any power to transfer money from any sinking fund or special fund raised for a specific purpose until the obligation or purpose for which the fund was raised has been satisfied.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

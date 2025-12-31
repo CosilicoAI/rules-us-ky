@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/355.10"/>
+          <FRBRuri value="/us-ky/act/krs/355.10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/355.10/eng"/>
+          <FRBRuri value="/us-ky/act/krs/355.10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/355.10/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/355.10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_355_10">
+        <num>355.10</num>
+        <content>
+          <p>The article on documents of title (Article 7) does not repeal or modify any laws prescribing the form or contents of documents of title or the services or facilities to be afforded by bailees, or otherwise regulating bailees’ businesses in respects not specifically dealt with herein; but the fact that such laws are violated does not affect the status of a document of title which otherwise complies with the definition of a document of title (KRS 355.1-201).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

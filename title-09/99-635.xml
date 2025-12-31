@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/99.635"/>
+          <FRBRuri value="/us-ky/act/krs/99.635"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/99.635/eng"/>
+          <FRBRuri value="/us-ky/act/krs/99.635/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/99.635/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/99.635/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_99_635">
+        <num>99.635</num>
+        <content>
+          <p>The powers of the agency shall be vested in the commissioners appointed as members of the board of commissioners. For inefficiency or neglect of duty or misconduct in office, a commissioner may be removed by the governing board of the city, but only after he shall have been given a copy of the charges made against him at least ten (10) days prior to a public hearing thereon, if such a public hearing is requested within two (2) days after notice of charges.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

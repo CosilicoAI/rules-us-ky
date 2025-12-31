@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/136.530"/>
+          <FRBRuri value="/us-ky/act/krs/136.530"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/136.530/eng"/>
+          <FRBRuri value="/us-ky/act/krs/136.530/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/136.530/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/136.530/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_136_530">
+        <num>136.530</num>
+        <content>
+          <p>b.
+      Loan servicing fees derived from loans not secured by real property to be included in the numerator shall be determined by multiplying the amount determined under paragraph (k) of subsection (1) of this section by a fraction the numerator of which is the amount included in the numerator of the receipts factor pursuant to paragraph (d) of this subsection and the denominator of which is the total amount of interest and fees or penalties in the nature of interest from loans not secured by real property.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/273.233"/>
+          <FRBRuri value="/us-ky/act/krs/273.233"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/273.233/eng"/>
+          <FRBRuri value="/us-ky/act/krs/273.233/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/273.233/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/273.233/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_273_233">
+        <num>273.233</num>
+        <content>
+          <p>Each corporation shall keep correct and complete books and records of account and shall keep minutes of the proceedings of its members, board of directors and committees having any of the authority of the board of directors; and shall keep at its registered office or principal office in this state a record of the names and addresses of its members entitled to vote. All books and records of a corporation may be inspected and copied by any member, or the member’s agent or attorney, for any proper purpose at any reasonable time. The member’s right of inspection may be abolished or limited by the corporation’s articles of incorporation or bylaws.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

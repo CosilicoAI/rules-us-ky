@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/67.780"/>
+          <FRBRuri value="/us-ky/act/krs/67.780"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/67.780/eng"/>
+          <FRBRuri value="/us-ky/act/krs/67.780/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/67.780/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/67.780/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_67_780">
+        <num>67.780</num>
+        <content>
+          <p>Every employer making payment of compensation to an employee shall deduct and withhold upon the payment of the compensation any tax imposed against the compensation by a tax district. Amounts withheld shall be paid to the levying tax district in accordance with . A tax district may impose minimum and maximum tax liabilities for the tax on compensation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/256.140"/>
+          <FRBRuri value="/us-ky/act/krs/256.140"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/256.140/eng"/>
+          <FRBRuri value="/us-ky/act/krs/256.140/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/256.140/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/256.140/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_256_140">
+        <num>256.140</num>
+        <content>
+          <p>Any landowner who has already erected a lawful fence along the whole distance of the division line between his land and the right-of-way of a railroad may, in the absence of any agreement to the contrary, move one-half (1/2) of the fence, after giving three (3) months’ notice to the railroad of his intention to move one-half (1/2) of the fence. Notice shall be served on the nearest station agent. The landowner shall not, in removing such part of his fence, cause the railroad to erect watergaps or erect fences at points where the grade of the roadbed is of such character as may render fencing unnecessary.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

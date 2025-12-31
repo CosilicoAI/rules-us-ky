@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/61.440"/>
+          <FRBRuri value="/us-ky/act/krs/61.440"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/61.440/eng"/>
+          <FRBRuri value="/us-ky/act/krs/61.440/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/61.440/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/61.440/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_61_440">
+        <num>61.440</num>
+        <content>
+          <p>Any instrumentality jointly created by this state and any other state or states is hereby authorized, to the extent that this Commonwealth may confer authority, (1) to enter into an agreement with the commissioner whereby the benefits of the federal old-age, survivors, disability, and hospital insurance system shall be extended to employees of the instrumentality, (2) to require its employees to pay (and for that purpose to deduct from their wages) contributions equal to the amounts which they would be required to pay under subsection (1) of  if they were covered by an agreement made pursuant to , and (3) to make payments to the Secretary of the Treasury in accordance with the agreement, including payments from its own funds, and otherwise to comply with the agreement. The agreement shall, to the extent practicable, be consistent with the terms and provisions of , and all other terms and provisions, of  to</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/314.161"/>
+          <FRBRuri value="/us-ky/act/krs/314.161"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/314.161/eng"/>
+          <FRBRuri value="/us-ky/act/krs/314.161/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/314.161/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/314.161/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_314_161">
+        <num>314.161</num>
+        <content>
+          <p>The board may by regulation set fees to carry out the provisions of this chapter. All fees received by the board and collected under this chapter shall be deposited with the State Treasurer of the Commonwealth of Kentucky, who shall place the money to the credit of the revolving fund of the board. The board may direct the investment of that portion of its revolving fund not needed to meet current expenses, the earnings from which investments shall also be credited to the revolving fund of the board. The fund shall be held subject to the order of the board, and to be used for meeting necessary expenses incurred in the performance of the purposes of this chapter and the duties imposed thereby.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

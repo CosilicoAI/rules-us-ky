@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/119.095"/>
+          <FRBRuri value="/us-ky/act/krs/119.095"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/119.095/eng"/>
+          <FRBRuri value="/us-ky/act/krs/119.095/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/119.095/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/119.095/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_119_095">
+        <num>119.095</num>
+        <content>
+          <p>Any printer of ballots, or person
+    employed in printing ballots, who prints or permits to be printed any ballot
+    in any other form than the one prescribed by law, or with any name or device
+    placed, spelled or arranged thereon other than as authorized and directed
+    by the county clerk, or who gives or delivers, or knowingly permits to be
+    taken, any ballot by any person other than the county clerk for whom the ballots
+    are being printed, shall be guilty of a Class C felony.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

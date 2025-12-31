@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/269.090"/>
+          <FRBRuri value="/us-ky/act/krs/269.090"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/269.090/eng"/>
+          <FRBRuri value="/us-ky/act/krs/269.090/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/269.090/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/269.090/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_269_090">
+        <num>269.090</num>
+        <content>
+          <p>The fiscal court may contract with any individual or corporation to do all work and to furnish all material in the execution of any such improvement voted for in the county, and may contract to pay in bonds, or may sell the bonds and pay for the improvement out of the proceeds. If bonds are sold to pay for the improvement, one (1) or more commissioners shall be appointed by the county judge/executive, who shall give bond, with good and sufficient security, to sell the bonds and receive and pay out the money. The fiscal court shall levy taxes on the taxable property of the county sufficient to pay the interest on the bonds and pay off enough bonds each year to discharge them all within the time they are payable.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

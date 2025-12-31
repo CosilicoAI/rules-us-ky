@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/216.120"/>
+          <FRBRuri value="/us-ky/act/krs/216.120"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/216.120/eng"/>
+          <FRBRuri value="/us-ky/act/krs/216.120/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/216.120/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/216.120/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_216_120">
+        <num>216.120</num>
+        <content>
+          <p>All bonds issued under  to shall be negotiable and shall not be subject to taxation. If any officer whose signature appears on the bonds or coupons ceases to be an officer before delivery of the bonds, the signature shall nevertheless be valid and sufficient for all purposes the same as if he had remained in office until delivery. The bonds shall be sold in a manner and upon the terms as the legislative body of the city deems for the best interest of the city, or any contract for the purchase or acquisition of any municipal hospital may provide that payment of the bonds shall be made in bonds. The bonds shall be payable solely from the revenue derived from the operation of the hospital as provided in , and shall not constitute an indebtedness of the city within the meaning of the constitution. It shall be plainly stated on the face of each bond that it was issued under the provisions of  to and does not constitute an indebtedness of the city within the meaning of the Constitution.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

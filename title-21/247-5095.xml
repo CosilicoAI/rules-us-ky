@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/247.5095"/>
+          <FRBRuri value="/us-ky/act/krs/247.5095"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/247.5095/eng"/>
+          <FRBRuri value="/us-ky/act/krs/247.5095/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/247.5095/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/247.5095/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247_5095">
+        <num>247.5095</num>
+        <content>
+          <p>When in the judgment of the board or the duly certified association, a purchaser has engaged in any acts or practices that constitute a violation of any of the provisions of  to 247.5095, the board or the duly certified association may make application to the Circuit Court of the county wherein the said acts or practices are alleged to have occurred for an order enjoining the act or acts or practices, and obtain a restraining order and preliminary injunction against the purchaser.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

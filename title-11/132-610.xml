@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/132.610"/>
+          <FRBRuri value="/us-ky/act/krs/132.610"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/132.610/eng"/>
+          <FRBRuri value="/us-ky/act/krs/132.610/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/132.610/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/132.610/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_132_610">
+        <num>132.610</num>
+        <content>
+          <p>Before the county judge/executive shall grant a certificate or order of allowance under , the property valuation administrator and his deputies shall in open court make and file the following affidavit, subscribed and sworn to by them before the county clerk:</p>
+          <p>“I do swear that I have not received from any person a list of taxable property and returned the same until the person rendering the list has made oath to the truth of the same; and I do further swear that I have in no instance assessed any property at a greater or less sum than I deemed a fair cash value, estimated at the price it would bring at a fair voluntary sale.”</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

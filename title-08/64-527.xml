@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/64.527"/>
+          <FRBRuri value="/us-ky/act/krs/64.527"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/64.527/eng"/>
+          <FRBRuri value="/us-ky/act/krs/64.527/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/64.527/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/64.527/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_64_527">
+        <num>64.527</num>
+        <content>
+          <p>In order to equate the compensation of jailers who do not operate full service jails, constables in counties having an urban-county form of government, justices of the peace, county commissioners, and coroners with the purchasing power of the dollar, the Department for Local Government shall compute by the second Friday in February of every year the annual increase or decrease in the consumer price index of the preceding year by using 1949 as the base year in accordance with Section 246 of the Constitution of Kentucky which provides that the above elected officials shall be paid at a rate no greater than seven thousand two hundred dollars ($7,200) per annum. The Department for Local Government shall notify the appropriate governing bodies charged by law to fix the compensation of the above elected officials of the annual rate of compensation to which the elected officials are entitled in accordance with the increase or decrease in the consumer price index. Upon notification from the Department for Local Government, the appropriate governing body may set the annual compensation of the above elected officials at a rate no greater than that stipulated by the Department for Local Government.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

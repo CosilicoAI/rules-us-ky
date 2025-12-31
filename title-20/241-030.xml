@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/241.030"/>
+          <FRBRuri value="/us-ky/act/krs/241.030"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/241.030/eng"/>
+          <FRBRuri value="/us-ky/act/krs/241.030/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/241.030/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/241.030/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_241_030">
+        <num>241.030</num>
+        <content>
+          <p>The Alcoholic Beverage Control Board shall consist of the commissioner of alcoholic beverage control and two (2) persons appointed by the secretary of the Public Protection Cabinet with the approval of the Governor, who shall be persons with administrative experience in the field of alcoholic beverage control. One (1) of these persons shall serve as administrator of the Division of Distilled Spirits, and the other shall serve as administrator of the Division of Malt Beverages. The commissioner shall be chairman of the board.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

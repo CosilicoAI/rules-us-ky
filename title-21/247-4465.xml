@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/247.4465"/>
+          <FRBRuri value="/us-ky/act/krs/247.4465"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/247.4465/eng"/>
+          <FRBRuri value="/us-ky/act/krs/247.4465/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/247.4465/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/247.4465/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247_4465">
+        <num>247.4465</num>
+        <content>
+          <p>Any referendum conducted under the provisions of  to 247.4483 shall be held on a statewide basis. The referendum may be participated in by all producers engaged in the production of the agricultural commodity on a commercial basis, including owners of farms on which the commodity is produced, tenants and sharecroppers sharing in the proceeds of the commodity. In the referendum, the individuals so eligible for participation shall vote upon the question of whether or not there shall be levied an annual assessment in the amount set forth in the call for the referendum.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

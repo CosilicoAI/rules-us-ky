@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/211.220"/>
+          <FRBRuri value="/us-ky/act/krs/211.220"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/211.220/eng"/>
+          <FRBRuri value="/us-ky/act/krs/211.220/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/211.220/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/211.220/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_211_220">
+        <num>211.220</num>
+        <content>
+          <p>For the purposes of enforcing the public health laws of the Commonwealth, investigators, inspectors, officers, representatives, and agents of the cabinet may enter upon any premises when necessary for the purpose of making inspections and investigations, and may view evidence and interrogate persons, to the extent required in the performance of their duties and responsibilities. The secretary of the Cabinet for Health and Family Services may issue subpoenas, subpoenas duces tecum, and all necessary process in proceedings brought before or initiated by the cabinet, and such process shall extend to all parts of the Commonwealth. Service of process may be made by certified mail, return receipt requested, or in the manner prescribed by the Rules of Civil Procedure. Nothing in this section shall be construed to authorize the cabinet to regulate the practice of any healing art where the licensure, regulation, and control of same has been conferred by statute upon some other agency of the state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/64.185"/>
+          <FRBRuri value="/us-ky/act/krs/64.185"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/64.185/eng"/>
+          <FRBRuri value="/us-ky/act/krs/64.185/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/64.185/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/64.185/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_64_185">
+        <num>64.185</num>
+        <content>
+          <p>County Monthly Minimum Population Compensation
+    1. 10,000 or less $200 2. 10,001 to 20,000 300 3. 20,001 to 40,000 350 4. 40,001 to 60,000 400 5. 60,001 to 100,000 450 6. 100,001 to 150,000 800 7. 150,001 or more 1,000</p>
+          <p>Click to view</p>
+          <p>County Monthly Minimum Population Compensation
+    1. 10,000 or less $400 2. 10,001 to 20,000 500 3. 20,001 to 40,000 650 4. 40,001 to 60,000 750 5. 60,001 to 100,000 850 6. 100,001 to 150,000 1,100 7. 150,001 or more 1,300</p>
+          <p>Click to view</p>
+          <p>County Monthly Minimum Population Compensation (a) 10,000 or less $200 (b) 10,001 to 20,000 250 (c) 20,001 to 40,000 275 (d) 40,001 to 60,000 300 (e) 60,001 to 100,000 400 (f) 100,001 to 150,000 900 (g) 150,001 or more 1,100</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

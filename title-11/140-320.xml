@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/140.320"/>
+          <FRBRuri value="/us-ky/act/krs/140.320"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/140.320/eng"/>
+          <FRBRuri value="/us-ky/act/krs/140.320/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/140.320/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/140.320/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_140_320">
+        <num>140.320</num>
+        <content>
+          <p>If, within five (5) years after the death of the decedent, a qualified person sells, conveys, or otherwise transfers the ownership, directly or indirectly, of the qualified real estate to any person or persons other than another qualified person who is a joint owner or the qualified real estate is converted to a use other than agricultural or horticultural use, then the qualified persons to whom the property passed at the death of the decedent in whose estate the agricultural or horticultural value was reported shall cause to be paid, pursuant to administrative regulations promulgated by the Department of Revenue, the additional inheritance tax that would have been due on the decedent’s estate if fair market value had been used to compute the tax due on the estate rather than the agricultural or horticultural value, along with interest at the tax interest rate as defined in .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

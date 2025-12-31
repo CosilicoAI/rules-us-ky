@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/133.181"/>
+          <FRBRuri value="/us-ky/act/krs/133.181"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/133.181/eng"/>
+          <FRBRuri value="/us-ky/act/krs/133.181/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/133.181/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/133.181/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_133_181">
+        <num>133.181</num>
+        <content>
+          <p>If the Department of Revenue, in making its equalization of the property in any county in accordance with the provisions of , causes any increase or decrease to be made in the value of any property, the county clerk shall correct the tax books to comply with the final certification of the assessment by the department. As compensation for his services, the clerk shall receive the same compensation per day that he receives for serving as clerk of the board of assessment appeals for as many days as are necessary to make the corrections but not to exceed a total of ten (10) days. One-half (1/2) of such amounts shall be paid out of the county levy and one-half (1/2) out of the State Treasury. Such sums shall be paid at the same time and in the same manner as is the clerk’s compensation for preparing the tax bills under .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

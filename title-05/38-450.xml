@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/38.450"/>
+          <FRBRuri value="/us-ky/act/krs/38.450"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/38.450/eng"/>
+          <FRBRuri value="/us-ky/act/krs/38.450/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/38.450/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/38.450/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_450">
+        <num>38.450</num>
+        <content>
+          <p>No person shall wear any uniform, device, strap, knot or other insignia prescribed by law or general regulations as a designation of rank, grade or office in the Kentucky National Guard, except members of the Army, Navy, Air Force, Marine Corps or Coast Guard of the United States, the National Guard of this or any other state, members of associations wholly composed of soldiers honorably discharged from the service of the United States or any state, and the faculty and students of educational institutions.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/223.170"/>
+          <FRBRuri value="/us-ky/act/krs/223.170"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/223.170/eng"/>
+          <FRBRuri value="/us-ky/act/krs/223.170/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/223.170/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/223.170/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_223_170">
+        <num>223.170</num>
+        <content>
+          <p>The Energy and Environment Cabinet shall certify persons as to their qualifications to supervise successfully the operation of water treatment plants or water distribution systems after considering the recommendations of a board of certification which shall be appointed by the secretary of the Energy and Environment Cabinet or his designee. The board shall consist of the following: two (2) members who are currently employed as waterworks operators holding valid certificates; one (1) member employed by a municipality who holds the position of either city manager, city engineer, director of public works, or the equivalent thereof; one (1) member who is a faculty member of a college, university, or professional school whose major field is related to water supply; and one (1) ex officio member representing the Energy and Environment Cabinet. Board members shall serve for a four (4) year term or until their successors are appointed and qualify. The Energy and Environment Cabinet representative shall serve as executive secretary and treasurer of the board and be responsible for maintaining records. The members of the board shall serve without compensation, but may be reimbursed for all actual and necessary expenses incurred while discharging their official duties.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

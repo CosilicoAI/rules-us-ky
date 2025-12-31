@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/433.750"/>
+          <FRBRuri value="/us-ky/act/krs/433.750"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/433.750/eng"/>
+          <FRBRuri value="/us-ky/act/krs/433.750/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/433.750/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/433.750/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_433_750">
+        <num>433.750</num>
+        <content>
+          <p>Any person who picks, pulls, digs, tears up, cuts, breaks, burns or otherwise damages any tree, shrub, flower, vine, bush or turf on the right of way of any state highway or county road or upon any land set aside, dedicated or maintained by this state as a public park or as a refuge or sanctuary for wild animals, birds or fish, without having first obtained permission in writing of the engineer having charge of the maintenance of the highway, or the superintendent or custodian of the park, refuge or sanctuary shall be fined not less than $25 nor more than $300.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

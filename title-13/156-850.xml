@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/156.850"/>
+          <FRBRuri value="/us-ky/act/krs/156.850"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/156.850/eng"/>
+          <FRBRuri value="/us-ky/act/krs/156.850/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/156.850/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/156.850/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_156_850">
+        <num>156.850</num>
+        <content>
+          <p>This state accepts and agrees to comply with all the provisions of the Acts of Congress of the United States approved February 23, 1917, and all subsequent acts relating to vocational education, the purpose of which is to provide training, develop skills, abilities, understandings, attitudes, work habits, and appreciation, and to impart knowledge and information needed by workers to enter into and make progress in their chosen vocations. These training opportunities shall be provided for the young people who are enrolled in the regular day schools and, also, for out-of-school youth and adults, both employed and unemployed, who are in need of and can profit by vocational training.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

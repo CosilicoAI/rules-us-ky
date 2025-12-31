@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/174.085"/>
+          <FRBRuri value="/us-ky/act/krs/174.085"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/174.085/eng"/>
+          <FRBRuri value="/us-ky/act/krs/174.085/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/174.085/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/174.085/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_174_085">
+        <num>174.085</num>
+        <content>
+          <p>All corporate bodies and instrumentalities of the Commonwealth, advisory committees, commissions, councils, interstate compact, or other statutory bodies presently attached to the functions in whole or in part of the Departments of Public Safety, Aeronautics, Highways, Motor Transportation, and Revenue and transferred to the Department of Transportation under 1974 Acts ch. 74, shall be attached to the Transportation Cabinet for administrative support services. The secretary of transportation, or his designee, shall serve as member of any authority, commission, board, committee, or other entity on which by virtue of law, regulation, or order the commissioner of public safety, commissioner of highways, commissioner of motor transportation, commissioner of aeronautics, commissioner of revenue is a member by virtue of his office. Any office, or its successor agency, presently designated as Kentucky representative for a federally related program shall continue as such until such designation is modified by the secretary with the approval of the Governor.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

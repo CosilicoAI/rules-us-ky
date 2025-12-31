@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/138.224"/>
+          <FRBRuri value="/us-ky/act/krs/138.224"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/138.224/eng"/>
+          <FRBRuri value="/us-ky/act/krs/138.224/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/138.224/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/138.224/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_138_224">
+        <num>138.224</num>
+        <content>
+          <p>It shall be presumed that all untaxed motor fuels are subject to the tax levied under  unless the contrary is established pursuant to  to or administrative regulations promulgated thereunder by the department. The tax shall be paid by the licensed dealer to the department. The burden of proving that any motor fuel is not subject to tax shall be upon the dealer or any person who imports, causes to be imported, receives, uses, sells, stores, or possesses untaxed motor fuel in this state. Any dealer or other person who imports, causes to be imported, receives, uses, sells, stores, or possesses untaxed motor fuels but fails to comply with all statutory and regulatory restrictions applicable to the fuel shall be jointly and severally liable for payment of the tax due on the fuel. A person’s liability shall not be extinguished until the tax due has been paid to the department.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/158.840"/>
+          <FRBRuri value="/us-ky/act/krs/158.840"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/158.840/eng"/>
+          <FRBRuri value="/us-ky/act/krs/158.840/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/158.840/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/158.840/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_158_840">
+        <num>158.840</num>
+        <content>
+          <p>The General Assembly, the Kentucky Board of Education, the Kentucky Department of Education, the Council on Postsecondary Education, colleges and universities, local boards of education, school administrators, school councils, teachers, parents, and other educational entities, such as the Education Professional Standards Board, P-16 councils, the Collaborative Center for Literacy Development, and the Center for Middle School Achievement must collaborate if the intentions specified in this subsection are to be met. Intensive focus on student achievement in reading and mathematics does not negate the responsibility of any entity to help students obtain proficiency in other core curriculum content areas.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

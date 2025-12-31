@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/334.110"/>
+          <FRBRuri value="/us-ky/act/krs/334.110"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/334.110/eng"/>
+          <FRBRuri value="/us-ky/act/krs/334.110/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/334.110/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/334.110/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_334_110">
+        <num>334.110</num>
+        <content>
+          <p>Each person who engages in the selling or fitting of hearing instruments shall annually, on or before January 30, pay to the board a fee to be established by the board by the promulgation of an administrative regulation for a renewal of his license. Where more than one (1) office is operated by the licensee, duplicate certificates shall be issued by the board for posting in each location. A thirty (30) day grace period shall be allowed after January 30, during which time licenses may be renewed on payment of a late fee and penalty to be established by the board by the promulgation of an administrative regulation. The board may suspend the license of any person who fails to renew his license before the expiration of the thirty (30) day grace period. After the expiration of the grace period, the board may in its discretion renew the license upon the payment of an additional fee to be established by the board by the promulgation of an administrative regulation. No person who applies for renewal, whose license has expired, shall be required to submit to any examination as a condition to renewal, if the renewal application is made within two (2) years from the date of expiration.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/220.563"/>
+          <FRBRuri value="/us-ky/act/krs/220.563"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/220.563/eng"/>
+          <FRBRuri value="/us-ky/act/krs/220.563/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/220.563/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/220.563/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_220_563">
+        <num>220.563</num>
+        <content>
+          <p>Within sixty (60) days after the final publication of an order made under , which dismisses a petition for creation of a construction subdistrict or within sixty (60) days after final publication of an order made under  any person who would have been qualified to sign a petition described in  may appeal such order of the district to the Circuit Court for the county in which the proposed construction subdistrict is located. All matters appealed from shall be tried de novo and as an equitable action. Decisions of the Circuit Court may be appealed to the Court of Appeals.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

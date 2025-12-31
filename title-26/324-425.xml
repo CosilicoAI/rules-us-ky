@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/324.425"/>
+          <FRBRuri value="/us-ky/act/krs/324.425"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/324.425/eng"/>
+          <FRBRuri value="/us-ky/act/krs/324.425/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/324.425/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/324.425/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_324_425">
+        <num>324.425</num>
+        <content>
+          <p>In case of death or other incapacity of a principal broker having a licensed sales associate or sales associates affiliated at the time of death or other incapacity, the commission reserves the right in its discretion, based upon the merits of each case, to permit one (1) of the sales associates to complete and close the then existing business of the deceased or incapacitated broker for a temporary period not to exceed six (6) months.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/160.320"/>
+          <FRBRuri value="/us-ky/act/krs/160.320"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/160.320/eng"/>
+          <FRBRuri value="/us-ky/act/krs/160.320/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/160.320/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/160.320/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_160_320">
+        <num>160.320</num>
+        <content>
+          <p>Any board of education may make provision for roads or passways to its school buildings to accommodate all pupils who are entitled to attend school, and may apply to the county judge/executive or the governing authority of the city having jurisdiction to open the same as other roads and passways are opened for public necessity and convenience. If there is no road or passway from the residence of any pupil to the school building which he attends it shall be lawful for such pupil, in attending school, to walk over the property of any person between the residence of the pupil and the school building.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/272.410"/>
+          <FRBRuri value="/us-ky/act/krs/272.410"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/272.410/eng"/>
+          <FRBRuri value="/us-ky/act/krs/272.410/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/272.410/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/272.410/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_272_410">
+        <num>272.410</num>
+        <content>
+          <p>The articles of incorporation shall be signed, acknowledged, filed and recorded in accordance with the provisions of the general corporation law of this state, and, in addition, a quadruplicate of the articles, indorsed by the Secretary of State with the fact and time of recording of the articles in his office, shall be filed with the Department of Agriculture within ten (10) days after the articles have been recorded in the office of the Secretary of State. After the articles have been duly filed and recorded, and a certificate of incorporation has been issued, the corporation may proceed to do business. For recording the articles and issuing a certificate of incorporation the Secretary of State shall be entitled to a fee of two dollars and fifty cents ($2.50). For recording the articles the county clerk shall be entitled to a fee specified in , which fees shall be in lieu of all other fees charged by either of such officers.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

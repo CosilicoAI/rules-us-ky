@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/58.560"/>
+          <FRBRuri value="/us-ky/act/krs/58.560"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/58.560/eng"/>
+          <FRBRuri value="/us-ky/act/krs/58.560/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/58.560/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/58.560/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_58_560">
+        <num>58.560</num>
+        <content>
+          <p>Bonds issued by the authority under the provisions of  to are issued on behalf of the Commonwealth but do not constitute a debt of the Commonwealth or of any political subdivision thereof, or a pledge of the faith and credit of the Commonwealth or of any such political subdivision, but such bonds and the interest thereon shall be payable solely from the funds and security provided therefor under the provisions of  to  and all such bonds shall contain on the face thereof a statement to that effect.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/211.850"/>
+          <FRBRuri value="/us-ky/act/krs/211.850"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/211.850/eng"/>
+          <FRBRuri value="/us-ky/act/krs/211.850/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/211.850/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/211.850/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_211_850">
+        <num>211.850</num>
+        <content>
+          <p>Whenever, in the opinion of the Attorney General or the secretary of the Cabinet for Health and Family Services, the person is violating or is about to violate any of the provisions of  to  or any regulation lawfully promulgated pursuant thereto, the Attorney General or the secretary may apply to the appropriate court for an order enjoining the person from engaging or continuing to engage in the violative act, and upon a showing that such person has engaged or is about to engage in such activity, a restraining order or permanent or temporary injunction, or any other appropriate order shall be granted.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

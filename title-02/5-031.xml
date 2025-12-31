@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/5.031"/>
+          <FRBRuri value="/us-ky/act/krs/5.031"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/5.031/eng"/>
+          <FRBRuri value="/us-ky/act/krs/5.031/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/5.031/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/5.031/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_031">
+        <num>5.031</num>
+        <content>
+          <p>County boards of elections shall meet, immediately following January 11, 1996, for the purpose of reviewing the changes made to legislative district boundaries. The county boards of elections shall redraw precinct boundaries so as to conform to state legislative district boundaries established by the General Assembly in its 1996 Regular Session in order to minimize the number of split precincts. Any redrawing of precinct boundaries required as a result of this redistricting shall be completed no later than forty-five (45) days after January 11, 1996, the provisions of  notwithstanding.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

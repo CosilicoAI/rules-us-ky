@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/167.220"/>
+          <FRBRuri value="/us-ky/act/krs/167.220"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/167.220/eng"/>
+          <FRBRuri value="/us-ky/act/krs/167.220/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/167.220/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/167.220/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_167_220">
+        <num>167.220</num>
+        <content>
+          <p>The State Department of Education is hereby authorized to expend available funds for the purpose of sending children who are deaf-blind to any facility, school, or institution, within or without the Commonwealth, which provides a qualified program of education for such children. Such funds may be spent for evaluation and diagnosis, room, board, tuition, transportation, and other items which are necessarily relevant to the education of such children.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

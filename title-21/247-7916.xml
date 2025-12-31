@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/247.7916"/>
+          <FRBRuri value="/us-ky/act/krs/247.7916"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/247.7916/eng"/>
+          <FRBRuri value="/us-ky/act/krs/247.7916/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/247.7916/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/247.7916/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247_7916">
+        <num>247.7916</num>
+        <content>
+          <p>The hours, voting places, rules and regulations, and the area within which the referendum will be conducted shall be established and determined by the Commissioner. The referendum date, area, hours, voting places, and rules and regulations with respect to the holding of the referendum shall be published by the Commissioner through the medium of the public press in the Commonwealth of Kentucky at least thirty (30) days before the holding of the referendum, and direct written notice shall also be given to each county or area agricultural extension agent in any county covered by the referendum. The notice shall also contain a statement of the amount of the assessment proposed to be levied, and shall state the method by which the assessment shall be collected and how the proceeds from the assessment shall be administered and the purposes to which the proceeds shall be applied, which purposes shall be in keeping with the provisions of  to 247.7928.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

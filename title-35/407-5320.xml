@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/407.5320"/>
+          <FRBRuri value="/us-ky/act/krs/407.5320"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/407.5320/eng"/>
+          <FRBRuri value="/us-ky/act/krs/407.5320/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/407.5320/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/407.5320/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_407_5320">
+        <num>407.5320</num>
+        <content>
+          <p>A tribunal of this state may communicate with a tribunal outside this state in a record or by telephone, electronic mail, or other means, to obtain information concerning the laws, the legal effect of a judgment, decree, or order of that tribunal, and the status of a proceeding. A tribunal of this state may furnish similar information by similar means to a tribunal outside this state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

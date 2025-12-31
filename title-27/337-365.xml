@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/337.365"/>
+          <FRBRuri value="/us-ky/act/krs/337.365"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/337.365/eng"/>
+          <FRBRuri value="/us-ky/act/krs/337.365/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/337.365/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/337.365/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_337_365">
+        <num>337.365</num>
+        <content>
+          <p>No employer shall require any employee to work without a rest period of at least ten (10) minutes during each four (4) hours worked, except those employees who are under the Federal Railway Labor Act. This shall be in addition to the regularly scheduled lunch period. This section shall not apply where a collective bargaining agreement provides for a total number of minutes that are equal to or exceed ten (10) minutes accrued for each four (4) hours of work. If a collective bargaining agreement does not contain provisions allowing rest periods, employers shall allow a rest period of at least ten (10) minutes during each four (4) hours worked. No reduction in compensation shall be made for hourly or salaried employees.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

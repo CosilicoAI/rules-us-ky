@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/212.040"/>
+          <FRBRuri value="/us-ky/act/krs/212.040"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/212.040/eng"/>
+          <FRBRuri value="/us-ky/act/krs/212.040/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/212.040/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/212.040/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_212_040">
+        <num>212.040</num>
+        <content>
+          <p>The fiscal court of any county may by resolution at a regular session declare that the county shall be a district for the creation, establishment and maintenance of a county health department. Upon the resolution being passed, the fiscal court shall at once, out of the funds of the county, appropriate a sufficient amount for the creation, establishment and maintenance of the county health department. If there are not sufficient funds on hand for such appropriation at the time the resolution is adopted, the fiscal court shall, at the next succeeding county levy, make a levy sufficient to produce the necessary amount of tax for the creation, establishment and maintenance of the county health department. The fiscal court shall annually thereafter make a levy sufficient to pay the annual expense of maintenance of the county health department. After the resolution creating the department is entered, any twenty (20) legal voters may, within thirty (30) days, file with the county judge/executive a petition signed by them requesting that the establishment of the county health department be done by the vote of the people of the county as provided in , in which case it shall be so done.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

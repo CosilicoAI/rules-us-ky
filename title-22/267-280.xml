@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/267.280"/>
+          <FRBRuri value="/us-ky/act/krs/267.280"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/267.280/eng"/>
+          <FRBRuri value="/us-ky/act/krs/267.280/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/267.280/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/267.280/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_267_280">
+        <num>267.280</num>
+        <content>
+          <p>If it is necessary to acquire a right-of-way or any outlet over or through lands not affected by the drainage, and the same cannot be acquired by purchase, the same may be condemned by the board. The owners of the land sought to be condemned shall be made parties to the proceeding, and the procedure shall be substantially as provided in the Eminent Domain Act of Kentucky. The damages awarded shall be paid by the board out of the first funds available, before the land is taken, injured or destroyed, unless the party entitled thereto waives payment in advance.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

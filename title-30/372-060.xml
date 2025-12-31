@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/372.060"/>
+          <FRBRuri value="/us-ky/act/krs/372.060"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/372.060/eng"/>
+          <FRBRuri value="/us-ky/act/krs/372.060/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/372.060/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/372.060/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_372_060">
+        <num>372.060</num>
+        <content>
+          <p>Any contract, agreement or conveyance made in consideration of services to be rendered in the prosecution or defense, or aiding in the prosecution or defense, in or out of court, of any suit, by any person not a party on record in the suit, whereby the thing sued for or in controversy or any part thereof, is to be taken, paid or received for such services or assistance, is void.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

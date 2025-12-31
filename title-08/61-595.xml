@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/61.595"/>
+          <FRBRuri value="/us-ky/act/krs/61.595"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/61.595/eng"/>
+          <FRBRuri value="/us-ky/act/krs/61.595/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/61.595/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/61.595/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_61_595">
+        <num>61.595</num>
+        <content/>
+        <subsection eId="sec_61_595__subsec_e">
+          <num>(e)</num>
+          <content>
+            <p>The annual normal retirement allowance for members of the General Assembly who will have fewer than eight (8) years of service as of December 31, 1975, shall be as prescribed in Chapter 116, section 36(1), Acts of the 1972 General Assembly for legislative service prior to January 1, 1974;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_61_595__subsec_f">
+          <num>(f)</num>
+          <content>
+            <p>Former members of the General Assembly who have eight (8) or more years of legislative service prior to the 1976 Regular Session are eligible for an increased retirement allowance of two hundred forty dollars ($240) times the years of legislative service, if the member pays to the Kentucky Employees Retirement System thirty-five percent (35%) of the actuarial cost of the higher benefit, as determined by the system, except that a former member with sixteen (16) or more years of legislative service, or his beneficiary, who is receiving a retirement allowance, also is eligible under this section and may apply for a recomputation of his retirement allowance. The employer’s share of sixty-five percent (65%) of the computed actuarial cost shall be paid from the State Treasury to the Kentucky Employees Retirement System upon presentation of a properly documented claim to the Finance and Administration Cabinet. If any member with sixteen (16) or more years of legislative service previously applied for and is receiving a retirement allowance, he may reapply and his retirement allowance shall be recomputed in accordance with this paragraph, and he shall thereafter be paid in accordance with the option selected by him at the time of the reapplication; and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_61_595__subsec_g">
+          <num>(g)</num>
+          <content>
+            <p>The annual normal retirement allowance for a member with ten (10) or more years of service, in the Kentucky Employees Retirement System, at least one (1) of which is current service, shall not be less than five hundred twelve dollars ($512).</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

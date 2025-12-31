@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/65.7639"/>
+          <FRBRuri value="/us-ky/act/krs/65.7639"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/65.7639/eng"/>
+          <FRBRuri value="/us-ky/act/krs/65.7639/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/65.7639/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/65.7639/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_65_7639">
+        <num>65.7639</num>
+        <content>
+          <p>Each CMRS provider shall provide customer mobile handset telephone numbers and names to PSAPs when required by the board. Each CMRS provider may be required to provide a quarterly report to the board of the number of subscribers receiving bills in each zip code served by the provider during that quarter if needed. Funds from the CMRS fund may be used to pay for the costs associated with providing this information. Although customer mobile handset telephone numbers and names shall be available to PSAPs, and to the board, this information shall remain the property of the disclosing CMRS provider and shall be used only in providing emergency response services to 911 calls and in collecting the service charge from subscribers. Mobile handset telephone numbers and names which are required to be provided under this section constitute confidential proprietary information and shall not be released to any person for purposes other than for including the numbers and names in the emergency telephone system database, for purposes related to the collection of the service charge, and for providing the numbers and names to permit a response to police, fire, medical, or other emergency situations. Notwithstanding any other provision of the law, no information provided to PSAPs under this section shall be disclosed other than to the submitting CMRS provider, the administrator, the board, and the independent certified public accountant retained by the board under  without the express permission of the submitting CMRS provider unless ordered by a court of competent jurisdiction. General information collected by the independent certified public accountant shall only be released or published in aggregate amounts which do not identify or allow identification of numbers of subscribers or revenues attributable to an individual CMRS provider.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

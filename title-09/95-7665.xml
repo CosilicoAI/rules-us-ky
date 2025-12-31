@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/95.7665"/>
+          <FRBRuri value="/us-ky/act/krs/95.7665"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/95.7665/eng"/>
+          <FRBRuri value="/us-ky/act/krs/95.7665/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/95.7665/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/95.7665/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_95_7665">
+        <num>95.7665</num>
+        <content>
+          <p>The provisions of  to shall only apply to those cities that were previously classified as cities of the fourth or fifth class prior to August 1, 1988, under the city classification system that was in effect prior to August 1, 1988, or to any other city that established a policemen’s and firefighters’ pension program specifically under the provisions of  to prior to August 1, 1988.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

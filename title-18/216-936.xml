@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/216.936"/>
+          <FRBRuri value="/us-ky/act/krs/216.936"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/216.936/eng"/>
+          <FRBRuri value="/us-ky/act/krs/216.936/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/216.936/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/216.936/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_216_936">
+        <num>216.936</num>
+        <content>
+          <p>The Cabinet for Health and Family Services shall establish an abuse registry to include information pertaining to findings of resident neglect as defined at 42 C.F.R. 488.301 or abuse as defined at 42 C.F.R. 488.301, and misappropriation of resident property by a nurse aide or home health aide. The abuse registry may be created by expanding or modifying the existing nurse aide abuse registry to include home health aides as permitted by 42 C.F.R. 483.156.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

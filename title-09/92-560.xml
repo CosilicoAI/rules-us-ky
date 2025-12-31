@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/92.560"/>
+          <FRBRuri value="/us-ky/act/krs/92.560"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/92.560/eng"/>
+          <FRBRuri value="/us-ky/act/krs/92.560/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/92.560/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/92.560/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_92_560">
+        <num>92.560</num>
+        <content>
+          <p>As soon as the tax levy ordinance in each city of the second class becomes in force, the auditor shall deliver the assessment books to the city clerk, who shall from them make out the tax bills. Each bill shall show each lot and the assessment thereon separately, the name of the supposed owner, the net total assessment of personal property, other than motor vehicles governed by the provisions of , against the person and the tax thereon. The tax bills shall be so arranged that the bill for each half-year may be detached and have each part intelligible. There shall be attached to each bill a stub showing in condensed form the items and amounts in the bill, and the bills and stubs shall be numbered consecutively, the number of each stub to correspond to the bill to which it is attached. The bills and stubs shall be bound in book form. As soon as practicable the clerk shall deliver the assessment books and tax bills to the auditor, and together they shall ascertain whether the sum of the tax bills equals the amount of the tax which, at the rate fixed, the total assessment should realize, and if it does not, they shall find and correct the error. When the error is corrected, the auditor shall receipt for the assessment books and tax bills. The auditor shall then deliver all tax bills to the treasurer and take his receipt for the gross amount of the bills. As soon as practicable after receiving the tax bills, the treasurer shall mail to each person against whom a tax bill has been listed, or to his guardian or conservator, a postpaid notice, directed to the best of his knowledge, stating the number and amount of the bill, the date when due and the penalties imposed for nonpayment. The failure of the treasurer to send the notice, or of the taxpayer, guardian or conservator to receive it, shall not invalidate the tax or the interest or penalties, or any subsequent proceeding for the collection thereof.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

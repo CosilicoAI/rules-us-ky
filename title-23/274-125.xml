@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/274.125"/>
+          <FRBRuri value="/us-ky/act/krs/274.125"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/274.125/eng"/>
+          <FRBRuri value="/us-ky/act/krs/274.125/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/274.125/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/274.125/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_274_125">
+        <num>274.125</num>
+        <content>
+          <p>This chapter shall not apply to any person within this state who, prior to the passage of this chapter, was permitted to organize a corporation and perform professional services by the means of such corporation, and this chapter shall not apply to any corporation organized by such persons prior to the passage of this chapter, provided, that any such corporation may bring itself within the provisions of this chapter by amending its articles of incorporation in such a manner as to be consistent with all of the provisions of this chapter and by affirmatively stating in the amended articles of incorporation that the shareholders have elected to bring the corporation within, and have accepted the provisions of, this chapter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

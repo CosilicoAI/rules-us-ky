@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/376.350"/>
+          <FRBRuri value="/us-ky/act/krs/376.350"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/376.350/eng"/>
+          <FRBRuri value="/us-ky/act/krs/376.350/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/376.350/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/376.350/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_376_350">
+        <num>376.350</num>
+        <content>
+          <p>Any person in whose favor a lien created by  exists may, before the District Court of the county where the debt was created, by himself, agent or attorney, make affidavit of the amount due him and in arrear for services to the person receiving them and describing, as nearly as possible, the baggage or other personal property owned and brought in by the guest. The court shall then issue a warrant directed to the sheriff or any constable or town marshal of the county, authorizing him to levy upon and seize the property described in the affidavit for the amount due, with interest and costs. If the property has been removed with the consent of the landlord, the lien shall not continue longer than ten (10) days from and after the removal.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

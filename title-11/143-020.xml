@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/143.020"/>
+          <FRBRuri value="/us-ky/act/krs/143.020"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/143.020/eng"/>
+          <FRBRuri value="/us-ky/act/krs/143.020/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/143.020/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/143.020/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_143_020">
+        <num>143.020</num>
+        <content>
+          <p>For the privilege of severing or processing coal, in addition to all other taxes imposed by law, a tax is hereby levied on every taxpayer engaged in severing and/or processing coal within this Commonwealth at the rate of four and one-half percent (4.5%) of the gross value of all coal severed and/or processed during the reporting period; except that the minimum tax for a reporting period shall be an amount determined by applying a rate of fifty cents ($0.50) per ton to the total number of tons severed during the reporting period. The minimum tax shall not apply to a taxpayer who only processes coal.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

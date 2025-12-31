@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.860"/>
+          <FRBRuri value="/us-ky/act/krs/164.860"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.860/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.860/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.860/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.860/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_860">
+        <num>164.860</num>
+        <content>
+          <p>The board of trustees of the University of Louisville may issue revenue bonds of the university for the erection of buildings and appurtenances to be used in connection with the university for educational purposes, and otherwise as provided in  to  and subject to the provisions of KRS , provided, said board of trustees may in its discretion issue such revenue bonds not only for the purposes and in the manner set forth in  to  but also for the purposes of refinancing any mortgages, mortgage bonds, revenue bonds, notes, or other evidences of indebtedness previously issued or incurred by the university in connection with the acquisition of lands or the purchase, erection or other acquisition of buildings and appurtenant facilities for educational purposes of the university. Provided, however, that this section shall not be construed to authorize the issuance of revenue bonds of a face amount in excess of $16,000,000 for the purpose of refinancing any mortgages, mortgage bonds, revenue bonds, notes, or other evidences of indebtedness previously issued or incurred.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

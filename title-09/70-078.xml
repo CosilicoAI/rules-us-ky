@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/70.078"/>
+          <FRBRuri value="/us-ky/act/krs/70.078"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/70.078/eng"/>
+          <FRBRuri value="/us-ky/act/krs/70.078/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/70.078/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/70.078/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_70_078">
+        <num>70.078</num>
+        <content>
+          <p>A sheriff having an order of arrest may enter any house or inclosure in which the party to be arrested may be, to arrest him; and, if necessary for this purpose, may break the house or inclosure, having informed any person therein of his object; or, if no person appear to whom such information can be given, after having publicly demanded the person to be arrested; and, in either case, after having given sufficient time for the house or inclosure to be opened.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

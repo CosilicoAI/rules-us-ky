@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/367.350"/>
+          <FRBRuri value="/us-ky/act/krs/367.350"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/367.350/eng"/>
+          <FRBRuri value="/us-ky/act/krs/367.350/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/367.350/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/367.350/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_367_350">
+        <num>367.350</num>
+        <content>
+          <p>With respect to a credit sale, cash sale or lease to a consumer, the seller or lessor may not give or offer to give a rebate or discount or otherwise pay or offer to pay value to the buyer or lessee as an inducement for a sale or lease in consideration of his giving to the seller or lessor the names of prospective purchasers or lessees, or otherwise aiding the seller or lessor in making a sale or lease to another person, if the earning of the rebate, discount or other value is contingent upon the occurrence of an event subsequent to the time the buyer or lessee agrees to buy or lease. If a buyer or lessee is induced by a violation of this section to enter into a cash or credit consumer sale or consumer lease, the agreement is unenforceable by the seller or lessor and the buyer or lessee, at his option, may rescind the agreement or retain the goods delivered and the benefit of any services performed, without any obligation to pay for them.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

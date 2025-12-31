@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/65.499"/>
+          <FRBRuri value="/us-ky/act/krs/65.499"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/65.499/eng"/>
+          <FRBRuri value="/us-ky/act/krs/65.499/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/65.499/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/65.499/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_65_499">
+        <num>65.499</num>
+        <content>
+          <p>Any agency, other than a county, consolidated local government, city, urban-county, or charter county government, that enters into a contract with any taxing district for the release of any increments that may arise during the period of a contract of release shall forthwith notify the official charged with the collecting of taxes for the property in the development area of the execution of a contract of release, and the official charged with the collection of taxes shall in each year a contract of release is in effect determine the amount of the increment that is the subject of the contract of release for division between the taxing district and the agency; and, upon the basis of the agreement made between the taxing district and the agency, the official shall divide and distribute the funds derived from the area between the taxing district and the agency. Any local government that has designated an agency as having oversight of a designated development area shall annually issue a release to the agency of those increments created from the taxes collected on properties within the development area. All increments released to an agency of a local government shall be used solely for the purposes of projects in the development area.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

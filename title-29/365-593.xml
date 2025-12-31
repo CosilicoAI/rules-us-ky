@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/365.593"/>
+          <FRBRuri value="/us-ky/act/krs/365.593"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/365.593/eng"/>
+          <FRBRuri value="/us-ky/act/krs/365.593/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/365.593/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/365.593/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_365_593">
+        <num>365.593</num>
+        <content>
+          <p>The Secretary shall promulgate administrative regulations establishing a system for classifying goods and services for purposes of administering  to  This system shall not limit or extend the applicant’s or registrant’s rights. An application for registration of a mark may include any or all goods upon which, or services with which, the mark is actually being used indicating the appropriate class or classes of goods or services. When a single application includes goods or services falling in multiple classes, the Secretary may require payment of the application fee of ten dollars ($10) for each class. To the extent practical, the classification of goods and services shall conform to the classification adopted by the United States Patent and Trademark Office.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

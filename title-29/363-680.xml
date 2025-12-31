@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/363.680"/>
+          <FRBRuri value="/us-ky/act/krs/363.680"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/363.680/eng"/>
+          <FRBRuri value="/us-ky/act/krs/363.680/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/363.680/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/363.680/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_363_680">
+        <num>363.680</num>
+        <content>
+          <p>Any city of the first, second or third class shall have power, by ordinance, to provide for a city sealer of weights and measures, with necessary assistants. When any such city establishes the position of city sealer, it shall procure from the department, at the expense of the city, a set of working standards of weights and measures certified by the department as a correct copy of the office standard of the department, and sealed by the department in the same manner as the working standards of the department. The city sealer shall have the same powers within the city as are conferred upon the department by  to  such powers to be exercised under the general control or supervision of the department. The city working standards shall be submitted to the department for verification at least once each five (5) years. The department shall have power to inspect the standards and other weighing and measuring apparatus used by city sealers and to inspect the work of the city sealers. The department may prescribe regulations for the guidance of the city sealers, which regulations shall govern the procedure to be followed by city sealers in the discharge of their duties.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

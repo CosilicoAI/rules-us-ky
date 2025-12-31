@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/139.010"/>
+          <FRBRuri value="/us-ky/act/krs/139.010"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/139.010/eng"/>
+          <FRBRuri value="/us-ky/act/krs/139.010/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/139.010/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/139.010/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_139_010">
+        <num>139.010</num>
+        <content>
+          <p>As used in this chapter, unless the context otherwise provides:</p>
+          <p>regardless of whether the fee paid is per use or in any other form, including but not limited to an initiation fee, monthly fee, membership fee, or combination thereof.</p>
+          <p>1.
+      Digital audio works;</p>
+          <p>2.
+      Digital books;</p>
+          <p>1.
+      The retailer’s cost of the tangible personal property, digital property, or services sold;</p>
+          <p>2.
+      The cost of the materials used, labor or service cost, interest, losses, all costs of transportation to the retailer, all taxes imposed on the retailer, or any other expense of the retailer;</p>
+          <p>3.
+      Charges by the retailer for any services necessary to complete the sale;</p>
+          <p>4.
+      Delivery charges, which are defined as charges by the retailer for the preparation and delivery to a location designated by the purchaser including transportation, shipping, postage, handling, crating, and packing;</p>
+          <p>5.
+      Any amount for which credit is given to the purchaser by the retailer, other than credit for tangible personal property or digital property traded when the tangible personal property or digital property traded is of like kind and character to the property purchased and the property traded is held by the retailer for resale; and</p>
+          <p>6.
+      The amount charged for labor or services rendered in installing or applying the tangible personal property, digital property, or service sold.</p>
+          <p>for a consideration.</p>
+          <p>for a consideration.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

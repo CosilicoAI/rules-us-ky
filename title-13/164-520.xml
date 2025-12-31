@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.520"/>
+          <FRBRuri value="/us-ky/act/krs/164.520"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.520/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.520/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.520/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.520/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_520">
+        <num>164.520</num>
+        <content>
+          <p>The bond issued by the commissioners of the sinking fund to themselves as trustees for the University of Kentucky and Kentucky State University, bearing date July 1, 1897, for the sum of $165,000 and bearing interest at the rate of six percent (6%), payable semiannually, remains in force and constitutes a perpetual obligation of the Commonwealth, and the interest thereon is a perpetual charge upon the Treasury. The Finance and Administration Cabinet shall, on the first day of January and on the first day of July each year, draw its warrant on the State Treasurer for the sum of $627.75 in favor of the treasurer of Kentucky State University, and its warrant on the State Treasurer for the sum of $4,322.25 in favor of the treasurer of the University of Kentucky.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

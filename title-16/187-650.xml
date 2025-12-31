@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/187.650"/>
+          <FRBRuri value="/us-ky/act/krs/187.650"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/187.650/eng"/>
+          <FRBRuri value="/us-ky/act/krs/187.650/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/187.650/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/187.650/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_187_650">
+        <num>187.650</num>
+        <content>
+          <p>Whenever an automobile dealer or bank or other lending institution which handles automobile loans procures a policy of insurance for the purchaser of an automobile, new or used, if such policy does not cover the insured as to public liability insurance, then such person or institution shall cause to be stamped or written on the face of the purchaser’s copy of such policy a statement that such policy does not cover bodily injury or property damage insurance.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

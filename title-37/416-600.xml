@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/416.600"/>
+          <FRBRuri value="/us-ky/act/krs/416.600"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/416.600/eng"/>
+          <FRBRuri value="/us-ky/act/krs/416.600/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/416.600/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/416.600/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_416_600">
+        <num>416.600</num>
+        <content>
+          <p>Any answer or other pleading
+    filed by the owner in response to the summons shall be filed on or before
+    the twenty (20) days after date of service and shall be confined solely to
+    the question of the right of the petitioner to condemn the property sought
+    to be condemned, but without prejudice to the owner’s right to except from
+    the amount of the compensation awarded in the manner provided in 
+    to</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

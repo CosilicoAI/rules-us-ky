@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.288"/>
+          <FRBRuri value="/us-ky/act/krs/164.288"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.288/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.288/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.288/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.288/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_288">
+        <num>164.288</num>
+        <content>
+          <p>Any of the state postsecondary educational institutions or the state on behalf of any of the institutions may accept federal aid in the form of services, equipment, supplies, materials, or funds by way of gift, grant, or loan for the purpose of higher education, including student loans. Any of the institutions acting through its president or its governing board is hereby authorized to receive such services, equipment, supplies, materials, and funds as are available. The institutions are authorized to use funds appropriated to them in carrying out the matching provisions required by federal programs, loans, or grants.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/62.070"/>
+          <FRBRuri value="/us-ky/act/krs/62.070"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/62.070/eng"/>
+          <FRBRuri value="/us-ky/act/krs/62.070/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/62.070/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/62.070/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_62_070">
+        <num>62.070</num>
+        <content>
+          <p>Actions may be brought from time to time on any bond required by law for the discharge or performance of any public or fiducial office, trust or employment, in the name of the Commonwealth, for its benefit or for that of any person injured by a breach of the covenant or condition, at the proper costs of the party suing, against the parties jointly or severally, together with the personal representatives, heirs and devisees or distributees of such of them as may be dead. Recovery against the surety shall be limited to the amount of the penalty fixed in the bond, but recovery against the principal shall not be limited by the amount of the penalty fixed in the bond. Recovery on the bond shall not be restricted to duties or responsibilities belonging to the office, trust or employment at the date the bond is executed, but may include any duties or responsibilities thereafter imposed by law or lawfully assumed.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

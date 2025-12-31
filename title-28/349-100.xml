@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/349.100"/>
+          <FRBRuri value="/us-ky/act/krs/349.100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/349.100/eng"/>
+          <FRBRuri value="/us-ky/act/krs/349.100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/349.100/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/349.100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_349_100">
+        <num>349.100</num>
+        <content>
+          <p>If any coalbed methane well produces coalbed methane, all coal-protecting strings of casing shall remain in place during the life of the well. The top ends of all the strings shall be provided with casing heads or other suitable devices that will allow the free passage of coalbed methane and prevent filling the annular spaces outside the casing with dirt or debris.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/431.200"/>
+          <FRBRuri value="/us-ky/act/krs/431.200"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/431.200/eng"/>
+          <FRBRuri value="/us-ky/act/krs/431.200/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/431.200/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/431.200/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_431_200">
+        <num>431.200</num>
+        <content>
+          <p>Any person convicted of a misdemeanor or felony for taking, injuring or destroying property shall restore the property or make reparation in damages if not ordered as a condition of probation. The court in which the conviction is had, if applied to by verified petition made within ninety (90) days of the date the sentence was pronounced, may order restitution or give judgment against the defendant for reparation in damages, and enforce collection by execution or other process. In a petition for restitution or reparation, the court shall cause the defendant, if in custody, to be brought into court, and demand of him if he has any defense to make to the petition. If he consents to the restitution or to reparation in damages in an agreed sum, the court shall give judgment accordingly. Otherwise a jury shall be impaneled to try the facts and ascertain the amount and the value of the property, or assess the damage, as the case may be. A failure to pursue this remedy shall not deprive the person aggrieved of his civil action for the injury sustained.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

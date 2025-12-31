@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/199.5955"/>
+          <FRBRuri value="/us-ky/act/krs/199.5955"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/199.5955/eng"/>
+          <FRBRuri value="/us-ky/act/krs/199.5955/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/199.5955/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/199.5955/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_199_5955">
+        <num>199.5955</num>
+        <content>
+          <p>Consistent with federal law, the Cabinet for Health and Family Services, in connection with the administration of  to 199.5955 and any compact pursuant hereto shall include in any state plan made pursuant to the Adoption Assistance and Child Welfare Act of 1980 (Pub. L. 96-272), Titles IV (e) and XIX of the Social Security Act, and any other applicable federal laws, the provision of adoption assistance and medical assistance for which the federal government pays some or all of the cost. The Cabinet for Health and Family Services shall apply for and administer all relevant federal aid in accordance with law.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

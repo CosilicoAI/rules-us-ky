@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/138.4602"/>
+          <FRBRuri value="/us-ky/act/krs/138.4602"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/138.4602/eng"/>
+          <FRBRuri value="/us-ky/act/krs/138.4602/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/138.4602/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/138.4602/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_138_4602">
+        <num>138.4602</num>
+        <content>
+          <p>the retail price shall be determined by reducing the amount of total consideration given by the trade-in allowance of any motor vehicle traded in by the buyer. The value of the purchased motor vehicle and the amount of the trade-in allowance shall be determined as provided in subsection (2) of this section, and the availability of the trade-in allowance shall be subject to subsection (3) of this section.</p>
+          <p>The retail price shall not include that portion of the price of the vehicle attributable to equipment or adaptive devices necessary to facilitate or accommodate an operator or passenger with physical disabilities.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

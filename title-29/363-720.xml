@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/363.720"/>
+          <FRBRuri value="/us-ky/act/krs/363.720"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/363.720/eng"/>
+          <FRBRuri value="/us-ky/act/krs/363.720/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/363.720/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/363.720/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_363_720">
+        <num>363.720</num>
+        <content>
+          <p>Except as otherwise provided in  to  any commodity in package form introduced or delivered for introduction into or received in intrastate commerce, kept for the purpose of sale, or offered or exposed for sale in intrastate commerce, shall bear on the outside of the package such definite, plain, and conspicuous declarations of:</p>
+          <p>Provided, that in connection with the declaration required under subsection (2) of this section, neither the qualifying term “when packed” or any words of similar import, nor any term qualifying a unit of weight, measure, or count (for example, “jumbo,” “giant,” “full,” and the like) that tends to exaggerate the amount of commodity in a package shall be used; and provided further, that under subsection (2) of this section the director shall, by regulation, establish reasonable variations to be allowed, which may include variations below the declared weight or measure caused by ordinary and customary exposure, only after the commodity is introduced into intrastate commerce, to conditions that normally occur in good distribution practice and that unavoidably result in decreased weight or measure, exemptions as to small packages, and exemptions as to commodities put up in variable weights or sizes for sale intact and either customarily not sold as individual units or customarily weighed or measured at time of sale to the consumer.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

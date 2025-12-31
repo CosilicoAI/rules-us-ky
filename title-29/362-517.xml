@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/362.517"/>
+          <FRBRuri value="/us-ky/act/krs/362.517"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/362.517/eng"/>
+          <FRBRuri value="/us-ky/act/krs/362.517/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/362.517/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/362.517/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_362_517">
+        <num>362.517</num>
+        <content>
+          <p>If a derivative action is successful, in whole or in part, or if anything is received by the plaintiff as a result of a judgment, compromise, or settlement of any action or claim, the court may award the plaintiff reasonable expenses, including reasonable attorney’s fees. If anything is so received by the plaintiff, the court shall make the award of plaintiff’s expenses payable out of those proceeds and shall direct plaintiff to remit to the limited partnership the remainder. If those proceeds are insufficient to reimburse the plaintiff’s reasonable expenses, the court may direct that any award of plaintiff’s expenses, or a portion thereof, be paid by the limited partnership.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

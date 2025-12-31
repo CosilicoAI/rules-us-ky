@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/418.005"/>
+          <FRBRuri value="/us-ky/act/krs/418.005"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/418.005/eng"/>
+          <FRBRuri value="/us-ky/act/krs/418.005/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/418.005/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/418.005/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_418_005">
+        <num>418.005</num>
+        <content>
+          <p>A judgment may be obtained,
+    on motion, by a surety against his principal or cosurety for money paid; by
+    a client against his attorney for money collected or property received; by
+    a party or officer against a surety for costs; and by a party against an officer
+    for money collected or property received, and for the damages which such party
+    is entitled to recover; and in all other cases specially authorized by statute;
+    and the service of the notice shall be regarded as the commencement of the
+    proceeding.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

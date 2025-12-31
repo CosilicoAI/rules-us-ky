@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/197.200"/>
+          <FRBRuri value="/us-ky/act/krs/197.200"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/197.200/eng"/>
+          <FRBRuri value="/us-ky/act/krs/197.200/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/197.200/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/197.200/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_197_200">
+        <num>197.200</num>
+        <content>
+          <p>The department may purchase in the manner provided by law, equipment, raw materials, and supplies, and employ the supervisory personnel necessary to establish and maintain, industries at the penitentiary or any penal farm or institution of the department, for the purpose of utilizing the services of prisoners in the manufacture or production of articles or products, including license plates, road signs, and other articles and products needed for the construction, operation, maintenance, or use of any office, department, institution, or agency supported in whole or in part by this state or its political subdivisions.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

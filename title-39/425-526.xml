@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/425.526"/>
+          <FRBRuri value="/us-ky/act/krs/425.526"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/425.526/eng"/>
+          <FRBRuri value="/us-ky/act/krs/425.526/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/425.526/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/425.526/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_425_526">
+        <num>425.526</num>
+        <content>
+          <p>If a garnishee fails to make a disclosure satisfactory to the plaintiff, the latter may bring an action against him, by petition or amended petition, in the same manner, and the proceedings therein shall be the same as in other actions; and the plaintiff may procure an order of attachment in the same manner, and the proceedings thereupon shall be the same, as is hereinbefore and hereinafter authorized concerning attachments — except that the plaintiff’s affidavit shall state, in addition to the facts required to be stated in , the sum which the defendant owes to the plaintiff’s debtor; and the plaintiff shall not be entitled to attach for or recover more than that sum and costs nor more than the amount of the plaintiff’s claim against his debtor and costs.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

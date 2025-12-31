@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/183.870"/>
+          <FRBRuri value="/us-ky/act/krs/183.870"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/183.870/eng"/>
+          <FRBRuri value="/us-ky/act/krs/183.870/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/183.870/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/183.870/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_183_870">
+        <num>183.870</num>
+        <content>
+          <p>The commission shall establish by regulation the maximum height to which any structure may be erected within the navigable air space of the state. In establishing such maximum heights, the commission shall consider, among other things, the regulations or standards promulgated by the Federal Aviation Administration, the terrain involved, the location of the structure in relation to airports, the safety of aircraft, the safety of surface persons and structures, the future development of the area involved, the density of population and dwelling within the area involved, the interest of the public in developing a sound public air transportation system within the state and the interest of the person desiring to erect such structure, except that upon application to the commission, special permission may be granted to exceed such heights. The commission shall, before issuing any such permit, give consideration to the standards set out herein.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

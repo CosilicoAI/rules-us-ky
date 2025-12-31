@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/64.486"/>
+          <FRBRuri value="/us-ky/act/krs/64.486"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/64.486/eng"/>
+          <FRBRuri value="/us-ky/act/krs/64.486/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/64.486/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/64.486/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_64_486">
+        <num>64.486</num>
+        <content>
+          <p>In addition to the salary provided for in  as adjusted by salary increments the General Assembly may from time to time provide, the Chief Justice of the Supreme Court, the Chief Judge of the Court of Appeals, the chief regional Circuit Judges, and the chief regional District Judges shall receive the following salary supplements per annum establishing a total salary differential of: five thousand dollars ($5,000), Chief Justice, Supreme Court; three thousand dollars ($3,000), Chief Judge, Court of Appeals; and one thousand dollars ($1,000), chief regional Circuit and District Judges, over other justices and judges of their courts respectively.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

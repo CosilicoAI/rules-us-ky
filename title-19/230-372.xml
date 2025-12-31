@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/230.372"/>
+          <FRBRuri value="/us-ky/act/krs/230.372"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/230.372/eng"/>
+          <FRBRuri value="/us-ky/act/krs/230.372/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/230.372/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/230.372/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_230_372">
+        <num>230.372</num>
+        <content>
+          <p>Any payments made to any persons claiming an interest in an unclaimed pari-mutuel ticket, and any necessary expense including, but not limited to, administrative costs, advertising costs, court costs and attorney’s fees, required to be paid by the racing commission in administering or enforcing the provisions of  to shall be deducted from sums received by the racing commission prior to payment to the Kentucky Racing Health and Welfare Fund.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

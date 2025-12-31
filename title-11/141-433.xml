@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/141.433"/>
+          <FRBRuri value="/us-ky/act/krs/141.433"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/141.433/eng"/>
+          <FRBRuri value="/us-ky/act/krs/141.433/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/141.433/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/141.433/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_141_433">
+        <num>141.433</num>
+        <content>
+          <p>For purposes of calculating the amount of qualified low-income community investments held by a qualified community development entity, an investment shall be considered held by the qualified community development entity even if the investment has been sold or repaid; provided that the qualified community development entity reinvests an amount equal to the capital returned to or recovered from the original investment, exclusive of any profits realized, in another qualified active low-income community business in this state within twelve (12) months of the receipt of the capital. A qualified community development entity shall not be required to reinvest capital returned from qualified low-income community investments after the sixth anniversary of the issuance of the qualified equity investment, the proceeds of which were used to make the qualified low-income community investment, and the qualified low-income community investment shall be considered held by the issuer through the qualified equity investment’s final credit allowance date.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

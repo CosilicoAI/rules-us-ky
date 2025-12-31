@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/184.240"/>
+          <FRBRuri value="/us-ky/act/krs/184.240"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/184.240/eng"/>
+          <FRBRuri value="/us-ky/act/krs/184.240/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/184.240/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/184.240/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_184_240">
+        <num>184.240</num>
+        <content>
+          <p>In order to obtain funds sufficient to pay for the construction of the proposed improvement, or sufficient to pay for the reasonable maintenance of the road, being the balance required after the receipt of full cash payments and initial installment payments, but not including in such balance payments due from owners who failed or refused to make full cash payments or to enter into installment payment agreements, the board of directors may, in its discretion, provide by resolution for the issuance of interest-bearing apportionment warrants against each parcel of property or may direct the issuance and sale of road district bonds, as hereinafter provided. No bonds shall be issued unless the aggregate amount of installment payments, subsequent to the first cash payment is one thousand dollars ($1000) or more.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

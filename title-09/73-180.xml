@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/73.180"/>
+          <FRBRuri value="/us-ky/act/krs/73.180"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/73.180/eng"/>
+          <FRBRuri value="/us-ky/act/krs/73.180/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/73.180/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/73.180/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_73_180">
+        <num>73.180</num>
+        <content>
+          <p>The county judge/executive shall appoint three (3) competent persons in the county to serve as processioners for a term of four (4) years. Before proceeding to act, each processioner shall take an oath to discharge the duties of his office to the best of his skill and judgment. Any two (2) processioners shall constitute a quorum to do business. The county judge/executive may fill vacancies and remove any of the processioners and appoint others.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/342.375"/>
+          <FRBRuri value="/us-ky/act/krs/342.375"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/342.375/eng"/>
+          <FRBRuri value="/us-ky/act/krs/342.375/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/342.375/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/342.375/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_342_375">
+        <num>342.375</num>
+        <content>
+          <p>Every policy or contract of workers’ compensation insurance under this chapter, issued or delivered in this state, shall cover the entire liability of the employer for compensation to each employee subject to this chapter, except as otherwise provided in ,  or  However, if specifically authorized by the commissioner, a separate insurance policy may be issued for a specified plant or work location if the liability of the employer under this chapter to each employee subject to this chapter is otherwise secured and provided that no employee transferred from one plant or work location to another within the employment of the same employer shall thereby lose any benefit rights accumulated under the average weekly wage concept.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

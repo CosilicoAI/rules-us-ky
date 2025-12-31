@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/454.030"/>
+          <FRBRuri value="/us-ky/act/krs/454.030"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/454.030/eng"/>
+          <FRBRuri value="/us-ky/act/krs/454.030/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/454.030/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/454.030/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_454_030">
+        <num>454.030</num>
+        <content>
+          <p>If the officer directed to serve notice on the defendant in forcible entry or detainer proceedings cannot find the defendant on the premises mentioned in the writ, he may explain and leave a copy of the notice with any member of the defendant’s family thereon over sixteen (16) years of age, and if no such person is found he may serve the notice by posting a copy thereof in a conspicuous place on the premises and by mailing a copy of the notice to the mailing address of the premises mentioned in the writ by regular mail through the United States Postal Service, postage prepaid. The notice shall state the time and place of meeting of the court.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

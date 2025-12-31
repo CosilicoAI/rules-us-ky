@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/333.010"/>
+          <FRBRuri value="/us-ky/act/krs/333.010"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/333.010/eng"/>
+          <FRBRuri value="/us-ky/act/krs/333.010/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/333.010/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/333.010/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_333_010">
+        <num>333.010</num>
+        <content>
+          <p>It is the declared purpose of this chapter to protect the public health, safety, and welfare of the people of this state from the hazards of improper performance by medical laboratories. The General Assembly recognizes that medical laboratories provide essential services to the medical practitioner by furnishing him vital information which is essential to a determination of the nature, cause, and extent of the condition involved and that the people of this state are entitled to receive the highest level of competence, reliability, and accuracy that may be expected from medical laboratories and that unreliable and inaccurate reports may cause unnecessary anxiety, suffering, financial burdens, and even contribute directly to death. It is the intent of this chapter to safeguard the health of the people of this state by regulating the operation of medical laboratories.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

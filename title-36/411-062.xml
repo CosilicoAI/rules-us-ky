@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/411.062"/>
+          <FRBRuri value="/us-ky/act/krs/411.062"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/411.062/eng"/>
+          <FRBRuri value="/us-ky/act/krs/411.062/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/411.062/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/411.062/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_411_062">
+        <num>411.062</num>
+        <content>
+          <p>If in any action for damages for the publication of a defamatory statement on a visual or sound radio broadcast, the defendant proves that said defamatory statement has been uttered by one other than the owner, licensee, or operator of the broadcasting station or one acting as the agent or employee of said owner, licensee or operator, the action shall be dismissed unless the plaintiff shall allege and prove that such owner, licensee, operator, agency or employee has failed to exercise due care to prevent the publication of said statement in said broadcast; provided, however, that bona fide compliance with any federal law or the regulation of any federal regulatory agency shall be construed as the exercise of due care; and provided, further, that in no event shall the owner, operator or licensee of a radio or television broadcasting station, or one acting as the agent or employee of such owner, operator or licensee, be held liable for the utterance of a defamatory statement in a visual or sound radio broadcast over the facilities of such station by any person speaking as a legally qualified candidate for public office, or on behalf of any such candidate.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

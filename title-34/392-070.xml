@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/392.070"/>
+          <FRBRuri value="/us-ky/act/krs/392.070"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/392.070/eng"/>
+          <FRBRuri value="/us-ky/act/krs/392.070/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/392.070/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/392.070/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_392_070">
+        <num>392.070</num>
+        <content>
+          <p>When a surviving spouse recovers dower or curtesy against the heir or devisee or purchaser from the decedent, the dower or curtesy shall be according to the value of the estate when received by the heir, devisee or purchaser, and shall not include, in the estimated value, any permanent improvements which the heir, devisee or purchaser has made on the land. Against the heir or devisee or his alienee the surviving spouse’s claim for rent shall not exceed rent for five (5) years before the action, and against a purchaser from the decedent the surviving spouse’s claim shall be only from the commencement of the action. In either case it shall continue up to final recovery. If, after action has been brought, the surviving spouse or tenant dies before recovery, the rent may be recovered by the surviving spouse’s representative or against the tenant’s heirs, devisees and representatives.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

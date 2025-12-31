@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/181.780"/>
+          <FRBRuri value="/us-ky/act/krs/181.780"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/181.780/eng"/>
+          <FRBRuri value="/us-ky/act/krs/181.780/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/181.780/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/181.780/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_181_780">
+        <num>181.780</num>
+        <content>
+          <p>When the principal
+    and interest on the particular bonds issued for a bridge have been
+    paid or a sufficient amount have been provided and is being held for
+    their payment, the commission shall cease to charge tolls for the
+    use of the bridge and thereafter such bridge shall be free unless
+    tolls shall be required for maintaining, repairing and operating the
+    bridge.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

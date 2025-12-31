@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/394.235"/>
+          <FRBRuri value="/us-ky/act/krs/394.235"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/394.235/eng"/>
+          <FRBRuri value="/us-ky/act/krs/394.235/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/394.235/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/394.235/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_394_235">
+        <num>394.235</num>
+        <content>
+          <p>When it appears to the court that a will cannot be proven as otherwise provided by law because one (1) or more or all of the subscribing witnesses to the will, at the time the will is offered for probate, are serving in or present with the Armed Forces of the United States or as merchant seamen, or are dead or mentally or physically incapable of testifying or otherwise unavailable, the court may admit the will to probate upon the testimony in person or by deposition of at least two (2) credible disinterested witnesses that the signature to the will is in the handwriting of the person whose will it purports to be, or upon other sufficient proof of such handwriting. The foregoing provision shall not preclude the court, in its discretion, from requiring in addition, proof of such other pertinent facts and circumstances as the court may deem necessary to admit the will to probate.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

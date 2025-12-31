@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/439.561a"/>
+          <FRBRuri value="/us-ky/act/krs/439.561a"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/439.561a/eng"/>
+          <FRBRuri value="/us-ky/act/krs/439.561a/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/439.561a/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/439.561a/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_439_561a">
+        <num>439.561a</num>
+        <content>
+          <p>Section A. Other Laws</p>
+          <p>Section B. Binding Effect of the Compact</p>
+          <p>1.
+      All lawful actions of the interstate commission, including all rules and bylaws promulgated by the interstate commission, are binding upon the compacting states.</p>
+          <p>2.
+      All agreements between the interstate commission and the compacting states are binding in accordance with their terms.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

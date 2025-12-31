@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/97.230"/>
+          <FRBRuri value="/us-ky/act/krs/97.230"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/97.230/eng"/>
+          <FRBRuri value="/us-ky/act/krs/97.230/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/97.230/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/97.230/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_97_230">
+        <num>97.230</num>
+        <content>
+          <p>Any city acquiring a recreational project may at any time provide for the addition to and improvement of the project by an additional issue of bonds, subject to the procedure required for the issuance of original bonds, or the city may, at the time of issuing bonds for the acquisition, provide for additional bonds for additions and permanent improvements to be placed in escrow and to be negotiated from time to time as necessary. The bonds placed in escrow shall, when negotiated, have equal standing with bonds of the same issue.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

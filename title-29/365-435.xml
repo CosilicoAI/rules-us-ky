@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/365.435"/>
+          <FRBRuri value="/us-ky/act/krs/365.435"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/365.435/eng"/>
+          <FRBRuri value="/us-ky/act/krs/365.435/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/365.435/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/365.435/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_365_435">
+        <num>365.435</num>
+        <content>
+          <p>Every clerk to whom application is made, shall indorse upon the application the date of its filing, shall preserve the same as a record of his office, and shall make an abstract of the facts set forth in the application in a book kept for that purpose, properly indexed, containing the name of the person asking such license, the nature of the proposed sale, the place where the sale is to be conducted, its duration, the inventory of the goods to be sold and a general statement as to where the same came from and shall make in the book a notation as to the issuance or refusal of the license applied for together with the date of the same. The clerk shall indorse on the application the date the license is granted or refused, and the application and abstract shall be prima facie evidence of all statements therein contained. If the county clerk refuses to issue the license, the applicant may apply to the county judge/executive for a hearing. The clerk shall notify the county attorney who shall appear in opposition to the issuance of the license.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

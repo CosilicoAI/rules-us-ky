@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/72.010"/>
+          <FRBRuri value="/us-ky/act/krs/72.010"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/72.010/eng"/>
+          <FRBRuri value="/us-ky/act/krs/72.010/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/72.010/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/72.010/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_72_010">
+        <num>72.010</num>
+        <content>
+          <p>Every coroner shall execute bond in the minimum amount of ten thousand dollars ($10,000) with sureties approved by the fiscal court. The bond shall be recorded by the fiscal court in the office of the county clerk. The fact that the constitutional oath has been taken and the approval of the bond shall be entered upon the records of the fiscal court. Premiums on the bond of the coroner may be paid from county funds when appropriated by the fiscal court. No jailer, sheriff or sheriff’s deputy, county judge/executive, clerk, or attorney shall be surety for the coroner on his official bond. Every coroner shall have the authority to appoint deputy coroners. Deputy coroners shall execute a bond with sureties in accordance with the provisions of this section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

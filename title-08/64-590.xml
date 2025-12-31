@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/64.590"/>
+          <FRBRuri value="/us-ky/act/krs/64.590"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/64.590/eng"/>
+          <FRBRuri value="/us-ky/act/krs/64.590/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/64.590/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/64.590/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_64_590">
+        <num>64.590</num>
+        <content>
+          <p>In the case of any political subdivision or local governmental unit or district other than a county or city, having a governing body or authority composed of more than one (1) member, such governing body or authority shall fix the compensation of every officer and employee of the political subdivision, local governmental unit, or district whose compensation is payable from the funds of the political subdivision, governmental unit, or district, except that in the case of officers elected by popular vote the same limitations and restrictions shall apply as are applicable under  to the fixing of compensation of city officers elected by popular vote. Nothing in this section is intended to confer any power on any governing board or authority, with respect to the compensation of its own members, that it does not specifically possess under other statutes. This section applies to school districts, but is not intended to supersede any present provision of law relating to the fixing or payment of the compensation of teachers.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

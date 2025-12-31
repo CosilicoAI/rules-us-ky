@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/367.410"/>
+          <FRBRuri value="/us-ky/act/krs/367.410"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/367.410/eng"/>
+          <FRBRuri value="/us-ky/act/krs/367.410/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/367.410/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/367.410/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_367_410">
+        <num>367.410</num>
+        <content>
+          <p>As used in  to  unless the context otherwise requires:</p>
+          <p>“Home solicitation sale” means a sale of goods or services, including consumer loans, in which the seller or a person acting for him engages in a personal solicitation of the sale at a residence of the buyer and the buyer’s agreement or offer to purchase is there given to the seller or a person acting for him. It does not include a sale made pursuant to prior negotiations between the parties, by telephone initiated by the buyer or at a business establishment at a fixed location where goods or services, including loans, are offered or exhibited for sale.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

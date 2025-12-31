@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/220.285"/>
+          <FRBRuri value="/us-ky/act/krs/220.285"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/220.285/eng"/>
+          <FRBRuri value="/us-ky/act/krs/220.285/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/220.285/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/220.285/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_220_285">
+        <num>220.285</num>
+        <content>
+          <p>The board of directors of a sanitation district may make contracts or other arrangements to provide for the collection, disposal and treatment of sewage and other liquid wastes produced outside of the district, as the board of directors may determine; provided, however, that this does not authorize a sanitation district to provide sewer service within a city of the first class except with permission of the board of aldermen of such city.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

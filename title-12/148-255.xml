@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/148.255"/>
+          <FRBRuri value="/us-ky/act/krs/148.255"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/148.255/eng"/>
+          <FRBRuri value="/us-ky/act/krs/148.255/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/148.255/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/148.255/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_148_255">
+        <num>148.255</num>
+        <content>
+          <p>No interest in real property that is located in a county containing a consolidated local government and that is owned by the Commonwealth and managed by the Kentucky Department of Parks and having a value greater than four hundred thousand dollars ($400,000) shall be sold, traded, or otherwise disposed of without prior authorization by the General Assembly.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

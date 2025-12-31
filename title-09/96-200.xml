@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/96.200"/>
+          <FRBRuri value="/us-ky/act/krs/96.200"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/96.200/eng"/>
+          <FRBRuri value="/us-ky/act/krs/96.200/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/96.200/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/96.200/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_96_200">
+        <num>96.200</num>
+        <content>
+          <p>Except as otherwise provided in  to  the legislative body of any city may, by ordinance, provide in what manner and for what purpose any profits, earnings or surplus funds arising from the operation of any public utility owned or operated by the city may be used and expended. The ordinance may be amended or repealed from time to time. Until such an ordinance is enacted any surplus earnings shall be paid into the city treasury, to be expended for the general purposes of government in the city.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

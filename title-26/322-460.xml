@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/322.460"/>
+          <FRBRuri value="/us-ky/act/krs/322.460"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/322.460/eng"/>
+          <FRBRuri value="/us-ky/act/krs/322.460/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/322.460/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/322.460/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_322_460">
+        <num>322.460</num>
+        <content>
+          <p>The Attorney General of Kentucky or his or her designee shall act as legal adviser to the board and render legal assistance as the board may from time to time require. In addition, the Attorney General of Kentucky, all Commonwealth’s attorneys, and the county attorney of each county shall, upon request of the board, and without additional compensation, lend their assistance to the enforcement of the provisions of this chapter and the prosecution of any violations thereof. The board shall employ additional counsel as necessary to effectively enforce the provisions of this chapter, the cost of which shall be paid exclusively from funds of the board.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

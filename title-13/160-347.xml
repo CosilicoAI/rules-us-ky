@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/160.347"/>
+          <FRBRuri value="/us-ky/act/krs/160.347"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/160.347/eng"/>
+          <FRBRuri value="/us-ky/act/krs/160.347/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/160.347/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/160.347/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_160_347">
+        <num>160.347</num>
+        <content>
+          <p>A member of a school council may be removed from the council for cause, after an opportunity for hearing before the local board, by a vote of four-fifths (4/5) of the membership of a board of education after the recommendation of the chief state school officer pursuant to . Written notices setting out the charges for removal shall be spread on the minutes of the board and given to the member of the school council.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

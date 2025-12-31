@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/353.476"/>
+          <FRBRuri value="/us-ky/act/krs/353.476"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/353.476/eng"/>
+          <FRBRuri value="/us-ky/act/krs/353.476/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/353.476/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/353.476/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_353_476">
+        <num>353.476</num>
+        <content>
+          <p>After the expiration of seven (7) years from the date of first commercial production of the severed mineral pursuant to the terms of the lease authorized hereunder, or the expiration of seven (7) years from the date of entry of judgment authorizing the lease in the event there is no commercial production, whichever date last occurs, no action may be brought by any unknown or missing owner to recover any past or future proceeds accrued or to be accrued from the lease herein authorized. After the expiration of seven (7) years from the date of first commercial production of the severed mineral pursuant to the terms of the lease authorized hereunder, no action may be instituted by any unknown or missing owner to recover any right, title or interest in and to the severed mineral interest subject to the lease.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.2849"/>
+          <FRBRuri value="/us-ky/act/krs/164.2849"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.2849/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.2849/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.2849/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.2849/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_2849">
+        <num>164.2849</num>
+        <content>
+          <p>The General Assembly of the Commonwealth of Kentucky finds and declares that it is in the best interests of the Commonwealth to encourage and support adults to adopt and provide foster care for children in the custody of the state. The General Assembly recognizes that a child whose care, custody, and control has been assumed by the Commonwealth as evidenced by termination of the rights of the biological parents and adoption from state custody or a custodial commitment to the Cabinet for Health and Family Services or the Department of Juvenile Justice is a special ward of the state and faces particular challenges in pursuing higher education. Because it is the intent of the General Assembly to support adoption, foster parenting, and educational advancement, the purpose of  is to provide postsecondary education advancement opportunity for foster and adopted children who are or were wards of the state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

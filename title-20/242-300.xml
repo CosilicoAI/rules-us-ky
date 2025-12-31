@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/242.300"/>
+          <FRBRuri value="/us-ky/act/krs/242.300"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/242.300/eng"/>
+          <FRBRuri value="/us-ky/act/krs/242.300/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/242.300/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/242.300/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_242_300">
+        <num>242.300</num>
+        <content>
+          <p>The normal restrictions applicable in dry territory shall not apply to any manufacturer who in good faith and in the usual course of trade sells alcoholic beverages of the manufacturer’s own make, at his or her manufactory, in quantities of not less than three (3) gallons delivered at one time for immediate transportation, to a point in some other state, or to a point in this state where alcoholic beverages may be lawfully sold.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

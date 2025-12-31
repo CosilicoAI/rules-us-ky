@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/173.510"/>
+          <FRBRuri value="/us-ky/act/krs/173.510"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/173.510/eng"/>
+          <FRBRuri value="/us-ky/act/krs/173.510/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/173.510/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/173.510/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_173_510">
+        <num>173.510</num>
+        <content>
+          <p>The members of the board shall not receive compensation for their services, but may be reimbursed for their actual expenses necessarily incurred in the performance of their duties, upon vouchers duly approved by the board, signed by the secretary and countersigned by the president. No board shall newly employ as a member of its library staff any member of the board or any person related closer than a second cousin to any member of the board. No person is eligible to this office who is directly or indirectly interested in the sale to the library of books, magazines, supplies, equipment, materials, insurance, or services for which library funds are expended.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

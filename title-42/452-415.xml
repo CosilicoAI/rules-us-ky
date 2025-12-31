@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/452.415"/>
+          <FRBRuri value="/us-ky/act/krs/452.415"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/452.415/eng"/>
+          <FRBRuri value="/us-ky/act/krs/452.415/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/452.415/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/452.415/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_452_415">
+        <num>452.415</num>
+        <content>
+          <p>Any action to settle the estate of a deceased person, of a person, corporation or company assigned for the benefit of creditors, or any estate in the hands of a receiver of court must be brought in the county in which the personal representative, assignee or receiver qualified. For the purpose of a settlement of such estates, the personal representative, assignee or receiver, shall have the same power to sue as had the deceased person, the assignor, or owner of the estate in such receiver’s hands, but any action brought by a personal representative, assignee or receiver, for the recovery of or sale of under a mortgage, deed of trust or other lien, or for charges upon, or injury to real estate or an estate or interest therein, must be brought in the county in which the real estate is situated, and not elsewhere.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

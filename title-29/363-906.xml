@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/363.906"/>
+          <FRBRuri value="/us-ky/act/krs/363.906"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/363.906/eng"/>
+          <FRBRuri value="/us-ky/act/krs/363.906/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/363.906/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/363.906/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_363_906">
+        <num>363.906</num>
+        <content>
+          <p>The department shall levy and collect annual fees in the amount of fifty dollars ($50) per facility from the owner or operator of a retail facility for the purpose of funding the administration of the motor fuels quality program. The fees shall be deposited into an interest-bearing account in the State Treasury. Money unexpended at the close of a fiscal year shall not lapse but shall be carried forward to the next fiscal year for future use. The annual fees shall be paid to the department by January 31.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

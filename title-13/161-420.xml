@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/161.420"/>
+          <FRBRuri value="/us-ky/act/krs/161.420"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/161.420/eng"/>
+          <FRBRuri value="/us-ky/act/krs/161.420/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/161.420/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/161.420/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_161_420">
+        <num>161.420</num>
+        <content>
+          <p>All of the assets of the retirement system are for the exclusive purpose of providing benefits to members and annuitants and defraying reasonable expenses of administering the system. The board of trustees shall be the trustee of all funds of the system and shall have full power and responsibility for administering the funds. All the assets of the retirement system shall be credited according to the purpose for which they are held to one (1) of the following funds:</p>
+          <p>For individuals who become members on or after January 1, 2022, the system shall account for funds in the teachers’ savings fund attributable to nonuniversity members foundational benefit component, nonuniversity members supplemental benefit component, university members foundational benefit component, and university members supplemental benefit component.</p>
+          <p>Notwithstanding any other statute to the contrary, funds in these accounts shall only be used to pay off the unfunded liability of the pension and life insurance funds.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

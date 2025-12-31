@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/107.170"/>
+          <FRBRuri value="/us-ky/act/krs/107.170"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/107.170/eng"/>
+          <FRBRuri value="/us-ky/act/krs/107.170/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/107.170/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/107.170/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_107_170">
+        <num>107.170</num>
+        <content>
+          <p>The proceeds received by the city from each and every annual improvement assessment levy made in connection with each separate improvement project, as authorized by this chapter, shall be segregated from and kept always separate and apart from all other receipts of the city from any and all other sources, and shall be deposited in a separate and special account in a financial institution in an account so specially designated by number or other designation as to identify the same in such manner as to distinguish the receipts and deposits from each such project from the receipts and deposits from every other such project, and from any and every other account or fund of the city. The same shall constitute the “sinking fund” referred to in this chapter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

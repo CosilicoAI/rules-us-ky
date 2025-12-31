@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/341.690"/>
+          <FRBRuri value="/us-ky/act/krs/341.690"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/341.690/eng"/>
+          <FRBRuri value="/us-ky/act/krs/341.690/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/341.690/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/341.690/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_341_690">
+        <num>341.690</num>
+        <content>
+          <p>None of the funds, accounts or moneys administered, established, or maintained under this chapter shall be credited or otherwise transferred to the general expenditure fund or any other fund or account by reason of the provisions of  or subject to escheat under any other section of the Kentucky Revised Statutes. Any unpaid check issued pursuant to the provisions of this chapter may be cleared from the records of the Treasurer within the time and in the manner specified in , except that the amount of such check shall remain to the credit of the fund or account against which it was drawn. Such checks if thereafter presented for payment may be paid within the time and in the manner set forth in such section, except that the amount thereof shall be charged to the fund or account against which it was originally drawn.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

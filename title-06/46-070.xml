@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/46.070"/>
+          <FRBRuri value="/us-ky/act/krs/46.070"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/46.070/eng"/>
+          <FRBRuri value="/us-ky/act/krs/46.070/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/46.070/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/46.070/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_070">
+        <num>46.070</num>
+        <content>
+          <p>The Finance and Administration Cabinet shall report to the Attorney General all public officers or public debtors who fail to render their accounts at the proper time, or to pay the money in their hands due the state into the State Treasury, and shall cause actions to be brought against them. If in any such action it is found that nothing is due the state, the defendant shall nevertheless pay the costs.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

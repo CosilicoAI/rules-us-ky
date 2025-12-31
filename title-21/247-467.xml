@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/247.467"/>
+          <FRBRuri value="/us-ky/act/krs/247.467"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/247.467/eng"/>
+          <FRBRuri value="/us-ky/act/krs/247.467/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/247.467/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/247.467/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247_467">
+        <num>247.467</num>
+        <content>
+          <p>Upon the filing with the State Board of Agriculture of such application on the part of any commission, council, board, association, or other agency of producers, the Commissioner shall within thirty (30) days thereafter convene the State Board of Agriculture to consider such application; and if upon such consideration the said board of agriculture shall find that the commission, council, board or other agency making such application is fairly representative of and has been duly chosen and delegated as representative of the producers producing such commodity, and shall otherwise find and determine that such application is in conformity with the provisions of  to and the purposes therein stated, then and in such an event it shall be the duty of the Commissioner of Agriculture to certify such commission, council, board, association or other agency as the duly delegated and authorized group or agency representative of the producers of such agricultural commodity, and shall likewise certify that such agency is duly authorized to conduct among the producers of such commodity a referendum for the purpose herein stated.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

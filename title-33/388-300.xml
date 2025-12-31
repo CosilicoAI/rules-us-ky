@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/388.300"/>
+          <FRBRuri value="/us-ky/act/krs/388.300"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/388.300/eng"/>
+          <FRBRuri value="/us-ky/act/krs/388.300/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/388.300/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/388.300/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_388_300">
+        <num>388.300</num>
+        <content>
+          <p>Compensation payable to guardians or conservators shall not exceed five percent (5%) of the income of the ward during any year, but in no event shall the amount of such compensation be less than fifty dollars ($50) for each year. In the event of extraordinary services rendered by any guardian or conservator, the court may, upon petition and after notice to the Veterans Affairs and hearing thereon, authorize reasonable additional compensation therefor payable from the estate of the ward. Notice of such petition and hearing shall be given to the proper office of the Veterans Affairs in the manner provided in . No commission or compensation shall be allowed on the estate received from a preceding guardian.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

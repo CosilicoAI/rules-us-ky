@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/367.682"/>
+          <FRBRuri value="/us-ky/act/krs/367.682"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/367.682/eng"/>
+          <FRBRuri value="/us-ky/act/krs/367.682/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/367.682/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/367.682/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_367_682">
+        <num>367.682</num>
+        <content>
+          <p>Unless a health-related reason for the limitation is noted in the patient’s medical records, contact lens prescriptions shall not have an expiration date of less than twelve (12) months from the date the prescription is authorized or the last date of the contact lens evaluation by a licensed optometrist, osteopath, or physician, whichever date is later. In no event shall a contact lens prescription be valid twelve (12) months after the date of authorization by a licensed optometrist, osteopath, or physician.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/171.180"/>
+          <FRBRuri value="/us-ky/act/krs/171.180"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/171.180/eng"/>
+          <FRBRuri value="/us-ky/act/krs/171.180/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/171.180/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/171.180/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_171_180">
+        <num>171.180</num>
+        <content>
+          <p>All libraries, cities, towns, counties and school districts participating in or benefiting by the provisions of the federal grant for library service or receiving any service from the department, shall make such reports and audits as are required to the State Treasurer, the department, and the United States Commissioner of Education. The State Treasurer and department shall make such reports and audits as may be required by the federal government and the United States Commissioner of Education in respect to the expenditure of federal grants and progress of library service.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

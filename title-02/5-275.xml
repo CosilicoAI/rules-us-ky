@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/5.275"/>
+          <FRBRuri value="/us-ky/act/krs/5.275"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/5.275/eng"/>
+          <FRBRuri value="/us-ky/act/krs/5.275/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/5.275/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/5.275/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_275">
+        <num>5.275</num>
+        <content>
+          <p>The Seventy-fifth Representative District shall consist of the following territory:</p>
+          <p>—CENSUS— COUNTY PREC NAME TRACT BLK SECT FAYETTE A114 GIBSON PARK FAYETTE A117 HAMPTON COURT FAYETTE A132 PINE MEADOWS FAYETTE A133 PRESTON INN FAYETTE A136 SKYCREST FAYETTE A146 TRIANGLE PARK FAYETTE A151 CLAYS MILL FAYETTE A156 PERSHING FAYETTE A163 FAIRGROUNDS FAYETTE A166 TWIN OAKS FAYETTE A167 PASADENA FAYETTE A173 IMPERIAL FAYETTE A177 PHOENIX PARK FAYETTE A181 HEADLEY GREEN FAYETTE A184 BUNKER FAYETTE A185 LAWRENCE FAYETTE A186 TOWERS FAYETTE B102 BARKLEY FAYETTE B113 GOODRICH FAYETTE B114 HILL FAYETTE B118 LAFAYETTE FAYETTE B123 ECTON PARK FAYETTE B130 OPEN GATES FAYETTE B132 PICADOME FAYETTE B135 SEVEN PARKS FAYETTE B138 SHADY LANE FAYETTE B159 SOUTHVIEW FAYETTE B182 MONTCLAIR FAYETTE C103 ASHLAND AVENUE FAYETTE C105 AYLESFORD FAYETTE C115 CLIFTON FAYETTE C122 ELLERSLIE FAYETTE C128 HOLLYWOOD FAYETTE C134 MT VERNON FAYETTE C142 WOODLAND</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

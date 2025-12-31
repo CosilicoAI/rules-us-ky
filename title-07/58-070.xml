@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/58.070"/>
+          <FRBRuri value="/us-ky/act/krs/58.070"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/58.070/eng"/>
+          <FRBRuri value="/us-ky/act/krs/58.070/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/58.070/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/58.070/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_58_070">
+        <num>58.070</num>
+        <content>
+          <p>At or before the issuance of bonds the governmental agency shall, by order, resolution or ordinance, set aside and pledge the income and revenue of the public project including rents, royalties, fees and proceeds of sales of property and from rates and charges for services derived from or rendered by the public project into a separate and special fund to be used and applied in payment of the cost thereof and in the maintenance, operation and depreciation thereof. The order, resolution or ordinance shall definitely fix and determine the amount of revenue necessary to be set apart and applied to the payment of principal and interest of the bonds, and the proportion of the balance of the income and revenue to be set aside as a proper and adequate depreciation account, and the remaining proportion of such balance shall be set aside for the reasonable and proper operation and maintenance of the public project. The rents, royalties, fees, rates and charges for the services or sale of the public project shall be fixed and revised from time to time so as to be sufficient to provide for payment of interest upon all bonds and to create a sinking fund to pay the principal thereof when due, and to provide for the operation and maintenance of the public project and an adequate depreciation account.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

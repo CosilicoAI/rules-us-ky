@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/406.121"/>
+          <FRBRuri value="/us-ky/act/krs/406.121"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/406.121/eng"/>
+          <FRBRuri value="/us-ky/act/krs/406.121/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/406.121/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/406.121/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_406_121">
+        <num>406.121</num>
+        <content>
+          <p>Judgments under this chapter may be for periodic payments which may vary in amount. The court may order payments to be made to the mother or to some person, corporation, or agency designated to administer them under the supervision of the court. Willful failure of the alleged father to perform the judgment of the court may be punished as a contempt of the court. The court may impose a punishment of not more than thirty (30) days imprisonment in the county jail without the intervention of a jury. This provision shall not be deemed to limit or abrogate any other remedies which exist for the enforcement of judgments.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

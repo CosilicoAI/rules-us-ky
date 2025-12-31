@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/363.760"/>
+          <FRBRuri value="/us-ky/act/krs/363.760"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/363.760/eng"/>
+          <FRBRuri value="/us-ky/act/krs/363.760/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/363.760/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/363.760/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_363_760">
+        <num>363.760</num>
+        <content>
+          <p>Whenever any commodity or service is sold, or is offered, exposed, or advertised for sale, by weight, measure, or count, the price shall not be misrepresented, nor shall the price be represented in any manner calculated or tending to mislead or deceive an actual or prospective purchaser. Whenever an advertised, posted, or labeled price per unit of weight, measure, or count includes a fraction of a cent, all elements of the fraction shall be prominently displayed and the numeral or numerals expressing the fraction shall be immediately adjacent to, of the same general design and style as, and at least one-half (1/2) the height and width of the numerals representing the whole cents.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

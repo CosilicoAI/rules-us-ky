@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/177.470"/>
+          <FRBRuri value="/us-ky/act/krs/177.470"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/177.470/eng"/>
+          <FRBRuri value="/us-ky/act/krs/177.470/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/177.470/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/177.470/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_470">
+        <num>177.470</num>
+        <content>
+          <p>Revenue bonds issued under the provisions of  to shall not be deemed to constitute a debt of the Commonwealth or of any political subdivision thereof or a pledge of the faith and credit of the Commonwealth or of any such political subdivision, but such bonds shall be payable solely from the funds provided therefor in  to  All such revenue bonds shall contain on the face thereof a statement to the effect that the Commonwealth shall not be obligated to pay the same or the interest thereon except from revenues of the project or projects for which they are issued and, if so provided in the proceedings or trust agreement authorizing or providing for the issuance of such bonds, from other available funds pledged to the payment thereof, and that neither the faith and credit nor the taxing power of the Commonwealth is pledged to the payment of the principal of or the interest on such bonds.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

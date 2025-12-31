@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/224.80"/>
+          <FRBRuri value="/us-ky/act/krs/224.80"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/224.80/eng"/>
+          <FRBRuri value="/us-ky/act/krs/224.80/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/224.80/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/224.80/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_224_80">
+        <num>224.80</num>
+        <content>
+          <p>The cabinet shall establish and maintain a registry that contains all environmental covenants and any amendments to or terminations of those environmental covenants. The registry also may contain any other information concerning environmental covenants and the real property subject to those environmental covenants that the cabinet deems appropriate. The registry shall be deemed a public record under  to</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

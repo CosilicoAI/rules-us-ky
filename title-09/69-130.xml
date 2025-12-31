@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/69.130"/>
+          <FRBRuri value="/us-ky/act/krs/69.130"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/69.130/eng"/>
+          <FRBRuri value="/us-ky/act/krs/69.130/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/69.130/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/69.130/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_69_130">
+        <num>69.130</num>
+        <content>
+          <p>In any county containing a consolidated local government or city of the first class, the consolidated local government or fiscal court shall provide an automobile for the use of the Commonwealth’s attorney to assist him or her in his or her official duties, to be paid for out of the levy of the consolidated local government or county. The necessary expenses incurred in running, keeping, and repairing the automobile for official work shall be paid out of the levy of the consolidated local government or county upon requisition for such expenses by the Commonwealth’s attorney.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

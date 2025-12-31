@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/190.045"/>
+          <FRBRuri value="/us-ky/act/krs/190.045"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/190.045/eng"/>
+          <FRBRuri value="/us-ky/act/krs/190.045/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/190.045/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/190.045/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_190_045">
+        <num>190.045</num>
+        <content>
+          <p>When a protest is filed, the licensor shall inform the manufacturer, distributor, factory branch, or factory representative that a timely protest has been filed and that the manufacturer, distributor, factory branch, or factory representative shall not cancel, terminate, or fail to renew any franchise with the licensed new motor vehicle dealer until the licensor has held a hearing and the licensor has determined that the manufacturer has met its burden under this section.</p>
+          <p>Fair and reasonable compensation shall be paid by the manufacturer within ninety (90) days of the effective date of termination, cancellation, or nonrenewal, provided the new motor vehicle dealer has clear title to the inventory and other items and is in a position to convey that title to the manufacturer.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

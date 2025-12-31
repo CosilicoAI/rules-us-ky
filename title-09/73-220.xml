@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/73.220"/>
+          <FRBRuri value="/us-ky/act/krs/73.220"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/73.220/eng"/>
+          <FRBRuri value="/us-ky/act/krs/73.220/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/73.220/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/73.220/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_73_220">
+        <num>73.220</num>
+        <content>
+          <p>The processioners may, at the request of any party interested, take depositions as to the proper position of any corner or line, and the depositions shall be returned with the processioners’ report. The opposite party may, in like manner, take testimony at the same or another time. Any processioner or person selected by the parties who has taken a legal oath of qualification may administer an oath to any other processioner or person selected who has not taken an oath, or administer an oath touching any matter within the scope of their duties.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/253.110"/>
+          <FRBRuri value="/us-ky/act/krs/253.110"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/253.110/eng"/>
+          <FRBRuri value="/us-ky/act/krs/253.110/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/253.110/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/253.110/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_253_110">
+        <num>253.110</num>
+        <content>
+          <p>Except as otherwise provided in this chapter and except as may be directed by the board, the powers, duties, and functions vested by this chapter in the board shall be exercised and performed by the Commissioner. The board may promulgate administrative regulations and hold administrative hearings, in accordance with KRS , as required to carry out the provisions and intent of this chapter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

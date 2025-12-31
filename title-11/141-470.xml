@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/141.470"/>
+          <FRBRuri value="/us-ky/act/krs/141.470"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/141.470/eng"/>
+          <FRBRuri value="/us-ky/act/krs/141.470/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/141.470/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/141.470/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_141_470">
+        <num>141.470</num>
+        <content>
+          <p>The Office of Kentucky Nature Preserves shall maintain a separate account showing all remittances to, and disbursements from, the Kentucky nature preserves fund made from contributions under . Contributions remitted to the Kentucky nature preserves fund under  shall be disbursed by the Office of Kentucky Nature Preserves for the acquisition of land or interests in land as provided in  and for the protection, maintenance, and use of the land, and for no other purpose.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

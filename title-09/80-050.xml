@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/80.050"/>
+          <FRBRuri value="/us-ky/act/krs/80.050"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/80.050/eng"/>
+          <FRBRuri value="/us-ky/act/krs/80.050/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/80.050/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/80.050/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_80_050">
+        <num>80.050</num>
+        <content>
+          <p>The persons appointed as provided in  and shall constitute a body corporate in the name of Housing Authority of
+    . . . . . . . . . . . . . . . . . . . , with power to contract and be contracted with, to sue or be sued, and to adopt a seal and alter it at will. Each authority may establish bylaws, rules and regulations for its own government. Each authority shall elect a chairman and a vice chairman from its members and a secretary and treasurer who need not be a member of the authority. The duties of the offices of secretary and treasurer may be performed by the same person.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

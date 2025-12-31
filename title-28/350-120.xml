@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/350.120"/>
+          <FRBRuri value="/us-ky/act/krs/350.120"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/350.120/eng"/>
+          <FRBRuri value="/us-ky/act/krs/350.120/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/350.120/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/350.120/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_350_120">
+        <num>350.120</num>
+        <content>
+          <p>Within sixty (60) days after the date of expiration of a permit, the permittee shall file with the cabinet a report stating the exact number of acres of land affected by the operation, the extent of the reclamation already accomplished by him, and such other information as may be required by the rules and regulations of the cabinet. The report shall be accompanied by a copy of the map filed with the original application which shall show any revisions made necessary by results of the operation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

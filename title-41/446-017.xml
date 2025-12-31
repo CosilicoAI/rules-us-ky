@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/446.017"/>
+          <FRBRuri value="/us-ky/act/krs/446.017"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/446.017/eng"/>
+          <FRBRuri value="/us-ky/act/krs/446.017/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/446.017/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/446.017/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_446_017">
+        <num>446.017</num>
+        <content>
+          <p>When a bill enrolled, either
+    approved by the Governor or which became law without the Governor’s signature
+    under the provisions of Constitution Section 88, and which has been filed
+    with the Secretary of State, contains language which is not identical to that
+    contained in the bill passed by the legislature, and when the variance is
+    material, that language not conforming to the bill as passed shall be severed
+    and shall be void.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

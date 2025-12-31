@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/327.300s"/>
+          <FRBRuri value="/us-ky/act/krs/327.300s"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/327.300s/eng"/>
+          <FRBRuri value="/us-ky/act/krs/327.300s/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/327.300s/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/327.300s/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_327_300s">
+        <num>327.300s</num>
+        <content>
+          <p>This Compact shall be liberally construed so as to effectuate its purposes. The provisions of this Compact shall be severable, and if any phrase, clause, sentence, or provision of this Compact is declared to be contrary to the constitution of any party state or of the United States, or the Compact’s applicability to any government, agency, person, or circumstance is held invalid, it shall not affect the validity of the remainder of this Compact and its applicability to any government, agency, person, or circumstance. If this Compact is held contrary to the constitution of any party state, the Compact shall remain in full effect as to the remaining party states, and shall remain in full effect in the affected party state as to all severable matters.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

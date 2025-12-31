@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/299.310"/>
+          <FRBRuri value="/us-ky/act/krs/299.310"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/299.310/eng"/>
+          <FRBRuri value="/us-ky/act/krs/299.310/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/299.310/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/299.310/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_299_310">
+        <num>299.310</num>
+        <content>
+          <p>Such persons shall make and acknowledge a certificate setting forth their intention to form such a company, the counties or municipalities in which it intends to do business, its corporate name, and the place where its principal office is to be located. Every person insured in such a company who signs an application for insurance as required by the certificate of incorporation or by the bylaws of the company shall thereby become a member. Provided, however, that no such company shall insure against any of the hazards set forth in paragraph (b) of this subsection unless it has a net surplus of two million dollars ($2,000,000) or more or is fully reinsured as to all such hazards by a contract or contracts filed with and approved by the commissioner.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

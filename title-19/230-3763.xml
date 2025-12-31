@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/230.3763"/>
+          <FRBRuri value="/us-ky/act/krs/230.3763"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/230.3763/eng"/>
+          <FRBRuri value="/us-ky/act/krs/230.3763/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/230.3763/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/230.3763/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_230_3763">
+        <num>230.3763</num>
+        <content>
+          <p>and 230.3765 shall only take effect with respect to any compacting state which has enacted an interstate compact entitled “Interstate Racing and Wagering Compact” and having an identical effect to that added by  upon the enactment into law by at least six (6) eligible states, but if such states have already enacted such legislation,  and 230.3765 shall take effect immediately; provided, however, that the provisions of  and 230.3765 shall expire upon reduction of the membership in such compact to one (1) state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

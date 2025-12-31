@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/216.310"/>
+          <FRBRuri value="/us-ky/act/krs/216.310"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/216.310/eng"/>
+          <FRBRuri value="/us-ky/act/krs/216.310/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/216.310/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/216.310/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_216_310">
+        <num>216.310</num>
+        <content>
+          <p>This legislation is designed to permit a county to form a hospital district or two (2) or more counties to join together in the formation of a hospital district in order to provide a broader basis for local support of hospitals and related health facilities including supportive services and the training and education of health personnel. The General Assembly recognizes that hospitals can be more effective if they are of sufficient scope to marshal the skills and manpower necessary to provide the advantages of modern medicine and that the development of high-speed highways makes possible accessibility to such modern hospitals permitting service to a larger geographical area. It is the intent of  to to provide for the integration of the complex functions of health and hospital care for the collective benefit of all the people within an area by providing a method to extend the geographical territory to larger regions.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/152.714"/>
+          <FRBRuri value="/us-ky/act/krs/152.714"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/152.714/eng"/>
+          <FRBRuri value="/us-ky/act/krs/152.714/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/152.714/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/152.714/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_152_714">
+        <num>152.714</num>
+        <content>
+          <p>From a list of potential sites developed by the Office of Energy Policy and suitable for development of alternative fuel facilities, gasification facilities, or renewable energy facilities as defined in , the Office of Energy Policy may expend state funds for preliminary environmental and baseline assessments, inventories, and other activities on or for the potential sites in furtherance of environmental or other permitting required for the development of an eligible project.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

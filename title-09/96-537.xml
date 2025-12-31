@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/96.537"/>
+          <FRBRuri value="/us-ky/act/krs/96.537"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/96.537/eng"/>
+          <FRBRuri value="/us-ky/act/krs/96.537/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/96.537/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/96.537/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_96_537">
+        <num>96.537</num>
+        <content>
+          <p>The legislative body of any city operating a municipal system for the acquisition and distribution of natural gas may, by ordinance, authorize the issuance of revenue bonds to pay all or any part of the costs of any project for the improvement or extension of the system, or for obtaining new sources of supply. The revenue bonds may be sold and issued in the manner provided for the sale and issuance of revenue bonds under the provisions of  to    and  including by negotiated sale, or, upon a determination of a legislative body, acting upon the advice of the city attorney or city solicitor, that the proposed bonds will be industrial development bonds within the meaning of federal statutes, the revenue bonds, whether or not exempt from federal income taxation, may be sold in any manner provided for the sale of industrial building revenue bonds under the terms of  to  inclusive; provided, however, that the contract with the private corporation which is deemed to give rise to the federal classification of industrial development bonds need not take the form of a lease agreement, and no request in writing from any contracting private corporation shall be required for any negotiated sale, and provided, further, that in the event of a negotiated sale, a report of negotiations shall be made to a consultant who shall be employed by the city to make a recommendation to the legislative body on the adequacy of such negotiations and of the terms of sale in the light of market conditions. The provisions of  shall not apply to any negotiated sale under this section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

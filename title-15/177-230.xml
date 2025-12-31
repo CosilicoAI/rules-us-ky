@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/177.230"/>
+          <FRBRuri value="/us-ky/act/krs/177.230"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/177.230/eng"/>
+          <FRBRuri value="/us-ky/act/krs/177.230/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/177.230/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/177.230/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_230">
+        <num>177.230</num>
+        <content>
+          <p>The highway authorities of the state, counties, cities, and towns, acting alone or in cooperation, with each other or with any federal, state, or local agency or any other state having authority to participate in the construction and maintenance of highways, are hereby authorized to plan, designate, establish, regulate, vacate, alter, improve, maintain, and provide limited access facilities for public use wherever such authority or authorities are of the opinion that traffic conditions, present or future, will justify such special facilities: provided, that within cities such authority shall be subject to such municipal consent as may be provided by law. Said highway authorities of the state, counties, cities, and towns, in addition to the specific powers granted in  to  shall also have and may exercise, relative to limited access facilities, any and all additional authority now or hereafter vested in them relative to highways or streets within their respective jurisdictions. Said units may regulate, restrict, or prohibit the use of such limited access facilities by the various classes of vehicles or traffic in a manner consistent with .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

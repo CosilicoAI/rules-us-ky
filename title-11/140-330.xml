@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/140.330"/>
+          <FRBRuri value="/us-ky/act/krs/140.330"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/140.330/eng"/>
+          <FRBRuri value="/us-ky/act/krs/140.330/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/140.330/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/140.330/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_140_330">
+        <num>140.330</num>
+        <content>
+          <p>In the event the qualified real estate is reported for inheritance tax purposes at its agricultural or horticultural value and that real estate has been assessed at its agricultural or horticultural value for ad valorem tax purposes, then that assessment shall be presumed to be its agricultural or horticultural value for inheritance tax purposes. If, however, the real estate has not been so assessed for ad valorem tax purposes, then the agricultural or horticultural value shall be determined pursuant to KRS  and such regulations as may be promulgated by the Department of Revenue to determine horticultural or agricultural value for inheritance tax purposes.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/411.200"/>
+          <FRBRuri value="/us-ky/act/krs/411.200"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/411.200/eng"/>
+          <FRBRuri value="/us-ky/act/krs/411.200/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/411.200/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/411.200/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_411_200">
+        <num>411.200</num>
+        <content>
+          <p>Any person who serves as a director, officer, volunteer or trustee of a nonprofit organization qualified as a tax-exempt organization under Section 501(c) of the Internal Revenue Code of 1986, as from time to time amended, and who is not compensated for such services on a salary or prorated equivalent basis, shall be immune from civil liability for any act or omission resulting in damage or injury occurring on or after July 15, 1988, if such person was acting in good faith and within the scope of his official functions and duties, unless such damage or injury was caused by the willful or wanton misconduct of such person.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

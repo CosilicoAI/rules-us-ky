@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/311.6225"/>
+          <FRBRuri value="/us-ky/act/krs/311.6225"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/311.6225/eng"/>
+          <FRBRuri value="/us-ky/act/krs/311.6225/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/311.6225/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/311.6225/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_311_6225">
+        <num>311.6225</num>
+        <content>
+          <p>include the statement “When not in cardiopulmonary arrest, follow orders in B, C, and D.”;</p>
+          <p>These options shall be followed by a space for other instructions;</p>
+          <p>This option shall include a space for other instructions;</p>
+          <p>“MOST must be reviewed, prepared, and signed by the patient’s physician in personal communication with the patient, the patient’s surrogate, or responsible party.</p>
+          <p>MOST must be reviewed and contain the original signature of the patient’s physician to be valid. Be sure to document the basis in the progress notes of the medical record. Mode of communication (e.g., in person, by telephone, etc.) should also be documented.</p>
+          <p>The signature of the patient, surrogate, or a responsible party is required; however, if the patient’s surrogate or a responsible party is not reasonably available to sign the original form, a copy of the completed form with the signature of the patient’s surrogate or a responsible party must be signed by the patient’s physician and placed in the medical record.</p>
+          <p>Use of original form is required. Be sure to send the original form with the patient.</p>
+          <p>There is no requirement that a patient have a MOST.”;</p>
+          <p>This MOST must be reviewed at least annually or earlier if:</p>
+          <p>The patient is admitted and/or discharged from a health care facility;</p>
+          <p>There is a substantial change in the patient’s health status; or</p>
+          <p>The patient’s treatment preferences change.</p>
+          <p>If MOST is revised or becomes invalid, draw a line through Sections A-E and write “VOID” in large letters.”; and</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/395.250"/>
+          <FRBRuri value="/us-ky/act/krs/395.250"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/395.250/eng"/>
+          <FRBRuri value="/us-ky/act/krs/395.250/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/395.250/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/395.250/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_395_250">
+        <num>395.250</num>
+        <content>
+          <p>It shall be the duty of a personal representative of a decedent to return an inventory in duplicate within two (2) months from the time of qualifying as such, to the clerk’s office of the court in which he qualified, the original of which shall be recorded by the clerk and the duplicate shall be mailed by the clerk to the secretary of revenue. Copies from the record of the inventory or appraisement shall be prima facie evidence for or against such representative.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

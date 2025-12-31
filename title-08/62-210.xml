@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/62.210"/>
+          <FRBRuri value="/us-ky/act/krs/62.210"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/62.210/eng"/>
+          <FRBRuri value="/us-ky/act/krs/62.210/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/62.210/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/62.210/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_62_210">
+        <num>62.210</num>
+        <content>
+          <p>The office of county clerk, rather than the individual holder of the office, shall be liable for the acts or omissions of deputy clerks. When a deputy clerk omits to act or acts in such a way as to render the clerk responsible, and the clerk discharges such responsibility, the deputy clerk shall be liable to the clerk for all damages and costs which are caused by the deputy’s act or omission.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

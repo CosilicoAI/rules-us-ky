@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/431.518"/>
+          <FRBRuri value="/us-ky/act/krs/431.518"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/431.518/eng"/>
+          <FRBRuri value="/us-ky/act/krs/431.518/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/431.518/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/431.518/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_431_518">
+        <num>431.518</num>
+        <content>
+          <p>When considering the pretrial release of a person charged with a felony offense under KRS  or a person charged with a felony offense whose criminal record indicates a history of recent and relevant substance abuse, the court considering the release shall cause the court’s pretrial release investigation and services office to have the person screened for recent and relevant substance abuse risk factors. A person’s refusal to participate in the screening shall not disqualify the person from being granted pretrial release. If this screening indicates the presence of recent and relevant substance abuse risk factors, the court may order as a condition of pretrial release that the person:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

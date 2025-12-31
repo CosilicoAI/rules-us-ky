@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/97.760"/>
+          <FRBRuri value="/us-ky/act/krs/97.760"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/97.760/eng"/>
+          <FRBRuri value="/us-ky/act/krs/97.760/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/97.760/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/97.760/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_97_760">
+        <num>97.760</num>
+        <content>
+          <p>Bonds issued pursuant to Chapter 23 of the Acts of 1922 shall be placed under the control of the commission, which shall determine when, and at what price and how they shall be sold. Any premium obtained from the sale of the bonds shall constitute a part of the sinking fund for their ultimate retirement. As the bonds are sold, their proceeds shall go to the credit of the commission in the same depositories that are selected for the deposit of the funds held by the commissioners of the sinking fund of the city, upon like agreements as to interest. The proceeds of the bonds shall be withdrawn only upon the checks of the secretary and treasurer of the commission, countersigned in a manner and accompanied by a voucher as may be prescribed by administrative regulations promulgated by the commission.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/177.730"/>
+          <FRBRuri value="/us-ky/act/krs/177.730"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/177.730/eng"/>
+          <FRBRuri value="/us-ky/act/krs/177.730/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/177.730/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/177.730/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_730">
+        <num>177.730</num>
+        <content>
+          <p>All of said 1960 bonds shall, as aforesaid, be direct general obligation bonds of the Commonwealth and shall be issued with an irrevocable pledge of the full faith, credit, resources and unlimited taxing power of the Commonwealth, but in accordance with the mandatory requirement of Section 50 of the Constitution of the Commonwealth there shall be levied and collected, annually, taxes sufficient to pay the interest stipulated, and to discharge the debt within thirty (30) years, as follows:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

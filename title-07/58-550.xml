@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/58.550"/>
+          <FRBRuri value="/us-ky/act/krs/58.550"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/58.550/eng"/>
+          <FRBRuri value="/us-ky/act/krs/58.550/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/58.550/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/58.550/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_58_550">
+        <num>58.550</num>
+        <content>
+          <p>The issuance of revenue bonds by the authority under the provisions of  to need not comply with the requirements of any other law applicable to the issuance of bonds. Bonds may be issued under the provisions of  to without obtaining the consent of any department, division, commission, board, bureau or agency of the Commonwealth, and without any proceedings or any other conditions or things, except as specifically required by  to  The provisions of  to will supersede  in regard to the sale of revenue bonds by this authority. Utilization may be made by the authority, however, of the provisions of sections of this chapter relating to issuance of revenue bonds for public projects generally in respect to: form, coupons, denominations, place of payment, signing, facsimile signatures, negotiability and method of sale.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

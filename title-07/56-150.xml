@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/56.150"/>
+          <FRBRuri value="/us-ky/act/krs/56.150"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/56.150/eng"/>
+          <FRBRuri value="/us-ky/act/krs/56.150/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/56.150/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/56.150/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_56_150">
+        <num>56.150</num>
+        <content>
+          <p>The cabinet and the State Treasurer may employ such assistance and incur such expenses as are necessary to carry out the purposes of  to  All such expenses may be debited against the state fire and tornado insurance fund, and paid on warrant of the cabinet, but the total of such expenses during any fiscal year shall not exceed ten percent (10%) of the total receipts of the fund during the same fiscal year. If such expenses are incurred at a time when there is not a sufficient amount in the fund to pay them, they shall constitute a prior claim to be paid out of the first receipts of the fund thereafter before any damages on account of insured losses are paid.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

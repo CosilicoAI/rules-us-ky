@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/205.796"/>
+          <FRBRuri value="/us-ky/act/krs/205.796"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/205.796/eng"/>
+          <FRBRuri value="/us-ky/act/krs/205.796/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/205.796/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/205.796/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_205_796">
+        <num>205.796</num>
+        <content>
+          <p>No employee or agent of the Commonwealth shall divulge any information referred to in  to  except in the manner prescribed in  to to any public or private agency or individual; provided, however, that information may be disclosed and shared by and between any employee of the Cabinet for Health and Family Services and any designee, local administering agency, or any local housing authority for the purpose of verifying eligibility and detecting and preventing fraud, error, and abuse in the programs included in the reporting system. Unauthorized disclosure of any information shall be a violation that is punishable by a fine of one hundred dollars ($100) per offense; except that the unauthorized release of the information about any individual shall be a separate offense from information released about any other individual.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

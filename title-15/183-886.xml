@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/183.886"/>
+          <FRBRuri value="/us-ky/act/krs/183.886"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/183.886/eng"/>
+          <FRBRuri value="/us-ky/act/krs/183.886/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/183.886/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/183.886/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_183_886">
+        <num>183.886</num>
+        <content>
+          <p>No person shall falsely represent himself to be a safety and security officer, agent or employee of a safety and security department of an airport board and in such assumed character, arrest, or detain or search, or question, in any manner the person or property of any person, nor shall any person without the authority of the airport board wear its official uniform, insignia, badge, or identification of the department.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

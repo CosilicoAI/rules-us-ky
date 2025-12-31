@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/65.7703"/>
+          <FRBRuri value="/us-ky/act/krs/65.7703"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/65.7703/eng"/>
+          <FRBRuri value="/us-ky/act/krs/65.7703/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/65.7703/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/65.7703/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_65_7703">
+        <num>65.7703</num>
+        <content>
+          <p>A governmental agency shall have power and authority, by legislation duly adopted, to borrow moneys from time to time in any fiscal year in anticipation of the receipt of current taxes or revenues, or both, to evidence the obligation by notes, appropriately designated, and to authorize, issue, and sell notes in the manner, and subject to the limitations provided in  to 65.7721. Notes shall be payable only from moneys appropriated by the governing body of the governmental agency. The power to borrow from time to time shall include, but not be limited to, the power to make a single authorization and issue and sell portions of the amount of authorized notes whenever desired during the fiscal year.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

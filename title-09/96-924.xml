@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/96.924"/>
+          <FRBRuri value="/us-ky/act/krs/96.924"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/96.924/eng"/>
+          <FRBRuri value="/us-ky/act/krs/96.924/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/96.924/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/96.924/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_96_924">
+        <num>96.924</num>
+        <content>
+          <p>At any subsequent regular meeting of the governing body the written report of the public hearing concerning the first ordinance shall be submitted. At such meeting, any sewer users, or prospective sewer user, may again be heard, in person or by representative. The governing body may adopt an ordinance to be known as the “Second Ordinance” which may provide for rejection or adoption or partial adoption of the first ordinance proposals, or total or partial adoption with modifications. If the governing body shall determine that more than fifty percent (50%) of the sewer users or prospective sewer users, both in number and in source of projected revenues, object to the proposals finally adopted by the governing body, it may adopt the second ordinance only upon the affirmative vote of three-fifths (3/5) of the membership of the governing body. The second ordinance shall be published in the same manner as required with respect to first ordinance.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

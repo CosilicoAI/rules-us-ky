@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/99.110"/>
+          <FRBRuri value="/us-ky/act/krs/99.110"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/99.110/eng"/>
+          <FRBRuri value="/us-ky/act/krs/99.110/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/99.110/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/99.110/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_99_110">
+        <num>99.110</num>
+        <content>
+          <p>At any time within twenty (20) years of June 1, 1942, any domestic corporation which is not a redevelopment corporation but which has been incorporated pursuant to the general corporation law, may become a redevelopment corporation by filing an appropriate amendment to its articles of incorporation and obtaining certificate or certificates pursuant to the general corporation law changing the provisions of its articles and charter or certificate of incorporation to eliminate any provisions therein inconsistent with the provisions of  to and adding or substituting the provisions required by  to  by changing its name to a name corresponding to the form “ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+    Redevelopment Corporation,” and making all the other changes necessary to enable it to conform with all of the provisions of  to  Any such amended articles of incorporation shall be prepared and filed pursuant to the general corporation law, except that in addition to citing such law in the title of such certificate, the title shall also state that it is being made pursuant to this section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

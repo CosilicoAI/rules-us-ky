@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/210.390"/>
+          <FRBRuri value="/us-ky/act/krs/210.390"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/210.390/eng"/>
+          <FRBRuri value="/us-ky/act/krs/210.390/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/210.390/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/210.390/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_210_390">
+        <num>210.390</num>
+        <content>
+          <p>The term of office of each member of the community board for mental health or individuals with an intellectual disability shall be for four (4) years measured from the first day of the year of appointment except that of the members first appointed, three (3) shall be appointed for a term of two (2) years, three (3) for a term of three (3) years, and three (3) for a term of four (4) years. Vacancies shall be filled for the unexpired term in the same manner as original appointments. Any member of a board may be removed by the appointing authority for neglect of duty, misconduct or malfeasance in office, after being given a written statement of charges and an opportunity to be heard thereon.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

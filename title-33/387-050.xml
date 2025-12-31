@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/387.050"/>
+          <FRBRuri value="/us-ky/act/krs/387.050"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/387.050/eng"/>
+          <FRBRuri value="/us-ky/act/krs/387.050/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/387.050/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/387.050/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_387_050">
+        <num>387.050</num>
+        <content>
+          <p>If the minor is fourteen (14) years of age or older, the minor may, in the presence of the District Court, or by a writing signed in the presence of the judge, after privy examination, nominate his own guardian, limited guardian, or conservator, or if the minor be absent from the county, the minor may after privy examination, in the presence of the District Judge of the county where the minor is, or if the minor be in the military or naval services of the United States, after privy examination, in the presence of a superior commanding officer, by a writing signed in the presence of the judge or superior officer nominate his own guardian, limited guardian, or conservator, provided that the judge or the commanding officer certify to the District Judge of the county having jurisdiction to appoint a guardian, limited guardian, or conservator for the minor that the writing was signed by the minor after privy examination in the presence of the judge or officer.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

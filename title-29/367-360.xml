@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/367.360"/>
+          <FRBRuri value="/us-ky/act/krs/367.360"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/367.360/eng"/>
+          <FRBRuri value="/us-ky/act/krs/367.360/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/367.360/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/367.360/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_367_360">
+        <num>367.360</num>
+        <content>
+          <p>To accomplish the objectives and to carry out the duties prescribed by  the Attorney General, in addition to other powers conferred upon him by , may issue subpoenas to any person, administer an oath or affirmation to any person, or conduct hearings in aid of any investigation or inquiry, provided that information obtained pursuant to the powers conferred by this section shall not be made public or disclosed by the Attorney General or his employees beyond the extent necessary for law enforcement purposes in the public interest.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

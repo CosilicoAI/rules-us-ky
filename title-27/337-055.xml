@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/337.055"/>
+          <FRBRuri value="/us-ky/act/krs/337.055"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/337.055/eng"/>
+          <FRBRuri value="/us-ky/act/krs/337.055/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/337.055/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/337.055/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_337_055">
+        <num>337.055</num>
+        <content>
+          <p>Any employee who leaves or is discharged from his employment shall be paid in full all wages or salary earned by him; not later than the next normal pay period following the date of dismissal or voluntary leaving or fourteen (14) days following such date of dismissal or voluntary leaving whichever last occurs. Any employee who is absent at the time fixed for payment by an employer, or who, for any other reason, is not paid at that time, shall be paid thereafter at any time or upon fourteen (14) days’ demand. No employer shall, by any means, secure exemption from this section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

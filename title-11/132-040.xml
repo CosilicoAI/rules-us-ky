@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/132.040"/>
+          <FRBRuri value="/us-ky/act/krs/132.040"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/132.040/eng"/>
+          <FRBRuri value="/us-ky/act/krs/132.040/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/132.040/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/132.040/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_132_040">
+        <num>132.040</num>
+        <content>
+          <p>Each financial institution, as defined in , shall file with the department on or before March 1 of each year, a report setting forth the total amount of its deposits as of the preceding January 1 that are taxable in the name of the depositor under the laws of this state, and shall, on or before March 1 of each year, pay to the department one-thousandth of one percent (.001%) of the amount of the deposits, and may charge to and deduct from the deposit of each depositor the amount of the tax paid on his behalf. Financial institutions shall have liens on the funds belonging to the respective depositors on which the tax has been paid. Any claim for taxes against the depositor by the financial institution paying the taxes shall be asserted within six (6) months after the payment of the taxes to the department, and no claims or liens shall be asserted after that time.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

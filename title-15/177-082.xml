@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/177.082"/>
+          <FRBRuri value="/us-ky/act/krs/177.082"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/177.082/eng"/>
+          <FRBRuri value="/us-ky/act/krs/177.082/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/177.082/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/177.082/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_082">
+        <num>177.082</num>
+        <content>
+          <p>The Commonwealth of Kentucky, Department of Highways, when seeking to condemn lands and material and the use and occupancy of lands, under the provisions of , shall direct the county attorney or any attorney authorized to represent the Commonwealth to file a petition in the office of the Circuit Court clerk in the county in which all or the greater portion of the land or material is located. If any authorized attorney, other than the county attorney, is directed to file the petition, the county attorney shall assist in the prosecution of the action. The petition shall be filed in the name of the Commonwealth of Kentucky, Department of Highways, and may join as plaintiff the county in which any part of the property is situated, or in which the petition is filed, or any municipality thereof.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

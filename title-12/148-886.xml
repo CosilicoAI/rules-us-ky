@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/148.886"/>
+          <FRBRuri value="/us-ky/act/krs/148.886"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/148.886/eng"/>
+          <FRBRuri value="/us-ky/act/krs/148.886/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/148.886/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/148.886/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_148_886">
+        <num>148.886</num>
+        <content>
+          <p>It shall be the duty of the department or, upon the secretary’s request, the duty of the Attorney General to bring an action for the recovery of the penalties provided for in , or to bring an action for a restraining order or temporary or permanent injunction to prevent or correct a condition that constitutes or threatens to constitute a violation of any of the provisions of  to  All actions for injunctive relief shall be brought in the name of the Commonwealth of Kentucky and shall be filed in the local Circuit Court in which the property lies.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

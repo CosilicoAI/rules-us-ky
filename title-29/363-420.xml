@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/363.420"/>
+          <FRBRuri value="/us-ky/act/krs/363.420"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/363.420/eng"/>
+          <FRBRuri value="/us-ky/act/krs/363.420/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/363.420/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/363.420/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_363_420">
+        <num>363.420</num>
+        <content>
+          <p>The inspectors of the Kentucky Department of Agriculture shall have the power and it shall be their duty to inspect, make comparative tests of, and ascertain if correct, every grain moisture measuring device used or employed in this state by any proprietor, agent or lessee or employee in proving or ascertaining the moisture of agricultural commodities offered for sale, sold, purchased or in the process of being purchased. Such inspector shall use as a standard for making such comparative test a grain moisture measuring device meeting the tolerances and specifications established pursuant to the provisions of .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

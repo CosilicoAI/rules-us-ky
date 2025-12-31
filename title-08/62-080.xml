@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/62.080"/>
+          <FRBRuri value="/us-ky/act/krs/62.080"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/62.080/eng"/>
+          <FRBRuri value="/us-ky/act/krs/62.080/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/62.080/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/62.080/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_62_080">
+        <num>62.080</num>
+        <content>
+          <p>All persons required by law to give bonds for the discharge or performance of any public or fiducial office, trust or employment are relieved from all liability as insurers of funds that come into their hands or subject to their control after the funds are deposited in good faith in a depository or depositories in the county approved by the fiscal court, and the obligors in the bonds shall not be responsible for loss of, or delay in payment of such funds by reason of the failure or suspension of such depository.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

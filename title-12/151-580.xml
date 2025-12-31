@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/151.580"/>
+          <FRBRuri value="/us-ky/act/krs/151.580"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/151.580/eng"/>
+          <FRBRuri value="/us-ky/act/krs/151.580/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/151.580/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/151.580/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_151_580">
+        <num>151.580</num>
+        <content>
+          <p>The cabinet may negotiate with the appropriate federal agencies for the operation or maintenance of a navigable waterway within the state boundaries. The cabinet shall not initiate negotiation for operation or maintenance of a waterway under federal control unless the lack of an agreement jeopardizes the continued navigation of said waterway. Any agreement negotiated by the cabinet shall be subject to the approval of the Governor and the secretary of the Finance and Administration Cabinet, and, if the negotiated agreement will involve the expenditure of state funds, the General Assembly may appropriate funds to fulfill the terms of the negotiated agreement before the negotiated agreement shall become effective.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

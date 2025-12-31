@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/72.225"/>
+          <FRBRuri value="/us-ky/act/krs/72.225"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/72.225/eng"/>
+          <FRBRuri value="/us-ky/act/krs/72.225/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/72.225/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/72.225/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_72_225">
+        <num>72.225</num>
+        <content>
+          <p>An advisory commission is hereby established to act in a general advisory capacity to the medical examiner services. The commissioner of the Department of Kentucky State Police, the commissioner of criminal justice training, the secretary of justice and public safety, and the secretary for health and family services shall be ex officio members of the advisory commission. The secretary of justice and public safety shall appoint five (5) additional members for terms of four (4) years each or until their successors are appointed and qualify. Members of the advisory commission shall receive no compensation for their services but shall be repaid their actual expenses incurred in attending meetings.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

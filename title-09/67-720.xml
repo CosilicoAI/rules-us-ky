@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/67.720"/>
+          <FRBRuri value="/us-ky/act/krs/67.720"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/67.720/eng"/>
+          <FRBRuri value="/us-ky/act/krs/67.720/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/67.720/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/67.720/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_67_720">
+        <num>67.720</num>
+        <content>
+          <p>The county judge/executive shall execute a bond for the faithful performance of the duties of his office. The bond shall be a minimum of ten thousand dollars ($10,000) with sureties approved by the fiscal court, which shall record the approval of sureties in its minutes. If the fiscal court does not approve sureties under this section within thirty (30) days after the county judge/executive has taken office, the Circuit Judge shall approve the sureties. Premiums on the bond of the county judge/executive shall be paid from county funds appropriated by the fiscal court. The fiscal court shall file a record of the bond with the county clerk.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

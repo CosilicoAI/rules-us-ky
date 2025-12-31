@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/11.110"/>
+          <FRBRuri value="/us-ky/act/krs/11.110"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/11.110/eng"/>
+          <FRBRuri value="/us-ky/act/krs/11.110/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/11.110/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/11.110/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_110">
+        <num>11.110</num>
+        <content>
+          <p>The Governor shall fix the compensation of persons employed by him under the provisions of  and  If the services of the persons employed are rendered in or to any particular agency, their compensation and expenses may be charged to and paid out of the appropriation of that agency, when certified to the Finance and Administration Cabinet by the head of the agency and approved by the Governor. If there is no appropriation to the agency from which such compensation and expenses can properly be paid, the Governor may direct that they be paid out of the Governor’s emergency fund.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

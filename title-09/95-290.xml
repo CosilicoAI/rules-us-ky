@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/95.290"/>
+          <FRBRuri value="/us-ky/act/krs/95.290"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/95.290/eng"/>
+          <FRBRuri value="/us-ky/act/krs/95.290/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/95.290/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/95.290/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_95_290">
+        <num>95.290</num>
+        <content>
+          <p>Pursuant to the terms of this section, if policemen of the city of the first class elect entry into the County Employees Retirement System and thereby create excess funds over those required to provide for the purposes set forth in paragraphs (a), (b), (c), (d), and (e) of this subsection, these excess funds shall be distributed to the city for use by the city for any other purpose it may elect, including but not limited to the establishment of a reserve for payment under paragraph (e) of this subsection. The governing board of the fund may annually expend for the necessary expenses connected with the fund, including but not limited to expenses for medical, actuarial, accounting, and legal services, the amount such governing board deems proper.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

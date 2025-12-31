@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/67.140"/>
+          <FRBRuri value="/us-ky/act/krs/67.140"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/67.140/eng"/>
+          <FRBRuri value="/us-ky/act/krs/67.140/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/67.140/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/67.140/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_67_140">
+        <num>67.140</num>
+        <content>
+          <p>The fiscal court shall have authority and jurisdiction to levy and collect property taxes necessary for the purpose of keeping and maintaining the courthouse and grounds in proper condition and repair, to prevent injury thereto, to keep them in a proper state of cleanliness and sanitation, to provide heat and lights for them, and to provide sufficient water for the courts and offices therein.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

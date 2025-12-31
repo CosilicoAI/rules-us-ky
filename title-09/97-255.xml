@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/97.255"/>
+          <FRBRuri value="/us-ky/act/krs/97.255"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/97.255/eng"/>
+          <FRBRuri value="/us-ky/act/krs/97.255/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/97.255/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/97.255/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_97_255">
+        <num>97.255</num>
+        <content>
+          <p>Officers and members of the division of police of the department of public safety of said city shall have the power to make arrests in any parks or any park property or upon any parkways or park boulevards under the control of any city of the first class, within the boundaries of said city; or in any place within the county wherein such city is located outside the boundaries of said city, if the offense or violation for which such arrest is being made was committed upon park property, parkways, park boulevards, or property under the control of said city; and any and all persons so arrested or taken into custody by members of said division of police shall be tried in courts having jurisdiction over the place where the offense for which such arrest was made was committed.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

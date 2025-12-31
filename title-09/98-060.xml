@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/98.060"/>
+          <FRBRuri value="/us-ky/act/krs/98.060"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/98.060/eng"/>
+          <FRBRuri value="/us-ky/act/krs/98.060/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/98.060/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/98.060/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_98_060">
+        <num>98.060</num>
+        <content>
+          <p>The building commission shall consist of four (4) appointive members, and the mayor of the city ex officio. Each appointive member shall be at least twenty-five (25) years of age and reside within the city or the county in which the city is located, and be the owner of real estate or a householder. No officer or employee of the city, whether holding a paid or unpaid office, shall be eligible for appointment to the commission. All appointees shall be subject to the approval of the legislative body of the city. The term of office shall be four (4) years and until their successors are appointed and qualified. The commission may be continued by appointments made in the same manner as the original appointment.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

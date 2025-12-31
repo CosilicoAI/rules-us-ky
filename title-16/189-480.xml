@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/189.480"/>
+          <FRBRuri value="/us-ky/act/krs/189.480"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/189.480/eng"/>
+          <FRBRuri value="/us-ky/act/krs/189.480/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/189.480/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/189.480/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_189_480">
+        <num>189.480</num>
+        <content>
+          <p>No vehicle shall haul with a towline more than one (1) other vehicle. The towline shall not be over fifteen (15) feet in length, and a white cloth or flag shall be fastened to the towline at or near the center of the line, during both day and night so as to make it plainly discernible. No vehicle shall at one (1) time haul more than two (2) vehicles connected in such a manner as to keep them uniformly spaced. Any vehicle being towed under the provisions of this chapter shall have the brake lights required under .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

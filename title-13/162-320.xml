@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/162.320"/>
+          <FRBRuri value="/us-ky/act/krs/162.320"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/162.320/eng"/>
+          <FRBRuri value="/us-ky/act/krs/162.320/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/162.320/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/162.320/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_162_320">
+        <num>162.320</num>
+        <content>
+          <p>Every person to whom a site for a building is conveyed pursuant to  shall immediately enter into a written contract with some person approved by the governing body of the state educational institution, for the immediate erection on the site of a building with the necessary appurtenances, according to plans and specifications approved by the governing body of the state educational institution. The contract shall provide the time when the building shall be completed. The contractor shall enter into bond with the Commonwealth for the benefit of the state educational institution in the penal sum of not less than twenty-five percent (25%) of the contract price for the completion of the work in the manner and within the time set out in the contract.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

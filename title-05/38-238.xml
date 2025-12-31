@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/38.238"/>
+          <FRBRuri value="/us-ky/act/krs/38.238"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/38.238/eng"/>
+          <FRBRuri value="/us-ky/act/krs/38.238/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/38.238/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/38.238/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_238">
+        <num>38.238</num>
+        <content>
+          <p>An employee shall be granted a leave of absence by his or her employer for the period required to perform active duty or training in the National Guard of this or any other state. Upon the employee’s release from a period of active duty or training, the employee shall be permitted to return to his or her former position of employment with the seniority, status, pay or any other rights or benefits he or she would have had if he or she had not been absent, except that no employer shall be required to grant an employee a leave of absence with pay.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

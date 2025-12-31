@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/75.060"/>
+          <FRBRuri value="/us-ky/act/krs/75.060"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/75.060/eng"/>
+          <FRBRuri value="/us-ky/act/krs/75.060/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/75.060/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/75.060/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_75_060">
+        <num>75.060</num>
+        <content>
+          <p>All municipal firefighters, fire protection district firefighters, and volunteer fire department firemen, full-paid or volunteer, attending and serving at fires or doing fire prevention work outside the corporate limits of a municipality, fire protection district, or volunteer fire department district as provided in , or area normally served by a volunteer fire department, shall be considered as serving in their regular line of duty as fully as if they were serving within the corporate limits of their own municipality, fire protection district, or area normally served by a volunteer fire department, but full-paid firefighters shall receive no additional compensation and volunteer firemen shall receive only such compensation as may be provided for by ordinance or resolution in such cases, and all such full-paid firefighters and volunteer firemen shall be entitled to all benefits of any pension fund, in the same manner as if the firefighting or fire prevention work had been within the corporate limits of the municipality, or area normally served by a volunteer fire department.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

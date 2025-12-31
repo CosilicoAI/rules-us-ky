@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/257.410"/>
+          <FRBRuri value="/us-ky/act/krs/257.410"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/257.410/eng"/>
+          <FRBRuri value="/us-ky/act/krs/257.410/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/257.410/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/257.410/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_257_410">
+        <num>257.410</num>
+        <content>
+          <p>Hatching eggs and all poultry under five (5) months of age, including baby chicks, started chicks, turkey poults, other newly hatched domestic poultry, except those intended for immediate slaughter, that are imported into this state shall have originated in flocks that meet the pullorum requirements of the National Poultry Improvement Plan, or other USDA-administered plan, and the administrative regulations promulgated by authority of  to  Every container of poultry under five (5) months of age, including baby chicks, started chicks, turkey poults, and any other newly hatched domestic poultry, except those intended for immediate slaughter, and hatching eggs imported into this state shall bear an official label or certificate showing the name and address of the importer, the authority under which the testing for pullorum disease was done, and the pullorum control and eradication class of the product, the use of the certificate or label to be approved by the official state agency or the Division of Animal Health official of the state of origin.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

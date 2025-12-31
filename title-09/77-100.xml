@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/77.100"/>
+          <FRBRuri value="/us-ky/act/krs/77.100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/77.100/eng"/>
+          <FRBRuri value="/us-ky/act/krs/77.100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/77.100/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/77.100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_77_100">
+        <num>77.100</num>
+        <content>
+          <p>An air pollution control board shall require the secretary-treasurer and the air pollution control officer each to execute bond, and may exact from such of its other officers and employees bonds as it may deem expedient. All such bonds shall be payable to the district in such sums as the board may fix with approved corporate surety, and premiums therefor shall be paid by the district. Such bonds shall obligate the makers thereof to faithfully perform the duties of their respective offices and positions and to fully account for and pay over all money, property or other thing of value of the district, which may come to their hands, respectively.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.0283"/>
+          <FRBRuri value="/us-ky/act/krs/164.0283"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.0283/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.0283/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.0283/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.0283/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_0283">
+        <num>164.0283</num>
+        <content>
+          <p>Every institution of higher education in the Commonwealth of Kentucky offering professional education programs in the areas of medicine and dentistry shall establish and publish the criteria by which applicants for admission are evaluated and the approximate weight of each criteria including a criterion based upon permanent residence in underserved or underrepresented areas of the Commonwealth.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

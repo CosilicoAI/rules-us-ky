@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/15.700"/>
+          <FRBRuri value="/us-ky/act/krs/15.700"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/15.700/eng"/>
+          <FRBRuri value="/us-ky/act/krs/15.700/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/15.700/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/15.700/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_700">
+        <num>15.700</num>
+        <content>
+          <p>It is hereby declared to be the policy of this Commonwealth to encourage cooperation among law enforcement officers and to provide for the general supervision of criminal justice by the Attorney General as chief law enforcement officer of the Commonwealth, in order to maintain uniform and efficient enforcement of the criminal law and the administration of criminal justice throughout the Commonwealth. To this end, a unified and integrated prosecutor system is hereby established with the Attorney General as chief prosecutor of the Commonwealth.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

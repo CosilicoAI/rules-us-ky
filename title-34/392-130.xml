@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/392.130"/>
+          <FRBRuri value="/us-ky/act/krs/392.130"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/392.130/eng"/>
+          <FRBRuri value="/us-ky/act/krs/392.130/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/392.130/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/392.130/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_392_130">
+        <num>392.130</num>
+        <content>
+          <p>The spouse of an infant spouse, or of a spouse judicially declared mentally disabled, if the spouse not under disability is of the age of eighteen (18) years, or if not, with the approval of the Circuit Court, on such terms as it may deem equitable, may unite with his guardian or conservator, or with the commissioner of the court, in the conveyance of the real estate of the spouse under disability, so as to release the inchoate right of dower or curtesy of the spouse not under disability, when a sale and conveyance of the real estate are ordered to be made by the guardian or conservator, or by the commissioner or other officer of the court. An infant spouse may also be permitted by the Circuit Court to unite with his adult spouse in the conveyance of the adult spouse’s real estate without terms, or on such terms as may be deemed equitable, so as to release the inchoate right of dower or curtesy of the infant spouse. If, in judicial proceedings to sell the real estate of an infant spouse, or of a spouse judicially declared mentally disabled, his spouse is made a party defendant, and by answer, and on privy examination in open court or by a judge of a court in which such proceedings are pending, or by a commissioner appointed by the court to take the case, the spouse not under disability consents to a sale of the property, free from the inchoate right of dower or curtesy of the spouse not under disability, either without terms or on terms designated by the spouse not under disability, the court may, if it deems the terms of such consent equitable, order the sale of such property, free from the inchoate right of dower or curtesy, upon the terms of consent proposed by that spouse.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/157.061"/>
+          <FRBRuri value="/us-ky/act/krs/157.061"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/157.061/eng"/>
+          <FRBRuri value="/us-ky/act/krs/157.061/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/157.061/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/157.061/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_157_061">
+        <num>157.061</num>
+        <content>
+          <p>The integrated technology-based communications system, established by , shall be used by the Department of Education to conduct internal fiscal, management, and compliance audits of each school district in the Commonwealth on an annual basis. A copy of the audit shall be submitted to the Legislative Research Commission, the Governor, and the Kentucky Board of Education.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

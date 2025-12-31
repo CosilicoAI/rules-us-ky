@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/365.465"/>
+          <FRBRuri value="/us-ky/act/krs/365.465"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/365.465/eng"/>
+          <FRBRuri value="/us-ky/act/krs/365.465/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/365.465/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/365.465/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_365_465">
+        <num>365.465</num>
+        <content>
+          <p>No person proposing to conduct an insurance, bankruptcy, mortgage foreclosure, insolvent’s, assignee’s, executor’s, administrator’s, receiver’s, trustee’s, removal sale, going out of business sale, or fire sale under a license as provided in  to and shall order any goods for the purpose of selling and disposing of the same at the sale. Any abnormal purchase and additions to the stock of goods within ninety (90) days prior to the filing of the application for a license to conduct the sale shall be presumptive evidence that the purchases and additions to stock were made in contemplation of the sale and for the purpose of selling the same at the sale.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/5.272"/>
+          <FRBRuri value="/us-ky/act/krs/5.272"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/5.272/eng"/>
+          <FRBRuri value="/us-ky/act/krs/5.272/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/5.272/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/5.272/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_272">
+        <num>5.272</num>
+        <content>
+          <p>The Seventy-second Representative District shall consist of the following territory:</p>
+          <p>—CENSUS— COUNTY PREC NAME TRACT BLK SECT BATH BOURBON FAYETTE A104 BELL SCHOOL HOUSE 003701 2016 0202 FAYETTE A104 BELL SCHOOL HOUSE 003701 2037 FAYETTE A104 BELL SCHOOL HOUSE 003701 2038 FAYETTE A104 BELL SCHOOL HOUSE 003704 2000 FAYETTE A104 BELL SCHOOL HOUSE 003704 2001 FAYETTE A104 BELL SCHOOL HOUSE 003704 2002 FAYETTE A104 BELL SCHOOL HOUSE 003704 2003 FAYETTE A104 BELL SCHOOL HOUSE 003704 2004 FAYETTE A104 BELL SCHOOL HOUSE 003704 2005 FAYETTE A104 BELL SCHOOL HOUSE 003704 2006 FAYETTE A104 BELL SCHOOL HOUSE 003704 2007 FAYETTE A104 BELL SCHOOL HOUSE 003704 2008 FAYETTE A104 BELL SCHOOL HOUSE 003704 2034 FAYETTE A108 DONERAIL FAYETTE A116 TRAILSIDE FAYETTE A175 HORSE PARK FAYETTE C154 MAN O WAR FAYETTE C159 SHANDON PARK NICHOLAS</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

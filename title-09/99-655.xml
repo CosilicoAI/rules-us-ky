@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/99.655"/>
+          <FRBRuri value="/us-ky/act/krs/99.655"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/99.655/eng"/>
+          <FRBRuri value="/us-ky/act/krs/99.655/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/99.655/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/99.655/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_99_655">
+        <num>99.655</num>
+        <content>
+          <p>No agency may acquire title to any land for the purpose of carrying out a development plan unless the following conditions have been met: A development plan clearly fixing the boundaries of the proposed project area has been approved by the board of commissioners and the plan has been made available for public inspection. The development plan shall designate, among other things, the proposed location, character and extent of the public and private land ownership and uses proposed within the area. The development plan may be amended from time to time including the extension of established project boundaries. All such amendments shall be made available for public inspection. There shall also be established a technical advisory board appointed by the mayor of the city or urban-county government. There shall be eleven (11) members and the chairman of the board of commissioners shall serve as the eleventh member and chairman of said board. The board shall be composed of professions in the various developmental disciplines and shall include, but not be limited to architects, land use planners, engineers, civic leaders in the area of historical preservation, related agency heads of city or urban-county government, developers, builders, and other members of the community whose knowledge and ability will contribute to the purposes established in  to</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/82.175"/>
+          <FRBRuri value="/us-ky/act/krs/82.175"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/82.175/eng"/>
+          <FRBRuri value="/us-ky/act/krs/82.175/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/82.175/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/82.175/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_82_175">
+        <num>82.175</num>
+        <content>
+          <p>Bonds issued by a city under the provisions of  to are hereby made securities in which all public officers and public bodies, agencies and instrumentalities of the Commonwealth and its political subdivisions, all insurance companies, trust companies, banking associations, investment companies, executors, administrators, trustees and other fiduciaries, and all other persons whatsoever who are now or may hereafter be authorized to invest in bonds or other obligations of a similar nature may properly and legally invest funds, including capital in their control or belonging to them. Such bonds are hereby made securities which may properly and legally be deposited with and received by any state or municipal officer or any agency or political subdivision of the Commonwealth for any purpose for which the deposit of bonds or other obligations of the Commonwealth is now or may hereafter be authorized by law.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

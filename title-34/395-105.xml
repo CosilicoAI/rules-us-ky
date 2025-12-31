@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/395.105"/>
+          <FRBRuri value="/us-ky/act/krs/395.105"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/395.105/eng"/>
+          <FRBRuri value="/us-ky/act/krs/395.105/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/395.105/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/395.105/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_395_105">
+        <num>395.105</num>
+        <content>
+          <p>Every fiduciary, before entering upon the execution of the trust, shall receive letters of appointment from the District Court having jurisdiction as now fixed by law. The duties of a fiduciary shall be such as are required by law, and such additional duties not inconsistent therewith as the court may order. The appointment shall be effective with the signing of an order by the judge.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

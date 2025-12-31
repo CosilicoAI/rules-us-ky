@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/311.555"/>
+          <FRBRuri value="/us-ky/act/krs/311.555"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/311.555/eng"/>
+          <FRBRuri value="/us-ky/act/krs/311.555/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/311.555/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/311.555/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_311_555">
+        <num>311.555</num>
+        <content>
+          <p>It is the declared policy of the General Assembly of Kentucky that the practice of medicine and osteopathy should be regulated and controlled as provided in  to in order to prevent empiricism and to protect the health and safety of the public. Further, the General Assembly of Kentucky has created the board, as defined in , to function as an independent board, the majority of whose members are licensed physicians, with the intent that such a peer group is best qualified to regulate, control and otherwise discipline the licensees who practice medicine and osteopathy within the Commonwealth of Kentucky. In furtherance of this intent, the judiciary of the Commonwealth of Kentucky, who may be caused to review the actions of the board, shall not interfere or enjoin the board’s actions until all administrative remedies are exhausted, and modify, remand, or otherwise disturb those actions only in the event that the action of the board:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

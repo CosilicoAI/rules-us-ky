@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/95.873"/>
+          <FRBRuri value="/us-ky/act/krs/95.873"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/95.873/eng"/>
+          <FRBRuri value="/us-ky/act/krs/95.873/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/95.873/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/95.873/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_95_873">
+        <num>95.873</num>
+        <content>
+          <p>The board may invest the moneys accruing to the fund, in interest-bearing bonds of any county, urban-county government or city in this state, or in any securities in which trustees are permitted to invest trust funds under the laws of this state including participation in a local government pension investment fund created pursuant to . Such bonds shall be registered in the name of the board to the extent possible. The securities acquired by the board shall be subject to the order of the board. The board may, at its own cost, employ or engage consultants to provide investment advice to aid the board in its determinations.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

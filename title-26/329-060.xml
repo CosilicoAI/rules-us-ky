@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/329.060"/>
+          <FRBRuri value="/us-ky/act/krs/329.060"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/329.060/eng"/>
+          <FRBRuri value="/us-ky/act/krs/329.060/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/329.060/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/329.060/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_329_060">
+        <num>329.060</num>
+        <content>
+          <p>Each nonresident applicant for a trainee’s license or examiner’s license or a renewal license shall file an irrevocable consent that actions against the applicant may be filed in any appropriate court of any county of this Commonwealth in which the plaintiff resides or in which some part of the transaction occurred out of which the alleged cause of action arose and that process in any action may be served on the applicant by leaving two (2) copies thereof with the secretary of the cabinet. Such consent shall stipulate and agree that such service of process shall be valid and binding for all purposes. The secretary shall send forthwith one (1) copy of the process to the applicant by certified mail at the address shown on the records of the cabinet.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

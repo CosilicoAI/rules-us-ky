@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/196.725"/>
+          <FRBRuri value="/us-ky/act/krs/196.725"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/196.725/eng"/>
+          <FRBRuri value="/us-ky/act/krs/196.725/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/196.725/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/196.725/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_196_725">
+        <num>196.725</num>
+        <content>
+          <p>Each community corrections program shall establish a community corrections board to provide direction and assistance to the community corrections program in the design, implementation and evaluation of the community corrections program plan. Community corrections boards shall be organized as nonprofit corporations under KRS . The community corrections board shall consist of not less than eight (8) members, and shall include, insofar as possible, judges, Commonwealth’s attorneys, defense attorneys, crime victims or survivors, community leaders, social workers, law-enforcement officers, probation officers, and other interested persons. Members of the board shall receive no compensation for their duties as board members. The board shall be subject to the open meetings law and the open records law as provided for in KRS . The community corrections board shall meet on a regular basis, and its duties shall include, but are not limited to, the following:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

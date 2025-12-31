@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/439.3405"/>
+          <FRBRuri value="/us-ky/act/krs/439.3405"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/439.3405/eng"/>
+          <FRBRuri value="/us-ky/act/krs/439.3405/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/439.3405/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/439.3405/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_439_3405">
+        <num>439.3405</num>
+        <content>
+          <p>Notice to the Commonwealth’s attorney shall be by mail, fax, or electronic means, at the discretion of the board, and shall be in a manner that ensures receipt at the Commonwealth attorney’s business office. Notices received by chiefs of police and sheriffs shall be posted in a conspicuous location where police employed by the department may see it. Notices shall be posted in a manner and at a time that will allow officers to make comment thereon to the Parole Board. Notice to victims or their next of kin shall be made by mail, fax, or electronic means, at the discretion of the board, to their last known address or telephone number as provided by the Commonwealth’s attorney to the Parole Board at the time of incarceration of the prisoner. Notice to the victim or the next of kin of subsequent considerations for parole after the initial consideration shall not be sent if the victim or the next of kin gives notice to the board that he or she no longer wants to receive such notices. The notice shall include the time, date, and place of the hearing provided for in this subsection, and the name and address of a person to write if the recipient of the notice desires to attend the hearing or to submit written comments.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

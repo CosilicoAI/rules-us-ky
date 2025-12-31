@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/447.154"/>
+          <FRBRuri value="/us-ky/act/krs/447.154"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/447.154/eng"/>
+          <FRBRuri value="/us-ky/act/krs/447.154/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/447.154/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/447.154/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_447_154">
+        <num>447.154</num>
+        <content>
+          <p>No act creating, repealing,
+    or modifying any statute shall be construed directly, or by implication, to
+    limit the right of the Court of Justice to promulgate rules from time to time
+    or to supersede, modify, or amend any rule so promulgated. Nor shall any statute
+    be construed to limit in any manner the power of the Court of Justice to make
+    rules governing practice and procedure in the courts.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

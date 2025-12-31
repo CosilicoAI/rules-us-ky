@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/227.620"/>
+          <FRBRuri value="/us-ky/act/krs/227.620"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/227.620/eng"/>
+          <FRBRuri value="/us-ky/act/krs/227.620/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/227.620/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/227.620/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_227_620">
+        <num>227.620</num>
+        <content/>
+        <subsection eId="sec_227_620__subsec_1">
+          <num>(1)</num>
+          <content>
+            <p>For manufacturers, a “certificate of acceptability” shall be subject to a maximum of five hundred dollars ($500);</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_227_620__subsec_2">
+          <num>(2)</num>
+          <content>
+            <p>For retailers, the maximum license fee shall be two hundred fifty dollars ($250) for each established place of business;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_227_620__subsec_3">
+          <num>(3)</num>
+          <content>
+            <p>The fee for a “Class B Seal” for recreational vehicles shall be twenty-five dollars ($25) per seal and the application form and seal shall be made available from the department; and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_227_620__subsec_4">
+          <num>(4)</num>
+          <content>
+            <p>The fee for a “Class B1 Seal” and “Class B2 Seal” for manufactured and mobile homes shall be established by the department subject to a maximum of twenty-five dollars ($25) per seal.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

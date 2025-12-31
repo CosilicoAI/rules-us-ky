@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/268.400"/>
+          <FRBRuri value="/us-ky/act/krs/268.400"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/268.400/eng"/>
+          <FRBRuri value="/us-ky/act/krs/268.400/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/268.400/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/268.400/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_268_400">
+        <num>268.400</num>
+        <content>
+          <p>“The district assessment register of district, in the County (Counties) of , Kentucky. Whereas the district, located in the County (Counties) of in the state of Kentucky, was duly established by the orders of the County, and thereafter the plan for reclamation of the district and the report of the appraisers, containing the assessment of benefits and damages, were approved, and the proceedings referred to the board of County, to cause such improvements to be made, and to levy an assessment upon the property in that district to pay for them, to issue bonds and cause the assessment to be collected, and whereas said board after ascertaining the cost of the improvements, did levy a district minimum assessment and a district interest assessment, and apportion them to the property in the district according to the ratio of benefits, which was also corrected and approved, the board now certifies that the following is a true and correct table of assessments so levied upon, and to be paid on each piece of property, together with the annual installments thereof, which shall become due and payable at the same time and place, and collectible by the same person and in the same manner that state and county taxes are payable and collected. This district assessment register is the authority of the tax collector of each county in which any part of the district is located for demanding and collecting the assessments. Name of owner Post office address Description of property assessed Description In what county located No. of acres Amount of assessed benefits $ Total amount of minimum district assessment $ Total maximum assessment $ Amount to be collected for the year 19 19, $, Paid by Collector. Amount to be collected for the year 19 19, $, Paid by Collector. Amount to be collected for the year 19 19, $, Paid by Collector. The collector of taxes in the County of is hereby ordered to collect the above assessment and pay same to the treasurer at the time required by law each year. Done by order of the board of drainage commissioners of County, Kentucky, on this the day of , 19 Attest: Secretary President (Seal)”</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

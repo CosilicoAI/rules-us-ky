@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/425.031"/>
+          <FRBRuri value="/us-ky/act/krs/425.031"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/425.031/eng"/>
+          <FRBRuri value="/us-ky/act/krs/425.031/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/425.031/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/425.031/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_425_031">
+        <num>425.031</num>
+        <content>
+          <p>Upon request of a defendant or intervening party, the judicial officer shall conduct a hearing at which each party shall be provided the opportunity to present witnesses on his behalf and to cross-examine adverse witnesses. The parties shall have the right to compel the attendance of witnesses by subpoena and to be represented at the hearing by counsel. The judicial officer shall make his determination upon the evidence adduced at the hearing.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

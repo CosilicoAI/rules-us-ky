@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/418.065"/>
+          <FRBRuri value="/us-ky/act/krs/418.065"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/418.065/eng"/>
+          <FRBRuri value="/us-ky/act/krs/418.065/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/418.065/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/418.065/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_418_065">
+        <num>418.065</num>
+        <content>
+          <p>The court may refuse to exercise
+    the power to declare rights, duties or other legal relations in any case where
+    a decision under it would not terminate the uncertainty or controversy which
+    gave rise to the action, or in any case where the declaration or construction
+    is not necessary or proper at the time under all the circumstances. The appellate
+    court in its consideration of the case, shall not be confined to errors alleged
+    or apparent in the record. When, in its opinion, further pleadings or proof
+    is necessary to a final and correct decision of the matters involved, or that
+    should be involved, it shall remand the case for that purpose; or if in its
+    opinion the action is prematurely brought, or where a ruling in the appellate
+    court is not considered necessary or proper at the time under all the circumstances,
+    it may direct a dismissal without prejudice in the lower court.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

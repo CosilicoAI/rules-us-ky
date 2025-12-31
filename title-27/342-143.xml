@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/342.143"/>
+          <FRBRuri value="/us-ky/act/krs/342.143"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/342.143/eng"/>
+          <FRBRuri value="/us-ky/act/krs/342.143/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/342.143/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/342.143/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_342_143">
+        <num>342.143</num>
+        <content>
+          <p>For the purposes of this chapter, the average weekly wage of the state shall be determined by the commissioner as follows: On or before September 1 of each year, the total wages reported by subject employers under the Kentucky Unemployment Insurance Law for the preceding calendar year shall be divided by the average monthly number of insured workers (determined by dividing the total number of insured workers reported for the preceding year by twelve (12)). The average annual wage thus obtained shall be divided by fifty-two (52) and the average weekly wage thus determined rounded to the nearest cent. The average weekly wage shall be certified to the commissioner by the Education and Workforce Development Cabinet in a manner prescribed by the commissioner by administrative regulation. The average weekly wage as so determined shall be applicable for the full period during which income or death benefits are payable, when the date of occurrence of injury or of disability in the case of disease, or of death, falls within the calendar year commencing January 1 following the September 1 determination. Whenever a change in the average weekly wage of the state is of such amount that the minimum weekly income benefits for total disability or for death are increased or decreased by one dollar ($1) or more, or the maximum weekly income benefits for total disability or for death are increased or decreased by two dollars ($2) or more, computed in each case and rounded to the nearest dollar, an adjustment in those minimums or maximums which are affected in the requisite amount by the change in the average weekly wage of the state shall be made which will reflect this increase or decrease, but no change in such limitations shall otherwise be made. Notwithstanding the provisions of this section,  and  or any other provisions of this chapter to the contrary, the average weekly wage for calendar years 1995 and 1996 shall be determined to be no higher than the average weekly wage determined by the commissioner to be in effect in the calendar year of 1994. If the average weekly wage calculated by the commissioner is determined to be lower than the 1994 calendar year wage, the average weekly wage may be lowered as provided by this section. Beginning in calendar year 1997 and annually thereafter, the average weekly wage shall be calculated based upon the state average weekly wage in effect two (2) years prior to that calculation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

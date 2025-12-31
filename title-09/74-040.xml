@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/74.040"/>
+          <FRBRuri value="/us-ky/act/krs/74.040"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/74.040/eng"/>
+          <FRBRuri value="/us-ky/act/krs/74.040/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/74.040/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/74.040/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_74_040">
+        <num>74.040</num>
+        <content>
+          <p>The commission may employ a person to serve as the chief executive officer of the water district. This person shall not be one (1) of the water district’s commissioners. The person may be designated the general manager, superintendent, or chief executive officer of the district or by any other similar title. The chief executive officer shall perform such additional duties as the commission may require of him or her and shall be subject to the orders of the commission. The chief executive officer shall employ all necessary labor and assistance in the performance of his or her duties, and he or she shall report to the commission all expenses incurred. The salary of the chief executive officer shall be fixed by the commission.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

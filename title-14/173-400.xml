@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/173.400"/>
+          <FRBRuri value="/us-ky/act/krs/173.400"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/173.400/eng"/>
+          <FRBRuri value="/us-ky/act/krs/173.400/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/173.400/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/173.400/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_173_400">
+        <num>173.400</num>
+        <content>
+          <p>Any free public library established after June 13, 1944, shall be established as provided in  to  Every existing public library which has been heretofore established under provisions of state law except a city of the first class and a county containing a city of the first class shall be considered as operating under the authority of  to  Every existing contract for library service shall continue until the contract be terminated or a library be established by the governmental unit for which the service was engaged. The provisions of  to shall be construed as superseding the provisions of any municipal charter in conflict therewith.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

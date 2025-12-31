@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/383.655"/>
+          <FRBRuri value="/us-ky/act/krs/383.655"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/383.655/eng"/>
+          <FRBRuri value="/us-ky/act/krs/383.655/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/383.655/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/383.655/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_383_655">
+        <num>383.655</num>
+        <content>
+          <p>If a landlord unlawfully removes or excludes the tenant from the premises or willfully diminishes services to the tenant by interrupting or causing the interruption of heat, running water, hot water, electric, gas, or other essential service, the tenant may recover possession or terminate the rental agreement and, in either case, recover an amount not more than three (3) months periodic rent and a reasonable attorney’s fee. If the rental agreement is terminated, the landlord shall return all prepaid rent.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/162.550"/>
+          <FRBRuri value="/us-ky/act/krs/162.550"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/162.550/eng"/>
+          <FRBRuri value="/us-ky/act/krs/162.550/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/162.550/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/162.550/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_162_550">
+        <num>162.550</num>
+        <content>
+          <p>Moneys received by the authority as rentals under any lease, and from the sale of bonds, are declared not to be funds of the Commonwealth but shall be corporate funds of the authority to be held, administered, invested, and disbursed as trust funds under the terms, provisions, pledges, covenants, and agreements set forth in its leases and bond resolutions and bonds.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/436.610"/>
+          <FRBRuri value="/us-ky/act/krs/436.610"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/436.610/eng"/>
+          <FRBRuri value="/us-ky/act/krs/436.610/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/436.610/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/436.610/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_436_610">
+        <num>436.610</num>
+        <content>
+          <p>All animals of the same species, which are on the property when an animal is caused to fight for pleasure or profit, in violation of the provisions of  and  shall be confiscated and turned over to the county animal control officer employed, appointed, or contracted with as provided by , if there are reasonable grounds to believe that the animals were on the property for the purpose of fighting.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

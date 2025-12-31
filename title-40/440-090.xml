@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/440.090"/>
+          <FRBRuri value="/us-ky/act/krs/440.090"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/440.090/eng"/>
+          <FRBRuri value="/us-ky/act/krs/440.090/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/440.090/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/440.090/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_440_090">
+        <num>440.090</num>
+        <content>
+          <p>When the Governor of this state makes requisition upon the Governor of another state for a fugitive from justice, the person named in the requisition as the agent of this state shall, unless a different condition is contained in his commission, be allowed as compensation from the State Treasury for his services a mileage allowance at the same rate fixed by regulations adopted by the secretary of the Finance and Administration Cabinet pursuant to , plus an additional sum calculated at the rate of five cents ($0.05) per mile for the distance he travels to and from the jail of the county designated in the proclamation to the place where the fugitive is arrested, and any other necessary expenses he pays in reclaiming and returning the fugitive. If, in attempting to reclaim the fugitive, the agent is acting within the course and scope of his employment, the amount due shall be paid over to the agent’s employer instead of the agent. When a fugitive is to be returned to this state from a location out of state which is in excess of five hundred (500) miles from the jail to which he is to be returned, commercial air transportation may be utilized in lieu of ground transportation, unless the agent undertaking the transportation decides to utilize ground transportation. Payment for air transportation shall be in lieu of the mileage payment for ground transportation only for that portion of the journey for which air transportation is used. Ground transportation and other expenses shall be paid as authorized herein. If the agent is not given possession of the fugitive for reasons beyond the agent’s control, he, or his employer, shall nevertheless be allowed the compensation prescribed by this section. Upon the return of the fugitive to the county in which the jail named in the proclamation is located, the person having him in charge shall go before a judge, who shall issue a mittimus to the jailer to receive the prisoner and keep him until he is discharged.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

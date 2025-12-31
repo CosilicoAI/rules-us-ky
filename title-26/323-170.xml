@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/323.170"/>
+          <FRBRuri value="/us-ky/act/krs/323.170"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/323.170/eng"/>
+          <FRBRuri value="/us-ky/act/krs/323.170/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/323.170/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/323.170/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_323_170">
+        <num>323.170</num>
+        <content>
+          <p>Five (5) members of the board appointed by the Governor shall be architects registered in the Commonwealth of Kentucky and shall have been in the active practice of architecture for at least ten (10) years immediately preceding their appointment, and shall have been residents of this Commonwealth for at least five (5) years immediately preceding their appointment. One (1) member shall be a certified interior designer in the Commonwealth of Kentucky, shall have been providing interior design services for at least ten (10) years, and shall have been a resident of the Commonwealth for at least five (5) years immediately preceding the appointment. One (1) member shall be a citizen at large who is not associated with or financially interested in the practice or business regulated.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

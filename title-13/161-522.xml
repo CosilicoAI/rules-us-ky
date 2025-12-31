@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/161.522"/>
+          <FRBRuri value="/us-ky/act/krs/161.522"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/161.522/eng"/>
+          <FRBRuri value="/us-ky/act/krs/161.522/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/161.522/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/161.522/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_161_522">
+        <num>161.522</num>
+        <content>
+          <p>Upon the death of a member retired for disability who had a minimum of twenty-seven (27) years of service at the time of death, except as provided in , the spouse, if named as the primary beneficiary of the member’s account, shall be entitled to elect, in lieu of a refund of the member’s account, an annuity actuarially equivalent to the annuity that would have been paid to the deceased member had retirement for service been effective on the day immediately preceding the member’s death. This option shall be available only during the entitlement period described under  and (4) prior to the recalculation of the member’s disability allowance under . In selecting this right, the spouse shall be limited to selecting an option providing a straight life annuity with refundable balance or a term certain option. There shall be a monthly minimum allowance of three hundred dollars ($300) as the basic straight life annuity. This section applies to surviving spouses of members who were receiving benefit payments under  as of June 30, 1988, and to surviving spouses of members who die on or after July 1, 1984, except that the member shall have been retired for disability with a minimum of thirty (30) years of service if either of these two (2) conditions were met prior to July 1, 1990.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/274.019"/>
+          <FRBRuri value="/us-ky/act/krs/274.019"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/274.019/eng"/>
+          <FRBRuri value="/us-ky/act/krs/274.019/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/274.019/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/274.019/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_274_019">
+        <num>274.019</num>
+        <content>
+          <p>No proxy for shares of a professional service corporation shall be valid unless it shall be given to a qualified person. A voting trust with respect to shares of a professional service corporation shall not be valid unless all the trustees and beneficiaries thereof are qualified persons, except that a voting trust may be validly continued for a period of ten (10) months after the death of a deceased beneficiary or for a period of five (5) months after a beneficiary has become a disqualified person.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

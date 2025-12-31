@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/177.800"/>
+          <FRBRuri value="/us-ky/act/krs/177.800"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/177.800/eng"/>
+          <FRBRuri value="/us-ky/act/krs/177.800/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/177.800/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/177.800/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_800">
+        <num>177.800</num>
+        <content>
+          <p>The bonds shall be sold by the commission, in its discretion, at one (1) sale or from time to time as funds are required for the identified purposes. Each sale shall be upon sealed purchase bids which shall be publicly opened and considered after solicitation at least ten (10) days in advance by publication of a notice at least one (1) time in a financial newspaper or journal published in the City and State of New York, and by advertisement by publication pursuant to KRS . The commission may fix one (1) or more interest rates by resolutions adopted prior to publication of the advertisement, or may notify bidders to stipulate in their bids one (1) or more interest rates of their own choosing and fix the rate or rates by resolution when action is taken upon the bids. The commission shall reserve the right to reject bids.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

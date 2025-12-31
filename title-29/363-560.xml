@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/363.560"/>
+          <FRBRuri value="/us-ky/act/krs/363.560"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/363.560/eng"/>
+          <FRBRuri value="/us-ky/act/krs/363.560/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/363.560/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/363.560/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_363_560">
+        <num>363.560</num>
+        <content>
+          <p>The power and duty to administer and enforce  to is vested in the Department of Agriculture, and shall be exercised under the supervision of the Office for Consumer and Environmental Protection through the Division of Regulation and Inspection. The division shall be headed by a director appointed by the Commissioner of Agriculture and shall have personnel as determined and appointed by the Commissioner.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

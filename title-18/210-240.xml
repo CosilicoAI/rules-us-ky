@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/210.240"/>
+          <FRBRuri value="/us-ky/act/krs/210.240"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/210.240/eng"/>
+          <FRBRuri value="/us-ky/act/krs/210.240/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/210.240/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/210.240/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_210_240">
+        <num>210.240</num>
+        <content>
+          <p>The secretary of the Cabinet for Health and Family Services is authorized to establish training schools within the cabinet or within any of the institutions operated by the cabinet, for the training of necessary personnel for the institutions, or may arrange for the training of employees or prospective employees in any public or private school or institution having available facilities for that purpose. Funds of the cabinet may be used to pay salaries to employees, or to pay tuition and subsistence for employees or prospective employees, while receiving such training. Any employee or prospective employee who is paid a salary, or for whom tuition and subsistence are furnished, while receiving such training, shall be required to enter into a contract, prior to receiving such training, that unless he continues in the employ of the cabinet for at least a period equivalent to the training period, immediately following the completion of such training, he will reimburse to the cabinet the sum paid to or for him by the cabinet during the period of training.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

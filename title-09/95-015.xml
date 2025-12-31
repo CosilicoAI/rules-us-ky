@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/95.015"/>
+          <FRBRuri value="/us-ky/act/krs/95.015"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/95.015/eng"/>
+          <FRBRuri value="/us-ky/act/krs/95.015/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/95.015/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/95.015/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_95_015">
+        <num>95.015</num>
+        <content>
+          <p>Members of the police and fire departments in cities and urban-county governments shall abide by and adhere to the rules, regulations and laws set forth by the Kentucky Revised Statutes, and the legislative body of the city in which they are employed, provided, that no such rule, regulation or law shall apply that alters, abridges or otherwise restricts the constitutional rights of said members and said members, except when on duty, shall not be restrained from exercising their rights and privileges or from entering into any endeavor enjoyed by all other citizens of the city in which they reside.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

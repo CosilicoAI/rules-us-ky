@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/223.180"/>
+          <FRBRuri value="/us-ky/act/krs/223.180"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/223.180/eng"/>
+          <FRBRuri value="/us-ky/act/krs/223.180/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/223.180/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/223.180/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_223_180">
+        <num>223.180</num>
+        <content>
+          <p>The Energy and Environment Cabinet shall classify all water treatment plants and water distribution systems with due regard to size, type, physical conditions affecting such treatment plants and distribution systems, and according to the skill, knowledge and experience that the operator must have to supervise successfully the operation of such water treatment plants and water distribution systems so as to protect the public health.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

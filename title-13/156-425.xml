@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/156.425"/>
+          <FRBRuri value="/us-ky/act/krs/156.425"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/156.425/eng"/>
+          <FRBRuri value="/us-ky/act/krs/156.425/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/156.425/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/156.425/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_156_425">
+        <num>156.425</num>
+        <content>
+          <p>The form of the sworn statement and bond required shall be prescribed by the chief state school officer. The bond shall be in force for the adoption period. The person, firm, or corporation may at any time while the bond is in force file a supplemental statement covering additional books or special editions of books previously filed. The supplemental statement shall expire at the date of expiration of the original statement and bond. Prior to the expiration of any statement and bond the person may file a new statement and bond for a further period of adoption, and if he fails to file a new statement and bond his right to offer textbooks for adoption and use in the public schools of Kentucky shall expire on the date of expiration of the former bond.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

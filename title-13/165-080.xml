@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/165.080"/>
+          <FRBRuri value="/us-ky/act/krs/165.080"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/165.080/eng"/>
+          <FRBRuri value="/us-ky/act/krs/165.080/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/165.080/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/165.080/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_165_080">
+        <num>165.080</num>
+        <content>
+          <p>The board of aldermen of any city of the first class may adopt an ordinance submitting to the voters of the city at any regular election held in the city the question of whether or not bonds of the city shall be issued for the benefit of the municipal university if the ordinance is filed with the county clerk not later than the second Tuesday in August preceding the regular election. Authorization of the bond issue and submission of the question to the voters may be by one (1) ordinance and at one (1) election covering the entire amount of the bonds or it may be by different ordinances authorizing different elections at different times for parts of the total amount. The ordinance shall provide the date and maturity of the bonds, the rate of interest they shall bear and the total amount to be then issued, and shall contain the necessary details with reference to the execution and delivery of the bonds, their denominations, coupons to be attached, and taxes to be levied to pay interest and to create a sinking fund to retire the bonds at maturity. A failure of the voters at one (1) election to authorize a bond issue shall not prevent submission of the question of issuing bonds at subsequent elections.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

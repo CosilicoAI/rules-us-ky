@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/403.715"/>
+          <FRBRuri value="/us-ky/act/krs/403.715"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/403.715/eng"/>
+          <FRBRuri value="/us-ky/act/krs/403.715/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/403.715/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/403.715/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_403_715">
+        <num>403.715</num>
+        <content>
+          <p>to shall be interpreted to:</p>
+          <p>Expand the ability of law enforcement officers to effectively respond to further wrongful conduct so as to prevent future incidents and to provide assistance to the victims;</p>
+        </content>
+        <subsection eId="sec_403_715__subsec_3">
+          <num>(3)</num>
+          <content>
+            <p>Provide peace officers with the authority to immediately apprehend and charge for violation of an order of protection any person whom the officer has probable cause to believe has violated an order of protection and to provide courts with the authority to conduct contempt of court proceedings for these violations;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_403_715__subsec_4">
+          <num>(4)</num>
+          <content>
+            <p>Provide for the collection of data concerning incidents of domestic violence and abuse in order to develop a comprehensive analysis of the numbers and causes of such incidents; and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_403_715__subsec_5">
+          <num>(5)</num>
+          <content>
+            <p>Supplement and not repeal or supplant any duties, responsibilities, services, or penalties under KRS Chapters 209, 209A, and 620.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

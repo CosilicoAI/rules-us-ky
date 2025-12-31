@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/304.17B"/>
+          <FRBRuri value="/us-ky/act/krs/304.17B"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/304.17B/eng"/>
+          <FRBRuri value="/us-ky/act/krs/304.17B/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/304.17B/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/304.17B/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_304_17B">
+        <num>304.17B</num>
+        <content>
+          <p>Health benefit plans provided under Kentucky Access shall not impose a copayment or coinsurance amount charged to the insured for services rendered by a chiropractor licensed under KRS  or an optometrist licensed under KRS  that is greater than the copayment or coinsurance amount charged to the insured for the services of a physician or an osteopath licensed under KRS  for the same or similar diagnosed condition, even if different nomenclature is used to describe the condition or complaint.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

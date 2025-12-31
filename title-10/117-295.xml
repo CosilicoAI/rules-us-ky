@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/117.295"/>
+          <FRBRuri value="/us-ky/act/krs/117.295"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/117.295/eng"/>
+          <FRBRuri value="/us-ky/act/krs/117.295/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/117.295/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/117.295/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_117_295">
+        <num>117.295</num>
+        <content>
+          <p>All the data and figures shall be examined by the court, judge, county board of elections, State Board of Elections, or committee in the presence of the officer having the custody of the voting equipment, ballots, and ballot boxes. In the event of a contest of election, the court in which the contest is pending or the committee before which the contest is being heard may, upon motion of any party to the contest, issue an order requiring that the voting equipment, ballots, and ballot boxes shall remain continuously locked for further time as may be reasonable or necessary, with due regard for the preparation of the voting equipment for a succeeding primary, regular election, or special election, but in no event shall the order compel that the voting equipment remain locked to a time within thirty (30) days next preceding any approaching primary, regular election, or special election.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

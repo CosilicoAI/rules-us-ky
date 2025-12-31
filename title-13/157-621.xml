@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/157.621"/>
+          <FRBRuri value="/us-ky/act/krs/157.621"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/157.621/eng"/>
+          <FRBRuri value="/us-ky/act/krs/157.621/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/157.621/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/157.621/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_157_621">
+        <num>157.621</num>
+        <content>
+          <p>1.
+      Was subject to recall at the time it was levied; and</p>
+          <p>2.
+      Included a rate of at least five cents ($0.05) equivalent rate for the purpose of debt service for school construction or major renovation of existing school facilities;</p>
+          <p>shall be eligible for retroactive equalization from the state for that levy at one hundred fifty percent (150%) of the statewide average per pupil assessment beginning in fiscal year 2003-2004, subject to the fiscal condition of the Commonwealth and the provision of funding by the General Assembly. Equalization funds shall be used as provided in .</p>
+          <p>shall be eligible for equalization from the state for that levy at one hundred fifty percent (150%) of the statewide average per pupil assessment beginning in fiscal year 2005-2006, subject to the provision of funding by the General Assembly. Equalization funds shall be used as provided in . Equalization funds shall be available to a local school district pursuant to this subsection until the earlier of June 30, 2038, or the date the bonds for the local school district supported by this equalization funding are retired.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

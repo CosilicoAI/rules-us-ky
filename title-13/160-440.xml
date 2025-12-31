@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/160.440"/>
+          <FRBRuri value="/us-ky/act/krs/160.440"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/160.440/eng"/>
+          <FRBRuri value="/us-ky/act/krs/160.440/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/160.440/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/160.440/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_160_440">
+        <num>160.440</num>
+        <content>
+          <p>Each board of education shall appoint a secretary for a term of one (1), two (2), three (3), or four (4) years. The secretary shall not be a member of the board of education. The board of education of any district may appoint its superintendent as secretary. However, a superintendent who serves as secretary to the board shall not receive compensation in addition to that which he receives for serving as superintendent. The board may fix a reasonable salary for the secretary. The secretary shall keep the records of the board and perform other duties imposed upon him by the board. All orders of the board must be signed by the secretary and countersigned by the chairman of the board. The secretary shall be custodian of all securities, documents, title papers, and other papers of the board under such conditions as the board may direct. The secretary, when other than the superintendent, shall make all records of the board available to the superintendent and the board of education at any time and shall furnish the superintendent of schools and the board of education such information as is revealed by the records at any time upon the request of the superintendent or the board of education.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

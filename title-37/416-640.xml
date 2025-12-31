@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/416.640"/>
+          <FRBRuri value="/us-ky/act/krs/416.640"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/416.640/eng"/>
+          <FRBRuri value="/us-ky/act/krs/416.640/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/416.640/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/416.640/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_416_640">
+        <num>416.640</num>
+        <content>
+          <p>Where there are conflicting
+    claimants to the land sought to be condemned and all such parties are before
+    the court, each claimant, for the purposes of the condemnation proceeding
+    only, shall be deemed to be an owner, and the procedure for the condemnation
+    of the land shall be as provided in  to except that, before
+    the condemnor shall be entitled to take possession of the land, it shall be
+    required to pay the compensation awarded therein to the Circuit Court clerk
+    to be held for the benefit of, and paid over to such persons as may thereafter
+    be determined to be entitled to receive it. In such cases, the claimants may
+    have their rights determined in a separate action, but the filing of such
+    action or its pendency shall in no wise stay or delay said condemnation proceedings.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

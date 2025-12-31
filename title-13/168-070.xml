@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/168.070"/>
+          <FRBRuri value="/us-ky/act/krs/168.070"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/168.070/eng"/>
+          <FRBRuri value="/us-ky/act/krs/168.070/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/168.070/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/168.070/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_168_070">
+        <num>168.070</num>
+        <content>
+          <p>At such organizational meeting, or at any subsequent meeting, the authority may elect an executive committee, not less than three (3) in number, of which the chairman or vice chairman of the authority shall be a member and the presiding officer. The powers of the executive committee to transact business between meetings of the authority shall be defined, and may be limited, but it shall not be provided that actions of the executive committee within its defined powers and limitations are subject to review, or not final and binding as actions of the authority. The executive committee shall preserve minutes of its proceedings, and file a written copy thereof with the secretary at or before the next ensuing regular meeting of the authority.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

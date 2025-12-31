@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/205.290"/>
+          <FRBRuri value="/us-ky/act/krs/205.290"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/205.290/eng"/>
+          <FRBRuri value="/us-ky/act/krs/205.290/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/205.290/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/205.290/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_205_290">
+        <num>205.290</num>
+        <content>
+          <p>The amounts recovered for any reason from a recipient or the estate of a recipient of public assistance shall be deposited to a special account in the revolving, trust and agency fund account of the cabinet. This fund shall be administered and disbursed in the same manner and under the same conditions and requirements as is provided by law for other special funds in the State Treasury. The moneys received heretofore and hereafter deposited in the fund may in the discretion of the secretary and with the approval of the Governor be used for public assistance administrative cost, grant purposes, or both. Any balance in this fund shall not lapse at any time, but shall be continuously available to the cabinet for the purposes set out in this section. A general statement that all continuing appropriations are repealed shall not be construed as repealing this section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

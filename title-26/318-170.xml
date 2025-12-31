@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/318.170"/>
+          <FRBRuri value="/us-ky/act/krs/318.170"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/318.170/eng"/>
+          <FRBRuri value="/us-ky/act/krs/318.170/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/318.170/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/318.170/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_318_170">
+        <num>318.170</num>
+        <content>
+          <p>For the purpose of enforcing the provisions of this chapter and the State Plumbing Code, officers, agents, and inspectors of the department shall have the power and authority to enter upon premises at all reasonable times for the purpose of making inspections, to interrogate all persons and to require the production of plumbing installation permits and other evidence. Officers, agents, and inspectors of the department are empowered to issue a stop order to any owner, agent, or occupant of real property whenever the plumbing thereon is found by the officer, agent or inspector of the department to be in violation of this chapter or the State Plumbing Code.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

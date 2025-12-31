@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/42.024"/>
+          <FRBRuri value="/us-ky/act/krs/42.024"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/42.024/eng"/>
+          <FRBRuri value="/us-ky/act/krs/42.024/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/42.024/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/42.024/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42_024">
+        <num>42.024</num>
+        <content>
+          <p>The Office of Material and Procurement Services within the Office of the Controller shall be responsible for the performance of the cabinet’s purchasing functions under KRS Chapters 45 and 45A, except those purchasing functions related to the acquisition of interests in real property, and contractual and construction services which are related to and required in connection with the construction, renovation, and repair of state-owned buildings. The Office of Material and Procurement Services shall be responsible for the control of all state-purchased personal property.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

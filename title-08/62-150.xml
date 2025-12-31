@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/62.150"/>
+          <FRBRuri value="/us-ky/act/krs/62.150"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/62.150/eng"/>
+          <FRBRuri value="/us-ky/act/krs/62.150/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/62.150/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/62.150/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_62_150">
+        <num>62.150</num>
+        <content>
+          <p>All elective or appointive county officers of any county containing a population of two hundred thousand (200,000) or more who, upon assuming their respective offices, are required under the law to execute a bond for the faithful discharge and performance of their duties, and who shall have such bond executed by any incorporated surety company authorized to do a surety business in the State of Kentucky, shall pay the premium on such bond, and the amount paid for such premium shall be and become a valid claim against the county, except where the law provides that it be paid by the state, and shall be paid in the same manner as other claims are paid. In each case in which a claim is made for the payment of premium on the bond executed as above set out, the officer executing the bond as principal shall verify the claim by his affidavit.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

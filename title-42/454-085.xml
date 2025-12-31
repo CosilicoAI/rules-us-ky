@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/454.085"/>
+          <FRBRuri value="/us-ky/act/krs/454.085"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/454.085/eng"/>
+          <FRBRuri value="/us-ky/act/krs/454.085/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/454.085/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/454.085/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_454_085">
+        <num>454.085</num>
+        <content>
+          <p>Upon the dissolution, in whole or in part, of an injunction to stay proceedings upon a judgment, the damages shall be assessed by the court; which may hear the evidence and decide in a summary way, or may, at its discretion, cause a jury to be impaneled to find the damages. If the collection, payment or use of money be enjoined, the damages may be any rate percent on the sum released by the dissolution, which, in the discretion of the court, may be proper, not exceeding ten percent. And, if the delivery of property have been delayed by the injunction, the value of the use, hire or rent thereof shall be assessed; judgment shall be rendered against the party who obtained the injunction for the damages assessed; and the assessment shall be conclusive against the surety of such party.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/91.494"/>
+          <FRBRuri value="/us-ky/act/krs/91.494"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/91.494/eng"/>
+          <FRBRuri value="/us-ky/act/krs/91.494/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/91.494/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/91.494/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_91_494">
+        <num>91.494</num>
+        <content>
+          <p>Affidavits of publication of notice and of posting, mailing, or other acts required by the provisions of  to shall be filed in the office of the circuit clerk prior to the trial, and when so filed shall constitute part of the evidentiary document in the enforcement suit. The affidavits shall be prima facie evidence of the performance of acts therein described, and may be so used in the trial of the suit unless challenged by verified answer duly filed in the suit.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/91.450"/>
+          <FRBRuri value="/us-ky/act/krs/91.450"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/91.450/eng"/>
+          <FRBRuri value="/us-ky/act/krs/91.450/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/91.450/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/91.450/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_91_450">
+        <num>91.450</num>
+        <content>
+          <p>Within a reasonable time after the tax bills for the year have been listed with the tax receiver, he shall mail a postpaid tax notice, directed to the best of his knowledge, to every person against whom a tax bill has been listed. In the case of an infant or mentally disabled person the notice shall be mailed to his guardian or conservator, and in the case of an absent owner whose address is unknown to the tax receiver it shall be mailed to the agent of the owner. The tax notice shall give a brief description of the property taxed, and shall state the number and amount of the bill listed against the taxpayer, the date of its maturity, and the penalties imposed for nonpayment. The failure of the tax receiver to send the tax notice, or of the taxpayer to receive it, shall not invalidate the tax, or the interest or penalties provided for by , or any subsequent proceeding for the collection of either.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

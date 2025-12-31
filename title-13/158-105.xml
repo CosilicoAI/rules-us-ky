@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/158.105"/>
+          <FRBRuri value="/us-ky/act/krs/158.105"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/158.105/eng"/>
+          <FRBRuri value="/us-ky/act/krs/158.105/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/158.105/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/158.105/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_158_105">
+        <num>158.105</num>
+        <content>
+          <p>Each school district in this state shall admit to its twelve (12) grade school service, without tuition, any veteran of the Armed Forces whose attendance was interrupted, before completing the approved twelve (12) grade school course, because of induction or enlistment in the Armed Forces. The veteran shall apply for reenrollment in the public school system of the district of his residence not later than four (4) years after his honorable discharge from the Armed Forces. However, this is not intended to apply to enrollment by veterans in special courses for which tuition is paid under the provisions of federal laws, or otherwise.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

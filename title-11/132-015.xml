@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/132.015"/>
+          <FRBRuri value="/us-ky/act/krs/132.015"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/132.015/eng"/>
+          <FRBRuri value="/us-ky/act/krs/132.015/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/132.015/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/132.015/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_132_015">
+        <num>132.015</num>
+        <content>
+          <p>The property valuation administrator shall maintain lists of all real property additions and real property deletions to the property tax rolls for the county, consolidated local government, or urban-county, and each city, school district, and special district in the county, consolidated local government, or urban-county, and shall certify such lists to the Department of Revenue, the city clerk of each city in the county which elects to use the annual county assessment as provided for in , the treasurer or chief officer of each special district in the county, and the chief administrative officer of the urban-county and the consolidated local government at the time he files his recapitulation of property assessed on the tax roll with the Department of Revenue.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

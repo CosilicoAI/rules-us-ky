@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/132.510"/>
+          <FRBRuri value="/us-ky/act/krs/132.510"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/132.510/eng"/>
+          <FRBRuri value="/us-ky/act/krs/132.510/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/132.510/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/132.510/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_132_510">
+        <num>132.510</num>
+        <content>
+          <p>Every executor, administrator, guardian, conservator, trustee, trustee in bankruptcy, receiver or other person acting in a fiduciary capacity shall, when required, file with the Department of Revenue a sworn inventory showing in detail the amount and character of personal property in his hands, unless the inventory has been filed as a public record in the court in which the fiduciary qualifies. The department may examine the books and accounts of any person acting in a fiduciary capacity. No fiduciary shall receive a final discharge until he has satisfied the court settling his accounts that all taxes against the estate have been paid.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

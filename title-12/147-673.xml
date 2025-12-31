@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/147.673"/>
+          <FRBRuri value="/us-ky/act/krs/147.673"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/147.673/eng"/>
+          <FRBRuri value="/us-ky/act/krs/147.673/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/147.673/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/147.673/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_147_673">
+        <num>147.673</num>
+        <content>
+          <p>Where a city or county is located within the territory of an area planning commission and also within a planning unit established under the provisions of KRS , all applications for the adoption, revision, or amendment of any comprehensive plan, zoning ordinance, or subdivision regulation, shall be filed with the area planning commission. The area planning commission staff shall immediately notify the city or county involved, promptly forwarding the application to the appropriate local planning commission of the planning unit as established under the provisions of KRS , and request a public hearing be scheduled before said local planning commission. Such public hearing shall be scheduled to be held within forty-five (45) days of the date of receipt of the application by the area planning commission. The area planning commission may contract with any local planning commission of a planning unit, located within its territory, as established under the provisions of KRS , to provide the statutory notice and publication requirements for such public hearings, and any staff assistance necessary to conduct the public hearing before the local planning commission. In all cases, the area planning commission staff shall be required to review and make recommendations upon all such applications to the applicable local planning commission, and to the applicant, along with supporting information and comprehensive plan documentation, prior to or at the scheduled public hearing.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/117.086"/>
+          <FRBRuri value="/us-ky/act/krs/117.086"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/117.086/eng"/>
+          <FRBRuri value="/us-ky/act/krs/117.086/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/117.086/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/117.086/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_117_086">
+        <num>117.086</num>
+        <content>
+          <p>The county clerk shall send a copy of each list to the State Board of Elections after any primary or election day. Notwithstanding the provisions of the Kentucky Open Records Act,  to  each list of all persons who return their mail-in absentee ballots or who cast their ballots in the clerk’s office or other designated and approved place shall not be made public until after the close of business hours on the primary or election day for which the list applies, except when provided to the county board of elections under Section 14 of this Act. The county clerk and the Secretary of State shall keep a record of the number of votes cast by each method listed in paragraphs (a) to (c) of this subsection, which are cast in any primary or election as a part of the official returns of the primary or election.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

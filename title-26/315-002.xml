@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/315.002"/>
+          <FRBRuri value="/us-ky/act/krs/315.002"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/315.002/eng"/>
+          <FRBRuri value="/us-ky/act/krs/315.002/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/315.002/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/315.002/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_315_002">
+        <num>315.002</num>
+        <content>
+          <p>The practice of pharmacy within the Commonwealth is declared to be a professional practice affecting the public health, safety, and welfare, and is subject to regulation and control in the public interest. It is further declared to be a matter of public interest and concern that the practice of pharmacy, as defined in this chapter, should merit and receive the confidence of the public, and only qualified persons shall be permitted to engage in the practice of pharmacy and ensure the quality of drugs and related devices distributed within the Commonwealth. This chapter shall be liberally construed to carry out these objectives and purposes. The persons entrusted through this chapter to engage in the practice of pharmacy shall be pharmacists. They shall be recognized by the Commonwealth as health care professionals, and, within their statutory scope of practice, providers of pharmacy-related primary care.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

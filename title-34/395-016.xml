@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/395.016"/>
+          <FRBRuri value="/us-ky/act/krs/395.016"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/395.016/eng"/>
+          <FRBRuri value="/us-ky/act/krs/395.016/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/395.016/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/395.016/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_395_016">
+        <num>395.016</num>
+        <content>
+          <p>When notice of hearing of an application for the appointment of an administrator, administrator with will annexed or guardian is required, it shall be given by mailing written notice of the time, place and purpose of such hearing at least five (5) days before said hearing. Proof of such notice shall be by certified mail, return receipt requested or by applicant’s affidavit that the same was mailed to each of the parties entitled thereto in a sealed envelope, postage prepaid, and the date when posted, which proof shall be filed at the time of hearing. If all parties entitled to notice are under no disability and waive notice in writing, the court may hear such application as if notice had been given. A minor over fourteen (14) years of age may waive notice if present in person at the time of hearing of application for appointment of his guardian; provided, however in any estate where the gross amount involved is less than five thousand dollars ($5,000) the court in its discretion may dispense with the requirements of this section relating to notice.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

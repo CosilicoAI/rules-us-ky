@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/196.736"/>
+          <FRBRuri value="/us-ky/act/krs/196.736"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/196.736/eng"/>
+          <FRBRuri value="/us-ky/act/krs/196.736/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/196.736/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/196.736/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_196_736">
+        <num>196.736</num>
+        <content>
+          <p>The Kentucky State Corrections Commission shall submit an annual report on the implementation and results of any pilot projects developed pursuant to  to the Legislative Research Commission, the Chief Justice, and the Governor on or before September 1 of each year. The report shall also include the calculations made pursuant to  and the resulting performance incentive funding appropriated, if any.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

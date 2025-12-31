@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/95.960"/>
+          <FRBRuri value="/us-ky/act/krs/95.960"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/95.960/eng"/>
+          <FRBRuri value="/us-ky/act/krs/95.960/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/95.960/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/95.960/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_95_960">
+        <num>95.960</num>
+        <content>
+          <p>Funds in the Kentucky Law Enforcement Foundation Program Fund may be utilized by the Department of Criminal Justice Training to reimburse cities, urban-counties, or charter counties with regular police departments of ten (10) or fewer officers for the cost of the base salary for each regular, full-time police officer while the officer is obtaining the training required in . The city, urban-county, or charter county shall show to the satisfaction of the Department of Criminal Justice Training that it will be placed in a situation of undue hardship if the funding is not provided. The secretary of the Justice and Public Safety Cabinet shall promulgate administrative regulations upon the recommendation of the Kentucky Law Enforcement Council to define what constitutes “undue financial hardship” and to otherwise implement this section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

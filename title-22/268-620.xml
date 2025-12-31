@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/268.620"/>
+          <FRBRuri value="/us-ky/act/krs/268.620"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/268.620/eng"/>
+          <FRBRuri value="/us-ky/act/krs/268.620/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/268.620/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/268.620/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_268_620">
+        <num>268.620</num>
+        <content>
+          <p>If the plan for reclamation in any district relates in part to the drainage of the lands and in part to the prevention of overflowing of lands within the district from any stream or body of water coming from without the district, any stream, drain, cut or depression, or any fill, levee or embankment may be used as part of the reclamation system by changing it in any way, if the efficiency thereof to the owner is not impaired.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

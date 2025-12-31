@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/160.605"/>
+          <FRBRuri value="/us-ky/act/krs/160.605"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/160.605/eng"/>
+          <FRBRuri value="/us-ky/act/krs/160.605/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/160.605/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/160.605/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_160_605">
+        <num>160.605</num>
+        <content>
+          <p>There is hereby authorized the levy of an occupational license tax for schools on salaries, wages, commissions, and other compensation of individuals for work done and services performed or rendered in a county and on the net profits of all businesses, professions, or occupations from activities conducted in a county. No public service company which pays an ad valorem tax is required to pay an occupational license tax for schools. No occupational license tax for schools shall be imposed upon or collected from any insurance company, bank, trust company, combined bank and trust company, combined trust, banking and title business in this state, any savings and loan association whether state or federally chartered, or upon income received by members of the Kentucky National Guard for active duty training, unit training assemblies, and annual field training, or upon income received by precinct workers for election training or work at election booths in state, county, and local primary, regular, or special election.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

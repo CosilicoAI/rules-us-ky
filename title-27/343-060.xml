@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/343.060"/>
+          <FRBRuri value="/us-ky/act/krs/343.060"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/343.060/eng"/>
+          <FRBRuri value="/us-ky/act/krs/343.060/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/343.060/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/343.060/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_343_060">
+        <num>343.060</num>
+        <content>
+          <p>No apprentice or trainee agreements submitted for approval under this chapter shall be effective until written approval of the agreement is provided by the supervisor. Every apprenticeship or on-the-job training agreement, so submitted, shall be signed by the contracting parties and the parent or guardian if the apprentice or trainee is a minor. Where a minor enters into an apprenticeship or on-the-job training agreement under this chapter for a period of training extending into his majority, the apprenticeship or on-the-job training agreement shall likewise be binding for the period covered during his majority.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

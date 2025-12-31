@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/91.350"/>
+          <FRBRuri value="/us-ky/act/krs/91.350"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/91.350/eng"/>
+          <FRBRuri value="/us-ky/act/krs/91.350/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/91.350/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/91.350/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_91_350">
+        <num>91.350</num>
+        <content>
+          <p>The assessor shall, on or before September 10 of each year, or as soon thereafter as is practicable, have available to the general public, records of the current assessment return which shall include the names of all owners or holders of lands, improvements or personal property, showing opposite the name of each owner or holder the number and block of each of his lots according to the maps in the office of the assessor, the aggregate value of each parcel of land, the value per front foot when the land fronts on a public way, the value of the improvements, and the assessed value of the personal property.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

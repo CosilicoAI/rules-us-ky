@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/76.610"/>
+          <FRBRuri value="/us-ky/act/krs/76.610"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/76.610/eng"/>
+          <FRBRuri value="/us-ky/act/krs/76.610/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/76.610/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/76.610/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_76_610">
+        <num>76.610</num>
+        <content>
+          <p>Any metropolitan sewer district created in the manner provided in this chapter may, if the board of such district deems it advisable, use the authority and procedures granted to incorporated municipalities by  to  When applied to metropolitan sewer districts, terms used in  to shall be construed to mean the following: “city” or “municipality” means “metropolitan sewer district” (except that in ,  2)(a) and (c), and referring to city taxes the term “city” shall continue to mean “city”); “ordinance” means “resolution”; “clerk” means “secretary of the metropolitan sewer district”; and “mayor or chairman of the board of directors” means “chairman of board of the metropolitan sewer district.”</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

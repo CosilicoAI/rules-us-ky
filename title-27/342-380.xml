@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/342.380"/>
+          <FRBRuri value="/us-ky/act/krs/342.380"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/342.380/eng"/>
+          <FRBRuri value="/us-ky/act/krs/342.380/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/342.380/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/342.380/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_342_380">
+        <num>342.380</num>
+        <content>
+          <p>No policy of insurance or rider to be used therewith shall be issued or delivered until a copy of its form has been filed with the commissioner of the Department of Insurance at least thirty (30) days before such issue or delivery, unless before the expiration of thirty (30) days the commissioner of the Department of Insurance has approved the form thereof in writing; nor if the commissioner of the Department of Insurance notifies the company in writing that in his opinion the form of the policy or rider does not comply with the laws of this state, specifying fully the reasons for his opinion. Upon petition of the company, the decision of the commissioner of the Department of Insurance shall be subject to review by the Franklin Circuit Court and to appeal therefrom to the Court of Appeals.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

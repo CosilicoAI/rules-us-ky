@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/6.230"/>
+          <FRBRuri value="/us-ky/act/krs/6.230"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/6.230/eng"/>
+          <FRBRuri value="/us-ky/act/krs/6.230/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/6.230/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/6.230/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6_230">
+        <num>6.230</num>
+        <content>
+          <p>Employees of the General Assembly shall receive a per diem as follows: chief clerk, one hundred twenty dollars ($120); assistant clerk, one hundred ten dollars ($110); enrolling clerk, one hundred five dollars ($105); sergeant-at-arms, eighty-five dollars ($85); doorkeeper, eighty-five dollars ($85); janitors, seventy-five dollars ($75); cloakroom keeper, seventy-five dollars ($75); pages, thirty-five dollars ($35) each.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

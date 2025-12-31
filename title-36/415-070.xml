@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/415.070"/>
+          <FRBRuri value="/us-ky/act/krs/415.070"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/415.070/eng"/>
+          <FRBRuri value="/us-ky/act/krs/415.070/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/415.070/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/415.070/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_415_070">
+        <num>415.070</num>
+        <content>
+          <p>A person adjudged to have usurped an office or franchise shall be deprived thereof by the judgment of the court, and the person adjudged entitled thereto shall be placed in possession thereof; but no one shall be adjudged entitled thereto, unless the action be instituted by him. And the court shall have power to enforce its judgment by causing the books and papers, and all other things pertaining to the office or franchise, to be surrendered by the usurper; and by preventing him from further exercising or using the same; and may enforce its orders by fine and imprisonment until obeyed.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/77.275"/>
+          <FRBRuri value="/us-ky/act/krs/77.275"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/77.275/eng"/>
+          <FRBRuri value="/us-ky/act/krs/77.275/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/77.275/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/77.275/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_77_275">
+        <num>77.275</num>
+        <content>
+          <p>If any local ordinance has provided regulations similar to those in  to or to any order, regulation, or rule prescribed by the air pollution control board, and has provided for the granting of variances, and pursuant to the local ordinance a variance has been granted prior to the adoption of a resolution by the fiscal court and the passage of an ordinance by the legislative body, pursuant to  to  or the passage of an ordinance by the consolidated local government, the variance shall be continued as a variance of the hearing board for the time specified therein or one (1) year, whichever is shorter, or until and unless prior to the expiration of such time the hearing board modifies or revokes such variance as provided in  to</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

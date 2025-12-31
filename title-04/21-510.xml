@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/21.510"/>
+          <FRBRuri value="/us-ky/act/krs/21.510"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/21.510/eng"/>
+          <FRBRuri value="/us-ky/act/krs/21.510/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/21.510/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/21.510/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_510">
+        <num>21.510</num>
+        <content>
+          <p>For the purposes of  to  there is appropriated to the judicial retirement fund all sums received from contributions of members of the retirement system created by  to  There further is appropriated, out of the general expenditure fund in the State Treasury, the sum of $53,600 for the fiscal year 1960-61 and the sum of $73,600 for the fiscal year 1961-62. The amount of accumulated state employer contributions to the Kentucky Employees Retirement System, on account of judges and commissioners of the Court of Appeals having been members of that system, also is hereby transferred to the judicial retirement fund. All sums appropriated or transferred to the judicial retirement fund shall be deemed to constitute a continuing fund which shall not lapse at the end of any fiscal year.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

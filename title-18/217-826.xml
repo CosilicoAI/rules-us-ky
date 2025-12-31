@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/217.826"/>
+          <FRBRuri value="/us-ky/act/krs/217.826"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/217.826/eng"/>
+          <FRBRuri value="/us-ky/act/krs/217.826/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/217.826/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/217.826/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_217_826">
+        <num>217.826</num>
+        <content>
+          <p>Whenever a drug has been prescribed with the indication “Do Not Substitute” for a patient who has a contract whereunder he is reimbursed for the costs of health care, then the party that has contracted to reimburse the patient shall make the reimbursement on the basis of the brand name price and not on the basis of the generic drug price.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

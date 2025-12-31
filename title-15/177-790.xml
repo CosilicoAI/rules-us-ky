@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/177.790"/>
+          <FRBRuri value="/us-ky/act/krs/177.790"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/177.790/eng"/>
+          <FRBRuri value="/us-ky/act/krs/177.790/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/177.790/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/177.790/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_790">
+        <num>177.790</num>
+        <content>
+          <p>If  to be approved by a majority of the votes cast thereon at said election, the initial date of issue of the 1960 bonds shall be established by resolution of the State Property and Buildings Commission prior to the first issuance and sale of any of said bonds; and thereafter all of the 1960 bonds, whenever issued, shall be dated as of said date, and shall mature as to principal on or prior to the thirtieth (30th) anniversary thereof. The bonds shall be sold for not less than par or face amount and shall bear interest at such rate or rates, but not to exceed the rate referred to in , as said commission may determine, and interest may be made payable semiannually. The bonds may be issued at one time or from time to time as the State Property and Buildings Commission may determine by its resolution or resolutions; and said commission shall in its discretion determine all details thereof, including but not by way of limitation, their denominations, whether the bonds shall be of term or serial maturities, and the amount which shall mature on any serial maturity date; whether the bonds, or any of them, shall be subject to redemption prior to stated maturities and upon what terms; place or places of payment of principal and interest, which may be within the Commonwealth or outside thereof; whether interest shall be evidenced by annexed coupons; whether the bonds shall be registered or registrable as to principal or interest, or both, and any other details not contrary to law or inconsistent with  to which in the discretion of said commission may appear wise and expedient.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

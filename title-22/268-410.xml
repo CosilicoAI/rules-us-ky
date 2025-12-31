@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/268.410"/>
+          <FRBRuri value="/us-ky/act/krs/268.410"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/268.410/eng"/>
+          <FRBRuri value="/us-ky/act/krs/268.410/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/268.410/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/268.410/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_268_410">
+        <num>268.410</num>
+        <content>
+          <p>“Commonwealth of Kentucky. County of To the sheriff of County: “This is to certify that the board of drainage commissioners of County, Kentucky, on behalf of drainage district No. of County (Counties), Kentucky, has levied the sum of $ as the annual installment of assessments for the year 19 , of the total assessment levied and certified to the county clerk of your county. The board, on behalf of the drainage district, also levies $ as a maintenance assessment for that year, both of which are set out in the following table, in which are: First, the names of the owners of property as they appear on the district assessment register; second, the amount of the installment of the assessment levied on that property due and collectible for the year 19, third, the amount of maintenance assessment levied against it. The assessment shall be payable at the same time as state and county taxes and you are ordered to demand and collect the assessments at the same time you demand and collect the state and county taxes due on the same property. This certificate shall be your warrant and authority for making such demand and collection.”</p>
+          <p>Click to view</p>
+          <p>“Done by order of the board of drainage commissioners of County on this day of , 19 Attest: Secretary President (Seal)”</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

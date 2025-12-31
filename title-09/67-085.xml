@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/67.085"/>
+          <FRBRuri value="/us-ky/act/krs/67.085"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/67.085/eng"/>
+          <FRBRuri value="/us-ky/act/krs/67.085/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/67.085/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/67.085/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_67_085">
+        <num>67.085</num>
+        <content>
+          <p>Whenever the fiscal court of any county deems it to be in the best interest of the county to acquire the fee simple title to any real property within such county for any administrative or governmental purpose in addition to those now provided for by law and the fiscal court is unable to contract with the owner of the land, required for such purpose, for its purchase or to acquire the same by gift, the land may be condemned under the procedure set forth in the Eminent Domain Act of Kentucky, and said fiscal court may appropriate funds to pay for said real property.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

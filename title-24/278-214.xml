@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/278.214"/>
+          <FRBRuri value="/us-ky/act/krs/278.214"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/278.214/eng"/>
+          <FRBRuri value="/us-ky/act/krs/278.214/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/278.214/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/278.214/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_278_214">
+        <num>278.214</num>
+        <content>
+          <p>When a utility or generation and transmission cooperative engaged in the transmission of electricity experiences on its transmission facilities an emergency or other event that necessitates a curtailment or interruption of service, the utility or generation and transmission cooperative shall not curtail or interrupt retail electric service within its certified territory, or curtail or interrupt wholesale electric energy furnished to a member distribution cooperative for retail electric service within the cooperative’s certified territory, except for customers who have agreed to receive interruptable service, until after service has been interrupted to all other customers whose interruption may relieve the emergency or other event.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

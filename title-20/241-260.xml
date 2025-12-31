@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/241.260"/>
+          <FRBRuri value="/us-ky/act/krs/241.260"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/241.260/eng"/>
+          <FRBRuri value="/us-ky/act/krs/241.260/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/241.260/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/241.260/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_241_260">
+        <num>241.260</num>
+        <content>
+          <p>Appeals from a decision or order of each urban-county administrator may be taken to the board by filing a notice of appeal with the board within thirty (30) days after the decision or order of the urban-county administrator is mailed or delivered by personal service. The notice of appeal shall specify the urban- county administrator by name and shall identify the decision or order, or part of the decision or order, being appealed. The notice shall contain a certificate that a copy of the notice has been served on the urban-county administrator and shall be accompanied by a copy of the decision or order being appealed. Matters at issue shall be heard by the board as upon an original proceeding. Appeals from decisions or orders of the urban-county administrator shall be governed by KRS .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

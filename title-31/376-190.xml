@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/376.190"/>
+          <FRBRuri value="/us-ky/act/krs/376.190"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/376.190/eng"/>
+          <FRBRuri value="/us-ky/act/krs/376.190/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/376.190/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/376.190/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_376_190">
+        <num>376.190</num>
+        <content>
+          <p>The plaintiff in an action to enforce a lien given by  or may unite with him as co-plaintiffs any similar lien-holders who consent thereto, and shall make all lien-holders and encumbrancers parties. Where the parties are numerous, any one (1) or more may be designated by the court to prosecute or defend for the same class. Action to enforce the lien shall be filed within sixty (60) days from the date of the assignment, or from the date when the property goes into the hands of a receiver or trustee, or from the date when the business is stopped, suspended or sold; or the claims for which a lien is asserted shall be filed in said time with the person authorized to receive and report claims.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

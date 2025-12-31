@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/190.047"/>
+          <FRBRuri value="/us-ky/act/krs/190.047"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/190.047/eng"/>
+          <FRBRuri value="/us-ky/act/krs/190.047/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/190.047/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/190.047/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_190_047">
+        <num>190.047</num>
+        <content>
+          <p>the manufacturer, distributor, factory branch, or factory representative shall, in writing, first notify the licensor, and each new motor vehicle dealer in the line make in the relevant market area, of the intention to establish an additional new motor vehicle dealership facility, or to establish an additional new motor vehicle dealership facility under an existing franchise, or to relocate an existing new motor vehicle dealership facility within or into that market area. The relevant market area shall be a radius of ten (10) miles around an existing new motor vehicle dealership facility. Within fifteen (15) days of receiving the notice, or within fifteen (15) days after the end of any appeal procedure provided by the manufacturer, distributor, factory branch, or factory representative, any new motor vehicle dealership may file with the licensor a protest to the establishment or relocation of the new motor vehicle dealership facility. When a protest is filed, the licensor shall inform the manufacturer, distributor, factory branch, or factory representative that a timely protest has been filed and that the manufacturer, distributor, factory branch, or factory representative shall not establish or relocate the proposed new motor vehicle dealership facility until the licensor has held a hearing in accordance with KRS , if the licensor has determined that there is good cause for permitting the new motor vehicle dealership facility. For the purposes of this section, the reopening in a relevant market area of a new motor vehicle dealership that has not been in operation for two (2) years or more shall be deemed the establishment of an additional new motor vehicle dealership facility.</p>
+          <p>In the case of the establishment of an additional new motor vehicle dealership facility under an existing franchise, good cause shall not be found if the additional facility fails to offer a range of service, including, but not limited to sales, service, parts, and financing.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

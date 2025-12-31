@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/36.235"/>
+          <FRBRuri value="/us-ky/act/krs/36.235"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/36.235/eng"/>
+          <FRBRuri value="/us-ky/act/krs/36.235/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/36.235/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/36.235/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_235">
+        <num>36.235</num>
+        <content>
+          <p>The Unit of Civil Air Patrol established pursuant to  shall perform emergency disaster work within the Commonwealth in all instances in which aeronautical equipment and maneuvers might be of assistance in relieving the disaster, and shall engage in all manner of air search and rescue for which the Civil Air Patrol is fitted. The head may establish facilities for aeronautical education and training.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

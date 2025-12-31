@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/286.2"/>
+          <FRBRuri value="/us-ky/act/krs/286.2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/286.2/eng"/>
+          <FRBRuri value="/us-ky/act/krs/286.2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/286.2/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/286.2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_286_2">
+        <num>286.2</num>
+        <content>
+          <p>Unless otherwise specifically provided for in this subtitle, the commissioner may levy a civil penalty against any person who violates any provision of this subtitle, any administrative regulation promulgated under this subtitle, or any order issued by the commissioner under this subtitle. The civil penalty shall be not less than one thousand dollars ($1,000) nor more than five thousand dollars ($5,000) per violation, plus the state’s costs and expenses for the examination, investigation, and prosecution of the matter, including reasonable attorney’s fees and court costs.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

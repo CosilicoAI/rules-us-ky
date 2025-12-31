@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/177.440"/>
+          <FRBRuri value="/us-ky/act/krs/177.440"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/177.440/eng"/>
+          <FRBRuri value="/us-ky/act/krs/177.440/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/177.440/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/177.440/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_440">
+        <num>177.440</num>
+        <content>
+          <p>All turnpikes established under the provisions of  to are declared to be limited access facilities, within the meaning and subject to the provisions of  to  and . No right of access to a turnpike shall vest in the holder of adjacent or neighboring property by reason of the proposal to construct, or the construction and operation of, a turnpike. Nothing in  to shall be construed to create any right of access in an owner near or adjacent to an entranceway to a turnpike, where such right did not already exist to an entranceway on a road or highway which has been incorporated into the turnpike.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

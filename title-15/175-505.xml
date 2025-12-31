@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/175.505"/>
+          <FRBRuri value="/us-ky/act/krs/175.505"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/175.505/eng"/>
+          <FRBRuri value="/us-ky/act/krs/175.505/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/175.505/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/175.505/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_175_505">
+        <num>175.505</num>
+        <content>
+          <p>There is hereby created a fund in the road fund of the Commonwealth of Kentucky entitled the debt payment acceleration fund. The fund shall consist of twenty percent (20%) of the revenues to the state road fund provided by the adjustments in  excluding the provisions of  and  Annually the Transportation Cabinet shall use the funds generated to accelerate the payment of debt service including principal and interest, over and above the annual debt service payments appropriated for each fiscal year, for all bonds issued and any refinancings thereof by the Kentucky Turnpike Authority. The Transportation Cabinet shall notify the Interim Joint Committee on Appropriations and Revenue by January 1 of each fiscal year of the debt payments which are to or have been accelerated in the fiscal year. In the event that, due to bond market conditions, the terms of the bonds issued or other factors, the Transportation Cabinet is unable to accelerate debt service payments, the Transportation Cabinet shall provide documentation to the Interim Joint Committee on Appropriations and Revenue that such acceleration is not possible and the reasons therefor. In such an event, the funds not available for debt acceleration shall be placed in a special escrow account in the Transportation Cabinet. Such funds shall not be expended for any of the lawful purposes of the Transportation Cabinet but shall be held in the escrow account until such time as the debt acceleration described by this section is possible. The Transportation Cabinet shall invest the funds allocated to the escrow account and any funds generated from these investments shall remain in the escrow account. Any funds remaining in the escrow account at the close of the fiscal year shall not lapse but shall be carried forward to the next fiscal year for use as provided in this section. In the event that all principal and interest outstanding on any bonds issued or any refinancing thereof by the turnpike authority has been paid, the Transportation Cabinet shall so report. In that event, any funds remaining in the escrow account shall remain in the fund until such time as the funds are appropriated by the General Assembly for any of the lawful purposes of the Transportation Cabinet.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

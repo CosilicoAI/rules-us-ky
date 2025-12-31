@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/326.030"/>
+          <FRBRuri value="/us-ky/act/krs/326.030"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/326.030/eng"/>
+          <FRBRuri value="/us-ky/act/krs/326.030/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/326.030/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/326.030/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_326_030">
+        <num>326.030</num>
+        <content>
+          <p>No person shall engage in the practice of ophthalmic dispensing unless he or she is duly licensed to practice medicine, osteopathy, or optometry in this Commonwealth or unless he or she is the holder of a license as an ophthalmic dispenser; provided, this section shall not be so construed as to prohibit a firm or corporation from operating a business which comes within the meaning of ophthalmic dispensing, if each of its employees either (1) coming in contact with the public and performing for the public any service or services included within the meaning of ophthalmic dispensing, or (2) otherwise performing any work or service required by this chapter to be performed by an ophthalmic dispenser, is the holder of a license as an ophthalmic dispenser.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

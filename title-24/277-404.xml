@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/277.404"/>
+          <FRBRuri value="/us-ky/act/krs/277.404"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/277.404/eng"/>
+          <FRBRuri value="/us-ky/act/krs/277.404/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/277.404/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/277.404/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_277_404">
+        <num>277.404</num>
+        <content>
+          <p>In addition to any other legal right, any person having a legal interest in land adjoining a railtrail or in the land traversed by the railtrail itself may grant to the entity holding the right to maintain a railtrail over the property a conservation easement over all or a portion of the property in accordance with  to  The entity holding the right to maintain a railtrail over the corridor may, if it finds the easement’s terms acceptable, yearly designate for the tax purposes of the party conveying the easement that the entity is holding the corridor pursuant to the authority granted to that entity in the easement as opposed to authority granted in  or any similar law allowing railbanking under federal law. This designation shall not, however, affect in any way the legal right of that entity to hold the corridor pursuant to a federal or state railbanking law or the operation of those laws, and the right to maintain the railtrail on the land shall not lapse as the result of the extinguishment or modification of the easement. The easement, by its terms, may be limited in duration from year to year or for a set period of years, may extinguish itself upon the happening of a defined contingent future event, or may last in perpetuity.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/67.763"/>
+          <FRBRuri value="/us-ky/act/krs/67.763"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/67.763/eng"/>
+          <FRBRuri value="/us-ky/act/krs/67.763/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/67.763/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/67.763/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_67_763">
+        <num>67.763</num>
+        <content>
+          <p>If any business entity dissolves or withdraws from a tax district during any taxable year, or if any business entity in any manner surrenders or loses its charter during any taxable year, the dissolution, withdrawal, or loss or surrender of charter shall not defeat the filing of returns and the assessment and collection of net profit or gross receipts taxes or tax withheld for the period of that taxable year during which the business entity had net profit or gross receipts or tax withheld in the tax district.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

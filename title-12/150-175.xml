@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/150.175"/>
+          <FRBRuri value="/us-ky/act/krs/150.175"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/150.175/eng"/>
+          <FRBRuri value="/us-ky/act/krs/150.175/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/150.175/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/150.175/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_150_175">
+        <num>150.175</num>
+        <content>
+          <p>The kinds of licenses and tags authorized by this chapter, and the acts authorized to be performed under the licenses and tags, subject to the other provisions of this chapter and subject to administrative regulations promulgated under this chapter, shall be as follows:</p>
+          <p>The senior combination license shall not be valid unless the holder carries proof of residency and proof of age , as the department may require by administrative regulation, on his or her person while performing an act authorized by the license;</p>
+          <p>The disabled combination license shall not be valid unless the holder carries proof of residency and proof of disability, as the department may require by administrative regulation, on his or her person while performing an act authorized by the license;</p>
+          <p>The department may offer multiyear licenses or permits for any of the annual licenses or permits authorized in subsections (1), (7), (9), (14), (15), (17), (18), (19), (23), and (28) of this section. A multiyear license or permit shall authorize the holder to perform all acts authorized by the same license or permit if purchased annually and shall be issued in accordance with the provisions of this chapter and the administrative regulations promulgated hereunder. Any multiyear licenses or permits offered by the department relating to the annual licenses or permits authorized in subsections (1), (7), (9), (14), (15), (17), (18), (19), (23), and (28) of this section shall be implemented by administrative regulation and may be discontinued at any time.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

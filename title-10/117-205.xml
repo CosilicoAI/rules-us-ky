@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/117.205"/>
+          <FRBRuri value="/us-ky/act/krs/117.205"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/117.205/eng"/>
+          <FRBRuri value="/us-ky/act/krs/117.205/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/117.205/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/117.205/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_117_205">
+        <num>117.205</num>
+        <content>
+          <p>Before the polls are open, and before permitting any person to vote on the day of the election, the election officers shall examine the voting equipment to ascertain whether it has been operated since the counters referred to in subsections (17) and (18) of Section 18 of this Act were set at zero, and to ascertain whether the ballots are arranged as previously specified. If the voting equipment indicates that it has been operated or if the ballots are not properly arranged, the officers shall not unlock the operating device or mechanism, but shall immediately secure the attendance of the county clerk and one (1) member of the county board of elections other than the county clerk, who shall reset the counters at zero and relock the device covering the counters, or properly arrange the ballots, as the case may be, in the presence of the election officers. If the attendance of members of the board of elections cannot be obtained before the opening of the polls or within one (1) hour thereafter, the election officers shall notify the county clerk of the foregoing facts and obtain from the county clerk reserve voting equipment, and proceed to conduct the election. Any reserve voting equipment shall have been certified for use at the election by the county board of elections and prepared for use at the election by the election officers in the precinct in the same manner as the original voting equipment was prepared for the election. The voting equipment found to have been so operated shall be returned immediately to the custody of the county clerk, whose duty it shall be to promptly repair same so that it may be used as reserve voting equipment in the election if needed.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

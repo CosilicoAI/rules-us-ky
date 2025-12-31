@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/252.200"/>
+          <FRBRuri value="/us-ky/act/krs/252.200"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/252.200/eng"/>
+          <FRBRuri value="/us-ky/act/krs/252.200/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/252.200/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/252.200/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_252_200">
+        <num>252.200</num>
+        <content>
+          <p>For the purposes of  to the Commissioner may establish and maintain quarantines prohibiting the shipment into or within the state, or any subdivision thereof of any bees, queen bees, used hives or any part thereof, used appliances or any material capable of transmitting any bee diseases, for such periods and under such conditions as he may deem necessary to control, eradicate or prevent the introduction, spread, or dissemination of any and all bee diseases, giving such notice thereof as may be prescribed by the Commissioner, and during the existence of such order no person shall remove or ship from such area any such material whatever except by special permission or order of the Commissioner; provided, however, that before the Commissioner shall promulgate the order of quarantine as provided in this section, the Commissioner shall, after due notice to interested persons, give a public hearing under such rules and regulations as the Commissioner shall prescribe, at which hearing any interested person may appear and be heard, either in person or by attorney.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

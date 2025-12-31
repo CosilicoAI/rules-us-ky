@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/76.600"/>
+          <FRBRuri value="/us-ky/act/krs/76.600"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/76.600/eng"/>
+          <FRBRuri value="/us-ky/act/krs/76.600/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/76.600/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/76.600/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_76_600">
+        <num>76.600</num>
+        <content>
+          <p>Existing metropolitan sewer districts created pursuant to the provisions of  to may provide for, construct, and finance wastewater collection projects according to the financing plan set forth in KRS Chapters 76 and 107. This authority is in addition to any authority otherwise conferred upon any metropolitan sewer district. If any metropolitan sewer district has undertaken any proceedings under any other law to construct a project, it may abandon such proceedings and proceed under the provisions of KRS Chapters 76 and 107. It is the purpose of KRS Chapters 76 and 107 to extend permissive authority to metropolitan sewer districts to finance wastewater collection projects according to the assessed value basis, whereby benefited properties shall be assessed the cost of such projects according to benefits conferred upon such properties.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

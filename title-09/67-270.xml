@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/67.270"/>
+          <FRBRuri value="/us-ky/act/krs/67.270"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/67.270/eng"/>
+          <FRBRuri value="/us-ky/act/krs/67.270/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/67.270/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/67.270/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_67_270">
+        <num>67.270</num>
+        <content>
+          <p>The territory formerly embraced within each of the old counties is hereby made into a separate special taxing district with power to levy and collect taxes, and the separate debt of each county shall be a first lien on the territory formerly embraced within that county. The fiscal court of the new county shall fix the rate of tax levy for each of the two (2) special taxing districts, and the property within each shall be assessed and the taxes collected by the same county officers of the new county, and in the same manner that the law provides for the assessment of property and the collection of taxes by counties. The money collected as taxes for each of the special taxing districts shall be kept separate and shall be used only in payment of the debts of the old county that formerly embraced the territory of that specific taxing district.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

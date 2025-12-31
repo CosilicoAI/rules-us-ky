@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/422.320"/>
+          <FRBRuri value="/us-ky/act/krs/422.320"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/422.320/eng"/>
+          <FRBRuri value="/us-ky/act/krs/422.320/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/422.320/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/422.320/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_422_320">
+        <num>422.320</num>
+        <content>
+          <p>When the copies of records are delivered to a party or his attorney of record for use in a deposition, they shall, after termination of the deposition, be delivered personally or by certified mail to the clerk of the court or other body before which the action or proceeding is pending, and it shall be the responsibility of such party or attorney to transmit the receipt obtained to the employee of the hospital charged with responsibility of being custodian of the original records. When the records are received by the clerk of a court or other body from the hospital or from a party or his attorney of record they shall be retained in the clerk’s custody at all times except when actually used in the action or proceeding. Upon issuance of a final order terminating a case, the copies of the records will be promptly filed by the clerk of the court with all other documents pertaining to the case until such a time as the normal retention period for court records expires. The copies of records shall then be permanently disposed of by the clerk in a manner that protects the confidentiality of the medical information contained therein. Should the case be appealed, the copies of records shall be forwarded to the Court of Appeals with other documents pertaining to the case and retained and disposed of in the manner previously described.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

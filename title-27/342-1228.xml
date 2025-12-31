@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/342.1228"/>
+          <FRBRuri value="/us-ky/act/krs/342.1228"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/342.1228/eng"/>
+          <FRBRuri value="/us-ky/act/krs/342.1228/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/342.1228/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/342.1228/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_342_1228">
+        <num>342.1228</num>
+        <content>
+          <p>The Kentucky Workers’ Compensation Funding Commission shall not be subject to the Governor’s power of reorganization under KRS , including attachment or transfer to another organizational unit or administrative body other than the Labor Cabinet. The Governor may, however, recommend changes in the organization of the commission to the General Assembly at any regular or special session of the General Assembly.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

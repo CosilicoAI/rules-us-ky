@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/161.555"/>
+          <FRBRuri value="/us-ky/act/krs/161.555"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/161.555/eng"/>
+          <FRBRuri value="/us-ky/act/krs/161.555/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/161.555/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/161.555/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_161_555">
+        <num>161.555</num>
+        <content>
+          <p>Each employer employing members of the Teachers’ Retirement System in positions established under educational acts adopted by the federal Congress shall contribute to the Teachers’ Retirement System an amount equal to that contributed by the members of that employer plus an additional two and forty-five hundredths percent (2.45%) for fiscal years 2003 and 2004. Beginning fiscal year 2005 and each year thereafter, each employer shall contribute an amount equal to the employer contribution provided under .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

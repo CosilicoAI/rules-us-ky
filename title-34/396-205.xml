@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/396.205"/>
+          <FRBRuri value="/us-ky/act/krs/396.205"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/396.205/eng"/>
+          <FRBRuri value="/us-ky/act/krs/396.205/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/396.205/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/396.205/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_396_205">
+        <num>396.205</num>
+        <content>
+          <p>Notwithstanding any other statute to the contrary, no cause of action on any claim not otherwise barred by the provisions of  and , or any other applicable statute of limitations, shall be brought against the personal representative or against any distributee after the expiration of two (2) years from the date of the order of discharge of the personal representative. The foregoing limitation shall not preclude an action by any claimant against the personal representative or any distributee for fraud.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/67.130"/>
+          <FRBRuri value="/us-ky/act/krs/67.130"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/67.130/eng"/>
+          <FRBRuri value="/us-ky/act/krs/67.130/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/67.130/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/67.130/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_67_130">
+        <num>67.130</num>
+        <content>
+          <p>The fiscal court of each county shall be responsible for the maintenance and operation of all county buildings, grounds, and other properties. The county judge/executive shall execute the policies of the fiscal court relating to buildings, grounds, and other properties. The fiscal court may employ the jailer as superintendent of those county buildings, grounds, and other county properties agreed upon by the jailer and the fiscal court. Compensation for these additional services shall be in addition to the regular salary paid the jailer for performing the duties of the jailer. The total compensation of the jailer for his duties as superintendent and for his duties as jailer shall not exceed the limit set in . The fiscal court of each county shall annually appropriate a sum sufficient to purchase the labor and materials necessary to maintain and operate county property, including the jailer’s residence if owned by the county, and to keep the jailer’s residence in repair and in clean, comfortable, and presentable condition. Any sum appropriated for maintenance and operation of the jailer’s residence shall be expended by the jailer. The county attorney shall bring civil action in the name of the county to recover possession of or for injury to or intrusion or trespass upon any such county property, and the net proceeds of any such recovery shall be paid into the county treasury.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

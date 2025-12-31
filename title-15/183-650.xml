@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/183.650"/>
+          <FRBRuri value="/us-ky/act/krs/183.650"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/183.650/eng"/>
+          <FRBRuri value="/us-ky/act/krs/183.650/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/183.650/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/183.650/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_183_650">
+        <num>183.650</num>
+        <content>
+          <p>Bonds issued pursuant to  to shall be negotiable and shall not be subject to taxation. If any officer whose signature or countersignature appears on the bonds or coupons ceases to be such officer before delivery of the bonds, his signature or countersignature shall nevertheless be valid and sufficient for all purposes the same as if he had remained in office until delivery. The bonds may be sold, at either a public or a private sale notwithstanding any other provisions of the Kentucky Revised Statutes, and the bonds shall be exempt from the newspaper advertisement and publications requirements for municipal bonds under , with the sale to be held in such manner, upon such terms and for such price as the governmental unit or the Finance and Administration Cabinet may determine will best effect the purposes of this chapter. The bonds shall be payable solely from the revenue derived from airport facilities or taxes levied for airport development and shall not constitute an indebtedness of the governmental unit or the Commonwealth within the meaning of the Constitution. It shall be plainly stated on the face of each bond that it has been issued under the provisions of  to and that it does not constitute an indebtedness of the governmental unit or the Commonwealth within the meaning of the Constitution.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

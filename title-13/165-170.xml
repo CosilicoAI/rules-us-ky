@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/165.170"/>
+          <FRBRuri value="/us-ky/act/krs/165.170"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/165.170/eng"/>
+          <FRBRuri value="/us-ky/act/krs/165.170/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/165.170/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/165.170/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_165_170">
+        <num>165.170</num>
+        <content>
+          <p>The legislative body of any city with a population equal to or greater than twenty thousand (20,000) based upon the most recent federal decennial census that has a municipal college may, after an election as required by Section 184 of the Constitution, annually levy and collect, for the support of the municipal college, a tax of not less than five cents ($0.05) nor more than fourteen cents ($0.14) on each one hundred dollars’ ($100) worth of property subject to taxation for city purposes. The levy of such taxes shall be made at the same time and in the same manner as other levies for city purposes. The amount levied shall be placed to the credit of the municipal college fund upon the completion of the assessment of property for taxation, and paid as collected, subject to the discount allowed on other city taxes, by the treasurer of the city to the treasurer or other financial officer of the college, for the purpose of establishing, acquiring and operating the college. The taxes authorized by this section shall be construed to be school taxes and shall be in addition to all other taxes authorized by law to be used for municipal or school purposes.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

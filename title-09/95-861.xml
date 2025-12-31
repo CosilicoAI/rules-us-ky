@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/95.861"/>
+          <FRBRuri value="/us-ky/act/krs/95.861"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/95.861/eng"/>
+          <FRBRuri value="/us-ky/act/krs/95.861/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/95.861/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/95.861/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_95_861">
+        <num>95.861</num>
+        <content>
+          <p>subject to a maximum combined payment, excluding cost-of-living increases of the member or the minor children, of seventy-five percent (75%) of the average salary as defined in . The annuity of each child or children shall continue until each child attains age eighteen (18), or, in the case of a child regularly employed in full-time educational activities the age of twenty-three (23). The annuity payments shall be reduced in reverse order.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/118.125"/>
+          <FRBRuri value="/us-ky/act/krs/118.125"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/118.125/eng"/>
+          <FRBRuri value="/us-ky/act/krs/118.125/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/118.125/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/118.125/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_118_125">
+        <num>118.125</num>
+        <content>
+          <p>“For the purpose of having my name placed on the official primary election ballot as a candidate for nomination by the -(name in full as desired on the ballot as provided in ), do solemnly swear that my residence address is , that my mailing address, if different, is, and that I am a registered- precinct; that I believe in the principles of the , and intend to support its principles and policies; that I meet all the statutory and constitutional qualifications for the office which I am seeking; that if nominated as a candidate of such party at the ensuing election I will accept the nomination and not withdraw for reasons other than those stated in ; that I will not knowingly violate any election law or any law relating to corrupt and fraudulent practice in campaigns or elections in this state, and if finally elected I will qualify for the office.” Party, I, (street, route, highway, city if applicable, county, state, and zip code) (post office address) (party) voter in Party</p>
+          <p>Click to view</p>
+          <p>The declaration shall be subscribed and sworn to before an officer authorized to administer an oath by the candidate and by the two (2) voters making the declaration and signing the candidate’s petition for office.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

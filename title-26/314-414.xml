@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/314.414"/>
+          <FRBRuri value="/us-ky/act/krs/314.414"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/314.414/eng"/>
+          <FRBRuri value="/us-ky/act/krs/314.414/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/314.414/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/314.414/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_314_414">
+        <num>314.414</num>
+        <content>
+          <p>The Transfer Guidelines Work Group is hereby established as an independent entity to develop statewide requirements for licensed certified professional midwives and hospitals which shall be based upon evidence in peer-reviewed medical literature and accepted best practice standards, regarding the process of transfer of care from a licensed certified professional midwife to a hospital. The scope of the Transfer Guidelines Work Group shall include procedures that promote the safe and timely transfer of mothers or newborns to facilities that can provide a higher level of care when needed, and to ensure the complete and timely transmission of all necessary information required to satisfactorily care for a mother or newborn requiring transfer. The work group shall select a chair from among the members. The work group shall meet as necessary and submit the developed statewide requirements agreed to unanimously by the work group to the board within one (1) year of June 27, 2019. The board shall promulgate administrative regulations to implement the requirements developed by the work group. The work group shall cease to exist after the developed requirements have been submitted to the board unless the board directs its continuance. The members of the work group shall not be paid or reimbursed for travel or other expenses. The work group shall consist of the following members:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

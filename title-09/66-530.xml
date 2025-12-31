@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/66.530"/>
+          <FRBRuri value="/us-ky/act/krs/66.530"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/66.530/eng"/>
+          <FRBRuri value="/us-ky/act/krs/66.530/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/66.530/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/66.530/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_66_530">
+        <num>66.530</num>
+        <content>
+          <p>Subject to the will of any General Assembly and Sections 176 and 177 of the Constitution, the fiscal court of a county levying the full percentage of the occupational license fee authorized for nonschool purposes by  may pledge no more than twelve percent (12%) of the revenue annually to be derived therefrom as security for special obligations bonds of the fiscal court for any public improvement within the scope of  to  The bonds shall not be obligations of the county but merely of the special fund made up of the pledged fees. No election under Sections 157 and 159 of the Constitution shall be required for said bonds. In all other respects the bonds shall be deemed to have been authorized and issued pursuant to KRS .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

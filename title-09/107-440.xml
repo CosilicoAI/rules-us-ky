@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/107.440"/>
+          <FRBRuri value="/us-ky/act/krs/107.440"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/107.440/eng"/>
+          <FRBRuri value="/us-ky/act/krs/107.440/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/107.440/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/107.440/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_107_440">
+        <num>107.440</num>
+        <content>
+          <p>Any governmental unit or units desiring to have buildings erected on land owned or to be acquired by it or them may convey such lands (whether then with or without improvements) to the district, or may lease such land to the district for a nominal rental for the same period of years that such governmental unit proposes to lease the particular building, or portion thereof, to be constructed wholly or in part thereon, and, in the event the land was leased, may grant an option to the district to purchase such land within six (6) months after the expiration of the lease on the building in the event such governmental unit or units shall not have exercised or shall not exercise an option to purchase such building within the terms of the contract of lease. Any such conveyance or lease of land by a governmental unit to the district shall be authorized by the governing body of such governmental unit by resolution or ordinance which shall be entered in the official records of said governing body. Such authorization may be given concurrently with the authorization by such governmental unit of a lease by it of the particular building, or portion thereof, to be constructed wholly or in part on said land. The deed, in the case of a conveyance of the land, or the lease, in the case of a lease thereof, shall be executed on behalf of the governmental unit by the officer or officers authorized by law to execute contracts on behalf of such unit and said lease shall be executed on behalf of the district by the chairman and secretary of the board.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

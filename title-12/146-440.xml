@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/146.440"/>
+          <FRBRuri value="/us-ky/act/krs/146.440"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/146.440/eng"/>
+          <FRBRuri value="/us-ky/act/krs/146.440/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/146.440/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/146.440/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_146_440">
+        <num>146.440</num>
+        <content>
+          <p>In order to secure for the people of the Commonwealth of Kentucky of present and future generations the benefits of an environment having one or more of the characteristics of a natural area, the office is hereby empowered to acquire in the name of the Commonwealth of Kentucky and to hold in trust for the benefit of the general public an adequate system of nature preserves and natural areas in the manner herein set forth, and for the following uses and purposes:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

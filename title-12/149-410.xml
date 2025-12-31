@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/149.410"/>
+          <FRBRuri value="/us-ky/act/krs/149.410"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/149.410/eng"/>
+          <FRBRuri value="/us-ky/act/krs/149.410/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/149.410/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/149.410/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_149_410">
+        <num>149.410</num>
+        <content>
+          <p>The Commonwealth’s attorney or county attorney shall initiate and prosecute appropriate abatement proceedings by injunction or otherwise, for the prevention or correction of any condition constituting or threatening to constitute a violation of  to  The institution or pendency of a proceeding pursuant to this section shall not bar the imposition of any penalties or the securing of any other relief provided by  to    to  or administrative regulations promulgated thereunder.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

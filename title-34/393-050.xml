@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/393.050"/>
+          <FRBRuri value="/us-ky/act/krs/393.050"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/393.050/eng"/>
+          <FRBRuri value="/us-ky/act/krs/393.050/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/393.050/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/393.050/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_393_050">
+        <num>393.050</num>
+        <content>
+          <p>Except as provided in , when a person owning any property having a situs in this state is not known to be living for seven (7) successive years, and neither he nor his heirs, devisees, or distributees can be located or proved to have been living for seven (7) successive years, he shall be presumed to have died without heirs, devisees, or distributees, and his property shall be liquidated and the proceeds, less costs incident to the liquidation and any legal proceedings, and the liabilities which have been properly claimed and approved against it, shall be paid to the department.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/119.205"/>
+          <FRBRuri value="/us-ky/act/krs/119.205"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/119.205/eng"/>
+          <FRBRuri value="/us-ky/act/krs/119.205/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/119.205/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/119.205/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_119_205">
+        <num>119.205</num>
+        <content>
+          <p>“Expenditure,” as used in this section, shall not include the distribution of materials bearing the name, likeness, or other identification of a candidate, political party, committee, or organization, or position on a public question and not intended as payment or consideration for voting or withholding a vote, voting for or against any candidate or public question, or signing a petition to have a public question placed on the ballot.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

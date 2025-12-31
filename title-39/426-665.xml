@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/426.665"/>
+          <FRBRuri value="/us-ky/act/krs/426.665"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/426.665/eng"/>
+          <FRBRuri value="/us-ky/act/krs/426.665/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/426.665/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/426.665/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_426_665">
+        <num>426.665</num>
+        <content>
+          <p>The giving of the bond mentioned in  shall not discharge the levy of the execution upon the property claimed. But the officer may leave it, subject to the lien of the levy, with the person in whose possession it was found, pending the proceeding on the bond; and may, in the meantime, proceed with the execution against any other property of the defendant. The obligor in such bond may, however, on ten (10) days’ notice to the plaintiff in the execution, move the court to which the bond is returned to discharge the same and release the levy under the execution. The provisions of  and shall, so far as applicable, govern the proceedings upon such motion.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

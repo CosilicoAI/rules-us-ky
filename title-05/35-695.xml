@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/35.695"/>
+          <FRBRuri value="/us-ky/act/krs/35.695"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/35.695/eng"/>
+          <FRBRuri value="/us-ky/act/krs/35.695/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/35.695/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/35.695/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_35_695">
+        <num>35.695</num>
+        <content>
+          <p>Any person subject to this code who with intent to steal takes anything of value from the person or in the presence of another, against his or her will, by means of force of violence or fear of immediate of future injury to his or her person or property or to the person or property of a relative or member of his or her family or of anyone in his or her company at the time of the robbery, is guilty of robbery and shall be punished as a court-martial may direct.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

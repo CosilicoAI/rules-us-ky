@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/427.160"/>
+          <FRBRuri value="/us-ky/act/krs/427.160"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/427.160/eng"/>
+          <FRBRuri value="/us-ky/act/krs/427.160/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/427.160/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/427.160/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_427_160">
+        <num>427.160</num>
+        <content>
+          <p>Solely for the purpose of applying the provisions of 11 (A) in a federal bankruptcy proceeding, in addition to other exemptions provided in this chapter and only to the extent otherwise allowed by applicable federal law, every debtor shall have a general exemption not to exceed one thousand dollars ($1,000) in value to be applied toward any property, real or personal, tangible or intangible in his estate when he or she has filed for bankruptcy under the provisions of The Bankruptcy Code of 1978, 92 Stat. 2549 (1978), Public Law 95-598, as amended.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/262.620"/>
+          <FRBRuri value="/us-ky/act/krs/262.620"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/262.620/eng"/>
+          <FRBRuri value="/us-ky/act/krs/262.620/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/262.620/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/262.620/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_262_620">
+        <num>262.620</num>
+        <content>
+          <p>The Division of Conservation shall retain title to each piece of heavy or specialized equipment or any infrastructure purchased and made available to any soil and water conservation district until such time as the soil and water conservation districts fully amortize the commission’s investment in the equipment or the infrastructure. If the soil and water conservation district purchases infrastructure with use of funds made available by the Division of Conservation for that purpose, then the Division of Conservation shall be listed on the deed to the property jointly with the district. After the commission’s investment in the equipment or infrastructure has been fully amortized, it is authorized and empowered to transfer the title thereto to the district. If the district has purchased infrastructure with funds made available by the Division of Conservation, the district shall consult with the division prior to the dispossession of the property.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/91.330"/>
+          <FRBRuri value="/us-ky/act/krs/91.330"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/91.330/eng"/>
+          <FRBRuri value="/us-ky/act/krs/91.330/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/91.330/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/91.330/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_91_330">
+        <num>91.330</num>
+        <content>
+          <p>If the assessor concludes that in any list filed under  the taxpayer has omitted to list any of his taxable property or has valued any property too low, he may assess the property omitted or raise the valuation of the property valued too low, and shall immediately notify the owner or holder by mail as to the action taken. The owner or holder, within fifteen (15) days after the notice is mailed to him, may file in the office of the assessor a complaint either that the omitted property is not subject to taxation or that the increased valuation is too high, and if such a complaint is filed in time the assessment shall not become binding and no tax bill shall be issued thereon until the assessment has been passed upon by the board of equalization.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

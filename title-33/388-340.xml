@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/388.340"/>
+          <FRBRuri value="/us-ky/act/krs/388.340"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/388.340/eng"/>
+          <FRBRuri value="/us-ky/act/krs/388.340/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/388.340/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/388.340/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_388_340">
+        <num>388.340</num>
+        <content>
+          <p>Upon filing a petition, or certificate, showing that a minor ward has attained majority, or that a mentally disabled ward has been rated competent upon examination in accordance with the law, the court may order the guardian or conservator to file a final account; and, upon hearing, after notice to the former minor or mentally disabled person and to the Veterans Affairs in the manner and within the time provided by , and upon approval of the final account, the court may so adjudge and discharge the guardian or conservator and release the sureties from liability upon delivery to the former ward of the assets due him by the former guardian or conservator, and may make such further order as may be lawful.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

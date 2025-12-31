@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/147.620"/>
+          <FRBRuri value="/us-ky/act/krs/147.620"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/147.620/eng"/>
+          <FRBRuri value="/us-ky/act/krs/147.620/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/147.620/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/147.620/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_147_620">
+        <num>147.620</num>
+        <content>
+          <p>“The undersigned registered voters as determined by subsection (3)(b) of this section living within the area planning commission territory (and containing a description of the territory) hereby request that the fiscal court consider the alteration or dissolution of the area planning commission pursuant to this section.” The petition shall conspicuously state in laymen’s terms that any legal obligations of the commission must be satisfied before the commission can be dissolved and that the citizens residing within the area planning commission territory shall be responsible for the satisfaction of any obligations. Signatures on the petition shall be dated, the last no later than ninety (90) days after the first.</p>
+          <p>Click to view</p>
+          <p>“The undersigned registered voters as determined by subsection (4)(a) of this section, living within the area planning commission territory (and containing a description of the territory) hereby request that the question of the dissolution of the commission be put to a referendum.” The petition shall conspicuously state in laymen’s terms that any legal obligations of the commission must be satisfied before the commission can be dissolved and that citizens residing within the area planning commission territory shall be responsible for the satisfaction of any such obligations. Signatures on the petition shall be dated, the last no later than ninety (90) days after the first.</p>
+          <p>Click to view</p>
+          <p>“The (name of the area planning commission and containing a description of the commission’s territory) should be dissolved.” The voter shall vote “yes” or “no.”</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

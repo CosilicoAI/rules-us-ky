@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/353.592"/>
+          <FRBRuri value="/us-ky/act/krs/353.592"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/353.592/eng"/>
+          <FRBRuri value="/us-ky/act/krs/353.592/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/353.592/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/353.592/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_353_592">
+        <num>353.592</num>
+        <content>
+          <p>In addition to the powers conferred upon the department by  to and notwithstanding any provision of  to  the department is authorized but not obligated to develop and promulgate a regulatory program for the purpose of accepting primary responsibility for administration of the Underground Injection Control Program under Section 1425 of the Safe Drinking Water Act (Public Law 93-523 as amended). To that end, the department shall include in any regulatory program developed and promulgated under this provision:</p>
+          <p>No regulation promulgated pursuant to this section shall authorize the endangerment of an underground source of drinking water or be more stringent than regulations promulgated by the Environmental Protection Agency pursuant to the Underground Injection Control Program of the Safe Drinking Water Act, 42 f et seq.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

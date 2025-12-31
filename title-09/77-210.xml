@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/77.210"/>
+          <FRBRuri value="/us-ky/act/krs/77.210"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/77.210/eng"/>
+          <FRBRuri value="/us-ky/act/krs/77.210/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/77.210/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/77.210/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_77_210">
+        <num>77.210</num>
+        <content>
+          <p>A contract entered into pursuant to  may provide that fees for permits shall be paid to the county or city, the officer, department, or agency of which county or city issues the permit, and may be retained by such county or city in whole or in part as the consideration, or part thereof, for issuing such permits. Otherwise, all fees paid for the issuance of permits shall be paid into the district treasury.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

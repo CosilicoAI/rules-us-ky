@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/216.100"/>
+          <FRBRuri value="/us-ky/act/krs/216.100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/216.100/eng"/>
+          <FRBRuri value="/us-ky/act/krs/216.100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/216.100/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/216.100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_216_100">
+        <num>216.100</num>
+        <content>
+          <p>Any city of the home rule class may, by ordinance, borrow money and issue negotiable bonds for the purpose of defraying the cost of purchasing, establishing, erecting and acquiring a municipal hospital and necessary appurtenances thereto. The ordinance shall specify the proposed undertaking, the amount of bonds to be issued, and the maximum rate of interest the bonds are to bear. The ordinance shall further provide that the proposed hospital, with necessary appurtenances thereto, is to be purchased, established, erected or acquired pursuant to the provisions of  to</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

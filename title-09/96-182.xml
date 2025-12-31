@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/96.182"/>
+          <FRBRuri value="/us-ky/act/krs/96.182"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/96.182/eng"/>
+          <FRBRuri value="/us-ky/act/krs/96.182/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/96.182/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/96.182/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_96_182">
+        <num>96.182</num>
+        <content>
+          <p>Subject to the provisions of outstanding bonds and contracts, the board shall apply all funds derived from operations: (1) to the payment of operating expenses, (2) to the payment of bond interest and retirement, (3) to sinking fund requirements, (4) to the maintenance of a fund to meet depreciation and the improvements and extension of the plant in an amount equal to six percent (6%) of the undepreciated book value of its property, (5) to the maintenance of a cash working fund equal to one (1) month’s revenue, (6) to the payment of other obligations incurred in the operation and maintenance of the plant and the furnishing of service, and (7) such taxes, if any, as the board may elect to pay under the provisions of , and any surplus revenues at the end of any twelve (12) months ending June 30 shall be transferred to the sinking fund, and used by the board only for the redemption or purchase of outstanding bonds, in which case such bonds shall be canceled, or for the creation and maintenance of a cash working fund, or the creation and maintenance of a fund for improvement and extension of the system, or for the reduction of rates, or the board, after the original cost of the property shall have been fully paid and satisfied may, in its sole discretion, use, apply and pledge all or a part of such surplus revenues for the acquisition, construction, maintenance, improvement, addition to and operation of any “public project” as the same is defined in subsection (1) of , or for the purpose of purchasing, paying, retiring, guaranteeing the payment of or underwriting revenue bonds issued by the city or any agency thereof to finance the acquisition, construction, maintenance, improvement, addition to and operation of such “public project,” which “public project” shall be located within the territory served by the board; the board is hereby vested with all of the powers, duties and responsibilities delegated and granted to a “governmental agency” under  to  both inclusive; provided, however, that the acquisition or construction of any “public project” as above defined, shall be first approved by the common council before such “public project” is undertaken.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

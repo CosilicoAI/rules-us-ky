@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/174.055"/>
+          <FRBRuri value="/us-ky/act/krs/174.055"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/174.055/eng"/>
+          <FRBRuri value="/us-ky/act/krs/174.055/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/174.055/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/174.055/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_174_055">
+        <num>174.055</num>
+        <content>
+          <p>There are hereby transferred to and vested in the secretary and cabinet all functions, powers, duties, funds, personnel, equipment, and supplies relating to operators’ licenses under provisions of KRS , boats and boating provisions of KRS , financial responsibility provisions of KRS , traffic safety coordinating committee under provisions of KRS , and motor vehicle inspection under provisions of KRS , which said provisions of law have been conferred upon the Department of Public Safety and under the commissioner and other officers and offices of said Department of Public Safety. The examination of applicants under  shall be retained by the Department of Kentucky State Police.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/229.240"/>
+          <FRBRuri value="/us-ky/act/krs/229.240"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/229.240/eng"/>
+          <FRBRuri value="/us-ky/act/krs/229.240/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/229.240/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/229.240/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_229_240">
+        <num>229.240</num>
+        <content>
+          <p>All peace officers, who are informed or who have reason to believe that a show in violation of this chapter or administrative regulations promulgated in accordance with this chapter is taking place or will be taking place within their jurisdiction, shall suppress and prevent it. For this purpose any peace officer may enter any place where a show is being or will be held or where there is training or preparation for a wrestling show and may arrest without a warrant any person who does not submit satisfactory proof that he or she has the license or permit required by this chapter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

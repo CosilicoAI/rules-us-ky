@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/403.050"/>
+          <FRBRuri value="/us-ky/act/krs/403.050"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/403.050/eng"/>
+          <FRBRuri value="/us-ky/act/krs/403.050/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/403.050/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/403.050/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_403_050">
+        <num>403.050</num>
+        <content>
+          <p>Divorce from bed and board may be rendered for any cause that allows divorce, or for any other cause that the court in its discretion considers sufficient. A divorce from bed and board shall operate as to property thereafter acquired, and upon the personal rights and legal capacities of the parties, as a divorce from the bond of matrimony, except that neither shall marry again during the life of the other, and except that it shall not bar curtesy, dower or distributive right. The judgment may be revised or set aside at any time by the court rendering it.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

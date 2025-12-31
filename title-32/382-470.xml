@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/382.470"/>
+          <FRBRuri value="/us-ky/act/krs/382.470"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/382.470/eng"/>
+          <FRBRuri value="/us-ky/act/krs/382.470/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/382.470/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/382.470/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_382_470">
+        <num>382.470</num>
+        <content>
+          <p>Any notice mentioned in  and may be discharged and annulled by an entry to that effect on the margin of the record thereof, or at the option of the county clerk, in a marginal entry record kept for the same purpose, signed by the person filing the notice or by his or their attorney of record in the action, or by a writing executed, acknowledged, and recorded in the manner provided for conveyance of land. The clerk shall, at the option of the clerk, either link the discharge and its filing location to its respective referenced instrument in the indexing system for the referenced instrument, or enter a memorandum of such discharge on the margin of such record for which he shall charge a fee pursuant to , to be paid in advance. Each entry in the marginal entry record shall be linked to its respective referenced instrument in the indexing system for the referenced instrument.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

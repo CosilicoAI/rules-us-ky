@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/61.523"/>
+          <FRBRuri value="/us-ky/act/krs/61.523"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/61.523/eng"/>
+          <FRBRuri value="/us-ky/act/krs/61.523/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/61.523/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/61.523/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_61_523">
+        <num>61.523</num>
+        <content>
+          <p>The following shall apply if an employer ceases participation in the Kentucky Employees Retirement System or the County Employees Retirement System under  and, after ceasing participation, establishes an alternative retirement plan as required by , which is a governmental plan within the meaning of 26  that provides for mandatory employee contributions:</p>
+          <p>The employee shall not be permitted to opt-out of the picked-up employee contributions, to receive the picked-up employee contributions directly instead of having them paid by the employer to the retirement plan, or to have any other cash or deferred election right to the picked-up contributions within the meaning of 26 C.F.R. sec. 1.401(k)-1(a)(3); and</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

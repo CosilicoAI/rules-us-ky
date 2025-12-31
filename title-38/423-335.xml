@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/423.335"/>
+          <FRBRuri value="/us-ky/act/krs/423.335"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/423.335/eng"/>
+          <FRBRuri value="/us-ky/act/krs/423.335/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/423.335/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/423.335/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_423_335">
+        <num>423.335</num>
+        <content>
+          <p>If an individual is physically unable to sign a record, the individual may direct another individual, other than the notarial officer, to sign the individual’s name on the record by proxy, in the presence of two (2) witnesses unaffected by the record, one (1) of whom may be the individual who signs, by proxy, on behalf of the individual physically unable to sign. Both witnesses shall sign their own names beside the proxy signature, and the notarial officer shall insert “Signature affixed by (name of proxy signer) at the direction of (name of individual) and in the presence of (names and addresses of the two witnesses)” or words of similar import.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

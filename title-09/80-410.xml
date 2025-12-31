@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/80.410"/>
+          <FRBRuri value="/us-ky/act/krs/80.410"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/80.410/eng"/>
+          <FRBRuri value="/us-ky/act/krs/80.410/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/80.410/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/80.410/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_80_410">
+        <num>80.410</num>
+        <content>
+          <p>In any suit, action or proceeding involving the validity or enforcement of or relating to any contract of an authority, the authority shall be conclusively deemed to have become created as a public body corporate and politic upon proof of the adoption of the resolution or resolutions of the governing body or bodies declaring the need for the authority as required in  to  Such resolution or resolutions shall be deemed sufficient if it declares that there is such need for the authority and finds in substantially the foregoing terms (no further detail being necessary) that the conditions enumerated in  exist in the city or county, as the case may be. A copy of the resolution or resolutions duly certified by the clerk shall be admissible in evidence in any suit, action or proceeding.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

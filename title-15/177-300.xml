@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/177.300"/>
+          <FRBRuri value="/us-ky/act/krs/177.300"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/177.300/eng"/>
+          <FRBRuri value="/us-ky/act/krs/177.300/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/177.300/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/177.300/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_300">
+        <num>177.300</num>
+        <content>
+          <p>It is unlawful for any person (1) to drive a vehicle over, upon, or across any curb, central dividing section or other separation or dividing line on limited access facilities; (2) to make a left turn or a semicircular or U-turn except through an opening provided for that purpose in the dividing curb section, separation or line; (3) to drive any vehicle except in the proper lane provided for that purpose and in the proper direction and to the right of the central dividing curb, separation section, or line; (4) to drive any vehicle into the limited access facility from a local service road except through an opening provided for that purpose in the dividing curb, or dividing section or dividing line which separates such service road from the limited access facility proper.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

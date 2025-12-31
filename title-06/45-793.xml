@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/45.793"/>
+          <FRBRuri value="/us-ky/act/krs/45.793"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/45.793/eng"/>
+          <FRBRuri value="/us-ky/act/krs/45.793/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/45.793/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/45.793/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_793">
+        <num>45.793</num>
+        <content>
+          <p>The Finance and Administration Cabinet and any institution that manages its own capital construction under  shall provide to the committee at its January, April, July, and October regular meetings a status report of any capital project, excluding items of equipment, not yet completed which received line item authorization by the Kentucky General Assembly or was authorized pursuant to . The Capital Projects and Bond Oversight Committee shall prescribe data elements to be included in the quarterly status reports. For each capital project, the status report shall include but not be limited to the:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

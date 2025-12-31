@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/91.630"/>
+          <FRBRuri value="/us-ky/act/krs/91.630"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/91.630/eng"/>
+          <FRBRuri value="/us-ky/act/krs/91.630/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/91.630/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/91.630/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_91_630">
+        <num>91.630</num>
+        <content>
+          <p>Whenever any person or association of persons not a corporation and not having capital stock engages in this state in the business of a trust company or a guaranty or security company, the capital and property, or the certificates or other evidences of right or interest in the business or in the capital and property employed therein, shall be treated as the capital stock of such person or association for the purposes of  to  in like manner as if such person or association were a corporation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

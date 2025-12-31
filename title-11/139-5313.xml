@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/139.5313"/>
+          <FRBRuri value="/us-ky/act/krs/139.5313"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/139.5313/eng"/>
+          <FRBRuri value="/us-ky/act/krs/139.5313/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/139.5313/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/139.5313/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_139_5313">
+        <num>139.5313</num>
+        <content>
+          <p>Notwithstanding any other provisions of this chapter, morticians, undertakers, and funeral directors are consumers of all items including caskets and vaults, which they use or consume in the performance of their services and the taxes imposed by this chapter apply at the time of the sale to the mortician, undertaker, or funeral director.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

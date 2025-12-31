@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/262.560"/>
+          <FRBRuri value="/us-ky/act/krs/262.560"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/262.560/eng"/>
+          <FRBRuri value="/us-ky/act/krs/262.560/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/262.560/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/262.560/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_262_560">
+        <num>262.560</num>
+        <content>
+          <p>Upon receipt from the commission of a certification that the commission has determined that the continued operation of the district is not administratively practicable and feasible, the board shall forthwith proceed to terminate the affairs of the district. The board shall dispose of all property belonging to the district at public auction and shall pay the proceeds of the sale into the State Treasury. The board shall file a verified application with the Secretary of State for the discontinuance of the district, and shall transmit with the application the certificate of the commission setting forth the determination of the commission that the continued operation of the district is not administratively practicable and feasible. The application shall recite that the property of the district has been disposed of and the proceeds paid over as provided in this section, and shall set forth a full accounting of such properties and proceeds of the sale. The Secretary of State shall issue to the board a certificate of dissolution and shall record a copy of the certificate in his office.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

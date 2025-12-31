@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/620.025"/>
+          <FRBRuri value="/us-ky/act/krs/620.025"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/620.025/eng"/>
+          <FRBRuri value="/us-ky/act/krs/620.025/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/620.025/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/620.025/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_620_025">
+        <num>620.025</num>
+        <content>
+          <p>A finding of jurisdiction under this chapter shall not necessarily preclude a finding of jurisdiction under KRS Chapters 625, 630, or 635; however, jurisdiction under this chapter shall take precedence. No child shall be released from the jurisdiction of the court under this chapter if concurrent complaints under KRS Chapters 630 or 635 are pending.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

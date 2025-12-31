@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/351.9901"/>
+          <FRBRuri value="/us-ky/act/krs/351.9901"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/351.9901/eng"/>
+          <FRBRuri value="/us-ky/act/krs/351.9901/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/351.9901/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/351.9901/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_351_9901">
+        <num>351.9901</num>
+        <content>
+          <p>Notwithstanding any provision of this chapter to the contrary, there shall be, beginning on April 8, 1994, a two (2) year moratorium on the levying of any mandatory fines or penalties pursuant to  against the operator or miner who violates any provision of this chapter, except the two (2) year moratorium shall not apply to the penalty provisions of (1), (2), (3), (4), (5), and (6).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

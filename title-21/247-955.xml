@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/247.955"/>
+          <FRBRuri value="/us-ky/act/krs/247.955"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/247.955/eng"/>
+          <FRBRuri value="/us-ky/act/krs/247.955/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/247.955/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/247.955/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247_955">
+        <num>247.955</num>
+        <content>
+          <p>Notwithstanding any other provisions of law to the contrary, all moneys received pursuant to the authority of the provisions of  to shall be deemed to be trust funds to be held and applied solely as provided in the provisions of  to  The resolution authorizing any obligations or the trust agreement securing the same may provide that any of the moneys may be temporarily invested pending the disbursement thereof and shall provide that any officer with whom, or any bank or trust company with which, the moneys shall be deposited shall act as trustee of these moneys and shall hold and apply the same for the purposes hereof, subject to administrative regulations promulgated pursuant to the provisions to  to  and as any resolution or trust agreement may provide. Any moneys of the corporation may be invested as provided in .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

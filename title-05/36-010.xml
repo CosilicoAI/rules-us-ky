@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/36.010"/>
+          <FRBRuri value="/us-ky/act/krs/36.010"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/36.010/eng"/>
+          <FRBRuri value="/us-ky/act/krs/36.010/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/36.010/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/36.010/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_010">
+        <num>36.010</num>
+        <content>
+          <p>The Department of Military Affairs shall be attached to the Office of the Governor, have charge of and be responsible to the Governor for the proper functioning of the Kentucky National Guard, militia, and all other military or naval matters of the state, and shall consist of the following offices and divisions:</p>
+          <p>In order to promote greater efficiency, economy, and improved administration, the divisional structure of the Department of Military Affairs may be changed, redesignated, or reorganized in accordance with KRS . Notwithstanding KRS , the department’s attachment to the Office of Governor as a separate organizational unit not attached to any cabinet shall not be changed except by action of the General Assembly.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

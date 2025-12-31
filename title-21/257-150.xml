@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/257.150"/>
+          <FRBRuri value="/us-ky/act/krs/257.150"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/257.150/eng"/>
+          <FRBRuri value="/us-ky/act/krs/257.150/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/257.150/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/257.150/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_257_150">
+        <num>257.150</num>
+        <content>
+          <p>After carcass disposal, cleaning, and disinfection has been completed, the board shall execute a voucher upon the Finance and Administration Cabinet for the amount of the indemnity due the owner, for payment from funds appropriated for this purpose. The voucher shall be approved by the state veterinarian and the chairman of the board. When the check for payment is issued by the State Treasurer, he shall forward it to the chairman of the board who shall pay it to the owner.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

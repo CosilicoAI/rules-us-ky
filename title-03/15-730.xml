@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/15.730"/>
+          <FRBRuri value="/us-ky/act/krs/15.730"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/15.730/eng"/>
+          <FRBRuri value="/us-ky/act/krs/15.730/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/15.730/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/15.730/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_730">
+        <num>15.730</num>
+        <content>
+          <p>Each regular Commonwealth’s attorney and county attorney shall be, ex officio, a special prosecutor of the Commonwealth, and as such shall perform such duties and render such services, at such time and places, coextensive with the Commonwealth as may be required by the Attorney General. The duties and services may include, but are not limited to, prosecution of or participation in action outside of his judicial circuit or judicial district when directed by the Attorney General and assisting the Attorney General in preparation and presentation of the Commonwealth’s position in criminal cases appealed to Circuit Court, Court of Appeals, and the Supreme Court.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

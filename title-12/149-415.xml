@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/149.415"/>
+          <FRBRuri value="/us-ky/act/krs/149.415"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/149.415/eng"/>
+          <FRBRuri value="/us-ky/act/krs/149.415/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/149.415/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/149.415/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_149_415">
+        <num>149.415</num>
+        <content>
+          <p>The Energy and Environment Cabinet shall administer  to and shall have power to issue, amend and revise such rules and regulations as may be authorized hereby or as may reasonably be necessary to implement the same. The cabinet is authorized to make, conduct or participate in any investigations and surveys designed to establish the cause of and responsibility for a particular forest fire or forest fire conditions generally and to cooperate with any and all law enforcement officers of or in this state in the apprehension and prosecution of persons violating this law. Nothing contained in  to shall be construed to limit or otherwise impair the jurisdiction or powers of any other department, agency or officer of or in this state to investigate, apprehend, prosecute or punish violations of law.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

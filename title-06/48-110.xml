@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/48.110"/>
+          <FRBRuri value="/us-ky/act/krs/48.110"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/48.110/eng"/>
+          <FRBRuri value="/us-ky/act/krs/48.110/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/48.110/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/48.110/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_110">
+        <num>48.110</num>
+        <content>
+          <p>Each branch budget recommendation shall contain a complete financial plan for the branch of government for each of the next two (2) fiscal years. Each branch budget recommendation shall include:</p>
+          <p>The total amount of appropriations recommended from any fund shall not exceed the cash resources estimated to be available and to become available to meet expenditures under the appropriations;</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

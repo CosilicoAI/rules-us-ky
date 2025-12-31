@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/42.540"/>
+          <FRBRuri value="/us-ky/act/krs/42.540"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/42.540/eng"/>
+          <FRBRuri value="/us-ky/act/krs/42.540/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/42.540/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/42.540/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42_540">
+        <num>42.540</num>
+        <content>
+          <p>Notwithstanding , every nonprofit fiduciary holding funds for the benefit of any form of state organization, including, but not limited to, Eastern Kentucky University, Kentucky State University, Morehead State University, Murray State University, Northern Kentucky University, University of Kentucky, University of Louisville, Western Kentucky University, Kentucky Community and Technical College System, and the State Fair Board shall make a report according to generally accepted accounting principles of all money received and disbursed during each fiscal year, on or before the fifteenth of July, showing receipts, expenditures, depositories, rates of interest paid by depositories, investments, and rates of return in investments to the Office of the Controller. These fiduciaries include, but are not limited to, Eastern Kentucky University Foundation; Kentucky State University Foundation, Inc.; Morehead State University Foundation, Inc.; Morehead Alumni Foundation, Inc.; Eagle Athletic Foundation, Inc.; Murray State University Foundation; Northern Kentucky University Foundation, Inc.; University of Kentucky Research Foundation; University of Kentucky Athletics Association; the Fund for the Advancement of Education and Research in the University of Kentucky Medical Center; Health Care Collection Service, Inc.; McDowell Cancer Network, Inc.; University of Kentucky-Business Partnership Foundation, Inc.; Kentucky Medical Services Foundation, Inc.; University of Louisville Foundation, Inc.; University of Louisville Hospital, Inc.; University of Louisville Institute of Industrial Research, Inc.; University of Louisville Medical School Fund, Inc.; the College Heights Foundation; KFEC Research and Development Foundation, Inc.; Kentucky Export Resources Authority, Inc.; and all similar nonprofit fiduciaries for the benefit of any form of state organization and their successors.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

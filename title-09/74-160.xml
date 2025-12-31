@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/74.160"/>
+          <FRBRuri value="/us-ky/act/krs/74.160"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/74.160/eng"/>
+          <FRBRuri value="/us-ky/act/krs/74.160/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/74.160/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/74.160/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_74_160">
+        <num>74.160</num>
+        <content>
+          <p>After the assessment roll has been confirmed or modified by the county judge/executive, if the commission is unable to furnish water to the owner of any land in the district, or if the land in any part of the district is so sparsely populated that in the opinion of the commission water could not be furnished to the owners thereof without incurring an unreasonable burden of additional assessment against the lands or an unreasonable burden of indebtedness against the water district without receiving any corresponding return in the profits realized from the sale of water in the territory, the commission may strike the assessments on land not receiving water from the assessment roll, or may reduce the assessments to conform with the benefits received, and refund to the respective owners any assessments collected that have been stricken off or reduced. After striking or reducing such assessments, the commission shall file a petition with the county judge/executive setting out the reasons why the assessments should be stricken off or reduced, with a certified copy of the assessments so stricken off or reduced. The county judge/executive shall then set the proceeding for a hearing, and after giving at least ten (10) days’ notice of the time of the hearing, the county judge/executive shall hear all objections to the order of the commission striking or reducing the assessment, and shall enter an order confirming the action of the commission or directing them to change the assessment roll in accordance with the finding of the county judge/executive. The order of the county judge/executive confirming or modifying the order of the commission striking off or reducing the assessment may be appealed from. If a deficit is incurred by striking or reducing any assessment so as to make the assessments insufficient to pay any bonded indebtedness of the water district, the deficit shall be paid out of the general fund of the district realized from all other revenues collected or to be collected in the district.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

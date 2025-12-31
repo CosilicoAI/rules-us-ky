@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/325.410"/>
+          <FRBRuri value="/us-ky/act/krs/325.410"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/325.410/eng"/>
+          <FRBRuri value="/us-ky/act/krs/325.410/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/325.410/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/325.410/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_325_410">
+        <num>325.410</num>
+        <content>
+          <p>The display or uttering by a person of a card, sign, advertisement, or other printed, engraved, or written instrument or device, bearing a person’s name in conjunction with the words “certified public accountant” or any abbreviation thereof, or “public accountant” shall be prima facie evidence in any action brought under  or that the person whose name is so displayed, caused or procured the display or uttering of such card, sign, advertisement, or other printed, engraved, or written instrument or device, and that such person is holding himself or itself out to be a certified public accountant licensed to practice under . In any such action evidence of the commission of a single act prohibited by this chapter shall be sufficient to justify an injunction or a conviction without evidence of a general course of conduct.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

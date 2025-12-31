@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/80.600"/>
+          <FRBRuri value="/us-ky/act/krs/80.600"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/80.600/eng"/>
+          <FRBRuri value="/us-ky/act/krs/80.600/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/80.600/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/80.600/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_80_600">
+        <num>80.600</num>
+        <content>
+          <p>In addition to the powers conferred upon an authority by other provisions of  to  an authority is empowered to borrow money or accept contributions, grants or other financial assistance from the federal government for or in aid of any housing, to take over or lease or manage any housing project or undertaking constructed or owned by the federal government, and to these ends, to comply with such conditions and enter into such mortgages, trust indentures, leases or agreements as may be necessary, convenient or desirable. It is the purpose and intent of  to to authorize every housing authority to do any and all things necessary or desirable to secure the financial aid or cooperation of the federal government in the undertaking, construction, maintenance or operation of any housing project by such authority.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

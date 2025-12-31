@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/269.180"/>
+          <FRBRuri value="/us-ky/act/krs/269.180"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/269.180/eng"/>
+          <FRBRuri value="/us-ky/act/krs/269.180/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/269.180/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/269.180/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_269_180">
+        <num>269.180</num>
+        <content>
+          <p>The corporation shall have a lien for all taxes upon the land assessed and upon all personal property of the owners found upon the premises not exempt from execution, attachment, or distraint. This lien shall not be defeated by any means. It is a general lien such as arises for state and county taxes, and is superior to all other claims and liens except state and county taxes. For questions of limitation or apportionment as between vendor and vendee, it dates as of July 1 of each year. Unless suit is commenced or proceedings had within ten (10) years from July 1 of any particular year, the lien for that year’s taxes shall be lost. After the action of the Circuit Court of the county upon the assessment and apportionment, the clerk shall certify a copy of it to the county clerk, who shall record it in his office, together with a map showing the boundary of the corporation, and index the liens in real estate indexes in the name of the owner as grantor and the corporation as grantee. This record shall be notice to all persons of the taxes and any interest and costs thereon, and of the lien retained upon the land. When any tax has been paid, the president or treasurer of the corporation shall enter the word “paid” upon the record in the proper column, and enter the amount so paid and subscribe thereto the name of the corporation by him. The taxes shall be used by the corporation to maintain its system of ditches, and adding any necessary ditches and extensions, and for the general drainage purposes of the corporation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

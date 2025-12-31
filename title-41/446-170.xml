@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/446.170"/>
+          <FRBRuri value="/us-ky/act/krs/446.170"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/446.170/eng"/>
+          <FRBRuri value="/us-ky/act/krs/446.170/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/446.170/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/446.170/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_446_170">
+        <num>446.170</num>
+        <content>
+          <p>Any act passed at the 1942 Regular
+    Session of the General Assembly amending or repealing any provision of the
+    statute laws by reference to a section number of the Session Acts or of Carroll’s
+    Statutes shall be considered as amending or repealing, as the case may be,
+    so much of the Kentucky Revised Statutes as is indicated in the Kentucky Revised
+    Statutes as having been derived from the section of the Session Acts or of
+    Carroll’s Statutes so amended or repealed, and shall not be considered as
+    reviving any part of Carroll’s Statutes or of any Session Acts so amended
+    other than the part set forth at length in the amending act.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

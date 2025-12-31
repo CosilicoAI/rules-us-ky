@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/162.490"/>
+          <FRBRuri value="/us-ky/act/krs/162.490"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/162.490/eng"/>
+          <FRBRuri value="/us-ky/act/krs/162.490/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/162.490/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/162.490/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_162_490">
+        <num>162.490</num>
+        <content>
+          <p>If any insurance company delays in paying to the board of education the amount of any loss under a policy, the board may, on the recommendation of its building and finance committee, appropriate from the insurance fund a sum not exceeding the amount of the probable loss under the policy to aid in the prompt restoration of the loss. The amount drawn from the insurance fund shall not exceed the amount collectible from the policy. A resolution shall be adopted setting over to the insurance fund the proceeds of the policy or sufficient thereof to replace the amount so used, and the proceeds when collected shall be so used and not otherwise.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

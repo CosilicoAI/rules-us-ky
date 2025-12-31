@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/279.570"/>
+          <FRBRuri value="/us-ky/act/krs/279.570"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/279.570/eng"/>
+          <FRBRuri value="/us-ky/act/krs/279.570/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/279.570/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/279.570/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_279_570">
+        <num>279.570</num>
+        <content>
+          <p>Any foreign nonprofit or cooperative corporation furnishing or authorized to furnish telephone service and owning or operating telephone lines or facilities in an adjacent state may construct or acquire extensions of such lines in this state and operate such extensions without complying with any statute of this state pertaining to the qualifications of foreign corporations for the doing of business in this state. Any such corporation shall, before constructing or operating such extensions, by an instrument executed and acknowledged on its behalf by its president or vice president, under its seal attested by its secretary, and filed with the Secretary of State, designate the Secretary of State its agent to accept service of process on its behalf. Thereafter, with respect to its operations in this state, such corporation shall have only the rights, powers, privileges and immunities of, and shall be subject to all of the laws of this state relating to the jurisdiction and supervision of the Public Service Commission in the same manner and to the same extent as, a cooperative organized under  to  In the event any process shall be served upon the Secretary of State, he shall forthwith forward the same by certified mail, return receipt requested to such corporation at the address thereof specified in the aforesaid instrument.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

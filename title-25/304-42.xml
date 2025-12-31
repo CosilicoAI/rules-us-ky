@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/304.42"/>
+          <FRBRuri value="/us-ky/act/krs/304.42"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/304.42/eng"/>
+          <FRBRuri value="/us-ky/act/krs/304.42/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/304.42/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/304.42/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_304_42">
+        <num>304.42</num>
+        <content>
+          <p>No person, including a member insurer, agent, affiliate of a member insurer, life settlement provider, or life settlement broker shall make, publish, disseminate, circulate, or place before the public, or cause directly or indirectly, to be made, published, disseminated, circulated, or placed before the public, in any newspaper, magazine, or other publication, or in the form of a notice, circular, pamphlet, letter, or poster, or over any radio station or television station, or in any other way, any advertisement, announcement, or statement which uses the existence of the Insurance Guaranty Association of this state for the purpose of sales, solicitation, or inducement to purchase any form of insurance or other coverage covered by the Kentucky Life and Health Insurance Guaranty Association Act. This section shall not apply to the Kentucky Life and Health Insurance Guaranty Association or any other entity which does not sell or solicit insurance or coverage by a health maintenance organization.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/421.620"/>
+          <FRBRuri value="/us-ky/act/krs/421.620"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/421.620/eng"/>
+          <FRBRuri value="/us-ky/act/krs/421.620/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/421.620/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/421.620/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_421_620">
+        <num>421.620</num>
+        <content>
+          <p>If at the hearing the judge determines that the witness may be material and necessary, that his attending and testifying are not adverse to the interests of this state or to the health or legal rights of the witness, that the laws of the state in which he is requested to testify will give him protection from arrest and the service of civil and criminal process because of any act committed prior to his arrival in the state under the order, and that as a practical matter the possibility is negligible that the witness may be subject to arrest or to the service of civil or criminal process in any state through which he will be required to pass, the judge shall issue an order, with a copy of the certificate attached, directing the witness to attend and testify, directing the person having custody of the witness to produce him, in the court where the criminal action is pending, or where the grand jury investigation is pending, at a time and place specified in the order, and prescribing such conditions as the judge shall determine.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

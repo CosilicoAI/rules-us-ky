@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/76.130"/>
+          <FRBRuri value="/us-ky/act/krs/76.130"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/76.130/eng"/>
+          <FRBRuri value="/us-ky/act/krs/76.130/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/76.130/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/76.130/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_76_130">
+        <num>76.130</num>
+        <content>
+          <p>All moneys of the district, from whatever source derived, shall be paid to the secretary-treasurer. Such moneys shall be deposited in the name of the district by the secretary-treasurer, in one or more banks or trust companies, situated in the county in which said city is located, having a capital and surplus of not less than $500,000. The district may require that any or all such deposits be continuously secured by the pledge of direct obligations of the United States of America, having such value as may be satisfactory to the district. Such securities shall either be deposited with the secretary-treasurer or be held by a trustee or agent satisfactory to the district. In lieu of any such pledge of such securities, such funds may be secured by corporate surety bond or bonds, which shall be in form, sufficiency, and substance satisfactory to the district. All banks and trust companies are authorized to give such security for such deposits. The moneys in such accounts shall be paid out by the secretary-treasurer on warrants signed by the secretary-treasurer and countersigned by the chairman or vice chairman of the board, or signed and countersigned by such other person or persons as the board may from time to time designate by resolution.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

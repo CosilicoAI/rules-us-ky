@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/326.990"/>
+          <FRBRuri value="/us-ky/act/krs/326.990"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/326.990/eng"/>
+          <FRBRuri value="/us-ky/act/krs/326.990/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/326.990/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/326.990/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_326_990">
+        <num>326.990</num>
+        <content>
+          <p>Any person who shall directly or indirectly engage in the practice of ophthalmic dispensing or hold himself or herself out to the public as being able so to do, or who shall violate any of the provisions of this chapter relating to ophthalmic dispensing, or having had his or her license suspended or revoked shall continue to engage in the practice of ophthalmic dispensing, or who directly or indirectly employs, permits or authorizes an unlicensed person to engage in the practice of ophthalmic dispensing shall be guilty of a misdemeanor, and, upon conviction, shall be punished by imprisonment for not more than thirty (30) days, or by a fine of not less than one hundred dollars ($100) nor more than five hundred dollars ($500) or by both such fine and imprisonment, and each such violation shall be deemed a separate offense.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

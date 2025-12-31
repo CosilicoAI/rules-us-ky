@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/268.270"/>
+          <FRBRuri value="/us-ky/act/krs/268.270"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/268.270/eng"/>
+          <FRBRuri value="/us-ky/act/krs/268.270/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/268.270/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/268.270/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_268_270">
+        <num>268.270</num>
+        <content>
+          <p>“(Name of district) (drainage), (levee), (reclamation) District, located in the County of , Kentucky. “Name of owner Post office address (Description of land). Located in County. Number of acres in tract Present value of land per acre $ Quantity of land to be taken or used Value of land to be taken or used $ Consequential damages to adjacent lands Enhancement of value of land which will result from the improvement per acre $ No. of acres in tract in class A No. of acres in tract in class B No. of acres in tract in class C No. of acres in tract in class D No. of acres in tract in class E No. of acres in tract in class
+    Remarks: ”.</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

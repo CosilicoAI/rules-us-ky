@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/179.270"/>
+          <FRBRuri value="/us-ky/act/krs/179.270"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/179.270/eng"/>
+          <FRBRuri value="/us-ky/act/krs/179.270/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/179.270/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/179.270/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_179_270">
+        <num>179.270</num>
+        <content>
+          <p>If the obstructions are not removed or reset, or if the excavations are not properly filled and maintained, within thirty (30) days after the service of a notice by the county engineer personally or by mail upon the owner or occupant or upon the company at its principal place of business, or an agent of the company within the county, requesting the removal or resetting, the county engineer shall cause the obstructions to be removed or reset and such repairs on the excavation to be made as may be necessary to place the road in its original condition. The expenses thereby incurred shall be paid in the first instance out of the money levied and collected and available therefor, and shall be charged against the owner or occupant and levied and collected as provided in .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

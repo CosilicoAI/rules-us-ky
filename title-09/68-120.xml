@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/68.120"/>
+          <FRBRuri value="/us-ky/act/krs/68.120"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/68.120/eng"/>
+          <FRBRuri value="/us-ky/act/krs/68.120/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/68.120/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/68.120/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_68_120">
+        <num>68.120</num>
+        <content>
+          <p>Where the special object or purpose for which a tax was levied has been accomplished, any amount remaining in the special fund shall become a part of the general revenue fund of the county. In any county where all or any part of a special fund so transferred to the general fund remains unexpended and has not been commingled with other funds in such a way as to lose its identification, the county may return the same to a special reserve fund for an object or purpose similar to that for which the fund was originally accumulated and may invest the same in investments in which other funds of the county may lawfully be invested until such time as it is necessary to expend the fund for such purpose.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

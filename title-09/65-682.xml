@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/65.682"/>
+          <FRBRuri value="/us-ky/act/krs/65.682"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/65.682/eng"/>
+          <FRBRuri value="/us-ky/act/krs/65.682/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/65.682/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/65.682/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_65_682">
+        <num>65.682</num>
+        <content>
+          <p>The General Assembly finds and declares that economic development created by the development of projects to support economic revitalization and improvement in a development area which results in the increase in the value of property located in a development area or results in increased employment opportunities within or around a development area serves a public purpose; and that the authority prescribed by  to and the purposes to be accomplished thereunder, are proper governmental and public purposes for which public moneys may be expended; and that the creation or expansion of development areas is of paramount importance mandating that the provisions of  to be liberally construed and applied in order to advance public purposes.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

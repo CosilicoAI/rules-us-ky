@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/95.778"/>
+          <FRBRuri value="/us-ky/act/krs/95.778"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/95.778/eng"/>
+          <FRBRuri value="/us-ky/act/krs/95.778/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/95.778/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/95.778/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_95_778">
+        <num>95.778</num>
+        <content>
+          <p>The treasurer of the board of trustees of the policemen’s and firefighters’ pension fund shall be the custodian of said pension fund and shall securely and safely keep the same, subject to the control and direction of said board, and shall keep his or her books and accounts concerning such fund in such manner as may be prescribed by the board and the said books and accounts shall always be subject to the inspection of the board or any member thereof. The treasurer shall, within ten (10) days after his appointment, execute a bond to the city with good and sufficient surety, in such penal sum as the legislative body shall direct, to be approved by the legislative body of said city, conditioned for the faithful performance of the duties of his or her office, and that he or she will safely keep and well and truthfully account for all money and properties which may come into his or her hands as such treasurer; and that, upon the expiration of his or her term of office, he or she will surrender and deliver to his or her successor all bonds, securities, and all unexpended moneys or other properties which may have come into his or her hands as treasurer of said fund. Said bond shall be filed in the office of the city clerk, as other bonds, and may be sued on in the name of the said city, for the use of said board of trustees, or in the name of the board of trustees, or any person or persons injured by a breach thereof. The premium on said bond shall be paid out of said pension fund in the manner provided in  to for expending sums.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

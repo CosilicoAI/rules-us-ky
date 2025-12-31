@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/117.135"/>
+          <FRBRuri value="/us-ky/act/krs/117.135"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/117.135/eng"/>
+          <FRBRuri value="/us-ky/act/krs/117.135/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/117.135/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/117.135/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_117_135">
+        <num>117.135</num>
+        <content>
+          <p>When voting equipment is acquired by any county, the voting equipment shall be immediately placed in the custody of the county clerk, and shall remain in his or her custody at all times except when in use at an election or when in the custody of a court or court officer during contest proceedings. The clerk shall see that the voting equipment is properly protected and preserved from damage or unnecessary deterioration, and shall not permit any unauthorized person to tamper with the voting equipment.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

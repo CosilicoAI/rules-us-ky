@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/226.060"/>
+          <FRBRuri value="/us-ky/act/krs/226.060"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/226.060/eng"/>
+          <FRBRuri value="/us-ky/act/krs/226.060/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/226.060/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/226.060/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_226_060">
+        <num>226.060</num>
+        <content>
+          <p>The chief of police of a city of the first class or the chief of police of a county containing a city of the first class, or the chief of police of a consolidated local government, and persons acting by his orders may examine the books of any pawnbroker or his clerk, if they deem it necessary when in search of stolen property. Any person who has in his possession a pawnbroker’s ticket issued by a pawnbroker in a city of the first class or in a county containing a city of the first class or a consolidated local government shall, when accompanied by a policeman or by an order from the chief or captain of police, be permitted to examine property purporting to be pawned by that ticket. No property shall be removed from the possession of any pawnbroker without the process of law required by the existing laws of the state, or the laws and ordinances of the local government regulating pawnbrokers.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

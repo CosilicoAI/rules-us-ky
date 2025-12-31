@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/367.270"/>
+          <FRBRuri value="/us-ky/act/krs/367.270"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/367.270/eng"/>
+          <FRBRuri value="/us-ky/act/krs/367.270/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/367.270/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/367.270/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_367_270">
+        <num>367.270</num>
+        <content>
+          <p>Whenever the Attorney General has probable cause to believe that a person has engaged in, or is engaging in, any practice declared by  to to be unlawful and whenever the Attorney General has probable cause to believe that information will not be obtainable pursuant to  and during the course of any investigation, he may apply to a Circuit Court ex parte for an order impounding any record, book, document, account, paper or sample of merchandise which is material to the practice under investigation. Such motion shall state in writing the grounds which the Attorney General believes constitute probable cause. The Circuit Court shall specify by order the length of time for copy or inspection.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

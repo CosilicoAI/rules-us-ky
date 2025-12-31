@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/148.770"/>
+          <FRBRuri value="/us-ky/act/krs/148.770"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/148.770/eng"/>
+          <FRBRuri value="/us-ky/act/krs/148.770/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/148.770/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/148.770/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_148_770">
+        <num>148.770</num>
+        <content>
+          <p>Nothing in  to shall preclude a component of the state trails system from becoming a part of the national trails system. The commissioner shall coordinate the state trails system with the national trails system and is directed to encourage and assist any federal studies for inclusion of the state’s trails in the national trails system. The commissioner may enter into written cooperative agreements for joint federal-state administration of a state component of the national trails system, provided such agreements for administration of land uses are not less restrictive than those set forth in  to</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

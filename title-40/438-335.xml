@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/438.335"/>
+          <FRBRuri value="/us-ky/act/krs/438.335"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/438.335/eng"/>
+          <FRBRuri value="/us-ky/act/krs/438.335/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/438.335/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/438.335/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_438_335">
+        <num>438.335</num>
+        <content>
+          <p>The Department of Agriculture shall carry out the provisions of  to as they relate to educating the public and sellers of tobacco products, alternative nicotine products, or vapor products about provisions and penalties of  to  The Department of Agriculture shall be entitled to the revenue produced by one-twentieth of one cent ($0.0005) of the three-cent ($0.03) per pack revenue collected by the Department of Revenue from the state excise tax on the sale of cigarettes as imposed by  and to keep fifty percent (50%) of any fines collected under  to to offset the costs of these education efforts.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

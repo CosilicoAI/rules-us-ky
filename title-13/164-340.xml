@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.340"/>
+          <FRBRuri value="/us-ky/act/krs/164.340"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.340/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.340/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.340/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.340/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_340">
+        <num>164.340</num>
+        <content>
+          <p>The governing board shall meet quarterly at the institution or at such other place as is agreed upon. Upon written request of the president of the institution or of two (2) members of the board, the chairman of the board shall call a special meeting at a place designated by him, and the board may at such special meeting transact any or all business that it may transact at a regular meeting. A majority of the members of the board shall constitute a quorum for the transaction of business, but no appropriation of money shall be made nor any contract that requires a disbursement of money shall be authorized, and no teacher employed or dismissed, unless a majority of all the members of the board vote for it.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

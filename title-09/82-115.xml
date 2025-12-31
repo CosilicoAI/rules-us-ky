@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/82.115"/>
+          <FRBRuri value="/us-ky/act/krs/82.115"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/82.115/eng"/>
+          <FRBRuri value="/us-ky/act/krs/82.115/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/82.115/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/82.115/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_82_115">
+        <num>82.115</num>
+        <content>
+          <p>A city may in the discretion of its governing body enter into contracts of inducement with governmental agencies, and pursuant thereto may make a conveyance or lease of, or grant an option to acquire or lease, such lands, with or without site improvements, utility services, buildings, structures or other improvements, upon such terms and conditions as in the discretion of the governing body of the city may appear to be in the best interests of the public health, safety or general welfare of the citizens and inhabitants of the city. In its exercise of such discretion the governing body of the city may ascertain and declare as a legislative determination of fact, by ordinance duly adopted and made effective according to law, that by reason of immediate benefits to the city or to its citizens and inhabitants, or by reason of ultimate benefits reasonably to be anticipated in the way of relieving the city of public welfare obligations, facilitating proper municipal planning, increasing opportunities for gainful employment, increasing sources of tax or other revenues, or otherwise, a contract of inducement shall be made with a governmental agency in the public interests without concurrent tangible consideration in terms of cash or property, and solely or partly in anticipation of such prospective public benefits.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/80.330"/>
+          <FRBRuri value="/us-ky/act/krs/80.330"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/80.330/eng"/>
+          <FRBRuri value="/us-ky/act/krs/80.330/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/80.330/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/80.330/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_80_330">
+        <num>80.330</num>
+        <content>
+          <p>The area of operation of a housing authority created for a county shall include all of the county for which it is created and the area of operation of a regional housing authority shall include (except as otherwise provided in  to  all of the counties for which such regional housing authority is created and established. But no county or regional housing authority shall undertake any housing within the boundaries of a city unless a resolution has been adopted by the governing body of the city (and also by any housing authority which has been created for that city pursuant to  to or  to  declaring that there is a need for the county or regional housing authority to exercise its powers within that city.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

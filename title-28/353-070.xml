@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/353.070"/>
+          <FRBRuri value="/us-ky/act/krs/353.070"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/353.070/eng"/>
+          <FRBRuri value="/us-ky/act/krs/353.070/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/353.070/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/353.070/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_353_070">
+        <num>353.070</num>
+        <content>
+          <p>The department shall keep a proper index of the plats and locations, and shall keep an accurate record of the proceedings in case of any conference or dispute. Where the well operator is working under any agreement with or from the owner or the coal operator operating the workable coal beds under the tract, and the agreement permits the well operator to select his own locations, the location as originally chosen by the well operator shall become the authorized location and the department shall issue the proper permit for the drilling of the well.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

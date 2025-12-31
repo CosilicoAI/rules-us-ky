@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/324.286"/>
+          <FRBRuri value="/us-ky/act/krs/324.286"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/324.286/eng"/>
+          <FRBRuri value="/us-ky/act/krs/324.286/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/324.286/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/324.286/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_324_286">
+        <num>324.286</num>
+        <content>
+          <p>Except for the fees and charges paid by the licensees to the commission and deposited in the real estate education, research, and recovery fund, all fees and charges collected by the commission under the provisions of this chapter shall be paid into the general fund in the State Treasury. All expenses incurred by the commission under the provisions of this chapter, including compensations to members, secretaries, clerks, and assistants, except those expenses designated for payment out of the real estate education, research, and recovery fund, shall be paid out of the general fund in the State Treasury upon warrants of the secretary for finance and administration as warrants generally are required to be drawn by the statutes governing such respective offices from time to time, when vouchers therefor are exhibited and approved by the commission; provided, that the total expense for every purpose incurred shall not exceed the total fees, charges, fines, and penalties imposed under the provisions of this chapter and paid into the State Treasury. All expenses incurred by the commission and designated for payment out of the real estate education, research, and recovery fund, including payments to aggrieved parties and the expenses of carrying on the educational and research requirements of , shall be paid out of the real estate education, research, and recovery fund in the same manner as required in this section for payments out of the general fund; provided, that the total expenses and payments for every purpose incurred and designated for payment out of the real estate education, research, and recovery fund shall not exceed the total fees, charges, and interest received by the commission and paid into the real estate education, research, and recovery fund of the State Treasury.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

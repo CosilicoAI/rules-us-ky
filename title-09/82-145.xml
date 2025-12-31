@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/82.145"/>
+          <FRBRuri value="/us-ky/act/krs/82.145"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/82.145/eng"/>
+          <FRBRuri value="/us-ky/act/krs/82.145/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/82.145/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/82.145/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_82_145">
+        <num>82.145</num>
+        <content>
+          <p>Prior to the issuance of the bonds, provision shall be made by ordinance for the creation of a separate and special fund or account of the city, identified as constituting the source of payment of principal and interest, and by covenant to be continued so long as any of the bonds shall remain outstanding and unpaid. By the provisions of such ordinance the city may pledge and covenant that it will cause to be set aside and deposited in such separate and special fund, from time to time, moneys received from any or all of the following sources, subject to the following conditions and limitations:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

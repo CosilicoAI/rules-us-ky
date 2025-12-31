@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/140.070"/>
+          <FRBRuri value="/us-ky/act/krs/140.070"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/140.070/eng"/>
+          <FRBRuri value="/us-ky/act/krs/140.070/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/140.070/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/140.070/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_140_070">
+        <num>140.070</num>
+        <content>
+          <p>The tax upon transfers of property as defined in the preceding sections of this chapter shall be at the following rates:</p>
+          <p>On its value not exceeding $20,000 2% On its value exceeding $20,000, but not exceeding $30,000 3% On its value exceeding $30,000, but not exceeding $45,000 4% On its value exceeding $45,000, but not exceeding $60,000 5% On its value exceeding $60,000, but not exceeding $100,000 6% On its value exceeding $100,000, but not exceeding $200,000 7% On its value exceeding $200,000, but not exceeding $500,000 8% On its value exceeding $500,000 10%</p>
+          <p>Click to view</p>
+          <p>On its value not exceeding $10,000 4% On its value exceeding $10,000, but not exceeding $20,000 5% On its value exceeding $20,000, but not exceeding $30,000 6% On its value exceeding $30,000, but not exceeding $45,000 8% On its value exceeding $45,000, but not exceeding $60,000 10% On its value exceeding $60,000, but not exceeding $100,000 12% On its value exceeding $100,000, but not exceeding $200,000 14% On its value exceeding $200,000 16%</p>
+          <p>Click to view</p>
+          <p>On its value not exceeding $10,000 6% On its value exceeding $10,000, but not exceeding $20,000 8% On its value exceeding $20,000, but not exceeding $30,000 10% On its value exceeding $30,000, but not exceeding $45,000 12% On its value exceeding $45,000, but not exceeding $60,000 14% On its value exceeding $60,000 16%</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

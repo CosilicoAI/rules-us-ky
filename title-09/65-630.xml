@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/65.630"/>
+          <FRBRuri value="/us-ky/act/krs/65.630"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/65.630/eng"/>
+          <FRBRuri value="/us-ky/act/krs/65.630/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/65.630/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/65.630/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_65_630">
+        <num>65.630</num>
+        <content>
+          <p>The exercise of any power granted to a riverport authority in  to is hereby declared to be a public function, exercised for a public purpose, and as a matter of public necessity, and any real or personal property, or rights therein, acquired by a riverport authority and used in the manner and for the purposes enumerated in  to is hereby declared to be acquired and used for public purposes and as a matter of public necessity.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

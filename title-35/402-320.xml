@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/402.320"/>
+          <FRBRuri value="/us-ky/act/krs/402.320"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/402.320/eng"/>
+          <FRBRuri value="/us-ky/act/krs/402.320/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/402.320/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/402.320/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_402_320">
+        <num>402.320</num>
+        <content>
+          <p>Every physician examining applicants for a marriage license may obtain an appropriate blood specimen from each applicant and forward same to the Division of Laboratory Services, Cabinet for Health and Family Services, or to a laboratory approved by the cabinet, to ascertain the existence or nonexistence of sickle cell trait or sickle cell disease, or any other genetically transmitted disease which affects hemoglobin. In the event the laboratory tests indicate that both applicants are carriers of a trait or disease, the physician may provide genetic counseling or refer the applicants to the cabinet or to an agency approved by the cabinet for such counseling.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

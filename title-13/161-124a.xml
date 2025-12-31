@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/161.124a"/>
+          <FRBRuri value="/us-ky/act/krs/161.124a"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/161.124a/eng"/>
+          <FRBRuri value="/us-ky/act/krs/161.124a/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/161.124a/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/161.124a/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_161_124a">
+        <num>161.124a</num>
+        <content>
+          <p>This agreement shall be liberally construed so as to effectuate its purposes. The provisions of this agreement shall be severable and if any phrase, clause, sentence, or provision of this agreement is declared to be contrary to the Constitution of any state or of the United States, or the application thereof to any government, agency, person, or circumstance is held invalid, the validity of the remainder of this agreement and the applicability thereof to any government, agency, person, or circumstance shall not be affected thereby. If this agreement shall be held contrary to the Constitution of any state participating therein, the agreement shall remain in full force and effect as to the state affected as to all severable matters.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

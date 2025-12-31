@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/441.035"/>
+          <FRBRuri value="/us-ky/act/krs/441.035"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/441.035/eng"/>
+          <FRBRuri value="/us-ky/act/krs/441.035/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/441.035/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/441.035/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_441_035">
+        <num>441.035</num>
+        <content>
+          <p>The United States may use the jail of any county, and any city may use the jail of the county in which the city is located for the incarceration of prisoners charged with or convicted of violations of the city’s ordinances, by paying the county the fees set by agreement with the fiscal court for the type of services rendered. Any jailer shall receive and confine in jail, until lawfully discharged, persons committed under the laws of the United States or for a violation of the ordinances of any city within the county.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/45.340"/>
+          <FRBRuri value="/us-ky/act/krs/45.340"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/45.340/eng"/>
+          <FRBRuri value="/us-ky/act/krs/45.340/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/45.340/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/45.340/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_340">
+        <num>45.340</num>
+        <content>
+          <p>Except where otherwise provided by law, checks for salaries due to public officers and employees shall be issued weekly, semimonthly, monthly or for such other period of time not exceeding thirty (30) days which may be designated by the Finance and Administration Cabinet with the approval of the Governor. Checks shall be tendered to an officer or employee only after he has completed the work for which he is being paid and not later than fifteen (15) days after the designated pay period. The Finance and Administration Cabinet is authorized to effect such changes in the payroll system at any time as are necessary to pay salaries after work has been performed. The cabinet is further authorized to make such changes as are necessary and desirable in the posting of payroll expenditures and any other accounting and reporting procedures. In connection with such changes in accounting and reporting procedures,  shall not be construed to prevent the issuance of salary checks for services rendered during a preceding fiscal year.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

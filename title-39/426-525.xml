@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/426.525"/>
+          <FRBRuri value="/us-ky/act/krs/426.525"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/426.525/eng"/>
+          <FRBRuri value="/us-ky/act/krs/426.525/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/426.525/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/426.525/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_426_525">
+        <num>426.525</num>
+        <content>
+          <p>Foreclosure of a mortgage is forbidden; provided, however, that this section shall not preclude a mortgagee after default from taking possession of property subject to the mortgage which has been abandoned by the mortgagor, for the purpose of preserving and maintaining the same, harvesting crops, or letting the same, all to the account of the mortgagor; and any reasonable expenses incident thereto including taxes and insurance shall be added to the principal of the mortgage, and secured by it. For the purpose of this section, property shall be deemed to have been abandoned when the mortgagor has moved from the property and when by the nature of the property in question when further neglect or failure to attend will decrease its value. Any right a mortgagee acquires in a tenant’s interest in crops raised on shares is inferior to any prior existing lien of the landlord on the tenant’s interest. Nothing in this section shall be construed as conflicting with the provisions of  or</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

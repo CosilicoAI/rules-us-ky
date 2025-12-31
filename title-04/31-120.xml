@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/31.120"/>
+          <FRBRuri value="/us-ky/act/krs/31.120"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/31.120/eng"/>
+          <FRBRuri value="/us-ky/act/krs/31.120/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/31.120/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/31.120/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_120">
+        <num>31.120</num>
+        <content>
+          <p>Release on bail, or any other method of release provided in KRS , shall not necessarily prevent him or her from being a needy person. In each case, the person and, if an unemancipated minor under  and (d), his or her custodial parent or guardian, subject to the penalties for perjury, shall certify by affidavit of indigency which shall be compiled by the pretrial release officer, as provided under KRS  and Supreme Court Rules or orders promulgated pursuant thereto, the material factors relating to his or her ability to pay in the form the Supreme Court prescribes.</p>
+          <p>“Commonwealth of Kentucky County of Affiant , being first duly sworn says that he or she is not now represented by private counsel and that he or she does not have the money or assets out of which to employ one; that he or she is indigent and requests the court to appoint counsel. Affiant states that he or she is presently (fill in the blank with one (1) of the following: unemployed, employed full-time, employed part-time, or employed on a seasonal basis) Affiant states that his or her weekly income is ; and that he or she receives (circle any of the following which apply and fill in the blank if necessary) Welfare Food stamps Social Security Workers’ compensation Unemployment Retirement disability Other Affiant states that he or she owns the following property: Description Value ; Affiant states that he or she has the following dependents: Name Age Relationship ; Affiant states that he or she has the following obligations: To whom owed Amount owing Affiant understands and has been advised that he or she may be held responsible for the payment of part of the cost of legal representation. Affiant also understands that the cost of payment for legal representation will be determined by the judge after considering affiant’s financial condition, what private attorneys charge for similar services, how complicated the affiant’s case is, and the amount of time affiant’s attorney spends on affiant’s case. Signature of affiant Subscribed and sworn to before me this, day of , 20 Signature and title of officer administering the oath</p>
+          <p>Click to view</p>
+          <p>Perjury Warning: Affiant understands that any person knowingly making false statements in the above affidavit shall be subject to the penalties for perjury under KRS , the maximum penalty for which is five (5) years’ imprisonment. Affiant declares under penalty of perjury that he or she has read the above affidavit and that it is true and complete to the best of his or her knowledge.”</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

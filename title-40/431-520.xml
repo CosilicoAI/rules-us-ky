@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/431.520"/>
+          <FRBRuri value="/us-ky/act/krs/431.520"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/431.520/eng"/>
+          <FRBRuri value="/us-ky/act/krs/431.520/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/431.520/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/431.520/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_431_520">
+        <num>431.520</num>
+        <content>
+          <p>Any person charged with an offense shall be ordered released by a court of competent jurisdiction pending trial on his personal recognizance or upon the execution of an unsecured bail bond in an amount set by the court or as fixed by the Supreme Court as provided by , unless the court determines in the exercise of its discretion that such a release will not reasonably assure the appearance of the person as required, or the court determines the person is a flight risk or a danger to others. When such a determination is made, the court shall, either in lieu of or in addition to the above methods of release, impose any of the following conditions of release:</p>
+          <p>A copy of said order shall be served upon the defendant, his surety or sureties. If the defendant fails to appear before the court as ordered or if, after hearing, the court finds the conditions of release have not been complied with, the court may change the conditions imposed or forfeit the bail bond or any portion thereof and enter a judgment for the Commonwealth against the defendant and his surety or sureties for the amount of the bail bond or any portion thereof and cost of the proceedings.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

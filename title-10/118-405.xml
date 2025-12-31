@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/118.405"/>
+          <FRBRuri value="/us-ky/act/krs/118.405"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/118.405/eng"/>
+          <FRBRuri value="/us-ky/act/krs/118.405/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/118.405/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/118.405/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_118_405">
+        <num>118.405</num>
+        <content>
+          <p>No candidate’s name shall appear on any ballot, including any federal provisional ballot, federal provisional absentee ballot, or absentee ballot more than once, except that a candidate’s name may appear twice if he or she is a candidate for a primary or a regular election and also a candidate to fill a vacancy in the same office required to be filled at a special election, when the special election to fill a vacancy is scheduled for the regular election day.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

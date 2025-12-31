@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/136.370"/>
+          <FRBRuri value="/us-ky/act/krs/136.370"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/136.370/eng"/>
+          <FRBRuri value="/us-ky/act/krs/136.370/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/136.370/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/136.370/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_136_370">
+        <num>136.370</num>
+        <content>
+          <p>Each attorney, for the exchange of reciprocal or interinsurance contracts, under KRS , shall pay to the Department of Revenue on or before March 1 of each year a tax of two percent (2%) of the gross premiums or deposits collected from subscribers in this state during the preceding calendar year, less all amounts returned to subscribers or accredited to their account as savings. In addition, the attorney shall pay an annual premium tax of three-fourths of one percent (0.75%) of all amounts as prescribed for every stock insurer by and for the purposes specified in .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

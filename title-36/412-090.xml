@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/412.090"/>
+          <FRBRuri value="/us-ky/act/krs/412.090"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/412.090/eng"/>
+          <FRBRuri value="/us-ky/act/krs/412.090/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/412.090/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/412.090/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_412_090">
+        <num>412.090</num>
+        <content>
+          <p>If the surety pays any part of a judgment he shall have a right to an assignment of the judgment from the plaintiff or the plaintiff’s attorney, in whole or in part. When the plaintiff has been fully satisfied, the assignment shall give the surety the right to sue out or use any existing execution or otherwise control the judgment for his own benefit, against the other defendants, so far as to obtain satisfaction from the principal for the whole amount so paid by him, with interest, or from any cosurety his proper part of such payment, according to . This assignment shall also transfer to the sureties so paying the benefit of any lien existing under or by virtue of the judgment, and the right of assignment shall exist, though the money was made or secured by sale of the property of the surety under execution.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

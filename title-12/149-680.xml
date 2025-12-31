@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/149.680"/>
+          <FRBRuri value="/us-ky/act/krs/149.680"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/149.680/eng"/>
+          <FRBRuri value="/us-ky/act/krs/149.680/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/149.680/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/149.680/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_149_680">
+        <num>149.680</num>
+        <content>
+          <p>The secretary for energy and environment is authorized as required by law, to employ necessary personnel, procure necessary equipment, supplies and services; to enter into contracts in the name of the secretary and to provide funds to any agency of the United States for work or services under the forest pest control program. The secretary for energy and environment may prescribe rules and regulations for carrying out the purposes of  to</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

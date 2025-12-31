@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/353.300"/>
+          <FRBRuri value="/us-ky/act/krs/353.300"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/353.300/eng"/>
+          <FRBRuri value="/us-ky/act/krs/353.300/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/353.300/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/353.300/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_353_300">
+        <num>353.300</num>
+        <content>
+          <p>Where lands, or any estate or interest therein, are subject to any contingent future interest, legal or equitable, by way of remainder, reversion, or possibility of reverter, upon the happening of a condition subsequent, or otherwise, created by deed, will, or otherwise, and whether a trust is involved or not, and it is made to appear that it will be advantageous to the present and ultimate owners of said lands or estate or interest therein, the court shall have the power, pending the happening of any contingency and the vesting of such future interest or interests, to declare a trust in said lands or estate or interest therein, appoint a trustee therefor, and to authorize such trustee to sell, execute and deliver a valid oil, gas, coal or other mineral lease covering said lands or estate or interest therein.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

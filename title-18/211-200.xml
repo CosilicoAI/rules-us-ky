@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/211.200"/>
+          <FRBRuri value="/us-ky/act/krs/211.200"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/211.200/eng"/>
+          <FRBRuri value="/us-ky/act/krs/211.200/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/211.200/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/211.200/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_211_200">
+        <num>211.200</num>
+        <content>
+          <p>Whenever, in the opinion of the secretary for health and family services, a public health emergency exists in any county, or whenever any county fails to establish, maintain, and operate a local health department therein meeting the standards prescribed by the cabinet, the cabinet may assign to said county such of its own personnel as may be designated by the secretary for health and family services. Such personnel so assigned shall have the full power and authority of local health department employees in addition to their power and authority as representatives of the cabinet. Whenever such assignment results by reason of the lack of a local health department or of a local health department meeting the standards prescribed by the cabinet, any funds appropriated or allocated to the local health department by either the Commonwealth or the federal government may be used to reimburse the cabinet.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

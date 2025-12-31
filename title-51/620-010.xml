@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/620.010"/>
+          <FRBRuri value="/us-ky/act/krs/620.010"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/620.010/eng"/>
+          <FRBRuri value="/us-ky/act/krs/620.010/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/620.010/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/620.010/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_620_010">
+        <num>620.010</num>
+        <content>
+          <p>In addition to the purposes set forth in , this chapter shall be interpreted to effectuate the following express legislative purposes regarding the treatment of dependent, neglected and abused children. Children have certain fundamental rights which must be protected and preserved, including but not limited to, the rights to adequate food, clothing and shelter; the right to be free from physical, sexual or emotional injury or exploitation; the right to develop physically, mentally, and emotionally to their potential; and the right to educational instruction and the right to a secure, stable family. It is further recognized that upon some occasions, in order to protect and preserve the rights and needs of children, it is necessary to remove a child from his or her parents.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

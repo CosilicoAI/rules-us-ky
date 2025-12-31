@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/250.431"/>
+          <FRBRuri value="/us-ky/act/krs/250.431"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/250.431/eng"/>
+          <FRBRuri value="/us-ky/act/krs/250.431/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/250.431/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/250.431/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_250_431">
+        <num>250.431</num>
+        <content>
+          <p>The director may cancel the registration of any brand of fertilizer or the license of any person or refuse to register any brand of fertilizer or license any person upon satisfactory evidence that the registrant or licensee has used fraudulent or deceptive practices in the evasion or attempted evasion of the provisions of  to or any administrative regulations promulgated thereunder. No registration or license shall be revoked or refused until the person (registrant or licensee) shall have been given the opportunity to appear for an informal hearing by the director. If a registration or license is revoked or refused as the result of an informal hearing, the registrant or licensee may appeal, and upon appeal an administrative hearing shall be conducted in accordance with KRS .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

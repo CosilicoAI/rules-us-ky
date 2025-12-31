@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/413.100"/>
+          <FRBRuri value="/us-ky/act/krs/413.100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/413.100/eng"/>
+          <FRBRuri value="/us-ky/act/krs/413.100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/413.100/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/413.100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_413_100">
+        <num>413.100</num>
+        <content>
+          <p>No promise, acknowledgment or payment of money by any person bound on any bond or obligation for the payment of money secured by a lien shall operate as a prolongation or extension of the time within which the lien may be enforced as against purchasers or creditors, unless the promisor and the holder of the lien, before fifteen (15) years after the maturity of the debt, enters a memorandum on the margin of the record of the deed or mortgage, attested by the clerk, showing that the debt is extended, for what time it is extended and the amount still due thereon. The payee shall pay the clerk a fee pursuant to  for his services.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

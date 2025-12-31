@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/376.060"/>
+          <FRBRuri value="/us-ky/act/krs/376.060"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/376.060/eng"/>
+          <FRBRuri value="/us-ky/act/krs/376.060/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/376.060/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/376.060/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_376_060">
+        <num>376.060</num>
+        <content>
+          <p>If the owner of any legal or equitable interest in land or improvements thereon contracts for labor or material used in the erection, repair or improvement of any structure thereon under such circumstances that a lien for the payment therefor may attach to the property, and sells or mortgages the property before the expiration of the time provided for the filing and recording of a mechanic’s or materialman’s lien, he shall, on receiving the consideration for the sale or the proceeds of the loan, pay in full any sum owing for the labor and materials, unless released in writing by the person furnishing the labor or materials. If the sum received is insufficient to make such payment in full, the owner shall make pro rata payments on all claims for such labor and materials.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

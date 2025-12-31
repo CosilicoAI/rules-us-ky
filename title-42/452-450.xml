@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/452.450"/>
+          <FRBRuri value="/us-ky/act/krs/452.450"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/452.450/eng"/>
+          <FRBRuri value="/us-ky/act/krs/452.450/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/452.450/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/452.450/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_452_450">
+        <num>452.450</num>
+        <content>
+          <p>Excepting the actions mentioned in  to both inclusive, and in ,    and  an action against a corporation which has an office or place of business in this state, or a chief officer or agent residing in this state, must be brought in the county in which such office or place of business is situated or in which such officer or agent resides; or, if it be upon a contract, in the above-named county, or in the county in which the contract is made or to be performed; or, if it be for a tort, in the first-named county, or the county in which the tort is committed.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

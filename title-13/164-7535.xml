@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.7535"/>
+          <FRBRuri value="/us-ky/act/krs/164.7535"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.7535/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.7535/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.7535/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.7535/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_7535">
+        <num>164.7535</num>
+        <content>
+          <p>Notwithstanding , the Kentucky Higher Education Assistance Authority may award college access program grants pursuant to , to the extent funds are available for the purpose, to financially needy part-time and full-time undergraduate students, including students enrolled in a program of study designated as an equivalent undergraduate program of study by the Council on Postsecondary Education in an administrative regulation. Grants shall be awarded only to students enrolled or accepted for enrollment at participating institutions located within the Commonwealth. Grants under this section shall be awarded only for attendance in a program of study of at least two (2) academic years’ duration. Grants under this section shall be awarded only to students enrolled or accepted for enrollment for attendance in a program of study that leads to a degree, except that grants shall be awarded to students enrolled or accepted for enrollment at publicly operated vocational-technical institutions for attendance in a program of study that leads to a certificate, diploma, or degree or in a comprehensive transition and postsecondary program. For purposes of this section, a student enrolled in a comprehensive transition and postsecondary program shall be considered a part-time student. Awards to recipients attending participating institutions accredited by a regional accrediting association shall not exceed the prevailing amount charged for tuition at publicly-supported community and technical colleges in Kentucky, and awards to recipients attending other participating institutions shall not exceed the prevailing amount charged for tuition at publicly-operated vocational-technical institutions in Kentucky. The provisions of this section shall not limit the authority’s capability to use funds appropriated for this purpose to match federal funds, make grant awards, adopt administrative regulations that conform to the requirements of federal laws and regulations for full participation in federally-funded student financial assistance programs.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

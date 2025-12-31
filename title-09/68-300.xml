@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/68.300"/>
+          <FRBRuri value="/us-ky/act/krs/68.300"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/68.300/eng"/>
+          <FRBRuri value="/us-ky/act/krs/68.300/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/68.300/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/68.300/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_68_300">
+        <num>68.300</num>
+        <content>
+          <p>Any appropriation made or claim allowed by the fiscal court in excess of any budget fund, and any warrant or contract not within the budget appropriation, shall be void. No member of the fiscal court shall vote for any such illegal appropriation or claim. The county treasurer shall be liable on his official bond for the amount of any county warrant willfully or negligently signed or countersigned by him in excess of the budget fund out of which the warrant is payable.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

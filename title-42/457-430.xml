@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/457.430"/>
+          <FRBRuri value="/us-ky/act/krs/457.430"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/457.430/eng"/>
+          <FRBRuri value="/us-ky/act/krs/457.430/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/457.430/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/457.430/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_457_430">
+        <num>457.430</num>
+        <content>
+          <p>The following optional form may be used by an agent to certify facts concerning a power of attorney:</p>
+          <p>AGENT’S CERTIFICATION AS TO THE VALIDITY OF POWER OF ATTORNEY AND AGENT’S AUTHORITY State of County of I, (Name of Agent), certify under penalty of perjury that (Name of Principal) granted me authority as an agent or successor agent in a power of attorney dated .</p>
+          <p>Click to view</p>
+          <p>I further certify that to my knowledge:</p>
+          <p>(Insert other relevant statements)</p>
+          <p>Click to view</p>
+          <p>SIGNATURE AND ACKNOWLEDGMENT Agent’s Signature Date Agent’s Name Printed Agent’s Address Agent’s Telephone Number This document was acknowledged before me on (Date) by (Name of Agent) (Seal, if any) Signature of Notary My commission expires: This document prepared by:</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

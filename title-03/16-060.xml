@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/16.060"/>
+          <FRBRuri value="/us-ky/act/krs/16.060"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/16.060/eng"/>
+          <FRBRuri value="/us-ky/act/krs/16.060/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/16.060/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/16.060/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_060">
+        <num>16.060</num>
+        <content>
+          <p>It shall be the duty of the commissioner, each officer of the department, and each individual employed as a Trooper R Class or CVE R Class to detect and prevent crime, apprehend criminals, maintain law and order throughout the state, to collect, classify and maintain information useful for the detection of crime and the identification, apprehension and conviction of criminals and to enforce the criminal, as well as the motor vehicle and traffic laws of the Commonwealth. To this end the commissioner, each officer of the department, and each individual employed as a Trooper R Class or CVE R Class is individually vested with the powers of a peace officer and shall have in all parts of the state the same powers with respect to criminal matters and enforcement of the laws relating thereto as sheriffs, constables and police officers in their respective jurisdictions, and shall possess all the immunities and matters of defense now available or hereafter made available to sheriffs, constables and police officers in any suit brought against them in consequence of acts done in the course of their employment. Any warrant of arrest may be executed by the commissioner, any officer of the department, and each individual employed as a Trooper R Class or CVE R Class.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

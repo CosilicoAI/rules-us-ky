@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/6.070"/>
+          <FRBRuri value="/us-ky/act/krs/6.070"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/6.070/eng"/>
+          <FRBRuri value="/us-ky/act/krs/6.070/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/6.070/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/6.070/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6_070">
+        <num>6.070</num>
+        <content>
+          <p>Either house of the General Assembly may punish anyone by fine not exceeding five hundred dollars ($500) or by imprisonment not exceeding six (6) months, or both, for a breach of privilege, or for any contempt except the offenses described in , which shall be punished as provided in  to  Contempts and breaches of privilege shall be inquired into first by a special committee, before which the accused shall have the right to be heard by himself and counsel, and have compulsory process to procure the attendance of his witnesses. The committee shall report all matters of fact specially, with its opinion, for the final action of the house.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/67.170"/>
+          <FRBRuri value="/us-ky/act/krs/67.170"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/67.170/eng"/>
+          <FRBRuri value="/us-ky/act/krs/67.170/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/67.170/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/67.170/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_67_170">
+        <num>67.170</num>
+        <content>
+          <p>The jailer of each county shall take charge of and carefully preserve all furniture, bedding and similar property belonging to the jail and any other county property at the county seat for which he may act as superintendent. The jailer shall be liable to the county upon his official bond for the value of any such property lost or destroyed by reason of his negligence or fault, and the county may enforce this liability by notice and motion in the District Court.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

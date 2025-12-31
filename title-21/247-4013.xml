@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/247.4013"/>
+          <FRBRuri value="/us-ky/act/krs/247.4013"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/247.4013/eng"/>
+          <FRBRuri value="/us-ky/act/krs/247.4013/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/247.4013/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/247.4013/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247_4013">
+        <num>247.4013</num>
+        <content>
+          <p>to 247.4029 are intended to aid courts and juries in defining the duties of persons responsible for farm animals to others who have chosen to participate in farm animal activities.  to 247.4029 also establish the policy of the Commonwealth of Kentucky that persons do not have a duty to eliminate risks inherent in farm animal activities which are beyond their immediate control if those risks are or should be reasonably obvious, expected, or necessary to participants engaged in farm animal activities. Furthermore,  to 247.4029 establish the policy that the sponsor, instructor, or other professional engaged in farm animal activities who breaches a duty to a farm animal activity participant and causes foreseeable injury to the participant shall be responsible for the injury in accordance with other applicable law.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

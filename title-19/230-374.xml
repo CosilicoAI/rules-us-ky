@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/230.374"/>
+          <FRBRuri value="/us-ky/act/krs/230.374"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/230.374/eng"/>
+          <FRBRuri value="/us-ky/act/krs/230.374/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/230.374/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/230.374/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_230_374">
+        <num>230.374</num>
+        <content>
+          <p>All sums reported and paid to the racing commission under the provisions of  to  with the exception of funds paid under , shall be paid by the racing commission to the Kentucky Racing Health and Welfare Fund, Inc., a nonprofit charitable corporation, organized for the benefit, aid, assistance, and relief of Thoroughbred owners, trainers, jockeys, valets, exercise riders, grooms, stable attendants, pari-mutuel clerks, and other Thoroughbred racing personnel employed in connection with racing, and their spouses and children, who can demonstrate their need for financial assistance connected with death, illness, or off-the-job injury and are not otherwise covered by union health and welfare plans, workers’ compensation, Social Security, public welfare, or any type of health, medical, death, or accident insurance. These sums shall be paid on or before December 31 in each year, however, no payments shall be made by the racing commission to the Kentucky Racing Health and Welfare Fund, Inc., unless the racing commission and the Auditor of Public Accounts are satisfied that the fund is in all respects being operated for the charitable and benevolent purposes as set forth in this section and that no part of the funds paid to the fund by the racing commission or any net earnings of the fund inure to the benefit of any private individual, director, officer, or member of the fund or any of the persons who turned over sums to the racing commission representing unclaimed pari-mutuel tickets.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

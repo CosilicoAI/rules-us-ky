@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/58.020"/>
+          <FRBRuri value="/us-ky/act/krs/58.020"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/58.020/eng"/>
+          <FRBRuri value="/us-ky/act/krs/58.020/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/58.020/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/58.020/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_58_020">
+        <num>58.020</num>
+        <content>
+          <p>A governmental agency acting separately or jointly with one (1) or more of any such agency, may acquire, construct, maintain, add to, and improve any public project as defined in , which public project may be located within or without or partly within and partly without the territorial limits of such governmental agency or agencies, and for the purpose of defraying the cost thereof may borrow money and issue negotiable revenue bonds. Before any department or agency of the state government shall borrow money and issue bonds under  to  the head of the department or agency shall file with the Secretary of State a written order, approved by the Governor, the Attorney General and the secretary of the Finance and Administration Cabinet, setting forth the proposed public project, the amount of the bonds to be issued, and the maximum rate of interest the bonds are to bear. Any governmental agency other than agencies of the state government may borrow money and issue revenue bonds under  to pursuant to an order, resolution, or ordinance of its legislative or administrative body, which order, resolution, or ordinance shall set forth the proposed public project, the amount of the revenue bonds to be issued, and the maximum rate of interest. In every instance the order, resolution, or ordinance shall provide that the public project is being undertaken under the provisions of  to</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

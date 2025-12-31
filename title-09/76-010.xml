@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/76.010"/>
+          <FRBRuri value="/us-ky/act/krs/76.010"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/76.010/eng"/>
+          <FRBRuri value="/us-ky/act/krs/76.010/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/76.010/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/76.010/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_76_010">
+        <num>76.010</num>
+        <content>
+          <p>In the interest of the public health and for the purpose of providing adequate sewer and drainage facilities in and around each city with a population equal to or greater than twenty thousand (20,000) based upon the most recent federal decennial census and in each county containing a city with a population equal to or greater than twenty thousand (20,000) based upon the most recent federal decennial census, there may be created and established a joint metropolitan sewer district under the provisions of  to  having the powers, duties and functions as herein prescribed, to be known by and under the name of
+    . . . . . . . . . . . . . . . . . . .
+    (Name of city) and
+    . . . . . . . . . . . . . . . . . . .
+    (Name of county) metropolitan sewer district, which district under that name shall be a public body corporate, and political subdivision, with power to adopt, use, and alter at its pleasure a corporate seal, sue and be sued, contract and be contracted with, and in other ways to act as a natural person, within the purview of  to</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

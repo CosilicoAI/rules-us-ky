@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/160.065"/>
+          <FRBRuri value="/us-ky/act/krs/160.065"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/160.065/eng"/>
+          <FRBRuri value="/us-ky/act/krs/160.065/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/160.065/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/160.065/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_160_065">
+        <num>160.065</num>
+        <content>
+          <p>When any property assessable for school purposes in one school district is annexed by or transferred to another school district, the recipient district shall assume a part of the indebtedness, if any, of the other school district incurred for school buildings and grounds in the proportion the assessed valuation of property taxable for school purposes transferred bears to the total assessed valuation of property taxable for school purposes in the district losing the territory.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

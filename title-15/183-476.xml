@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/183.476"/>
+          <FRBRuri value="/us-ky/act/krs/183.476"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/183.476/eng"/>
+          <FRBRuri value="/us-ky/act/krs/183.476/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/183.476/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/183.476/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_183_476">
+        <num>183.476</num>
+        <content>
+          <p>The acquisition of any lands for the purpose of establishing airports or other air navigation facilities; the acquisition of airport protection privileges; the acquisition, establishment, construction, enlargement, improvement, maintenance, equipping and operation of airports and other air navigation facilities, and the exercise of any other powers granted to air boards or municipalities in this chapter, are hereby declared to be public, governmental and municipal functions, exercised for a public purpose, and matters of public necessity, and such lands and other property, easements and privileges acquired and used by such air boards or municipalities in the manner and for the purposes enumerated in this chapter shall and are hereby declared to be acquired and used for public, governmental and municipal purposes and as a matter of public necessity.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

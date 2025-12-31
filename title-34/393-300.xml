@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/393.300"/>
+          <FRBRuri value="/us-ky/act/krs/393.300"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/393.300/eng"/>
+          <FRBRuri value="/us-ky/act/krs/393.300/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/393.300/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/393.300/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_393_300">
+        <num>393.300</num>
+        <content>
+          <p>No person shall institute proceedings to escheat real property the title to which was acquired by any lending corporation in satisfaction of debts previously contracted in the course of its business, or that it purchases under a judgment for any such debt in its favor, if such lending corporation is under the supervision of the Department of Financial Institutions of this state, comptroller of currency of the United States or any other duly constituted supervising banking authority, state or Federal, without first obtaining the consent of the supervising authority having supervision over that corporation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

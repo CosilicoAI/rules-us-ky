@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/220.290"/>
+          <FRBRuri value="/us-ky/act/krs/220.290"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/220.290/eng"/>
+          <FRBRuri value="/us-ky/act/krs/220.290/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/220.290/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/220.290/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_220_290">
+        <num>220.290</num>
+        <content>
+          <p>All contracts for work, material or supplies that may exceed one thousand dollars ($1,000) shall be advertised for bids by publication pursuant to KRS  within the district where the work is to be done or the materials or supplies used. The contract shall be let to the lowest and best bidder who shall give bond with approved and ample surety for the faithful performance of the contract. The notice shall specify the general nature of the bid sought, the time and date bids are to be received, and where and how more specific information can be obtained. The contract shall be in writing, in duplicate, and shall be accompanied by or refer to plans and specifications for the work to be done, prepared by the chief engineer. The plans and specifications shall be made and considered a part of the contract. The contract shall be adopted by the board and signed by its president and by the contractor, and shall become a part of the records of the district.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/61.8715"/>
+          <FRBRuri value="/us-ky/act/krs/61.8715"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/61.8715/eng"/>
+          <FRBRuri value="/us-ky/act/krs/61.8715/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/61.8715/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/61.8715/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_61_8715">
+        <num>61.8715</num>
+        <content>
+          <p>The General Assembly finds an essential relationship between the intent of this chapter and that of  to  dealing with the management of public records, and of  to    186A.040, and 186A.285, dealing with the coordination of strategic planning for computerized information systems in state government; and that to ensure the efficient administration of government and to provide accountability of government activities, public agencies are required to manage and maintain their records according to the requirements of these statutes. The General Assembly further recognizes that while all government agency records are public records for the purpose of their management, not all these records are required to be open to public access, as defined in this chapter, some being exempt under .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

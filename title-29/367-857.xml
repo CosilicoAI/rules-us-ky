@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/367.857"/>
+          <FRBRuri value="/us-ky/act/krs/367.857"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/367.857/eng"/>
+          <FRBRuri value="/us-ky/act/krs/367.857/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/367.857/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/367.857/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_367_857">
+        <num>367.857</num>
+        <content>
+          <p>Any wholesaler, distributor or processor of fresh meat or fresh meat product who sells, exposes for sale, delivers or transfers any meat or meat product which is produced outside of the United States shall indicate to the retailer, purchaser or transferee in writing, that the meat or meat product is produced outside of the United States and shall indicate to the retailer, purchaser or transferee in writing, the place of origin of the meat or meat product.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/38.240"/>
+          <FRBRuri value="/us-ky/act/krs/38.240"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/38.240/eng"/>
+          <FRBRuri value="/us-ky/act/krs/38.240/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/38.240/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/38.240/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_240">
+        <num>38.240</num>
+        <content>
+          <p>If any member of the National Guard, when on duty or assembled therefor under lawful authority, does any act in the discharge of his duty that causes him to be proceeded against by civil court action, the Attorney General shall represent him in the civil proceedings. If, under the same conditions, a member of the National Guard is proceeded against in a criminal action, the adjutant general may, with the approval of the Governor, appoint legal counsel to represent him in the criminal proceedings. The compensation paid the legal counsel shall be fixed by the adjutant general, with the written approval of the Governor.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

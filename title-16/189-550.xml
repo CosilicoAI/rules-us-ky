@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/189.550"/>
+          <FRBRuri value="/us-ky/act/krs/189.550"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/189.550/eng"/>
+          <FRBRuri value="/us-ky/act/krs/189.550/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/189.550/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/189.550/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_189_550">
+        <num>189.550</num>
+        <content>
+          <p>Operators of all buses and motor vehicles used for transporting children shall stop their vehicles before crossing any railroad when tracks are at the same level of the roadway. The stop shall be made not less than fifteen (15) feet nor more than fifty (50) feet from the nearest track over which the highway crosses, except where the crossing is protected by gates or a flagman employed by the railroad. After making the stop, the operator shall open the service door and carefully look in each direction and listen for approaching trains or other on-track equipment before proceeding. If visibility is impaired at the required distance for stopping under this section, the operator may allow the vehicle to slowly roll forward for the purpose of gaining the visibility necessary to safely cross the railroad tracks.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

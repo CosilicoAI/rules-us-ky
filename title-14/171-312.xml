@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/171.312"/>
+          <FRBRuri value="/us-ky/act/krs/171.312"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/171.312/eng"/>
+          <FRBRuri value="/us-ky/act/krs/171.312/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/171.312/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/171.312/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_171_312">
+        <num>171.312</num>
+        <content>
+          <p>In order to better facilitate the operation and management, the Kentucky Historical Society shall be organized into four (4) separate divisions. These divisions shall include: Research and Publications; Oral History and Educational Outreach; Administration; and Museums. The divisions shall be headed by a director appointed by the governing board of the Kentucky Historical Society of the Tourism, Arts and Heritage Cabinet pursuant to .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

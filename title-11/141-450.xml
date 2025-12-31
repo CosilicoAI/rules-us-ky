@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/141.450"/>
+          <FRBRuri value="/us-ky/act/krs/141.450"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/141.450/eng"/>
+          <FRBRuri value="/us-ky/act/krs/141.450/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/141.450/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/141.450/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_141_450">
+        <num>141.450</num>
+        <content>
+          <p>The General Assembly declares that it is the public policy of the Commonwealth of Kentucky to set aside and preserve, for the benefit of present and future generations, certain areas of unusual natural significance as laboratories for scientific research, as reservoirs of natural materials not all of the uses of which are now known, as habitats for plant and animal species and biotic communities, as living museums of the native landscape where people may observe nature’s web of life and our natural heritage, as places of historic and natural interest and scenic beauty, and as reminders of the vital human dependence upon fresh air, clean water, and unspoiled natural areas.  to are enacted to provide a means by which the protection of nongame species and the acquisition of land or interests in land and the protection, maintenance, and use of the land, may be financed in part through a voluntary check-off designation on state income tax return forms.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.610"/>
+          <FRBRuri value="/us-ky/act/krs/164.610"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.610/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.610/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.610/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.610/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_610">
+        <num>164.610</num>
+        <content>
+          <p>In enacting  to  it is the intention of the General Assembly to provide for aid in disseminating among the people of Kentucky useful and practical information on subjects relating to agriculture, home economics, and rural and community life and to encourage the application of the same in the several counties of the Commonwealth through extension work to be carried on in cooperation with the University of Kentucky College of Agriculture and Home Economics, and the United States Department of Agriculture as provided in the Act of Congress May 8, 1914, as amended by Public Law 83 of the 83rd Congress.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

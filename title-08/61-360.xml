@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/61.360"/>
+          <FRBRuri value="/us-ky/act/krs/61.360"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/61.360/eng"/>
+          <FRBRuri value="/us-ky/act/krs/61.360/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/61.360/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/61.360/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_61_360">
+        <num>61.360</num>
+        <content>
+          <p>The Governor or his agent may appoint special local peace officers, for such time as he deems necessary, to preserve the peace and protect the property of any person from waste or destruction; provided, however, that no such peace officer(s) shall be actively employed at any factory, mine, workshop, retail establishment, or at any other location where a strike, a slowdown, a sit in, or any other type of work stoppage exists, if the employment of such peace officer(s) would result in the unreasonable expansion of the normal complement of such peace officers or the relieving of normal guards or peace officers to perform other duties. Upon the application of an owner of property for such services, and upon payment of a fee of ten dollars ($10) for each officer to be appointed, the Governor may immediately appoint the person recommended by the owner, if the person is eligible. No person shall be eligible for appointment under this section unless he has established to the satisfaction of the Governor that he possesses the following qualifications:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

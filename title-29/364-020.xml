@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/364.020"/>
+          <FRBRuri value="/us-ky/act/krs/364.020"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/364.020/eng"/>
+          <FRBRuri value="/us-ky/act/krs/364.020/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/364.020/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/364.020/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_364_020">
+        <num>364.020</num>
+        <content>
+          <p>Each freight boat or other heavy boat
+    $
+    1.00 Each jack boat, skiff or canoe
+    .25 Each fleet of timber
+    10.00 Each raft of not less than forty (40) logs
+    4.00 Each platform of not less than ten (10) logs
+    1.00 Each sawlog or other log or tree prepared for sale
+    .25 Each cross or railroad tie
+    .03 Boards or planks caught in rafts or large body, per 1,000 feet board measure: For 20,000 board feet or less .50 For over 20,000 board feet
+    .25 Boards or planks, loose and scattered, per 1,000 board feet measure
+    2.50 Staves and heading, for each 1,000 merchantable pieces
+    3.00</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

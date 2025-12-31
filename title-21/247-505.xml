@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/247.505"/>
+          <FRBRuri value="/us-ky/act/krs/247.505"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/247.505/eng"/>
+          <FRBRuri value="/us-ky/act/krs/247.505/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/247.505/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/247.505/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247_505">
+        <num>247.505</num>
+        <content>
+          <p>Whenever in the judgment of the board or the certified commission, council, board, association or other agency of producers, a purchaser has engaged in or is about to engage in any acts or practices that constitute a violation of any of the sections of  to  the board or the certified commission, council, board, association or other agency of producers may make application to the Franklin Circuit Court for an order enjoining such act or acts or practices and obtain a restraining order and preliminary injunction against such purchaser.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

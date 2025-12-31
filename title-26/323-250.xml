@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/323.250"/>
+          <FRBRuri value="/us-ky/act/krs/323.250"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/323.250/eng"/>
+          <FRBRuri value="/us-ky/act/krs/323.250/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/323.250/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/323.250/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_323_250">
+        <num>323.250</num>
+        <content>
+          <p>Whenever in the judgment of the board any person has engaged, or is about to engage, in any acts or practices that constitute, or will constitute, a violation of  or , the board may inform the Attorney General, who may make application to the Franklin Circuit Court for an order enjoining such acts or practices, or the board may inform the Commonwealth’s attorney of the county in which the acts or practices are occurring or will occur who may make application to the Circuit Court of that county for an order enjoining such acts or practices. Upon a showing by the board that such person has engaged, or is about to engage, in any such acts or practices, an injunction, restraining order, or such other order as may be appropriate shall be granted by such court. Any order of the Franklin Circuit Court shall be enforceable and shall be valid anywhere in this state and the order of either court shall be reviewable as provided in the Rules of Civil Procedure in the case of other injunctions and restraining orders.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/118.621"/>
+          <FRBRuri value="/us-ky/act/krs/118.621"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/118.621/eng"/>
+          <FRBRuri value="/us-ky/act/krs/118.621/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/118.621/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/118.621/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_118_621">
+        <num>118.621</num>
+        <content>
+          <p>The Secretary of State shall
+    place the names of all candidates who have been nominated by petition, or
+    who have been nominated pursuant to  and (6), on the official
+    presidential preference primary ballot of their respective political parties.
+    The Secretary of State shall additionally place on the ballot of each political
+    party a ballot slot for voters to cast an “uncommitted” vote.
+    This vote shall be entitled to the same proportionate representation as a
+    candidate under , but delegates representing these voters shall
+    not be bound by the first ballot requirement of .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

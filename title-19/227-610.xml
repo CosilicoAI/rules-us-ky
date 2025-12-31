@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/227.610"/>
+          <FRBRuri value="/us-ky/act/krs/227.610"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/227.610/eng"/>
+          <FRBRuri value="/us-ky/act/krs/227.610/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/227.610/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/227.610/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_227_610">
+        <num>227.610</num>
+        <content>
+          <p>The department or its designee shall license retailers under  to  The issuance of a license shall be contingent upon the applicant’s chief managing officer passing a test administered by the department. Before issuing a license, the department shall require proof of liability insurance which shall name the department in the certificate of insurance, and the license shall be null and void if there is a lapse of coverage in insurance.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

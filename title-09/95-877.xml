@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/95.877"/>
+          <FRBRuri value="/us-ky/act/krs/95.877"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/95.877/eng"/>
+          <FRBRuri value="/us-ky/act/krs/95.877/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/95.877/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/95.877/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_95_877">
+        <num>95.877</num>
+        <content>
+          <p>Each member shall, by virtue of the payment of contributions to the fund or pick up of employee contributions by the employer pursuant to , receive a vested interest in such contributions, and in consideration of such vested interest, shall be conclusively deemed to undertake and agree to pay the same and to have the amounts deducted from his salary as herein provided, or to have such contributions picked up by the employer pursuant to .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

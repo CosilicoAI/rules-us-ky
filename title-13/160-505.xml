@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/160.505"/>
+          <FRBRuri value="/us-ky/act/krs/160.505"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/160.505/eng"/>
+          <FRBRuri value="/us-ky/act/krs/160.505/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/160.505/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/160.505/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_160_505">
+        <num>160.505</num>
+        <content>
+          <p>to the contrary notwithstanding, if a tax authorized by  to  to  and to shall be collected by a board of education, the board of education shall appoint a person who shall be responsible for collection and administration of such tax. If one (1) or more boards of education agree in writing to levy identical taxes authorized by the statutes mentioned hereinabove, the boards of education so agreeing shall jointly appoint a person who shall be responsible for collection and administration of such tax as provided for in (2). The position may be full-time or part-time and his compensation shall be fixed by the board and/or boards of education. The bond of this person shall be made to cover his duties as tax collector.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/67.470"/>
+          <FRBRuri value="/us-ky/act/krs/67.470"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/67.470/eng"/>
+          <FRBRuri value="/us-ky/act/krs/67.470/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/67.470/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/67.470/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_67_470">
+        <num>67.470</num>
+        <content>
+          <p>Every county buildings commission to which a site for a building has been conveyed, on which a building is to be constructed, remodeled or improved, as provided in , shall enter into a contract or contracts with some person for the erection, remodeling or improvements on the site of a building with the necessary appurtenances according to the plans and specifications adopted by the county buildings commission and approved by the county.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

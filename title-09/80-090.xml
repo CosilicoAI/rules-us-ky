@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/80.090"/>
+          <FRBRuri value="/us-ky/act/krs/80.090"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/80.090/eng"/>
+          <FRBRuri value="/us-ky/act/krs/80.090/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/80.090/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/80.090/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_80_090">
+        <num>80.090</num>
+        <content>
+          <p>Whenever it appears to the appointing officer that a member of a housing authority appointed by him is incompetent or guilty of neglect of duty or malfeasance, the appointing officer shall require the member to appear before him to show cause why he should not be removed from office. At least fifteen (15) days’ written notice of the hearing shall be given to the member whose conduct is in question and to all other members of the authority. At the hearing the member may be represented by counsel and may appear personally and present such pertinent evidence as he wishes or as the appointing officer requests. If after the hearing the appointing officer determines that a member has been incompetent or has been guilty of neglect of duty or malfeasance, he shall remove the member from the authority within seven (7) days, and there shall be a vacancy of the office.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

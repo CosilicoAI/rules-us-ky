@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/186.025"/>
+          <FRBRuri value="/us-ky/act/krs/186.025"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/186.025/eng"/>
+          <FRBRuri value="/us-ky/act/krs/186.025/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/186.025/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/186.025/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_186_025">
+        <num>186.025</num>
+        <content>
+          <p>Effective January 1, 1981, the Transportation Cabinet shall, by April 1 of each year, provide the Department of Revenue with a listing of all owners of motor vehicles registered in Kentucky on an anniversary basis under  as of the preceding January 1. The listing shall be by counties and shall contain, in addition to the name of the owners, the owners’ addresses, and the make, model and year of all vehicles owned by the registrants. The county clerk shall continue to provide copies of motor vehicle registration certificates on all motor vehicles not registered under the provisions of .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

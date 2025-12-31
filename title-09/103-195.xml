@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/103.195"/>
+          <FRBRuri value="/us-ky/act/krs/103.195"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/103.195/eng"/>
+          <FRBRuri value="/us-ky/act/krs/103.195/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/103.195/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/103.195/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_103_195">
+        <num>103.195</num>
+        <content>
+          <p>After July 12, 2006, no city, county, charter county, urban-county, consolidated local government, or special district shall issue revenue bonds as provided in this chapter for any housing project which is located outside the jurisdictional boundaries of the issuing entity without the express written consent of the elected legislative body of the city, county, charter county, urban-county, or consolidated local government in which the housing project will be located.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

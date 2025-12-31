@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.092"/>
+          <FRBRuri value="/us-ky/act/krs/164.092"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.092/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.092/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.092/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.092/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_092">
+        <num>164.092</num>
+        <content>
+          <p>1.
+      A hold-harmless provision for fiscal year 2018-2019 preventing a reduction in an institution’s funding amount based solely on the formula calculation, and allowing a hold-harmless amount determined by the formula in fiscal year 2018-2019 to be deducted from an institution’s formula base amount in whole or in part in fiscal years 2019-2020 and 2020-2021, as determined by the council;</p>
+          <p>2.
+      A hold-harmless provision for fiscal year 2021-2022, and every fiscal year thereafter, preventing a reduction in an institution’s funding amount based solely on the formula calculation;</p>
+          <p>3.
+      A stop-loss provision for fiscal year 2019-2020 limiting the reduction in funding to any institution to one percent (1%) of that institution’s formula base amount;</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/257.192"/>
+          <FRBRuri value="/us-ky/act/krs/257.192"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/257.192/eng"/>
+          <FRBRuri value="/us-ky/act/krs/257.192/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/257.192/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/257.192/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_257_192">
+        <num>257.192</num>
+        <content>
+          <p>The Kentucky Livestock Care Standards Commission is hereby created to make recommendations to the board to establish, maintain, or revise standards governing the care and well-being of on-farm livestock and poultry. The commission shall be attached to the Department of Agriculture for administrative purposes and shall consist of sixteen (16) members as follows:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

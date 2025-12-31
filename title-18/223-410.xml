@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/223.410"/>
+          <FRBRuri value="/us-ky/act/krs/223.410"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/223.410/eng"/>
+          <FRBRuri value="/us-ky/act/krs/223.410/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/223.410/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/223.410/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_223_410">
+        <num>223.410</num>
+        <content>
+          <p>The Kentucky Water Well Certification Board is established. The board shall recommend to the secretary administrative regulations to govern examinations; hearings to suspend, revoke or deny a certificate; and any other duties prescribed by  to  The subject matter of such examinations shall include, in addition to any standardized section, testing for knowledge of local laws and regulations.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

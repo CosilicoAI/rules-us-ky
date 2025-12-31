@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/61.750"/>
+          <FRBRuri value="/us-ky/act/krs/61.750"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/61.750/eng"/>
+          <FRBRuri value="/us-ky/act/krs/61.750/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/61.750/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/61.750/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_61_750">
+        <num>61.750</num>
+        <content>
+          <p>Reports required by  to shall be filed with the Kentucky Registry of Election Finance and shall be public record, subject to inspection by any citizen of the Commonwealth. Within thirty (30) days after reports are due, the Registry of Election Finance shall publish a list of those persons who have filed reports, and shall notify any person required to file, who has failed to file such report, by certified mail, return receipt requested of his failure to comply with  to</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

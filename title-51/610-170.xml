@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/610.170"/>
+          <FRBRuri value="/us-ky/act/krs/610.170"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/610.170/eng"/>
+          <FRBRuri value="/us-ky/act/krs/610.170/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/610.170/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/610.170/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_610_170">
+        <num>610.170</num>
+        <content>
+          <p>If it appears from the investigation required in  or otherwise that the parent or other person exercising custodial control or supervision of any child, or the estate of any child, who has been found to fall within the purview of KRS Chapters 600 to 645 and who has been left in his own home or in the home of a relative, placed on probation or placed in a foster home or boarding home, or in the care of a public or private facility or agency, or the Department of Juvenile Justice or the cabinet, is able to contribute to the support of the child, the court shall enter an order requiring the parent or estate to pay a reasonable sum for the support, maintenance, or education of the child. The order shall direct that the money be paid to the circuit clerk to be disbursed as ordered by the court or be paid to the person, facility, agency, or the Department of Juvenile Justice or cabinet to which the child was committed or probated. On application and on such notice as the court may direct, the court may make alterations in the requirement for contribution. The court may issue such orders necessary to compel payment of the sum due. The enforcement of a sentence imposed on a parent who fails to comply with the order of the court may be suspended at the discretion of the court, but the suspension may be revoked at the discretion of the court upon the failure of the parent to obey further orders of the court. This section shall not apply when the parent or other person exercising custodial control or supervision of the child was the victim of the child’s criminal conduct under KRS Chapters 635 or 640, or filed the complaint against the child under other provisions of the Unified Juvenile Code.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

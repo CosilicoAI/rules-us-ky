@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/65.7627"/>
+          <FRBRuri value="/us-ky/act/krs/65.7627"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/65.7627/eng"/>
+          <FRBRuri value="/us-ky/act/krs/65.7627/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/65.7627/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/65.7627/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_65_7627">
+        <num>65.7627</num>
+        <content>
+          <p>There is established the commercial mobile radio service emergency telecommunications fund, the “CMRS fund,” an insured, interest-bearing account to be administered and maintained by the Kentucky 911 Services Board. The CMRS service charges levied under , 65.7634, and 65.7636 shall generate revenue equitably from prepaid and postpaid CMRS connections within the boundaries of the Commonwealth. No charges other than the CMRS service charges levied under , 65.7634, and 65.7636 are authorized to be levied by any person or entity for providing wireless service. All revenues collected under  and , 65.7636, and to shall be deposited directly into the fund, and the board shall direct disbursements from the fund according to the provisions of . Moneys in the CMRS fund shall not be the property of the Commonwealth and shall not be subject to appropriation by the General Assembly. Moneys deposited or to be deposited into the CMRS fund shall not:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

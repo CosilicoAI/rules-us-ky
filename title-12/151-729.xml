@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/151.729"/>
+          <FRBRuri value="/us-ky/act/krs/151.729"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/151.729/eng"/>
+          <FRBRuri value="/us-ky/act/krs/151.729/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/151.729/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/151.729/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_151_729">
+        <num>151.729</num>
+        <content>
+          <p>At the time a water utility requests a state agency to take action required to allow the transfer between water utilities of drinking water within or into the watershed of the Kentucky River basin, the water utility shall notify the authority of the request that has been made for state agency action. The authority shall review the request and comment on the requested transfer to the state agency within the time period for the review by the state agency.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

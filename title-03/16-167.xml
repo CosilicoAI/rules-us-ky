@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/16.167"/>
+          <FRBRuri value="/us-ky/act/krs/16.167"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/16.167/eng"/>
+          <FRBRuri value="/us-ky/act/krs/16.167/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/16.167/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/16.167/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_167">
+        <num>16.167</num>
+        <content>
+          <p>Prior to his or her retirement under  to  any Department of Kentucky State Police officer, as defined in , who became disabled on or before July 1, 1977, as a result of an injury or disease arising out of the performance of a hazardous duty in the course of his or her employment with the department may elect benefits under , if he or she qualifies therefor, or he or she may elect to continue receiving preretirement benefits otherwise available to him or her due to the disability.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

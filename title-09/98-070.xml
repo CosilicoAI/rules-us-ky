@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/98.070"/>
+          <FRBRuri value="/us-ky/act/krs/98.070"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/98.070/eng"/>
+          <FRBRuri value="/us-ky/act/krs/98.070/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/98.070/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/98.070/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_98_070">
+        <num>98.070</num>
+        <content>
+          <p>The persons appointed as members of the commission shall constitute a body corporate under the name of “Commissioners of Charitable Buildings of
+    _______________________________________ ,” and may contract and be contracted with, sue and be sued in that name and to adopt a seal and alter it at pleasure. If any commission appointed under  to is dissolved, the corporation shall be continued in the ex officio member thereof, but shall have no power to do any act until four (4) appointive members are appointed.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

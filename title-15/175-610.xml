@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/175.610"/>
+          <FRBRuri value="/us-ky/act/krs/175.610"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/175.610/eng"/>
+          <FRBRuri value="/us-ky/act/krs/175.610/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/175.610/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/175.610/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_175_610">
+        <num>175.610</num>
+        <content>
+          <p>Except as hereinafter provided in this section, when all bonds issued under the provisions of this chapter in connection with any turnpike project or projects and the interest thereon shall have been paid or a sufficient amount for the payment of all such bonds and the interest thereon to the maturity thereof shall have been set aside in trust for the benefit of the bondholders, such project or projects, if then in good condition and repair, shall be conveyed by the authority to the Commonwealth and shall become part of the state highway system and shall thereafter be maintained by the department free of tolls; provided, however, that the department may, in any proceedings or trust indenture authorizing or securing bonds under the provisions of this chapter, provide for combining for financing purposes any two (2) or more turnpike projects theretofore constructed or thereafter to be constructed, and for the reimposition or continuance of tolls on each such turnpike project until all such bonds and the interest thereon shall have been paid or a sufficient amount for such purposes shall have been set aside in trust for the benefit of the bondholders.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/56.782"/>
+          <FRBRuri value="/us-ky/act/krs/56.782"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/56.782/eng"/>
+          <FRBRuri value="/us-ky/act/krs/56.782/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/56.782/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/56.782/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_56_782">
+        <num>56.782</num>
+        <content>
+          <p>The cabinet shall report on or before October 15, 2008, and on or before every October 15 thereafter to the Legislative Research Commission on progress made to maximize the use of energy-efficiency measures in state government. The Legislative Research Commission shall transmit the report to the appropriate interim joint committees and to the General Assembly when it convenes. The report shall include but not be limited to:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

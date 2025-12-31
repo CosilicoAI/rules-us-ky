@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/281.855"/>
+          <FRBRuri value="/us-ky/act/krs/281.855"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/281.855/eng"/>
+          <FRBRuri value="/us-ky/act/krs/281.855/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/281.855/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/281.855/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_281_855">
+        <num>281.855</num>
+        <content>
+          <p>For the purpose of the interstate and intrastate reciprocal provisions of this chapter and KRS , automobile utility trailers shall be classified the same as private passenger automobiles and extended the same privileges, provided, however, that every automobile utility trailer lessor shall register with the department, license and pay all applicable taxes on a number of such trailers equal to the average number of automobile utility trailers he operated during the previous licensing year in and through the Commonwealth of Kentucky. Thereafter, all such trailers properly identified and licensed in any state, territory, province, country, or the District of Columbia, and belonging to such person, shall be permitted to operate in this state in both interstate and intrastate commerce. The burden of submitting verifiable data as to the average number of automobile utility trailers operating in and through the Commonwealth of Kentucky shall be on the automobile utility trailer lessor.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

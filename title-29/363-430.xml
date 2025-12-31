@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/363.430"/>
+          <FRBRuri value="/us-ky/act/krs/363.430"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/363.430/eng"/>
+          <FRBRuri value="/us-ky/act/krs/363.430/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/363.430/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/363.430/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_363_430">
+        <num>363.430</num>
+        <content>
+          <p>Whenever the inspector for the Kentucky Department of Agriculture compares grain moisture tests of the device being tested with the standard grain moisture measuring device and finds that they correspond or causes them to correspond with the standard he shall seal or mark such grain moisture measuring testing device with appropriate seals or marks. Any such grain moisture measuring testing device which upon such inspection shall be found to be defective and which defect cannot be immediately corrected shall be sealed or marked with an appropriate seal indicating such device to be defective and the owner or user of such device shall be notified of such defective condition on an appropriate inspection form on the date of such inspection.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

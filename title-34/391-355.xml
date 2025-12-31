@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/391.355"/>
+          <FRBRuri value="/us-ky/act/krs/391.355"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/391.355/eng"/>
+          <FRBRuri value="/us-ky/act/krs/391.355/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/391.355/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/391.355/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_391_355">
+        <num>391.355</num>
+        <content>
+          <p>Without qualifying any common law or any other statutory right to set-off or lien and subject to any contractual provision, if a party to a multiple-party account is indebted to a financial institution, the financial institution has a right to set-off against the account in which the party has or had immediately before his death a present right of withdrawal without the joinder of any other party. The amount of the account subject to set-off is that proportion to which the debtor is, or was immediately before his death, beneficially entitled, and in the absence of actual knowledge of net contributions by the financial institution, to an equal share with all parties having present rights of withdrawal without the joinder of any other party.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

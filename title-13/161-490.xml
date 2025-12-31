@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/161.490"/>
+          <FRBRuri value="/us-ky/act/krs/161.490"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/161.490/eng"/>
+          <FRBRuri value="/us-ky/act/krs/161.490/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/161.490/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/161.490/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_161_490">
+        <num>161.490</num>
+        <content>
+          <p>To the extent to which it is used in determining the liability of any fund of the retirement system, the board of trustees shall ascertain the correctness of the statement filed under  by the best evidence it is able to obtain. If official records are not available as to length of service, age, salary, or other information required for the administration of the retirement system, the board may use its discretion as to the evidence to be accepted.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

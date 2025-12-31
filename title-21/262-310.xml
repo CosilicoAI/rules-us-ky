@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/262.310"/>
+          <FRBRuri value="/us-ky/act/krs/262.310"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/262.310/eng"/>
+          <FRBRuri value="/us-ky/act/krs/262.310/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/262.310/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/262.310/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_262_310">
+        <num>262.310</num>
+        <content>
+          <p>The board may develop comprehensive plans for the conservation of soil resources and for the control and prevention of soil erosion within the district. The plans shall specify in such detail as may be possible, the acts, procedures, performances and avoidances which are necessary or desirable for the effectuation of the plans, including the specification of engineering operations, methods of cultivation, the growing of vegetation, cropping programs, tillage practices and changes in use of land. The board shall publish those plans and information and bring them to the attention of owners and occupiers of lands within the district.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

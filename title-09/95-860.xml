@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/95.860"/>
+          <FRBRuri value="/us-ky/act/krs/95.860"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/95.860/eng"/>
+          <FRBRuri value="/us-ky/act/krs/95.860/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/95.860/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/95.860/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_95_860">
+        <num>95.860</num>
+        <content>
+          <p>then the pension system survivor benefits shall be reduced to the point that the combined payments equal one hundred percent (100%) of the last rate of salary. The survivor benefit shall not be reduced, however, below an amount equal to two and one-half percent (2.5%) of average salary for each year of the deceased member’s service. Any reduction in the survivor payment shall be based upon workers’ compensation benefits applicable at the time the survivor payment is granted, and not upon subsequent increases in either benefit. If workers’ compensation benefits are reduced at a subsequent time, the surviving spouse shall inform the board, and the board shall increase the survivor’s benefit by the amount of the reductions, but not by more than an amount which would increase the survivor’s benefit to fifty percent (50%) of last rate of salary, excluding cost-of-living increases or increases in the survivor benefit due to increases the retired member may have received in his annuity pursuant to . The board of trustees may pay estimated benefits to a surviving spouse, upon qualification for the benefits, based upon an estimate of workers’ compensation benefits until such amounts are actually determined, at which time a final calculation of the spouse’s actual benefits shall be determined and the account corrected retroactive to the effective date of the survivor benefit. If workers’ compensation benefits are paid in lump sums, the board shall reduce the survivor benefit on a monthly rather than a lump-sum basis. The amount of the monthly reduction shall be based upon the life expectancy of the survivor. The board may request the assistance of the general manager of Kentucky Retirement Systems to calculate the reduction in survivor benefits when lump-sum payments are involved, and the general manager shall provide such assistance upon request.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

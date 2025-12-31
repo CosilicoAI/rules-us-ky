@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/391.350"/>
+          <FRBRuri value="/us-ky/act/krs/391.350"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/391.350/eng"/>
+          <FRBRuri value="/us-ky/act/krs/391.350/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/391.350/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/391.350/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_391_350">
+        <num>391.350</num>
+        <content>
+          <p>Payment made pursuant to  to discharges the financial institution from all claims for amounts so paid whether or not the payment is consistent with the beneficial ownership of the account as between parties, P.O.D. payees, or beneficiaries, or their successors. The protection here given does not extend to payments made after a financial institution has received written notice from any party to the effect that withdrawals in accordance with the terms of the account should not be permitted. Unless the notice is withdrawn by the person giving it, any other party to the account and the successor of any deceased party must concur in any demand for withdrawal if the financial institution is to be protected under this section. No other notice or any other information shown to have been available to a financial institution shall affect its right to the protection provided here. The protection here provided shall have no bearing on the rights of parties in disputes between themselves or their successors concerning the beneficial ownership of funds in, or withdrawn from, multiple-party accounts.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/97.670"/>
+          <FRBRuri value="/us-ky/act/krs/97.670"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/97.670/eng"/>
+          <FRBRuri value="/us-ky/act/krs/97.670/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/97.670/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/97.670/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_97_670">
+        <num>97.670</num>
+        <content>
+          <p>The memorial shall commemorate the valorous and patriotic deeds and service of the soldiers and sailors, of the city and county in which the commission acts, who were engaged in the Army and Navy of the United States during the World War of 1914 to 1918, the World War of 1941 to 1945, the Korean and Vietnam conflicts, and other international armed conflicts in which the United States participated. The memorial shall be permanent in character, and shall take the form of a building or buildings, with halls and auditoriums ample for both large and small assemblages, conventions, theatrical, musical and other entertainments, and with suitable offices, rooms, and equipment to properly maintain and operate the building or buildings, and appropriate statuary and works of memorial art, and all grounds necessary or appropriate for such purposes, all of which shall be embraced by the term “memorial.” The commission may maintain in the memorial such flags, insignia, mementos, records, and archives of the war, or of historical significance in connection therewith, as may fittingly exemplify or illustrate the patriotic services rendered the United States in the war by the soldiers and sailors, as well as by the citizens and residents of the city and county who were not engaged in the military or naval service of the United States during the war. The title to the memorial and all property acquired by the commission shall be vested in the commission and shall be held in trust for the city for the purposes contemplated in  to  free from all taxation or assessments.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

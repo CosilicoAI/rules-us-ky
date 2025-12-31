@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/177.540"/>
+          <FRBRuri value="/us-ky/act/krs/177.540"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/177.540/eng"/>
+          <FRBRuri value="/us-ky/act/krs/177.540/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/177.540/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/177.540/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_540">
+        <num>177.540</num>
+        <content>
+          <p>The department is hereby authorized to provide for the issuance of turnpike revenue refunding bonds of the Commonwealth for the purpose of refunding any bonds then outstanding which shall have been issued under the provisions of  to  including the payment of any redemption premium thereon and any interest accrued or to accrue to the date of redemption of such bonds, and, if the department shall so determine, for the additional purpose of constructing improvements, extensions, or enlargements of the turnpike project or projects in connection with which the bonds to be refunded shall have been issued. The department is further authorized to provide for the issuance of its turnpike revenue bonds for the combined purpose of (a) refunding any bonds then outstanding which shall have been issued under the provisions of  to  including the payment of any redemption premium thereon and any interest accrued or to accrue to the date of redemption of such bonds and (b) paying all or any part of the cost of any additional turnpike project or projects. The issuance of such bonds, the maturities and other details thereof, the rights of the holders thereof, and the rights, duties and obligations of the department in respect of the same, shall be governed by the provisions of  to insofar as the same may be applicable.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

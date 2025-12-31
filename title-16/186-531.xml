@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/186.531"/>
+          <FRBRuri value="/us-ky/act/krs/186.531"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/186.531/eng"/>
+          <FRBRuri value="/us-ky/act/krs/186.531/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/186.531/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/186.531/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_186_531">
+        <num>186.531</num>
+        <content>
+          <p>Card Type Fee LF GF MCF OL (initial/renewal) $48 $48 $0 $0 OL (Under 21) (Up to 4 years) $18 $18 $0 $0 Any OL, MC, or combination (duplicate/corrected) $15 $13.25 $1.75 $0 Motor vehicle IP (3 years) $18 $16 $2 $0 Motorcycle IP (1 year) $18 $13 $1 $4 Motorcycle OL (initial/renewal) $48 $38 $0 $10 Combination vehicle/MC OL (initial/renewal) $58 $48 $0 $10 PIDC (initial/renewal) $28 $25 $3 $0 PIDC (duplicate/corrected) $15 $13.50 $1.50 $0</p>
+          <p>Click to view</p>
+          <p>Card Fee Road License AOC GF MC Type Fund Fund Fund Fund OL (initial/renewal) $43 $28 $7 $8 $0 $0 OL (Under 21) (Up to 4 years) $15 $7.50 $4 $3.50 $0 $0 Any OL, MC OL or combination (duplicate /corrected) $15 $5.25 $4 $4 $1.75 $0 Motor vehicle IP (3 years) $15 $5 $4 $4 $2 $0 Motorcycle IP (1 year) $15 $5 $4 $1 $1 $4 Motorcycle OL (initial/renewal) $43 $17.50 $8 $7.50 $0 $10 Combination vehicle/MC OL (initial/renewal) $53 $25 $7 $11 $0 $10 PIDC (initial/renewal) $23 $8 $8 $4 $3 $0 PIDC (duplicate/corrected) $15 $6 $4 $3.50 $1.50 $0 PIDC (no fixed address) and  186.4123(5) $10 $0 $5 $5 $0 $0</p>
+          <p>Click to view</p>
+          <p>Card Type Fee LF GF MCF OL(initial/renewal) $43 $43 $0 $0 OL (Under 21) (Up to 4 years) $15 $15 $0 $0 Any OL, MC, or combination (duplicate/corrected) $15 $13.25 $1.75 $0 Motor vehicle IP (3 years) $15 $13 $2 $0 Motorcycle IP (1 year) $15 $10 $1 $4 Motorcycle OL (initial/renewal) $43 $33 $0 $10 Combination vehicle/MC OL (initial/renewal) $53 $43 $0 $10 PIDC (initial/renewal) $23 $20 $3 $0 PIDC (duplicate/corrected) $15 $13.50 $1.50 $0 PIDC (no fixed address) under /186.4123(5)  $10 $10 $0 $0</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

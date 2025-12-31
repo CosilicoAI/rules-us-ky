@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/352.310"/>
+          <FRBRuri value="/us-ky/act/krs/352.310"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/352.310/eng"/>
+          <FRBRuri value="/us-ky/act/krs/352.310/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/352.310/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/352.310/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_352_310">
+        <num>352.310</num>
+        <content>
+          <p>Any fire boss who fails to perform his duties, or who makes a false report of the condition of any place in the portion of the mine allotted to him for examination, shall be suspended by the mine foreman, and his name shall be given to the mine inspector for prosecution. If he is found guilty by the Mine Safety Review Commission, he shall return his certificate of qualification to the department.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

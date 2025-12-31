@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/132.350"/>
+          <FRBRuri value="/us-ky/act/krs/132.350"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/132.350/eng"/>
+          <FRBRuri value="/us-ky/act/krs/132.350/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/132.350/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/132.350/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_132_350">
+        <num>132.350</num>
+        <content>
+          <p>The county clerk shall, upon the filing of a statement by an agent, accountant or attorney of the Department of Revenue for the assessment of omitted property, enter the name of the person signing the statement as attorney for the department, and enter the name of the county attorney as attorney for the state, county, school and other taxing districts for which the commissioner of revenue is authorized to act as relator in such proceeding. The county attorney shall appear and prosecute or assist in the prosecuting of the proceeding in all the courts to which it may be taken for trial. If there is a judgment assessing the property for taxation, the judgment in each case shall recite whether or not the county attorney was present and assisted in the trial of the proceeding. When he is present and assists in the proceeding he shall be allowed as compensation for his services ten percent (10%) of the amount of state and county taxes assessed and collected pursuant to the judgment. The state and county shall be liable respectively for the payment only of the percentage allowance of compensation to the county attorney on the amount that each collects, and this shall be paid to the county attorney within thirty (30) days after the collection of the taxes, and charged against the fund to which the tax was credited.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

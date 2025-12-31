@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/5.276"/>
+          <FRBRuri value="/us-ky/act/krs/5.276"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/5.276/eng"/>
+          <FRBRuri value="/us-ky/act/krs/5.276/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/5.276/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/5.276/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_276">
+        <num>5.276</num>
+        <content>
+          <p>The Seventy-sixth Representative District shall consist of the following territory:</p>
+          <p>—CENSUS— COUNTY PREC NAME TRACT BLK SECT FAYETTE A111 FAIRLAWN FAYETTE A134 RADCLIFFE 003102 2012 FAYETTE A134 RADCLIFFE 003102 2014 FAYETTE A134 RADCLIFFE 003102 2015 FAYETTE A134 RADCLIFFE 003102 2016 FAYETTE A168 BLUE ACRES FAYETTE A169 CASTLEWOOD FAYETTE A170 MEADOW LANE FAYETTE A171 NORTHERN FAYETTE A174 ARLINGTON FAYETTE B139 SHRINE FAYETTE B151 BLAIRMORE FAYETTE C109 BRYAN STATION FAYETTE C113 CHEVY CHASE FAYETTE C118 DEEP SPRINGS FAYETTE C120 DUKE FAYETTE C121 EASTLAND 003300 1012 FAYETTE C121 EASTLAND 003300 2016 FAYETTE C121 EASTLAND 003908 1020 FAYETTE C121 EASTLAND 003908 1021 FAYETTE C121 EASTLAND 003909 1002 FAYETTE C121 EASTLAND 003909 1005 FAYETTE C121 EASTLAND 003909 1007 0202 FAYETTE C121 EASTLAND 003909 1008 FAYETTE C121 EASTLAND 003909 1009 0102 FAYETTE C121 EASTLAND 003909 1010 FAYETTE C121 EASTLAND 003909 1011 0202 FAYETTE C124 FONTAINE FAYETTE C125 HELM FAYETTE C126 KINGSWOOD FAYETTE C127 HERMITAGE FAYETTE C129 IDLE HOUR FAYETTE C130 JULIA R EWAN FAYETTE C137 ROOKWOOD FAYETTE C138 VICTORY FAYETTE C140 WALTON FAYETTE C143 WOODSPOINT FAYETTE C144 ALSAB FAYETTE C153 KINGSTON FAYETTE C155 MARY TODD FAYETTE C157 RICHMOND ROAD FAYETTE C165 CRESTVIEW FAYETTE C167 RIO DOSA FAYETTE C170 BRECKINRIDGE FAYETTE C185 NORTH ELKHORN FAYETTE C189 SADDLEBROOK FAYETTE C193 SHEFFIELD PLACE 003906 1021 FAYETTE C193 SHEFFIELD PLACE 003906 1022 FAYETTE C193 SHEFFIELD PLACE 003906 1033 FAYETTE C195 LIBERTY STATION FAYETTE C196 MAPLELEAF FAYETTE C201 TIMBER CREEK FAYETTE C204 HORSESHOE FAYETTE C205 CRYSTAL FALLS FAYETTE C207 NORTH POINTE FAYETTE C211 BILOXI FAYETTE C213 CHATSWORTH FAYETTE C219 MARKET GARDEN FAYETTE C221 RIDGEBROOK FAYETTE C222 ROSEWOOD FAYETTE C223 WILKES RUN FAYETTE C226 BURKEWOOD FAYETTE C227 FORTUNE HILL FAYETTE C234 CASSIDY</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

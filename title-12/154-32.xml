@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/154.32"/>
+          <FRBRuri value="/us-ky/act/krs/154.32"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/154.32/eng"/>
+          <FRBRuri value="/us-ky/act/krs/154.32/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/154.32/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/154.32/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_154_32">
+        <num>154.32</num>
+        <content>
+          <p>By October 1 of each year, the department shall certify to the authority, in the form of an annual report, aggregate tax credits claimed on tax returns filed during the fiscal year ending June 30 of that year and aggregate assessments taken during the prior calendar year by approved companies with respect to their economic development projects under this subchapter, and shall certify to the authority, within ninety (90) days from the date an approved company has filed its state income tax return, when an approved company has taken tax credits or assessments equal to the total incentives available to the approved company.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

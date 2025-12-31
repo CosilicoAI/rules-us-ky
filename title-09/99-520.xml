@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/99.520"/>
+          <FRBRuri value="/us-ky/act/krs/99.520"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/99.520/eng"/>
+          <FRBRuri value="/us-ky/act/krs/99.520/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/99.520/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/99.520/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_99_520">
+        <num>99.520</num>
+        <content>
+          <p>It is hereby found and declared that (1) there exist in communities of the state, slum, blighted and deteriorated areas which constitute a serious and growing menace, injurious to the public health, safety, morals and welfare of the residents of the state, and the findings and declarations heretofore made in  with respect to slum and blighted areas are hereby affirmed and restated, (2) certain slum, blighted or deteriorated areas, or portions thereof, may require acquisition and clearance, as provided in  to  since the prevailing condition of decay may make impracticable the reclamation of the area by conservation or rehabilitation, but other areas or portions thereof may, through the means provided in  to and  to  be susceptible of conservation or rehabilitation in such a manner that the conditions and evils hereinbefore enumerated may be eliminated, remedied or prevented, and to the extent feasible salvable slum and blighted areas should be conserved and rehabilitated through voluntary action and the regulatory process, and (3) all powers conferred by  to and  to  are for public uses and purposes for which public money may be expended and such other powers exercised, and the necessity in the public interest for the provisions of  to and  to  is hereby declared as a matter of legislative determination. A community, to the greatest extent it determines to be feasible in carrying out the provisions of  to and  to  shall afford maximum opportunity, consistent with the sound needs of the community as a whole, to the rehabilitation or redevelopment of areas by private enterprise.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

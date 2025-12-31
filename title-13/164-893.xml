@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.893"/>
+          <FRBRuri value="/us-ky/act/krs/164.893"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.893/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.893/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.893/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.893/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_893">
+        <num>164.893</num>
+        <content>
+          <p>Any fund created hereunder may be terminated upon written application made to the secretary by the university and a finding by the secretary that other satisfactory and adequate arrangements have been made by the university to assure that both existing and future health care malpractice claims or judgments against it will be paid and satisfied. Upon the termination of any fund pursuant to this section, the full amount remaining in said fund upon termination less any outstanding indebtedness shall promptly be repaid to the university.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

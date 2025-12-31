@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/56.110"/>
+          <FRBRuri value="/us-ky/act/krs/56.110"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/56.110/eng"/>
+          <FRBRuri value="/us-ky/act/krs/56.110/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/56.110/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/56.110/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_56_110">
+        <num>56.110</num>
+        <content>
+          <p>In case any building or other property belonging to the state or a state agency is damaged by any of the perils insured against, except as otherwise provided in  to  the agency having control or custody over the property shall within thirty (30) days certify the event to the cabinet. After receiving in any manner knowledge of the event, the cabinet shall ascertain and fix the amount of damage and file with the State Treasurer a statement thereof. If the agency having control or custody of the property disagrees with the estimate of damage, the agency and the cabinet shall each appoint one (1) member of a board of appraisers, which two (2) members shall select a third member. An award in writing, submitted by the board of appraisers to the State Treasurer, shall determine the amount of damage.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

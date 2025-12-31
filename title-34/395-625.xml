@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/395.625"/>
+          <FRBRuri value="/us-ky/act/krs/395.625"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/395.625/eng"/>
+          <FRBRuri value="/us-ky/act/krs/395.625/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/395.625/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/395.625/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_395_625">
+        <num>395.625</num>
+        <content>
+          <p>Not less than ten (10) days prior to the date of hearing, the clerk shall cause notice of the filing of a settlement to be published pursuant to KRS , stating the name of the fiduciary, the trust, the nature of the account and the date of hearing, with a statement that exceptions must be filed before that time; except that with the court’s approval the fiduciary may, in lieu of such publication, send a written notice thereof to all unpaid creditors and distributees, which notice shall be mailed at least ten (10) days before said date of hearing. The fiduciary in such cases shall file his affidavit that such notice has been mailed. The actual cost of the notice, or the proportionate part thereof, if more than one (1) settlement, shall be taxed as costs. If the value of the trust or estate is not more than two thousand five hundred dollars ($2,500) and the assets of the trust or estate are held in an account that may be accessed only upon order of the court, the provisions of this section shall not apply to settlements involving that trust or estate.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

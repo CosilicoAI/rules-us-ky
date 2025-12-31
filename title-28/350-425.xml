@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/350.425"/>
+          <FRBRuri value="/us-ky/act/krs/350.425"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/350.425/eng"/>
+          <FRBRuri value="/us-ky/act/krs/350.425/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/350.425/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/350.425/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_350_425">
+        <num>350.425</num>
+        <content>
+          <p>The permittee, operator, or other person shall design, locate, construct, operate, maintain, enlarge, modify, and remove or abandon, in accordance with the standards and criteria developed pursuant to subsection (f) of Section 515 of Public Law 95-87, “Surface Mining Control and Reclamation Act of 1977,” all existing and new coal mine waste piles consisting of mine wastes, tailings, coal processing wastes, or other liquid and solid wastes, and used either temporarily or permanently as dams or embankments. The Energy and Environment Cabinet through this chapter shall have exclusive jurisdiction over KRS  concerning the regulation of dams, levees, embankments, dikes, bridges, fills, or other obstructions across or along any stream or in the floodway of any stream, which structures or obstructions are permitted under this chapter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

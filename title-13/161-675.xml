@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/161.675"/>
+          <FRBRuri value="/us-ky/act/krs/161.675"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/161.675/eng"/>
+          <FRBRuri value="/us-ky/act/krs/161.675/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/161.675/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/161.675/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_161_675">
+        <num>161.675</num>
+        <content>
+          <p>July 1, 2010
+    . . . . . Thirty-three percent (33%)</p>
+          <p>July 1, 2011
+    . . . . . Sixty-seven percent (67%)</p>
+          <p>July 1, 2012, and thereafter
+    . . . . . One hundred percent (100%)</p>
+          <p>Nothing in this paragraph shall limit the board’s authority to change the levels of coverage, eligibility conditions, or levels of health insurance supplement for retirees in order to contain costs within available funding.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

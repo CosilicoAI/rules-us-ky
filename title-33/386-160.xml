@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/386.160"/>
+          <FRBRuri value="/us-ky/act/krs/386.160"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/386.160/eng"/>
+          <FRBRuri value="/us-ky/act/krs/386.160/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/386.160/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/386.160/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_386_160">
+        <num>386.160</num>
+        <content>
+          <p>Any fiduciary of whom a bond, undertaking or other obligation is required may agree with his surety for the deposit and safekeeping of any moneys and assets for which he and his surety may be held responsible, with a bank, safe deposit or trust company, authorized by law to do business in this state as such, or with another depository in this state approved by the court, if the depository is otherwise proper. The agreement and the deposit shall be made so as to prevent the withdrawal of the deposit or any part thereof without the written consent of the surety, or an order of court, made on such notice to the surety as the court may direct. However, the agreement shall not in any manner release from or change the liability of the principal or surety as established by the terms of the bond.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

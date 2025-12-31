@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/75.040"/>
+          <FRBRuri value="/us-ky/act/krs/75.040"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/75.040/eng"/>
+          <FRBRuri value="/us-ky/act/krs/75.040/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/75.040/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/75.040/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_75_040">
+        <num>75.040</num>
+        <content>
+          <p>The property taxed shall be subject to county tax, and the tax levied by the district shall not exceed ten cents ($0.10) per one hundred dollars ($100) of valuation as assessed for county taxes, for the purpose of defraying the expenses of the establishment, maintenance, and operation of the fire department or to make contracts for fire protection for the districts as provided in . The rate set in this subsection shall apply, notwithstanding the provisions of .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

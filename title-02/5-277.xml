@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/5.277"/>
+          <FRBRuri value="/us-ky/act/krs/5.277"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/5.277/eng"/>
+          <FRBRuri value="/us-ky/act/krs/5.277/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/5.277/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/5.277/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_277">
+        <num>5.277</num>
+        <content>
+          <p>The Seventy-seventh Representative District shall consist of the following territory:</p>
+          <p>—CENSUS— COUNTY PREC NAME TRACT BLK SECT FAYETTE A102 BARKER FAYETTE A106 CARDINAL VALLEY FAYETTE A109 DOUGLAS WASHINGTON FAYETTE A115 GREEN ACRES FAYETTE A120 JULIUS MARKS FAYETTE A126 MARLBORO FAYETTE A128 MEADOWTHORPE FAYETTE A130 OAKWOOD FAYETTE A131 OXFORD FAYETTE A134 RADCLIFFE 003102 1016 FAYETTE A134 RADCLIFFE 003102 1017 FAYETTE A134 RADCLIFFE 003102 1018 FAYETTE A134 RADCLIFFE 003102 1019 FAYETTE A134 RADCLIFFE 003102 2010 FAYETTE A134 RADCLIFFE 003102 2011 FAYETTE A135 ST MARTINS FAYETTE A140 VERSAILLES ROAD FAYETTE A143 WEST MAIN FAYETTE A144 WINBURN FAYETTE A148 ALABAMA FAYETTE A149 ASPENDALE FAYETTE A150 CAMPSIE FAYETTE A152 HIGHLANDS FAYETTE A155 OHIO FAYETTE A160 MANSION FAYETTE A161 COOLAVIN FAYETTE A164 HOLLOW CREEK FAYETTE A165 GRIFFIN GATE FAYETTE A172 WARFIELD PLACE FAYETTE A179 VALLEY FARM FAYETTE A183 SILVER CREEK FAYETTE A190 GREENWAY FAYETTE A191 HOPEWELL PARK FAYETTE A194 MAJESTIC VIEW FAYETTE A195 PRESCOTT FAYETTE A197 VALLEY BROOK FAYETTE A199 FERNDALE FAYETTE A200 RED CLOVER FAYETTE A201 WINDING OAK FAYETTE A202 WEST HAMPTON FAYETTE C121 EASTLAND 001500 2011 0102 FAYETTE C121 EASTLAND 001500 2015 0102 FAYETTE C121 EASTLAND 001500 2016 0102 FAYETTE C121 EASTLAND 001600 1000 0102 FAYETTE C121 EASTLAND 001600 1007 0202 FAYETTE C121 EASTLAND 001600 1015 0202 FAYETTE C121 EASTLAND 001600 1017 0202 FAYETTE C121 EASTLAND 001600 1018 0102 FAYETTE C121 EASTLAND 001600 1020 0202 FAYETTE C121 EASTLAND 003202 3004 FAYETTE C121 EASTLAND 003202 3007 0202 FAYETTE C121 EASTLAND 003300 1006 0202 FAYETTE C121 EASTLAND 003300 1014 FAYETTE C121 EASTLAND 003300 1015 FAYETTE C121 EASTLAND 003909 1001 0102 FAYETTE C121 EASTLAND 003909 1003 FAYETTE C121 EASTLAND 003909 1004 FAYETTE C132 LIBERTY HEIGHTS FAYETTE C148 DELAWARE</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

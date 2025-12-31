@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/234.260"/>
+          <FRBRuri value="/us-ky/act/krs/234.260"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/234.260/eng"/>
+          <FRBRuri value="/us-ky/act/krs/234.260/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/234.260/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/234.260/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_234_260">
+        <num>234.260</num>
+        <content>
+          <p>No manifold, pump, meter, or hose shall be used for the delivery of Class A and Class B liquids on the same trip. Flushing, as provided in , shall not be done during the course of deliveries. If the use of a manifold, pump, meter, or hose is required for the delivery of Class A and Class B liquids on the same trip, then separate delivery equipment shall be provided. Such equipment shall be tagged or painted to clearly indicate the class of liquid for which it is used.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

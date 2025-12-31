@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/350.565"/>
+          <FRBRuri value="/us-ky/act/krs/350.565"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/350.565/eng"/>
+          <FRBRuri value="/us-ky/act/krs/350.565/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/350.565/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/350.565/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_350_565">
+        <num>350.565</num>
+        <content>
+          <p>The Energy and Environment Cabinet shall have the authority to prepare and submit to the Secretary, United States Department of the Interior, reclamation plans, annual projects, applications for federal support, and any other reports or plans which are provided for or required pursuant to Title IV of the Surface Mining Control and Reclamation Act of 1977 (P.L. 95-87).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

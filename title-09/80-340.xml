@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/80.340"/>
+          <FRBRuri value="/us-ky/act/krs/80.340"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/80.340/eng"/>
+          <FRBRuri value="/us-ky/act/krs/80.340/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/80.340/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/80.340/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_80_340">
+        <num>80.340</num>
+        <content>
+          <p>The area of operation of a regional housing authority shall be increased from time to time to include one (1) or more additional contiguous counties not already within a regional housing authority if the governing body of each of the counties then included in the area of operation of the regional housing authority, the members of the regional housing authority and the governing body of each such additional county or counties each adopt a resolution declaring that there is a need for the inclusion of such additional county or counties in the area of operation of the regional housing authority. Such resolutions shall not be adopted if there is a county housing authority created for any such additional county, unless first, all holders of any outstanding bonds, notes, or other evidences of indebtedness of that county housing authority consent in writing to such action and the county housing authority adopts a resolution not to thereafter initiate any project within that county.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

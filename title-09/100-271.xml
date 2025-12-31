@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/100.271"/>
+          <FRBRuri value="/us-ky/act/krs/100.271"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/100.271/eng"/>
+          <FRBRuri value="/us-ky/act/krs/100.271/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/100.271/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/100.271/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_100_271">
+        <num>100.271</num>
+        <content>
+          <p>An administrative official shall be designated by the city or county to administer the zoning regulation, and, if delegated, housing or building regulations. The administrative official may be designated to issue building permits or certificates of occupancy, or both, in accordance with the literal terms of the regulation, but may not have the power to permit any construction, or to permit any use or any change of use which does not conform to the literal terms of the zoning regulation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/281.655"/>
+          <FRBRuri value="/us-ky/act/krs/281.655"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/281.655/eng"/>
+          <FRBRuri value="/us-ky/act/krs/281.655/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/281.655/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/281.655/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_281_655">
+        <num>281.655</num>
+        <content>
+          <p>MOTOR VEHICLES FOR THE TRANSPORTATION OF PERSONS, INCLUDING U-DRIVE-ITS Capacity Death of or Total Liability for Property Injury to Any Death of or Injury Damage One Person to Persons 7 regular seats $100,000.00 $300,000.00 $50,000.00 8 or more regular seats $100,000.00 $600,000.00 $50,000.00</p>
+          <p>Click to view</p>
+          <p>MOTOR VEHICLES FOR THE TRANSPORTATION OF PROPERTY, INCLUDING U-DRIVE-ITS AND AUTOMOBILE UTILITY TRAILERS Gross Weight Death of or Total Liability for Property Injury to Any Death of or Injury Damage One Person to Persons 18,000 lbs. or less $100,000.00 $300,000.00 $50,000.00 More than 18,000 lbs. $100,000.00 $600,000.00 $50,000.00</p>
+          <p>Click to view</p>
+          <p>Death of or Injury Total Liability for Death Property Damage to Any One Person of or Injury to Persons $100,000.00 $300,000.00 $50,000.00</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

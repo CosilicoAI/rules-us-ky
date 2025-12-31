@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/186.140"/>
+          <FRBRuri value="/us-ky/act/krs/186.140"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/186.140/eng"/>
+          <FRBRuri value="/us-ky/act/krs/186.140/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/186.140/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/186.140/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_186_140">
+        <num>186.140</num>
+        <content>
+          <p>Except as provided in  and  a nonresident owner, from a state not requiring registration of nonresidents temporarily in it, who has complied with the laws of the state of his residence relating to registration of motor vehicles, and who displays the requisite plates and holds the requisite receipt or certificate of registration as required by his resident state, shall be exempt from registration in this state for the same period of time as is granted to nonresident owners by the laws and regulations of his state. Registration in any other state shall not relieve any owner resident in this state from the penalties provided in .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

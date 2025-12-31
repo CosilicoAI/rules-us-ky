@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/143.085"/>
+          <FRBRuri value="/us-ky/act/krs/143.085"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/143.085/eng"/>
+          <FRBRuri value="/us-ky/act/krs/143.085/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/143.085/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/143.085/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_143_085">
+        <num>143.085</num>
+        <content>
+          <p>Notwithstanding any other provisions of this chapter to the contrary, the president, vice president, secretary, treasurer, or any other person holding any equivalent corporate office of any corporation subject to the provisions of this chapter shall be personally and individually liable, both jointly and severally, for the taxes imposed under this chapter, and neither the corporate dissolution nor withdrawal of the corporation from the state nor the cessation of holding any corporate office shall discharge the foregoing liability of any person. The personal and individual liability shall apply to each and every person holding corporate office at the time the taxes become or became due. No person will be personally and individually liable pursuant to this section who had no authority in the management of the business or financial affairs of the corporation at the time that the taxes imposed by this chapter become or became due. Taxes as used in this section include interest accrued at the rate provided by , and all applicable penalties imposed under this chapter, and all applicable penalties and fees imposed under , to  and</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

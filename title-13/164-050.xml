@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.050"/>
+          <FRBRuri value="/us-ky/act/krs/164.050"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.050/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.050/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.050/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.050/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_050">
+        <num>164.050</num>
+        <content>
+          <p>The members of the Council on Postsecondary Education shall receive one hundred dollars ($100) per day for each council meeting attended and shall be reimbursed for their necessary traveling and other expenses while attending the meetings of the council, except a member who resides outside the Commonwealth shall not be reimbursed for out-of-state travel. Each institution shall pay the expenses of its own representatives. The expenses of the chief state school officer shall be paid by the state in the same manner as his other traveling expenses are paid.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

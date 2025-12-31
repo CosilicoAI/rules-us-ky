@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/180.106"/>
+          <FRBRuri value="/us-ky/act/krs/180.106"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/180.106/eng"/>
+          <FRBRuri value="/us-ky/act/krs/180.106/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/180.106/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/180.106/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_180_106">
+        <num>180.106</num>
+        <content>
+          <p>Notwithstanding the provisions of any other section of this chapter, the Department of Highways may repair, enlarge, or reconstruct any interstate bridge not situated in a county already possessing two (2) such bridges owned by the department, which at the time is being maintained and operated at the expense of the department without contribution from the other state concerned or any of its instrumentalities, and may continue or reimpose, charge, and collect tolls for traffic over such interstate bridge for the purpose of paying the cost thereof, including the cost of any bonds issued for such purposes.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

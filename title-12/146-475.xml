@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/146.475"/>
+          <FRBRuri value="/us-ky/act/krs/146.475"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/146.475/eng"/>
+          <FRBRuri value="/us-ky/act/krs/146.475/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/146.475/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/146.475/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_146_475">
+        <num>146.475</num>
+        <content>
+          <p>The fee simple estates, or lesser interests, or other contractual rights held as nature preserves are hereby declared to be held in trust, in the name of the Commonwealth, for those uses and purposes expressed in  to which are not prohibited by the articles of dedication, for the benefit of the people of the Commonwealth of Kentucky of present and future generations and are declared to be put to their highest, best and most important use for the public benefit. Said estates, interests, or rights held as nature preserves shall be managed and protected in the manner approved by, and subject to the rules and regulations established by the office, and they shall not be taken by another public body through eminent domain or otherwise for any other use, except after a finding by the office of the existence of an imperative and unavoidable public necessity for such other public use. Except as may otherwise be provided in the articles of dedication, the office may grant or dispose of an estate, interest or right held in a nature preserve only after a finding by the office of the existence of an imperative and unavoidable public necessity for such grant or disposition; provided however, that where less than a fee simple interest has been dedicated, such disposition or grant shall also require the written consent of the owner or owners of the other interests therein.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

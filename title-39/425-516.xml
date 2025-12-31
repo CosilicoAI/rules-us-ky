@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/425.516"/>
+          <FRBRuri value="/us-ky/act/krs/425.516"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/425.516/eng"/>
+          <FRBRuri value="/us-ky/act/krs/425.516/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/425.516/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/425.516/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_425_516">
+        <num>425.516</num>
+        <content>
+          <p>The garnishee may pay the money owing to the defendant by him, not exceeding the plaintiff’s claim and costs, to the sheriff having in his hands the order of attachment, or into the court or to such person as the court may direct in accordance with the Rules of Civil Procedure; and to that extent he shall be discharged from liability to the defendant. He shall not be subjected to costs beyond those caused by his resistance of the claim against him; and, if he discloses the property of the defendant in his hands, or the true sum owing by him, and delivers or pays the same to the sheriff, or according to the order of the court, he shall be allowed his costs.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/175.810"/>
+          <FRBRuri value="/us-ky/act/krs/175.810"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/175.810/eng"/>
+          <FRBRuri value="/us-ky/act/krs/175.810/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/175.810/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/175.810/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_175_810">
+        <num>175.810</num>
+        <content>
+          <p>The Transportation Cabinet shall certify to the commissioner of the Department of Revenue by October 1 of each fiscal year the amount required for lease rental payments to the Kentucky Turnpike Authority for economic development road projects. Upon receiving such certification, the commissioner of the Department of Revenue shall cause said amount to be deposited from road fund receipts to the credit of the economic development road account, hereby created, in the transportation fund (road fund). Such taxes collected in excess of the amount required to be deposited to the economic development road account in the transportation fund (road fund) shall be deposited by the Department of Revenue to the credit of the transportation fund (road fund).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

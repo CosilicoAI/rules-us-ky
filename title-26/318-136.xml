@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/318.136"/>
+          <FRBRuri value="/us-ky/act/krs/318.136"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/318.136/eng"/>
+          <FRBRuri value="/us-ky/act/krs/318.136/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/318.136/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/318.136/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_318_136">
+        <num>318.136</num>
+        <content>
+          <p>All license fees, permit and inspection fees and charges, and other moneys collected by the department, under the provisions of this chapter and the rules and regulations of the department adopted hereunder, shall be paid into the State Treasury and credited to a trust and agency fund to be used by the department in carrying out the provisions of this chapter. No part of this fund shall revert to the general fund of the Commonwealth. All moneys held in a trust and agency fund or other fund to the credit of the department for the administration and enforcement of this chapter on June 16, 1960, are hereby transferred to the trust and agency fund herein created.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

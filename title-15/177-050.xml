@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/177.050"/>
+          <FRBRuri value="/us-ky/act/krs/177.050"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/177.050/eng"/>
+          <FRBRuri value="/us-ky/act/krs/177.050/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/177.050/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/177.050/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_050">
+        <num>177.050</num>
+        <content>
+          <p>If any county desires to construct any part of a public road before the state is prepared to construct it, such county shall ask the department for permission to do so. When such request is made the department shall immediately investigate the request, and if they find that the county has funds available to construct such road and will pay for the construction thereof, the department may take up the construction of such road, as soon as the county has taken such steps as the department requires to make available subject to its order sufficient funds to pay for the construction of the road. When the county has satisfied these requirements, the department may proceed to construct the road in the same way and under the same regulations that it constructs other roads. The department shall keep careful account of the money advanced by the county to the state, and when the project of which the road is a part has been completed, the state shall refund to the county the money advanced upon proper certification of the department, if the road is to be accepted by the commissioner of highways as a part of the state primary road system.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

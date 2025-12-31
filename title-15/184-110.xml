@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/184.110"/>
+          <FRBRuri value="/us-ky/act/krs/184.110"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/184.110/eng"/>
+          <FRBRuri value="/us-ky/act/krs/184.110/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/184.110/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/184.110/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_184_110">
+        <num>184.110</num>
+        <content>
+          <p>Upon the final approval of the plans and specifications, the board of directors shall adopt a resolution approving and accepting said plan, and advertising for bids for the construction or maintenance of the road according to such plans and specifications. The board shall advertise for bids for such work by publication pursuant to KRS . The contract for such work shall be let to the lowest responsible bidder, who shall give bond with approved and adequate security for the faithful performance of the contract. The notice of the letting of the contract shall specify the general nature of the work to be done, the time and date of reception of bids, and the place where detailed information as to the work to be performed can be obtained. All bids shall be opened and read at the time and place specified in the notice, and the board of directors may either accept the lowest and best bid or, in their sound discretion, reject all bids and readvertise.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

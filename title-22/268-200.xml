@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/268.200"/>
+          <FRBRuri value="/us-ky/act/krs/268.200"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/268.200/eng"/>
+          <FRBRuri value="/us-ky/act/krs/268.200/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/268.200/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/268.200/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_268_200">
+        <num>268.200</num>
+        <content>
+          <p>The board may appoint a competent person as superintendent of drainage, who shall be subject to the orders of the board. He shall look after and keep clean, open and in good condition all public drains and other improvements under the charge of the board. The superintendent shall furnish bond to be approved by and in favor of the board, for the benefit of any party in interest. If no superintendent is appointed, the work provided for in this section may be done by the chief engineer, or other employees as the board may direct. The superintendent, with the approval of the board, may employ any help necessary to the performance of his duties. All expenses incurred shall be reported by the superintendent or other employee to the board, and the report shall show the improvement upon which the expense was incurred.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

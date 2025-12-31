@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/180.270"/>
+          <FRBRuri value="/us-ky/act/krs/180.270"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/180.270/eng"/>
+          <FRBRuri value="/us-ky/act/krs/180.270/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/180.270/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/180.270/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_180_270">
+        <num>180.270</num>
+        <content>
+          <p>If the department is unable to contract with the owner of the competing ferry for the purchase of the ferry, the department may institute condemnation proceedings in the county where the ferry is located, for the purpose of acquiring the ferry. The condemnation proceedings shall be in the name of the state, under the procedure set out in the Eminent Domain Act of Kentucky. In the proceedings the department shall be represented by the Attorney General and by the county attorney of the county in which the proceedings are filed. Where the ferry operates between two (2) counties the proceedings may be filed in either county.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

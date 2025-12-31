@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/262.705"/>
+          <FRBRuri value="/us-ky/act/krs/262.705"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/262.705/eng"/>
+          <FRBRuri value="/us-ky/act/krs/262.705/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/262.705/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/262.705/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_262_705">
+        <num>262.705</num>
+        <content>
+          <p>The land area embraced in such districts must be contiguous and must lie within a well defined watershed. The area shall not include lands located within the boundary of any incorporated city or town or lands not included within a soil and water conservation district, unless such lands are brought in the boundaries of a soil and water conservation district through the process of petition, hearing, and referendum as prescribed in ,  and  The area shall not include lands embraced within another watershed conservancy district, but may include lands lying in one or more soil and water conservation districts.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

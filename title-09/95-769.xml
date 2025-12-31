@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/95.769"/>
+          <FRBRuri value="/us-ky/act/krs/95.769"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/95.769/eng"/>
+          <FRBRuri value="/us-ky/act/krs/95.769/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/95.769/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/95.769/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_95_769">
+        <num>95.769</num>
+        <content>
+          <p>Said board of trustees of the policemen’s and firefighters’ pension fund shall have the exclusive control and management of the said fund and all moneys donated, paid or assessed for the relief or for pensioning retired, crippled or disabled members of the police or fire departments or the widows and dependent children under the age of fourteen (14) years or dependent fathers or mothers of any members of the departments killed in the service, while in line of duty, and shall assess each member of the police and fire departments not exceeding three and one-half percent (3.5%) of the salary of such member, to be deducted and withheld from the monthly pay of each member so assessed, the same to be placed by the treasurer or chief financial officer of such city to the credit of such fund, subject to the order of such board.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/533.220"/>
+          <FRBRuri value="/us-ky/act/krs/533.220"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/533.220/eng"/>
+          <FRBRuri value="/us-ky/act/krs/533.220/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/533.220/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/533.220/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_533_220">
+        <num>533.220</num>
+        <content>
+          <p>Any person sentenced to the reading skills improvement program specified in  who fails to successfully complete the program within the time specified, who fails to attend as required, or fails to make progress toward successful completion, shall be reported to the sentencing court, and the court shall ascertain whether or not the failures are willful or the person is actually incapable of successfully completing the program due to an intellectual or other disability, or other reasons beyond his control. In the event the failure is willful, the court may proceed as in cases of probation violation and may apply such remedy as is authorized.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

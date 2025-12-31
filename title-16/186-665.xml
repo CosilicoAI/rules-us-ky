@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/186.665"/>
+          <FRBRuri value="/us-ky/act/krs/186.665"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/186.665/eng"/>
+          <FRBRuri value="/us-ky/act/krs/186.665/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/186.665/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/186.665/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_186_665">
+        <num>186.665</num>
+        <content>
+          <p>If an owner because of sickness or absence from the state is unable to renew the registration of his trailer, semitrailer, mobile home or recreational vehicle on or before April 1, he will be deemed to have complied with the law, if before operating the trailer, semitrailer, mobile home or recreational vehicle in this state he registers it at some later date and pays the fee for the full year, just as though he had renewed the registration on or before April 1. The owner shall file with the application an affidavit showing sickness or absence.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

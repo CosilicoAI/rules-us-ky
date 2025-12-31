@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/149.660"/>
+          <FRBRuri value="/us-ky/act/krs/149.660"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/149.660/eng"/>
+          <FRBRuri value="/us-ky/act/krs/149.660/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/149.660/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/149.660/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_149_660">
+        <num>149.660</num>
+        <content>
+          <p>The secretary for energy and environment may cooperate with the federal government or agencies thereof, other agencies of the Commonwealth, county or municipal governments, agencies of neighboring states, or other public or private organizations, or individuals and may accept such funds, equipment, supplies or services from cooperators and others as may be deemed appropriate. The secretary may provide in agreements with the federal government or its agencies for matching of federal funds as required under federal laws relating to forest pests.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

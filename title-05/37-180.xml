@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/37.180"/>
+          <FRBRuri value="/us-ky/act/krs/37.180"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/37.180/eng"/>
+          <FRBRuri value="/us-ky/act/krs/37.180/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/37.180/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/37.180/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_37_180">
+        <num>37.180</num>
+        <content>
+          <p>The Governor shall be commander in chief of the Kentucky active militia, and the adjutant general shall be the executive officer and shall be responsible to the Governor for the proper functioning of the Kentucky active militia, and he is hereby authorized and empowered to take necessary action to perfect and maintain an efficient organization for the purposes herein set out. He shall have charge of all matters of administration and organization, which shall be in all respects, insofar as necessary and applicable, the same as that of the National Guard.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/311.625"/>
+          <FRBRuri value="/us-ky/act/krs/311.625"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/311.625/eng"/>
+          <FRBRuri value="/us-ky/act/krs/311.625/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/311.625/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/311.625/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_311_625">
+        <num>311.625</num>
+        <content>
+          <p>“Living Will Directive</p>
+          <p>My wishes regarding life-prolonging treatment and artificially provided nutrition and hydration to be provided to me if I no longer have decisional capacity, have a terminal condition, or become permanently unconscious have been indicated by checking and initialing the appropriate lines below. By checking and initialing the appropriate lines, I specifically:</p>
+          <p>. . . . .
+    Designate
+    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . as my health care surrogate(s) to make health care decisions for me in accordance with this directive when I no longer have decisional capacity. If
+    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . refuses or is not able to act for me, I designate
+    . . . . . . . . . . . . . . . . . . . as my health care surrogate(s).</p>
+          <p>Any prior designation is revoked.</p>
+          <p>If I do not designate a surrogate, the following are my directions to my attending physician. If I have designated a surrogate, my surrogate shall comply with my wishes as indicated below:</p>
+          <p>. . . . .
+    Direct that treatment be withheld or withdrawn, and that I be permitted to die naturally with only the administration of medication or the performance of any medical treatment deemed necessary to alleviate pain.</p>
+          <p>. . . . .
+    DO NOT authorize that life-prolonging treatment be withheld or withdrawn.</p>
+          <p>. . . . .
+    Authorize the withholding or withdrawal of artificially provided food, water, or other artificially provided nourishment or fluids.</p>
+          <p>. . . . .
+    DO NOT authorize the withholding or withdrawal of artificially provided food, water, or other artificially provided nourishment or fluids.</p>
+          <p>. . . . .
+    Authorize my surrogate, designated above, to withhold or withdraw artificially provided nourishment or fluids, or other treatment if the surrogate determines that withholding or withdrawing is in my best interest; but I do not mandate that withholding or withdrawing.</p>
+          <p>. . . . .
+    Authorize the giving of all or any part of my body upon death for any purpose specified in .</p>
+          <p>. . . . .
+    DO NOT authorize the giving of all or any part of my body upon death.</p>
+          <p>In the absence of my ability to give directions regarding the use of life-prolonging treatment and artificially provided nutrition and hydration, it is my intention that this directive shall be honored by my attending physician, my family, and any surrogate designated pursuant to this directive as the final expression of my legal right to refuse medical or surgical treatment and I accept the consequences of the refusal.</p>
+          <p>If I have been diagnosed as pregnant and that diagnosis is known to my attending physician, this directive shall have no force or effect during the course of my pregnancy.</p>
+          <p>I understand the full import of this directive and I am emotionally and mentally competent to make this directive.</p>
+          <p>Signed this
+    . . . . .
+    day of
+    . . . . . . . . . . , 19...</p>
+          <p>Signature and address of the grantor.</p>
+          <p>In our joint presence, the grantor, who is of sound mind and eighteen (18) years of age, or older, voluntarily dated and signed this writing or directed it to be dated and signed for the grantor.</p>
+          <p>Signature and address of witness.</p>
+          <p>Signature and address of witness.</p>
+          <p>OR</p>
+          <p>STATE OF KENTUCKY)</p>
+          <p>. . . . . . . . . . . . . . . . . . . County)</p>
+          <p>Before me, the undersigned authority, came the grantor who is of sound mind and eighteen (18) years of age, or older, and acknowledged that he voluntarily dated and signed this writing or directed it to be signed and dated as above.</p>
+          <p>Done this
+    . . . . .
+    day of
+    . . . . . . . . . . , 19...</p>
+          <p>Signature of Notary Public or other officer.</p>
+          <p>Date commission expires: . . . . . . . . . . . . . . . . . . . .</p>
+          <p>Execution of this document restricts withholding and withdrawing of some medical procedures. Consult Kentucky Revised Statutes or your attorney.”</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

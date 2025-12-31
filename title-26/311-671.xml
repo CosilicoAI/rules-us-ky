@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/311.671"/>
+          <FRBRuri value="/us-ky/act/krs/311.671"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/311.671/eng"/>
+          <FRBRuri value="/us-ky/act/krs/311.671/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/311.671/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/311.671/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_311_671">
+        <num>311.671</num>
+        <content>
+          <p>In order to protect the life, health, and safety of the public, any person practicing or offering to practice as an acupuncturist shall be licensed as provided in  to  It shall be unlawful for any person not licensed under  to to practice acupuncture in this state, or to use any title, sign, card, or device to indicate that he or she is an acupuncturist. The provisions of  to are not intended to limit, preclude, or otherwise interfere with the practice of other health-care providers, working in any setting and certified or licensed by appropriate agencies or committees of the Commonwealth of Kentucky, whose practices and training may include elements of the same nature as the practice of a licensed acupuncturist.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

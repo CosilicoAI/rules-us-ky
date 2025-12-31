@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/64.300"/>
+          <FRBRuri value="/us-ky/act/krs/64.300"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/64.300/eng"/>
+          <FRBRuri value="/us-ky/act/krs/64.300/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/64.300/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/64.300/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_64_300">
+        <num>64.300</num>
+        <content>
+          <p>No fee or compensation shall be allowed or paid for affixing the jurat of a notary public to any application, affidavit, certificate or other paper necessary to be filed in support of any claim for the benefits of federal legislation for any person or his dependents who has served as a member of the National Guard or a reserve component or as an active member of the Army, Navy, Air Force, Coast Guard, or Marine Corps of the United States.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

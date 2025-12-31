@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/56.495"/>
+          <FRBRuri value="/us-ky/act/krs/56.495"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/56.495/eng"/>
+          <FRBRuri value="/us-ky/act/krs/56.495/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/56.495/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/56.495/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_56_495">
+        <num>56.495</num>
+        <content>
+          <p>The boards of regents of the respective state universities and the Kentucky Community and Technical College System and the board of trustees of the University of Kentucky may issue, under the provisions of  to  consolidated educational building revenue bonds or housing bonds, provided that prior to seeking the final approval required by , the board of the state university or the Kentucky Community and Technical College System shall submit to the commission, through the cabinet, a request for approval of the project before any financial commitment of any sort may be made in connection therewith, including employment of architects, engineers, fiscal agents, or attorneys. The request shall include a general description of the project and its need, use, location, approximate size, and such other information as the cabinet may require. After approval by the commission, the cabinet shall appoint fiscal agents, bond counsel, and architects and engineers as may be required to make plans and specifications or financial arrangements for the project.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/38.430"/>
+          <FRBRuri value="/us-ky/act/krs/38.430"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/38.430/eng"/>
+          <FRBRuri value="/us-ky/act/krs/38.430/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/38.430/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/38.430/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_430">
+        <num>38.430</num>
+        <content>
+          <p>Officers, warrant officers, and enlisted men of the Kentucky National Guard, going to or returning from any parade, encampment, drill or meeting they are required by proper authority to attend, shall, together with their vehicular conveyances, animals and military property in their custody, be allowed to pass free through tollgates and over all interstate and intrastate toll bridges and ferries if they are in uniform or present a written order signed by an officer of the Kentucky National Guard.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

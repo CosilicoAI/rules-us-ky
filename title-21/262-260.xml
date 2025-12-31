@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/262.260"/>
+          <FRBRuri value="/us-ky/act/krs/262.260"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/262.260/eng"/>
+          <FRBRuri value="/us-ky/act/krs/262.260/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/262.260/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/262.260/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_262_260">
+        <num>262.260</num>
+        <content>
+          <p>The board may by resolution invite the legislative body of any city and/or administrative body of any county (fiscal court) in which the district is located or nearby, to select a representative to consult with the board of the district on all questions of program and policy which may affect the property, water supply, or other interests of the city or county, and to request by resolution that said city and/or county participate wholly or partially in any expense attendant to the execution of any program and/or policy, setting forth in said resolution all details of the program and/or policy together with an estimated annual cost. Should said legislative body approve said program and/or policy, it may expend funds out of its respective tax levy to assist in said program and/or policy.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

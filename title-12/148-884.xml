@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/148.884"/>
+          <FRBRuri value="/us-ky/act/krs/148.884"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/148.884/eng"/>
+          <FRBRuri value="/us-ky/act/krs/148.884/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/148.884/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/148.884/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_148_884">
+        <num>148.884</num>
+        <content>
+          <p>Nothing in  to shall be construed to confer upon any member of the public the right to use or enter upon private lands adjacent to the boundaries of the trail, or to confer on any member of the public the right to enter upon or use any private lands designated as part of the trail until such time as the department has delineated that area as being subject to an easement, purchase, or lease by the Commonwealth under .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

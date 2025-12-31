@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/379.140"/>
+          <FRBRuri value="/us-ky/act/krs/379.140"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/379.140/eng"/>
+          <FRBRuri value="/us-ky/act/krs/379.140/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/379.140/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/379.140/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_379_140">
+        <num>379.140</num>
+        <content>
+          <p>The assignee may, when he believes it is no longer to the interest of the estate to keep the assignment open, move the District Court to discharge him from the trust and release him from all liability. He shall have notice of his application to discharge published pursuant to KRS . Sixty (60) days after the motion is entered, the court shall, upon proof that the required notice was given, enter an order discharging the assignee from his trust and releasing him from all liability, unless objection is made. If objection is made, the court shall hear the same and make such orders as are proper.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

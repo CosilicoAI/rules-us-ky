@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/177.9772"/>
+          <FRBRuri value="/us-ky/act/krs/177.9772"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/177.9772/eng"/>
+          <FRBRuri value="/us-ky/act/krs/177.9772/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/177.9772/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/177.9772/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_9772">
+        <num>177.9772</num>
+        <content>
+          <p>Any motor vehicle transporting coal in violation of the weight limits provided for by  and for which the extended weight users’ tax has not been paid as evidenced by an affixed extended weight users’ decal or which is not being operated in accordance with the provisions of a cooperative agreement shall be deemed in violation of . The secretary of the Transportation Cabinet may impound said vehicle until such time as the extended weight users’ tax and all costs incurred in the impoundment and storage of the vehicle have been paid.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

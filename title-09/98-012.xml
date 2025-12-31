@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/98.012"/>
+          <FRBRuri value="/us-ky/act/krs/98.012"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/98.012/eng"/>
+          <FRBRuri value="/us-ky/act/krs/98.012/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/98.012/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/98.012/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_98_012">
+        <num>98.012</num>
+        <content>
+          <p>Upon the death of any person who has been paid general assistance by or through the department of public welfare of a city of the first class, said city shall have a claim against the estate of the deceased for all amounts of general assistance paid to him or on his behalf. The claim shall have priority over all unsecured claims against such estate except the burial expenses of the decedent, the cost of administration of his estate, the cost of his last illness and claims by the Commonwealth of Kentucky for public assistance rendered by it to the decedent. The claim shall be filed against the estate of the deceased person in the same manner as other claims are filed against decedents’ estates.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

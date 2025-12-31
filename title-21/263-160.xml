@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/263.160"/>
+          <FRBRuri value="/us-ky/act/krs/263.160"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/263.160/eng"/>
+          <FRBRuri value="/us-ky/act/krs/263.160/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/263.160/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/263.160/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_263_160">
+        <num>263.160</num>
+        <content>
+          <p>This chapter does not apply to: (1) the premises of the rendering operations on the premises of an establishment operating under United States government inspection; (2) a slaughter house or meat processing plant holding a permit or license from the State Health Department that conducts rendering operations on raw rendering materials resulting only from slaughter house and meat processing establishments; (3) a farmer who slaughters his own animals, raised by him on his own farm, processes his own meat therefrom, and who disposes of his raw rendering material only by delivery to a person licensed under this chapter; (4) cured hides and skins.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

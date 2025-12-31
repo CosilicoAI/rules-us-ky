@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/411.242"/>
+          <FRBRuri value="/us-ky/act/krs/411.242"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/411.242/eng"/>
+          <FRBRuri value="/us-ky/act/krs/411.242/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/411.242/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/411.242/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_411_242">
+        <num>411.242</num>
+        <content>
+          <p>If some or all of any food or grocery products donated
+    by a person or gleaner to a nonprofit organization do not meet consumer
+    safety standards imposed by federal, state, and local laws and regulations,
+    the person or the gleaner who donates the food or grocery products
+    shall not be subject to civil or criminal liability in accordance
+    with this section, if the nonprofit organization that receives the
+    donated food or grocery products:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

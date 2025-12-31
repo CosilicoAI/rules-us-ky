@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/45.131"/>
+          <FRBRuri value="/us-ky/act/krs/45.131"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/45.131/eng"/>
+          <FRBRuri value="/us-ky/act/krs/45.131/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/45.131/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/45.131/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_131">
+        <num>45.131</num>
+        <content>
+          <p>The Finance and Administration Cabinet, the Chief Justice, and the Legislative Research Commission for their respective branches of government shall investigate any alleged mismanagement of any of the affairs of the state by any officer, employee, or governing body responsible within their respective branches of government for the carrying out of any state function or the management of state funds and shall recommend the removal of any unnecessary officer or employee and of any officer or employee who they find has grossly mismanaged any state affairs within their respective branches of government.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

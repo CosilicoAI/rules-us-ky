@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/510.015"/>
+          <FRBRuri value="/us-ky/act/krs/510.015"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/510.015/eng"/>
+          <FRBRuri value="/us-ky/act/krs/510.015/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/510.015/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/510.015/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_510_015">
+        <num>510.015</num>
+        <content>
+          <p>Unless a higher penalty is otherwise prescribed and notwithstanding any provision of this chapter to the contrary, a person who commits a third or subsequent misdemeanor offense under this chapter, except for violations of , may be convicted of a Class D felony. If the Commonwealth desires to utilize the provisions of this section, the Commonwealth shall indict the defendant and the case shall be tried in the Circuit Court as a felony case. The jury, or judge if the trial is without a jury, may decline to assess a felony penalty in a case under this section and may convict the defendant of a misdemeanor.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

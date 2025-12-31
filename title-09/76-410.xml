@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/76.410"/>
+          <FRBRuri value="/us-ky/act/krs/76.410"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/76.410/eng"/>
+          <FRBRuri value="/us-ky/act/krs/76.410/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/76.410/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/76.410/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_76_410">
+        <num>76.410</num>
+        <content>
+          <p>Language in , limiting the powers of annexation to a sanitation district in a county not containing a city of the first class, shall not be applicable to sewer construction districts which may use this method of annexation, even if they are located in a county containing a city of the first class, and the secretary of the Energy and Environment Cabinet shall function in regard to annexations by them in the same manner and under the same procedures as set out in  to as he would in his capacity as commissioner of sanitation districts for any sanitation district.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

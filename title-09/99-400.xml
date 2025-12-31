@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/99.400"/>
+          <FRBRuri value="/us-ky/act/krs/99.400"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/99.400/eng"/>
+          <FRBRuri value="/us-ky/act/krs/99.400/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/99.400/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/99.400/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_99_400">
+        <num>99.400</num>
+        <content>
+          <p>Any community located in whole or in part within the area of operation of an agency may grant funds to an agency for the purpose of aiding such agency in carrying out any of its powers and functions under  to  To obtain funds for this purpose, the community may levy taxes or may issue and sell its general obligation or revenue bonds. Any bonds to be issued by the community pursuant to the provisions of this section shall be issued in the manner and within the limitations, except as otherwise provided in  to  prescribed by the laws of this Commonwealth for the issuance and authorization of such bonds for public purposes generally.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

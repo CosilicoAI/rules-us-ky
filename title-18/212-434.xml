@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/212.434"/>
+          <FRBRuri value="/us-ky/act/krs/212.434"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/212.434/eng"/>
+          <FRBRuri value="/us-ky/act/krs/212.434/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/212.434/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/212.434/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_212_434">
+        <num>212.434</num>
+        <content>
+          <p>All regular full-time public health employees of any joint city-county health department located in a county containing a city of the first class shall be given credit for any prior service with such department before July 1, 1956, but any such regular full-time public health employee shall be allowed credit for current service for the period July 1, 1956, to July 1, 1962; provided, such employee pays to the retirement system the contribution he would have paid for the period from July 1, 1956, to July 1, 1962, with interest at the rate determined by the board of trustees and an additional sum equal to fifty percent (50%) of this amount. The payment of the fifty percent (50%) sum shall be considered as accumulated contributions of the member.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/299.180"/>
+          <FRBRuri value="/us-ky/act/krs/299.180"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/299.180/eng"/>
+          <FRBRuri value="/us-ky/act/krs/299.180/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/299.180/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/299.180/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_299_180">
+        <num>299.180</num>
+        <content>
+          <p>If the director is satisfied, on investigation, that a company has refused or failed to make a payment as required by  for thirty (30) days after it became due, and after proper demand, he shall notify the company to suspend business until the indebtedness is fully paid. While this notice is in force, no officer or agent of the company shall make, sign or issue any policy of insurance nor issue any notice of, nor call upon the members for, payment of an assessment, and all moneys received from any source by the company, its agents or officers, shall be forthwith deposited in some bank or trust company pending a final decision as provided in .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

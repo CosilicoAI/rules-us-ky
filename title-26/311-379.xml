@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/311.379"/>
+          <FRBRuri value="/us-ky/act/krs/311.379"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/311.379/eng"/>
+          <FRBRuri value="/us-ky/act/krs/311.379/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/311.379/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/311.379/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_311_379">
+        <num>311.379</num>
+        <content>
+          <p>The State Board of Medical Licensure shall provide in-service training programs for physicians, physicians assistants, paramedics, athletic trainers, and other persons licensed or certified by the board in child development, the dynamics of physical and sexual abuse, the impact of violence on child development, the treatment of offenders, and related issues. Each person licensed or certified by the board shall successfully complete the training prescribed by administrative regulation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

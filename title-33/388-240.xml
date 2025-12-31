@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/388.240"/>
+          <FRBRuri value="/us-ky/act/krs/388.240"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/388.240/eng"/>
+          <FRBRuri value="/us-ky/act/krs/388.240/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/388.240/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/388.240/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_388_240">
+        <num>388.240</num>
+        <content>
+          <p>Where a petition is filed for the appointment of a guardian for a minor beneficiary of the Veterans Affairs, a certificate of the administrator of Veterans Affairs, or his authorized representative, accompanying such petition setting forth the age of such minor as shown by the records of the Veterans Affairs and the fact that the appointment of a guardian is a condition precedent to the payment of any moneys due the minor by the Veterans Affairs, shall be prima facie evidence of the necessity for such appointment.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

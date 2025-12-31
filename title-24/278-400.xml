@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/278.400"/>
+          <FRBRuri value="/us-ky/act/krs/278.400"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/278.400/eng"/>
+          <FRBRuri value="/us-ky/act/krs/278.400/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/278.400/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/278.400/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_278_400">
+        <num>278.400</num>
+        <content>
+          <p>After a determination has been made by the commission in any hearing, any party to the proceedings may, within twenty (20) days after the service of the order, apply for a hearing with respect to any of the matters determined. Service of a commission order is complete three (3) days after the date the order is mailed. The application shall specify the matters on which a rehearing is sought. The commission shall either grant or deny the application for rehearing within twenty (20) days after it is filed, and failure of the commission to act upon the application within that period shall be deemed a denial of the application. Notice of the hearing shall be given in the same manner as notice of an original hearing. Upon the rehearing any party may offer additional evidence that could not with reasonable diligence have been offered on the former hearing. Upon the rehearing, the commission may change, modify, vacate or affirm its former orders, and make and enter such order as it deems necessary.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

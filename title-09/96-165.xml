@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/96.165"/>
+          <FRBRuri value="/us-ky/act/krs/96.165"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/96.165/eng"/>
+          <FRBRuri value="/us-ky/act/krs/96.165/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/96.165/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/96.165/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_96_165">
+        <num>96.165</num>
+        <content>
+          <p>Immediately upon the effective date of any act of the General Assembly changing the classification of any city of the third class to a city of the second class, if such city while operating as a city of the third class had accepted and was operating under the provisions of  to , inclusive, relating to the operation of a combined electric and water system, such city of the second class shall continue to operate such combined electric and water plant under the provisions of said sections of the Kentucky Revised Statutes as amended and said sections, and each of them, as amended, hereby are adopted by reference and shall apply to such city of the second class and the combined electric and water system of such city of the second class shall be operated under the provisions of  and  as amended. Said sections of the Kentucky Revised Statutes shall govern the appointment, qualifications, tenure, powers and duties of the members of the electric and water plant board of the city and the powers and duties of such board. The members of such board shall hold office for the respective terms to which they were appointed and qualified, and upon the expiration of their respective terms and upon the occurrence of a vacancy, the appointments to fill such expired terms or such vacancies shall be made as provided in said statutes. Such appointments shall be made by the mayor and approved by the legislative body of the city. All contracts and obligations incurred by such board, and between the city and such board, shall remain in full force and effect whether made after or prior to such city becoming a city of the second class.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

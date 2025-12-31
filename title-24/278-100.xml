@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/278.100"/>
+          <FRBRuri value="/us-ky/act/krs/278.100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/278.100/eng"/>
+          <FRBRuri value="/us-ky/act/krs/278.100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/278.100/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/278.100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_278_100">
+        <num>278.100</num>
+        <content>
+          <p>The commission shall appoint an executive director, who shall hold office during its pleasure and shall devote his entire time to the duties of his office. The executive director shall be selected on the basis of experience and training demonstrating capacity to deal with the problems of management and governmental regulation and knowledge relatable to utility regulation. The executive director shall be the chief administrative officer for the commission and shall be responsible for implementing the programs, directing the staff, and maintaining the official records of commission proceedings, including all approved orders.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/177.130"/>
+          <FRBRuri value="/us-ky/act/krs/177.130"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/177.130/eng"/>
+          <FRBRuri value="/us-ky/act/krs/177.130/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/177.130/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/177.130/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_130">
+        <num>177.130</num>
+        <content>
+          <p>If the department finds that a crossing proposed for vacation should be replaced with another grade crossing or a grade separation, it shall give at least ten (10) days’ notice by certified mail, return receipt requested, to the railroad company and to the chief executive officer of the affected unit of local government of a public hearing to be held at a time and place stated in the notice. At the public hearing, the department shall consider whether or not the proposed grade separation or substitute crossing is reasonably necessary and the most advantageous method of enhancing the public convenience and necessity. If the department finds that the grade separation or substitute crossing is reasonably necessary, it shall make an order to that effect and furnish a copy thereof by certified mail, return receipt requested, to the railroad company and to the chief executive officer of the affected unit of local government. The order shall specify the location of the crossing to be substituted and whether it shall pass over or under the railroad tracks or intersect them at grade, the width of the crossing, and the angle at which the crossing shall meet and converge into the roadbed on either side of the railroad tracks. The order may direct the railroad company to prepare plans, specifications, and estimates of cost for the grade separation or substitute crossing in accordance with the general plan prescribed by the order. The order may provide that the plans, specifications, and estimates of cost shall be prepared by the department.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/196.190"/>
+          <FRBRuri value="/us-ky/act/krs/196.190"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/196.190/eng"/>
+          <FRBRuri value="/us-ky/act/krs/196.190/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/196.190/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/196.190/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_196_190">
+        <num>196.190</num>
+        <content>
+          <p>The receiver shall receive all goods and supplies purchased for the institution, take charge of them, see that they correspond with the bills accompanying them, in character, quality, and quantity, and distribute them to each department of the institution as the warden directs by written order. The receiver shall open an account with each department in a book for that purpose, charging therein the cost price for all goods so received and distributed. The books shall be open at all times for inspection by the warden, the commissioner, the secretary, the Governor, a committee of the Legislature, or any person appointed by either for examination.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

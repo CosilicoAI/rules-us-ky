@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/40.005"/>
+          <FRBRuri value="/us-ky/act/krs/40.005"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/40.005/eng"/>
+          <FRBRuri value="/us-ky/act/krs/40.005/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/40.005/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/40.005/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_005">
+        <num>40.005</num>
+        <content>
+          <p>The General Assembly shall by law provide for the issuance and sale of bonds of the Commonwealth, notwithstanding the limitation of indebtedness in Section 49 or any other section of the Constitution of Kentucky, which shall be in addition to all other bonds of the Commonwealth heretofore authorized. The proceeds of such additional bonds, or so many thereof as may be necessary for the purpose, shall be used and appropriated solely for the purpose of paying a cash bonus not to exceed $500 for service outside the continental limits of the United States, and $300 for service in the continental limits of the United States to the veterans, their widows or heirs, or next of kin, of the Spanish-American War, World War I, World War II, and the Korean conflict, who were residents of the Commonwealth at the time of their entry into the service and at least six (6) months prior thereto. The General Assembly at the same session authorizing the issuance of the bonds shall levy a tax upon all retail sales at such a rate as will pay the interest upon and retire the bonds in no less than thirty (30) years, provided that retail sales of food and food products, medicines, and clothing may be exempted from such tax.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

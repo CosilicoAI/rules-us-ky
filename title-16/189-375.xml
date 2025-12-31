@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/189.375"/>
+          <FRBRuri value="/us-ky/act/krs/189.375"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/189.375/eng"/>
+          <FRBRuri value="/us-ky/act/krs/189.375/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/189.375/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/189.375/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_189_375">
+        <num>189.375</num>
+        <content>
+          <p>No school or church bus shall be licensed or operated for the transportation of school children unless it is equipped with bus alternating flashing signal lamps and a stop arm folding sign. The bus body shall be equipped with a system of four (4) red signal lamps, two (2) on the front and two (2) on the rear of the bus, and four (4) amber signal lamps. Each amber signal lamp shall be located near each red signal lamp, at the same level, but closer to the vertical centerline of the bus. The bus body shall be equipped with a stop arm folding sign on the driver’s side with letters at least six (6) inches in height displaying the word “stop” on both sides. Prior to stopping the school bus for the purpose of receiving or discharging school children, the driver shall activate the amber flashing signal lamps. Once the bus comes to a complete stop, the driver shall extend the stop arm and activate the red flashing signal lights prior to opening the door so it shall be plainly visible to traffic approaching from both directions that the bus is in the process of receiving or discharging passengers. No driver shall stop a school or church bus for receiving or discharging passengers in a no passing zone which does not afford reasonable visibility to approaching motor vehicles from both directions unless a “School Bus Stop Ahead” sign has been installed a reasonable distance before that spot in the roadway. No driver shall stop a school or church bus for the purpose of receiving passengers from or discharging passengers to the opposite side of the road on a highway of four (4) or more lanes; provided, that this provision does not prohibit the discharging of passengers at a marked pedestrian crossing.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

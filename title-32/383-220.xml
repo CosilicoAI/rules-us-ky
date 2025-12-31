@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/383.220"/>
+          <FRBRuri value="/us-ky/act/krs/383.220"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/383.220/eng"/>
+          <FRBRuri value="/us-ky/act/krs/383.220/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/383.220/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/383.220/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_383_220">
+        <num>383.220</num>
+        <content>
+          <p>At the time for holding the inquisition, the officer shall return the warrant to the court with an indorsement stating when and upon whom it was executed and the place designated by the officer for holding the inquisition, together with a panel of the jury; whereupon, the clerk, whether the defendant is present or not, shall administer an oath to the jurors in substance as follows: “You, and each of you, shall well and truly inquire into and return whether or not the defendant (or defendants) is (or are) guilty of the forcible entry (or detainer) complained of in the warrant in this cause: so help you God.”</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

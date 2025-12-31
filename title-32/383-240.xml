@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/383.240"/>
+          <FRBRuri value="/us-ky/act/krs/383.240"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/383.240/eng"/>
+          <FRBRuri value="/us-ky/act/krs/383.240/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/383.240/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/383.240/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_383_240">
+        <num>383.240</num>
+        <content>
+          <p>Upon the return of the inquest the court shall enter a judgment according to the inquisition, either for the plaintiff, in substance, that he have restitution of the premises aforesaid, and recover of the defendants his costs in this behalf expended; or for the defendants, in substance, that they recover of the plaintiff their costs in this behalf expended; or for the plaintiff against some of the defendants, and for the other defendants against the plaintiff, if some be found guilty and others not guilty.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

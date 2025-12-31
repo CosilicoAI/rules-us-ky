@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/311.786"/>
+          <FRBRuri value="/us-ky/act/krs/311.786"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/311.786/eng"/>
+          <FRBRuri value="/us-ky/act/krs/311.786/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/311.786/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/311.786/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_311_786">
+        <num>311.786</num>
+        <content>
+          <p>,  to   and shall not be construed to repeal, by implication or otherwise, any law regulating or restricting abortion. An abortion that complies with ,  to   and but violates any otherwise applicable provision of state law shall be deemed unlawful as provided in such provision. An abortion that complies with the provisions of state law regulating or restricting abortion but violates the provisions of ,  to   and shall be deemed unlawful as provided in those sections. If some or all of the provisions of ,  to   and are temporarily or permanently restrained or enjoined by judicial order, all other provisions of state law regulating or restricting abortion shall be enforced as though such restrained or enjoined provisions had not been adopted. But, whenever such temporary or permanent restraining order or injunction is stayed or dissolved, or otherwise ceases to have effect, such provisions shall have full force and effect.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

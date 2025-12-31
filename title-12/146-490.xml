@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/146.490"/>
+          <FRBRuri value="/us-ky/act/krs/146.490"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/146.490/eng"/>
+          <FRBRuri value="/us-ky/act/krs/146.490/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/146.490/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/146.490/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_146_490">
+        <num>146.490</num>
+        <content>
+          <p>An owner of an area which is dedicated as a nature preserve may retain custody thereof, or may designate a custodian, subject to the rules and regulations of the office. If the owner or custodian declines, is unable, or fails to administer and manage the nature preserve in accordance with the articles of dedication, the office shall undertake such custodial functions as may be necessary for the protection, maintenance, and use of the nature preserve until the disability is removed. Whenever feasible, and consistent with the articles of dedication, the office shall vest custody of a nature preserve in the former owner, a private organization or an individual.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

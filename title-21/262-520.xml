@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/262.520"/>
+          <FRBRuri value="/us-ky/act/krs/262.520"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/262.520/eng"/>
+          <FRBRuri value="/us-ky/act/krs/262.520/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/262.520/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/262.520/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_262_520">
+        <num>262.520</num>
+        <content>
+          <p>Any petitioner who has been aggrieved by an order of the board of adjustment granting or denying, in whole or in part, the relief sought, or the board of the district or any intervening party may obtain a review of the order of the board of adjustment in the Circuit Court for the county within which the lands of the petitioner lie, by filing in that court a petition with a copy of the order complained of praying that the order of the board of adjustment be modified or set aside. When such a petition is filed with the clerk of the Circuit Court, he shall issue summons on that petition, directed to be served on the chairman of the board of the district. The practice and proceedings on any and all such petitions shall then be the same as that provided in the Kentucky Rules of Civil Procedure with the right of the parties to appeal to the Court of Appeals.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

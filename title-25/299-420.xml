@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/299.420"/>
+          <FRBRuri value="/us-ky/act/krs/299.420"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/299.420/eng"/>
+          <FRBRuri value="/us-ky/act/krs/299.420/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/299.420/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/299.420/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_299_420">
+        <num>299.420</num>
+        <content>
+          <p>If the amount of the deposit notes and cash belonging to a company is not sufficient to pay the amount due at any one (1) time to the policyholders on account of losses occasioned by the risks insured against, the limit of liability of each policyholder on any assessment that may be required to meet the deficit shall not exceed the following rates and amounts: Upon each policyholder of a company having less than five hundred thousand dollars ($500,000) of insurance in force, ten dollars ($10) for each one hundred dollars ($100) of insurance he has in the company; upon each policyholder of a company having over five hundred thousand dollars ($500,000) but less than one million dollars ($1,000,000) insurance in force, five dollars ($5) for each one hundred dollars ($100) insurance he has in the company; upon each policyholder of a company having over one million dollars ($1,000,000) but less than two million dollars ($2,000,000) insurance in force, three dollars ($3) for each one hundred dollars ($100) insurance he has in the company; and upon each policyholder of a company having over two million dollars ($2,000,000) of insurance in force, two dollars ($2) for each one hundred dollars ($100) insurance he has in the company.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

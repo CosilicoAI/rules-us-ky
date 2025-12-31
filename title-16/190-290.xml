@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/190.290"/>
+          <FRBRuri value="/us-ky/act/krs/190.290"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/190.290/eng"/>
+          <FRBRuri value="/us-ky/act/krs/190.290/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/190.290/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/190.290/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_190_290">
+        <num>190.290</num>
+        <content>
+          <p>Nothing in  to shall prevent the service, repair, or replacement of an odometer, provided the mileage indicated thereon remains the same before the service, repair, or replacement. Where the odometer is incapable of registering the same mileage as before such service, repair, or replacement, the odometer shall be adjusted to read zero and a notice in writing shall be attached to the left door frame of the vehicle by the owner or his agent specifying the mileage prior to repair or replacement of the odometer and the date on which it was repaired or replaced. Any removal or alteration of such notice so affixed shall be unlawful.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/65.7629"/>
+          <FRBRuri value="/us-ky/act/krs/65.7629"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/65.7629/eng"/>
+          <FRBRuri value="/us-ky/act/krs/65.7629/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/65.7629/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/65.7629/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_65_7629">
+        <num>65.7629</num>
+        <content>
+          <p>The board shall administer the provisions of  to 65.7643, and shall have the following powers and duties:</p>
+          <p>The independent certified public accountant shall make a report of the audits to the board and to the appropriate chief executive officer or officers of the CMRS providers and PSAPs, and to the local governments responsible for the formation of the PSAP. The independent certified public accountant shall also forward a copy of the audits conducted pursuant to this subsection to the Legislative Research Commission for referral to the appropriate committee or committees and to the Auditor of Public Accounts. Upon request, the independent certified accountant shall send any work papers related to the audits to the Auditor of Public Accounts. All information with respect to the audits shall be released to the public or published only in aggregate amounts which do not identify or allow identification of numbers of subscribers or revenues attributable to individual CMRS providers;</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

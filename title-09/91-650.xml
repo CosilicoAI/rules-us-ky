@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/91.650"/>
+          <FRBRuri value="/us-ky/act/krs/91.650"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/91.650/eng"/>
+          <FRBRuri value="/us-ky/act/krs/91.650/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/91.650/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/91.650/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_91_650">
+        <num>91.650</num>
+        <content>
+          <p>The city assessor, immediately after fixing the value of the capital stock of any company or individual under , shall notify the company or individual of that fact. The company or individual shall have at least ten (10) days from the time of receiving the notice to go before the board of equalization of the city and ask for a change of the valuation, and may introduce evidence. The chairman of the board of equalization may summon and swear witnesses. After hearing the evidence the board may change the valuation as it deems proper, and its action shall be final.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/106.250"/>
+          <FRBRuri value="/us-ky/act/krs/106.250"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/106.250/eng"/>
+          <FRBRuri value="/us-ky/act/krs/106.250/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/106.250/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/106.250/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_106_250">
+        <num>106.250</num>
+        <content>
+          <p>Any action challenging the validity of any resolution adopted by any water district commissioners of a water district or challenging the validity of any ordinance adopted by the legislative body of any of the cities electing to operate under this chapter, any bond resolution or ordinance, or other resolution or ordinance, shall be brought within twenty (20) days from the date on which such resolution or ordinance was adopted, as the case may be, and if such action challenging the validity of same is not brought within such time the same shall be forever barred.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

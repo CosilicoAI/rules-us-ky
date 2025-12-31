@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/177.580"/>
+          <FRBRuri value="/us-ky/act/krs/177.580"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/177.580/eng"/>
+          <FRBRuri value="/us-ky/act/krs/177.580/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/177.580/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/177.580/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_580">
+        <num>177.580</num>
+        <content>
+          <p>Subject to the provisions of Sections 49 and 50 of the Constitution of Kentucky, there is hereby contracted on behalf of the Commonwealth a debt in the amount of one hundred million dollars ($100,000,000). It is hereby declared to be the intent of the General Assembly in enacting  to and contracting the aforesaid debt on behalf of the Commonwealth to provide a method whereby the Commonwealth of Kentucky can issue bonds directly obligating the Commonwealth in an amount of one hundred million dollars ($100,000,000) for the purpose of providing funds to match federal funds allocated to Kentucky for the construction and reconstruction of highways, tunnels and bridges within the Commonwealth of Kentucky, subject to the approval of the people of the Commonwealth of Kentucky as provided in section 50 of the Constitution of Kentucky; such approval or disapproval to be expressed at the general election to be held on November 6, 1956.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

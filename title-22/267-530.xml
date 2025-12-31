@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/267.530"/>
+          <FRBRuri value="/us-ky/act/krs/267.530"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/267.530/eng"/>
+          <FRBRuri value="/us-ky/act/krs/267.530/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/267.530/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/267.530/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_267_530">
+        <num>267.530</num>
+        <content>
+          <p>The order of the court by which any district is organized under this chapter may be amended at any time by adding, omitting or correcting the name of any landowner, and by adding, omitting or correcting the description of any land within or alleged to be within the district, or by amending the decree of incorporation in any manner necessary to better fulfill the object of the district. When any such amendment is desired, the board shall present a supplemental petition to the court, setting forth the amendment desired, with the name of the owner and a description of the land affected by the proposed amendment. If the owner of the land is not a party to the original proceeding, he shall be brought before the court in the same manner and with the same rights as an original party to the proceeding.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

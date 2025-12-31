@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/188.030"/>
+          <FRBRuri value="/us-ky/act/krs/188.030"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/188.030/eng"/>
+          <FRBRuri value="/us-ky/act/krs/188.030/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/188.030/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/188.030/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_188_030">
+        <num>188.030</num>
+        <content>
+          <p>The clerk of the court in which the action is brought shall issue a summons against the defendant named in the complaint and direct it to the sheriff of Franklin County. The sheriff shall execute the summons by delivering two (2) true copies to the Secretary of State and shall also deliver with each summons an attested copy of plaintiff’s complaint. The Secretary of State shall immediately mail a copy of the summons and complaint to the defendant at the address given in the complaint. The letter shall be posted by prepaid certified mail, return receipt requested, and shall bear the return address of the Secretary of State. The sheriff shall make the usual return to the court, and in addition the Secretary of State shall make a return to the court showing that the acts contemplated by this statute have been performed, and shall attach to his return the registry receipt, if any. Summons shall be deemed to be served on the return of the Secretary of State and the action shall proceed as provided in the Rules of Civil Procedure.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

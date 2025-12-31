@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/247.025"/>
+          <FRBRuri value="/us-ky/act/krs/247.025"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/247.025/eng"/>
+          <FRBRuri value="/us-ky/act/krs/247.025/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/247.025/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/247.025/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247_025">
+        <num>247.025</num>
+        <content>
+          <p>On experimental farms acquired under the provisions of subsection (3) of  the agricultural experiment station shall conduct experimentation and demonstrations in the interest of agriculture, horticulture and forestry and the development thereof in the Commonwealth. In addition to the purposes set out in  experimental farms shall be used to determine the phases of horticulture, forestry and agriculture, including grasslands, hay crops and rotation thereof, and animal husbandry best suited to particular soil belts and areas of the state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

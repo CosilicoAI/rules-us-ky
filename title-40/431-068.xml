@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/431.068"/>
+          <FRBRuri value="/us-ky/act/krs/431.068"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/431.068/eng"/>
+          <FRBRuri value="/us-ky/act/krs/431.068/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/431.068/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/431.068/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_431_068">
+        <num>431.068</num>
+        <content>
+          <p>When considering the pretrial release of a person whose pretrial risk assessment indicates he or she is a moderate-risk or high-risk defendant, the court considering the release may order as a condition of pretrial release that the person use an alcohol monitoring device during all or part of the person’s period of pretrial release. All costs associated with the alcohol monitoring device, including administrative and operating costs, shall be paid by the defendant. As used in this section, “alcohol monitoring device” means an electronic device that:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

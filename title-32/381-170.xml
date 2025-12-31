@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/381.170"/>
+          <FRBRuri value="/us-ky/act/krs/381.170"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/381.170/eng"/>
+          <FRBRuri value="/us-ky/act/krs/381.170/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/381.170/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/381.170/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_381_170">
+        <num>381.170</num>
+        <content>
+          <p>When a deed is made to one (1) person, and the consideration is paid by another no use or trust results in favor of the latter unless the grantee takes a deed in his own name without the consent of the person paying the consideration, or unless the grantee in violation of a trust purchases the lands deeded with the effects of another person. Such deeds are fraudulent as against the existing debts and liabilities of the person paying the consideration.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

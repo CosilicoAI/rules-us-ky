@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/352.290"/>
+          <FRBRuri value="/us-ky/act/krs/352.290"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/352.290/eng"/>
+          <FRBRuri value="/us-ky/act/krs/352.290/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/352.290/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/352.290/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_352_290">
+        <num>352.290</num>
+        <content>
+          <p>A suitable record book shall be kept at the mine office of every mine wherein fire bosses are employed, and immediately after the examination of the mine or any portion thereof, by a fire boss, he shall enter and sign a record of the examination in the book with ink. The record shall clearly show the time taken in making the examination, the nature and location of any danger discovered in the mine, and what has been done to correct dangerous conditions. If any danger is discovered, the fire boss shall immediately report its location to the mine foreman, or in his absence to the assistant mine foreman in charge, who shall take immediate action to remove the danger. When a station is located inside a mine the fire boss shall enter and sign a report both in the record book kept there and in a record book in the mine office on the surface. The record books of the licensee shall at all times during working hours be accessible to the mine inspector and the miner or his representative.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

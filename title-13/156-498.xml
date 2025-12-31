@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/156.498"/>
+          <FRBRuri value="/us-ky/act/krs/156.498"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/156.498/eng"/>
+          <FRBRuri value="/us-ky/act/krs/156.498/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/156.498/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/156.498/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_156_498">
+        <num>156.498</num>
+        <content>
+          <p>As the administering agency for the Child and Adult Care Food Program funded by the United States Department of Agriculture, the Kentucky Department of Education shall establish an alternate approval procedure, as required by the applicable federal rules and regulations, to review information submitted by organizations operating centers or programs for children for which licensing or approval is not available in this state, in order to establish eligibility for the federal food program. The department shall establish the alternate approval procedure no later than August 1, 1996. As a condition of the alternate approval procedures, the department shall require submission of health, sanitation, and fire and safety permits for all centers or programs seeking alternate approval.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/72.029"/>
+          <FRBRuri value="/us-ky/act/krs/72.029"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/72.029/eng"/>
+          <FRBRuri value="/us-ky/act/krs/72.029/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/72.029/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/72.029/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_72_029">
+        <num>72.029</num>
+        <content>
+          <p>Every coroner or other official performing a coroner’s functions shall, on or before the tenth day of each month, report to the Department for Public Health the death of any child under the age of eighteen (18) years occurring within the county during the preceding month, and the circumstances of the death. The report shall be made on the form required pursuant to administrative regulations promulgated pursuant to KRS  by the department. The form shall be developed in consultation with the Kentucky Coroners’ Association.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

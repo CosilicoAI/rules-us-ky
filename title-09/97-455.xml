@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/97.455"/>
+          <FRBRuri value="/us-ky/act/krs/97.455"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/97.455/eng"/>
+          <FRBRuri value="/us-ky/act/krs/97.455/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/97.455/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/97.455/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_97_455">
+        <num>97.455</num>
+        <content>
+          <p>There shall be established in each city electing to operate under  to a board to be known as the “Board of Park Commissioners.” The board shall consist of not less than five (5) nor more than seven (7) members as determined by the legislative body of the city and shall be appointed by the mayor with the approval of a majority of the legislative body for terms of four (4) years, except that the members first appointed shall be so appointed that the terms of not more than two (2) members shall expire in the same year. Any member of the board may be removed by a majority vote of the members of the city legislative body.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/247.483"/>
+          <FRBRuri value="/us-ky/act/krs/247.483"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/247.483/eng"/>
+          <FRBRuri value="/us-ky/act/krs/247.483/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/247.483/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/247.483/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247_483">
+        <num>247.483</num>
+        <content>
+          <p>The hours, voting places, rules and regulations and the area within which such referendum herein authorized with respect to such agricultural commodity herein referred to shall be established and determined by the Commissioner of Agriculture; the said referendum date, area, hours, voting places, rules and regulations with respect to the holding of such referendum shall be published by the Commissioner conducting the same through the medium of the public press in the Commonwealth of Kentucky at least thirty (30) days before the holding of such referendum, and direct written notice thereof shall likewise be given to each county or area agent, in any county in which such agricultural product is produced. Such notice shall likewise contain a statement of the amount of the assessment proposed to be levied, which assessment in any event shall not exceed one and one-half percent (1.5%) of the value of the year’s production of such agricultural commodity grown by the producer included in the group to which such referendum is submitted, and shall likewise state the method by which such assessment shall be collected and how the proceeds thereof shall be administered and the purposes to which the same shall be applied, which purposes shall be in keeping with the provisions of  to</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

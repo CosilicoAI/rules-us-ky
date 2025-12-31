@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/324.162"/>
+          <FRBRuri value="/us-ky/act/krs/324.162"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/324.162/eng"/>
+          <FRBRuri value="/us-ky/act/krs/324.162/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/324.162/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/324.162/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_324_162">
+        <num>324.162</num>
+        <content>
+          <p>An agent licensed under this chapter representing a party in the sale, leasing, or exchange of real property shall have no affirmative duty to disclose to any person who acquires, by voluntary or involuntary transfer, a legal or equitable interest in real property, including any leasehold or security interest for an obligation, information not required by this chapter or applicable federal law.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

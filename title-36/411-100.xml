@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/411.100"/>
+          <FRBRuri value="/us-ky/act/krs/411.100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/411.100/eng"/>
+          <FRBRuri value="/us-ky/act/krs/411.100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/411.100/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/411.100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_411_100">
+        <num>411.100</num>
+        <content>
+          <p>If, within any city, any church, convent, chapel, dwelling house, house used or designed for the transaction of lawful business, vessel or shipyard, railroad or property of any kind belonging to any street or other railroad company, or any article of personal property is damaged, or if any property is taken away or damaged by any riotous or tumultuous assemblage of people, the full amount of the damage done may be recovered by the person injured by action against the city, if the city authorities themselves, or with the aid of their own citizens, could have prevented the damage. However, no such liability shall be incurred by the city unless the city authorities had notice or good reason to believe that a riot or tumultuous assemblage was about to take place in time to prevent the destruction, either by their own force or by the aid of the citizens of the city. No person may maintain an action under this section if he has unlawfully contributed by word or deed toward exciting or inflaming the tumult or riot, or if he failed to do what he reasonably could toward preventing, allaying or suppressing it.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

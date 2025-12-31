@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/212.625"/>
+          <FRBRuri value="/us-ky/act/krs/212.625"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/212.625/eng"/>
+          <FRBRuri value="/us-ky/act/krs/212.625/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/212.625/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/212.625/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_212_625">
+        <num>212.625</num>
+        <content>
+          <p>Each city-county board of health created by  shall establish, maintain, and operate an animal shelter for animals in which, except as otherwise provided by law, shall be impounded all stray, vicious, or diseased animals taken up or collected in the county, whether in incorporated or unincorporated areas, by any public officer or authority or by any other person. Each board shall, throughout the county, including all municipalities within the county, enforce all statutes, ordinances of cities, orders or resolutions of the fiscal court of the county, and regulations of the board or any other governmental body or agency authorized to promulgate regulations, relating to the taking up, collection, and impounding of stray, vicious, or diseased animals. Each board may promulgate and enforce reasonable and necessary regulations providing for the collection and impounding of animals and governing the use and operation of animal shelters.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

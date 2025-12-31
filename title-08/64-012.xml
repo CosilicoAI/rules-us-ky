@@ -1,0 +1,117 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/64.012"/>
+          <FRBRuri value="/us-ky/act/krs/64.012"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/64.012/eng"/>
+          <FRBRuri value="/us-ky/act/krs/64.012/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/64.012/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/64.012/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_64_012">
+        <num>64.012</num>
+        <content>
+          <p>The county clerk shall receive for the following services the following fees:</p>
+          <p>l
+     .
+      Release of any recorded encumbrance other than state liens;</p>
+          <p>m.
+      Lis pendens notice concerning proceedings in bankruptcy;</p>
+          <p>n.
+      Lis pendens notice;</p>
+          <p>o.
+    
+    Mechanic’s and artisan’s lien under KRS ;</p>
+          <p>p.
+      Assumed name;</p>
+          <p>q.
+      Notice of lien issued by the Internal Revenue Service;</p>
+          <p>r.
+      Notice of lien discharge issued by the Internal Revenue Service;</p>
+          <p>s.
+      Original, assignment, amendment, or continuation financing statement;</p>
+          <p>t.
+      Making a record for the establishment of a city, recording the plan or plat thereof, and all other service incident;</p>
+          <p>u.
+      Survey of a city, or any part thereof, or any addition to or extensions of the boundary of a city;</p>
+          <p>w.
+    
+    Will or other probate document pursuant to KRS  or 394;</p>
+          <p>y.
+    
+    Land use restriction according to ; and</p>
+          <p>z.
+      Filing with statutory authority for which no specific fee is set.</p>
+          <p>For all items in this subsection if the entire thereof does not exceed five (5) pages
+    . . . . . $33.00</p>
+          <p>And, for all items in this subsection exceeding five (5) pages,</p>
+          <p>for each additional page
+    . . . . . $3.00</p>
+          <p>And, for all items in this subsection for each additional reference relating to same instrument
+    . . . . . $4.00</p>
+          <p>Plus fifty cents ($.50) per page after three (3) pages</p>
+        </content>
+        <subsection eId="sec_64_012__subsec_aa">
+          <num>(aa)</num>
+          <content>
+            <p>Noting the assignment of a certificate of delinquency and recording and indexing the encumbrance under  or . . . . . $27.00</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_64_012__subsec_ab">
+          <num>(ab)</num>
+          <content>
+            <p>Filing a going-out-of-business permit under  . . . . . $50.00</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_64_012__subsec_ac">
+          <num>(ac)</num>
+          <content>
+            <p>Filing a renewal of a going-out-of-business permit under  . . . . . $50.00</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_64_012__subsec_ad">
+          <num>(ad)</num>
+          <content>
+            <p>Filing and processing a transient merchant permit under  . . . . . $25.00</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_64_012__subsec_ae">
+          <num>(ae)</num>
+          <content>
+            <p>Recording and indexing a real estate mortgage:</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_64_012__subsec_af">
+          <num>(af)</num>
+          <content>
+            <p>Filing or recording a lien or release of lien by a consolidated local government, urban-county government, unified local government, or city of any class
+    . . . . . $20.00</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

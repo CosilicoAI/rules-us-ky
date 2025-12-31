@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/367.624"/>
+          <FRBRuri value="/us-ky/act/krs/367.624"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/367.624/eng"/>
+          <FRBRuri value="/us-ky/act/krs/367.624/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/367.624/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/367.624/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_367_624">
+        <num>367.624</num>
+        <content>
+          <p>Prior to entering into a contract on or after July 12, 2012, for the provision of goods or services relating to the repair or replacement of any part of a roof system of residential real estate as provided in , a roofing contractor shall furnish the owner of the residential real estate with:</p>
+          <p>“You may cancel this contract at any time before midnight on the fifth business day after you have received written notification from your insurer that all or any part of the claim or contract is not a covered loss under the insurance policy. This right to cancel is in addition to any other rights of cancellation you may have under state or federal law or regulation. See the attached Notice of Cancellation form for an explanation of this right.”; and</p>
+          <p>“NOTICE OF CANCELLATION</p>
+          <p>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
+          <p>(enter date of transaction)</p>
+          <p>If you are notified by your insurer that all or any part of the claim or contract is not a covered loss under the insurance policy, you may cancel this contract without penalty or monetary obligation before midnight of the fifth business day after you have received notice from your insurer. To cancel this transaction you may use any of the following methods: mail or otherwise deliver a signed and dated copy of this cancellation notice, or any other written notice of cancellation which you sign and date, to (enter physical address of roofing contractor), or e-mail a notice of cancellation to (enter e-mail address of roofing contractor), or transmit a notice of cancellation to (enter facsimile number of roofing contractor), not later than midnight of the fifth day after you receive notice from your insurer.</p>
+          <p>I HEREBY CANCEL THIS TRANSACTION.</p>
+          <p>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
+          <p>(Date)</p>
+          <p>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
+          <p>(Buyer’s Signature)”</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

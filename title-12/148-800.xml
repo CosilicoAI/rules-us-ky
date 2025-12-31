@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/148.800"/>
+          <FRBRuri value="/us-ky/act/krs/148.800"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/148.800/eng"/>
+          <FRBRuri value="/us-ky/act/krs/148.800/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/148.800/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/148.800/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_148_800">
+        <num>148.800</num>
+        <content>
+          <p>There is hereby established in the State Treasury a separate trust and agency account to be known as the “Park Capital Maintenance and Renovation Fund” to be administered by the Department of Parks, with the approval of the Governor’s Office for Policy and Management, for the purposes provided for in  to  The balance of any moneys accruing to this fund in any fiscal year shall not lapse but shall be carried forward to the next fiscal year or biennium.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

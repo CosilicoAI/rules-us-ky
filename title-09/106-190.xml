@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/106.190"/>
+          <FRBRuri value="/us-ky/act/krs/106.190"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/106.190/eng"/>
+          <FRBRuri value="/us-ky/act/krs/106.190/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/106.190/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/106.190/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_106_190">
+        <num>106.190</num>
+        <content>
+          <p>The resolutions or ordinances required by this chapter may set apart a fund equal to the amount of any secured debt or charge subject to which a waterworks is acquired, and shall set aside to that fund, from the balance of the income and revenues of the waterworks remaining after setting aside the funds for payment of principal and interest of bonds, a sum sufficient to comply with the requirements of the instrument creating the lien or securing the charge. If the instrument does not make any provision therefor, the resolution or ordinance shall fix and determine the amount that shall be set aside for interest on the secured debt or charge and a fixed amount to pay the principal thereof at maturity. Any surplus after satisfying the secured debt or charge may be used for the redemption of the principal and interest of bonds. Bonds may be issued pursuant to the provisions of this chapter in exchange for or in satisfaction of such secured debt or charge, or may be sold and the proceeds applied in payment of the secured debt or charge at or before maturity.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

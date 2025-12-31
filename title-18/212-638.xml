@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/212.638"/>
+          <FRBRuri value="/us-ky/act/krs/212.638"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/212.638/eng"/>
+          <FRBRuri value="/us-ky/act/krs/212.638/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/212.638/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/212.638/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_212_638">
+        <num>212.638</num>
+        <content>
+          <p>All work performed or supplies or materials purchased in carrying out the provisions of  to when involving an expenditure of twenty thousand dollars ($20,000) or more shall be by contract awarded to the lowest and best bidder after advertisement by publication pursuant to KRS . All bids or parts of bids, for any such work or supplies may be rejected by the board. The board, however, may itself do or cause to be done, any part of its work under such conditions as it may prescribe by day labor. The commissioner may act on the behalf of the board in such matters.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

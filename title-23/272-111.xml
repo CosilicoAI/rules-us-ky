@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/272.111"/>
+          <FRBRuri value="/us-ky/act/krs/272.111"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/272.111/eng"/>
+          <FRBRuri value="/us-ky/act/krs/272.111/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/272.111/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/272.111/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_272_111">
+        <num>272.111</num>
+        <content>
+          <p>An association may be organized to engage in any activity in connection with the production, harvesting, marketing, selling, preserving, drying, processing, canning, packing, grading, storing, handling, shipping or utilization of the agricultural products owned, leased, handled or marketed by its members and other farmers, with the manufacture or marketing of the by-products thereof, in connection with the manufacturing, selling, or supplying to its members and other farmers of machinery, equipment or supplies, in the financing of the above-enumerated activities, in performing or furnishing services of economic or educational nature, on a cooperative basis for those engaged in agriculture, or in any one or more of the activities specified herein.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

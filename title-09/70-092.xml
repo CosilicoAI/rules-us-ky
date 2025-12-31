@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/70.092"/>
+          <FRBRuri value="/us-ky/act/krs/70.092"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/70.092/eng"/>
+          <FRBRuri value="/us-ky/act/krs/70.092/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/70.092/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/70.092/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_70_092">
+        <num>70.092</num>
+        <content>
+          <p>If the governing body of a city, county, urban-county government, consolidated local government, charter county, or unified local government levies or imposes a special tax, license, fee, or other charge to be collected as part of a tax bill by the sheriff, the sheriff shall negotiate a collection fee with the governing body. The local government then shall set the negotiated collection fee, and the sheriff shall retain an amount not to exceed four and one-fourth percent (4.25%) of the special tax, license, fee, or other charge collected, if no other compensation is otherwise authorized.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

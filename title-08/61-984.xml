@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/61.984"/>
+          <FRBRuri value="/us-ky/act/krs/61.984"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/61.984/eng"/>
+          <FRBRuri value="/us-ky/act/krs/61.984/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/61.984/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/61.984/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_61_984">
+        <num>61.984</num>
+        <content>
+          <p>The Finance and Administration Cabinet shall develop a technology access clause which shall be in compliance with Section 255 of the Federal Telecommunication Act of 1996 and with Section 508 of the Federal Workforce Investment Act of 1998 and shall establish alternative, including nonvisual, access standards for use in the procurement of information technology by covered entities in accordance with the following requirements:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

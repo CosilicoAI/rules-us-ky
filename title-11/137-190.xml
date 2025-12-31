@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/137.190"/>
+          <FRBRuri value="/us-ky/act/krs/137.190"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/137.190/eng"/>
+          <FRBRuri value="/us-ky/act/krs/137.190/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/137.190/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/137.190/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_137_190">
+        <num>137.190</num>
+        <content>
+          <p>The license tax imposed by , the admission tax imposed by , and the state taxes and contributions imposed by  to and  on pari-mutuel systems of betting shall be in lieu of all other license, excise, special, or franchise taxes to the state or any county, city, or other political subdivision. No county, city, or other political subdivision may levy any license, income, excise, special, or franchise tax on any such person or corporation engaged in the business of conducting a race track at which races are conducted for stakes, purses or prizes, or operating as a receiving track or simulcast facility, or on the operation or maintenance of any pari-mutuel machine or similar device, or on the money or amount of money handled by or through any pari-mutuel machine or similar device or on the sale of any merchandise during the conducting of races thereon by any such person or corporation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

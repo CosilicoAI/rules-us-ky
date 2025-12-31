@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/365.290"/>
+          <FRBRuri value="/us-ky/act/krs/365.290"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/365.290/eng"/>
+          <FRBRuri value="/us-ky/act/krs/365.290/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/365.290/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/365.290/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_365_290">
+        <num>365.290</num>
+        <content>
+          <p>In all sales involving two (2) or more items, at least one (1) of which items is cigarettes, at a combined price, and in all sales involving the giving of any gift or concession of any kind, whether it be coupons or otherwise, the wholesaler’s or retailer’s combined selling price shall not be below the cost to the wholesaler or the cost to the retailer, respectively, of the total of all articles, products, commodities, gifts, and concessions included in the transactions, except that if any articles, products, commodities, gifts, or concessions, are not cigarettes, the basic cost thereof shall be determined in like manner as provided in .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

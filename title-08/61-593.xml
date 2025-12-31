@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/61.593"/>
+          <FRBRuri value="/us-ky/act/krs/61.593"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/61.593/eng"/>
+          <FRBRuri value="/us-ky/act/krs/61.593/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/61.593/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/61.593/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_61_593">
+        <num>61.593</num>
+        <content>
+          <p>Any former member of the Kentucky Employees Retirement System who was determined to be in a hazardous position in accordance with  and (2) and whose service retirement from such position was effective after such determination but prior to July 1, 1976, due to the revocation of any medical certification required for the continued performance of the duties of the hazardous position shall have his retirement allowance recomputed in accordance with  as amended by , Section 21, Acts of the 1976 General Assembly.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

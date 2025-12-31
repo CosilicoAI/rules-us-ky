@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/353.766"/>
+          <FRBRuri value="/us-ky/act/krs/353.766"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/353.766/eng"/>
+          <FRBRuri value="/us-ky/act/krs/353.766/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/353.766/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/353.766/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_353_766">
+        <num>353.766</num>
+        <content>
+          <p>Bonds issued by the authority are securities in which all public officers and public bodies, agencies, and instrumentalities of this Commonwealth and its political subdivisions, insurance companies, trust companies, bank associations, investment companies, executors, administrators, trustees and other fiduciaries, and other persons who are authorized to invest in bonds or similar obligations may invest funds. The bonds are securities which may be deposited with any state or municipal officer or any agency or political subdivision of the Commonwealth for any purpose for which the deposit of bonds or other obligations of the Commonwealth is authorized by law.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

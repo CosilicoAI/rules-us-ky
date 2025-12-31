@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/299.190"/>
+          <FRBRuri value="/us-ky/act/krs/299.190"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/299.190/eng"/>
+          <FRBRuri value="/us-ky/act/krs/299.190/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/299.190/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/299.190/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_299_190">
+        <num>299.190</num>
+        <content>
+          <p>When the commissioner has given the notice required by , he or she shall proceed without delay to investigate the condition of the company, and shall have full power, in person or by deputy, to examine its books, papers and accounts, and to examine, under oath, its officers, agents, clerks and policyholders, and other persons having knowledge of its business. If it appears to the commissioner that the liabilities of the company exceed its resources, and that it cannot within a reasonable time, not more than three (3) months from the date of the original default, pay its accrued indebtedness in full, the commissioner shall report the facts to the Attorney General, who shall, upon the commissioner’s report, apply to the Judge of the Franklin Circuit Court, or to the Judge of the Circuit Court of the county in which the company is located, for an order closing the business of the company and appointing a receiver for the distribution of its assets among creditors. No such final order shall be made until the company has had ten (10) days’ notice of the application and an opportunity to be heard. Upon hearing the matter, the court may make any order that the interests of the company and the public require.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

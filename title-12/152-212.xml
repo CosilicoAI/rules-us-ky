@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/152.212"/>
+          <FRBRuri value="/us-ky/act/krs/152.212"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/152.212/eng"/>
+          <FRBRuri value="/us-ky/act/krs/152.212/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/152.212/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/152.212/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_152_212">
+        <num>152.212</num>
+        <content>
+          <p>The Governor shall appoint three (3) persons to represent Kentucky on the Southern States Energy Board. One (1) member shall be chosen from a list of three (3) state representatives submitted by the Speaker of the House of Representatives; one (1) shall be chosen from a list of three (3) state senators submitted by the President of the Senate, and one (1) shall be appointed by the Governor to represent his office on the board. The member appointed to represent the Governor shall serve at his pleasure. The members appointed from the General Assembly shall serve a term of two (2) years and until a successor has been appointed in the manner prescribed above, except that if a member loses his seat in the General Assembly the Governor shall, in consultation with the Speaker of the House of Representatives or the President of the Senate, respectively, appoint a successor for the remainder of his term.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

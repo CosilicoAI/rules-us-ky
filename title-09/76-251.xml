@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/76.251"/>
+          <FRBRuri value="/us-ky/act/krs/76.251"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/76.251/eng"/>
+          <FRBRuri value="/us-ky/act/krs/76.251/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/76.251/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/76.251/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_76_251">
+        <num>76.251</num>
+        <content>
+          <p>For facilities designed to serve the construction subdistrict the district may, pursuant to , adopt a method of assessment of benefited property on the basis of acreage or any other equitable basis set forth in the order and notify property owner affected in accordance with subsection (11) of . From that date the assessment shall constitute a lien against the property. The landowner may pay the assessment in full at any time within thirty (30) days after notice of assessment; provided, however, that if assessments are levied in accordance with  to the assessment cannot be paid in full within thirty (30) days. Every property owner not paying the full amount of his assessment within thirty (30) days shall be presumed to have consented to the issuing of sewer or drainage construction bonds. Liens may be recorded in any manner that any other statutory lien can be recorded.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

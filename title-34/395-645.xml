@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/395.645"/>
+          <FRBRuri value="/us-ky/act/krs/395.645"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/395.645/eng"/>
+          <FRBRuri value="/us-ky/act/krs/395.645/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/395.645/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/395.645/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_395_645">
+        <num>395.645</num>
+        <content>
+          <p>When the court directs, settlements of the accounts of fiduciaries made before and reported by any trial commissioner, and all reports of estates or funds received or disbursed, under order of the court, by its trial commissioner, after they have been confirmed by the court, shall be recorded by the clerk of the court in a book to be provided for that purpose. The vouchers accompanying the settlements or reports shall not be recorded.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

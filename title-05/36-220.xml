@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/36.220"/>
+          <FRBRuri value="/us-ky/act/krs/36.220"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/36.220/eng"/>
+          <FRBRuri value="/us-ky/act/krs/36.220/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/36.220/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/36.220/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_220">
+        <num>36.220</num>
+        <content>
+          <p>All necessary cost and expense of perfecting and maintaining the organization of the Kentucky active militia, the payment of salaries, expenses of administration, purchase of necessary equipment, supplies, printing, postage and all other necessary expenditures shall be paid out of any budget appropriation made for the present or that may be made for any future fiscal year, for use of the military department, and the adjutant general is hereby authorized and empowered to use any funds so appropriated interchangeably for the Kentucky active militia or the National Guard, except as to the armory fund. In the event there is not sufficient funds in the budget allotted to the adjutant general, the Governor is authorized to expend from his emergency fund or any other fund appropriated by the Legislature a sufficient amount to take care of any deficiency that may arise.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

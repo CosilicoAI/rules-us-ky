@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/615.010"/>
+          <FRBRuri value="/us-ky/act/krs/615.010"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/615.010/eng"/>
+          <FRBRuri value="/us-ky/act/krs/615.010/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/615.010/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/615.010/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_615_010">
+        <num>615.010</num>
+        <content>
+          <p>The compacting states to this Interstate Compact recognize that each state is responsible for the proper supervision or return of juveniles, delinquents and status offenders who are on probation or parole and who have absconded, escaped or run away from supervision and control and in so doing have endangered their own safety and the safety of others. The compacting states also recognize that each state is responsible for the safe return of juveniles who have run away from home and in doing so have left their state of residence. The compacting states also recognize that Congress, by enacting the Crime Control Act, 4  (1965), has authorized and encouraged compacts for cooperative efforts and mutual assistance in the prevention of crime.</p>
+          <p>It is the purpose of this compact, through means of joint and cooperative action among the compacting states to:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

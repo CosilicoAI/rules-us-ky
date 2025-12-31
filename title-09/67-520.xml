@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/67.520"/>
+          <FRBRuri value="/us-ky/act/krs/67.520"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/67.520/eng"/>
+          <FRBRuri value="/us-ky/act/krs/67.520/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/67.520/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/67.520/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_67_520">
+        <num>67.520</num>
+        <content>
+          <p>At or before the issuance of the bonds, the county buildings commission by resolution shall set aside and pledge the income of the building into a special fund to be used and applied in payment of the cost and maintenance of the building. The resolution shall definitely fix the amount of revenues necessary to be set aside and applied for the payment of principal and interest on the bonds. The balance of the income shall be set aside for the reasonable and proper maintenance of the building, including a sufficient sum to pay the cost of insurance. The county buildings commission may provide by resolution any provision and stipulation it deems necessary for the administration of the income for the security of the bond holders.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

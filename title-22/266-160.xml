@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/266.160"/>
+          <FRBRuri value="/us-ky/act/krs/266.160"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/266.160/eng"/>
+          <FRBRuri value="/us-ky/act/krs/266.160/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/266.160/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/266.160/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_266_160">
+        <num>266.160</num>
+        <content>
+          <p>For the purpose of establishing, constructing, reconstructing, repairing, enlarging, and maintaining the levees the board may borrow money as is necessary, and issue, negotiate, and sell its bonds in denominations of not less than one hundred dollars ($100) nor more than one thousand dollars ($1,000) each, as the board prescribes. The bonds shall each be signed by the president and countersigned by the secretary of the board, with the corporate seal affixed. They shall be made negotiable or nonnegotiable, at the discretion of the board, and shall bear interest at a rate or rates or method of determining rates and be payable annually, at a time and place as the board prescribes and contracts. The board shall fix the place for the payment of principal and interest of the bonds. The bonds shall be redeemable by the board at any time within twenty (20) years after the date of their issue, or at a time within twenty (20) years as is stated in the bonds.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

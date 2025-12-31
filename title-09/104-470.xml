@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/104.470"/>
+          <FRBRuri value="/us-ky/act/krs/104.470"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/104.470/eng"/>
+          <FRBRuri value="/us-ky/act/krs/104.470/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/104.470/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/104.470/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_104_470">
+        <num>104.470</num>
+        <content>
+          <p>A flood control district may be established for the purpose of maintaining and operating any flood control works heretofore or hereafter constructed in any city or county of the state. The boundaries of such a flood control district shall be the floodwall or levee and the contour line on the land back of the floodwall or levee of the same elevation as the elevation of the top of the floodwall or levee.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

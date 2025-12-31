@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/117.022"/>
+          <FRBRuri value="/us-ky/act/krs/117.022"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/117.022/eng"/>
+          <FRBRuri value="/us-ky/act/krs/117.022/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/117.022/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/117.022/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_117_022">
+        <num>117.022</num>
+        <content>
+          <p>The Attorney General, the Secretary
+    of State, and the State Board of Elections, by mutual agreement, may petition
+    Franklin Circuit Court to declare that an election crisis exists in a county
+    where there is evidence of sufficient malfeasance, nonfeasance, or criminal
+    activity to jeopardize a free and equal election in that county and to authorize
+    the State Board of Elections to assume responsibility for the management of
+    the election in that county. If Franklin Circuit Court makes that declaration
+    and grant of authority, the State Board of Elections shall appoint an election
+    manager for that county to serve for the duration of the election cycle and
+    the county clerk, county board of elections, precinct election officers, and
+    any other person participating in the election process in that county shall
+    be subject to the direction of the election manager.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

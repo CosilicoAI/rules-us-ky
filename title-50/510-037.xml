@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/510.037"/>
+          <FRBRuri value="/us-ky/act/krs/510.037"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/510.037/eng"/>
+          <FRBRuri value="/us-ky/act/krs/510.037/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/510.037/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/510.037/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_510_037">
+        <num>510.037</num>
+        <content>
+          <p>The entering of a judgment of conviction for any degree of rape, sodomy, or sexual abuse under this chapter, or for a criminal attempt, conspiracy, facilitation, or solicitation to commit any degree of rape, sodomy, or sexual abuse, shall operate as an application for an interpersonal protective order issued under KRS , unless the victim requests otherwise. Notwithstanding the provisions of KRS :</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

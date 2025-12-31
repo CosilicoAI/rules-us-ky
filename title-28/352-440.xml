@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/352.440"/>
+          <FRBRuri value="/us-ky/act/krs/352.440"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/352.440/eng"/>
+          <FRBRuri value="/us-ky/act/krs/352.440/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/352.440/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/352.440/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_352_440">
+        <num>352.440</num>
+        <content>
+          <p>If seventy-five percent (75%) of the employees of any mine are dissatisfied with the inspection of the mine made by a mine inspector, they may appeal in writing to the department, setting forth clearly and in detail the reasons for their dissatisfaction. The commissioner of the department shall carefully consider the appeal and promptly take action by ordering another inspection to be made by the mine inspector, either alone or in company with another mine inspector detailed by the commissioner for the purpose, if that course appears to him to be warranted by the facts set forth in the appeal, or the commissioner may take such other action as appears to him just and proper. The appeal shall be signed by the dissatisfied persons.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

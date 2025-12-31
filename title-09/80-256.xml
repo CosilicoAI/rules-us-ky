@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/80.256"/>
+          <FRBRuri value="/us-ky/act/krs/80.256"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/80.256/eng"/>
+          <FRBRuri value="/us-ky/act/krs/80.256/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/80.256/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/80.256/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_80_256">
+        <num>80.256</num>
+        <content>
+          <p>All contracts, agreements, obligations and undertakings of housing authorities heretofore entered into relating to financing or aiding in the development, construction, maintenance or operation of any housing or to obtaining aid therefor from the United States Housing Authority and its successor agencies, including (without limiting the foregoing) loan and annual contributions contracts and leases with the United States Housing Authority and its successor agencies, agreements with cities, counties or other public bodies (including agreements which are pledged or authorized to be pledged for the protection of the holders of any notes or bonds issued by housing authorities or which are otherwise made a part of the contract with such holders of notes or bonds) relating to cooperation and contributions in aid of housing, payments (if any) in lieu of taxes, furnishing of municipal services and facilities, and the elimination of unsafe and unsanitary dwellings, and contracts for the construction of housing, together with all proceedings, acts and things heretofore undertaken, performed or done with reference thereto, are hereby validated, ratified, confirmed, approved and declared legal in all respects notwithstanding any defect or irregularity therein or any want of statutory authority.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

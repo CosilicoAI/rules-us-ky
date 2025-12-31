@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/118.205"/>
+          <FRBRuri value="/us-ky/act/krs/118.205"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/118.205/eng"/>
+          <FRBRuri value="/us-ky/act/krs/118.205/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/118.205/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/118.205/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_118_205">
+        <num>118.205</num>
+        <content>
+          <p>The Secretary of State and the
+    county clerks shall each keep a book entitled “Register of Candidates
+    for Nomination in the Primary Election,” and shall enter on different
+    pages of the book for the different political parties the title of office
+    sought and name and residence of each candidate for nomination in the primary
+    election, the name of his political party, and the date of receiving his nomination
+    papers. The book shall be so kept that the names of all candidates of the
+    same political party shall be on the same or successive pages and the names
+    of candidates of no two (2) political parties shall appear on the same page.
+    The books shall be public records.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

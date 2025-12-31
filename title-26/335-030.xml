@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/335.030"/>
+          <FRBRuri value="/us-ky/act/krs/335.030"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/335.030/eng"/>
+          <FRBRuri value="/us-ky/act/krs/335.030/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/335.030/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/335.030/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_335_030">
+        <num>335.030</num>
+        <content>
+          <p>No person shall engage in the practice of social work unless he is licensed in accordance with the provisions of  to and  and no person shall hold himself out to the public by any title or description of services representing himself as a “Certified Social Worker,” “Licensed Social Worker,” “Licensed Clinical Social Worker,” or any other title that includes such words except as such usage of title or description is authorized by  to and</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

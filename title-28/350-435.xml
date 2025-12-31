@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/350.435"/>
+          <FRBRuri value="/us-ky/act/krs/350.435"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/350.435/eng"/>
+          <FRBRuri value="/us-ky/act/krs/350.435/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/350.435/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/350.435/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_350_435">
+        <num>350.435</num>
+        <content>
+          <p>The permittee or other person shall establish on the regraded areas, and all other lands affected, a diverse, effective, and permanent vegetative cover of the same seasonal variety native to the area of land to be affected and capable of self-regeneration and plant succession at least equal in extent of cover to the natural vegetation of the area; except, that introduced species, such as the establishment of pollinator habitat sites for bees, may be used in the revegetation process where desirable and necessary to achieve the approved postmining land use plan.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

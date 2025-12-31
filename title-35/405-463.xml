@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/405.463"/>
+          <FRBRuri value="/us-ky/act/krs/405.463"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/405.463/eng"/>
+          <FRBRuri value="/us-ky/act/krs/405.463/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/405.463/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/405.463/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_405_463">
+        <num>405.463</num>
+        <content>
+          <p>The Kentucky Lottery Corporation and the Cabinet for Health and Family Services shall develop a system to allow the Kentucky Lottery Corporation to receive a list of delinquent child support obligors from the Cabinet for Health and Family Services on a monthly basis. The Kentucky Lottery Corporation shall withhold delinquent amounts from prizes of winners that appear on the list. This system shall be timely and shall not create an unavoidable delay in the payment of a lottery prize.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

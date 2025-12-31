@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/216.336"/>
+          <FRBRuri value="/us-ky/act/krs/216.336"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/216.336/eng"/>
+          <FRBRuri value="/us-ky/act/krs/216.336/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/216.336/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/216.336/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_216_336">
+        <num>216.336</num>
+        <content>
+          <p>Notwithstanding any other provision of  to to the contrary, the board of a hospital district created after January 1, 1994, proposing to levy a tax rate, in which the initial tax rate levy was zero cents ($0.00), shall submit the proposed tax rate levy to the fiscal court in the district for that county’s fiscal court consideration. The fiscal court may either approve or deny the proposed tax rate levy. Any tax rate change approved by the board or by the county fiscal court shall be subject to the provisions of .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

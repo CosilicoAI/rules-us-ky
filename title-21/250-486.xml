@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/250.486"/>
+          <FRBRuri value="/us-ky/act/krs/250.486"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/250.486/eng"/>
+          <FRBRuri value="/us-ky/act/krs/250.486/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/250.486/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/250.486/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_250_486">
+        <num>250.486</num>
+        <content>
+          <p>No person, firm, or corporation other than the owner of the facility and those authorized by the owner so to do, shall sell, fill, refill, deliver or permit to be delivered, or use in any manner any anhydrous ammonia container or receptacle for any gas, compound, for any other purpose whatsoever. Any wholesaler, dealer, or handler of anhydrous ammonia or pressure liquid fertilizers that have a vapor pressure in excess of fifty (50) pounds at one hundred (100) degrees Fahrenheit shall be registered with the division.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

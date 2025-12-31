@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/190.110"/>
+          <FRBRuri value="/us-ky/act/krs/190.110"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/190.110/eng"/>
+          <FRBRuri value="/us-ky/act/krs/190.110/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/190.110/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/190.110/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_190_110">
+        <num>190.110</num>
+        <content>
+          <p>Class 1. Any new or used motor vehicle designated by the manufacturer by a year model not earlier than the year in which the sale is made -- eleven dollars ($11) per one hundred dollars ($100) of principal balance, as determined pursuant to , per year of the contract.</p>
+          <p>Class 2. Any new motor vehicle not in class 1 and any used motor vehicle designated by the manufacturer by a year model of one (1) or two (2) years prior to the year in which the sale is made — thirteen dollars ($13) per one hundred dollars ($100) of principal balance, as determined pursuant to
+    , per year of the contract.</p>
+          <p>Class 3. All other motor vehicles not in class 1 or 2 — fifteen dollars ($15) per one hundred dollars ($100) of principal balance, as determined pursuant to , per year of the contract.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

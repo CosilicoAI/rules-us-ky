@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/141.018"/>
+          <FRBRuri value="/us-ky/act/krs/141.018"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/141.018/eng"/>
+          <FRBRuri value="/us-ky/act/krs/141.018/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/141.018/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/141.018/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_141_018">
+        <num>141.018</num>
+        <content>
+          <p>Consistent with the provisions of 2005 Ky. Acts ch. 168 and the provisions of 2006 (1st Extra. Sess.) Ky. Acts ch. 2, the Department of Revenue shall have the authority to interpret and carry out the provisions and intent of amendments made by the 2005 Regular Session of the General Assembly and the 2006 First Extraordinary Session of the General Assembly relative to the imposition of the tax assessed under this chapter on individuals, entities taxable as individuals, entities taxable under  and 141.0401, the passed-through income of entities taxable under  and 141.0401, entities considered not taxable or exempt from tax, any other entity or taxable unit, and any related item of income, deduction, or credit, and shall promulgate administrative regulations necessary to explain or implement this section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

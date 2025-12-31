@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/620.150"/>
+          <FRBRuri value="/us-ky/act/krs/620.150"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/620.150/eng"/>
+          <FRBRuri value="/us-ky/act/krs/620.150/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/620.150/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/620.150/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_620_150">
+        <num>620.150</num>
+        <content>
+          <p>Following an order that a child shall be removed from his home, the cabinet shall establish such terms and conditions of visitation with the child after consultation with the parent or other person exercising custodial control or supervision of the child. If the parent or other person is dissatisfied with the visitation schedule, they may petition the court for review of the visitation schedule. The court, after reviewing all of the circumstances surrounding the case, may alter the visitation schedule if it finds the schedule set up by the cabinet has been arbitrary or unreasonable.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

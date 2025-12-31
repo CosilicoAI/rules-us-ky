@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/395.635"/>
+          <FRBRuri value="/us-ky/act/krs/395.635"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/395.635/eng"/>
+          <FRBRuri value="/us-ky/act/krs/395.635/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/395.635/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/395.635/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_395_635">
+        <num>395.635</num>
+        <content>
+          <p>It shall be the duty of the clerk to report in writing to the judge once each month the names and addresses of all fiduciaries who have during the previous calendar month become delinquent in filing an inventory or settlement. The judge shall notify by mail such delinquent fiduciaries and shall warn them of the penalties provided by law. If the clerk shall fail to report such delinquents it shall be the duty of the judge to secure a list of same from the court records. There shall be assessed against each delinquent fiduciary a fee of one dollar ($1) for the preparation of said list and the mailing of said notice.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

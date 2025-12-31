@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/5.212"/>
+          <FRBRuri value="/us-ky/act/krs/5.212"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/5.212/eng"/>
+          <FRBRuri value="/us-ky/act/krs/5.212/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/5.212/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/5.212/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_212">
+        <num>5.212</num>
+        <content>
+          <p>The Twelfth Representative District shall consist of the following territory:</p>
+          <p>—CENSUS— COUNTY PREC NAME TRACT BLK SECT DAVIESS E102 PLEASANT RIDGE DAVIESS E103 UTICA EAST DAVIESS E104 UTICA WEST DAVIESS F102 MASONVILLE DAVIESS F103 HABIT HOPKINS C213 HANSON 13 HOPKINS C214 ASHBYBURG 14 HOPKINS C215 JAMES MADISON 15 HOPKINS C216 JAMES MADISON 16 HOPKINS C217 FAIRGROUNDS 17 HOPKINS D218 HANSON 18 HOPKINS D219 PRIDE 19 HOPKINS E222 NEBO 22 HOPKINS E224 WEST HOPKINS 24 HOPKINS E225 CHARLESTON 25 HOPKINS F228 DAWSON 28 HOPKINS F229 DAWSON 29 HOPKINS F232 RICHLAND 32 MCLEAN WEBSTER</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

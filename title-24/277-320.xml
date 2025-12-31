@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/277.320"/>
+          <FRBRuri value="/us-ky/act/krs/277.320"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/277.320/eng"/>
+          <FRBRuri value="/us-ky/act/krs/277.320/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/277.320/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/277.320/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_277_320">
+        <num>277.320</num>
+        <content>
+          <p>In any action brought against a common carrier by railroad under  to recover damages for injury to or death of any employee, the employee shall not be held to have assumed the risk of his employment nor to have been guilty of contributory negligence in any case where the violation by the carrier of any state or federal statute enacted for the safety of employees contributed to the injury or death of the employee. In a case where a safety statute has not been violated, the fact that the employee was guilty of contributory negligence shall not bar a recovery, but the damages shall be diminished by the jury in proportion to the amount of negligence attributable to the employee.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

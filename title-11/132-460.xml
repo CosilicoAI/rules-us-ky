@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/132.460"/>
+          <FRBRuri value="/us-ky/act/krs/132.460"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/132.460/eng"/>
+          <FRBRuri value="/us-ky/act/krs/132.460/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/132.460/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/132.460/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_132_460">
+        <num>132.460</num>
+        <content>
+          <p>The property valuation administrator, or an authorized deputy, shall attend all hearings before the county board of assessment appeals and before the Board of Tax Appeals pursuant to  to relative to his or her assessment and submit to examination and fully disclose to them such information as he may have and any other matters pertinent to the inquiry being made. He or she shall be entitled to reimbursement from the county for expenses incurred in official business outside his county. If the Department of Revenue directs him to perform official duties outside of his or her county, the expenses shall be paid from the appropriation for the payment of the salaries of the property valuation administrators. Such reimbursement shall be paid on the same basis as employees of the Commonwealth are paid for travel expenses.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

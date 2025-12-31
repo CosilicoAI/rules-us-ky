@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/247.952"/>
+          <FRBRuri value="/us-ky/act/krs/247.952"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/247.952/eng"/>
+          <FRBRuri value="/us-ky/act/krs/247.952/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/247.952/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/247.952/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247_952">
+        <num>247.952</num>
+        <content>
+          <p>In the discretion of the corporation, any obligations issued under the provisions of  to may be secured by a trust agreement by and between the corporation and a corporate trustee, which may be any trust company or bank having powers of a trust company within or without the Commonwealth. Such trust agreement or the resolution providing for the issuance of such obligations may pledge or assign all or any part of the revenues or assets of the corporation, including, without limitation, mortgage loans, mortgage loan commitments, contracts, agreements and other security or investment obligations, the fees or charges made or received by the corporation, the moneys received in payment of loans and interest thereon, and any other moneys received or to be received by the corporation. Such trust agreement or resolution may contain such provisions for protecting and enforcing the rights and remedies of the holders of any such obligations as may be reasonable and proper and not in violation of law, including covenants setting forth the duties of the corporation in relation to the purposes to which the obligation proceeds may be applied, the disposition of the pledging of the revenues or assets of the corporation, the terms and conditions for the issuance of additional obligations, and the custody, safeguarding and application of all moneys. It shall be lawful for any corporate trustee which may act as depository of the proceeds of obligations, revenues or other money hereunder to furnish such indemnifying bonds or to pledge such securities as may be required by the corporation. Any such trust agreement or resolution may set forth the rights and remedies of the holders of the obligations of the corporation and of the trustee, and may restrict the individual right of action by any such holders. In addition to the foregoing, any such trust agreement or resolution may contain such other provisions as the corporation may deem reasonable and proper for the security and source of payment of its obligations. All expenses incurred in carrying out the provisions of such trust agreement or resolution may be paid from the revenues or assets pledged or assigned to the payment of the principal of and the interest on the obligations or from any other funds available to the corporation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

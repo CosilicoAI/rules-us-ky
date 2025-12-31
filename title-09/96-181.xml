@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/96.181"/>
+          <FRBRuri value="/us-ky/act/krs/96.181"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/96.181/eng"/>
+          <FRBRuri value="/us-ky/act/krs/96.181/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/96.181/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/96.181/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_96_181">
+        <num>96.181</num>
+        <content>
+          <p>All moneys derived from the operation of the electric and water plant or any other operation of the board, shall be deposited to the credit of the board in a separate bank account or accounts, separate from all other municipal funds, and adequate records shall be kept of all such receipts and their sources. All withdrawals and payments from said fund, as well as any other fund which may be created, shall be only pursuant to appropriate action of the board, and the voucher, warrant or check withdrawing or paying out any part of said fund shall be signed by the treasurer or chairman of the board.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

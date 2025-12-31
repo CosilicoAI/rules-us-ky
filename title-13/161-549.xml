@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/161.549"/>
+          <FRBRuri value="/us-ky/act/krs/161.549"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/161.549/eng"/>
+          <FRBRuri value="/us-ky/act/krs/161.549/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/161.549/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/161.549/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_161_549">
+        <num>161.549</num>
+        <content>
+          <p>A member of the Teachers’ Retirement System who is in an active contributing status with the system, and who was formerly employed by a Federal Head Start agency, operated under 42  et seq., which does not participate in a state-administered retirement system, may obtain credit for the period of the member’s service in the Head Start program by purchasing this service credit under the same conditions that out-of-state service credit may be purchased under . The service credit purchased may not be used for meeting the service requirements set forth in , subsection (2) of Section 9 of this Act, or 1). Payment for the service credit purchased may be made in installments in lieu of a lump-sum payment. The payment shall not be picked up, as described in , and the entire payment shall be placed in the teachers’ savings fund.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

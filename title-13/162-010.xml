@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/162.010"/>
+          <FRBRuri value="/us-ky/act/krs/162.010"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/162.010/eng"/>
+          <FRBRuri value="/us-ky/act/krs/162.010/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/162.010/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/162.010/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_162_010">
+        <num>162.010</num>
+        <content>
+          <p>The title to all property owned by a school district is vested in the Commonwealth for the benefit of the district board of education. In the acquisition of land for school purposes, whether by purchase or condemnation, or otherwise, the title obtained shall be in fee simple, except that title to land received from the federal government or any agency thereof can be received in other than fee simple with the approval of the Attorney General of the Commonwealth. Any reversionary interest in any land held by boards of education on June 14, 1934, shall not deprive such boards of the ownership of the buildings or other improvements thereon.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/143.035"/>
+          <FRBRuri value="/us-ky/act/krs/143.035"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/143.035/eng"/>
+          <FRBRuri value="/us-ky/act/krs/143.035/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/143.035/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/143.035/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_143_035">
+        <num>143.035</num>
+        <content>
+          <p>Notwithstanding any other provisions of this chapter to the contrary, where the department finds that it would facilitate and expedite the collection of the tax imposed by this chapter, the department may authorize the taxpayer processing the coal to report and pay the tax which would be due from the taxpayer severing the coal. Authorization from the department shall be in the form of an agreement executed by the taxpayer processing the coal, the taxpayer severing the coal and the department. The agreement shall be in such form as the department may prescribe. The agreement must be signed by the owners if the taxpayers are natural persons; in the case of a partnership or association by a partner or member; in the case of a corporation, by an executive officer or some person specifically authorized by the corporation to sign the application. The director of the sales and severance tax division shall sign for the department. The agreement may be terminated by any party to the agreement upon giving thirty (30) days written notice to the other parties to the agreement; however, the department may terminate the agreement immediately upon written notice to the other parties when either the taxpayer processing the coal or the taxpayer severing the coal fails to comply with the terms of the agreement.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

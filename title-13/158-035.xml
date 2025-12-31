@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/158.035"/>
+          <FRBRuri value="/us-ky/act/krs/158.035"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/158.035/eng"/>
+          <FRBRuri value="/us-ky/act/krs/158.035/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/158.035/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/158.035/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_158_035">
+        <num>158.035</num>
+        <content>
+          <p>Except as provided in , no child shall be eligible to enroll as a student in any public or private elementary or secondary school without first presenting a certificate from a medical physician, osteopathic physician, or advanced practice registered nurse licensed in any state. The certificate shall state that the child has been immunized against diphtheria, tetanus, poliomyelitis, rubeola, and rubella in accordance with the provisions of this section and ,  to  and and the administrative regulations of the secretary for health and family services. The governing body of private and public schools shall enforce the provisions of this section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

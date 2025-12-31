@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.9490"/>
+          <FRBRuri value="/us-ky/act/krs/164.9490"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.9490/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.9490/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.9490/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.9490/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_9490">
+        <num>164.9490</num>
+        <content>
+          <p>Civil fines collected by the state fire marshal pursuant to  shall be paid into the State Treasury and credited to a trust and agency fund known as the “Michael Minger/Priddy fire prevention fund.” The funds shall be used by the fire marshal to educate students and personnel of postsecondary education institutions regarding the dangers of fire and methods of fire prevention, and to investigate the source of any fires or threats of fire that take place on the campus of a postsecondary education institution. No portion of this fund shall lapse into the general fund at the end of the year.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

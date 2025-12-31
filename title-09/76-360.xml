@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/76.360"/>
+          <FRBRuri value="/us-ky/act/krs/76.360"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/76.360/eng"/>
+          <FRBRuri value="/us-ky/act/krs/76.360/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/76.360/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/76.360/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_76_360">
+        <num>76.360</num>
+        <content>
+          <p>When the cost of construction of the planned sewers and/or drains has been ascertained, the commission shall assess the property benefited in accordance with the classification and area or other basis previously determined. From that date the assessment shall constitute a lien against the property. The landowner may pay the assessment in full at any time within thirty (30) days after notice of assessment. Every property owner not paying the full amount of his assessment within thirty (30) days shall be presumed to have consented to the issuing of sewer construction bonds.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

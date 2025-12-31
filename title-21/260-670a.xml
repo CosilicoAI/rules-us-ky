@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/260.670a"/>
+          <FRBRuri value="/us-ky/act/krs/260.670a"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/260.670a/eng"/>
+          <FRBRuri value="/us-ky/act/krs/260.670a/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/260.670a/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/260.670a/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_260_670a">
+        <num>260.670a</num>
+        <content>
+          <p>Section 20. Entry into force; additional members.</p>
+          <p>The compact shall enter into force effective when enacted into law by any three (3) states of the group of states composed of Alabama, Arkansas, Florida, Georgia, Kentucky, Louisiana, Maryland, Mississippi, North Carolina, Oklahoma, South Carolina, Tennessee, Texas, Virginia, and West Virginia, and when the consent of Congress has been obtained.</p>
+          <p>Section 21. Withdrawal from compact.</p>
+          <p>Any participating state may withdraw from this compact by enacting a statute repealing the same, but no such withdrawal shall take effect until one (1) year after notice in writing of the withdrawal is given to the commission and the governors of all the participating states. No withdrawal shall affect any liability already incurred by or chargeable to a participating state prior to the time of such withdrawal.</p>
+          <p>Section 22. Severability.</p>
+          <p>If any part or provision of this compact is adjudged invalid by any court, such judgment shall be confined in its operation to the part or provision directly involved in the controversy in which such judgment shall have been rendered and shall not affect or impair the validity of the remainder of this compact. In the event Congress consents to this compact subject to conditions, said conditions shall not impair the validity of this compact when said conditions are accepted by three (3) or more compacting states. A compact state may accept the conditions of Congress by implementation of this compact.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

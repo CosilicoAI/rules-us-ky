@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/267.460"/>
+          <FRBRuri value="/us-ky/act/krs/267.460"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/267.460/eng"/>
+          <FRBRuri value="/us-ky/act/krs/267.460/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/267.460/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/267.460/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_267_460">
+        <num>267.460</num>
+        <content>
+          <p>Whenever any public ditch or drain established and constructed under this chapter or any pre-existing law empties into a natural drain, creek or nonnavigable watercourse, such natural drain, creek or watercourse from the mouth of the public ditch or drain to the mouth of the natural drain, creek or watercourse shall be a public ditch, and subject in the same manner as other public ditches to the supervision and control of the board. If such natural drain, creek or watercourse below the mouth of the public ditch extends into any other county, the supervision and control of the board of the county in which the public ditch is located shall not extend into the other county beyond the mouth of the public ditch in that county.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

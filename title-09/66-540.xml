@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/66.540"/>
+          <FRBRuri value="/us-ky/act/krs/66.540"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/66.540/eng"/>
+          <FRBRuri value="/us-ky/act/krs/66.540/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/66.540/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/66.540/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_66_540">
+        <num>66.540</num>
+        <content>
+          <p>The board and the commissioners of any sinking fund of any city of the first class within the county may make an agreement under  to or  to for the main purpose of having the employees of that sinking fund perform functions relating to debt service, fiscal management, and investment of funds that would otherwise be performed by employees of the board. Any such agreement shall be construed and carried out in a manner which in no way impairs either the performance of the employees’ duties to the sinking fund or the assets of the sinking fund. Any such agreement shall be deemed to be a covenant or condition of any obligation made by the board during the existence of the agreement.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

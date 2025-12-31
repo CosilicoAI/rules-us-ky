@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/62.160"/>
+          <FRBRuri value="/us-ky/act/krs/62.160"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/62.160/eng"/>
+          <FRBRuri value="/us-ky/act/krs/62.160/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/62.160/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/62.160/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_62_160">
+        <num>62.160</num>
+        <content>
+          <p>Secretary of State $10,000 Attorney General 10,000 State Treasurer 300,000 Secretary for economic development 10,000 Commissioner of Agriculture 10,000 Secretary for education 10,000 Auditor of Public Accounts 25,000 Adjutant general 10,000 Secretary of finance and administration 100,000 Commissioner of revenue 50,000 Secretary of transportation 50,000 Commissioner of highways 50,000 Secretary of justice and public safety 50,000 Secretary of corrections 25,000 Commissioner for public health services 10,000 Secretary of labor 5,000 Commissioner for natural resources 50,000 State librarian 5,000 Commissioner of alcoholic beverage control 10,000 Commissioner of financial institutions 25,000 Secretary for energy and environment 50,000 Commissioner of insurance 50,000 Commissioner of vehicle regulation 10,000 Commissioner of fish and wildlife resources 5,000 Secretary for health and family services 20,000 Commissioner of environmental protection 10,000 Secretary of public protection 10,000 Secretary of tourism, arts and heritage 25,000 Commissioner for community based services 20,000 Member of the Public Service Commission 10,000 Member of State Fair Board 10,000 Member of Fish and Wildlife Resources Commission 1,000 Member of Board of Tax Appeals 10,000 Member of Board of Claims 10,000 Member of Crime Victims Compensation Board 10,000 Associate member of Alcoholic Beverage Control Board 5,000 Commissioner of local government 100,000</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

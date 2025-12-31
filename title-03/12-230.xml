@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/12.230"/>
+          <FRBRuri value="/us-ky/act/krs/12.230"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/12.230/eng"/>
+          <FRBRuri value="/us-ky/act/krs/12.230/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/12.230/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/12.230/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_230">
+        <num>12.230</num>
+        <content>
+          <p>shall remain in full force and effect, except to the extent the same is in conflict with  to and except to the extent therein provided nothing in those sections shall be construed, nor is the same intended to affect the tenure or compensation of any assistant attorney general appointed and serving pursuant to law. The Governor or any department may require the advice or services of the Attorney General and the assistant attorneys general in matters relating to the duties or functions of any such office or department.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

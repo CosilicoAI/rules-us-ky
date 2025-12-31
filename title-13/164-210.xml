@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.210"/>
+          <FRBRuri value="/us-ky/act/krs/164.210"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.210/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.210/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.210/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.210/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_210">
+        <num>164.210</num>
+        <content>
+          <p>The trustees may determine from time to time the colleges, schools, divisions, departments, bureaus, and offices which the university shall comprise within the scope of the Acts of Congress approved July 2, 1862, and Acts supplementary thereto, and the relation which each division shall sustain to each other division and to the whole. They may devise, allot, and arrange the distribution of divisions with the designation appropriate for each, and devise the means required for their effective instruction, administration, and government. They may do all other acts that are needful for the welfare of the university.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

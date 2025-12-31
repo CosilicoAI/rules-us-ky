@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/279.130"/>
+          <FRBRuri value="/us-ky/act/krs/279.130"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/279.130/eng"/>
+          <FRBRuri value="/us-ky/act/krs/279.130/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/279.130/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/279.130/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_279_130">
+        <num>279.130</num>
+        <content>
+          <p>Any corporation formed under this chapter may issue its obligations and pledge its future revenues for the payment thereof. The obligations may be in the form of bonds, notes, debentures, interim certificates or other evidences of indebtedness. The obligations shall be authorized by the board of directors by a resolution which shall fix the dates of issuance and maturity, the rate and time of payment of interest, and denominations, the form (either coupon or registered), the registration privileges, the manner of execution, the place and medium of payment, and the terms of redemption. Any limitation as to interest or term of maturity otherwise provided by law shall not be applicable to obligations issued by a corporation organized under this chapter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

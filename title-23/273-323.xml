@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/273.323"/>
+          <FRBRuri value="/us-ky/act/krs/273.323"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/273.323/eng"/>
+          <FRBRuri value="/us-ky/act/krs/273.323/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/273.323/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/273.323/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_273_323">
+        <num>273.323</num>
+        <content>
+          <p>The Secretary of State, on or before the last day of December of each year, may certify to the Attorney General the names of all corporations which have given cause for dissolution as provided in  to  together with the facts pertinent thereto. Whenever the Secretary of State shall certify the name of a corporation to the Attorney General as having given any cause for dissolution, the Secretary of State shall concurrently mail to the corporation at its registered office a notice that such certification has been made. Upon the receipt of such certification, the Attorney General may file an action in the name of the state against such corporation for its dissolution. Every such certificate from the Secretary of State to the Attorney General pertaining to the failure of a corporation to file an annual report shall be taken and received in all courts as prima facie evidence of the facts therein stated. If, before action is filed, the corporation shall file its annual report, or shall appoint or maintain a registered agent as provided in  to  or shall file with the Secretary of State the required statement of change of registered agent, such fact shall be forthwith certified by the Secretary of State to the Attorney General and he shall not file an action against such corporation for such cause. If, after action is filed, the corporation shall file its annual report, or shall appoint or maintain a registered agent as provided in  to  or shall file with the Secretary of State the required statement of change of registered agent, and shall pay the costs of such action, the action for such cause shall abate.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

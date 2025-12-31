@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/362.335"/>
+          <FRBRuri value="/us-ky/act/krs/362.335"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/362.335/eng"/>
+          <FRBRuri value="/us-ky/act/krs/362.335/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/362.335/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/362.335/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_362_335">
+        <num>362.335</num>
+        <content>
+          <p>(I)
+      All the rights specified in subsection (1) of this section, and</p>
+          <p>(II)
+      The right, as against each partner who has caused the dissolution wrongfully, to damages for breach of the agreement.</p>
+          <p>(I)
+      If the business is not continued under the provisions of paragraph (b) of this subsection, all the rights of a partner under subsection (1) of this section, subject to subdivision (II) of paragraph (a) of this subsection.</p>
+          <p>(II)
+      If the business is continued under paragraph (b) of this subsection the right as against his co-partners and all claiming through them in respect of their interests in the partnership, to have the value of his interest in the partnership, less any damages caused to his co-partners by the dissolution, ascertained and paid him in cash, or the payment secured by bond approved by the court, and to be released from all existing liabilities of the partnership; but in ascertaining the value of the partner’s interest the value of the goodwill of the business shall not be considered.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/36.082"/>
+          <FRBRuri value="/us-ky/act/krs/36.082"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/36.082/eng"/>
+          <FRBRuri value="/us-ky/act/krs/36.082/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/36.082/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/36.082/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_082">
+        <num>36.082</num>
+        <content>
+          <p>Location Facility Estimated CostExpected FederalFunds StateFunds Louisville Maintenance Shop $ 75,000 $ 6,000 Hickman Armory 210,000 80,000 Lexington Armory 340,000 145,000 Lexington Maintenance Shop 75,000 6,000 Frankfort Aviation Maintenance Shop 85,000 6,800 Ravenna Armory 190,000 75,000 Russellville Armory 170,000 70,000 Frankfort Department of Military Affairs Building and State Government Emergency Operations Center 250,000 470,000 TOTAL $1,395,000 $858,800</p>
+          <p>Click to view</p>
+          <p>Any of these facilities may be constructed at such other locations at which National Guard units may be established.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

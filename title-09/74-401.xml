@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/74.401"/>
+          <FRBRuri value="/us-ky/act/krs/74.401"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/74.401/eng"/>
+          <FRBRuri value="/us-ky/act/krs/74.401/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/74.401/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/74.401/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_74_401">
+        <num>74.401</num>
+        <content>
+          <p>All other provisions of this chapter to the contrary notwithstanding, no water district created under this chapter shall establish a gas distribution system unless the primary source of the gas to be distributed is natural gas produced from within the territorial limits of the district or of a county in which the district is located. A gas distribution system so established may contract with a seller of gas for supplementing supplies of gas. Nothing in ,   and shall be construed to enlarge any requirement under existing law relating to the furnishing of gas to a water district by any other supplier. However, nothing in this section shall prohibit the continued operation of a gas distribution system in operation pursuant to the provisions of this chapter prior to June 16, 1966.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

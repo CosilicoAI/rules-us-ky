@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/205.6312"/>
+          <FRBRuri value="/us-ky/act/krs/205.6312"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/205.6312/eng"/>
+          <FRBRuri value="/us-ky/act/krs/205.6312/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/205.6312/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/205.6312/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_205_6312">
+        <num>205.6312</num>
+        <content>
+          <p>Notwithstanding any state law to the contrary, the cabinet or a managed care organization contracted by the cabinet to provide Medicaid services pursuant to this chapter shall not institute copayments, cost sharing, or similar charges to be paid by any medical assistance recipients, their spouses, or parents, for any assistance provided pursuant to this chapter, federal law, or any federal Medicaid waiver.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

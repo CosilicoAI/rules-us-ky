@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/363.790"/>
+          <FRBRuri value="/us-ky/act/krs/363.790"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/363.790/eng"/>
+          <FRBRuri value="/us-ky/act/krs/363.790/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/363.790/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/363.790/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_363_790">
+        <num>363.790</num>
+        <content>
+          <p>All furnace and stove oil shall be sold by liquid measure or by net weight in accordance with the provisions of . In the case of each delivery of such liquid fuel not in package form and in an amount greater than ten (10) gallons in the case of sale by liquid measure or 100 pounds in the case of sale by weight, there shall be rendered to the purchaser, either at the time of delivery or within a period mutually agreed upon in writing or otherwise between the vendor and the purchaser, a delivery ticket or a written statement on which, in ink or by means of other indelible marking equipment and, in clarity, equal to type or printing, there shall be clearly stated:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

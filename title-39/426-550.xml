@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/426.550"/>
+          <FRBRuri value="/us-ky/act/krs/426.550"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/426.550/eng"/>
+          <FRBRuri value="/us-ky/act/krs/426.550/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/426.550/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/426.550/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_426_550">
+        <num>426.550</num>
+        <content>
+          <p>If, by the judgment of any court of this state, real property is sold and any party to the action dies after the sale is confirmed, or, if the court orders any conveyance of real property by a commissioner and a party to the proceedings dies before the conveyance is perfected, it shall not be necessary on that account to revive the action, but the sale or conveyance when perfected shall pass title to the same extent as if all the parties were living.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

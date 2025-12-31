@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/65.688"/>
+          <FRBRuri value="/us-ky/act/krs/65.688"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/65.688/eng"/>
+          <FRBRuri value="/us-ky/act/krs/65.688/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/65.688/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/65.688/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_65_688">
+        <num>65.688</num>
+        <content>
+          <p>For any development area for which increments do not include revenues from the Commonwealth, while increment bonds are outstanding, the issuer shall maintain a special fund which shall be pledged for the retirement of those increment bonds. Officials charged with collecting revenues in the development area shall, for each year a grant contract is in effect or any increment bonds are outstanding with respect to a development area, determine the amount of increments from the development area which they are charged with collecting and submit those increments for deposit in the special fund established by the governing body for that development area. Funds deposited in a special fund for the payment of increment bonds shall be disbursed at the times and in the amounts required to pay debt charges on those increment bonds. Accrued interest from the sale of increment bonds shall be deposited in the special fund pledged to the payment of those bonds. Amounts in a special fund which exceed the amount required to pay debt charges on related increment bonds in any fiscal year may accumulate in the special fund for the payment of future debt charges or to pay the costs of additional projects in the development area, or may be transferred by the governing body from the special fund under the terms of a grant contract or used for any lawful purpose.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

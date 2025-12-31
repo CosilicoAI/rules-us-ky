@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/67.185"/>
+          <FRBRuri value="/us-ky/act/krs/67.185"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/67.185/eng"/>
+          <FRBRuri value="/us-ky/act/krs/67.185/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/67.185/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/67.185/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_67_185">
+        <num>67.185</num>
+        <content>
+          <p>The fiscal court in each county having therein a city of the first class may, in its discretion, for the protection of the public and its employees appropriate county funds to purchase policies of insurance of all kinds deemed advisable covering motor vehicles and other vehicles operated by the county, and compensation insurance covering employees of the county receiving injuries arising out of and in the course of employment; provided, the insurance carrier, by its policy of insurance, waives therein the right to contest or deny liability, by denying the liability of the county because of its governmental capacity and immunity on that account, and, provided, said policy of insurance shall bind the company to pay any final judgment rendered against the county for loss, or damage to property of any person or death or injury of any person.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

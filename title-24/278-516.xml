@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/278.516"/>
+          <FRBRuri value="/us-ky/act/krs/278.516"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/278.516/eng"/>
+          <FRBRuri value="/us-ky/act/krs/278.516/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/278.516/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/278.516/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_278_516">
+        <num>278.516</num>
+        <content>
+          <p>without regard to the effect on its revenues, by filing its proposed rates, charges, or tariffs with the commission and by notifying its subscribers, both at least thirty (30) calendar days prior to the effective date of its proposed rates, charges, or tariffs.</p>
+          <p>The small telephone utility may decrease its intrastate access charges or intrastate pic charges to any level without restriction. Adjustments to intrastate access charge rates or intrastate pic charges shall be effective thirty (30) calendar days following the filing of access charge tariffs or pic charge tariffs with the commission.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

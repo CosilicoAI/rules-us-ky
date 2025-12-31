@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/177.073"/>
+          <FRBRuri value="/us-ky/act/krs/177.073"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/177.073/eng"/>
+          <FRBRuri value="/us-ky/act/krs/177.073/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/177.073/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/177.073/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_073">
+        <num>177.073</num>
+        <content>
+          <p>The Department of Highways shall erect within six hundred and sixty (660) feet of the right-of-way of any interstate, limited access highway, federal-aid primary highway, or turnpikes official directional signs and notices pertaining to publicly and privately owned natural wonders and scenic and historical attractions, including cultural, scientific, educational, and religious sites, and areas of natural scenic beauty or naturally suited for outdoor recreation deemed to be in the interest of the traveling public under the following conditions:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

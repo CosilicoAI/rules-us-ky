@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/157.170"/>
+          <FRBRuri value="/us-ky/act/krs/157.170"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/157.170/eng"/>
+          <FRBRuri value="/us-ky/act/krs/157.170/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/157.170/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/157.170/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_157_170">
+        <num>157.170</num>
+        <content>
+          <p>The chief state school officer, subject to the approval of the Kentucky Board of Education, shall promulgate an administrative regulation governing the sale of books and materials by superintendents to pupils, parents, or guardians of pupils attending the public schools of the state who desire to hold books and materials as their own property. Superintendents shall not sell books and materials to private or sectarian schools. Books and materials sold under this section shall be sold at the retail contract price. Funds accruing from the sales shall be paid into the local district’s account.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

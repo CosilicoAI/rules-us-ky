@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/117.365"/>
+          <FRBRuri value="/us-ky/act/krs/117.365"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/117.365/eng"/>
+          <FRBRuri value="/us-ky/act/krs/117.365/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/117.365/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/117.365/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_117_365">
+        <num>117.365</num>
+        <content>
+          <p>Upon the first day a grand jury convenes after a primary, regular election, or special election, the county clerk shall present to the grand jury all voter assistance forms, all voter and election official affirmations, and all applications for absentee ballots which shall have been completed in the immediately preceding primary, regular election, or special election. The county clerk may photocopy applications for absentee ballots, voter and election official affirmations, and voter assistance forms, certify them as true copies of the originals, and present the grand jury with those certified copies instead of the originals. The county clerk shall retain all applications for absentee ballots, voter and election official affirmations, and one (1) copy of each voter assistance form as part of the records of the office and shall produce certified copies of any or all of them, when required, to any subsequent grand jury.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

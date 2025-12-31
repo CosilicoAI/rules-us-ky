@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/180.160"/>
+          <FRBRuri value="/us-ky/act/krs/180.160"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/180.160/eng"/>
+          <FRBRuri value="/us-ky/act/krs/180.160/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/180.160/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/180.160/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_180_160">
+        <num>180.160</num>
+        <content>
+          <p>The department may impose such conditions as it deems best in any contract for the sale of the bonds, and may assent in the contract to reasonable conditions imposed upon the department in its issuance and delivery of the bonds. The conditions may include a covenant of the department that within the period the purchasers are required or permitted to accept and pay for bonds purchased but remaining undelivered, and for six (6) months thereafter, the department will not advertise for sale, sell or issue any bonds or other obligations payable from bridge tolls without the purchasers’ consent. No such covenant shall extend beyond the biennial period in which the contract is made.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/440.330"/>
+          <FRBRuri value="/us-ky/act/krs/440.330"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/440.330/eng"/>
+          <FRBRuri value="/us-ky/act/krs/440.330/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/440.330/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/440.330/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_440_330">
+        <num>440.330</num>
+        <content>
+          <p>The Governor may in his discretion surrender upon demand of the executive authority of another state, any person found in this state, notwithstanding the fact that a criminal prosecution or charges under the laws of this state are pending against such person, or that such person has been convicted in this state and is serving a sentence in any penal institution of this state. The Governor may condition the release of such prisoner to the demanding state upon such terms as he may stipulate, including the condition that the prisoner be returned to this state immediately after trial and before commencing the service of sentence, if any, in the demanding state; provided, however, in no case shall surrender of such prisoner be construed as a complete relinquishment of jurisdiction by this state, but such prisoner shall forthwith be returned to the custody of this state at expense of the demanding state, immediately after trial in the demanding state, or the completion of sentence therein, as the case may be.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

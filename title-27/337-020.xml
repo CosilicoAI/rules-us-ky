@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/337.020"/>
+          <FRBRuri value="/us-ky/act/krs/337.020"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/337.020/eng"/>
+          <FRBRuri value="/us-ky/act/krs/337.020/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/337.020/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/337.020/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_337_020">
+        <num>337.020</num>
+        <content>
+          <p>Every employer doing business in this state shall, as often as semimonthly, pay to each of its employees all wages or salary earned to a day not more than eighteen (18) days prior to the date of that payment. Any employee who is absent at the time fixed for payment, or who, for any other reason, is not paid at that time, shall be paid thereafter at any time upon six (6) days’ demand. No employer subject to this section shall, by any means, secure exemption from it. Every such employee shall have a right of action against any such employer for the full amount of his wages due on each regular pay day. The provisions of this section do not apply to those individuals defined in 2.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

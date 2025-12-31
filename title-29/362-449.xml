@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/362.449"/>
+          <FRBRuri value="/us-ky/act/krs/362.449"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/362.449/eng"/>
+          <FRBRuri value="/us-ky/act/krs/362.449/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/362.449/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/362.449/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_362_449">
+        <num>362.449</num>
+        <content>
+          <p>A general partner of a limited partnership may make contributions to the limited partnership and share in the profits and losses of, and in distributions from, the limited partnership as a general partner. A general partner also may make contributions to the limited partnership, and share in the profits and losses of, and distributions from, the limited partnership, as a limited partner. A person who is both a general partner and a limited partner shall have all of the rights and powers, and shall be subject to all of the restrictions and liabilities of a general partner, and, except as provided in the partnership agreement, also shall have all of the powers, and shall be subject to all of the restrictions, of a limited partner to the extent of his participation in the partnership as a limited partner.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/118.435"/>
+          <FRBRuri value="/us-ky/act/krs/118.435"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/118.435/eng"/>
+          <FRBRuri value="/us-ky/act/krs/118.435/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/118.435/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/118.435/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_118_435">
+        <num>118.435</num>
+        <content>
+          <p>The election of electors of
+    President and Vice President of the United States shall be held on the Tuesday
+    next after the first Monday in November every four (4) years, beginning with
+    1892. The Governor may, by proclamation, appoint the same day in any other
+    year, pursuant to Act of Congress, for holding the election, in the event
+    of a vacancy in the offices of President and Vice President.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

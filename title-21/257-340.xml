@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/257.340"/>
+          <FRBRuri value="/us-ky/act/krs/257.340"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/257.340/eng"/>
+          <FRBRuri value="/us-ky/act/krs/257.340/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/257.340/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/257.340/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_257_340">
+        <num>257.340</num>
+        <content>
+          <p>Before any such chicks or poults are offered for sale, or sold, each box, crate, coop or other container shall be plainly labeled with an appropriate statement giving the kind and number of chicks or poults in each container, the date on which such chicks or poults were hatched, and by whom hatched, and any other representations at or prior to the time of sale relative to the purity of the breed, the freedom of such chicks or poults from disease, such as chick bronchitis, and official certification that tests have been made on the parent stock for pullorum disease and that such flock is United States pullorum-tested, United States pullorum-controlled, United States pullorum-passed or United States pullorum-clean. The container should also specify whether it contains males, females or unsexed chicks or poults.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

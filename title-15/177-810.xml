@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/177.810"/>
+          <FRBRuri value="/us-ky/act/krs/177.810"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/177.810/eng"/>
+          <FRBRuri value="/us-ky/act/krs/177.810/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/177.810/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/177.810/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_810">
+        <num>177.810</num>
+        <content>
+          <p>The bonds and receipt of interest thereon shall be exempt from all taxation by the Commonwealth and its political subdivisions, municipalities, and taxing districts. The bonds shall be signed in the name of the Commonwealth by the facsimile signatures of the Governor and Treasurer of the Commonwealth, and the great seal of the Commonwealth or a facsimile thereof shall be affixed thereto and attested by the validating manual signature of the Secretary of State, and the interest coupons, if any, shall be executed by the facsimile signature of the Treasurer. In case any officer whose signature or facsimile thereof shall appear on any bonds or coupons shall cease to be such officer before delivery of the bonds, such signature or facsimile thereof shall, nevertheless, be valid and sufficient for all purposes, the same as if he had remained in office until delivery. All bonds issued under  to shall have and are hereby declared to have all the incidents of negotiable instruments. Prior to the preparation of definitive bonds, the commission may issue temporary bonds or certificates, exchangeable for definitive bonds when the same shall have been executed and are ready for delivery; and provision may also be made for the replacement of any bonds which shall become mutilated, or be destroyed or lost. Bonds may be issued under the provisions of  to without obtaining the consent of any department, division, commission, board, bureau, or agency of the Commonwealth and without any other proceedings or the happening of any conditions, events or things other than the proceedings, conditions, events, and things which are specifically required by  to</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

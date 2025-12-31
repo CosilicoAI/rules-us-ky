@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/61.377"/>
+          <FRBRuri value="/us-ky/act/krs/61.377"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/61.377/eng"/>
+          <FRBRuri value="/us-ky/act/krs/61.377/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/61.377/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/61.377/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_61_377">
+        <num>61.377</num>
+        <content>
+          <p>Any employee who holds a position in the public service shall be granted a leave of absence for the purpose of being inducted or otherwise entering military duty. If not accepted for such duty, the employee shall be reinstated in his position without loss of seniority or status, or reduction in his rate of pay. During the period the employee shall for all purposes be considered to have rendered service and to have been compensated therefor at his regular rate of pay.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

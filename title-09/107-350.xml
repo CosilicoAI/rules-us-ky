@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/107.350"/>
+          <FRBRuri value="/us-ky/act/krs/107.350"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/107.350/eng"/>
+          <FRBRuri value="/us-ky/act/krs/107.350/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/107.350/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/107.350/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_107_350">
+        <num>107.350</num>
+        <content>
+          <p>In order to accomplish its purposes the district, through its board, may request the fiscal court of the county in which it is located to levy an ad valorem tax on all property within the district which is assessed for local taxation at a rate which shall not exceed ten (10) cents per $100 of assessed value of said property and which shall not exceed the amount necessary to amortize any bonds (whether revenue or general obligation bonds) issued or proposed to be issued to finance the project or projects proposed by the district, plus operating expenses of the district. All ad valorem taxes authorized by  to shall be collected in the same manner as are county ad valorem taxes and shall be turned over to the board as the governing body of the district. Such ad valorem taxes shall be solely for the benefit and purposes of the district and shall be in addition to all other ad valorem taxes. Said fiscal court shall levy the ad valorem tax so requested initially and from year to year thereafter if required to amortize any bonds (whether revenue or general obligation bonds) issued or proposed for a project not disapproved under the authority of  to  but it shall refuse to levy any tax if no bonds (whether revenue or general obligation bonds) are issued or outstanding, and if the proposed project to be financed by the bonds has been disapproved as set out in .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

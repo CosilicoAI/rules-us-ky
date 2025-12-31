@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/161.048"/>
+          <FRBRuri value="/us-ky/act/krs/161.048"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/161.048/eng"/>
+          <FRBRuri value="/us-ky/act/krs/161.048/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/161.048/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/161.048/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_161_048">
+        <num>161.048</num>
+        <content>
+          <p>The candidate shall participate in the teacher internship program under . After successful completion of the internship program, the candidate shall receive a professional certificate and shall be subject to certificate renewal requirements the same as other teachers with a professional certificate.</p>
+          <p>Upon meeting the participation requirements as established in this subsection, the candidate shall be issued a one (1) year provisional certificate by the Education Professional Standards Board. The candidate shall participate in the teacher internship program under . After successful completion of the internship program, the candidate shall receive a professional certificate and shall be subject to certificate renewal requirements the same as other teachers with a professional certificate.</p>
+          <p>The candidate shall participate in the teacher internship program under . After successful completion of the internship program, the candidate shall receive a professional certificate and shall be subject to certificate renewal requirements the same as other teachers with professional certificates.</p>
+          <p>Upon an offer of employment by a school district, the eligible veteran shall receive a one (1) year provisional certificate with approval by the Education Professional Standards Board of a joint application by the veteran and the employing school district. During this year, the veteran shall participate in the teacher internship program under . After successful completion of the internship program, the veteran shall receive a professional certificate.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

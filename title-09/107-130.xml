@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/107.130"/>
+          <FRBRuri value="/us-ky/act/krs/107.130"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/107.130/eng"/>
+          <FRBRuri value="/us-ky/act/krs/107.130/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/107.130/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/107.130/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_107_130">
+        <num>107.130</num>
+        <content>
+          <p>The sum required annually for the sinking fund and consequent amortization of the outstanding bonds of a wastewater collection project undertaken by a metropolitan sewer district, whether all authorized bonds have been issued or not, shall be assessed against the benefited properties for benefits conferred. The sum shall include any amounts required annually to pay trustees’ fees, paying agents’ fees, cost of administration of the wastewater collection project, and the cost of billing, collecting and enforcing improvement benefit assessments, including fees of proper governmental bodies incident to placing assessment bills on tax statements, and collecting, enforcing and remitting same. If the board of a metropolitan sewer district in relation to a wastewater collection project has determined that all benefited properties within classified zones are substantially equally benefited, the same assessment levy shall be made against each benefited property within a classified zone. Otherwise the sum required to be raised annually for the sinking fund shall be assessed against the property benefited in the proportion that the assessed value of each lot or parcel for city taxation shall bear to the whole assessed value of the benefited properties, as shown by the records upon which city taxation may, from time to time, be based. Where there is no such record, as in the case of public property, or property owned by religious, charitable, or educational institutions, the same (except that owned by the United States government) shall be specially assessed by the proper assessing officers, and for such special assessment reasonable compensation may be made. Any such special assessment shall be subject to all procedures for equalization and judicial review as may be provided by law in connection with ordinary assessments.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

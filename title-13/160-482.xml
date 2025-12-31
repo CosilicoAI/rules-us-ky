@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/160.482"/>
+          <FRBRuri value="/us-ky/act/krs/160.482"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/160.482/eng"/>
+          <FRBRuri value="/us-ky/act/krs/160.482/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/160.482/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/160.482/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_160_482">
+        <num>160.482</num>
+        <content>
+          <p>To help provide for an efficient system of common schools in any county having three hundred thousand (300,000) or more inhabitants, the General Assembly delegates to the fiscal courts and boards of education of any such county the powers and duties set forth in  to  The General Assembly finds and declares that in any such county there are besetting public education special problems which can best be solved pursuant to  to  Furthermore, the General Assembly declares that the public policy of the Commonwealth is not offended but is best served by the authority of  to for the imposition, payment, and collection of license fees on businesses, trades, occupations, and professions over and above license fees that may already be imposed thereon.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

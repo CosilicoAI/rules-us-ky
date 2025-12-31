@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/635.060"/>
+          <FRBRuri value="/us-ky/act/krs/635.060"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/635.060/eng"/>
+          <FRBRuri value="/us-ky/act/krs/635.060/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/635.060/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/635.060/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_635_060">
+        <num>635.060</num>
+        <content>
+          <p>If in its decree the juvenile court finds that the child comes within the purview of this chapter, the court, at the dispositional hearing, may impose any combination of the following, except that the court shall, if a validated risk and needs assessment tool is available, consider the validated risk and needs assessment submitted to the court and parties by the Department of Juvenile Justice or other agency before imposing any disposition:</p>
+          <p>1.
+      If the child is fourteen (14) years of age but less than sixteen (16) years of age, the child may be confined for a period of time not to exceed forty-five (45) days; or</p>
+          <p>2.
+      If the child is sixteen (16) years of age or older, the child may be confined for a period of time not to exceed ninety (90) days.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

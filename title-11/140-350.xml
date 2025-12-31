@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/140.350"/>
+          <FRBRuri value="/us-ky/act/krs/140.350"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/140.350/eng"/>
+          <FRBRuri value="/us-ky/act/krs/140.350/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/140.350/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/140.350/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_140_350">
+        <num>140.350</num>
+        <content>
+          <p>At such time as the Department of Revenue accepts the agricultural or horticultural value on qualified real estate comprising a portion of a decedent’s estate and issues tax waivers thereon, it shall cause to be filed in the office of the county clerk of the county where the real estate or the greater portion thereof is located, on a form prescribed by the Department of Revenue, a lien which on its face shall expire in five (5) years and the lien shall secure the payment of any additional tax which may become due as the result of the qualified real estate being sold to others than qualified persons or the qualified real estate being converted to other than a qualified use.</p>
+          <p>If additional taxes are due as the result of the real estate being transferred to other than a qualified person or its use is converted to other than agricultural or horticultural use, and the additional tax is not paid after assessment of the tax, within the time prescribed by the regulations of the Department of Revenue, then the Department of Revenue may proceed to enforce the lien in accordance with law.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

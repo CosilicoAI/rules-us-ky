@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/141.020"/>
+          <FRBRuri value="/us-ky/act/krs/141.020"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/141.020/eng"/>
+          <FRBRuri value="/us-ky/act/krs/141.020/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/141.020/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/141.020/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_141_020">
+        <num>141.020</num>
+        <content>
+          <p>1. a.
+      For taxable years beginning before January 1, 2014, twenty dollars ($20) for an unmarried individual; and</p>
+          <p>b.
+      For taxable years beginning on or after January 1, 2014, and before January 1, 2018, ten dollars ($10) for an unmarried individual;</p>
+          <p>2. a.
+      For taxable years beginning before January 1, 2014, twenty dollars ($20) for a married individual filing a separate return and an additional twenty dollars ($20) for the spouse of taxpayer if a separate return is made by the taxpayer and if the spouse, for the calendar year in which the taxable year of the taxpayer begins, had no Kentucky gross income and is not the dependent of another taxpayer; or forty dollars ($40) for married persons filing a joint return, provided neither spouse is the dependent of another taxpayer. The determination of marital status for the purpose of this section shall be made in the manner prescribed in Section 153 of the Internal Revenue Code; and</p>
+          <p>b.
+      For taxable years beginning on or after January 1, 2014, and before January 1, 2018, ten dollars ($10) for a married individual filing a separate return and an additional ten dollars ($10) for the spouse of a taxpayer if a separate return is made by the taxpayer and if the spouse, for the calendar year in which the taxable year of the taxpayer begins, had no Kentucky gross income and is not the dependent of another taxpayer; or twenty dollars ($20) for married persons filing a joint return, provided neither spouse is the dependent of another taxpayer. The determination of marital status for the purpose of this section shall be made in the manner prescribed in Section 153 of the Internal Revenue Code;</p>
+          <p>3. a.
+      For taxable years beginning before January 1, 2014, twenty dollars ($20) credit for each dependent. No credit shall be allowed for any dependent who has made a joint return with his or her spouse; and</p>
+          <p>b.
+      For taxable years beginning on or after January 1, 2014, and before January 1, 2018, ten dollars ($10) credit for each dependent. No credit shall be allowed for any dependent who has made a joint return with his or her spouse;</p>
+          <p>4.
+      An additional forty dollars ($40) credit if the taxpayer has attained the age of sixty-five (65) before the close of the taxable year;</p>
+          <p>5.
+      An additional forty dollars ($40) credit for taxpayer’s spouse if a separate return is made by the taxpayer and if the taxpayer’s spouse has attained the age of sixty-five (65) before the close of the taxable year, and, for the calendar year in which the taxable year of the taxpayer begins, has no Kentucky gross income and is not the dependent of another taxpayer;</p>
+          <p>6.
+      An additional forty dollars ($40) credit if the taxpayer is blind at the close of the taxable year;</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

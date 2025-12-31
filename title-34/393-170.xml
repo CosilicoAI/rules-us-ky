@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/393.170"/>
+          <FRBRuri value="/us-ky/act/krs/393.170"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/393.170/eng"/>
+          <FRBRuri value="/us-ky/act/krs/393.170/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/393.170/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/393.170/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_393_170">
+        <num>393.170</num>
+        <content>
+          <p>Whenever any property escheated under this chapter by reason of actual abandonment, or death or presumption of death of the owner without leaving any person entitled to take the legal or equitable title under the laws of this state relating to wills, or descent and distribution, has been deposited with, or in the custody or under the control of, any federal court in and for any district in this state, or in the custody of any depository, clerk or other officer of such court, or has been surrendered by such court or its officers to the United States Treasury, the Circuit Court of any county in which such federal court sits shall have jurisdiction to ascertain whether an escheat has occurred, and to enter a judgment of escheat in favor of the state. This section does not authorize a judgment to require such courts, officers, agents or depositories to pay or surrender funds to this state on a presumption of abandonment as provided in  to 393A.140.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

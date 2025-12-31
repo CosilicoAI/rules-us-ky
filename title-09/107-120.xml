@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/107.120"/>
+          <FRBRuri value="/us-ky/act/krs/107.120"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/107.120/eng"/>
+          <FRBRuri value="/us-ky/act/krs/107.120/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/107.120/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/107.120/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_107_120">
+        <num>107.120</num>
+        <content>
+          <p>Each of said bonds shall bear on its face the statement that it has been issued under this chapter, and that it does not constitute an indebtedness of the city within the meaning of the Constitution. The bonds, and the receipt of interest thereon, shall not be subject to taxation. The bonds shall have all the qualities and incidents of negotiable instruments. The bonds, and the interest thereon, shall be payable exclusively from the proceeds of the annual improvement assessments levied from time to time upon the properties benefited by the project identified in the bonds and from the debt service reserve fund; but the city shall become directly and personally liable to the bondholders for any deficiencies which may arise from its failure to pursue to exhaustion, and in timely fashion, all remedies lawfully available in the collection of such improvement assessments.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

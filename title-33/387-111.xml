@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/387.111"/>
+          <FRBRuri value="/us-ky/act/krs/387.111"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/387.111/eng"/>
+          <FRBRuri value="/us-ky/act/krs/387.111/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/387.111/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/387.111/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_387_111">
+        <num>387.111</num>
+        <content>
+          <p>Guardians, limited guardians, and conservators shall receive reasonable compensation for services rendered and reimbursement for reasonable and necessary expenses incurred in the exercise of their assigned duties and powers, including reimbursement for room, board, and clothing personally provided to the ward and shall not exceed that provided for in . The compensation and reimbursement shall be paid from the estate of the ward.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

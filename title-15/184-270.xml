@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/184.270"/>
+          <FRBRuri value="/us-ky/act/krs/184.270"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/184.270/eng"/>
+          <FRBRuri value="/us-ky/act/krs/184.270/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/184.270/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/184.270/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_184_270">
+        <num>184.270</num>
+        <content>
+          <p>The bonds shall be sold at public sale to the highest responsible bidder. The sale shall be advertised by publication pursuant to KRS . If no bidder offers a purchase price deemed acceptable by the board of directors for the purchase of the bonds, then the road district shall have the right to turn them over to the contractor in full payment of that portion of the contract price of the improvement or that portion of the contract price of the contemplated maintenance represented by par and accrued interest. The contractor shall accept the bonds and give credit on the contract price for the full face value and accrued interest on the bonds. Any premium realized from the sale of the bonds and any penalties collected on account of the delinquency of any installment payments of assessments shall be added to the bond fund for the payment of the bonds and interest on the bonds. The bonds and interest shall be payable out of funds actually paid to and collected by the road district on account of the improvement assessment in anticipation of which the bonds were issued.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

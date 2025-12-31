@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/189.055"/>
+          <FRBRuri value="/us-ky/act/krs/189.055"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/189.055/eng"/>
+          <FRBRuri value="/us-ky/act/krs/189.055/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/189.055/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/189.055/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_189_055">
+        <num>189.055</num>
+        <content>
+          <p>A person shall not operate any vehicle required by law to be licensed upon a highway unless it is equipped with a mechanical signal device which would indicate an intention to stop or suddenly decrease speed by illuminating at least two (2) red lights on the rear of the vehicle, which are visible from the rear a distance of not less than five hundred (500) feet, unless the vehicle was originally manufactured with only one (1) such red light on the rear of the vehicle.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

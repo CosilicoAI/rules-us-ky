@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/61.920"/>
+          <FRBRuri value="/us-ky/act/krs/61.920"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/61.920/eng"/>
+          <FRBRuri value="/us-ky/act/krs/61.920/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/61.920/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/61.920/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_61_920">
+        <num>61.920</num>
+        <content>
+          <p>The powers and duties of special law enforcement officers shall be confined to the premises of the public property to be protected, except while in pursuit of a person fleeing from the property after committing any felony or misdemeanor, other than traffic violations, on the property. In such case the officer may pursue the person and make arrest anywhere within this state. In the course of making a lawful arrest for a felony after such pursuit, he may use and apply that force which he believes is necessary to make the arrest, except that he may only use deadly force in making such an arrest if the conditions specified in  are satisfied. In the course of making a lawful arrest for a criminal offense other than a felony after such pursuit, he may use and apply that force, less than deadly force, which he believes is necessary to make the arrest.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

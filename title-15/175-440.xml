@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/175.440"/>
+          <FRBRuri value="/us-ky/act/krs/175.440"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/175.440/eng"/>
+          <FRBRuri value="/us-ky/act/krs/175.440/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/175.440/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/175.440/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_175_440">
+        <num>175.440</num>
+        <content>
+          <p>In order to provide for the construction of modern express highways or superhighways embodying safety devices (including, when determined by the authority and the department to be feasible and necessary, center division, ample shoulder widths, longsight distances, two (2) or more lanes in each direction and grade separations at intersections with other highways and railroads and other appurtenances), and thereby to facilitate vehicular traffic, remove many of the present handicaps and hazards on the congested highways in the Commonwealth, and promote the agricultural and industrial development of the Commonwealth, the authority is hereby authorized and empowered, under and pursuant to the terms and provisions of a written agreement or agreements with the department as hereinafter provided, to construct, maintain, repair and operate turnpike projects, to lease such projects to the department, and to issue revenue bonds of the authority to finance such projects.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

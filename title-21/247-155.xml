@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/247.155"/>
+          <FRBRuri value="/us-ky/act/krs/247.155"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/247.155/eng"/>
+          <FRBRuri value="/us-ky/act/krs/247.155/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/247.155/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/247.155/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247_155">
+        <num>247.155</num>
+        <content>
+          <p>It shall be unlawful for any person to open, cause to be opened, carry on, conduct or operate as owner, proprietor or employee any gambling device or game of chance within the confines of the grounds of the Kentucky State Fair. Any person who violates any provision of this section shall be fined not less than fifty dollars ($50) nor more than five hundred dollars ($500) for each offense. Each day in which a gambling device or game of chance is so operated shall be considered a separate offense. This section shall not apply to the sale of lottery tickets sold under the provisions of KRS .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

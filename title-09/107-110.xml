@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/107.110"/>
+          <FRBRuri value="/us-ky/act/krs/107.110"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/107.110/eng"/>
+          <FRBRuri value="/us-ky/act/krs/107.110/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/107.110/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/107.110/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_107_110">
+        <num>107.110</num>
+        <content>
+          <p>When the bonds are delivered and the proceeds are received by the city, the same shall be deposited in a bank or trust company, or combined bank and trust company, together with the proceeds of all payments received from benefited property owners on a lump-sum basis, and to the extent such deposit may exceed insurance provided by Federal Deposit Insurance Corporation, (if the depository be a member thereof, otherwise the full amount), the same shall be secured by a valid pledge of bonds or notes of the United States government, or fully guaranteed thereby, having at all times a market value equal to the undisbursed balance of such deposit; or shall be secured in such other manner as the governing body may prescribe or approve. Costs of the project which may then be earned and payable, may be paid forthwith. There shall be set aside into the sinking fund, hereinafter created, a sum from bond proceeds equal to all interest which will accrue on said bonds until the date when the first improvement assessment levied in connection therewith will become due and payable. The remainder may be disbursed from time to time in payment of costs of the project, as herein defined, except that payments on account of the construction contracts shall not exceed ninety percent (90%) of the amount shown by a written certificate of the engineer to have been earned for materials furnished and/or labor performed by any contractor, the retained ten percent (10%) to be disbursed only upon final acceptance of the finished work of such contractor. If, after completion, acceptance and payment of the work of all contractors, and the payment of all costs of the improvement project, as herein defined, there shall remain an unexpended balance of bond proceeds, such balance shall be transferred to the sinking fund created and maintained in connection with the project, as provided in this chapter. If, after completion, there remains any unexpended balance of lump-sum payments, it shall be returned, pro rata, to the payors.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

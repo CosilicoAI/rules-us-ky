@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/100.182"/>
+          <FRBRuri value="/us-ky/act/krs/100.182"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/100.182/eng"/>
+          <FRBRuri value="/us-ky/act/krs/100.182/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/100.182/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/100.182/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_100_182">
+        <num>100.182</num>
+        <content>
+          <p>All other provisions of this chapter to the contrary notwithstanding, no comprehensive plan, land use or zoning regulation, subdivision regulation, public improvements program, or official map regulation shall be invalidated in its entirety for failure to strictly comply with any procedural provision of this chapter or with the requirements of KRS  in making any publication required to be made under this chapter, unless a court finds that the failure to strictly comply with any procedural requirement results in material prejudice to the substantive rights of an adversely affected person and that such rights cannot be adequately secured by any remedy other than invalidating the comprehensive plan, land use or zoning regulation, subdivision regulation, public improvements program, or official map regulation in its entirety.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

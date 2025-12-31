@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/149.093"/>
+          <FRBRuri value="/us-ky/act/krs/149.093"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/149.093/eng"/>
+          <FRBRuri value="/us-ky/act/krs/149.093/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/149.093/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/149.093/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_149_093">
+        <num>149.093</num>
+        <content>
+          <p>If the violation of any section of this chapter is a misdemeanor and is committed in the presence of a forest warden or other law enforcement officer, and there are reasonable grounds to believe that the person being cited will appear to answer the charge, the warden or officer may, in lieu of a physical arrest directed by , issue a citation as authorized by ,   and  The warden or officer may issue a warning without a penalty in lieu of a citation if the suspected offense is one cited in ,       or</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

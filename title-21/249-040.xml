@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/249.040"/>
+          <FRBRuri value="/us-ky/act/krs/249.040"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/249.040/eng"/>
+          <FRBRuri value="/us-ky/act/krs/249.040/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/249.040/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/249.040/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_249_040">
+        <num>249.040</num>
+        <content>
+          <p>The state entomologist shall, with the advice and consent of the director and the Commissioner, establish and maintain quarantines against the importation into this state and against the transportation within this state, of any trees, plants, and parts of plants, whether nursery-grown or not, from any state or from any county within the state where the plants or parts of plants are known to be affected with dangerous insect pests or plant diseases. He shall designate in announcements of quarantines the area quarantined, whether it constitutes a part of this state or of some other state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

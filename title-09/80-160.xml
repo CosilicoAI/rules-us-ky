@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/80.160"/>
+          <FRBRuri value="/us-ky/act/krs/80.160"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/80.160/eng"/>
+          <FRBRuri value="/us-ky/act/krs/80.160/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/80.160/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/80.160/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_80_160">
+        <num>80.160</num>
+        <content>
+          <p>All persons having buildings, structures, works, conduits, mains, pipes, tracks, or other physical obstructions in, under, over, or upon the public ways, that interfere with or impede the progress of low-income housing when in process of construction and establishment, shall, upon reasonable notice from the authority, promptly shift or remove the obstruction, to the extent necessary, at their own cost and expense, except as otherwise provided or required by law. In cities the city legislative body may prescribe by ordinance the penalty for failing to shift or remove the obstruction.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

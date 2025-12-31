@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/99.120"/>
+          <FRBRuri value="/us-ky/act/krs/99.120"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/99.120/eng"/>
+          <FRBRuri value="/us-ky/act/krs/99.120/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/99.120/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/99.120/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_99_120">
+        <num>99.120</num>
+        <content>
+          <p>If a redevelopment corporation shall not have obtained the certificates of approval of its development plan required by  to within twelve (12) months of the date upon which it became a redevelopment corporation, or shall not substantially comply with the development plan within the time limit for the completion of each stage thereof as therein stated, reasonable delays caused by unforeseen difficulties excepted, then upon the filing in the Department of State of a certified copy of the order of the court establishing such failure to obtain such certificate or substantially so to comply, obtained pursuant to , such redevelopment corporation shall cease to have the special rights, powers and privileges granted to, or be subject to the special duties, liabilities and restrictions imposed upon, a redevelopment corporation by  to  and shall thereafter change its name to remove the word “redevelopment” therefrom. In such event, however, such corporation may thereafter continue in existence as a corporation, subject to the general corporation law. In the event that a certified copy of such order shall be so filed, all real property acquired by or for such redevelopment corporation by condemnation shall be disposed of, either alone or in conjunction with additional real property not so acquired, within a reasonable time by bona fide sale. All amounts received by the redevelopment corporation for such real property in excess of an amount equal to that portion of the development cost allocable to the real property being disposed of, shall be paid to the city.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

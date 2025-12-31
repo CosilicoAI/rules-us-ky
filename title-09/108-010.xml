@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/108.010"/>
+          <FRBRuri value="/us-ky/act/krs/108.010"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/108.010/eng"/>
+          <FRBRuri value="/us-ky/act/krs/108.010/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/108.010/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/108.010/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_108_010">
+        <num>108.010</num>
+        <content>
+          <p>To serve the public interest and provide a means of meeting problems of local government in urban areas, there may be established and operated under the provisions of this chapter an urban services district. Such a district shall be a public body corporate and political subdivision, with power to adopt and use a corporate seal, sue and be sued, contract and be contracted with, and in other ways to function as a municipal corporation or a natural person within the purview of this chapter. In addition to the general grants of power of this chapter, such a district shall have the specific authority provided for in KRS Chapters 58, 66, 79 and 107. The district shall have the power of eminent domain and shall follow the procedures outlined in the Eminent Domain Act of Kentucky.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

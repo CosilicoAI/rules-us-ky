@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/95.784"/>
+          <FRBRuri value="/us-ky/act/krs/95.784"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/95.784/eng"/>
+          <FRBRuri value="/us-ky/act/krs/95.784/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/95.784/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/95.784/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_95_784">
+        <num>95.784</num>
+        <content>
+          <p>No policeman or firefighter shall be entitled to the benefits herein provided incidental to voluntary retirement from either of said departments on account of service, unless he shall have been employed continuously for a period of at least five (5) years from and after the date of the passage of the adoption ordinance by the legislative body, and the amount of such sum paid to such member shall be fixed by the board of trustees payable monthly, not to exceed one-half (1/2) of the salary such member was in receipt of at the time of voluntary retirement. The payments fixed by said trustees to such member shall not exceed one (1) year.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

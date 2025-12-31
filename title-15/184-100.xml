@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/184.100"/>
+          <FRBRuri value="/us-ky/act/krs/184.100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/184.100/eng"/>
+          <FRBRuri value="/us-ky/act/krs/184.100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/184.100/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/184.100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_184_100">
+        <num>184.100</num>
+        <content>
+          <p>Upon qualification of the members of the board of directors, the board shall take up with its engineer the plans and specifications proposed for the construction or maintenance of the road, and may make such changes therein as may, within the scope of the improvement or maintenance petition for, appear necessary. The cost of preparation of such plans and specifications and any other reasonable costs borne by the sponsors of the project prior to the organization of the district which are properly proved by vouchers shall be included in the cost of construction of the project and shall be repaid to such sponsors out of moneys collected or received for the construction of such project.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/76.295"/>
+          <FRBRuri value="/us-ky/act/krs/76.295"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/76.295/eng"/>
+          <FRBRuri value="/us-ky/act/krs/76.295/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/76.295/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/76.295/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_76_295">
+        <num>76.295</num>
+        <content>
+          <p>In counties containing a metropolitan sewer district, the county judge/executive shall not accept for filing a petition tendered to it pursuant to  to unless the metropolitan sewer district has certified in a written instrument that the proposed sewer construction district will not interfere with the orderly operation and expansion of the metropolitan sewer district. The Circuit Court of any county containing a metropolitan sewer district shall have jurisdiction to compel by injunction the issuing of such a certificate if its issuance has been denied arbitrarily, capriciously, or unreasonably.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

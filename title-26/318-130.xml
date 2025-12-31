@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/318.130"/>
+          <FRBRuri value="/us-ky/act/krs/318.130"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/318.130/eng"/>
+          <FRBRuri value="/us-ky/act/krs/318.130/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/318.130/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/318.130/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_318_130">
+        <num>318.130</num>
+        <content>
+          <p>In order to administer this chapter, the department shall promulgate and thereafter from time to time may amend a code to be known as the Kentucky State Plumbing Code, regulating the construction, installation, and alteration of plumbing and plumbing fixtures and appliances, house sewers and private water supplies, and methods and materials to be used therein within this state, using as a minimum standard the basic principles of the National Plumbing Code Coordinating Committee, as evidenced by that committee’s final report of 1951 with variations thereof or additions thereto as the committee considers are warranted by local, climatic, or other conditions. The code may also designate the number of plumbing fixtures for public buildings. The department may adopt any other reasonable administrative regulation to administer this chapter if the administrative regulation has been subject to review and comment by the Housing, Buildings and Construction Advisory Committee under the requirements of . No rules or regulations so approved by the Housing, Buildings and Construction Advisory Committee shall become effective except upon adoption by the department, in satisfaction of the requirements of KRS . The department shall furnish to the Housing, Buildings and Construction Advisory Committee proposed amendments to the code for the committee’s review and comment prior to their adoption by the department. The department shall not promulgate any administrative regulations related to this chapter without granting the Housing, Buildings and Construction Advisory Committee the opportunity to comment on the administrative regulation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

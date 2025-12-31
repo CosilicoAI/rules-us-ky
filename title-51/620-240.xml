@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/620.240"/>
+          <FRBRuri value="/us-ky/act/krs/620.240"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/620.240/eng"/>
+          <FRBRuri value="/us-ky/act/krs/620.240/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/620.240/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/620.240/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_620_240">
+        <num>620.240</num>
+        <content>
+          <p>The cabinet shall file for each child a case progress report at least once every six (6) months with the court and the Administrative Office of the Courts Citizen Foster Care Review Board Program. The first case progress report after the child is placed in the custody of the cabinet by an order of temporary custody or commitment shall be mailed to the Administrative Office of the Courts Citizen Foster Care Review Board Program and subsequent case progress reports shall be provided to the local citizen foster care review board within the case file. The case progress report shall include but is not limited to:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

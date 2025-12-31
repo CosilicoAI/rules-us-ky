@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/151.620"/>
+          <FRBRuri value="/us-ky/act/krs/151.620"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/151.620/eng"/>
+          <FRBRuri value="/us-ky/act/krs/151.620/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/151.620/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/151.620/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_151_620">
+        <num>151.620</num>
+        <content>
+          <p>The General Assembly finds that groundwater makes up over ninety-five percent (95%) of the water resources in Kentucky. Groundwater accounts for over thirty percent (30%) of the public and domestic water supplies in the Commonwealth, and up to ninety percent (90%) of all rural domestic supplies, and is the major source of water to streams. It is imperative that a system for characterizing and monitoring groundwater be developed so that information acquired through various monitoring programs will allow Kentucky to identify and characterize the groundwater resource. The information from the monitoring network can be used to enhance the Kentucky Groundwater Data Repository; identify, characterize, and model groundwater systems; develop community and private water supplies; address resource allocation concerns; set boundaries on wellhead protection areas; recognize groundwater degradation if it occurs; and evaluate and improve the quality and quantity of data collected through all programs.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

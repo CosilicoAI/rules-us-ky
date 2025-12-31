@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/138.260"/>
+          <FRBRuri value="/us-ky/act/krs/138.260"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/138.260/eng"/>
+          <FRBRuri value="/us-ky/act/krs/138.260/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/138.260/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/138.260/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_138_260">
+        <num>138.260</num>
+        <content>
+          <p>Every transportation company and every other person transporting gasoline or special fuel from without this state to points within this state, or between points within this state, shall report to the Department of Revenue on forms prescribed by the department. The reports shall give the name and address of each person to whom deliveries of gasoline or special fuel have been made, the name and address of the original consignee if deliveries are made to any other than the original consignee, the name and address of the consignor, the point of origin, the point of delivery, the date of delivery, the number and initials of each tank car if shipped by rail, the quantity of each shipment and delivery in gallons, the manner of shipment and delivery, and such other information as the department may require relative to the transportation and delivery of such fuel. The reports shall include intracity switching movements in tank cars or otherwise. The reports shall be made under oath and shall be filed by the twenty-fifth day of each month, covering all such deliveries made within this state during the preceding calendar month.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

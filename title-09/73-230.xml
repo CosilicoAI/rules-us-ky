@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/73.230"/>
+          <FRBRuri value="/us-ky/act/krs/73.230"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/73.230/eng"/>
+          <FRBRuri value="/us-ky/act/krs/73.230/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/73.230/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/73.230/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_73_230">
+        <num>73.230</num>
+        <content>
+          <p>Any person desiring to have his land processioned, or desiring to take depositions as allowed by , may give ten (10) days’ notice to any person interested, or his agent or attorney, or, if an infant, or person adjudged mentally disabled, to his guardian or conservator, of the time and place when and where the processioners will convene. If the party interested does not reside in the state, and has no known agent therein, notice shall be published pursuant to KRS  and shall also be posted for the same period that publication is required on the courthouse door. The printer of the paper in which the notice is published shall make an affidavit of the fact of publication, which, with the notice, shall be filed with the processioners before they act, and returned with their proceedings. An affidavit of a disinterested person of the service of a notice on persons interested, or their agents, or the fact of such agency, shall, in like manner, be made and filed with the processioners, and returned with their report.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

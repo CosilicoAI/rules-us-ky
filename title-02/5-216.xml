@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/5.216"/>
+          <FRBRuri value="/us-ky/act/krs/5.216"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/5.216/eng"/>
+          <FRBRuri value="/us-ky/act/krs/5.216/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/5.216/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/5.216/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_216">
+        <num>5.216</num>
+        <content>
+          <p>The Sixteenth Representative District shall consist of the following territory:</p>
+          <p>—CENSUS— COUNTY PREC NAME TRACT BLK SECT LOGAN TODD WARREN E106 BROWNING WARREN F104 ROCKFIELD 011100 2001 0203 WARREN F104 ROCKFIELD 011100 2003 0203 WARREN F104 ROCKFIELD 011100 2004 WARREN F104 ROCKFIELD 011100 2005 WARREN F104 ROCKFIELD 011100 2008 WARREN F104 ROCKFIELD 011100 2042 0102 WARREN F104 ROCKFIELD 011100 3000 WARREN F104 ROCKFIELD 011100 3001 WARREN F104 ROCKFIELD 011100 3003 WARREN F104 ROCKFIELD 011800 5062 0202 WARREN F104 ROCKFIELD 011800 5063 0102 WARREN F104 ROCKFIELD 011800 5067 0202 WARREN F104 ROCKFIELD 011800 5072 0102 WARREN F104 ROCKFIELD 011800 5073</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

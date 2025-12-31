@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/184.210"/>
+          <FRBRuri value="/us-ky/act/krs/184.210"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/184.210/eng"/>
+          <FRBRuri value="/us-ky/act/krs/184.210/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/184.210/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/184.210/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_184_210">
+        <num>184.210</num>
+        <content>
+          <p>It shall be the duty of the district treasurer promptly to apply all moneys paid in on installments of principal or interest and on penalties to the payment of the bonds and coupons or apportionment warrants issued hereunder. If the fund accumulated from the collection of assessments, interest and penalties be more than sufficient to pay all principal and interest due, said treasurer shall refund to each person paying an assessment for the project a proportionate amount of the excess. Failure on the part of the district to collect any payment when due shall create no liability against the district and shall create no liability against the members of the board of directors, except for gross negligence or malfeasance in office.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

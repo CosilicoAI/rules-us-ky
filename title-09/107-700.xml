@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/107.700"/>
+          <FRBRuri value="/us-ky/act/krs/107.700"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/107.700/eng"/>
+          <FRBRuri value="/us-ky/act/krs/107.700/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/107.700/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/107.700/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_107_700">
+        <num>107.700</num>
+        <content>
+          <p>The General Assembly declares that the policy of this Commonwealth is to assure its citizens adequate public services, at reasonable cost, and that such services are essential to the maintenance and general welfare of the citizens of this Commonwealth and to the continued expansion of the Commonwealth’s economy, job market, and industrial base. However, the cost of constructing, owning, and operating capital facilities to meet the demand for those public services is becoming increasingly burdensome to cities, counties, urban-counties, and improvement districts and it is desirable that innovative financing mechanisms be made available to assist the communities of this Commonwealth in developing drinking water, water, and wastewater projects at reasonable cost. Private sector ownership and operation of capital facilities providing public services can result in cost savings to communities contracting for those public services. It is therefore in the best public interest of the Commonwealth and its citizens that cities, counties, urban-counties, and improvement districts be authorized to cause such services to be provided by private enterprise, and to contract with private owners or private owner/operators for providing the service to the public.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

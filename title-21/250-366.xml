@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/250.366"/>
+          <FRBRuri value="/us-ky/act/krs/250.366"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/250.366/eng"/>
+          <FRBRuri value="/us-ky/act/krs/250.366/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/250.366/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/250.366/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_250_366">
+        <num>250.366</num>
+        <content>
+          <p>As used in  to  unless the context otherwise requires:</p>
+          <p>Total nitrogen (N) -----percent Available phosphate (P205) -----percent Soluble potash (K20) -----percent For unacidulated mineral phosphatic material and basic slag, bone, tankage and other organic phosphatic materials, the total phosphate or degree of fineness may also be guaranteed. Guarantees for plant nutrients other than nitrogen, phosphorus and potassium may be permitted or required by regulation by the director. The guarantees for such other nutrients shall be expressed in the form of the element. The source, e.g. oxides, salts, chelates, etc. of such other nutrients may be required to be stated on the application for registration and may be included on the label. Other beneficial substances or compounds, determinable by laboratory methods, also may be guaranteed by permission and advice of the director. When any plant nutrients or other substances or compounds are guaranteed, they shall be subject to inspection and analysis in accord with the methods and regulations prescribed by the director. When the director finds, after public hearing following due notice, that the requirement for expressing the guaranteed analysis of phosphorus and potassium in elemental form would not impose an economic hardship on distributors and users of fertilizer by reason of conflicting labeling requirements among the states, he may require by regulation thereafter that the “guaranteed analysis” shall be in the following form: Total nitrogen (N) -----percent Available phosphate (P) -----percent Soluble potash (K) -----percent</p>
+          <p>Click to view</p>
+          <p>The effective date of the regulation shall be not less than six (6) months following the issuance thereof, except that the equivalent of phosphorus and potassium may also be shown in the form of available phosphate and soluble potash for a period of two (2) years following the effective date of the regulation. After the effective date of the regulation total nitrogen, available phosphorus, and soluble potassium shall constitute the grade.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

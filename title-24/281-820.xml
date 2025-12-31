@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/281.820"/>
+          <FRBRuri value="/us-ky/act/krs/281.820"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/281.820/eng"/>
+          <FRBRuri value="/us-ky/act/krs/281.820/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/281.820/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/281.820/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_281_820">
+        <num>281.820</num>
+        <content>
+          <p>The department may require any motor carrier to keep within this state, subject to inspection at all reasonable times by the department, such books of account or other records as are reasonably necessary to enable the department to obtain full information at all times regarding the amounts due from such operator in fees or taxes and in order to regulate the motor carrier’s operation. The books and records shall be at all times open to inspection by, but shall not be kept or retained by, the department.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

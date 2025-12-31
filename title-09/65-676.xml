@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/65.676"/>
+          <FRBRuri value="/us-ky/act/krs/65.676"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/65.676/eng"/>
+          <FRBRuri value="/us-ky/act/krs/65.676/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/65.676/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/65.676/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_65_676">
+        <num>65.676</num>
+        <content>
+          <p>In counties where ambulance districts created under the provisions of  to  fire protection districts created under the provisions of  to  or local rescue squad districts created under the provisions of KRS  exist and have enacted an ad valorem tax, the emergency services board may leave those ad valorem tax levies in place. The emergency services board may levy its permitted funding mechanisms in addition to these existing taxes, but the aggregate of the existing tax levied by the original district or districts, and the tax levied by the emergency services board shall not exceed the limits prescribed in .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/99.020"/>
+          <FRBRuri value="/us-ky/act/krs/99.020"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/99.020/eng"/>
+          <FRBRuri value="/us-ky/act/krs/99.020/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/99.020/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/99.020/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_99_020">
+        <num>99.020</num>
+        <content>
+          <p>It is hereby declared that in cities, as defined in , that substandard and insanitary areas exist which have resulted from inadequate planning, excessive land coverage, lack of proper light, air, and open space, defective design and arrangement of buildings, lack of proper sanitary facilities, and the existence of buildings which, by reason of age, obsolescence, inadequate or outmoded design, or physical deterioration, have become economic or social liabilities, or both; that such conditions are prevalent in areas where substandard, insanitary, outworn, or outmoded industrial, commercial, or residential buildings prevail, and are conducive to ill health, transmission of disease, infant mortality, juvenile delinquency, crime, and poverty; that such conditions impair the economic value of large areas, infecting them with economic blight and that such areas are characterized by depreciated values, impaired investments, and reduced capacity to pay taxes; that such conditions are chiefly in areas which are so subdivided into small parcels in divided ownerships and frequently with defective titles, that their assembly for purposes of clearance, replanning, rehabilitation, and reconstruction is difficult and costly; that the existence of such conditions and the failure to clear, replan, rehabilitate, or reconstruct these areas result in a loss of population by the areas and further deterioration, accompanied by added costs to the communities for creation of new public facilities and services elsewhere; that it is difficult and uneconomic for individual owners independently to undertake to remedy such conditions; that it is desirable to encourage owners of property or holders of claims thereon in such areas to join together, with or without other persons, or other persons to join together, in corporate groups, for the purpose of the clearance, replanning, rehabilitation, and reconstruction of such areas by joint action; that it is necessary to create, with proper safeguards, inducements, and opportunities for the employment of private investment and equity capital in the clearance, replanning, rehabilitation, and reconstruction of such areas; that such conditions require the employment of such capital on an investment rather than a speculative basis, allowing, however, the widest latitude in the amortization of any indebtedness created thereby; that such conditions further require the acquisition at fair prices of adequate areas, the gradual clearance of such areas through demolition of existing obsolete, inadequate, unsafe, and insanitary buildings and the redevelopment of such areas under proper supervision with appropriate planning, land use, and construction policies; that the clearance, replanning, rehabilitation, and reconstruction of such areas on a large scale basis are necessary for the public welfare; that the clearance, replanning, reconstruction, and rehabilitation of such areas are public uses and purposes for which private property may be acquired; that such substandard and insanitary areas constitute a menace to the health, safety, morals, welfare, and reasonable comfort of the citizens of such cities and the state; that such conditions require the creation of the agencies, instrumentalities, and corporations hereinafter described, for the purpose of attaining the ends herein recited; that the protection and promotion of the health, safety, morals, welfare, and reasonable comfort of the citizens of such cities and the state are matters of public concern; and the necessity in the public interest for the provisions hereinafter enacted is hereby declared as a matter of legislative determination.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

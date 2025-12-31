@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.599"/>
+          <FRBRuri value="/us-ky/act/krs/164.599"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.599/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.599/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.599/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.599/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_599">
+        <num>164.599</num>
+        <content>
+          <p>All property of the Northern Community College at Covington and all property and educational equipment of the University of Kentucky designated for use by the Northern Community College at Covington shall become the property of the Northern Kentucky University. Any funds accruing to the Northern Community College at Covington not previously expended while operated by the University of Kentucky as the result of any contract or agreement with any agency or instrumentality of the United States government, the Commonwealth of Kentucky or local units of government shall be transferred to the Northern Kentucky University.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

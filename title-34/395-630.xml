@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/395.630"/>
+          <FRBRuri value="/us-ky/act/krs/395.630"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/395.630/eng"/>
+          <FRBRuri value="/us-ky/act/krs/395.630/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/395.630/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/395.630/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_395_630">
+        <num>395.630</num>
+        <content>
+          <p>At the hearing, if no exceptions are filed, the report, if made according to law, shall be approved and recorded. If exceptions are filed, other evidence besides that reported may be heard, and the court shall upon the whole case, reject, confirm, alter or amend the report, and, if confirmed, order it to be recorded. The vouchers accompanying the report shall not be recorded, but must be carefully kept on file with the report in the clerk’s office. Any new evidence given in court must be electronically recorded and filed with the report. Settlements so made and recorded shall be prima facie evidence between the parties interested.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

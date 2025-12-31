@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/433.904"/>
+          <FRBRuri value="/us-ky/act/krs/433.904"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/433.904/eng"/>
+          <FRBRuri value="/us-ky/act/krs/433.904/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/433.904/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/433.904/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_433_904">
+        <num>433.904</num>
+        <content>
+          <p>The information required by this subsection shall remain confidential, and this information shall include the following disclosure: “This information is for the designated recipient only and may contain privileged, proprietary, or otherwise private information. If you are not the intended recipient of this information, you are hereby notified that any use, distribution, copying, or disclosure of this communication is strictly prohibited. If you have received this information in error, please notify the sender and purge the communication immediately.”</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

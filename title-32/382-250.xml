@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/382.250"/>
+          <FRBRuri value="/us-ky/act/krs/382.250"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/382.250/eng"/>
+          <FRBRuri value="/us-ky/act/krs/382.250/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/382.250/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/382.250/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_382_250">
+        <num>382.250</num>
+        <content>
+          <p>If the deputy of any county clerk takes the acknowledgment of a deed or other instrument, and writes thereon the certificate of acknowledgment, the instrument or deed, together with the certificate of the deputy, shall be recorded. If the deputy only endorses a memorandum of the acknowledgment on the deed or instrument, then the principal clerk shall write the certificate as if the acknowledgment had been taken before him, and the deed or instrument shall be as valid as if the certificate had been written in full by the deputy.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

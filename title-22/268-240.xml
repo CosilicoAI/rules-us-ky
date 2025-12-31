@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/268.240"/>
+          <FRBRuri value="/us-ky/act/krs/268.240"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/268.240/eng"/>
+          <FRBRuri value="/us-ky/act/krs/268.240/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/268.240/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/268.240/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_268_240">
+        <num>268.240</num>
+        <content>
+          <p>The board shall keep a correct account of the time spent by it, by the engineer, superintendent and all other employees, and of each item of expense incurred in connection with the district, and charge it to the district for which it was done. If the expense is upon more than one (1) district at the same time, it shall be apportioned between them. Every salary fixed by the board shall be apportioned by the board and paid out of the funds to the credit of the districts benefited. On the first Monday of December of each year all officers shall report in detail to the board.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

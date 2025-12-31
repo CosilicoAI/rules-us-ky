@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/352.220"/>
+          <FRBRuri value="/us-ky/act/krs/352.220"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/352.220/eng"/>
+          <FRBRuri value="/us-ky/act/krs/352.220/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/352.220/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/352.220/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_352_220">
+        <num>352.220</num>
+        <content>
+          <p>For purposes of this section, “approved” means that a device, apparatus, equipment, machinery, or practice employed in the mining of coal has been approved by the commissioner of the Department for Natural Resources or accepted by a nationally or federally recognized testing laboratory or the Department of Labor Mine Safety and Health Administration; “suitable” means a design, material, or installation that meets the requirements of its intended use or that is accepted by a nationally or federally recognized testing laboratory or the Department of Labor Mine Safety and Health Administration.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

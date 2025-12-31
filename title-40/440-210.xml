@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/440.210"/>
+          <FRBRuri value="/us-ky/act/krs/440.210"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/440.210/eng"/>
+          <FRBRuri value="/us-ky/act/krs/440.210/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/440.210/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/440.210/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_440_210">
+        <num>440.210</num>
+        <content>
+          <p>The Governor of this state may also surrender, on demand of the executive authority of any other state, any person in this state charged in such other state in the manner provided in  with committing an act in this state, or in a third state, intentionally resulting in a crime in the state whose executive authority is making the demand, and the provisions of  to not otherwise inconsistent, shall apply to such cases, even though the accused was not in that state at the time of the commission of the crime, and has not fled therefrom.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

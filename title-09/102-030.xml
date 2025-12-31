@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/102.030"/>
+          <FRBRuri value="/us-ky/act/krs/102.030"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/102.030/eng"/>
+          <FRBRuri value="/us-ky/act/krs/102.030/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/102.030/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/102.030/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_102_030">
+        <num>102.030</num>
+        <content>
+          <p>The chamber of commerce may sue and be sued. The private property of members shall be exempt from corporate debts. It may have a seal, which it may alter at pleasure. It shall have power to take property by gift, purchase, devise or bequest, and to sell and convey it. It shall have all necessary and proper power for the successful carrying out of its purposes. It may use part or all of the sum annually received from any source to employ special agents and to do anything expedient to advertise and promote the resources and advantages of the city as a business and industrial center.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

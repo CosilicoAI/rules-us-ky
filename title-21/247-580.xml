@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/247.580"/>
+          <FRBRuri value="/us-ky/act/krs/247.580"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/247.580/eng"/>
+          <FRBRuri value="/us-ky/act/krs/247.580/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/247.580/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/247.580/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247_580">
+        <num>247.580</num>
+        <content>
+          <p>The funds, including donations from individuals, concerns, corporations, and grants from the state or governmental agencies, shall be used by the promotion board for the purpose of promoting and stimulating, by research, market development, and education, the increased use and sale, domestic and foreign, of soybeans and soybean products. These funds shall not be used to lobby as defined in . The promotion board may spend or disburse the necessary funds therefrom for administrative costs and expenses, but no more than fifteen percent (15%) of the funds collected in any marketing year shall be so utilized.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

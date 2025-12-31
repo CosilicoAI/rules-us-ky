@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/342.730"/>
+          <FRBRuri value="/us-ky/act/krs/342.730"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/342.730/eng"/>
+          <FRBRuri value="/us-ky/act/krs/342.730/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/342.730/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/342.730/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_342_730">
+        <num>342.730</num>
+        <content>
+          <p>AMA Impairment Factor 0 to 5% 0.65 6 to 10% 0.85 11 to 15% 1.00 16 to 20% 1.00 21 to 25% 1.15 26 to 30% 1.35 31 to 35% 1.50 36% and above 1.70</p>
+          <p>Click to view</p>
+          <p>Any temporary total disability period within the maximum period for permanent, partial disability benefits shall extend the maximum period but shall not make payable a weekly benefit exceeding that determined in subsection (1)(a) of this section. Notwithstanding any section of this chapter to the contrary, there shall be no minimum weekly income benefit for permanent partial disability and medical benefits shall be paid for the duration of the disability.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

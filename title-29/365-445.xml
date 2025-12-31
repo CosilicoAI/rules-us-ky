@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/365.445"/>
+          <FRBRuri value="/us-ky/act/krs/365.445"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/365.445/eng"/>
+          <FRBRuri value="/us-ky/act/krs/365.445/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/365.445/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/365.445/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_365_445">
+        <num>365.445</num>
+        <content>
+          <p>A license to conduct a sale issued pursuant to  to and shall not be issued or valid for a period of more than thirty (30) days from the start of the sale, and the sale may be conducted only during the period set forth in the license. The license may be renewed not more than once for a period not to exceed thirty (30) days upon affidavit of the licensee that all of the goods listed in the inventory have not been disposed of and that no new goods have been or will be added to the inventory previously filed pursuant to  to and  by purchase, acquisition on consignment or otherwise. The application for renewal of the license shall be made not more than thirteen (13) days prior to the time of the expiration of the license and shall contain a new inventory of goods remaining on hand at the time the application for renewal is made, which new inventory shall be prepared and furnished in the same manner and form as the original inventory. No renewal shall be granted if any goods have been added to the stock listed in the inventory since the date of the issuance of the license. A fee pursuant to  shall accompany an application for the license and for each renewal of a license.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/351.010"/>
+          <FRBRuri value="/us-ky/act/krs/351.010"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/351.010/eng"/>
+          <FRBRuri value="/us-ky/act/krs/351.010/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/351.010/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/351.010/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_351_010">
+        <num>351.010</num>
+        <content/>
+        <subsection eId="sec_351_010__subsec_aa">
+          <num>(aa)</num>
+          <content>
+            <p>“Superintendent” means the person who, on behalf of the licensee, has immediate supervision of one (1) or more mines;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_351_010__subsec_ab">
+          <num>(ab)</num>
+          <content>
+            <p>“Supervisory personnel” means a person certified under the provisions of this chapter to assist in the supervision of a portion or the whole of the mine or of the persons employed therein;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_351_010__subsec_ac">
+          <num>(ac)</num>
+          <content>
+            <p>“Division” means the Division of Mine Safety;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_351_010__subsec_ad">
+          <num>(ad)</num>
+          <content>
+            <p>“Director” means the director of the Division of Mine Safety;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_351_010__subsec_ae">
+          <num>(ae)</num>
+          <content>
+            <p>“Probation” means the status of a certification or license issued by the Division of Mine Safety that conditions the validity of the certification or license upon compliance with orders of the Mine Safety Review Commission; and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_351_010__subsec_af">
+          <num>(af)</num>
+          <content>
+            <p>“Final order of the commission” means an order which has not been appealed to the Franklin Circuit Court within thirty (30) days of entry, or an order affirming the commission’s order that has been entered by any court within the Commonwealth and for which all appeals have been exhausted.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/205.752"/>
+          <FRBRuri value="/us-ky/act/krs/205.752"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/205.752/eng"/>
+          <FRBRuri value="/us-ky/act/krs/205.752/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/205.752/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/205.752/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_205_752">
+        <num>205.752</num>
+        <content>
+          <p>If any check tendered to the cabinet is not paid when presented to the drawee bank for payment, there shall be paid as a penalty by the payor who tendered the check, or the payor for whom the check was tendered, upon notice and demand of the cabinet, an amount equal to ten percent (10%) of the check. The penalty under this section shall not be less than ten dollars ($10) or more than twenty-five dollars ($25). If the payor who tendered the check shows to the cabinet’s satisfaction that the failure to honor payment of the check resulted from error by parties other than the payor, the cabinet shall waive the penalty.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

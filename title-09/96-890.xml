@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/96.890"/>
+          <FRBRuri value="/us-ky/act/krs/96.890"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/96.890/eng"/>
+          <FRBRuri value="/us-ky/act/krs/96.890/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/96.890/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/96.890/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_96_890">
+        <num>96.890</num>
+        <content>
+          <p>No municipality or board operating an electric plant under the provisions of  to shall enter into competition with, or construct, maintain, or operate, any facilities or service in competition with any rural electric cooperative corporation or electric plant operated by another municipality or board organized under the laws of this state in any territory being served by any such rural electric cooperative corporation or other municipality or board; but any municipality or board operating an electric plant under the provisions of  to may enter into cooperative agreements with any such rural electric cooperative corporation or other municipality or board for a connection for cooperative service upon such terms and conditions as may be mutually agreed upon between any such municipality or board and any such rural electric cooperative corporation or other municipality or board. Such agreements may provide, but not by way of limitation, for exchange of electric service, the cooperative use of transmission lines and other facilities, and the common use or exchange of other service or facilities.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/177.595"/>
+          <FRBRuri value="/us-ky/act/krs/177.595"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/177.595/eng"/>
+          <FRBRuri value="/us-ky/act/krs/177.595/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/177.595/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/177.595/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_595">
+        <num>177.595</num>
+        <content>
+          <p>The bonds herein provided for shall be direct obligations of the Commonwealth of Kentucky, and the full faith and credit of the Commonwealth hereby is pledged for the payment of said bonds and the interest thereon. In order to provide for the payment of the principal of all of said bonds at their maturity and the interest thereon annually as same shall accrue, there shall be levied and collected in each of the thirty (30) years from January 1, 1957, to January 1, 1987, taxes for the benefit of the state road fund in the form of license, excise taxes and fees relating to registration, operation and use of vehicles on public highways and excise taxes, use and license taxes relating to gasoline and other motor fuels used upon the public highways in Kentucky at rates not less than the rates now imposed by law or so adjusted as to produce for the road fund not less than the amount now derived from all of such taxes. All funds derived from such taxes hereby are appropriated to the extent necessary for the payment of the principal and interest on said bonds. From the funds derived from said taxes in each year, beginning January 1, 1957, there shall be set aside and held inviolable for that purpose, a fund sufficient to pay the principal and interest on said bonds in each year as and when due until all of said bonds and the interest thereon shall have been paid in full. In each year, after setting aside the funds hereinabove provided, the remainder of the funds derived from such taxes may be expended and used for the cost of administration, statutory refunds and adjustment, payment of highway obligations, costs of construction, reconstruction, rights-of-way, maintenance and repair of public highways, tunnels and bridges and the expense of enforcing state traffic and motor vehicle laws, provided that all the funds collected under KRS  and required by  and 2) to be set aside by the Department of Highways for the construction, reconstruction and maintenance of rural and secondary roads shall be first set aside and used for such purposes.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

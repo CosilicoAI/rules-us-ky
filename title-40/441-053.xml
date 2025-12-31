@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/441.053"/>
+          <FRBRuri value="/us-ky/act/krs/441.053"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/441.053/eng"/>
+          <FRBRuri value="/us-ky/act/krs/441.053/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/441.053/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/441.053/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_441_053">
+        <num>441.053</num>
+        <content>
+          <p>2.
+      Dental care;</p>
+          <p>3.
+      Psychological care;</p>
+          <p>4.
+      Pharmaceutical products; or</p>
+          <p>5.
+      Any other health care service;</p>
+          <p>to inmates housed in any jail operated by any unit of local government, combination of units of local government, or regional jail authority.</p>
+          <p>prior to seeking or being awarded a contract with the department to manage claims or evaluate an application for a waiver under subsection (2) or (4) of this section. No provision of this subsection shall be construed to prohibit or limit the ability of a state university to provide health care services to prison populations.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

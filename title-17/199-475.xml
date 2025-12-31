@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/199.475"/>
+          <FRBRuri value="/us-ky/act/krs/199.475"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/199.475/eng"/>
+          <FRBRuri value="/us-ky/act/krs/199.475/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/199.475/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/199.475/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_199_475">
+        <num>199.475</num>
+        <content>
+          <p>Any person who has been a resident of any United States Army post, military reservation or fort within the State of Kentucky for sixty (60) days, or a resident of this state who has resided on such United States Army post, military reservation or fort together aggregating sixty (60) days before filing the petition, may bring an action for adoption of a child in any county adjacent to said army post or military reservation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

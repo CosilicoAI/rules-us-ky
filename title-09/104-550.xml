@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/104.550"/>
+          <FRBRuri value="/us-ky/act/krs/104.550"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/104.550/eng"/>
+          <FRBRuri value="/us-ky/act/krs/104.550/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/104.550/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/104.550/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_104_550">
+        <num>104.550</num>
+        <content>
+          <p>If no suit is filed against the secretary under , or if suit is filed and final judgment in the Circuit Court or on appeal is in favor of the secretary, the secretary shall forthwith declare the district organized into a flood control district and give it a corporate name as provided in , by which in all proceedings it shall thereafter be known. The secretary shall certify his act to the county clerk of each county in which any part of the district is located, and to the Secretary of State, each of whom shall record the certificate as articles of incorporation. The secretary shall also certify his act to the county judge/executive of each county in which any part of the district is located. The district shall then be a political subdivision and shall have perpetual existence, with power to sue and be sued, contract and be contracted with, incur liabilities and obligations, exercise the right of eminent domain, assess, tax, issue bonds, and do and perform all acts expressly authorized in  to and all acts necessary and proper for the carrying out of the purpose for which the district was created, and for executing the powers with which it is invested.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

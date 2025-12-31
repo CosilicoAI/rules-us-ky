@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/220.310"/>
+          <FRBRuri value="/us-ky/act/krs/220.310"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/220.310/eng"/>
+          <FRBRuri value="/us-ky/act/krs/220.310/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/220.310/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/220.310/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_220_310">
+        <num>220.310</num>
+        <content>
+          <p>The board of directors may, by resolution reciting the need, order the condemnation for the district of any real property or interest therein that may, in the opinion of the board, be necessary for the proposed construction of any structure authorized by  to  and any property taken for a public use may again be taken by the district if necessary. Proceedings for condemnation shall be conducted in the manner prescribed in the Eminent Domain Act of Kentucky. No payment or award in any condemnation proceedings or for the cost or expense of such proceedings shall be made except from the funds provided under the authority of  to</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

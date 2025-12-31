@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/278.350"/>
+          <FRBRuri value="/us-ky/act/krs/278.350"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/278.350/eng"/>
+          <FRBRuri value="/us-ky/act/krs/278.350/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/278.350/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/278.350/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_278_350">
+        <num>278.350</num>
+        <content>
+          <p>No person shall be excused from testifying or from producing any book, paper or account at any inquiry by, or hearing before, the commission or any commissioner, upon the ground that the testimony or the book, paper or account required of him may tend to incriminate him or subject him to penalty or forfeiture. No person shall be prosecuted or subjected to any forfeiture or penalty for, or on account of, anything concerning which he was compelled to testify under oath or to produce documentary evidence, except that no person so testifying shall be exempt from prosecution or punishment for perjury committed by him in his testimony.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

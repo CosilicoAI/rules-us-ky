@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/376.455"/>
+          <FRBRuri value="/us-ky/act/krs/376.455"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/376.455/eng"/>
+          <FRBRuri value="/us-ky/act/krs/376.455/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/376.455/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/376.455/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_376_455">
+        <num>376.455</num>
+        <content>
+          <p>Any equipment, machine, machinery, motor or motors remaining in the possession of a person who has made repairs, furnished parts, performed labor, or furnished accessories or supplies for the equipment, machine, machinery, motor, or motors, for more than thirty (30) days, may be sold to pay the charges. The proposed sale shall be advertised by publication pursuant to KRS . The owner of the equipment, machine, machinery, motor or motors, shall be served with written notice of such proposed sale at least two (2) weeks before the date of such sale. The notice may be in writing addressed to the owner at his last known address and sent by registered United States mail, postage prepaid. Such written notice may be served upon the owner in any other mode generally recognized by the laws and practice before courts in this state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

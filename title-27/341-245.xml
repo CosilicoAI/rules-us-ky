@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/341.245"/>
+          <FRBRuri value="/us-ky/act/krs/341.245"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/341.245/eng"/>
+          <FRBRuri value="/us-ky/act/krs/341.245/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/341.245/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/341.245/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_341_245">
+        <num>341.245</num>
+        <content>
+          <p>Subject to the provisions of  to  inclusive, the secretary of the Education and Workforce Development Cabinet is authorized and empowered to use all or any part of the funds accumulated under the provisions of  for the purpose of acquiring suitable space for either central or district offices of the cabinet by way of purchase, lease, contract, or in any other manner including the right to use said funds or any part thereof to assist in financing the construction of any building erected by the Commonwealth or any of its agencies wherein available space will be provided for the cabinet under lease or contract between the cabinet and the Commonwealth or such other agency whereby said cabinet will continue to occupy such space, rent free, after the cost of financing such building has been liquidated.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/342.240"/>
+          <FRBRuri value="/us-ky/act/krs/342.240"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/342.240/eng"/>
+          <FRBRuri value="/us-ky/act/krs/342.240/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/342.240/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/342.240/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_342_240">
+        <num>342.240</num>
+        <content>
+          <p>The department shall maintain its main office in Frankfort, Kentucky, using suitable rooms and offices belonging to this state, and shall be provided necessary office furniture to be paid for by the state. The commissioner shall provide necessary supplies, books, periodicals, and maps and shall provide a seal for the authentication of orders, awards, or proceedings of the administrative law judges, on which shall be inserted the words “Department of Workers’ Claims, State of Kentucky, official seal.” The board and the administrative law judges may hold sessions at any place within the state where necessary and shall have power to sue or institute legal proceedings in any court of this state, under existing laws as to jurisdiction of actions. Unless consented to by the commissioner, all actions or proceedings against the board or a member in his or her official capacity, or against an administrative law judge or the commissioner in his or her official capacity, shall be brought in the courts of Franklin County.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

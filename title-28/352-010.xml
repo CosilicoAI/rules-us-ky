@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/352.010"/>
+          <FRBRuri value="/us-ky/act/krs/352.010"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/352.010/eng"/>
+          <FRBRuri value="/us-ky/act/krs/352.010/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/352.010/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/352.010/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_352_010">
+        <num>352.010</num>
+        <content/>
+        <subsection eId="sec_352_010__subsec_aa">
+          <num>(aa)</num>
+          <content>
+            <p>“Permissible” means that any equipment, device, or explosive that has been approved by the United States Bureau of Mines, the Mining Enforcement and Safety Administration, or the Mine Safety and Health Administration meets all requirements, restrictions, exceptions, limitations, and conditions attached to the classification;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_352_010__subsec_ab">
+          <num>(ab)</num>
+          <content>
+            <p>“Preshift examination” refers to the examination of an underground mine or part of a mine where miners are scheduled to work or travel, and shall be conducted not more than three (3) hours before any oncoming shift;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_352_010__subsec_ac">
+          <num>(ac)</num>
+          <content>
+            <p>“Return air” means air that has passed through the last active working place on each split, or air that has passed through abandoned, inaccessible, or pillared workings;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_352_010__subsec_ad">
+          <num>(ad)</num>
+          <content>
+            <p>“Serious physical injury” means an injury which has a reasonable potential to cause death;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_352_010__subsec_ae">
+          <num>(ae)</num>
+          <content>
+            <p>“Shaft” means a vertical opening through the strata that is or may be used, in connection with the mining of coal, for the purpose of ventilation or drainage, or for hoisting men, coal, or materials;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_352_010__subsec_af">
+          <num>(af)</num>
+          <content>
+            <p>“Single Zone Projection” means the Kentucky Single Zone State Plane Coordinate System of 1983, based on the Lambert Conformal Conical map projection with double standard parallels on the North American Datum, 1983 version, as established in 10 KAR 5:010;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_352_010__subsec_ag">
+          <num>(ag)</num>
+          <content>
+            <p>“Slope” means an inclined opening used for the same purpose as a shaft;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_352_010__subsec_ah">
+          <num>(ah)</num>
+          <content>
+            <p>“Superintendent” means the person who, on behalf of the licensee, has immediate supervision of one (1) or more mines;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_352_010__subsec_ai">
+          <num>(ai)</num>
+          <content>
+            <p>“Supervisory personnel” shall mean a person or persons certified under the provisions of KRS  to assist in the supervision of a portion or the whole of the mine or of the persons employed therein;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_352_010__subsec_aj">
+          <num>(aj)</num>
+          <content>
+            <p>“Tipple or dumping point” means the structure where coal is dumped or unloaded from the mine car into railroad cars, trucks, wagons, or other means of conveyance;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_352_010__subsec_ak">
+          <num>(ak)</num>
+          <content>
+            <p>“Working face” means any place in a coal mine at which the extraction of coal from its natural deposit in the earth is performed during the mining cycle;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_352_010__subsec_al">
+          <num>(al)</num>
+          <content>
+            <p>“Working place” means the area of a coal mine inby the last open crosscut;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_352_010__subsec_am">
+          <num>(am)</num>
+          <content>
+            <p>“Working section” means all areas of a coal mine from the loading point to and including the working faces; and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_352_010__subsec_an">
+          <num>(an)</num>
+          <content>
+            <p>“Workmanlike manner” means consistent with established practices and methods utilized in the coal industry.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

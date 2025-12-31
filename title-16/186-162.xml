@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/186.162"/>
+          <FRBRuri value="/us-ky/act/krs/186.162"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/186.162/eng"/>
+          <FRBRuri value="/us-ky/act/krs/186.162/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/186.162/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/186.162/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_186_162">
+        <num>186.162</num>
+        <content>
+          <p>Click to view</p>
+          <p>Click to view</p>
+          <p>Click to view</p>
+          <p>Click to view</p>
+          <p>Click to view</p>
+          <p>Click to view</p>
+          <p>Click to view</p>
+          <p>Click to view</p>
+          <p>Click to view</p>
+          <p>Click to view</p>
+          <p>Click to view</p>
+          <p>Click to view</p>
+          <p>Click to view</p>
+          <p>Click to view</p>
+          <p>Click to view</p>
+          <p>Click to view</p>
+          <p>Click to view</p>
+          <p>Click to view</p>
+          <p>Click to view</p>
+          <p>Click to view</p>
+          <p>Click to view</p>
+          <p>Click to view</p>
+          <p>Click to view</p>
+          <p>Click to view</p>
+          <p>Click to view</p>
+          <p>Click to view</p>
+          <p>3.
+      A person may receive a maximum of two (2) plates under this paragraph free of charge and may purchase additional plates for fees as established in subsection (2)(d) of this section.</p>
+          <p>1. Initial Fee: $28 ($12 SF/$6 CF/$10 EF to the Kentucky Department of Veterans’ Affairs). 2. Renewal Fee: $23 ($12 SF/$6 CF/$5 EF to the Kentucky Department of Veterans’ Affairs).</p>
+          <p>Click to view</p>
+          <p>1. Initial Fee: $28 ($12 SF/$6 CF/$10 EF to the veterans’ program trust fund established under ).  2. Renewal Fee: $23 ($12 SF/$6 CF/$5 EF to the veterans’ program trust fund established under ).</p>
+          <p>Click to view</p>
+          <p>1. Initial Fee: $41 ($25 SF/$6 CF/$10 EF to the veterans’ program trust fund established under ).  2. Renewal Fee: $28 ($12 SF/$6 CF/$10 EF to the veterans’ program trust fund established under ).</p>
+          <p>Click to view</p>
+          <p>1. Initial Fee: $41 ($25 SF/$6 CF/$10 EF). 2. Renewal Fee: $41 ($25 SF/$6 CF/$10 EF).</p>
+          <p>Click to view</p>
+        </content>
+        <subsection eId="sec_186_162__subsec_aa">
+          <num>(aa)</num>
+          <content>
+            <p>I Support Veterans:</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_186_162__subsec_ab">
+          <num>(ab)</num>
+          <content>
+            <p>Gold Star Siblings, Gold Star Sons, or Gold Star Daughters:</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_186_162__subsec_ac">
+          <num>(ac)</num>
+          <content>
+            <p>POW/MIA Awareness:</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_186_162__subsec_ad">
+          <num>(ad)</num>
+          <content>
+            <p>Special license plates established under :</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

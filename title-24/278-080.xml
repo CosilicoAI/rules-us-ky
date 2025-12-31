@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/278.080"/>
+          <FRBRuri value="/us-ky/act/krs/278.080"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/278.080/eng"/>
+          <FRBRuri value="/us-ky/act/krs/278.080/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/278.080/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/278.080/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_278_080">
+        <num>278.080</num>
+        <content>
+          <p>A majority of the commissioners shall constitute a quorum for the transaction of any business, for the performance of any duty, or for the exercise of any power of the commission. No vacancy in the commission shall impair the right of the remaining commissioners to exercise all of the powers of the commission. Any investigation, inquiry, or hearing that the commission has power to undertake or hold may be undertaken or held, and the evidence therein taken, by any one (1) or more commissioners or a hearing examiner designated for that purpose by the commission, and every finding, opinion or order made by the commissioner or commissioners or hearing examiner so designated shall, when approved or confirmed by the commission, become the finding, opinion or order thereof.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

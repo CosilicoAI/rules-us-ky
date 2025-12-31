@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/376.460"/>
+          <FRBRuri value="/us-ky/act/krs/376.460"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/376.460/eng"/>
+          <FRBRuri value="/us-ky/act/krs/376.460/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/376.460/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/376.460/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_376_460">
+        <num>376.460</num>
+        <content>
+          <p>Each attorney shall have a lien upon all claims, except those of the state, put into his hands for suit or collection or upon which suit has been instituted, for the amount of any fee agreed upon by the parties or, in the absence of such agreement, for a reasonable fee. If the action is prosecuted to a recovery of money or property, the attorney shall have a lien upon the judgment recovered, legal costs excepted, for his fee. If the records show the name of the attorney, the defendant shall be deemed to have notice of the lien. If the parties in good faith and before judgment compromise or settle their controversy without the payment of money or other thing of value, the attorney for the plaintiff shall have no claim against the defendant for any part of his fee.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

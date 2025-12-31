@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/247.497"/>
+          <FRBRuri value="/us-ky/act/krs/247.497"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/247.497/eng"/>
+          <FRBRuri value="/us-ky/act/krs/247.497/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/247.497/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/247.497/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247_497">
+        <num>247.497</num>
+        <content>
+          <p>In the event such referendum is carried in the affirmative and the assessment is levied and collected as provided herein, any producer upon and against whom such assessment shall have been levied and collected under the provisions of  to  if dissatisfied with said assessment and the result thereof, shall have the right to demand of and receive from the treasurer of said certified commission, council, board, association or other agency of producers a refund of such assessment so collected from such producer, provided such demand for refund is made in writing within thirty (30) days from the date on which said assessment is collected from producer.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

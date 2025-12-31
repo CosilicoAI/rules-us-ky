@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/350.518"/>
+          <FRBRuri value="/us-ky/act/krs/350.518"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/350.518/eng"/>
+          <FRBRuri value="/us-ky/act/krs/350.518/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/350.518/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/350.518/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_350_518">
+        <num>350.518</num>
+        <content>
+          <p>The fund shall continue to provide coverage for existing bonds previously issued for them by the voluntary bond pool;</p>
+          <p>1.
+      Never committed a violation for mining without having first obtained the required permit under this chapter;</p>
+          <p>2.
+      Never forfeited a bond or had a permit revoked under this chapter;</p>
+          <p>3.
+      Never avoided forfeiture of a bond under this chapter because of a surety-performed reclamation work to avoid forfeiture;</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/107.470"/>
+          <FRBRuri value="/us-ky/act/krs/107.470"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/107.470/eng"/>
+          <FRBRuri value="/us-ky/act/krs/107.470/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/107.470/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/107.470/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_107_470">
+        <num>107.470</num>
+        <content>
+          <p>The district may borrow money from any source on its own credit in anticipation of revenue to be derived from taxes or other income, and for such purposes the district may pledge the taxes or other income anticipated, subject to constitutional limitations. The district may enter into contracts with governmental units for the initiation of projects deemed to benefit such units, or which will be leased to such units, and such units may appropriate or advance funds to the district for its expenses, including general expenses of operation related thereto.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

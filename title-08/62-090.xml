@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/62.090"/>
+          <FRBRuri value="/us-ky/act/krs/62.090"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/62.090/eng"/>
+          <FRBRuri value="/us-ky/act/krs/62.090/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/62.090/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/62.090/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_62_090">
+        <num>62.090</num>
+        <content>
+          <p>If a surety in any official bond, or bond of a personal representative, guardian, conservator, curator, assignee or trustee, master commissioner, receiver, or in any bond or covenant which by law may be required to be executed in court, or before an officer at the commencement or during the progress of any civil judicial proceeding, wishes to be relieved from future liability and to obtain indemnity for liability already incurred, or either, he may file a motion in the court in which the original bond was given or in whose clerk’s office the bond is required to be kept. If the bond was not given in any court or is not required to be kept in any office, the motion shall be filed in the Circuit Court of the county in which the principal resides, or if the principal has no residence in this state, then in the Circuit Court of the county of the residence of the surety. The motion may be filed in the court or the motion and notice, with return showing service, may be filed in the office of the clerk of the court.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/452.490"/>
+          <FRBRuri value="/us-ky/act/krs/452.490"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/452.490/eng"/>
+          <FRBRuri value="/us-ky/act/krs/452.490/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/452.490/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/452.490/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_452_490">
+        <num>452.490</num>
+        <content>
+          <p>In an action brought pursuant to , against several defendants, no judgment shall be rendered against any of them, upon the service of a summons out of the county in which the action is brought, if no one (1) of them be summoned in that county, nor resided therein when the action was commenced; nor if the action be discontinued or dismissed as to the defendant who resided, or was summoned, in that county; nor if judgment be rendered in his favor, unless a defendant summoned out of that county make defense without objecting to the jurisdiction of the court: provided, that a judgment for a defendant, who resided or was summoned in that county upon a plea of his discharge as a bankrupt, shall not prevent a judgment against any other defendant, in an action brought before the commencement of the proceedings in which the discharge was obtained; but after such judgment, upon a plea of discharge in bankruptcy, a defendant not summoned in the county, nor residing therein at the commencement of the action, may, by answer, deny the liability of such bankrupt. The issue as to the original liability of such bankrupt shall be tried as if he were still a party, and the plaintiff shall not have judgment against the defendant not summoned nor residing in the county, unless it be decided that the bankrupt was originally liable.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

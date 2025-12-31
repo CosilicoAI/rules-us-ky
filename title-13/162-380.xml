@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/162.380"/>
+          <FRBRuri value="/us-ky/act/krs/162.380"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/162.380/eng"/>
+          <FRBRuri value="/us-ky/act/krs/162.380/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/162.380/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/162.380/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_162_380">
+        <num>162.380</num>
+        <content>
+          <p>The bonds issued under authority of  shall be obligations only of the governing body of the institution, payable as to both principal and interest from the revenues as pledged for that purpose. In no event shall they be considered a debt for which the credit of the state is pledged. Any resolution adopted under the provisions of  or shall constitute a contract between the governing body of the institution and the holder of any bond or coupon and shall be binding in all respects upon the governing body of the institution and its successors.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

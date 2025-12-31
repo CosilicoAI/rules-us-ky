@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/150.610"/>
+          <FRBRuri value="/us-ky/act/krs/150.610"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/150.610/eng"/>
+          <FRBRuri value="/us-ky/act/krs/150.610/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/150.610/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/150.610/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_150_610">
+        <num>150.610</num>
+        <content>
+          <p>The commissioner of the Department of Fish and Wildlife Resources, with approval of the commission, may call for the issuance of revenue bonds pursuant to the entire terms of  through for the purpose of establishing public shooting areas, waterfowl or other wildlife refuges, public fishing lakes or the establishment of other projects of public benefit in the interest of fish and game and may unite into one (1) project for financing purposes all revenue as may be pledged by the commissioner. From every source whatsoever these revenues thus united shall be used for the payment of the principal and interest of all bonds which may be issued. Such united receipts, unless otherwise agreed upon by the commissioner and bonding company, shall continue until all bonds issued have been paid in full. The lien of the bonds from such limited project shall be a lien upon the united gross income and revenue as specified in the original terms ascribed to by the commissioner with the concurrence of the commission.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

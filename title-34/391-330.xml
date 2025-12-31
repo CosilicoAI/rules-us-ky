@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/391.330"/>
+          <FRBRuri value="/us-ky/act/krs/391.330"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/391.330/eng"/>
+          <FRBRuri value="/us-ky/act/krs/391.330/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/391.330/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/391.330/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_391_330">
+        <num>391.330</num>
+        <content>
+          <p>Financial institutions may enter into multiple-party accounts to the same extent that they may enter into single-party accounts. Any multiple-party account may be paid, on request to any one (1) or more of the parties. A financial institution shall not be required to inquire as to the source of funds received for deposit to a multiple-party account, or to inquire as to the proposed application of any sum withdrawn from an account, for purposes of establishing net contributions.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

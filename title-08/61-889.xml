@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/61.889"/>
+          <FRBRuri value="/us-ky/act/krs/61.889"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/61.889/eng"/>
+          <FRBRuri value="/us-ky/act/krs/61.889/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/61.889/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/61.889/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_61_889">
+        <num>61.889</num>
+        <content>
+          <p>Each TVA or commission peace officer appointed pursuant to  to shall, before he or she enters upon the discharge of the duties of his or her office, execute bond in the sum of fifty thousand dollars ($50,000), with good security, conditioned upon the faithful performance of his or her duty as such officer, and take and subscribe an oath of office and the oath required by Section 228 of the Constitution of Kentucky. The bond and oath shall be entered of record by the Secretary of State, and the execution of the bond and the taking of the oath shall be endorsed upon the commission of the person so qualifying. In lieu of such individual bonds, a duly executed bond covering all TVA or commission peace officers appointed and commissioned pursuant to this section, as principals, with TVA as surety, in the amount of fifty thousand dollars ($50,000) for each such officer and conditioned for the faithful performance of his or her duties may be filed by TVA or the commission with the Secretary of State of the Commonwealth in which event individual bonds shall not be required.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

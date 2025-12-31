@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/446.130"/>
+          <FRBRuri value="/us-ky/act/krs/446.130"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/446.130/eng"/>
+          <FRBRuri value="/us-ky/act/krs/446.130/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/446.130/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/446.130/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_446_130">
+        <num>446.130</num>
+        <content>
+          <p>The Kentucky Revised Statutes
+    of 1942 are intended to speak for themselves, and all sections of the Kentucky
+    Revised Statutes of 1942 shall be considered to speak as of the same date,
+    except that in cases of conflict between two (2) or more sections or of a
+    latent or patent ambiguity in a section, reference may be had to the Acts
+    of the General Assembly from which the sections are indicated to have been
+    derived, for the purpose of applying the rules of construction relating to
+    repeal by implication or for the purpose of resolving the ambiguity. Like
+    reference may be had to any special acts or charters granted by the General
+    Assembly prior to the adoption of the present Constitution, for the like purpose.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

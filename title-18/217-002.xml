@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/217.002"/>
+          <FRBRuri value="/us-ky/act/krs/217.002"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/217.002/eng"/>
+          <FRBRuri value="/us-ky/act/krs/217.002/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/217.002/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/217.002/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_217_002">
+        <num>217.002</num>
+        <content>
+          <p>The provisions of this chapter shall not apply to common carriers or to warehousemen, while engaged in lawfully transporting or storing legend drugs, or to any of their employees acting within the scope of their employment; or to public officers or their employees in the performance of their official duties requiring possession or control of legend drugs; or to temporary incidental possession by employees or agents of persons lawfully entitled to possession, or by persons whose possession is for the purpose of aiding public officers in performing their official duties.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

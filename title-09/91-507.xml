@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/91.507"/>
+          <FRBRuri value="/us-ky/act/krs/91.507"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/91.507/eng"/>
+          <FRBRuri value="/us-ky/act/krs/91.507/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/91.507/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/91.507/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_91_507">
+        <num>91.507</num>
+        <content>
+          <p>After the trial of the issues, the court shall render judgment as promptly as circumstances permit. If the court finds that no tax bill was delinquent when the suit was instituted or tried then the judgment of the court shall be that the cause be dismissed as to the parcels of real estate described in the tax bill. If the evidence warrants, the judgment may be for the principal amount of the delinquent tax bill upon the real estate upon which the suit was brought, together with interest, penalties, and court costs computed as of the date of the judgment. The court may decree that the lien upon the parcel of real estate described in the tax bill be enforced and such real estate be sold by the master commissioner and the cost continued for further proceedings as provided by  to</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

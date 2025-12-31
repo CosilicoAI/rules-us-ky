@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/241.140"/>
+          <FRBRuri value="/us-ky/act/krs/241.140"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/241.140/eng"/>
+          <FRBRuri value="/us-ky/act/krs/241.140/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/241.140/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/241.140/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_241_140">
+        <num>241.140</num>
+        <content>
+          <p>Each county administrator shall have the same duties and functions regarding local license applications and renewals as the department with respect to state licenses. Each county administrator shall have the same duties and functions regarding local license penalization as the board with respect to state license penalization. If any city appoints its own administrator under , the county administrator in that county shall have jurisdiction over only that portion of the county which lies outside the corporate limits of that city, unless the city does not have an adequate police force.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

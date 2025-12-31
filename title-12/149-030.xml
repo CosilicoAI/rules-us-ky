@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/149.030"/>
+          <FRBRuri value="/us-ky/act/krs/149.030"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/149.030/eng"/>
+          <FRBRuri value="/us-ky/act/krs/149.030/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/149.030/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/149.030/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_149_030">
+        <num>149.030</num>
+        <content>
+          <p>The Energy and Environment Cabinet may establish forest reserves in places where the land is suitable for the growth of timber and for the propagation of wild animal life. It may lease lands suitable for the purpose of growing timber and adapted to the propagation of game and wild animals. Such leases shall be for a term of not less than twenty (20) nor more than one hundred (100) years, and the rental shall not exceed the amount of state, county and school taxes on the property. The rentals shall be paid not later than December 31 in each year, out of funds accruing to the Energy and Environment Cabinet. All taxes shall be paid by the owners of the property prior to or at the time the rentals are paid by the Energy and Environment Cabinet.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/5.210"/>
+          <FRBRuri value="/us-ky/act/krs/5.210"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/5.210/eng"/>
+          <FRBRuri value="/us-ky/act/krs/5.210/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/5.210/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/5.210/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_210">
+        <num>5.210</num>
+        <content>
+          <p>The Tenth Representative District shall consist of the following territory:</p>
+          <p>—CENSUS— COUNTY PREC NAME TRACT BLK SECT BRECKINRIDGE HANCOCK HARDIN A102 FORT KNOX 000202 3072 0202 HARDIN A102 FORT KNOX 000400 1007 0202 HARDIN A102 FORT KNOX 000400 1008 0202 HARDIN A108 VETERANS HARDIN B102 RADCLIFF S.E. HARDIN B104 WOODLAND HARDIN D107 RINEYVILLE NORTHEAST HARDIN G109 GRANDVIEW HARDIN H101 VINE GROVE EAST HARDIN H102 VINE GROVE WEST HARDIN H103 VINE GROVE SOUTH HARDIN H105 RADCLIFF S.W. HARDIN H106 YATES</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

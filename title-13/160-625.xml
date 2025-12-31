@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/160.625"/>
+          <FRBRuri value="/us-ky/act/krs/160.625"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/160.625/eng"/>
+          <FRBRuri value="/us-ky/act/krs/160.625/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/160.625/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/160.625/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_160_625">
+        <num>160.625</num>
+        <content>
+          <p>The school tax authorized by  shall be self-assessing. Each county resident paying state individual income taxes under KRS  shall file, on or before July 1 of each year for calendar year taxpayers and six (6) months after the close of the tax year for all other taxpayers, with the proper tax collector, a return showing his state individual income tax liability and the amount of county school tax due. This school tax shall be remitted with the return and shall be delinquent six (6) months after the close of the individual’s tax year. The district board of education shall furnish the necessary tax returns for the administration of this school tax.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

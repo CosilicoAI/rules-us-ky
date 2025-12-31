@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.7879"/>
+          <FRBRuri value="/us-ky/act/krs/164.7879"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.7879/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.7879/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.7879/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.7879/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_7879">
+        <num>164.7879</num>
+        <content>
+          <p>GPA Amount GPA Amount 2.50 $125.00 3.30 $325.00 2.60 $150.00 3.40 $350.00 2.70 $175.00 3.50 $375.00 2.75 $187.00 3.60 $400.00 2.80 $200.00 3.70 $425.00 2.90 $225.00 3.75 $437.00 3.00 $250.00 3.80 $450.00 3.10 $275.00 3.90 $475.00 3.20 $300.00 4.00 $500.00 3.25 $312.00</p>
+          <p>Click to view</p>
+          <p>The authority shall review the base amount of the Kentucky educational excellence scholarship each academic year and may promulgate an administrative regulation to make adjustments after considering the availability of funds.</p>
+          <p>ACT Annual ACT Annual Score Bonus Score Bonus 15 $21 22 $171 16 $43 23 $193 17 $64 24 $214 18 $86 25 $236 19 $107 26 $257 20 $129 27 $279 21 $150 28 or above $300</p>
+          <p>Click to view</p>
+          <p>Subsequent supplemental awards for eligible high school students graduating before June 30, 1999, shall be determined in accordance with the provisions of paragraph (b) of this subsection.</p>
+          <p>ACT ACT Score Amount Score Amount 15 $36 22 $286 16 $71 23 $321 17 $107 24 $357 18 $143 25 $393 19 $179 26 $428 20 $214 27 $464 21 $250 28 and above $500</p>
+          <p>Click to view</p>
+          <p>The authority shall review the base amount of the supplemental award beginning with the 2001-2002 academic year and each academic year thereafter and may promulgate an administrative regulation to make adjustments after considering the availability of funds.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

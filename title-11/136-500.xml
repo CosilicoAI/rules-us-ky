@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/136.500"/>
+          <FRBRuri value="/us-ky/act/krs/136.500"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/136.500/eng"/>
+          <FRBRuri value="/us-ky/act/krs/136.500/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/136.500/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/136.500/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_136_500">
+        <num>136.500</num>
+        <content>
+          <p>As used in  to  unless the context requires otherwise:</p>
+          <p>It shall be presumed, subject to rebuttal, that the location from which the financial institution’s trade or business is principally managed and directed is the state of the United States or the District of Columbia to which the greatest number of employees are regularly connected or out of which they are working, irrespective of where the services of the employees are performed, as of the last day of the taxable year;</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

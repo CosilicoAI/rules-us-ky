@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/349.040"/>
+          <FRBRuri value="/us-ky/act/krs/349.040"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/349.040/eng"/>
+          <FRBRuri value="/us-ky/act/krs/349.040/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/349.040/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/349.040/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_349_040">
+        <num>349.040</num>
+        <content>
+          <p>If a coalbed methane well permit is issued for a well site located within the boundaries of any coal mine for which a permit has been issued or is pending pursuant to KRS , the permit shall include a provision specifically stating that the permitted coalbed methane well location is in an area for which a coal mine permit has been issued or is pending pursuant to KRS  and is subject to the mine-through rights set forth in .</p>
+          <p>The well operator may, within twenty (20) days of receipt of the documents listed in paragraphs (a) and (b) of this subsection, file specific objections in writing with the department. When objections are filed, the department shall provide a copy of the objections to the mine licensee and fix a time and place for an informal hearing. The hearing shall be held not more than ten (10) days from the end of the twenty (20) day period. At the hearing, the mine licensee and the well operator, in person or by representative, shall consider the objections and seek agreement on the character and the extent of operations to be conducted within less than two hundred (200) feet, but not closer than fifty (50) feet, of the vertical segment of the coalbed methane well. If no agreement can be reached, the department, after administrative hearing conducted in accordance with KRS , shall make a decision defining what coal, if any, is necessary to be left for the safe protection, use, and operation of the well. The department’s decision shall be subject to appeal by either party as provided in this chapter. The department shall keep a complete record of all hearings. The mine licensee shall, every six (6) months, while mining within two hundred (200) feet, but not closer than fifty (50) feet, of the vertical segment of the coalbed methane well, file up-to-date maps and plans required by this section, or file new maps and plans complete to date.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

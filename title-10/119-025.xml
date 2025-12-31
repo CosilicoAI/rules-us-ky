@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/119.025"/>
+          <FRBRuri value="/us-ky/act/krs/119.025"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/119.025/eng"/>
+          <FRBRuri value="/us-ky/act/krs/119.025/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/119.025/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/119.025/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_119_025">
+        <num>119.025</num>
+        <content>
+          <p>Any person who knowingly or
+    fraudulently causes himself to be registered in more than one (1) precinct,
+    or to be registered more than once, or in a precinct other than the one in
+    which he is a legal voter, or who registers under any name other than his
+    real name, or who gives a false address, or who in any manner causes himself
+    to be registered when he is not legally entitled to register, or who makes
+    a false oath as to his ability to read or write, or who knowingly or fraudulently
+    aids, abets, counsels or advises in the commission of any such act, shall
+    be subject to the penalties prescribed for Class D felonies.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

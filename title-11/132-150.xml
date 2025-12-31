@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/132.150"/>
+          <FRBRuri value="/us-ky/act/krs/132.150"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/132.150/eng"/>
+          <FRBRuri value="/us-ky/act/krs/132.150/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/132.150/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/132.150/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_132_150">
+        <num>132.150</num>
+        <content>
+          <p>Immediately after the valuation of the distilled spirits has been finally fixed, the department shall certify to the county clerks of the respective counties the amount liable for county, city, or district taxation, and the date when the bonded period will expire on the spirits. The report shall be filed by the county clerk in his office, and certified by him to the proper collecting officer of the county, city, or taxing district for collection. The spirits, in addition to the tax for state purposes, shall be taxed for county, school, and city purposes at the prevailing rates of taxation on tangible personal property in the respective counties, school districts, and cities in which the spirits are stored, but the combined rate of taxation for city and school purposes in cities of the first class shall not exceed one dollar and twenty-five cents ($1.25) on each one hundred dollars ($100) of assessed value of the spirits.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

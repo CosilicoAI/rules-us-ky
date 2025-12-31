@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/379.130"/>
+          <FRBRuri value="/us-ky/act/krs/379.130"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/379.130/eng"/>
+          <FRBRuri value="/us-ky/act/krs/379.130/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/379.130/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/379.130/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_379_130">
+        <num>379.130</num>
+        <content>
+          <p>As soon as practicable and within nine (9) months after his appointment, the assignee shall pay upon the claims allowed such an amount as the means on hand permit, after deducting expenses and his allowance, which shall be fixed by the court. He shall thereafter, when he has funds sufficient to pay five percent (5%) on the claims allowed, distribute that amount. Within fifteen (15) days after each distribution he shall file in court a report of the same, which shall lie over until the second regular term and if no exceptions are filed it shall then be confirmed. If exceptions are filed, they shall be heard and determined by the court.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/362.465"/>
+          <FRBRuri value="/us-ky/act/krs/362.465"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/362.465/eng"/>
+          <FRBRuri value="/us-ky/act/krs/362.465/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/362.465/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/362.465/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_362_465">
+        <num>362.465</num>
+        <content>
+          <p>Unless otherwise provided in a partnership agreement, a limited partner has no right to withdraw from a limited partnership. If the partnership agreement does not specify a time a limited partner may withdraw, a limited partner may not withdraw prior to the time for the dissolution and winding up of the limited partnership without the unanimous consent of the partners.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

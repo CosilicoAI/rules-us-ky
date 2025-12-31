@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/189.223"/>
+          <FRBRuri value="/us-ky/act/krs/189.223"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/189.223/eng"/>
+          <FRBRuri value="/us-ky/act/krs/189.223/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/189.223/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/189.223/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_189_223">
+        <num>189.223</num>
+        <content>
+          <p>Any peace officer having reason to believe that the height, length, width or weight of any motor truck, semitrailer truck, or trailer, is in excess of the maximum limits prescribed by  and subsection (1) of or permitted by any special permit issued under  and in the possession of the operator, may measure it or weigh it either by portable or stationary scales, and may require it to be driven to the nearest scales, if such scales are within a distance of five (5) miles from the point at which the vehicle is first directed to stop. If the officer shall determine that the operation of the motor truck, semitrailer, or trailer, was unlawful, he shall require the operator of said motor truck, semitrailer truck, or trailer to unload such portion of the load as may be necessary to decrease the gross weight of the vehicle to the maximum gross weight permitted under the terms of  and subsection (1) of or of , or he may, at the election of the operator, permit the operator to move the vehicle with its load to the nearest city or nearest court having jurisdiction, at which place the excess load shall be unloaded. The excess load shall be unloaded at the sole risk of the owner. The refusal of the operator to permit his motor truck, semitrailer truck, or trailer to be measured or weighed, or to proceed to a scales, or to unload the excess load, shall constitute a violation of  to</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

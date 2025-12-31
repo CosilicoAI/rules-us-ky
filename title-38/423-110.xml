@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/423.110"/>
+          <FRBRuri value="/us-ky/act/krs/423.110"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/423.110/eng"/>
+          <FRBRuri value="/us-ky/act/krs/423.110/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/423.110/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/423.110/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_423_110">
+        <num>423.110</num>
+        <content>
+          <p>For the purposes of  to  “notarial acts” means acts which the laws and regulations of this state authorize notaries public of this state to perform, including the administering of oaths and affirmations, taking proof of execution and acknowledgments of instruments, and attesting documents. Notarial acts may be performed outside this state for use in this state with the same effect as if performed by a notary public of this state by the following persons authorized pursuant to the laws and regulations of other governments in addition to any other person authorized by the laws and regulations of this state:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

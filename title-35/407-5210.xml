@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/407.5210"/>
+          <FRBRuri value="/us-ky/act/krs/407.5210"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/407.5210/eng"/>
+          <FRBRuri value="/us-ky/act/krs/407.5210/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/407.5210/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/407.5210/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_407_5210">
+        <num>407.5210</num>
+        <content>
+          <p>A tribunal of this state exercising personal jurisdiction over a nonresident in a proceeding under  to 407.5902, under other law of this state relating to a support order, or recognizing a foreign support order may receive evidence from outside this state pursuant to , communicate with a tribunal outside this state pursuant to , and obtain discovery through a tribunal outside this state pursuant to . In all other respects, Articles 3 to 6 of this chapter do not apply, and the tribunal shall apply the procedural and substantive law of this state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

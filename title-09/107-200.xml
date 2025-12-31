@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/107.200"/>
+          <FRBRuri value="/us-ky/act/krs/107.200"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/107.200/eng"/>
+          <FRBRuri value="/us-ky/act/krs/107.200/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/107.200/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/107.200/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_107_200">
+        <num>107.200</num>
+        <content>
+          <p>If any city of the classes referred to in this chapter shall adopt the third ordinance and shall publicly solicit the submission of bids or proposals for the purchasing of its “improvement assessment bonds” for the project identified, and shall fail to receive a bid upon terms of price and/or interest coupon rate, or rates, conforming to the published notice and acceptable to the governing body, the bonds, or a portion of the bonds, may be awarded to the contractor, or contractors, at a price of not less than the minimum price permitted by the published notice, but only upon the following conditions:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/64.058"/>
+          <FRBRuri value="/us-ky/act/krs/64.058"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/64.058/eng"/>
+          <FRBRuri value="/us-ky/act/krs/64.058/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/64.058/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/64.058/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_64_058">
+        <num>64.058</num>
+        <content>
+          <p>Each Circuit Court clerk shall receive an annual expense allowance of three thousand six hundred dollars ($3,600) per year. A lump-sum payment shall be made by the Administrative Office of the Courts to each Circuit Court clerk in the first month of each quarter as of July, 1984, in the amount of nine hundred dollars ($900) per quarter. The allowance shall be in addition to reimbursement for official travel and the regular compensation provided for by .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/95.869"/>
+          <FRBRuri value="/us-ky/act/krs/95.869"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/95.869/eng"/>
+          <FRBRuri value="/us-ky/act/krs/95.869/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/95.869/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/95.869/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_95_869">
+        <num>95.869</num>
+        <content/>
+        <subsection eId="sec_95_869__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>If there are fewer than six (6) active and retired members of the fund, the board of trustees shall be composed of the mayor, city treasurer or chief financial officer, and two (2) employees appointed by the mayor, one (1) from the city police department and one (1) from the city fire department, who shall serve for one (1) year and until their respective successors are appointed and qualified. If all of the members of the pension fund are from one (1) department, no appointment shall be made from the other department.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/238.567"/>
+          <FRBRuri value="/us-ky/act/krs/238.567"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/238.567/eng"/>
+          <FRBRuri value="/us-ky/act/krs/238.567/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/238.567/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/238.567/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_238_567">
+        <num>238.567</num>
+        <content>
+          <p>All peace officers, on being informed or having reason to believe that charitable gaming not authorized under this chapter is taking place or is about to take place, shall suppress and prevent it. For this purpose, any peace officer may enter any place where any unlicensed charitable gaming is being conducted or about to be conducted and may arrest without a warrant any person who does not submit satisfactory proof that he or she possesses the necessary license required by this chapter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

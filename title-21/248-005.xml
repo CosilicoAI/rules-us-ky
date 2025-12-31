@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/248.005"/>
+          <FRBRuri value="/us-ky/act/krs/248.005"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/248.005/eng"/>
+          <FRBRuri value="/us-ky/act/krs/248.005/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/248.005/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/248.005/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_248_005">
+        <num>248.005</num>
+        <content>
+          <p>The General Assembly finds that the Tobacco Price Support Program administered by the United States Department of Agriculture under 7  is the best and most efficient means of preserving the economic health of thousands of tobacco farms throughout the United States and throughout Kentucky. Based upon this finding, the General Assembly declares that the Tobacco Task Force shall study methods to support the Tobacco Price Support Program and its continuing role in the economic viability of Kentucky’s small tobacco farmer.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

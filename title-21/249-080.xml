@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/249.080"/>
+          <FRBRuri value="/us-ky/act/krs/249.080"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/249.080/eng"/>
+          <FRBRuri value="/us-ky/act/krs/249.080/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/249.080/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/249.080/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_249_080">
+        <num>249.080</num>
+        <content>
+          <p>When the state entomologist examines any trees, vines, plants or other nursery stock and finds the stock free from dangerously injurious insect and fungus enemies, he shall make out and deliver to the owner of the stock a certificate stating that he has inspected the stock and that he believes it to be free from dangerously injurious insect and fungus enemies. He shall keep in his office, for the information of anyone interested, copies of all valid certificates issued by him.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

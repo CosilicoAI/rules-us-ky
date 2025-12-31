@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/212.410"/>
+          <FRBRuri value="/us-ky/act/krs/212.410"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/212.410/eng"/>
+          <FRBRuri value="/us-ky/act/krs/212.410/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/212.410/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/212.410/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_212_410">
+        <num>212.410</num>
+        <content>
+          <p>The appointive members of the board, upon appointment as herein provided, shall qualify by taking the necessary oath of office before the county judge/executive. Said board, including the ex officio members who shall have the right to vote on matters acted upon by the board, shall thereupon proceed to organize and elect from among its appointed members a chairman and a vice chairman, who shall serve for one (1) year and be eligible for reelection. A majority of the members of the board shall constitute a quorum for the transaction of business. The board for administrative purposes is authorized to create such administrative divisions as it deems necessary, and may adopt any and all necessary and appropriate rules and regulations for the conduct of its business and for carrying out the provisions of  to  and shall keep a record of its resolutions, transactions, findings and determinations, which record shall be a public record. The board shall hold at least one (1) regular meeting in each month, and such other meetings upon call of the chairman of the board as may be necessary. The board shall appoint a director of health, with the qualifications specified and subject to the provisions set forth in , who shall serve as secretary to and be administrative officer for the board, and perform such other duties as the board may direct. The board is authorized, subject to the provisions of  to  to employ such agents and employees as it deems necessary effectively to carry out its work. The administrative divisions created by the board shall be under the direction of the director of health, who for administrative purposes shall organize same into such divisions as may be necessary for the proper conduct of the business of the board. Said director shall have the power to designate chiefs of such divisions who, under his supervision and control, shall have the direction of such divisions.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

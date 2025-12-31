@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/260.168"/>
+          <FRBRuri value="/us-ky/act/krs/260.168"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/260.168/eng"/>
+          <FRBRuri value="/us-ky/act/krs/260.168/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/260.168/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/260.168/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_260_168">
+        <num>260.168</num>
+        <content>
+          <p>There is established and created in the State Treasury, a fund entitled the “Kentucky Grape and Wine Council fund” to provide funds to offset the costs of the Kentucky Grape and Wine Council. The fund may receive state appropriations, gifts, grants, federal funds, and any other funds both public and private. Money deposited in the fund shall be disbursed by the State Treasurer upon the warrant of the Commissioner of Agriculture or the Commissioner’s representative. Any unallocated or unencumbered balances in the fund shall be invested as provided in , and any income earned from the investments along with the unallotted or unencumbered balances in the fund shall not lapse, and shall be deemed a trust and agency account and made available solely for the purposes and benefits of the Kentucky Grape and Wine Council.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/177.770"/>
+          <FRBRuri value="/us-ky/act/krs/177.770"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/177.770/eng"/>
+          <FRBRuri value="/us-ky/act/krs/177.770/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/177.770/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/177.770/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_770">
+        <num>177.770</num>
+        <content>
+          <p>Said election shall be conducted in conjunction with the regular elections otherwise provided by law to be held on the same day, by the same election officers and at the same polling places. The votes cast in favor of and against  to shall be canvassed and certified to the State Board of Elections as in the case of votes cast in the election of officers of the state at large. If it be found that a majority of the votes cast on the question were in favor of  to  the State Board of Elections shall so certify to the Governor and the Governor shall proclaim that  to has been approved and is in effect.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

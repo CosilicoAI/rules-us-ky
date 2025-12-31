@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/158.154"/>
+          <FRBRuri value="/us-ky/act/krs/158.154"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/158.154/eng"/>
+          <FRBRuri value="/us-ky/act/krs/158.154/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/158.154/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/158.154/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_158_154">
+        <num>158.154</num>
+        <content>
+          <p>When the principal has a reasonable belief that an act has occurred on school property or at a school-sponsored function involving assault resulting in serious physical injury, a sexual offense, kidnapping, assault involving the use of a weapon, possession of a firearm in violation of the law, possession of a controlled substance in violation of the law, or damage to the property, the principal shall immediately report the act to the appropriate local law enforcement agency. For purposes of this section, “school property” means any public school building, bus, public school campus, grounds, recreational area, or athletic field, in the charge of the principal.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

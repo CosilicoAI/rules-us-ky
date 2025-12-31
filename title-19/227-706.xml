@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/227.706"/>
+          <FRBRuri value="/us-ky/act/krs/227.706"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/227.706/eng"/>
+          <FRBRuri value="/us-ky/act/krs/227.706/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/227.706/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/227.706/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_227_706">
+        <num>227.706</num>
+        <content>
+          <p>As used in  to  “display fireworks” means pyrotechnic devices or large fireworks designed primarily to produce visible or audible effects by combustion, deflagration or detonation. This term includes, but is not limited to, firecrackers containing more than two (2) grains (130 mg) of explosive composition, aerial shells containing more than forty (40) grams of pyrotechnic composition, and other display pieces which exceed the limits for classification as “consumer fireworks.” Display fireworks are defined by the Consumer Product Safety Commission in CPSC, 16 C.F.R. pts. 1500 and 1507, and are classified as Class B explosives by the United States Department of Transportation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

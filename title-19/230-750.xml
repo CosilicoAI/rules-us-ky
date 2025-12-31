@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/230.750"/>
+          <FRBRuri value="/us-ky/act/krs/230.750"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/230.750/eng"/>
+          <FRBRuri value="/us-ky/act/krs/230.750/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/230.750/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/230.750/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_230_750">
+        <num>230.750</num>
+        <content>
+          <p>The commission, including the tax levied in , deducted from the gross amount wagered by the person, corporation, or association which operates a harness horse track under the jurisdiction of the racing commission at which betting is conducted through a pari-mutuel or other similar system shall not exceed eighteen percent (18%) of the gross amount handled on straight wagering pools and twenty-five percent (25%) of the gross amount handled on multiple wagering pools, plus the breaks, which shall be made and calculated to the dime. Multiple wagering pools shall include daily double, perfecta, double perfecta, quinella, double quinella, trifecta, and other types of exotic betting. An amount equal to three percent (3%) of the total amount wagered and included in the commission of a harness host track shall be allocated by the harness host track in the following manner. Two percent (2%) shall be allocated to the host for capital improvements, promotions, including advertising, or purses, as the host track shall elect. Three-quarters of one percent (3/4 of 1%) shall be allocated to overnight purses. One-quarter of one percent (1/4 of 1%) shall be allocated to the Kentucky standardbred development fund. This allocation shall be made after deduction from the commission of the pari-mutuel tax but prior to any other deduction, allocation or division of the commission.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

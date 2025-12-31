@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/406.131"/>
+          <FRBRuri value="/us-ky/act/krs/406.131"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/406.131/eng"/>
+          <FRBRuri value="/us-ky/act/krs/406.131/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/406.131/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/406.131/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_406_131">
+        <num>406.131</num>
+        <content>
+          <p>The court at any time may require the alleged father to give bond or other security for the payment of the judgment. If the court requires that bond be given and if the alleged father is unwilling or unable to procure same, the alleged father may be confined to the county jail until same is procured provided, however, that after the alleged father has remained in jail for a period of thirty (30) days he shall be released provided he make oath in writing before the committing judge that he is unable to obtain the execution of the bond.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

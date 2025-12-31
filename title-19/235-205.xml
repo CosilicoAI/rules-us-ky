@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/235.205"/>
+          <FRBRuri value="/us-ky/act/krs/235.205"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/235.205/eng"/>
+          <FRBRuri value="/us-ky/act/krs/235.205/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/235.205/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/235.205/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_235_205">
+        <num>235.205</num>
+        <content>
+          <p>No vessel equipped with a siren or a flashing, rotating, or oscillating blue light may be operated upon waterways of this state except boats operated by the department or law-enforcement vessels of any law-enforcement agency of the Commonwealth having jurisdiction upon the waters of this state or law-enforcement vessels of the United States authorized by federal law or regulations.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

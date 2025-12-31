@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/165.220"/>
+          <FRBRuri value="/us-ky/act/krs/165.220"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/165.220/eng"/>
+          <FRBRuri value="/us-ky/act/krs/165.220/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/165.220/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/165.220/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_165_220">
+        <num>165.220</num>
+        <content>
+          <p>The board of education of any city having a municipal junior college pursuant to  may request and the legislative body of the city shall then, after an election as required by Section 184 of the Constitution, annually cause to be levied and collected, for the support of a municipal junior college, a tax of not less than five cents ($0.05) nor more than seven cents ($0.07) on each one hundred dollars ($100) worth of property subject to taxation for city purposes. Any election for the levy of taxes under this section shall be held at the next regular election if the question is filed with the county clerk not later than the second Tuesday in August preceding the regular election. The levy of such taxes shall be made at the same time and in the same manner as other levies for public school purposes. The amount levied shall be placed to the credit of the board of education fund upon completion of the assessment of property for taxation, and paid as collected, subject to the discounts or penalties allowed on other city taxes, by the treasurer of the city to the treasurer of the board of education for the purpose of establishing, acquiring and operating the college. The taxes authorized by this section shall be construed to be school taxes and shall be in addition to all other taxes authorized by law to be used for municipal or school purposes.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

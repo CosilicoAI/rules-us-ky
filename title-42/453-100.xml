@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/453.100"/>
+          <FRBRuri value="/us-ky/act/krs/453.100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/453.100/eng"/>
+          <FRBRuri value="/us-ky/act/krs/453.100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/453.100/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/453.100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_453_100">
+        <num>453.100</num>
+        <content>
+          <p>The party to whom a new trial is granted upon payment of costs shall, within forty (40) days thereafter, pay the costs of the former trial. If he fails to pay the costs within that time, the court may, upon motion made by the adverse party within ten (10) days after the expiration of the forty (40) day period, set aside the order granting a new trial and enter judgment on the verdict already rendered.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/299.200"/>
+          <FRBRuri value="/us-ky/act/krs/299.200"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/299.200/eng"/>
+          <FRBRuri value="/us-ky/act/krs/299.200/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/299.200/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/299.200/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_299_200">
+        <num>299.200</num>
+        <content>
+          <p>The officers of a company who refuse or neglect, for a period of sixty (60) days after the filing of satisfactory proof of the death of any policyholder, where the claim is not disputed on account of fraud or want of validity and where the death or emergency fund is not sufficient to pay the claim, to levy an assessment to provide for payment of the claim, shall thereby become liable to the beneficiary under the policy in a sum not exceeding the face of the claim.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

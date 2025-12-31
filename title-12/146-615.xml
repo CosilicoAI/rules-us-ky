@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/146.615"/>
+          <FRBRuri value="/us-ky/act/krs/146.615"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/146.615/eng"/>
+          <FRBRuri value="/us-ky/act/krs/146.615/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/146.615/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/146.615/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_146_615">
+        <num>146.615</num>
+        <content>
+          <p>The lists promulgated under  shall not serve to impede the development or use of public or private lands, including, but not limited to, the normal and accepted operations of agriculture; forestry; mining; development, construction, and maintenance of oil and gas resources and appurtenances; development, construction, and maintenance of utility facilities and appurtenances; construction and maintenance of pipeline rights-of-way; construction activities; equine activities; transportation; or development activities.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/422.230"/>
+          <FRBRuri value="/us-ky/act/krs/422.230"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/422.230/eng"/>
+          <FRBRuri value="/us-ky/act/krs/422.230/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/422.230/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/422.230/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_422_230">
+        <num>422.230</num>
+        <content>
+          <p>If an order of a court, appointing an administrator, guardian or any person to any place, station, or trust or, if the bond executed by any such person, or by an officer, is destroyed, obliterated, or lost, the court shall, by the appropriate proceeding, due notice thereof being given, supply the record, and require such person to execute a new bond, with good and sufficient sureties. If the person fails to execute a new bond when so required the court shall enter an order vacating his office or station.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/175.800"/>
+          <FRBRuri value="/us-ky/act/krs/175.800"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/175.800/eng"/>
+          <FRBRuri value="/us-ky/act/krs/175.800/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/175.800/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/175.800/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_175_800">
+        <num>175.800</num>
+        <content>
+          <p>Funds credited to the state transportation fund (road fund) shall be used for the purposes of paying the annual lease rental payments to the Kentucky Turnpike Authority for economic development road projects. Any funds deposited to the credit of the transportation fund (road fund) in excess of the amount required for any such annual lease payments shall be used for any lawful purposes of the transportation fund (road fund).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

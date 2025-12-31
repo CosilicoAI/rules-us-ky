@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/452.290"/>
+          <FRBRuri value="/us-ky/act/krs/452.290"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/452.290/eng"/>
+          <FRBRuri value="/us-ky/act/krs/452.290/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/452.290/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/452.290/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_452_290">
+        <num>452.290</num>
+        <content>
+          <p>Whenever the judge of any Circuit Court in which an indictment charging the defendant with a felony is pending by change of venue under  is satisfied from personal knowledge or from reliable information furnished in court by affidavit or oral testimony that a state of lawlessness sufficient to prevent officers and jurors from discharging their duties no longer exists in the county from which the action was removed, the court shall transfer the action back to the Circuit Court of the county where the indictment was found.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

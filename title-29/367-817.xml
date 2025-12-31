@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/367.817"/>
+          <FRBRuri value="/us-ky/act/krs/367.817"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/367.817/eng"/>
+          <FRBRuri value="/us-ky/act/krs/367.817/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/367.817/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/367.817/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_367_817">
+        <num>367.817</num>
+        <content>
+          <p>Whenever the Attorney General has reason to believe that any person is offering business opportunities for sale in violation of  to and  and that proceedings would be in the public interest, he may move in the name of the Commonwealth in a Circuit Court for a restraining order or temporary or permanent injunction to prohibit such offer. The action may be brought in the Circuit Court of the county in which such person resides or has his principal place of business or in the Circuit Court of the county in which the unlawful offer or sale has been or is about to be committed.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/249.103"/>
+          <FRBRuri value="/us-ky/act/krs/249.103"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/249.103/eng"/>
+          <FRBRuri value="/us-ky/act/krs/249.103/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/249.103/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/249.103/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_249_103">
+        <num>249.103</num>
+        <content>
+          <p>Every nursery dealer engaged in selling nursery stock in this state shall, before selling, offering for sale, or delivering any stock, make annual application to the state entomologist and obtain a nursery dealer’s license as provided in this section, ,             and  A separate license shall be required for each location and the license shall be prominently displayed at each place of business. A licensed nurseryperson who is also acting as a nursery dealer at the same location shall be exempt from procuring the nursery dealer’s license. The nursery dealer’s certificate shall expire on December 31 of each year. An application shall be made on forms to be furnished by the office of the state entomologist. The nursery dealer or agency is required to provide to the state entomologist the source of nursery stock offered for sale and this stock shall originate from a certified nursery. It shall be accompanied by a valid certificate of inspection of a federal or state inspector.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

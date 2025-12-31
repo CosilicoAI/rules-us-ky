@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/441.670"/>
+          <FRBRuri value="/us-ky/act/krs/441.670"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/441.670/eng"/>
+          <FRBRuri value="/us-ky/act/krs/441.670/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/441.670/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/441.670/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_441_670">
+        <num>441.670</num>
+        <content>
+          <p>All moneys, received under the provisions of  to  either from the sale of bonds or as revenues, are to be held and applied solely as provided in  to  The proceedings or the trust indenture shall provide that any officer with whom, or any bank or trust company with which, such moneys are deposited shall act as trustee of such moneys and shall hold and apply the same for the purposes hereof, subject to such regulation as  to and such proceedings or trust indenture may provide.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

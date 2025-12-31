@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/183.490"/>
+          <FRBRuri value="/us-ky/act/krs/183.490"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/183.490/eng"/>
+          <FRBRuri value="/us-ky/act/krs/183.490/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/183.490/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/183.490/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_183_490">
+        <num>183.490</num>
+        <content>
+          <p>The cabinet, with the consent of the owner of a private airport, may, by resolution, reciting that any lands or property adjoining an airport are needed for purposes of establishing or expanding the airport and related facilities, direct the condemnation of such property. Whereupon, condemnation proceedings shall be conducted in the name of the cabinet at the expense of the person owning or operating said airport, and the procedure for condemnation shall conform to the procedure set out in the Eminent Domain Act of Kentucky. The cabinet shall have no liability for the results of such proceedings, and all costs, damages and compensation awarded shall be paid by the owners or operators of such airport. Title shall vest in the person owning the airport. Such airport shall be a public use airport.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

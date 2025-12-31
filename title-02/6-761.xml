@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/6.761"/>
+          <FRBRuri value="/us-ky/act/krs/6.761"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/6.761/eng"/>
+          <FRBRuri value="/us-ky/act/krs/6.761/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/6.761/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/6.761/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6_761">
+        <num>6.761</num>
+        <content>
+          <p>Violation of this provision is a Class D felony. The provisions of this subsection notwithstanding, a legislator may vote on legislation affecting his salary, expenses, benefits, and allowances, as provided by law. The provisions of this subsection notwithstanding, a legislator may participate in the discussion of the question in committee and on the floor of the General Assembly, vote, or make a decision on a matter if any benefit or detriment which accrues to the member of the General Assembly, as a member of a business, profession, occupation, or other group, or to a member of his family or a business interest specified in subsection (1)(b) of this section is of no greater extent than the benefit or detriment which accrues generally to other members of the business, profession, occupation, or other group;</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

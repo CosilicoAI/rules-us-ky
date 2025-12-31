@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/262.640"/>
+          <FRBRuri value="/us-ky/act/krs/262.640"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/262.640/eng"/>
+          <FRBRuri value="/us-ky/act/krs/262.640/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/262.640/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/262.640/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_262_640">
+        <num>262.640</num>
+        <content>
+          <p>The amount paid by any district to the division for amortization of a loan or for payment on a lease shall be made monthly. This amount shall be credited to a revolving fund and the costs of any new equipment or infrastructure shall be charged to the same account. Neither the appropriation herein made nor the revolving fund shall be used for any purpose other than to make available to soil and water conservation districts the equipment or infrastructure of the type referred to in .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

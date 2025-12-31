@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/118.335"/>
+          <FRBRuri value="/us-ky/act/krs/118.335"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/118.335/eng"/>
+          <FRBRuri value="/us-ky/act/krs/118.335/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/118.335/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/118.335/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_118_335">
+        <num>118.335</num>
+        <content>
+          <p>If any certificate or petition
+    of nomination made under the provisions of this chapter contains the name
+    of more than one (1) candidate for any office to be filled, neither name shall
+    be printed as a candidate for that office. If any person has been nominated
+    as a candidate for any office by primary election or by party convention,
+    and also by petition, his name shall be placed in the list of candidates nominated
+    by the primary or convention, and the place occupied by his name in the petition
+    shall be left blank, unless the candidate makes written request, prior to
+    the last day for filing evidences of nomination, that his name be printed
+    as nominated by petition and be omitted from the list nominated by the primary
+    or convention.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

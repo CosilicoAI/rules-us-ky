@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/91.521"/>
+          <FRBRuri value="/us-ky/act/krs/91.521"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/91.521/eng"/>
+          <FRBRuri value="/us-ky/act/krs/91.521/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/91.521/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/91.521/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_91_521">
+        <num>91.521</num>
+        <content>
+          <p>The collector or any interested person or anyone on behalf of any incompetent may appeal from the judgment confirming or disapproving the commissioner’s sale and the distribution of proceeds. No questions may be raised upon the appeal that could have been raised upon an appeal from the judgment of the sale. The appeals shall be taken within thirty (30) days after the date of the judgment. The necessity for giving bond and the provisions thereof shall be the same as in the case of appeal from the judgment of sale.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

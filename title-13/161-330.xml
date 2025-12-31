@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/161.330"/>
+          <FRBRuri value="/us-ky/act/krs/161.330"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/161.330/eng"/>
+          <FRBRuri value="/us-ky/act/krs/161.330/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/161.330/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/161.330/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_161_330">
+        <num>161.330</num>
+        <content>
+          <p>The cost of administration of the retirement system shall be paid out of the expense fund established for that purpose by the board of trustees. The board of trustees shall be responsible for the approval and administration of the expense fund budget, subject to the limitations imposed by . Expenses for the operation of the retirement system shall be in such amounts as the board of trustees approves. The board of trustees is authorized to purchase or lease suitable office quarters for the operation of the retirement system.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

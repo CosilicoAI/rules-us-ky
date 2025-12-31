@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/134.490"/>
+          <FRBRuri value="/us-ky/act/krs/134.490"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/134.490/eng"/>
+          <FRBRuri value="/us-ky/act/krs/134.490/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/134.490/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/134.490/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_134_490">
+        <num>134.490</num>
+        <content>
+          <p>If the information required by this paragraph changes, the third-party purchaser shall, within thirty (30) days of the change becoming effective, send a notice to each taxpayer by first-class mail with proof of mailing with the corrected information. The third-party purchaser shall also update contact information included in the records of the county clerk within ten (10) days of the change becoming effective. Failure to send the original notice or any correction notices shall result in the suspension of the accrual of all interest and any fees incurred by the third-party purchaser after that date until proper notice is given as required by this subsection.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

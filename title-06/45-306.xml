@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/45.306"/>
+          <FRBRuri value="/us-ky/act/krs/45.306"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/45.306/eng"/>
+          <FRBRuri value="/us-ky/act/krs/45.306/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/45.306/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/45.306/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_306">
+        <num>45.306</num>
+        <content>
+          <p>The Finance and Administration Cabinet shall examine all formats used or proposed for use by any budget unit for the purposes specified in this section, and shall design or redesign them with a view to providing for the simplification, unification, and integration of financial and business administrative records and procedures. This section shall apply to all financial and nonfinancial electronic commerce standards to ensure consistent internal control and system integration in accordance with Commonwealth information technology architecture for use in accounting, preauditing, State Treasury administration, personnel administration, purchasing, property control, and other matters of financial and business administration of the state or any budget unit thereof, with the exception of uniform forms for use in the preparation of budget estimates, requests, and recommendations provided for by .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

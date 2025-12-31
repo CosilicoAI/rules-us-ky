@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/344.560"/>
+          <FRBRuri value="/us-ky/act/krs/344.560"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/344.560/eng"/>
+          <FRBRuri value="/us-ky/act/krs/344.560/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/344.560/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/344.560/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_344_560">
+        <num>344.560</num>
+        <content>
+          <p>Each state department and agency which is empowered to extend state financial assistance to any education program or activity, by way of grant, loan, or contract other than a contract of insurance or guaranty, shall effectuate the provisions of  with respect to such program or activity by promulgating administrative regulations of general applicability which shall be consistent with achievement of the objectives of the statute authorizing the financial assistance in connection with which the action is taken. This section shall not apply to a state department or agency which extends state financial assistance to an education institution if the amount of state financial assistance extended by the state department or agency represents less than two percent (2%) of the total state financial assistance received by the education institution. Compliance with any requirement adopted pursuant to this section shall be effected:</p>
+          <p>However, no action shall be taken until the department or agency concerned has advised the appropriate person or persons of the failure to comply with the requirement and has determined that compliance cannot be secured by voluntary means. In the case of any action terminating, or refusing to grant or continue, assistance because of failure to comply with a requirement imposed pursuant to this section, the chief officer of the state department or agency shall file with the committees of the House of Representatives and Senate having legislative jurisdiction over the program or activity involved a full written report of the circumstances and the grounds for such action. No such action shall become effective until thirty (30) days have elapsed after the filing of such report.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

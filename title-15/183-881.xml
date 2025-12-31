@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/183.881"/>
+          <FRBRuri value="/us-ky/act/krs/183.881"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/183.881/eng"/>
+          <FRBRuri value="/us-ky/act/krs/183.881/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/183.881/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/183.881/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_183_881">
+        <num>183.881</num>
+        <content>
+          <p>Provided, however, that such safety and security officers shall exercise the powers herein granted upon any real property owned or occupied by their respective airport boards including the streets passing through and adjacent thereto. Said powers may be exercised in any county of the Commonwealth where the airport board owns, uses, or occupies property. Additional jurisdiction may be established by agreement with the chief of police of the municipality or sheriff of the county or the appropriate law enforcement agency in which such property is located, dependent upon the jurisdiction involved.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

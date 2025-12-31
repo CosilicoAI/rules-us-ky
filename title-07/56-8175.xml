@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/56.8175"/>
+          <FRBRuri value="/us-ky/act/krs/56.8175"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/56.8175/eng"/>
+          <FRBRuri value="/us-ky/act/krs/56.8175/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/56.8175/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/56.8175/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_56_8175">
+        <num>56.8175</num>
+        <content>
+          <p>When a built-to-suit lease is awarded to a firm that owns the land upon which the building shall be built, the Commonwealth shall be granted an option to purchase the leased buildings, land, and any appurtenant facilities. The option price to be paid shall not exceed its fair market value as of the time the option is exercised as determined by a competent and qualified real estate appraiser, selected by mutual agreement of the parties, employing the reproduction cost new or other accepted appraisal techniques; provided, however, that in no event shall the option price be less than a sum equal to the remaining balance of any mortgage lien encumbering the property and securing the repayment of moneys advanced to the owner for the original construction of the building, plus an amount not to exceed ten percent (10%) of such mortgage balance.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

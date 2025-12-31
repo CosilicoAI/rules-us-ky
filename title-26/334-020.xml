@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/334.020"/>
+          <FRBRuri value="/us-ky/act/krs/334.020"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/334.020/eng"/>
+          <FRBRuri value="/us-ky/act/krs/334.020/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/334.020/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/334.020/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_334_020">
+        <num>334.020</num>
+        <content>
+          <p>No person shall engage in the sale or practice of fitting hearing instruments or display a sign or in any other way advertise or represent himself as a person who practices the sale or fitting of hearing instruments unless he holds an unsuspended, unrevoked license issued by the board pursuant to , or unless he holds a current, unsuspended, unrevoked apprentice permit pursuant to . The license or permit shall be conspicuously posted in each office or place of business.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/99.500"/>
+          <FRBRuri value="/us-ky/act/krs/99.500"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/99.500/eng"/>
+          <FRBRuri value="/us-ky/act/krs/99.500/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/99.500/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/99.500/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_99_500">
+        <num>99.500</num>
+        <content>
+          <p>Two or more communities may jointly exercise the powers granted under  to and in such case the planning commissions, councils, and agencies may hold joint meetings, but all public hearings shall be held in each community which is affected under  to  By resolution finding and declaring a need therefor, the council of each of the communities may designate the agency of one (1) of the communities to act as the agency of each of such communities and such agency shall constitute an agency created and established by and for each such community pursuant to  to within the meaning of any provisions thereof. In this event the agency designated shall cooperate with the planning commission of each community in formulating development plans. The councils of the communities involved shall have the power to contract with each other in order to carry out the plan approved.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

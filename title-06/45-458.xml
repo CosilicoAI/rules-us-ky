@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/45.458"/>
+          <FRBRuri value="/us-ky/act/krs/45.458"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/45.458/eng"/>
+          <FRBRuri value="/us-ky/act/krs/45.458/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/45.458/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/45.458/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_458">
+        <num>45.458</num>
+        <content>
+          <p>The interest penalty imposed by  shall be paid from moneys already appropriated to the operating budget of the agency whose violation of , or caused the violation of . No agency shall budget money for the purpose of paying interest penalties. If the violation of  is caused by two (2) or more agencies, including the Department of the Treasury and the Finance and Administration Cabinet, the cost of the penalty shall be prorated among the agencies on the basis of the number of days that each agency violated  to</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/216.943"/>
+          <FRBRuri value="/us-ky/act/krs/216.943"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/216.943/eng"/>
+          <FRBRuri value="/us-ky/act/krs/216.943/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/216.943/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/216.943/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_216_943">
+        <num>216.943</num>
+        <content>
+          <p>The General Assembly of the Commonwealth finds that access to high-quality health care services is a concern of all persons; that access to such services is limited for some residents of the Commonwealth, particularly those residing in remote rural areas or inner cities; that physicians and other health care providers have traditionally worked to assure access to health care services; and that many health care providers from the Commonwealth and other states are willing to volunteer their services to address the health care needs of Kentuckians who may otherwise not be able to obtain such services. Therefore, it is the purpose of  to to encourage and facilitate the charitable provision of health care services within the Commonwealth.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

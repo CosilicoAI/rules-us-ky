@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/406.011"/>
+          <FRBRuri value="/us-ky/act/krs/406.011"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/406.011/eng"/>
+          <FRBRuri value="/us-ky/act/krs/406.011/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/406.011/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/406.011/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_406_011">
+        <num>406.011</num>
+        <content>
+          <p>The father of a child which is or may be born out of wedlock is liable to the same extent as the father of a child born in wedlock, whether or not the child is born alive, for the reasonable expense of the mother’s pregnancy and confinement and for the education, necessary support and funeral expenses of the child. A child born during lawful wedlock, or within ten (10) months thereafter, is presumed to be the child of the husband and wife. However, a child born out of wedlock includes a child born to a married woman by a man other than her husband where evidence shows that the marital relationship between the husband and wife ceased ten (10) months prior to the birth of the child.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

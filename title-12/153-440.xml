@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/153.440"/>
+          <FRBRuri value="/us-ky/act/krs/153.440"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/153.440/eng"/>
+          <FRBRuri value="/us-ky/act/krs/153.440/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/153.440/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/153.440/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_153_440">
+        <num>153.440</num>
+        <content>
+          <p>In addition to the three percent (3%) transient room tax authorized by , fiscal courts in counties containing cities of the first class or consolidated local governments may levy an additional transient room tax not to exceed one percent (1%) of the rent for every occupancy of a suite, room, or rooms, charged by all persons, companies, corporations, or other like or similar persons, groups, or organizations doing business as motor courts, motels, hotels, inns, or like or similar accommodations’ businesses. All moneys collected from the tax authorized by this section shall be turned over to the Kentucky Center for the Arts Corporation and shall be used to defray operating costs of the Kentucky Center for the Arts.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

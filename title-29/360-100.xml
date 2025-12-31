@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/360.100"/>
+          <FRBRuri value="/us-ky/act/krs/360.100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/360.100/eng"/>
+          <FRBRuri value="/us-ky/act/krs/360.100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/360.100/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/360.100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_360_100">
+        <num>360.100</num>
+        <content>
+          <p>NOTICE TO BORROWER IF YOU OBTAIN THIS LOAN, THE LENDER WILL HAVE A MORTGAGE ON YOUR HOME. YOU COULD LOSE YOUR HOME AND ANY MONEY YOU PUT INTO IT IF YOU DO NOT MEET YOUR OBLIGATIONS UNDER THE LOAN. MORTGAGE LOAN RATES AND CLOSING COSTS AND FEES VARY BASED ON MANY FACTORS, INCLUDING YOUR PARTICULAR CREDIT AND FINANCIAL CIRCUMSTANCES, YOUR EMPLOYMENT HISTORY, THE LOAN-TO-VALUE REQUESTED AND THE TYPE OF PROPERTY THAT WILL SECURE YOUR LOAN. THE LOAN RATE AND FEES COULD ALSO VARY BASED ON WHICH LENDER OR BROKER YOU SELECT. YOU SHOULD SHOP AROUND AND COMPARE LOAN RATES AND FEES. YOU SHOULD ALSO CONSIDER CONSULTING A QUALIFIED INDEPENDENT CREDIT COUNSELOR OR OTHER EXPERIENCED FINANCIAL ADVISOR REGARDING THE RATE, FEES AND PROVISIONS OF THIS MORTGAGE LOAN BEFORE YOU PROCEED. YOU SHOULD CONTACT THE UNITED STATES DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT FOR A LIST OF CREDIT COUNSELORS AVAILABLE IN YOUR AREA. YOU ARE NOT REQUIRED TO COMPLETE THIS LOAN AGREEMENT MERELY BECAUSE YOU HAVE RECEIVED THESE DISCLOSURES OR HAVE SIGNED A LOAN APPLICATION. REMEMBER, PROPERTY TAXES AND HOMEOWNER’S INSURANCE ARE YOUR RESPONSIBILITY. NOT ALL LENDERS PROVIDE ESCROW SERVICES FOR THESE PAYMENTS. YOU SHOULD ASK YOUR LENDER ABOUT THESE SERVICES. ALSO, YOUR PAYMENTS ON EXISTING DEBTS CONTRIBUTE TO YOUR CREDIT RATINGS. YOU SHOULD NOT ACCEPT ANY ADVICE TO IGNORE YOUR REGULAR PAYMENTS TO YOUR EXISTING CREDITORS;</p>
+          <p>Click to view</p>
+          <p>The Attorney General, the commissioner of the Department of Financial Institutions, or any party to a high-cost home loan may enforce the provisions of this section. Any person seeking damages or penalties under the provisions of this section may recover damages under either this chapter or KRS , but not both.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

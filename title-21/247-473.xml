@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/247.473"/>
+          <FRBRuri value="/us-ky/act/krs/247.473"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/247.473/eng"/>
+          <FRBRuri value="/us-ky/act/krs/247.473/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/247.473/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/247.473/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247_473">
+        <num>247.473</num>
+        <content>
+          <p>Any referendum conducted under the provisions of  to may be held either on an area or statewide basis, as may be determined by the certified agency before such referendum is called; and such referendum, on an area or statewide basis may be participated in by all producers engaged in the production of such agricultural commodity on a commercial basis, including owners of farms on which such commodity is produced, tenants and sharecroppers sharing in the proceeds of such commodity. In such referendum, such individuals so eligible for participation shall vote upon the question of whether or not there shall be levied an annual assessment in the amount set forth in the call for such referendum.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

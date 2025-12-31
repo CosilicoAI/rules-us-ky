@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/76.620"/>
+          <FRBRuri value="/us-ky/act/krs/76.620"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/76.620/eng"/>
+          <FRBRuri value="/us-ky/act/krs/76.620/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/76.620/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/76.620/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_76_620">
+        <num>76.620</num>
+        <content>
+          <p>In undertaking wastewater collection projects under KRS Chapters 76 and 107, metropolitan sewer districts are vested with exclusive authority to plan, design, initiate, finance, and carry out construction of the projects solely according to the requirements and procedures of KRS Chapters 76 and 107. However, no project may be financed, no bonds may be issued, nor benefited property assessed for benefits conferred until the project has been approved by the fiscal court of the county of the affected district. In the event any benefited property is situated within a city of the first class encompassed by the district, the project shall also be approved by ordinance enacted by the governing body of that city.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

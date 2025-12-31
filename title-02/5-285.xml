@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/5.285"/>
+          <FRBRuri value="/us-ky/act/krs/5.285"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/5.285/eng"/>
+          <FRBRuri value="/us-ky/act/krs/5.285/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/5.285/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/5.285/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_285">
+        <num>5.285</num>
+        <content>
+          <p>The Eighty-fifth Representative District shall consist of the following territory:</p>
+          <p>—CENSUS— COUNTY PREC NAME TRACT BLK SECT LAUREL A106 SUBLIMITY #2 LAUREL E101 LONDON #5 LAUREL E102 LIBERTY LAUREL E103 COLONY LAUREL E105 HART 970400 1007 LAUREL E105 HART 970400 1024 LAUREL E105 HART 970400 1025 LAUREL E105 HART 970400 1032 LAUREL E105 HART 970400 1034 LAUREL E105 HART 970400 1035 LAUREL E105 HART 970400 1036 LAUREL E105 HART 970400 2072 LAUREL E105 HART 971101 1000 LAUREL E105 HART 971101 1001 LAUREL E105 HART 971101 1002 LAUREL E105 HART 971101 1003 LAUREL E105 HART 971101 1004 LAUREL E105 HART 971101 1005 LAUREL E105 HART 971101 1006 LAUREL E105 HART 971101 1007 LAUREL E105 HART 971101 1008 LAUREL E105 HART 971101 1028 0102 LAUREL E105 HART 971101 1029 LAUREL E105 HART 971101 1030 LAUREL E105 HART 971101 1031 LAUREL E105 HART 971101 1032 LAUREL E105 HART 971101 1034 LAUREL E105 HART 971101 1041 LAUREL E106 HART #2 LAUREL E107 COLONY #2 LAUREL E108 LIBERTY #2 LAUREL F101 CAMPBELL LAUREL F102 COLD HILL LAUREL F103 INDEPENDENCE LAUREL F106 ROCKHOUSE PULASKI B104 SCIENCE HILL #22 PULASKI B105 SCIENCE HILL #23 PULASKI C102 CANEY FORK #13 PULASKI C105 PRICE #27 PULASKI C106 GOODHOPE #28 PULASKI C109 HAZELDELL #29 PULASKI C110 VAUGHT #43 PULASKI C111 CATRON #31 PULASKI C112 DALLAS #45 PULASKI C113 SOMERSET #3C PULASKI D102 RUSH BRANCH #14 PULASKI D103 PARKER #9 PULASKI D104 MARK #30 PULASKI D105 BOURBON EAST #10E PULASKI D106 MAYFIELD #32 PULASKI D107 MT. VICTORY #33 PULASKI D109 COLO #35 PULASKI D110 GILLILAND #40 PULASKI D111 SOMERSET #5C PULASKI E101 BURNSIDE CITY #36 PULASKI E102 NORTH BURNSIDE CITY #36N PULASKI E104 EAST BURNSIDE COUNTY #36E PULASKI E108 GAMBLIN #37 PULASKI E111 BRONSTON #38 PULASKI E112 SLOANS VALLEY #39</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

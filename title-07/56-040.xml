@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/56.040"/>
+          <FRBRuri value="/us-ky/act/krs/56.040"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/56.040/eng"/>
+          <FRBRuri value="/us-ky/act/krs/56.040/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/56.040/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/56.040/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_56_040">
+        <num>56.040</num>
+        <content>
+          <p>When any land or interest in land is to be paid for out of state funds, the Finance and Administration Cabinet (Transportation Cabinet for requirements of that cabinet) shall take action to provide for the examination and certification of the title to the affected land, with or without exceptions, by an attorney licensed to practice law in this state, or for the insurance of the title to such land by a land title insurance company authorized to do business in this state. A survey and plat of the land showing the corners, angles, and calls of the land shall be made by a competent land surveyor prior to the date of the deed conveying the land or any interest therein to the state. The costs incurred under this section shall be charged against the funds of the agency for whose use and benefit the land is acquired.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

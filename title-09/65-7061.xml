@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/65.7061"/>
+          <FRBRuri value="/us-ky/act/krs/65.7061"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/65.7061/eng"/>
+          <FRBRuri value="/us-ky/act/krs/65.7061/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/65.7061/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/65.7061/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_65_7061">
+        <num>65.7061</num>
+        <content>
+          <p>During any time when incremental revenues have been pledged pursuant to a local participation agreement or local development area agreement, or that increment bonds are outstanding, the city, county, or issuer, as the case may be, shall maintain a special fund, which shall be pledged for the retirement of increment bonds, if such bonds are outstanding, and the payment of costs related to a project in a development area or local development area, or providing redevelopment assistance in a development area.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

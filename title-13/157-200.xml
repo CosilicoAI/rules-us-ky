@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/157.200"/>
+          <FRBRuri value="/us-ky/act/krs/157.200"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/157.200/eng"/>
+          <FRBRuri value="/us-ky/act/krs/157.200/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/157.200/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/157.200/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_157_200">
+        <num>157.200</num>
+        <content>
+          <p>The term shall include both deaf and hard of hearing children;</p>
+          <p>The term does not include a brain injury that is congenital or degenerative, or a brain injury induced by birth trauma;</p>
+          <p>The term does not include children with characteristics of an emotional-behavioral disability; and</p>
+          <p>The coordinated set of activities shall be based on the individual pupil’s needs, taking into account the pupil’s preferences and interests, and shall include instruction, community experience, the development of employment, and other postschool adult living objectives, and, if appropriate, acquisition of daily living skills and functional vocational evaluation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

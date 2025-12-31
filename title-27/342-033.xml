@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/342.033"/>
+          <FRBRuri value="/us-ky/act/krs/342.033"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/342.033/eng"/>
+          <FRBRuri value="/us-ky/act/krs/342.033/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/342.033/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/342.033/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_342_033">
+        <num>342.033</num>
+        <content>
+          <p>In a claim for benefits, no party may introduce direct testimony from more than two (2) physicians without prior consent from the administrative law judge. The motion requesting additional testimony shall clearly demonstrate the need for such additional testimony. A party may introduce direct testimony from a physician through a written medical report. The report shall become a part of the evidentiary record, subject to the right of an adverse party to object to the admissibility of the report and to cross-examine the reporting physician. The commissioner shall promulgate administrative regulations prescribing the format and content of written medical reports.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/177.560"/>
+          <FRBRuri value="/us-ky/act/krs/177.560"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/177.560/eng"/>
+          <FRBRuri value="/us-ky/act/krs/177.560/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/177.560/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/177.560/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_560">
+        <num>177.560</num>
+        <content>
+          <p>The department is hereby authorized in its discretion to expend such moneys as may be necessary for the study of any turnpike project or projects and to use its engineering and other forces and employ consulting engineers and traffic engineers for the purpose of effecting such study, and to pay for such additional engineering and traffic and other expert studies as it may deem expedient. All such expenses incurred by the department prior to the issuance of turnpike revenue bonds under the provisions of  to shall be paid by the department and charged to the appropriate turnpike project or projects, and the department shall keep proper records and accounts showing each amount so charged. Upon the sale of turnpike revenue bonds for any turnpike project or projects, the funds so expended by the department in connection with such project or projects may be reimbursed to the department from the proceeds of such bonds if provision to that effect is made in the proceedings or trust agreement under which such bonds are issued.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/216.327"/>
+          <FRBRuri value="/us-ky/act/krs/216.327"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/216.327/eng"/>
+          <FRBRuri value="/us-ky/act/krs/216.327/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/216.327/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/216.327/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_216_327">
+        <num>216.327</num>
+        <content>
+          <p>The board of the district shall be composed of residents of the county or district from which appointed. No person shall be appointed to the board of any hospital district who has any financial or professional interest in the establishment or continued existence thereof or who is a member of the governing body or an officer or an employee of a municipality or county within the district except that previous membership on any existing hospital board shall not preclude a person’s appointment to the board of a hospital district.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

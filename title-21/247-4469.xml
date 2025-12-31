@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/247.4469"/>
+          <FRBRuri value="/us-ky/act/krs/247.4469"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/247.4469/eng"/>
+          <FRBRuri value="/us-ky/act/krs/247.4469/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/247.4469/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/247.4469/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247_4469">
+        <num>247.4469</num>
+        <content>
+          <p>With respect to any referendum conducted under the provisions of  to 247.4483, the Commissioner of Agriculture shall, before calling and announcing the referendum, fix, determine, and publicly announce at least thirty (30) days before the date determined for the referendum, the date, hours, and polling places for voting in the referendum, the effective date of the assessment, if adopted, the amount and basis of the assessment proposed to be collected, the means by which the assessment shall be collected if authorized by the producers, and the general purposes to which the amount collected shall be applied. No annual assessment levied under the provisions of  to 247.4483 shall exceed fifteen hundredths of one percent (0.15%) of the value of the year’s production of the agricultural commodity produced by any producer included in the group to which the referendum is submitted.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

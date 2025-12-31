@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/61.770"/>
+          <FRBRuri value="/us-ky/act/krs/61.770"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/61.770/eng"/>
+          <FRBRuri value="/us-ky/act/krs/61.770/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/61.770/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/61.770/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_61_770">
+        <num>61.770</num>
+        <content>
+          <p>The office or candidacy of any person required by  to to file a report who fails to file the report required by  to within thirty (30) days after receipt of the registry’s notice of noncompliance provided in  or willfully files fraudulent information shall be void, and the office or candidacy shall be filled as provided by law for the filling of the vacancy. An action to declare a vacancy under  to may be brought by the registry upon its determination, after investigation and hearing, that a violation of  to has occurred.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

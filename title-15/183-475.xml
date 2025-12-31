@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/183.475"/>
+          <FRBRuri value="/us-ky/act/krs/183.475"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/183.475/eng"/>
+          <FRBRuri value="/us-ky/act/krs/183.475/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/183.475/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/183.475/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_183_475">
+        <num>183.475</num>
+        <content>
+          <p>All counties in this state located on the boundary line between this state and any other state, or which are contiguous to such counties, as well as all governmental units which are located in such boundary counties, or contiguous counties, are hereby authorized, separately, jointly with each other or jointly with any other municipality or political subdivision of any such boundary state to acquire, equip, construct, expand, lease, improve, police and operate airports within this state or either within or without the geographical limits of any county, municipality or political subdivision of any such boundary state; and for those purposes to exercise any other powers or functions and be subject to any provisions provided by KRS  as to aviation, without regard to any express or implied limitations thereof to or within this state, including but not limited to those provided by  through  “Definitions,”  through  “Local Air Boards,”  through  “Acquisition of Airport Facilities,”  through  “Bonds,”  through  “Airport Development,” and any amendments or supplements thereto which may be provided therein subsequent to this amendment.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

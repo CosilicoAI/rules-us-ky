@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/320.200"/>
+          <FRBRuri value="/us-ky/act/krs/320.200"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/320.200/eng"/>
+          <FRBRuri value="/us-ky/act/krs/320.200/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/320.200/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/320.200/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_320_200">
+        <num>320.200</num>
+        <content>
+          <p>The practice of optometry in the Commonwealth of Kentucky is hereby declared to affect the public health and safety and is subject to regulation and control in the public interest. Optometry is hereby declared to be a learned profession and it is further declared to be a matter of public interest and concern that the practice of optometry as defined in this chapter and the optometric profession merit and receive the confidence of the public and that only qualified persons be admitted to the practice of optometry and be permitted to so practice in the Commonwealth of Kentucky. This chapter shall be liberally construed to carry out these objects and purposes in accordance with this declaration of policy.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

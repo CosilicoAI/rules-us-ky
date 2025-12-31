@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/230.367"/>
+          <FRBRuri value="/us-ky/act/krs/230.367"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/230.367/eng"/>
+          <FRBRuri value="/us-ky/act/krs/230.367/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/230.367/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/230.367/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_230_367">
+        <num>230.367</num>
+        <content>
+          <p>The racing commission shall consider any claim or defense permitted to be filed before the racing commission and hear the evidence concerning it. If the claimant establishes his claim, the racing commission shall, when the time for appeal or other legal procedure has expired, authorize payment to him of a sum equal to the amount of his claim paid to the racing commission in accordance with  to  The decision shall be in writing and shall state the substance of the evidence heard by the racing commission, if a transcript is not kept. The decision shall be a matter of public record.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/67.934"/>
+          <FRBRuri value="/us-ky/act/krs/67.934"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/67.934/eng"/>
+          <FRBRuri value="/us-ky/act/krs/67.934/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/67.934/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/67.934/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_67_934">
+        <num>67.934</num>
+        <content>
+          <p>Unless eliminated under the unification plan, all taxing districts, fire protection districts, sanitation districts, water districts, and any special taxing or service districts of any kind existing upon the successful passage of the question set out in  shall continue in existence unless dissolved in the manner prescribed by law and shall continue to exercise all the powers and functions permitted by the Constitution and the general laws of the Commonwealth of Kentucky. If a special taxing district in existence upon the successful passage of the question is eliminated under the unification plan or is later dissolved, the unified government may include any rate levied by the special district as part of its levied rate in the area served by the special district without having to comply with the provisions of .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

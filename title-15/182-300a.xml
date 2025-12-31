@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/182.300a"/>
+          <FRBRuri value="/us-ky/act/krs/182.300a"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/182.300a/eng"/>
+          <FRBRuri value="/us-ky/act/krs/182.300a/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/182.300a/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/182.300a/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_182_300a">
+        <num>182.300a</num>
+        <content>
+          <p>This compact shall continue in force and remain binding upon each party state until the legislature or Governor of each or either state takes action to withdraw therefrom; provided that such withdrawal shall not become effective until six (6) months after the date of the action taken by the legislature or Governor. Notice of such action shall be given to the other party state or states by the Secretary of State of the party state which takes such action.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

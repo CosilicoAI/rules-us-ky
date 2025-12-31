@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/205.7695"/>
+          <FRBRuri value="/us-ky/act/krs/205.7695"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/205.7695/eng"/>
+          <FRBRuri value="/us-ky/act/krs/205.7695/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/205.7695/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/205.7695/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_205_7695">
+        <num>205.7695</num>
+        <content>
+          <p>The Cabinet for Health and Family Services and the Department of Revenue shall work together to develop a system of information sharing for the effective and efficient collection of child support payments. Any requirement included in KRS , 205, 403, or 405 or any other law for either the cabinet or the department for the confidentiality of individual personal and financial records shall not be violated in the process of this coordination.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

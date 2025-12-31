@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/453.200"/>
+          <FRBRuri value="/us-ky/act/krs/453.200"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/453.200/eng"/>
+          <FRBRuri value="/us-ky/act/krs/453.200/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/453.200/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/453.200/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_453_200">
+        <num>453.200</num>
+        <content>
+          <p>Whenever a party who recovers a judgment for the costs of the action or of a continuance, is insolvent or in doubtful circumstances, the court, on motion of any person interested, shall endorse the costs so recovered, or as much thereof as necessary, for the benefit of the officers and witnesses who have rendered services in the action, in so far as they are embraced in the judgment then rendered, and they shall be entitled to so much of the costs as will satisfy their fees. The endorsement shall secure the officers and witnesses a preference to all transfers, set-offs and attorney’s liens. The endorsement shall be copied on the execution that issues for the costs, and shall show what part each officer and witness is entitled to, and authorize each to receive the amount so endorsed.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

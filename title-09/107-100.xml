@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/107.100"/>
+          <FRBRuri value="/us-ky/act/krs/107.100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/107.100/eng"/>
+          <FRBRuri value="/us-ky/act/krs/107.100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/107.100/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/107.100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_107_100">
+        <num>107.100</num>
+        <content>
+          <p>After the third ordinance has been adopted (and without regard for its date of publication), the city may solicit the submission of bids or proposals for the purchasing of the bonds authorized by the third ordinance, the same to be received upon a sealed competitive basis after advertisement by publication pursuant to KRS . Such bids or proposals may be solicited on the basis of competition as to price and/or interest coupon rates, as may be specified in the published notice, and bids offering less than the par or face value of the bonds may be considered and accepted if so stated in the published notice of the sale. If no bids are received upon terms acceptable to the governing body and conforming to the published notice, bids may again be solicited by similar published notice, until a purchase bid is received upon terms acceptable to the governing body, but the bonds, or a portion thereof, may be awarded to a contractor, or contractors, as provided in .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

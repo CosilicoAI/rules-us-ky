@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/212.480"/>
+          <FRBRuri value="/us-ky/act/krs/212.480"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/212.480/eng"/>
+          <FRBRuri value="/us-ky/act/krs/212.480/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/212.480/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/212.480/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_212_480">
+        <num>212.480</num>
+        <content>
+          <p>The board shall annually select a bank, or banks, or banking institutions for the current deposit of the board’s funds for the current operating expenses and which bank, or banks or banking institutions shall give and maintain a bond, or bonds, or other form of security to be approved by the mayor and the county judge/executive, said bond, or bonds or other forms of security to be conditioned upon the safekeeping and prompt payment of said funds placed in said depository when demanded by a duly authorized officer of the board. The amount of said bond, or bonds or other form of security shall be, in the discretion of the board, the mayor and the county judge/executive, in any amount not less than one hundred thousand dollars ($100,000), or said depository, in lieu of said bond and with the approval of the board, the mayor and county judge/executive, may place in escrow or under the joint control of an officer of said depository and the chairman of the board, United States bonds or other United States securities of an amount not less than one hundred thousand dollars ($100,000).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

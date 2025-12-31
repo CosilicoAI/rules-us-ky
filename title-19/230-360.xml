@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/230.360"/>
+          <FRBRuri value="/us-ky/act/krs/230.360"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/230.360/eng"/>
+          <FRBRuri value="/us-ky/act/krs/230.360/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/230.360/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/230.360/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_230_360">
+        <num>230.360</num>
+        <content>
+          <p>The provisions of this chapter are intended to be statewide and exclusive in their effect and no city, county, or other political subdivision of state government shall have the power or authority to make or enforce any local laws, ordinances, or regulations on the subject of horse race meetings. Any person licensed under  shall continue to pay, or be responsible for the payment of, all state taxes presently imposed by law, including but without limitation, license taxes imposed under  to  and  together with admission taxes imposed by , and the pari-mutuel taxes imposed by  to  and all state, as well as local, ad valorem taxes; provided, however, no tax shall be imposed by the state or any subdivision thereof upon, or measured by, that portion of the excise tax imposed upon pari-mutuel betting at running and trotting horse race tracks which is collected and retained by the operators thereof under the provisions of  to  both inclusive.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

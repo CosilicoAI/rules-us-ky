@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/210.380"/>
+          <FRBRuri value="/us-ky/act/krs/210.380"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/210.380/eng"/>
+          <FRBRuri value="/us-ky/act/krs/210.380/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/210.380/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/210.380/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_210_380">
+        <num>210.380</num>
+        <content>
+          <p>Every combination of cities and counties establishing a regional community services program for mental health or individuals with an intellectual disability shall, before it comes within the provisions of  to  establish a community board for mental health or individuals with an intellectual disability consisting of at least nine (9) members. When a nonprofit corporation is the administrator of such a program not established by a combination of either cities or counties, such corporation shall select a community board for mental health or individuals with an intellectual disability which shall be representative of the groups herein enumerated, but the number of members need not be nine (9). When any combination of cities and counties establishes a regional community services program for mental health or individuals with an intellectual disability, the chief executive officer of each participating city or county shall appoint two (2) members to a selecting committee which shall select the members of the board. Membership of the community boards for mental health or individuals with an intellectual disability shall be representative of the elected chief executives of county governments, local health departments, medical societies, county welfare boards, hospital boards, lay associations concerned with mental health and intellectual disabilities as well as labor, business and civic groups, and the general public.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/72.235"/>
+          <FRBRuri value="/us-ky/act/krs/72.235"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/72.235/eng"/>
+          <FRBRuri value="/us-ky/act/krs/72.235/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/72.235/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/72.235/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_72_235">
+        <num>72.235</num>
+        <content>
+          <p>The Justice and Public Safety Cabinet may establish or contract for physical facilities for the conduct of post-mortem and other necessary examinations. The cabinet may employ, by contract or otherwise, pathologists, toxicologists and other ancillary, technical and administrative personnel to perform autopsies and such other pathological, chemical and other studies and examinations as may be deemed necessary. Such studies and examinations may be performed in another state if deemed to be in the best interest of the Commonwealth by the chief medical examiner or the certified coroner or deputy coroner and the reports thereof shall have the same validity and admissibility in evidence as those performed within this state when duly certified by the chief medical examiner of the cabinet or by a certified coroner or deputy coroner.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

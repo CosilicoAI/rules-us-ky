@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/61.702"/>
+          <FRBRuri value="/us-ky/act/krs/61.702"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/61.702/eng"/>
+          <FRBRuri value="/us-ky/act/krs/61.702/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/61.702/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/61.702/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_61_702">
+        <num>61.702</num>
+        <content>
+          <p>1.
+      Wholly or partly from funds contributed by the recipient of a retirement allowance, by payroll deduction, or otherwise;</p>
+          <p>2.
+    
+    Wholly or partly from funds contributed by the insurance trust funds established under ;</p>
+          <p>3.
+    
+    Wholly or partly from funds contributed to accounts established pursuant to 26  within the funds established in ,  and</p>
+          <p>4.
+    
+    Wholly or partly from funds contributed by another state-administered retirement system under a reciprocal arrangement, except that any portion of the premium paid from the insurance trust funds or accounts established pursuant to 26  within the funds established in ,  and under a reciprocal agreement shall not exceed the amount that would be payable under this section if all the member’s service were in one (1) of the systems administered by the Kentucky Retirement Systems or County Employees Retirement System;</p>
+          <p>5.
+    
+    Partly from subparagraphs 1. to 4. of this paragraph, except that any premium for hospital and medical insurance over the amount contributed by the insurance trust funds; accounts established pursuant to 26  within the funds established in ,  and  or another state-administered retirement system under a reciprocal agreement shall be paid by the recipient by an automatic electronic transfer of funds. If the board provides for cross-referencing of insurance premiums, the employer’s contribution for the working member or spouse shall be applied toward the premium, and the insurance trust funds or accounts established pursuant to 26  within the funds established in ,  and shall pay the balance, not to exceed the monthly contribution; or</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/269.100"/>
+          <FRBRuri value="/us-ky/act/krs/269.100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/269.100/eng"/>
+          <FRBRuri value="/us-ky/act/krs/269.100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/269.100/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/269.100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_269_100">
+        <num>269.100</num>
+        <content>
+          <p>If any pond, marsh or swamp land exists in a small part of any county, and the voters thereof desire to improve that part, and the cost of the improvement amounts to more than the revenue and income of the county for that year, the county judge/executive may lay off such part of the county into a taxing district to tax the property thereof subject to taxation for state purposes to make the improvement. The county judge/executive may submit the proposition to the taxing district in the same way provided for submitting the proposition to the whole county. The election shall be held in conjunction with a regular election, and the proposition shall be filed with the county clerk not later than the second Tuesday in August preceding the regular election. If two-thirds (2/3) of the voters voting on the proposition vote for it, that fact shall be entered on the order book of the county and semiannual coupon bonds of the county shall be prepared, delivered and managed as in , to be paid by taxation of the property in the district subject to taxation for state purposes.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

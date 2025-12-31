@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/97.200"/>
+          <FRBRuri value="/us-ky/act/krs/97.200"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/97.200/eng"/>
+          <FRBRuri value="/us-ky/act/krs/97.200/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/97.200/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/97.200/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_97_200">
+        <num>97.200</num>
+        <content>
+          <p>At or before the issuance of bonds the legislative body of the city shall, by ordinance, set aside and pledge the revenue of the project into a special fund to be used and applied in payment of the cost of the project and its maintenance, operation and depreciation. The ordinance shall definitely fix the amount of revenue necessary to be set aside and applied to the payment of the principal and interest of the bonds, and the portion of the balance of the revenue to be set aside as a proper and adequate depreciation account, and the remaining portion of the balance shall be set aside for the reasonable and proper operation and maintenance of the project. The fees to be charged for the use of or admission to the project shall be fixed and revised from time to time so as to be sufficient to provide for the payment of interest upon all bonds and to create a sinking fund to pay the principal when it becomes due, and to provide for operation and maintenance and an adequate depreciation account. If any surplus is accumulated in the operating and maintenance fund equal to the cost of maintaining and operating the project during the remainder of the calendar or fiscal year, the commission may at any time transfer the excess to the depreciation account to be used for any improvements or additions to the project.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

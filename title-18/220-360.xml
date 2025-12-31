@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/220.360"/>
+          <FRBRuri value="/us-ky/act/krs/220.360"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/220.360/eng"/>
+          <FRBRuri value="/us-ky/act/krs/220.360/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/220.360/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/220.360/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_220_360">
+        <num>220.360</num>
+        <content>
+          <p>The board of directors, as soon as duly appointed and qualified, may levy one (1), two (2), or three (3) annual taxes, which taxes need not be in successive years, or not more than fifteen cents ($0.15) upon each one hundred dollars ($100) of assessed valuation of property within the district, to be used for the purpose of paying the expenses of organization, surveys and plans, and for other incidental expenses that may be necessary up to the time money is received from the sale of bonds. This tax shall be certified to the auditors of the various counties and by them to the respective treasurers of their counties. The tax shall be based upon the last preceding assessment for state and county purposes, its collection shall conform to the collection of taxes for counties, and the same provisions concerning the nonpayment of taxes shall apply. The tax shall be added by the county clerk to the next state and county tax bill following the levy of the tax by the board of directors, and shall be collected concurrently with the state and county taxes. Neither the property valuation administrator nor the county clerk shall be entitled to any additional compensation for the services rendered in connection with the listing of the property for taxation nor shall the sheriff receive any additional compensation for the collection of the tax.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

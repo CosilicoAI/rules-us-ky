@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/158.250"/>
+          <FRBRuri value="/us-ky/act/krs/158.250"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/158.250/eng"/>
+          <FRBRuri value="/us-ky/act/krs/158.250/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/158.250/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/158.250/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_158_250">
+        <num>158.250</num>
+        <content>
+          <p>Any pupil who does not participate in the moral instruction shall remain in school during the time when the instruction is being given, and shall take noncredit enrichment courses or participate in educational activities not required in the regular curriculum, and that time shall be calculated as part of the actual schoolwork required by . Students of different grade levels may be placed into combined classrooms in accordance with maximum class size allotments as described in . These courses or activities shall be supervised by certified school personnel and may include, but are not limited to, the following: study hall, computer instruction, music, art, library, physical education, and tutorial assistance.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

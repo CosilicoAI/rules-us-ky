@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/146.350"/>
+          <FRBRuri value="/us-ky/act/krs/146.350"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/146.350/eng"/>
+          <FRBRuri value="/us-ky/act/krs/146.350/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/146.350/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/146.350/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_146_350">
+        <num>146.350</num>
+        <content>
+          <p>It shall be the duty of the cabinet’s Office of Legal Services, or upon the secretary’s request, of the Attorney General, to bring an action for the recovery of the penalties provided for in  and to bring an action for a restraining order, temporary or permanent injunction, for the prevention or correction of a condition constituting or threatening to constitute a violation of  to  All actions for injunctive relief for violation of  to shall be brought in the name of the Commonwealth of Kentucky by the cabinet’s Office of Legal Services, or upon the secretary’s request, by the Attorney General in the Franklin Circuit Court. If the action seeks recovery of penalties in addition to injunctive relief, it shall be brought to one (1) of the counties through which the designated portion of the river runs.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

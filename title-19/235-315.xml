@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/235.315"/>
+          <FRBRuri value="/us-ky/act/krs/235.315"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/235.315/eng"/>
+          <FRBRuri value="/us-ky/act/krs/235.315/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/235.315/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/235.315/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_235_315">
+        <num>235.315</num>
+        <content>
+          <p>If the violation of any section of this chapter or regulation promulgated thereunder is committed in the presence of the officer, the officer may, in lieu of making a physical arrest, issue a citation requiring the defendant to appear before the District Court of the county in which the offense occurred at a future time to be stated in the citation. In no event shall the citation state a time of appearance in excess of ten (10) days from the date the citation was issued.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

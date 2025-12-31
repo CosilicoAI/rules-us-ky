@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/257.400"/>
+          <FRBRuri value="/us-ky/act/krs/257.400"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/257.400/eng"/>
+          <FRBRuri value="/us-ky/act/krs/257.400/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/257.400/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/257.400/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_257_400">
+        <num>257.400</num>
+        <content>
+          <p>Hatching eggs and all poultry under five (5) months of age including baby chicks, started chicks, turkey poults, and other newly hatched domestic poultry except those intended for immediate slaughter which may be imported into the state under permit issued by the Division of Animal Health of the Office of State Veterinarian, and sold or offered for sale in this state, shall have originated from flocks that meet the pullorum requirements of the National Poultry Improvement Plan or other USDA-administered plan, and the regulations promulgated by authority of  to for the control and eradication of pullorum disease. Nothing in  to  however, shall require any hatchery, dealer, or flock owner to participate in the National Poultry Improvement Plan.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

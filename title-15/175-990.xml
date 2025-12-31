@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/175.990"/>
+          <FRBRuri value="/us-ky/act/krs/175.990"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/175.990/eng"/>
+          <FRBRuri value="/us-ky/act/krs/175.990/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/175.990/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/175.990/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_175_990">
+        <num>175.990</num>
+        <content>
+          <p>Any person who
+    uses any turnpike project and fails or refuses to pay the toll provided
+    therefor shall be punished by a fine of not more than one hundred
+    dollars ($100) or by imprisonment for not more than thirty (30) days,
+    or both, and in addition thereto the authority or the department,
+    whichever has the right to collect such toll, shall have a lien upon
+    the vehicle driven by such person for the amount of such toll and
+    may take and retain possession thereof until the amount of such toll
+    and all charges and penalties in connection therewith shall have been
+    paid.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

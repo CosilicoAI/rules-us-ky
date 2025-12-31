@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/272.181"/>
+          <FRBRuri value="/us-ky/act/krs/272.181"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/272.181/eng"/>
+          <FRBRuri value="/us-ky/act/krs/272.181/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/272.181/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/272.181/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_272_181">
+        <num>272.181</num>
+        <content>
+          <p>The board shall elect from their number a president and one (1) or more vice presidents. They shall also elect a secretary and a treasurer, who need not be directors or members of the association. The two (2) offices of secretary and treasurer may be combined in one (1) person. The treasurer may be a bank or other depository, and as such shall not be considered as an officer but as a function of the board and the secretary shall perform the usual accounting duties of the treasurer, except that the funds shall be deposited only as authorized by the board. The bylaws of the association may authorize the creation and fix the responsibilities of any other office. Every officer of a corporation, by acceptance of election or appointment as an officer, including by service, shall be deemed to have consented to the jurisdiction of the courts of the Commonwealth of Kentucky for any action by, in the name of, or on behalf of the corporation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

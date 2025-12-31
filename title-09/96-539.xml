@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/96.539"/>
+          <FRBRuri value="/us-ky/act/krs/96.539"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/96.539/eng"/>
+          <FRBRuri value="/us-ky/act/krs/96.539/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/96.539/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/96.539/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_96_539">
+        <num>96.539</num>
+        <content>
+          <p>Any water or sewer utility owned by a city shall develop rules to govern extensions of service to unserved customers and areas. These rules may require that the applicant or applicants for new service pay to the utility all or part of the cost of extending utility lines. Where such payment is required, however, the cost of any extension greater than one hundred (100) feet per applicant shall be subject to refund by the utility on a prorated basis for each additional customer whose service line is directly connected to the extension line paid for by the initial applicant or applicants. The refund period shall extend at least ten (10) years, and in no case shall the refund amounts exceed the amount paid. Nothing in this section shall be construed to prevent a water or sewer utility from adopting extension or refund policies which are more lenient to customers than are herein specified.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

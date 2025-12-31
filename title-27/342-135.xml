@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/342.135"/>
+          <FRBRuri value="/us-ky/act/krs/342.135"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/342.135/eng"/>
+          <FRBRuri value="/us-ky/act/krs/342.135/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/342.135/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/342.135/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_342_135">
+        <num>342.135</num>
+        <content>
+          <p>Any notice required to be given under this chapter shall be considered properly given and served when deposited in the mail in a registered letter or package properly stamped and addressed to the person to whom notice is to be given at his last known address and in time to reach him in due time to act thereon. Notice may also be given and served like notices in civil actions. Any notice given and served as provided in this section to the consular representative of the nation of which any nonresident dependent of a deceased employee is a citizen or subject, or to the authorized agent or representative of any such official residing in this state, shall be deemed to have been properly given and served upon such dependent.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

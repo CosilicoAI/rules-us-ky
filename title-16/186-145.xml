@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/186.145"/>
+          <FRBRuri value="/us-ky/act/krs/186.145"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/186.145/eng"/>
+          <FRBRuri value="/us-ky/act/krs/186.145/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/186.145/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/186.145/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_186_145">
+        <num>186.145</num>
+        <content>
+          <p>Any motor vehicle properly registered and titled in another state belonging to a nonresident, which vehicle is required to be registered in this state by reason of lack of reciprocal agreement with the state in which it is registered, or by reason of not qualifying for reciprocity under an existing reciprocal agreement with the state in which it is registered, may be registered with the county clerk by presenting a photostat or certified copy of the registration receipt or certificate of title issued to the nonresident in his home state. The registration receipt issued by the county clerk shall be stamped across its face with a notation prescribed by the cabinet that will indicate the registration receipt so issued cannot be used in transferring legal title to the motor vehicle. However, under regulations prescribed by the cabinet, a registration receipt so issued may be transferred to a new owner if the foreign legal title and registration is transferred in that state to the new owner. Nothing contained in this section shall release the owner of the vehicle from any tax fees or other requirements imposed by law.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

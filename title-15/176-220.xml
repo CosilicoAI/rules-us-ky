@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/176.220"/>
+          <FRBRuri value="/us-ky/act/krs/176.220"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/176.220/eng"/>
+          <FRBRuri value="/us-ky/act/krs/176.220/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/176.220/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/176.220/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_176_220">
+        <num>176.220</num>
+        <content>
+          <p>The department shall not consider any bid filed with it by any person not holding a certificate of eligibility. Bids from unqualified bidders which are discovered by the department before they are read, shall be returned to the bidders without being read. If the department finds subsequent to the opening of bids that facts exist which would disqualify the lowest bidder, or that such bidder is not responsible and competent, the department shall reject such bid, despite the previous qualification of the bidder. The department shall not award any contract to any bidder not qualified to bid thereon at the time the bids are opened.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

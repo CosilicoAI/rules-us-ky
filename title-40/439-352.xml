@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/439.352"/>
+          <FRBRuri value="/us-ky/act/krs/439.352"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/439.352/eng"/>
+          <FRBRuri value="/us-ky/act/krs/439.352/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/439.352/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/439.352/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_439_352">
+        <num>439.352</num>
+        <content>
+          <p>Recommitment of a supervised individual on parole or post-release supervision to prison or jail on a new sentence received for commission of a crime while on parole or other post-release supervision shall automatically terminate his or her parole or other post-release supervision status on any sentence on which he or she has not received a final discharge, or a restoration of civil rights, prior to the date of recommitment. The prisoner shall, at the time of the recommitment on the new sentence, begin to accrue additional time credit toward conditional release or expiration of sentence on the sentence on which he or she had previously been on community supervision unless he or she has been finally discharged from community supervision on the sentence or has been restored to civil rights prior to the date of the recommitment.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

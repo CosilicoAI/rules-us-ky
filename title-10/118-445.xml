@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/118.445"/>
+          <FRBRuri value="/us-ky/act/krs/118.445"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/118.445/eng"/>
+          <FRBRuri value="/us-ky/act/krs/118.445/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/118.445/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/118.445/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_118_445">
+        <num>118.445</num>
+        <content>
+          <p>The electors of President and
+    Vice President of the United States shall convene at the State Capitol, at
+    11:45 a.m. on the first Monday after the second Wednesday in December next
+    after their election, give their votes at or after 12 noon, and make return
+    thereof according to law. If any elector fails to attend by 12 noon, on the
+    day of the meeting, those in attendance shall fill his place by the election
+    of another person, who shall have the same powers as if originally elected
+    by the people.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

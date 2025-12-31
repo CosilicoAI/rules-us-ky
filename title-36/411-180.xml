@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/411.180"/>
+          <FRBRuri value="/us-ky/act/krs/411.180"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/411.180/eng"/>
+          <FRBRuri value="/us-ky/act/krs/411.180/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/411.180/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/411.180/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_411_180">
+        <num>411.180</num>
+        <content>
+          <p>If two (2) or more persons be jointly bound by contract, the action thereon may be brought against all or any of them, at the plaintiff’s option. If any of the persons so bound be dead, the action may be brought against any or all of the survivors with the representatives of all or any of the decedents, or against the latter or any of them. If all the persons so bound be dead, the action may be brought against the representatives of all or any of them. An action or judgment against any one (1) or more of several persons jointly bound shall not be a bar to proceedings against the others.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

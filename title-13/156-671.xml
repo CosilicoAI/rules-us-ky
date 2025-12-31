@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/156.671"/>
+          <FRBRuri value="/us-ky/act/krs/156.671"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/156.671/eng"/>
+          <FRBRuri value="/us-ky/act/krs/156.671/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/156.671/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/156.671/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_156_671">
+        <num>156.671</num>
+        <content>
+          <p>The chief state school officer shall convene the Commissioner of the Department for Information Systems, one (1) representative of Kentucky Educational Television, one (1) representative of the Council on Postsecondary Education, and one (1) representative of the Department of Education to create a strategic plan for distance learning in the Commonwealth and submit it to the Legislative Research Commission by July 1, 1993. The plan shall set forth the Commonwealth’s vision for developing a long-term and statewide distance learning strategy. It shall include, but not be limited to, definitions of the types of distance learning delivery systems, an evaluation process for determining and certifying the educational and cost effectiveness of each type of delivery system, comparisons of the various types of delivery systems, and recommendations for implementation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

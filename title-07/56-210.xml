@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/56.210"/>
+          <FRBRuri value="/us-ky/act/krs/56.210"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/56.210/eng"/>
+          <FRBRuri value="/us-ky/act/krs/56.210/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/56.210/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/56.210/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_56_210">
+        <num>56.210</num>
+        <content>
+          <p>Any person who wishes to appropriate any vacant and unappropriated land may, by applying to the county judge/executive of the county in which the land lies, and paying therefor a price fixed by the fiscal court at not less than five dollars ($5) per hundred (100) acres, obtain an order authorizing him to enter and survey any number of acres of such land in the county, not to exceed two hundred (200). The party obtaining the order may, by an entry in the surveyor’s book of the county, describing the land, appropriate the quantity of land it calls for in one (1) or more parcels; but no one (1) person shall enter, survey or cause to be patented more than two hundred (200) acres of land in any one (1) county. The proceeds of the sale shall be paid into the county treasury.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

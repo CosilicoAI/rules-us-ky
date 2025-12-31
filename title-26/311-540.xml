@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/311.540"/>
+          <FRBRuri value="/us-ky/act/krs/311.540"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/311.540/eng"/>
+          <FRBRuri value="/us-ky/act/krs/311.540/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/311.540/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/311.540/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_311_540">
+        <num>311.540</num>
+        <content>
+          <p>The State Board of Medical Licensure shall hold meetings at least semiannually and more frequently if necessary, at such places and times as the board may determine. The board shall elect a president, vice president and secretary from among its members and adopt such rules and bylaws as the board deems necessary. Any and all members of the board may administer oaths in matters pertaining to official duties. The members of the board shall receive the sum of one hundred dollars ($100) per day for each meeting attended and shall also be entitled to reimbursement for all reasonable expenses for travel, lodging and subsistence incurred in connection with attendance of meetings of the board.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

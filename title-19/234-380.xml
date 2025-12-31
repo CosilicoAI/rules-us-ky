@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/234.380"/>
+          <FRBRuri value="/us-ky/act/krs/234.380"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/234.380/eng"/>
+          <FRBRuri value="/us-ky/act/krs/234.380/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/234.380/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/234.380/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_234_380">
+        <num>234.380</num>
+        <content>
+          <p>Liquefied petroleum gas motor fuel dealers using, selling, and/or delivering liquefied petroleum gas to motor vehicles, or into storage for use in motor vehicles, shall report and pay the state tax at the rate levied in  and (2) on all such fuel to the Department of Revenue. The dealer shall issue an invoice to the customer whenever the sale or delivery is consummated giving the invoice date, name and address of the customer, and number of taxable gallons sold or delivered. The number of taxable gallons to be invoiced shall be determined in the following manner by the dealer:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

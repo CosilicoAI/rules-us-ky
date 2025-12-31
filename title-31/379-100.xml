@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/379.100"/>
+          <FRBRuri value="/us-ky/act/krs/379.100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/379.100/eng"/>
+          <FRBRuri value="/us-ky/act/krs/379.100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/379.100/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/379.100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_379_100">
+        <num>379.100</num>
+        <content>
+          <p>The assignee shall, within two (2) months after his appointment, give notice of the time and place where he will sit to receive claims against the estate. The notice shall be by publication pursuant to KRS . Creditors not residing in the county where the assignee qualifies shall be notified by mailing notice to their last known address. Any creditor failing to present his claim at the time named or within three (3) months thereafter, verified in the same manner as a claim against the estate of a decedent except that it need not be verified by a person other than the claimant, shall waive his right to any part of the assigned estate. However, the court may direct the assignee to receive a claim at any time before the final distribution of the estate, and allow it and pay dividends thereon as on other claims, if there are sufficient unappropriated assets in his hands. Claims not due shall be presented in the same manner as claims due, but if claims not due are not bearing interest a just abatement shall be made.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

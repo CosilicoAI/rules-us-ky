@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/74.490"/>
+          <FRBRuri value="/us-ky/act/krs/74.490"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/74.490/eng"/>
+          <FRBRuri value="/us-ky/act/krs/74.490/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/74.490/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/74.490/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_74_490">
+        <num>74.490</num>
+        <content>
+          <p>The commission shall also have the right to supply water to any city, water association, water district, political subdivision, federal agency or other public body, or any water distribution system regulated by the Public Service Commission, in addition to the cities, water associations, water districts, or federal agencies which are represented by the commission, upon the payments, terms, and conditions mutually agreed upon. No capital expenditures shall be made by the commission for the purpose of furnishing water to the other party or parties. Any contract entered into to supply water to a city, water association, water district, federal agency, political subdivision, or other public body shall provide that payments to be made thereunder shall be solely from the revenues to be derived by the city, water association, water district, political subdivision, or other public body from the operation of the water works distribution system thereof; and the contract shall be a continuing, valid, and binding obligation of the city, water association, federal agency, water district, political subdivision, or other public body, payable from the revenues for a period of years, not to exceed fifty (50), as provided in the contract. Any contract shall not be a debt of any city, water association, water district, federal agency, political subdivision, or other public body within the meaning of any statutory or constitutional limitations.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

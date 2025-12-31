@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/262.020"/>
+          <FRBRuri value="/us-ky/act/krs/262.020"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/262.020/eng"/>
+          <FRBRuri value="/us-ky/act/krs/262.020/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/262.020/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/262.020/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_262_020">
+        <num>262.020</num>
+        <content>
+          <p>The purpose of a soil and water conservation district is to conserve and develop all renewable natural resources within the district. In so doing, the district is authorized to undertake, sponsor, or participate in projects and activities which promote the conservation, development, maintenance and use of the land, water, trees and other renewable natural resources of the district. Such projects and activities shall include but not be limited to conservation practices on agricultural lands, the control of soil erosion, retardation of water runoff, the construction of flood prevention and control reservoirs, the maintenance of flood plains, the promotion of projects to assure an adequate municipal, industrial and agricultural supply of water, watershed stabilization, the avoidance and abatement of sedimentation and pollution in streams and other bodies of water, forestation and reforestation, the establishment of parks and outdoor recreation areas, the protection of open space, greenbelt areas and scenery, the preservation of wilderness areas, the protection of fish and wildlife, working for the location of highways, industries, housing developments, airports and other structures as are consistent with the district’s objectives and will offer the least possible interference with the conservation and best multiple use of the renewable natural resources, and all other activities consistent with the total natural resources development of the district.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

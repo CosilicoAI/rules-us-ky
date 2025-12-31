@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/173.106"/>
+          <FRBRuri value="/us-ky/act/krs/173.106"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/173.106/eng"/>
+          <FRBRuri value="/us-ky/act/krs/173.106/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/173.106/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/173.106/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_173_106">
+        <num>173.106</num>
+        <content>
+          <p>In a county where the county and a city of the first class have in effect a compact under  to and have created a joint city/county library department, the county clerk, when he or she receives an application for vehicle registration pursuant to , shall present the person making the application an opportunity to make a voluntary contribution for the support of the free public library. If the applicant chooses to donate to the library, he or she shall include the donation in the fee. The clerk shall pay the donations to the library department in the same fashion as taxes are paid pursuant to  and shall be entitled to the same commission as that payable on county taxes pursuant to . Upon the establishment of a consolidated local government in a county where a city of the first class and a county containing that city have had in effect a cooperative compact pursuant to  to  and have created a joint city/county library department, the county clerk shall continue the procedure by which persons may make voluntary contributions for the support of the free public library. The donations shall be transferred to the consolidated local government for the maintenance of the library department in the same manner as moneys are transferred pursuant to  and the county clerk shall be entitled to the same commission as that payable on taxes pursuant to .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

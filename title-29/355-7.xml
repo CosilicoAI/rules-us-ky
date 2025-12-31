@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/355.7"/>
+          <FRBRuri value="/us-ky/act/krs/355.7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/355.7/eng"/>
+          <FRBRuri value="/us-ky/act/krs/355.7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/355.7/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/355.7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_355_7">
+        <num>355.7</num>
+        <content>
+          <p>A document of title issued or a bailment that arises before July 12, 2012, and the rights, obligations, and interests flowing from that document or bailment are governed by any statute or other rule amended or repealed by 2012 Ky. Acts ch. 132 as if amendment or repeal had not occurred and may be terminated, completed, consummated, or enforced under that statute or other rule.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

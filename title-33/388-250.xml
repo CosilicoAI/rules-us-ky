@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/388.250"/>
+          <FRBRuri value="/us-ky/act/krs/388.250"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/388.250/eng"/>
+          <FRBRuri value="/us-ky/act/krs/388.250/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/388.250/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/388.250/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_388_250">
+        <num>388.250</num>
+        <content>
+          <p>Notwithstanding the provisions of existing law for adjudication of mental disability and appointment of a guardian or conservator upon the inquest of a jury, where a petition is filed for the appointment of a guardian or conservator for a mentally disabled beneficiary of the Veterans Affairs under the provisions of this chapter, who is found within this state, whether or not a resident thereof, a certificate of the administrator of Veterans Affairs or his duly authorized representative, accompanying such petition setting forth the fact that such beneficiary has been rated incompetent by the Veterans Affairs on examination in accordance with the laws and regulations governing such Veterans Affairs, and that the appointment of a guardian or conservator is a condition precedent to the payment of any moneys due each beneficiary by the Veterans Affairs, shall be prima facie evidence of the necessity for such appointment. Provided, however, that some member of the bar shall be appointed by the court to represent and protect the interests and rights of such mentally disabled beneficiary as provided under existing law, and further that the right of any such mentally disabled beneficiary or any person interested in such beneficiary to demand a trial by jury shall not be denied.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

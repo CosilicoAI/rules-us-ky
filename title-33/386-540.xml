@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/386.540"/>
+          <FRBRuri value="/us-ky/act/krs/386.540"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/386.540/eng"/>
+          <FRBRuri value="/us-ky/act/krs/386.540/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/386.540/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/386.540/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_386_540">
+        <num>386.540</num>
+        <content>
+          <p>Trust institutions and foreign trust institutions, as defined by , acting in a fiduciary capacity and for fiduciary purposes, may, if exercising due care as a prudent investor, and with the consent of any co-fiduciary, invest and reinvest funds held in such fiduciary capacity in the shares of stock of one (1) or more fiduciary investment companies, except where the will, trust indenture or other instrument under which such trust institution or foreign trust institution acts, prohibits such investment, provided the fiduciary investment company shall by its articles of incorporation issued and granted in conformity with the Kentucky Business Corporation Act have and possess the corporate powers required by  to and be subject to the limitations set forth by  to  provided, further, that no such trust institution or foreign trust institution shall invest in the stock of a fiduciary investment company on behalf of any estate, trust or fund administered by such trust institution or foreign trust institution a sum or amount which would result in such estate, trust or fund having a total investment in such stock in excess of the maximum amount or percentage that might be invested by such estate, trust or fund, under the regulations of the federal or state agency charged with supervising such trust institution or foreign trust institution, in any common trust fund having total assets equal to the total assets of the fiduciary investment company as increased by the proposed investment. No trust institution or foreign trust institution shall invest in the stock of a fiduciary investment company if, immediately after such investment and as a consequence thereof, it would own more than 25 percent of the voting securities of such fiduciary investment company which would then be outstanding.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

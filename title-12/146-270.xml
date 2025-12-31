@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/146.270"/>
+          <FRBRuri value="/us-ky/act/krs/146.270"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/146.270/eng"/>
+          <FRBRuri value="/us-ky/act/krs/146.270/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/146.270/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/146.270/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_146_270">
+        <num>146.270</num>
+        <content>
+          <p>The Wild Rivers System shall be administered by the Office of Kentucky Nature Preserves according to the policies and criteria set forth in  to  The cabinet upon recommendation of the office shall adopt rules or promulgate administrative regulations necessary for the preservation and enhancement of the stream areas as set forth in , and for control of recreational, educational, scientific, and other uses of these areas in a manner that shall not impair them. In administration primary emphasis shall be given to protecting aesthetic, scenic, historic, archaeologic, and scientific features of the area. The office shall develop a management plan for a designated stream area and shall publicize and hold public hearings and record the views expressed on each plan developed. Management plans for a given stream area may establish varying degrees of intensity for its protection, based on special attributes of each area, but shall follow the concepts embodied in . No public use of lands within the boundaries of a designated wild river area in which the state has acquired an interest shall be permitted prior to the development of a management plan.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

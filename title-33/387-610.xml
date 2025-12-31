@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/387.610"/>
+          <FRBRuri value="/us-ky/act/krs/387.610"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/387.610/eng"/>
+          <FRBRuri value="/us-ky/act/krs/387.610/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/387.610/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/387.610/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_387_610">
+        <num>387.610</num>
+        <content>
+          <p>Prior to the expiration of a term of guardianship or conservatorship, the limited guardian, guardian, limited conservator, or conservator may petition, pursuant to , for a renewal of his appointment for a period not to exceed five (5) years. The petition shall be accompanied by verified affidavits of a physician, an advanced practice registered nurse or physician assistant working within his or her scope of practice, or a psychologist licensed or certified under the provisions of KRS , or a person licensed or certified as a social worker or an employee of the Cabinet for Health and Family Services who meets the qualifications of , (b), and (c) or 1)(a), (b), and (c), supporting the need for the continuation of the guardianship or conservatorship.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

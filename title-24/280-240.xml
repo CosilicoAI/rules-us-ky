@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/280.240"/>
+          <FRBRuri value="/us-ky/act/krs/280.240"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/280.240/eng"/>
+          <FRBRuri value="/us-ky/act/krs/280.240/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/280.240/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/280.240/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_280_240">
+        <num>280.240</num>
+        <content>
+          <p>At the time of granting any ferry privilege, the county judge/executive shall prescribe the number and kind of boats to be kept, the number of hands to be employed, and how the boats shall be propelled, and may, once in each year thereafter, change the same, after notice to the person granted the privilege. Where the rapidity of the current does not require the ferry boat to be propelled by poles, the court shall prescribe that the boat shall have a substantial railing at least two (2) feet high on its sides.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

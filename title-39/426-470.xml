@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/426.470"/>
+          <FRBRuri value="/us-ky/act/krs/426.470"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/426.470/eng"/>
+          <FRBRuri value="/us-ky/act/krs/426.470/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/426.470/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/426.470/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_426_470">
+        <num>426.470</num>
+        <content>
+          <p>A judgment to enforce a lien, or against any collecting officer, attorney at law or agent for a delinquency or default in executing or fulfilling his duties, or of a surety against his principal, or upon a debt due by obligation having the force of a judgment, or for specific property or for the property or its value, shall not be replevied. An execution on a sale, replevin or forthcoming bond shall not be replevied.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

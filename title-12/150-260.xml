@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/150.260"/>
+          <FRBRuri value="/us-ky/act/krs/150.260"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/150.260/eng"/>
+          <FRBRuri value="/us-ky/act/krs/150.260/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/150.260/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/150.260/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_150_260">
+        <num>150.260</num>
+        <content>
+          <p>Kentucky assents to the provisions of acts of Congress which provide that the United States shall aid the states in wildlife restoration projects, and for other purposes, as approved September 2, 1937, and August 9, 1950, as well as other acts related to wildlife. The department shall supervise and/or carry out such programs as may be necessary to the establishment and conduct of cooperative wildlife restoration projects in compliance with said acts and with rules and regulations promulgated thereunder by the Secretary of the Interior or other secretaries dealing with matters related to wildlife. No game and fish funds accruing to the department shall be diverted to any objective other than the purposes as outlined in this chapter and more particularly defined in .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

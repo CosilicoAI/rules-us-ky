@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.870"/>
+          <FRBRuri value="/us-ky/act/krs/164.870"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.870/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.870/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.870/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.870/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_870">
+        <num>164.870</num>
+        <content>
+          <p>Proceedings taken by the University of Louisville, through action of its board of trustees, in qualifying to receive the benefits of its status as a state institution, as provided in subsection (3) of  shall vest in the Commonwealth for the use and benefit of the University of Louisville (without execution and recording of any instruments of conveyance) title to all property which may be vested in the University of Louisville at the date such qualifying action is perfected according to law. The title so vested in the Commonwealth for the use and benefit of the University of Louisville shall be such title as the University of Louisville may own at that time, and shall be subject to such liens and encumbrances as may then exist thereon. Real property thereafter acquired by the University of Louisville or for its use and benefit shall be in accordance with the provisions of  to  and any such acquisition of real property, and all dispositions of real property of the university, shall be subject to the provisions of  to  Personal property thereafter acquired by the University of Louisville or for its use and benefit shall be in accordance with provisions of .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

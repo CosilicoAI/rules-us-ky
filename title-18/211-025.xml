@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/211.025"/>
+          <FRBRuri value="/us-ky/act/krs/211.025"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/211.025/eng"/>
+          <FRBRuri value="/us-ky/act/krs/211.025/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/211.025/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/211.025/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_211_025">
+        <num>211.025</num>
+        <content>
+          <p>Except as otherwise provided by law, the cabinet shall administer all provisions of law relating to public health; shall enforce all public health laws and all regulations of the secretary; shall supervise and assist all local boards of health and departments; shall do all other things reasonably necessary to protect and improve the health of the people; and may cooperate with federal and other health agencies and organizations in matters relating to public health.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

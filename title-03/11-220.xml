@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/11.220"/>
+          <FRBRuri value="/us-ky/act/krs/11.220"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/11.220/eng"/>
+          <FRBRuri value="/us-ky/act/krs/11.220/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/11.220/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/11.220/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_220">
+        <num>11.220</num>
+        <content>
+          <p>The General Assembly declares it to be the purpose of  to to promote the orderly transfer of the executive power in connection with the expiration of the term of office of a governor and the inauguration of a new governor. The interest of the Commonwealth requires that such transitions be accomplished so as to assure continuity in the conduct of the affairs of the state government. Any disruption occasioned by the transfer of the executive power could produce results detrimental to the safety and well-being of the Commonwealth and its people. Accordingly, it is the intent of the General Assembly that appropriate actions be authorized and taken to avoid or minimize any disruption. In addition to the specific provisions contained in  to directed toward that purpose, it is the intent of the General Assembly that all officers of the state government so conduct the affairs of the state government for which they exercise responsibility and authority as to be mindful of problems occasioned by transitions in the office of Governor, to take appropriate lawful steps to avoid or minimize disruptions that might be occasioned by the transfer of the executive power and otherwise to promote orderly transitions in the office of Governor.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

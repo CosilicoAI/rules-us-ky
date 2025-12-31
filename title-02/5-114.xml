@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/5.114"/>
+          <FRBRuri value="/us-ky/act/krs/5.114"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/5.114/eng"/>
+          <FRBRuri value="/us-ky/act/krs/5.114/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/5.114/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/5.114/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_114">
+        <num>5.114</num>
+        <content>
+          <p>The Fourteenth Senatorial District shall consist of the following territory:</p>
+          <p>—CENSUS— COUNTY PREC NAME TRACT BLK SECT CASEY JEFFERSON B151 PRECINCT 151 29 DISTRICT JEFFERSON B153 PRECINCT 153 29 DISTRICT JEFFERSON B154 PRECINCT 154 29 DISTRICT JEFFERSON B159 PRECINCT 159 29 DISTRICT JEFFERSON B161 PRECINCT 161 29 DISTRICT JEFFERSON B163 PRECINCT 163 29 DISTRICT JEFFERSON B166 PRECINCT 166 29 DISTRICT JEFFERSON B168 PRECINCT 168 29 DISTRICT JEFFERSON B172 PRECINCT 172 29 DISTRICT JEFFERSON B177 PRECINCT 177 29 DISTRICT JEFFERSON D126 PRECINCT 126 31 DISTRICT MARION NELSON SPENCER</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

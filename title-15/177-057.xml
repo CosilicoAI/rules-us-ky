@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/177.057"/>
+          <FRBRuri value="/us-ky/act/krs/177.057"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/177.057/eng"/>
+          <FRBRuri value="/us-ky/act/krs/177.057/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/177.057/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/177.057/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_057">
+        <num>177.057</num>
+        <content>
+          <p>A local school district shall not purchase property for the construction of any school facility until the district consults with the Kentucky Transportation Cabinet, Department of Highways, Frankfort Office, to determine if the property to be purchased currently has adequate highway access or if highway access is planned for a future date by the Transportation Cabinet. If the property to be purchased does not currently have adequate highway access or if the Transportation Cabinet does not plan future highway access to the property, the cabinet shall so notify the local school district in writing.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

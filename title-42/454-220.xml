@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/454.220"/>
+          <FRBRuri value="/us-ky/act/krs/454.220"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/454.220/eng"/>
+          <FRBRuri value="/us-ky/act/krs/454.220/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/454.220/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/454.220/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_454_220">
+        <num>454.220</num>
+        <content>
+          <p>A court in any matrimonial action or family court proceeding involving a demand for support, alimony, maintenance, distributive awards, or special relief in matrimonial actions may exercise personal jurisdiction over the respondent or defendant notwithstanding the fact that he or she no longer is a resident or domiciliary of this state, or over his or her executor or administrator, if the party seeking support is a resident of or domiciled in this state at the time the demand is made, if this state was the matrimonial domicile of the parties before their separation; the defendant abandoned the plaintiff in this state; or the claim for support, alimony, maintenance, distributive awards, or special relief in matrimonial actions accrued under the laws of this state. The action shall be filed within one (1) year of the date the respondent or defendant became a nonresident of, or moved his domicile from, this state. Service of process may be made by personal service if the defendant or respondent is found within the state or by service through the use of .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/247.280"/>
+          <FRBRuri value="/us-ky/act/krs/247.280"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/247.280/eng"/>
+          <FRBRuri value="/us-ky/act/krs/247.280/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/247.280/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/247.280/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247_280">
+        <num>247.280</num>
+        <content>
+          <p>The outgoing president and treasurer of a farm bureau shall by the date of the annual meeting file with the county clerk full and detailed sworn reports of all receipts and expenditures of the corporation, showing from whom the sums were received and to whom they were paid, and for what purposes they were received or paid. A duplicate of the reports shall be laid before the members at the annual meeting.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

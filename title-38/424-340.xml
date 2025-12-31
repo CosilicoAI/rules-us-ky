@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/424.340"/>
+          <FRBRuri value="/us-ky/act/krs/424.340"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/424.340/eng"/>
+          <FRBRuri value="/us-ky/act/krs/424.340/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/424.340/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/424.340/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_424_340">
+        <num>424.340</num>
+        <content>
+          <p>The clerk of the probate court shall, at least once each month, cause to be published in the newspaper meeting the requirements of , a notice setting forth all fiduciary appointments made since the last publication and including at least the following information: the name and address of the decedent or ward, the name and address of the fiduciary, the date of the fiduciary’s appointment, and the name and address of the attorney representing the fiduciary, if any, and the date by which claims of creditors must be presented. The clerk may charge each fiduciary a fee not to exceed the actual proportionate cost of said notice. Publication of this notice shall neither enlarge nor reduce the obligation of a creditor to present a timely claim, nor the liability of the fiduciary or distributee to pay the same.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

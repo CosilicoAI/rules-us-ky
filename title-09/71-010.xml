@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/71.010"/>
+          <FRBRuri value="/us-ky/act/krs/71.010"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/71.010/eng"/>
+          <FRBRuri value="/us-ky/act/krs/71.010/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/71.010/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/71.010/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_71_010">
+        <num>71.010</num>
+        <content>
+          <p>The jailer shall take the oath prescribed by the Constitution and execute bond to the Commonwealth in the minimum amount of ten thousand dollars ($10,000), with sureties approved by the fiscal court, which shall record the approval in its minutes and shall file the bond with the county clerk. No coroner, sheriff, sheriff’s deputy, county judge/executive or Circuit Judge, county or circuit clerk, or attorney shall be surety for the jailer on his official bond.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

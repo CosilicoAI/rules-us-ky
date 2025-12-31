@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/80.190"/>
+          <FRBRuri value="/us-ky/act/krs/80.190"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/80.190/eng"/>
+          <FRBRuri value="/us-ky/act/krs/80.190/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/80.190/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/80.190/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_80_190">
+        <num>80.190</num>
+        <content>
+          <p>The authority shall manage and operate its housing in an efficient manner so as to enable it to fix the rentals for dwelling accommodations at the lowest possible rates consistent with its providing decent, safe and sanitary dwelling accommodations, and no authority shall construct or operate any project for profit, or as a source of revenue of the city. Provided, however, that nothing contained in the housing authority law shall be construed to prohibit an authority from making payments in lieu of taxes to the city, or other public body, within the area in which any project is located in such amounts as the authority may determine to be consistent with maintaining the low-rent character of the dwelling accommodations.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/183.772"/>
+          <FRBRuri value="/us-ky/act/krs/183.772"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/183.772/eng"/>
+          <FRBRuri value="/us-ky/act/krs/183.772/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/183.772/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/183.772/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_183_772">
+        <num>183.772</num>
+        <content>
+          <p>There is hereby created in the state treasury a special fund to be known as the “Kentucky Airport Development Fund”. All moneys deposited or paid into this fund, including repayment of any loans made therefrom, are appropriated and shall be available to the cabinet for the purposes of  through  All moneys in such fund shall be expended solely for the development of airports or administrative cost incidental to the development of airports. The fund shall consist of all money appropriated by the state and all money received from the United States or from any other source for the purpose of airport development. All moneys in the Kentucky airport development fund shall be deposited, administered and disbursed in the same manner and under the same conditions and requirements as are provided by law for other special funds in the State Treasury, except that any balance in this fund shall not lapse at any time but shall be continuously available to the cabinet for the purposes of carrying out the provisions of  through  A general statement that all continuing appropriations are repealed shall not be construed as abolishing this fund.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

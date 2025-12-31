@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/278.480"/>
+          <FRBRuri value="/us-ky/act/krs/278.480"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/278.480/eng"/>
+          <FRBRuri value="/us-ky/act/krs/278.480/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/278.480/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/278.480/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_278_480">
+        <num>278.480</num>
+        <content>
+          <p>Any common carrier of crude petroleum or gas by pipeline may accept for transportation any oil or gas offered to it for that purpose by a person in possession, and shall redeliver it upon the order of the consignor unless prevented by order of a court of competent jurisdiction, and shall not be liable therefor to a true owner out of possession, except from the time that the order of court is served upon it in the same manner as a summons in a civil action.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

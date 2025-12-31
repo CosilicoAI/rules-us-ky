@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/162.140"/>
+          <FRBRuri value="/us-ky/act/krs/162.140"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/162.140/eng"/>
+          <FRBRuri value="/us-ky/act/krs/162.140/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/162.140/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/162.140/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_162_140">
+        <num>162.140</num>
+        <content>
+          <p>Immediately upon the approval of the plans and specifications as provided in , the board of education shall offer to lease the building for a term of one (1) year from the time the building is completed and ready for occupancy. The lease by its terms shall give the lessee the right and option to extend the term of the lease from year to year, for periods of one (1) year, until the original term of the lease has been extended for a total number of years, acceptable to the city, not exceeding thirty (30) years, at a rental which, if paid for the original term and for each of the full number of years for which the term is extended, will amortize the total cost of the erection of the building and appurtenances, provide an adequate maintenance fund and, in addition thereto, a sum sufficient to pay the cost of insuring the building against loss or damage by fire and windstorm or other calamity in such sum as may be agreed by the parties thereto.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

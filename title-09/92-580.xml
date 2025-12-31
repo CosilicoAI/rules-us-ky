@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/92.580"/>
+          <FRBRuri value="/us-ky/act/krs/92.580"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/92.580/eng"/>
+          <FRBRuri value="/us-ky/act/krs/92.580/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/92.580/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/92.580/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_92_580">
+        <num>92.580</num>
+        <content>
+          <p>As soon as practicable after the supervisors of taxes in any city of the fourth class have corrected the assessment lists, they shall return the lists to the city clerk. The clerk shall, from the assessment lists, make out the tax bills for ad valorem and poll taxes for the year, in a stub-book to be devised by the city council for that purpose, and shall sign the bills and turn them over to the city collector or treasurer, as may be provided by ordinance, and take his receipt therefor, showing the number of bills so turned over and the aggregate amount thereof. The tax bills shall be indorsed by the collector or treasurer. Within ten (10) days after receipt of the tax bills, and before July 1, and ten (10) days before September 1, the collector or treasurer shall give notice by publication pursuant to KRS , that the taxes for the current year are in his hands for collection and are due, and that in default of payment on or before the date fixed under subsection (4) or (6) of , the penalty prescribed by ordinance will be attached.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

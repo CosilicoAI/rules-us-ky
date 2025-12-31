@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/5.220"/>
+          <FRBRuri value="/us-ky/act/krs/5.220"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/5.220/eng"/>
+          <FRBRuri value="/us-ky/act/krs/5.220/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/5.220/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/5.220/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_220">
+        <num>5.220</num>
+        <content>
+          <p>The Twentieth Representative District shall consist of the following territory:</p>
+          <p>—CENSUS— COUNTY PREC NAME TRACT BLK SECT WARREN A103 MUNICIPAL PARK WARREN A104 POTTER GRAY WARREN A107 BRIARWOOD WARREN A108 SHIVE KIEL WARREN A109 GREENWOOD WARREN A110 EASTWOOD WARREN A111 AIRPORT WARREN A112 MIDDLE BRIDGE WARREN B101 B. G. TOWERS WARREN B102 WEST 11TH STREET WARREN B103 HILLVIEW WARREN B104 CHURCH ST. WARREN B109 WHAYNE SUPPLY WARREN B110 BROADWAY WARREN C101 B. G. JR. HIGH WARREN C102 CARVER HARRIS WARREN C103 T. C. CHERRY SCHOOL WARREN C104 MCNEIL WARREN C105 CABELL WARREN C106 CRESTMOOR WARREN C108 WATTS MILL WARREN D112 RIVERVIEW WARREN E110 MILLERS</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

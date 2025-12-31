@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/97.680"/>
+          <FRBRuri value="/us-ky/act/krs/97.680"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/97.680/eng"/>
+          <FRBRuri value="/us-ky/act/krs/97.680/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/97.680/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/97.680/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_97_680">
+        <num>97.680</num>
+        <content>
+          <p>The commission may acquire, by gift, purchase, lease or condemnation, any real or personal property situated wholly within the city or county, or any interest, franchise, easement, right or privilege in the city or county, of any buildings, tools, machinery, materials or supplies that may be required for the purpose of furnishing, maintaining or operating the memorial. The proceedings for condemnation shall be conducted in the name of the commission in the method prescribed by the Eminent Domain Act of Kentucky. All property acquired by the commission shall be held, used and controlled by it for the purposes named in  to</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

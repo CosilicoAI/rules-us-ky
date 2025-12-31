@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/180.300"/>
+          <FRBRuri value="/us-ky/act/krs/180.300"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/180.300/eng"/>
+          <FRBRuri value="/us-ky/act/krs/180.300/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/180.300/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/180.300/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_180_300">
+        <num>180.300</num>
+        <content>
+          <p>The department may enter into written contracts with the owner of any bridge over or tunnel under any boundary line stream of this state for the purchase or lease of the bridge or tunnel to connect any primary road of this state with a hard surface road or street in an adjoining state, when the adjoining state or a subdivision thereof or county or city in this state, or the United States joins with the department in the purchase or lease of the bridge or tunnel and jointly or severally contributes to the purchase price or the annual rental price thereof, an amount equal to or in excess of the amount which the department proposes to expend for the purchase or lease of the connecting bridge or tunnel. When the bridge or tunnel is so purchased or leased, the department shall enter into a contract with the other cooperating governments or subdivisions for the joint maintenance of the bridge or tunnel.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/362.355"/>
+          <FRBRuri value="/us-ky/act/krs/362.355"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/362.355/eng"/>
+          <FRBRuri value="/us-ky/act/krs/362.355/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/362.355/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/362.355/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_362_355">
+        <num>362.355</num>
+        <content>
+          <p>When any partner retires or dies, and the business is continued under any of the conditions set forth in subsections (1), (2), (3), (5), and (6) of  or paragraph (b) of subsection (2) of , without any settlement of accounts as between him or his estate and the person or partnership continuing the business, unless otherwise agreed, he or his legal representative as against such persons or partnership may have the value of his interest at the date of dissolution ascertained, and shall receive as an ordinary creditor an amount equal to the value of his interest in the dissolved partnership with interest, or, at his option or at the option of his legal representative, in lieu of interest, the profits attributable to the use of his right in the property of the dissolved partnership; provided that the creditors of the dissolved partnership as against the separate creditors, or the representative of the retired or deceased partner, shall have priority on any claim arising under this section, as provided by subsection (8) of .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

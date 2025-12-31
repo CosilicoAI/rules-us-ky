@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/95.8641"/>
+          <FRBRuri value="/us-ky/act/krs/95.8641"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/95.8641/eng"/>
+          <FRBRuri value="/us-ky/act/krs/95.8641/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/95.8641/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/95.8641/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_95_8641">
+        <num>95.8641</num>
+        <content>
+          <p>The provisions of  to  as amended by 1980 Acts , relating to maximum benefits from a combination of disability or survivor benefits and workers’ compensation benefits, or reduction of disability or survivor benefits because of benefits paid pursuant to workers’ compensation laws, shall be retroactive to June 21, 1974, and shall supersede Sections 3.(4), 4.(4), 5. and 6.(3) of 1974 Acts  as they relate to reduction of disability or survivor benefits because of benefits paid pursuant to workers’ compensation laws.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

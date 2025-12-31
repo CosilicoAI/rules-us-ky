@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/65.8838"/>
+          <FRBRuri value="/us-ky/act/krs/65.8838"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/65.8838/eng"/>
+          <FRBRuri value="/us-ky/act/krs/65.8838/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/65.8838/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/65.8838/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_65_8838">
+        <num>65.8838</num>
+        <content>
+          <p>Nothing contained in  to 65.8839 shall prohibit a local government from taking immediate action to remedy a violation of its ordinances when there is reason to believe that the existence of the violation presents imminent danger, a serious threat to the public health, safety, and welfare, or if in the absence of immediate action, the effects of the violation will be irreparable or irreversible.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

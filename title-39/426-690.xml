@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/426.690"/>
+          <FRBRuri value="/us-ky/act/krs/426.690"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/426.690/eng"/>
+          <FRBRuri value="/us-ky/act/krs/426.690/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/426.690/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/426.690/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_426_690">
+        <num>426.690</num>
+        <content>
+          <p>The plaintiff in an action to enforce a lien on real property shall state in his petition the liens, if any, which are held thereon by others, and make the holders defendants; and no sale of the property shall be ordered by the court prejudicial to the rights of the holders of any of the liens, and when it appears from the petition or otherwise, that several debts are secured by one (1) lien, or by liens of equal rank, and they are all due at the commencement of the action, or become so before judgment, the court shall order the sale for the pro rata satisfaction of all of them, but if, in such case, the debts be owned by different persons and be not all due, the court shall not order a sale of the property until they all mature. If all such liens be held by the same party, the court may order a sale of enough of the property to pay the debts then due, unless it appear that it is not susceptible of advantageous division, or that, for some other reason, the sale would cause a sacrifice thereof, or seriously prejudice the interests of the defendants, but the holder of a prior lien may enforce the same when the debt thereby secured is due, notwithstanding the existence of inferior liens, whether the debts secured thereby are due or not; and the holder of an inferior lien, when the debt thereby secured is due, may enforce the same by a sale of land subject to a prior lien or liens thereon, where the debt or debts secured thereby are not yet due. Provided, that the provisions of this section shall not apply to any liens now of record.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/158.6485"/>
+          <FRBRuri value="/us-ky/act/krs/158.6485"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/158.6485/eng"/>
+          <FRBRuri value="/us-ky/act/krs/158.6485/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/158.6485/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/158.6485/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_158_6485">
+        <num>158.6485</num>
+        <content>
+          <p>Members appointed by the Governor may be reappointed by the Governor to serve successive terms. In making gubernatorial appointments, the Governor shall consider recommendations and information on business and entrepreneurial experience provided by a nominating committee of the board and shall attempt to promote geographic balance on the board. The Governor shall make appointments to fill gubernatorial vacancies as they occur. Each appointment after the initial appointment shall be for a three (3) year term unless the appointment is to fill the unexpired portion of a term.</p>
+          <p>1.
+      Quarterly reports of expenditures of state funds for the Governor’s School for Entrepreneurs Program, submitted on or before the thirtieth day after the end of each quarter in the organization’s fiscal year;</p>
+          <p>2.
+      Annual reports of receipts and expenditures for the Governor’s School for Entrepreneurs Program, submitted on or before the sixtieth day after the end of the fiscal year of the organization; and</p>
+          <p>3.
+      The report of an annual financial compilation or review conducted by an independent accounting firm, submitted on or before September 1 of each year.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

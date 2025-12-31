@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/67.490"/>
+          <FRBRuri value="/us-ky/act/krs/67.490"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/67.490/eng"/>
+          <FRBRuri value="/us-ky/act/krs/67.490/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/67.490/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/67.490/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_67_490">
+        <num>67.490</num>
+        <content>
+          <p>For the purpose of defraying the cost of acquiring, constructing, remodeling, or improvement of any building and its appurtenances under the provisions of , any county buildings commission may borrow money and issue negotiable bonds. No bonds shall be issued until the conditions of  to  including the provisions of  as to a lease, have been complied with and until authorized by a resolution specifying the proposed undertaking, the amount of bonds to be issued, and the maximum rate of interest the bonds are to bear. The resolution shall provide that the building or buildings and appurtenances are to be constructed, remodeled, improved, or acquired under the provisions of  to</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

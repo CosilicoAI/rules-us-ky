@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/159.070"/>
+          <FRBRuri value="/us-ky/act/krs/159.070"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/159.070/eng"/>
+          <FRBRuri value="/us-ky/act/krs/159.070/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/159.070/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/159.070/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_159_070">
+        <num>159.070</num>
+        <content>
+          <p>Each school district shall constitute a separate attendance district unless two (2) or more contiguous school districts, with the approval of the Kentucky Board of Education, unite to form one (1) attendance district. Controversies arising in attendance districts relating to attendance matters shall be submitted to the Kentucky Board of Education for settlement. In case an agreement suitable to all parties cannot be reached, the Kentucky Board of Education may dissolve a united district. In case of dissolution, each school district involved may unite with other contiguous school districts in forming a united attendance district or may act as a separate attendance district. Within the appropriate school district attendance area, parents or legal guardians shall be permitted to enroll their children in the public school nearest their home.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

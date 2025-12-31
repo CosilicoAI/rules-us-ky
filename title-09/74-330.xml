@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/74.330"/>
+          <FRBRuri value="/us-ky/act/krs/74.330"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/74.330/eng"/>
+          <FRBRuri value="/us-ky/act/krs/74.330/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/74.330/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/74.330/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_74_330">
+        <num>74.330</num>
+        <content>
+          <p>Refunding bonds shall be issued under the signature of the chairman of the commission, the countersignature of the treasurer of the commission, and the seal of the district. The bonds shall be serially numbered. The commission shall prescribe the form and denominations of the bonds, and the time, not exceeding forty (40) years, at which they will mature and be redeemable. The bonds shall bear interest at a rate or rates or method of determining rates as the commission directs, be payable at least annually, and shall have interest coupons attached. The proceeds of the bonds shall be used exclusively for the refunding of bonded debts. In case any officer whose signature or countersignature appears on the bonds or coupons ceases to be an officer before delivery of the bonds, his signature or countersignature shall nevertheless be valid the same as if he had been in office until delivery.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/321.230"/>
+          <FRBRuri value="/us-ky/act/krs/321.230"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/321.230/eng"/>
+          <FRBRuri value="/us-ky/act/krs/321.230/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/321.230/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/321.230/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_321_230">
+        <num>321.230</num>
+        <content>
+          <p>There hereby is created a board to be known as the “Kentucky Board of Veterinary Examiners.” The board shall consist of nine (9) members appointed by the Governor, and the Commissioner of Agriculture or the Commissioner’s designee. Seven (7) members shall be citizens of the Commonwealth of Kentucky and shall each have been lawfully engaged in the practice of veterinary medicine in this Commonwealth for at least two (2) years next preceding the date of the member’s appointment. One (1) member shall be a citizen at large who is not associated with or financially interested in the practice or business regulated. One (1) member shall be a citizen of the Commonwealth and a licensed veterinary technician who has been employed in the veterinary field in the Commonwealth for at least two (2) years preceding the date of his or her appointment. All appointed members shall be appointed for a term of four (4) years and shall serve until the member is reappointed or a successor is appointed. Any vacancy in the appointed membership of the board shall be filled for the unexpired term by appointment by the Governor. Each member of the board shall receive one hundred dollars ($100) per day for each day of service actually given in carrying out his duties under this chapter, in addition to his necessary traveling, hotel, and contingent expenses incurred in attending the meetings of the board and in the performance of his duties.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

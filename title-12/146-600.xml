@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/146.600"/>
+          <FRBRuri value="/us-ky/act/krs/146.600"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/146.600/eng"/>
+          <FRBRuri value="/us-ky/act/krs/146.600/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/146.600/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/146.600/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_146_600">
+        <num>146.600</num>
+        <content>
+          <p>The General Assembly finds and declares that it is the policy of the Commonwealth to recognize endangered and threatened species of plants for human enjoyment, for scientific purposes, and to ensure their perpetuation as viable components of their ecosystems for the benefit of the people of Kentucky. It is the policy of the General Assembly that all plants covered by  to are property of the landowner, and that  to shall not impede the development or use of public or private lands.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

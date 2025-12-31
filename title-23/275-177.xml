@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/275.177"/>
+          <FRBRuri value="/us-ky/act/krs/275.177"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/275.177/eng"/>
+          <FRBRuri value="/us-ky/act/krs/275.177/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/275.177/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/275.177/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_275_177">
+        <num>275.177</num>
+        <content>
+          <p>If a written operating agreement contains a provision to the effect that any amendment to the operating agreement of the limited liability company shall be in writing and adopted in accordance with the provisions of the operating agreement, then the provision shall be enforceable in accordance with its terms, and any agreement as to the conduct of the business and affairs of the limited liability company which is not in writing and adopted in accordance with the provisions of the operating agreement shall not be considered part of the operating agreement and shall be void and unenforceable.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

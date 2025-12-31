@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/57.290"/>
+          <FRBRuri value="/us-ky/act/krs/57.290"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/57.290/eng"/>
+          <FRBRuri value="/us-ky/act/krs/57.290/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/57.290/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/57.290/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_57_290">
+        <num>57.290</num>
+        <content>
+          <p>The acts of the General Assembly and the journals of each house shall, upon being printed, be delivered to the Legislative Research Commission, and distributed by it. The Commission shall prepare for each county a package containing the acts and journals, with a list of the persons entitled to receive them, and send one (1) package in the most inexpensive manner to the circuit clerk of each county, who shall distribute the books to those entitled to them.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

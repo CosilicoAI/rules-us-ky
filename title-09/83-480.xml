@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/83.480"/>
+          <FRBRuri value="/us-ky/act/krs/83.480"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/83.480/eng"/>
+          <FRBRuri value="/us-ky/act/krs/83.480/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/83.480/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/83.480/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_83_480">
+        <num>83.480</num>
+        <content>
+          <p>A majority of the members of the board of aldermen shall constitute a quorum, but a smaller number may adjourn from day to day. The board of aldermen shall adopt rules to govern its proceedings, and may enforce the attendance of members by rules or ordinances with appropriate fines. The board of aldermen shall upon notice meet within seven (7) days after its members have taken office, and shall thereafter hold two (2) regular meetings in each month. The mayor may call a special meeting at any time. Meetings shall be held in such rooms in the city as are provided by ordinance, and the place of meetings shall not be changed except by an ordinance for which two-thirds (2/3) of the members of the board of aldermen have voted.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

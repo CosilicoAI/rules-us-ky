@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/426.600"/>
+          <FRBRuri value="/us-ky/act/krs/426.600"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/426.600/eng"/>
+          <FRBRuri value="/us-ky/act/krs/426.600/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/426.600/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/426.600/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_426_600">
+        <num>426.600</num>
+        <content>
+          <p>Any officer taking a forthcoming bond who fails to return it to the proper office for twenty (20) days after the failure to comply on the part of the defendant in execution shall, with his sureties, be liable to the plaintiff for the amount of the execution, costs and commission, and for an additional twenty percent (20%) thereon, to be recovered by action or motion against any one (1) or more of them or their representatives.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

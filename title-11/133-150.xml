@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/133.150"/>
+          <FRBRuri value="/us-ky/act/krs/133.150"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/133.150/eng"/>
+          <FRBRuri value="/us-ky/act/krs/133.150/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/133.150/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/133.150/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_133_150">
+        <num>133.150</num>
+        <content>
+          <p>The Department of Revenue shall equalize each year the assessments of the property among the counties. It shall compare the recapitulation of the property valuation administrator’s books from each county with the records of sales of land in such county or with such other information that it may obtain from any source and shall determine the ratio of the assessed valuation of the property to the fair cash value. The Department of Revenue shall have power to increase or decrease the aggregate assessed valuation of the property of any county or taxing district thereof or any class of property or any item in any class of property. The Department of Revenue shall fix the assessment of all property at its fair cash value. When the property in any county, or any class of property in any county, is not assessed at its fair cash value, such assessment shall be increased or decreased to its fair cash value by fixing the percentage of increase or decrease necessary to effect the equalization.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/262.725"/>
+          <FRBRuri value="/us-ky/act/krs/262.725"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/262.725/eng"/>
+          <FRBRuri value="/us-ky/act/krs/262.725/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/262.725/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/262.725/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_262_725">
+        <num>262.725</num>
+        <content>
+          <p>After the board of supervisors has made and recorded a determination that there is need, in the interest of the public health, safety and welfare, for creation of the proposed watershed conservancy district, it shall consider the question whether the operation of a district within the proposed boundaries with the powers conferred upon such districts in  is administratively practicable and feasible. To assist the board of supervisors in this determination, the board shall, within a reasonable time after entry of the finding that there is need for the organization of the district and the determination of the boundaries of the district, hold a referendum within the conservation district upon the proposition of the creation of the district to identify boundaries and give notification of funding options. Due notice of the referendum shall be given as provided in . Such notice shall state the date of holding the referendum, the hours of opening and closing the polls, and shall designate one or more places within the proposed district as polling places. The board shall appoint a polling superintendent and other necessary polling officers giving equal representation to the proponents and opponents of the question involved.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

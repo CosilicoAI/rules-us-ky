@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/344.080"/>
+          <FRBRuri value="/us-ky/act/krs/344.080"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/344.080/eng"/>
+          <FRBRuri value="/us-ky/act/krs/344.080/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/344.080/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/344.080/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_344_080">
+        <num>344.080</num>
+        <content>
+          <p>It is an unlawful practice for an employer, labor organization, licensing agency, or employment agency to print or publish or cause to be printed or published a notice or advertisement relating to employment by such an employer or membership in or any classification or referral for employment by the employment or licensing agency, indicating any preference, limitation, specification, or discrimination, based on race, color, religion, national origin, sex, or age forty (40) and over, or because the person is a qualified individual with a disability, except that such a notice or advertisement may indicate a preference, limitation, or specification based on religion, national origin, sex, or age forty (40) and over, or because the person is a qualified individual with a disability, when religion, national origin, sex, or age forty (40) and over, or because the person is a qualified individual with a disability, is a bona fide occupational qualification for employment.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

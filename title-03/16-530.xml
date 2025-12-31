@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/16.530"/>
+          <FRBRuri value="/us-ky/act/krs/16.530"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/16.530/eng"/>
+          <FRBRuri value="/us-ky/act/krs/16.530/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/16.530/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/16.530/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_530">
+        <num>16.530</num>
+        <content>
+          <p>Under such rules and regulations as are adopted by the board, each employee becoming a member on July 1, 1958, shall have on file at the retirement office, on such forms as the board may prescribe, a statement of the facts pertaining to his status as a member which shall include a detailed description of all service rendered prior to July 1, 1958. Until such statement is filed, no member shall be entitled to receive any benefits under  to  As soon as practicable after said statement is filed, the system shall ascertain the amount of prior service, if any, to which each member is entitled and shall issue to each member a certificate certifying the length of such service rendered by him.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

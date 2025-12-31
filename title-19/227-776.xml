@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/227.776"/>
+          <FRBRuri value="/us-ky/act/krs/227.776"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/227.776/eng"/>
+          <FRBRuri value="/us-ky/act/krs/227.776/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/227.776/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/227.776/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_227_776">
+        <num>227.776</num>
+        <content>
+          <p>A manufacturer shall place on each individual package of cigarettes the letters “FSC” or “FS” which signify “Fire Standards Compliance,” indicating compliance with the fire safety performance standard set forth in . The letters shall appear in eight (8) point type and be permanently printed, stamped, engraved, or embossed on the package at or near the UPC Code, if present.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

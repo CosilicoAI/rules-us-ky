@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/213.086"/>
+          <FRBRuri value="/us-ky/act/krs/213.086"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/213.086/eng"/>
+          <FRBRuri value="/us-ky/act/krs/213.086/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/213.086/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/213.086/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_213_086">
+        <num>213.086</num>
+        <content>
+          <p>If a death is presumed to have occurred within the Commonwealth but the body cannot be located or recovered, a death certificate may be prepared by the state registrar upon receipt of an order of a court of competent jurisdiction, which shall include the finding of facts required to complete the death certificate. Such a death certificate shall be marked “presumptive” and shall show on the certificate the date of registration and shall identify the court and the date of decree.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

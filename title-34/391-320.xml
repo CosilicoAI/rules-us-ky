@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/391.320"/>
+          <FRBRuri value="/us-ky/act/krs/391.320"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/391.320/eng"/>
+          <FRBRuri value="/us-ky/act/krs/391.320/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/391.320/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/391.320/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_391_320">
+        <num>391.320</num>
+        <content>
+          <p>The provisions of  as to rights of survivorship are determined by the form of the account at the death of a party. This form may be altered by written order from any party able to request present payment without the joinder of any other party given to the financial institution to change the form of the account or to stop or vary payment under the terms of the account. The order must be signed by said party, received by the financial institution during the party’s lifetime, and not countermanded by other written order of the same party during his lifetime.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

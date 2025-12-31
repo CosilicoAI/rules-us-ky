@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/74.140"/>
+          <FRBRuri value="/us-ky/act/krs/74.140"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/74.140/eng"/>
+          <FRBRuri value="/us-ky/act/krs/74.140/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/74.140/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/74.140/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_74_140">
+        <num>74.140</num>
+        <content>
+          <p>When the final report is completed and filed, it shall be examined by the county judge/executive, and if it is found to be sufficient it shall be accepted. If it is not sufficient, it may be referred back to the commission with instructions to secure further information, to be reported at a subsequent date fixed by the county judge/executive. When the report is fully completed and accepted by the county judge/executive, a date not less than twenty (20) days thereafter shall be fixed by the county judge/executive for the final hearing upon the report, and notice of the hearing shall be given by publication pursuant to KRS . During that time, a copy of the report shall be on file in the office of the county clerk, and shall be open to the inspection of any landowner or person interested within the district. Any landowner assessed therein may file exception to the report. The county judge/executive upon final hearing shall confirm or reject the report.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

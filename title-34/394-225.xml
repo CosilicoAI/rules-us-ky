@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/394.225"/>
+          <FRBRuri value="/us-ky/act/krs/394.225"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/394.225/eng"/>
+          <FRBRuri value="/us-ky/act/krs/394.225/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/394.225/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/394.225/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_394_225">
+        <num>394.225</num>
+        <content>
+          <p>I, , the testator, sign my name to this instrument this day of , 19, and being first duly sworn, do hereby declare to the undersigned authority that I sign and execute this instrument as my last will and that I sign it willingly (or willingly direct another to sign for me), that I execute it as my free and voluntary act for the purposes therein expressed, and that I am eighteen (18) years of age or older, of sound mind, and under no constraint or undue influence. (Testator) We,, , the witnesses, sign our names to this instrument, being first duly sworn, and do hereby declare to the undersigned authority that the testator signs and executes this instrument as his last will and that he signs it willingly (or willingly directs another to sign for him), and that each of us, in the presence and hearing of the testator and in the presence of the other subscribing witness, hereby signs this will as witness to the testator’s signing, and that to the best of our knowledge the testator is eighteen (18) years of age or older, of sound mind, and under no constraint or undue influence. (Witness) (Witness) THE STATE OF COUNTY OF Subscribed, sworn to and acknowledged before me by , the testator and subscribed and sworn to before me by , and , witnesses, this day of . (Signed) (Signed) (OFFICIAL CAPACITY OF OFFICER)</p>
+          <p>Click to view</p>
+          <p>THE STATE OF COUNTY OF Before me, the undersigned authority, on this day personally appeared and known to me to be the testator and the witnesses, respectively, whose names are signed to the attached or foregoing instrument and, all of these persons being by me first duly sworn the testator, declared to me and to the witnesses in my presence that the instrument is his last will and that he had willingly signed or directed another to sign for him, and that he executed it as his free and voluntary act for the purposes therein expressed; and each of the witnesses stated to me, in the presence and hearing of the testator, that he signed the will as witness in the presence of the testator and of the other subscribing witness, and that to the best of his knowledge the testator was eighteen (18) years of age or over, of sound mind and under no constraint or undue influence. (Testator) (Witness) (Witness) (Witness) Subscribed, sworn and acknowledged before me by , the testator, subscribed and sworn before me by and ,witnesses, this day of , A.D., (OFFICIAL CAPACITY OF OFFICER)</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/80.280"/>
+          <FRBRuri value="/us-ky/act/krs/80.280"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/80.280/eng"/>
+          <FRBRuri value="/us-ky/act/krs/80.280/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/80.280/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/80.280/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_80_280">
+        <num>80.280</num>
+        <content>
+          <p>The exercise by a public body of the power to aid a housing authority may be authorized by resolution or ordinance of the legislative body of the public body adopted by a majority of the members of the legislative body present at a meeting of the legislative body, which resolution or ordinance may be adopted at the meeting at which it is introduced. The resolution or ordinance shall take effect immediately and need not be laid over or published or posted.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

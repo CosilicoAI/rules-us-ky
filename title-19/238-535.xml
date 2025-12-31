@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/238.535"/>
+          <FRBRuri value="/us-ky/act/krs/238.535"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/238.535/eng"/>
+          <FRBRuri value="/us-ky/act/krs/238.535/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/238.535/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/238.535/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_238_535">
+        <num>238.535</num>
+        <content>
+          <p>However, at no time shall a charitable organization’s total limitations under this subsection exceed twenty-five thousand dollars ($25,000).</p>
+          <p>Approval by the department shall be received prior to the conduct of the raffle drawing at the new location.</p>
+          <p>and shall be exempt from complying with the notification, application, and reporting requirements of subsections (2) and (13) of this section.</p>
+          <p>1.
+      The licensee notifies the department in writing that it desires to place its license in escrow; and</p>
+          <p>2.
+      The license is in good standing and the department has not initiated disciplinary action against the licensee.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

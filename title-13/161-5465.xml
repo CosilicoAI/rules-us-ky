@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/161.5465"/>
+          <FRBRuri value="/us-ky/act/krs/161.5465"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/161.5465/eng"/>
+          <FRBRuri value="/us-ky/act/krs/161.5465/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/161.5465/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/161.5465/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_161_5465">
+        <num>161.5465</num>
+        <content>
+          <p>On or after August 1, 1998, a member of the Teachers’ Retirement System in active contributing status who has a minimum of twenty (20) years of service credit may purchase up to a maximum of five (5) years of service credit that is not otherwise purchasable under any of the provisions of  to and that meets the definition of nonqualified service as provided in Section 1526 of the Federal Taxpayer Relief Act of 1997. The member shall pay the full actuarial cost of the service credit as provided in (22). The payment shall not be picked up by the employer as described in , and the member’s payment shall be credited to the member’s contribution account and shall be considered accumulated contributions of the member. Payment by the member may be by lump sum or by installment payments as provided in . Notwithstanding any other statute to the contrary, the Kentucky Teachers’ Retirement System shall recognize nonqualified service credit purchased with another retirement system only to the extent that the member had an equivalent number of full months of active employment in the position covered by the other retirement system during the period that the nonqualified service was purchased. This section shall not apply to individuals who become members on or after July 1, 2008, except that a teacher of a local school board may purchase up to ten (10) months of service under this section if the teacher is retiring and has completed the prior school year with at least twenty-six (26) years and two (2) months of service but less than twenty-seven (27) years of service.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

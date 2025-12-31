@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/381.9115"/>
+          <FRBRuri value="/us-ky/act/krs/381.9115"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/381.9115/eng"/>
+          <FRBRuri value="/us-ky/act/krs/381.9115/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/381.9115/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/381.9115/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_381_9115">
+        <num>381.9115</num>
+        <content>
+          <p>Unless displaced by a particular provision of  to 381.9207, the principles of law and equity, including the law of corporations and unincorporated associations, the law of real property, and the law relative to capacity to contract, principal and agent, eminent domain, estoppel, fraud, misrepresentation, duress, coercion, mistake, receivership, substantial performance, or other validating or invalidating cause, shall supplement  to 381.9207.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/99.565"/>
+          <FRBRuri value="/us-ky/act/krs/99.565"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/99.565/eng"/>
+          <FRBRuri value="/us-ky/act/krs/99.565/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/99.565/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/99.565/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_99_565">
+        <num>99.565</num>
+        <content>
+          <p>The council of any community, whose agency has received certification of availability of federal funds pursuant to section 101(c) of the National Housing Act of 1949, as amended may authorize the agency to acquire, by eminent domain, purchase, gift, grant, devise or otherwise, any real property in the development area or urban renewal area without regard to the conditions, restrictions, or provisions set forth in , or any other section of this chapter; if it finds by resolution that it is desirable and feasible to obtain federal financial assistance authorized by section 403 of the Housing Act of 1959 in acquiring such real property, and to sell, grant and convey any such real property if by resolution the agency consents to the disposal thereof.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

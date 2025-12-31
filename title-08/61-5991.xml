@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/61.5991"/>
+          <FRBRuri value="/us-ky/act/krs/61.5991"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/61.5991/eng"/>
+          <FRBRuri value="/us-ky/act/krs/61.5991/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/61.5991/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/61.5991/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_61_5991">
+        <num>61.5991</num>
+        <content>
+          <p>Except as otherwise provided by this section, the following shall apply to nonhazardous employers in the Kentucky Employees Retirement System, who contributed to the system in fiscal year 2019-2020 except in the case of county attorneys, who are local and district health departments governed by KRS , state-supported universities and community colleges, county attorneys, mental health/mental retardation boards, domestic violence shelters, rape crisis centers, child advocacy centers, or any other agency that is eligible to voluntarily cease participation in the Kentucky Employees Retirement System as provided by :</p>
+          <p>Eligibility for a subsidy provided in each fiscal year of the budget shall be based upon the most recent percentage of employees reported by the Authority;</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

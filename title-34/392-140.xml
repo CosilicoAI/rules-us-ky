@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/392.140"/>
+          <FRBRuri value="/us-ky/act/krs/392.140"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/392.140/eng"/>
+          <FRBRuri value="/us-ky/act/krs/392.140/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/392.140/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/392.140/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_392_140">
+        <num>392.140</num>
+        <content>
+          <p>Whenever a married person has become a confirmed mentally disabled person, the Circuit Court of the county in which is situated land belonging to the spouse of such disabled person may, upon the petition of the spouse of the mentally disabled person, adjudge the sale and conveyance, or the mortgage, of the inchoate right of dower or curtesy of the person under disability. The mentally disabled person and his guardian or conservator, if he has one, shall be made defendants to the action; if he has no guardian or conservator, the court shall appoint an attorney to defend for him, to whom the court shall make a reasonable allowance to be paid by the spouse of the mentally disabled person. A description of the land shall be given in the petition and the evidence of title of the spouse of the mentally disabled person filed therewith. If the court is satisfied by the proof that the mentally disabled spouse is a confirmed mentally disabled person, it may adjudge the sale and conveyance, or mortgage, of her inchoate right of dower or his inchoate right to curtesy in said land, and if the mentally disabled spouse has a guardian or conservator, the court may direct that he unite with the spouse of the mentally disabled person in the deed or mortgage; if the mentally disabled spouse has no guardian or conservator, the court shall appoint a commissioner who shall unite with the spouse of the mentally disabled person in the deed or mortgage. Before any judgment pursuant to this section shall be rendered, the spouse of the mentally disabled person, with at least two (2) good sureties, shall execute before the court a covenant to the Commonwealth for the benefit of the mentally disabled spouse, to be approved by the court, that the mentally disabled spouse will be paid the value of his right of dower or curtesy in the land should such right thereafter become complete.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

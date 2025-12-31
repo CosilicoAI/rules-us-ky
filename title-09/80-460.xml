@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/80.460"/>
+          <FRBRuri value="/us-ky/act/krs/80.460"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/80.460/eng"/>
+          <FRBRuri value="/us-ky/act/krs/80.460/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/80.460/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/80.460/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_80_460">
+        <num>80.460</num>
+        <content>
+          <p>Meetings of the members of a housing authority (including any housing authority created pursuant to  to  may be held anywhere within the perimeter boundaries of the area of operation or territorial jurisdiction of an authority or within any additional area where the housing authority is authorized to undertake a housing project, and any person may be appointed as a member of the housing authority who resides within boundaries or such additional area, and who is otherwise eligible for such appointment under  to or  to  as the case may be.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

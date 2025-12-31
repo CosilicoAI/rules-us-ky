@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/376.410"/>
+          <FRBRuri value="/us-ky/act/krs/376.410"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/376.410/eng"/>
+          <FRBRuri value="/us-ky/act/krs/376.410/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/376.410/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/376.410/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_376_410">
+        <num>376.410</num>
+        <content>
+          <p>Any person in whose favor a lien provided for in  exists may, before the District Court of the county where the cattle were fed or grazed, by himself or agent, make affidavit of the amount due him and in arrears for keeping and caring for the cattle, and describing as nearly as possible the cattle so kept by him. The court shall then issue a warrant, directed to the sheriff or any constable or town marshal of the county, authorizing him to levy upon and seize the cattle for the amount due, with interest and costs. If the cattle are removed with the consent and from the custody of the livery stable keeper or the person feeding or grazing them, the lien shall not continue longer than one (1) year from and after the removal, nor shall the lien in case of such removal be valid against a bona fide purchaser without notice at any time after the removal. The warrant may be issued to a county other than that in which the cattle were fed or grazed, and the lien may also be enforced by action as in the case of other liens.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

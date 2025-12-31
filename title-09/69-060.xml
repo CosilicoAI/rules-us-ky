@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/69.060"/>
+          <FRBRuri value="/us-ky/act/krs/69.060"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/69.060/eng"/>
+          <FRBRuri value="/us-ky/act/krs/69.060/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/69.060/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/69.060/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_69_060">
+        <num>69.060</num>
+        <content>
+          <p>Whenever the Commonwealth’s or county attorney is absent, the Chief Judge of the appropriate court may appoint a suitable attorney to act as Commonwealth’s or county attorney during his absence to prosecute criminal cases in the respective court. Such pro tem Commonwealth’s or county attorney shall receive for his services the same compensation which the regular Commonwealth’s or county attorney would receive for such criminal prosecutorial duties, on a proportional basis, to be paid out of the State Treasury on certificate of the Circuit Court clerk. The judge shall not appoint an attorney to act in the place of the Commonwealth’s attorney unless he and the county attorney are both absent, or are related to or counsel for the accused, except that in cases of felony the judge may appoint a pro tem Commonwealth’s attorney even though the county attorney is present and not disqualified.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

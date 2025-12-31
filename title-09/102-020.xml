@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/102.020"/>
+          <FRBRuri value="/us-ky/act/krs/102.020"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/102.020/eng"/>
+          <FRBRuri value="/us-ky/act/krs/102.020/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/102.020/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/102.020/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_102_020">
+        <num>102.020</num>
+        <content>
+          <p>“Article I.
+    The objects of this corporation shall be to advance and improve civic welfare, and to advertise and develop the industries and resources of
+    . . . . . . . . . . . . . . . . . . . . , Kentucky.</p>
+          <p>“Article II.
+    The name of this corporation shall be
+    . . . . . . . . . . . . . . . . . . . .
+    Chamber of Commerce.</p>
+          <p>“Article III.
+    The affairs of this corporation shall be conducted by a board of not less than six (6) directors, and such officers as may be established by the bylaws of the corporation.</p>
+          <p>“Article IV.
+    The annual dues of the members of this corporation shall be not less than twelve dollars ($12), payable as provided in the bylaws of the corporation.</p>
+          <p>“Article V.
+    Any resident of the city or county, or any firm or individual operating a business or branch office therein, whose application meets with the approval of the board of directors, may become a member by paying the first dues, and thereafter complying with the articles of incorporation and bylaws.</p>
+          <p>“Article VI.
+    This corporation shall continue until terminated by operation of law.</p>
+          <p>“Article VII.
+    The board of directors shall adopt such bylaws as they deem necessary for the regulation of the affairs of this corporation.”</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

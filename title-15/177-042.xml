@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/177.042"/>
+          <FRBRuri value="/us-ky/act/krs/177.042"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/177.042/eng"/>
+          <FRBRuri value="/us-ky/act/krs/177.042/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/177.042/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/177.042/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_042">
+        <num>177.042</num>
+        <content>
+          <p>The commissioner of highways on and after July 1, 1942, may designate such city streets or portions thereof, including viaducts and bridges, as in his discretion are connecting links of state or federal maintained highways or that he may in his discretion determine to be necessary feeder streets and necessary to produce an adequate system of highways. The Department of Highways shall prepare and cause a record of such city streets so designated and upon each such designation it shall furnish to each city a statement of the streets so designated in that city.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

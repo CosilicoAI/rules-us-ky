@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/139.330"/>
+          <FRBRuri value="/us-ky/act/krs/139.330"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/139.330/eng"/>
+          <FRBRuri value="/us-ky/act/krs/139.330/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/139.330/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/139.330/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_139_330">
+        <num>139.330</num>
+        <content>
+          <p>Every person storing, using or otherwise consuming in this state tangible personal property, digital property, or an extended warranty service purchased from a retailer is liable for the use tax levied under . His liability is not extinguished until the tax has been paid to this state, except that a receipt from a retailer engaged in business in this state or from a retailer who is authorized by the department, under such rules and regulations as it may prescribe, to collect the tax and who is, for the purpose of this chapter relating to the use tax, regarded as a retailer engaged in business in this state, given to the purchaser pursuant to  is sufficient to relieve the purchaser from further liability for the tax to which the receipt refers.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

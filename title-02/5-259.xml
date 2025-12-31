@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/5.259"/>
+          <FRBRuri value="/us-ky/act/krs/5.259"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/5.259/eng"/>
+          <FRBRuri value="/us-ky/act/krs/5.259/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/5.259/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/5.259/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_259">
+        <num>5.259</num>
+        <content>
+          <p>The Fifty-ninth Representative District shall consist of the following territory:</p>
+          <p>—CENSUS— COUNTY PREC NAME TRACT BLK SECT OLDHAM A101 NORTH GOSHEN OLDHAM A103 HARMONY OLDHAM A104 SOUTH HARMONY OLDHAM A105 SOUTH GOSHEN OLDHAM B101 SKYLIGHT OLDHAM B103 CENTRAL PRECINCT OLDHAM B104 WEST BUCKNER OLDHAM B105 NORTHEAST BUCKNER OLDHAM C101 COVINGTON OLDHAM C102 NORTH LAGRANGE OLDHAM C104 EAST LAGRANGE OLDHAM C105 WESTPORT OLDHAM D101 SOUTHEAST LAGRANGE OLDHAM D102 WEST LAGRANGE OLDHAM D103 EAST BALLARDSVILLE OLDHAM D104 WEST BALLARDSVILLE OLDHAM D105 MAIN PRECINCT OLDHAM E101 EAST WORTH OLDHAM E102 WEST WORTH OLDHAM F102 EAST BUCKNER OLDHAM F103 GLENARM 030602 2000 OLDHAM F103 GLENARM 030602 2001 OLDHAM F103 GLENARM 030602 2002 OLDHAM F103 GLENARM 030602 2003 OLDHAM F103 GLENARM 030602 2004 OLDHAM F103 GLENARM 030602 2019 OLDHAM F103 GLENARM 030602 2020 OLDHAM F103 GLENARM 030602 2021 OLDHAM F103 GLENARM 030602 2022 OLDHAM F103 GLENARM 030602 2023 OLDHAM F103 GLENARM 030602 3000 OLDHAM F103 GLENARM 030602 3001 OLDHAM F103 GLENARM 030602 3002 OLDHAM F103 GLENARM 030602 3003 OLDHAM F103 GLENARM 030602 3004 OLDHAM F103 GLENARM 030602 3005 OLDHAM F103 GLENARM 030602 3007 OLDHAM F103 GLENARM 030602 3009 OLDHAM F103 GLENARM 030702 1051 OLDHAM F103 GLENARM 030702 1052 OLDHAM F103 GLENARM 030702 1053 OLDHAM F103 GLENARM 030702 1054 OLDHAM F103 GLENARM 030702 1055 OLDHAM F103 GLENARM 030702 1056 OLDHAM F103 GLENARM 030702 1057 OLDHAM F103 GLENARM 030702 1079 OLDHAM F104 CENTERFIELD OLDHAM F105 SOUTH LAGRANGE OLDHAM G101 WEST BROWNSBORO OLDHAM G104 COVERED BRIDGE OLDHAM H105 EAST BROWNSBORO</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

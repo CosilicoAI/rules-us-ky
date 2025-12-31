@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/342.460"/>
+          <FRBRuri value="/us-ky/act/krs/342.460"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/342.460/eng"/>
+          <FRBRuri value="/us-ky/act/krs/342.460/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/342.460/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/342.460/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_342_460">
+        <num>342.460</num>
+        <content>
+          <p>If any such insurance carrier withdraws from business in this state before the special fund assessments and other taxes required in this chapter fall due or fails to pay such tax, the funding commission shall at once proceed to collect it. The funding commission may employ any legal process necessary for that purpose. The suit may be brought by the funding commission in any court of this state having jurisdiction. Reasonable attorney’s fees may be taxed as costs therein, and process may issue to any county of the state and may be served as in civil actions, or, in cases of unincorporated associations, partnerships, interindemnity contracts or other plan or scheme, upon the principal agent of the parties thereto.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

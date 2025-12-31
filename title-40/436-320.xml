@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/436.320"/>
+          <FRBRuri value="/us-ky/act/krs/436.320"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/436.320/eng"/>
+          <FRBRuri value="/us-ky/act/krs/436.320/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/436.320/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/436.320/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_436_320">
+        <num>436.320</num>
+        <content>
+          <p>No person owning or controlling a billiard or pool table shall permit, for compensation or reward, any minor under eighteen (18) years of age to play any game on the table, unless such minor shall have first displayed an identification card containing his name, age, photograph, and the signature of his parents or guardian. The minor shall keep such identification card on his person, and it shall be subject to inspection at any time by any peace officer. The person owning or controlling such billiard or pool table shall keep and maintain a registration book in which each minor shall sign. The person owning or controlling such billiard or pool table shall supply a blank identification card to each parent or guardian who makes request for same. Any person who violates this section shall be fined not less than ten ($10) nor more than one hundred dollars ($100) for each offense.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

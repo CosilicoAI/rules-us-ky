@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/162.450"/>
+          <FRBRuri value="/us-ky/act/krs/162.450"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/162.450/eng"/>
+          <FRBRuri value="/us-ky/act/krs/162.450/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/162.450/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/162.450/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_162_450">
+        <num>162.450</num>
+        <content>
+          <p>The board of education authorized to establish an insurance fund pursuant to  may raise the maximum limit of the insurance fund from time to time as it deems best. Until the amount in the fund equals the maximum limit, the board of education shall each year, from the revenues under its control, set apart to the fund a sum equal to from one-twentieth (1/20) to one-tenth (1/10) of the maximum limit of the sum. When any portion of the fund is used, payments to restore the fund shall at once be begun and be continued until the restoration is complete. When the fund is, for any reason, below the maximum limit, the interest derived from the investment thereof shall be accumulated and added to the fund; otherwise the interest may be transferred to the general funds of the board.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

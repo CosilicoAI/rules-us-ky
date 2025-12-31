@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/421.030"/>
+          <FRBRuri value="/us-ky/act/krs/421.030"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/421.030/eng"/>
+          <FRBRuri value="/us-ky/act/krs/421.030/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/421.030/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/421.030/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_421_030">
+        <num>421.030</num>
+        <content>
+          <p>A Commonwealth’s witness in a felony case who resides in another state shall be allowed his necessary expenses in addition to the per diem, but no such allowance shall be made unless the judge of the court has made an order based upon the personal knowledge of the Circuit Judge or upon information showing that the testimony of the witness is material to the state, requiring the attendance of the witness. The expense and per diem shall be allowed by the Circuit Court and certified to the circuit clerk for payment.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/108.180"/>
+          <FRBRuri value="/us-ky/act/krs/108.180"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/108.180/eng"/>
+          <FRBRuri value="/us-ky/act/krs/108.180/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/108.180/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/108.180/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_108_180">
+        <num>108.180</num>
+        <content>
+          <p>Any member city or county or unincorporated area of the district may withdraw its membership after following the procedures defined in subsections (1), (2), and (3) of . The district shall continue to function after such withdrawals, with its boundaries consisting of the remaining county or city or unincorporated area members. No city or county or unincorporated area may withdraw from any district unless it satisfies its part of all contractual obligations assumed by the district prior to the passage of its resolution to the satisfaction of the board.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/66.320"/>
+          <FRBRuri value="/us-ky/act/krs/66.320"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/66.320/eng"/>
+          <FRBRuri value="/us-ky/act/krs/66.320/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/66.320/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/66.320/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_66_320">
+        <num>66.320</num>
+        <content>
+          <p>Any county, upon petition of its fiscal court, is entitled as a matter of right to the assistance of the state local debt officer in formulating a plan for reorganizing its debt structure. When any county is in default on the principal or interest of any indebtedness, or gives evidence of becoming unable to meet principal or interest maturities on any funded indebtedness within a reasonable time, or has an indebtedness which might, with advantage to the county, be funded or refunded, the state local debt officer may investigate the debt situation and credit standing of the county and negotiate with officials and creditors of the county for the purpose of formulating a plan for issuing or reissuing bonds.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

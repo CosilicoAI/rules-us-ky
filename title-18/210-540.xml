@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/210.540"/>
+          <FRBRuri value="/us-ky/act/krs/210.540"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/210.540/eng"/>
+          <FRBRuri value="/us-ky/act/krs/210.540/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/210.540/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/210.540/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_210_540">
+        <num>210.540</num>
+        <content>
+          <p>The compact administrator is authorized and empowered to enter into supplementary agreements with appropriate officials of other states pursuant to Articles VII and XI of the compact. In the event that such supplementary agreements shall require or contemplate the use of any institution or facility of this state or require or contemplate the provision of any service by this state, no such agreement shall have force or effect until approved by the head of the cabinet or agency under whose jurisdiction said institution or facility is operated or whose cabinet or agency will be charged with the rendering of such service.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

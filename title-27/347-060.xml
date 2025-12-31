@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/347.060"/>
+          <FRBRuri value="/us-ky/act/krs/347.060"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/347.060/eng"/>
+          <FRBRuri value="/us-ky/act/krs/347.060/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/347.060/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/347.060/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_347_060">
+        <num>347.060</num>
+        <content>
+          <p>The Cabinet for Health and Family Services, the Education and Workforce Development Cabinet, and the Department of Education may assess reasonable charges for services rendered under this chapter, based upon a sliding fee scale which takes into account the extensive services required as a result of, and the extraordinary expenses related to, a developmental disability; provided that no charges for services rendered under this chapter may be assessed for compliance with requirements and responsibilities mandated under any state or federal act as provided under subsection (5) of .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

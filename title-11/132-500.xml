@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/132.500"/>
+          <FRBRuri value="/us-ky/act/krs/132.500"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/132.500/eng"/>
+          <FRBRuri value="/us-ky/act/krs/132.500/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/132.500/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/132.500/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_132_500">
+        <num>132.500</num>
+        <content>
+          <p>Each property valuation administrator, upon receiving from the county clerk the statement of purchase money notes, mortgage notes, and other obligations, shall fix the value upon each, estimated at the price it would bring at a fair voluntary sale, and enter the same in his tax book against the owner or beneficial holder thereof in the same manner as other property is entered. The statement shall be returned by the property valuation administrator, with his tax books, schedules, and list of conveyances, to the county clerk of his county for the use of the board of assessment appeals.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

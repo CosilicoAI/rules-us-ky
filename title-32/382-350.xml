@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/382.350"/>
+          <FRBRuri value="/us-ky/act/krs/382.350"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/382.350/eng"/>
+          <FRBRuri value="/us-ky/act/krs/382.350/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/382.350/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/382.350/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_382_350">
+        <num>382.350</num>
+        <content>
+          <p>Any person who, with actual or constructive notice of a recorded real property mortgage or vendor’s lien, and without the written consent of the record holder thereof, purchases, severs or removes from the land covered by the mortgage or lien, any standing timber, buildings, minerals, or improvements in the nature of fixtures real, covered by and included in the mortgage or lien, and who converts such property to his own use, shall take such property subject to the mortgage or vendor’s liens, and the respective priorities thereof, and shall be liable to the holders of the mortgages or liens for a return of such property or for the reasonable market value thereof at the time of the purchase or severance or removal and conversion thereof at the option of the holder of the mortgage or lien. But no holder of a mortgage or a vendor’s lien shall recover more than the amount of the indebtedness secured by his mortgage or vendor’s lien, and any amount recovered by the holder of the mortgage or vendor’s lien shall be credited on the indebtedness secured thereby.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

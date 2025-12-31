@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/352.330"/>
+          <FRBRuri value="/us-ky/act/krs/352.330"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/352.330/eng"/>
+          <FRBRuri value="/us-ky/act/krs/352.330/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/352.330/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/352.330/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_352_330">
+        <num>352.330</num>
+        <content>
+          <p>The mine foreman shall exercise general supervision over the ventilating apparatus and the airways, traveling ways, working places, pumps and drainage, and shall see that as the miners advance their excavations proper breakthroughs are made as required by law to properly ventilate the mine. He shall see that employees are provided with sufficient props, cap pieces, and timbers of suitable size, which shall be delivered to the working place and shall see that the props are cut as square as practicable at both ends and as near as practicable to the proper length required or designated for the places where they are to be used. The mine foreman shall see that the water is drained as nearly as practicable out of the working places, and that the working places are kept as free from water as practicable during working hours. He shall see that every person employed to work in the mine is, before beginning to work, instructed in the particular danger incident to his work in the mine and furnished a copy of the rules of the mine. He shall immediately report all violations of the mining laws to the operator or superintendent, who shall report the violations to the mine inspector.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

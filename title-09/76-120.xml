@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/76.120"/>
+          <FRBRuri value="/us-ky/act/krs/76.120"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/76.120/eng"/>
+          <FRBRuri value="/us-ky/act/krs/76.120/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/76.120/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/76.120/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_76_120">
+        <num>76.120</num>
+        <content>
+          <p>Where railroad tracks, street railroad tracks, gas or water pipes, telephone wires, telegraph wires, electric light or power lines, or conduits, for carrying telephone or telegraph or electric wires, or poles, or other structures of any public service corporation, extend in, along or across any part of the work authorized by  to  it shall be and become the duty of the person or corporation owning or using such tracks, pipes, wires, conduits, poles, or other structures, to make such changes in the same at the expense of the district as may be required during the construction of any improvement provided for in  to  and to construct or rebuild at the expense of the district its tracks, pipes, wires, conduits, poles, or other structures, over or along the work by  to authorized and constructed, and at its own expense to maintain the same after such work has been completed; provided, however, such changes of that part of such tracks, pipes, wires, conduits, poles or other structures as may be or extend in a public way, shall be made at the expense of the public service corporation owning or using the same only if necessary to afford the district reasonable use of such public way. Reasonable notice in writing of such necessary changes shall be given by the district to the parties concerned. The district may, after obtaining the written approval of the agency owning the right-of-way thereof, enter upon streets, highways, bridges, or public places, for the purpose of constructing any additions, betterments, or extensions of the facilities of the district. Whenever the district has entered upon and damaged any street, highway, bridge, or other public place, same shall be restored to its former condition at the expense of the district.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

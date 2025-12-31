@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/605.115"/>
+          <FRBRuri value="/us-ky/act/krs/605.115"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/605.115/eng"/>
+          <FRBRuri value="/us-ky/act/krs/605.115/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/605.115/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/605.115/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_605_115">
+        <num>605.115</num>
+        <content>
+          <p>The commissioner of the Department of Juvenile Justice and the secretary of the Cabinet for Health and Family Services, with the cooperation of the Kentucky Board of Education and the commissioner of education, shall implement policies to assure that local school districts providing a funding match shall have direct access to Medicaid funding as Medicaid providers for the provision of health-related services to eligible children with disabilities under the age of twenty-one (21) years of age. They shall develop policies and procedures so the Department of Education can transfer the local school districts’ matching funds to the Department for Medicaid Services. They shall also review state and federal statutes and regulations to determine the eligibility of local school districts to receive Medicaid reimbursement for health-related services identified on a child’s individual education plan.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

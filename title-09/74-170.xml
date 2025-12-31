@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/74.170"/>
+          <FRBRuri value="/us-ky/act/krs/74.170"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/74.170/eng"/>
+          <FRBRuri value="/us-ky/act/krs/74.170/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/74.170/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/74.170/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_74_170">
+        <num>74.170</num>
+        <content>
+          <p>Any landowner whose land is assessed for any improvement under the provisions of this chapter may pay his assessment in full at any time within thirty (30) days after notice of assessment has been given. Every person who fails to pay the full amount of his assessment to the treasurer of the commission within thirty (30) days shall be deemed as consenting to the issuing of water district bonds or the taking of a loan by the district, to be repaid out of assessment revenues.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

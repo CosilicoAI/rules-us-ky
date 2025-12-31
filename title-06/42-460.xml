@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/42.460"/>
+          <FRBRuri value="/us-ky/act/krs/42.460"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/42.460/eng"/>
+          <FRBRuri value="/us-ky/act/krs/42.460/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/42.460/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/42.460/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42_460">
+        <num>42.460</num>
+        <content>
+          <p>Except as provided in , any assistance granted under  to shall include an agreement that an independent annual audit shall be conducted and that the audit report shall include a certification that the funds were expended for the purpose intended. A copy of the audit and certification of compliance shall be forwarded to the Department for Local Government, in the case of assistance granted from the local government economic assistance fund or the local government economic development fund as allocated in  and (b), or to the Cabinet for Economic Development and the Kentucky Economic Development Finance Authority, in the case of assistance granted from the local government economic development fund, within eighteen (18) months after the end of the fiscal year.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

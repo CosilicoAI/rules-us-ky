@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/279.530"/>
+          <FRBRuri value="/us-ky/act/krs/279.530"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/279.530/eng"/>
+          <FRBRuri value="/us-ky/act/krs/279.530/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/279.530/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/279.530/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_279_530">
+        <num>279.530</num>
+        <content>
+          <p>Corporations formed under  to shall be exempt from all profit taxes, gross and net taxes, sales taxes, occupation taxes, privilege taxes, income taxes, taxes on telephone service and from all excise taxes whatsoever, any statute now existing or hereafter passed to the contrary notwithstanding. In lieu of all other state, county, city and district taxes, except ad valorem and franchise taxes, corporations formed under  to shall pay to the State Treasurer an annual tax of ten dollars ($10).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

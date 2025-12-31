@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/278.320"/>
+          <FRBRuri value="/us-ky/act/krs/278.320"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/278.320/eng"/>
+          <FRBRuri value="/us-ky/act/krs/278.320/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/278.320/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/278.320/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_278_320">
+        <num>278.320</num>
+        <content>
+          <p>The commission and each of the commissioners may issue subpoenas, subpoenas duces tecum, and all necessary process in proceedings brought before or initiated by the commission, and such process shall extend to all parts of the state. Service of process in all proceedings brought before or initiated by the commission may be made by certified mail, return receipt requested or by registered mail, or in the same manner as other process in civil cases, as the commission directs.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

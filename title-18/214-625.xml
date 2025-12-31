@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/214.625"/>
+          <FRBRuri value="/us-ky/act/krs/214.625"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/214.625/eng"/>
+          <FRBRuri value="/us-ky/act/krs/214.625/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/214.625/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/214.625/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_214_625">
+        <num>214.625</num>
+        <content>
+          <p>No person to whom the results of a test have been disclosed shall disclose the test results to another person except as authorized by this subsection. When disclosure is made pursuant to this subsection, it shall be accompanied by a statement in writing which includes the following or substantially similar language: “This information has been disclosed to you from records whose confidentiality is protected by state law. State law prohibits you from making any further disclosure of such information without the specific written consent of the person to whom such information pertains, or as otherwise permitted by state law. A general authorization for the release of medical or other information is NOT sufficient for this purpose.” An oral disclosure shall be accompanied by oral notice and followed by a written notice within ten (10) days.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

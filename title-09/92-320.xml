@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/92.320"/>
+          <FRBRuri value="/us-ky/act/krs/92.320"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/92.320/eng"/>
+          <FRBRuri value="/us-ky/act/krs/92.320/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/92.320/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/92.320/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_92_320">
+        <num>92.320</num>
+        <content>
+          <p>Any person having a license to operate a horse-drawn vehicle in the city in which he resides or has his principal place of business may also, for the purpose of doing business incidental to his principal business, operate the vehicle upon the streets of any other city without paying any additional license fee to such other city, but such license shall not authorize him to establish his principal place of business or conduct his principal business in any city except the one (1) that granted his license.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

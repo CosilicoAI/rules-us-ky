@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/342.715"/>
+          <FRBRuri value="/us-ky/act/krs/342.715"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/342.715/eng"/>
+          <FRBRuri value="/us-ky/act/krs/342.715/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/342.715/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/342.715/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_342_715">
+        <num>342.715</num>
+        <content>
+          <p>Notwithstanding the provisions of , during the period the employee is eligible for permanent total disability benefits and is actively participating in a vocational or physical rehabilitation program, pursuant to an order of the administrative law judge, the employee’s benefits shall be calculated by taking eighty percent (80%) of his average weekly wage, but not more than one hundred percent (100%) of the state’s average weekly wage, times the permanent disability rating as determined in this chapter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

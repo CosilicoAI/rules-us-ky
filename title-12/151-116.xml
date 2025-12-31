@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/151.116"/>
+          <FRBRuri value="/us-ky/act/krs/151.116"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/151.116/eng"/>
+          <FRBRuri value="/us-ky/act/krs/151.116/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/151.116/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/151.116/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_151_116">
+        <num>151.116</num>
+        <content>
+          <p>The cabinet shall promulgate regulations to carry out the program and shall consult with the Cabinet for Economic Development in developing those regulations. The regulations shall set out the details which are to be included in the water supply plans, the procedure for counties and their municipalities and public water systems to apply for financial assistance to pay for the plans, and the criteria and process by which the cabinet will approve plans. The cabinet shall assemble all information in a uniform database available to all agencies and concerned entities.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

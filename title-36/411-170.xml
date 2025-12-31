@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/411.170"/>
+          <FRBRuri value="/us-ky/act/krs/411.170"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/411.170/eng"/>
+          <FRBRuri value="/us-ky/act/krs/411.170/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/411.170/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/411.170/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_411_170">
+        <num>411.170</num>
+        <content>
+          <p>An ordinary or equitable action may be brought upon a bill of exchange, or a note or other obligation, or upon an indorsement or assignment thereof, which, or upon a judgment the record of which, is lost, destroyed, mutilated, or defaced, without fraud on the part of the plaintiff, or of those under whom he claims. But no action shall be brought upon an instrument transferable by delivery, merely, which is alleged to be lost, destroyed, mutilated, or defaced, without a previous tender by the plaintiff to the defendant, if his name and place of residence be known to the plaintiff, of an indemnifying bond, with good surety, nor shall judgment be given against the defendant, in such action, until such bond is given, with good surety approved by the court.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

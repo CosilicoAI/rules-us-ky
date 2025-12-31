@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/365.455"/>
+          <FRBRuri value="/us-ky/act/krs/365.455"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/365.455/eng"/>
+          <FRBRuri value="/us-ky/act/krs/365.455/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/365.455/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/365.455/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_365_455">
+        <num>365.455</num>
+        <content>
+          <p>A copy of the application for a license to conduct a sale under  to and  including the inventory filed herewith, shall be posted in a conspicuous place in the sales room or place where the inventoried goods are to be sold, so that the public may be informed of the facts relating to the goods before purchasing same, but the copy need not show the cost price of the goods. The duplicate copy of a license shall be attached to the front door of the premises where the sale is conducted in such a manner that it be clearly visible from the street. All advertising relating to the sale shall prominently state the final date of the sale and the number of the license. All such advertising shall be confined to or refer only to the address and place of business specified in the inventory as to be discontinued.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

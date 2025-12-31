@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/268.570"/>
+          <FRBRuri value="/us-ky/act/krs/268.570"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/268.570/eng"/>
+          <FRBRuri value="/us-ky/act/krs/268.570/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/268.570/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/268.570/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_268_570">
+        <num>268.570</num>
+        <content>
+          <p>Any owner may use the drain as an outlet for lateral ditches from his land. If his land is separated from the drain by the land of another and they are unable to agree as to the conditions on which one may enter another’s land and construct the ditch, he may file his ancillary petition in the pending proceeding to the court, and secure condemnation as provided for in the Eminent Domain Act of Kentucky. When the ditch is constructed, it shall become a part of the drainage system and shall be under the control of the board and kept in repair by it.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

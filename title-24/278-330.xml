@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/278.330"/>
+          <FRBRuri value="/us-ky/act/krs/278.330"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/278.330/eng"/>
+          <FRBRuri value="/us-ky/act/krs/278.330/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/278.330/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/278.330/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_278_330">
+        <num>278.330</num>
+        <content>
+          <p>The commission and each of the commissioners, for the purposes mentioned in the preceding sections of this chapter, may administer oaths, examine witnesses, and certify official acts. If any person fails to comply with any lawful order of the commission or of any commissioner, or with process, or if any witness refuses to testify concerning any matter on which he may lawfully be interrogated, any Circuit Judge, on application of the commission or of a commissioner, may compel obedience by proceedings for contempt as in the case of disobedience of a subpoena issued from the circuit court or a refusal to testify therein. Witnesses summoned before the commission, and witnesses whose depositions are taken pursuant to the provisions of the preceding sections of this chapter, and the officer taking the depositions, shall be entitled to the same fees as are paid for like services in circuit courts, the fees to be paid by the party in whose behalf the witness is subpoenaed.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

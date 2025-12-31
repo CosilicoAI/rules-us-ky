@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/447.030"/>
+          <FRBRuri value="/us-ky/act/krs/447.030"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/447.030/eng"/>
+          <FRBRuri value="/us-ky/act/krs/447.030/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/447.030/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/447.030/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_447_030">
+        <num>447.030</num>
+        <content>
+          <p>The Session Acts and Resolutions
+    of the General Assembly heretofore or hereafter published, the editions of
+    the Statutes of Kentucky by Daniel Bradford, by William Littell, by Littell
+    and Swigert, by Morehead and Brown, and in part by Preston S. Loughborough,
+    the edition of the Virginia Statutes by William Waller Henning, Richard H.
+    Stanton’s new edition of the Revised Statutes of Kentucky, the supplement
+    to the Revised Statutes by Harvey Myers, the General Statutes, the Codes of
+    Practice, the various editions of Carroll’s Kentucky Statutes and supplements
+    thereto published prior to 1940, and the various editions of Carroll’s Kentucky
+    Codes and the supplements thereto, shall be received, in the courts and tribunals
+    of this state, as evidence of the statute laws in force in this state at the
+    time of their publication.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

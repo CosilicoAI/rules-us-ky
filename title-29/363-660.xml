@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/363.660"/>
+          <FRBRuri value="/us-ky/act/krs/363.660"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/363.660/eng"/>
+          <FRBRuri value="/us-ky/act/krs/363.660/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/363.660/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/363.660/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_363_660">
+        <num>363.660</num>
+        <content>
+          <p>With respect to the enforcement of  to and any other law dealing with weights and measures that he is or may be empowered to enforce, the director is hereby vested with special police powers, and is authorized to arrest, without formal warrant, any violator of the said law, and to seize for use as evidence, without formal warrant, incorrect or unsealed weights and measures or amounts or packages of commodity found to be used, retained, offered, or exposed for sale or sold in violation of law. In the performance of his official duties, the director is authorized to enter and go into or upon, without formal warrant, any structure or premises, and to stop any person whatsoever and to require him to proceed, with or without any vehicle of which he may be in charge, to some place which the director may specify.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

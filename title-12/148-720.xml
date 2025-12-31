@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/148.720"/>
+          <FRBRuri value="/us-ky/act/krs/148.720"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/148.720/eng"/>
+          <FRBRuri value="/us-ky/act/krs/148.720/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/148.720/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/148.720/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_148_720">
+        <num>148.720</num>
+        <content>
+          <p>The use of motorized vehicles by the general public within the right-of-way of any state scenic or recreation trail shall be prohibited and nothing in  to shall be construed as authorizing the use of motorized vehicles in these rights-of-way; provided, that the department shall establish regulations which shall authorize the use of motorized vehicles when such vehicles are required to meet emergencies where life or health is at risk, for the maintenance of established trails, or to enable present or adjacent landowners or land users to have access to their lands or timber rights where no reasonable alternative method of access exists or could be constructed. Prosecution for violation of this section may be initiated by a peace officer who witnessed an offense in violation of this section or by any private citizen who witnessed any violation of this section who is willing to make the initial charge and testify for the state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

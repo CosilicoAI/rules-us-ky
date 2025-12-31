@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/391.230"/>
+          <FRBRuri value="/us-ky/act/krs/391.230"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/391.230/eng"/>
+          <FRBRuri value="/us-ky/act/krs/391.230/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/391.230/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/391.230/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_391_230">
+        <num>391.230</num>
+        <content>
+          <p>If the title to any property to which  to applies is held by the surviving spouse at the time of the decedent’s death, the personal representative or an heir or devisee of the decedent may institute an action to perfect title to the property. The personal representative has no fiduciary duty to discover or attempt to discover whether any property held by the surviving spouse is property to which  to applies, unless a written demand is made by an heir, devisee, or creditor of the decedent.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/5.138"/>
+          <FRBRuri value="/us-ky/act/krs/5.138"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/5.138/eng"/>
+          <FRBRuri value="/us-ky/act/krs/5.138/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/5.138/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/5.138/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_138">
+        <num>5.138</num>
+        <content>
+          <p>The Thirty-eighth Senatorial District shall consist of the following territory:</p>
+          <p>—CENSUS— COUNTY PREC NAME TRACT BLK SECT BULLITT JEFFERSON B124 PRECINCT 124 29 DISTRICT JEFFERSON B127 PRECINCT 127 29 DISTRICT JEFFERSON B130 PRECINCT 130 29 DISTRICT JEFFERSON B131 PRECINCT 131 29 DISTRICT JEFFERSON B134 PRECINCT 134 29 DISTRICT JEFFERSON B143 PRECINCT 143 29 DISTRICT JEFFERSON B149 PRECINCT 149 29 DISTRICT JEFFERSON B158 PRECINCT 158 29 DISTRICT JEFFERSON B162 PRECINCT 162 29 DISTRICT JEFFERSON B167 PRECINCT 167 29 DISTRICT JEFFERSON B169 PRECINCT 169 29 DISTRICT JEFFERSON B173 PRECINCT 173 29 DISTRICT JEFFERSON B175 PRECINCT 175 29 DISTRICT JEFFERSON H145 PRECINCT 145 35 DISTRICT JEFFERSON H148 PRECINCT 148 35 DISTRICT JEFFERSON I125 PRECINCT 125 37 DISTRICT JEFFERSON I126 PRECINCT 126 37 DISTRICT JEFFERSON I133 PRECINCT 133 37 DISTRICT JEFFERSON I135 PRECINCT 135 37 DISTRICT JEFFERSON J123 PRECINCT 123 38 DISTRICT JEFFERSON Q118 PRECINCT 118 46 DISTRICT JEFFERSON Q128 PRECINCT 128 46 DISTRICT JEFFERSON Q129 PRECINCT 129 46 DISTRICT JEFFERSON Q131 PRECINCT 131 46 DISTRICT JEFFERSON Q133 PRECINCT 133 46 DISTRICT</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

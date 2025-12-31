@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/376.100"/>
+          <FRBRuri value="/us-ky/act/krs/376.100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/376.100/eng"/>
+          <FRBRuri value="/us-ky/act/krs/376.100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/376.100/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/376.100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_376_100">
+        <num>376.100</num>
+        <content>
+          <p>The owner or claimant of property against which a lien has been asserted, or any contractor or other person contracting with the owner or claimant of such property for the furnishing of any improvements or services for which a lien is created by this chapter or any subcontractor or other person in privity with the contractor, may, at any time before a judgment is rendered enforcing the lien, execute before the county clerk in which the lien was filed a bond for double the amount of the lien claimed with good sureties to be approved by the clerk, conditioned upon the obligors satisfying any judgment that may be rendered in favor of the person asserting the lien. The bond shall be preserved by the clerk, and upon its execution the lien upon the property shall be discharged. The person asserting the lien may make the obligors in the bond parties to any action to enforce his claim, and any judgment recovered may be against all or any of the obligors on the bond.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

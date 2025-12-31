@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/80.150"/>
+          <FRBRuri value="/us-ky/act/krs/80.150"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/80.150/eng"/>
+          <FRBRuri value="/us-ky/act/krs/80.150/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/80.150/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/80.150/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_80_150">
+        <num>80.150</num>
+        <content>
+          <p>If it becomes necessary to condemn property for the purpose of constructing any housing that an authority may be permitted to acquire, establish, and operate under , or securing rights of way leading thereto, the authority may, by resolution reciting the need, order the condemnation of any land or improvement or interest in land, that it deems necessary. Proceedings for the condemnation shall be in the Circuit Court of the county in which the property lies, and shall be conducted in the name of the authority. The city attorney shall conduct the proceedings for the authority. The judgment of the court shall vest title in fee simple to the property condemned in the authority. In all other respects the form and manner of the proceedings shall be the same as that provided in the Eminent Domain Act of Kentucky. No payment or award in any condemnation proceedings, or for the cost or expense of the proceedings, shall be made except from funds provided under the authority of this chapter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

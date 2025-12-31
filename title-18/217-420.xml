@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/217.420"/>
+          <FRBRuri value="/us-ky/act/krs/217.420"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/217.420/eng"/>
+          <FRBRuri value="/us-ky/act/krs/217.420/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/217.420/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/217.420/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_217_420">
+        <num>217.420</num>
+        <content>
+          <p>No person shall sell, offer for sale, give away, deal in or supply, or have in his possession for that purpose, any article of food or drink or any medicinal or toilet preparation intended for human use internally or externally that contains any methyl alcohol, otherwise known as wood alcohol or wood naphtha, either crude or refined, or that contains denatured alcohol containing methyl or wood alcohol.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

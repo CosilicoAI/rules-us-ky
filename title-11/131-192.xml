@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/131.192"/>
+          <FRBRuri value="/us-ky/act/krs/131.192"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/131.192/eng"/>
+          <FRBRuri value="/us-ky/act/krs/131.192/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/131.192/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/131.192/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_131_192">
+        <num>131.192</num>
+        <content>
+          <p>Whenever it becomes necessary within the discretion of the commissioner of revenue to photostat, duplicate, publish or supply for the use and benefit of persons or agencies, other than agencies of state government, information contained in official records of the Department of Revenue, whose contents are not confidential according to law, the Department of Revenue is hereby authorized to photostat, duplicate or publish the said information and supply the same to the requesting person or agency. For such services the department may charge a fee which will be adequate to cover the expenses of photostating, duplicating or publishing such information and any expense incidental to supplying the same.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/48.810"/>
+          <FRBRuri value="/us-ky/act/krs/48.810"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/48.810/eng"/>
+          <FRBRuri value="/us-ky/act/krs/48.810/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/48.810/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/48.810/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_810">
+        <num>48.810</num>
+        <content>
+          <p>Each program cabinet, the Department for Local Government, the Department of Military Affairs, and the Commonwealth Office of Technology shall develop and submit a four (4) year strategic plan to meet the broad goals outlined by the Governor and shall submit an electronic copy of the full plan and an electronic copy of a brief summary of that plan to the state budget director, the secretary of the Executive Cabinet, and the Legislative Research Commission with each biennial budget request.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/217.065"/>
+          <FRBRuri value="/us-ky/act/krs/217.065"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/217.065/eng"/>
+          <FRBRuri value="/us-ky/act/krs/217.065/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/217.065/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/217.065/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_217_065">
+        <num>217.065</num>
+        <content>
+          <p>Except for violations of , a drug or device shall be deemed to be misbranded:</p>
+        </content>
+        <subsection eId="sec_217_065__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>It is a drug or device and its label (as originally packed) directs that it is to be dispensed or sold only on prescription, unless it is dispensed or sold on a prescription of an authorized practitioner and its label (as dispensed) bears the name and place of business of the dispenser or seller, the serial number and date of such prescription, and the name of such licensed practitioner. Such prescriptions shall not be refilled except on the specific authorization of the prescribing practitioner; provided that where any requirement of this subsection, as applied to any drug or device, is not necessary for the protection of the public health, the secretary shall promulgate regulations exempting such drug or device from such requirement;</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

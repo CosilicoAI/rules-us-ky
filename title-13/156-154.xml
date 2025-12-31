@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/156.154"/>
+          <FRBRuri value="/us-ky/act/krs/156.154"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/156.154/eng"/>
+          <FRBRuri value="/us-ky/act/krs/156.154/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/156.154/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/156.154/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_156_154">
+        <num>156.154</num>
+        <content>
+          <p>The chief state school officer shall make available to all district boards of education full information respecting established price contract agreements, and any or all districts may procure buses from sources and at prices, terms, and conditions incorporated in the price contract agreements. Any district board of education may take its own bids on school buses which meet the specifications of the Kentucky Board of Education for school buses for which price contracts have been established, provided the chief state school officer approves the bids and purchase contract as meeting specifications of the Kentucky Board of Education. However, no district board of education shall purchase school buses under the terms of this section unless the chief state school officer shall certify that the purchase price is lower than prices set forth in established price contract agreements for similar equipment.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

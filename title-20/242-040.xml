@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/242.040"/>
+          <FRBRuri value="/us-ky/act/krs/242.040"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/242.040/eng"/>
+          <FRBRuri value="/us-ky/act/krs/242.040/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/242.040/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/242.040/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_242_040">
+        <num>242.040</num>
+        <content>
+          <p>Within five (5) days after the county judge/executive orders an election, the county clerk shall give to the sheriff a certified copy of the order. The sheriff shall have the order published pursuant to KRS  in the county. When the election is ordered for the entire county, the sheriff shall also advertise the order by written or printed handbills posted at not less than five (5) conspicuous places in each precinct of the county for two (2) weeks before the election, and, when the election is ordered held in a city, district or precinct, at five (5) conspicuous places in each precinct therein for the same length of time. The sheriff shall report in writing to the county judge/executive that the notices have been published and posted.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

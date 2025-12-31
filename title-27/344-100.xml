@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/344.100"/>
+          <FRBRuri value="/us-ky/act/krs/344.100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/344.100/eng"/>
+          <FRBRuri value="/us-ky/act/krs/344.100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/344.100/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/344.100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_344_100">
+        <num>344.100</num>
+        <content>
+          <p>Notwithstanding any other provision of this chapter, it is not an unlawful practice for an employer to apply different standards of compensation, or different terms, conditions, or privileges of employment pursuant to a bona fide seniority or merit system, or a system which measures earnings by quantity or quality of production or to employees who work in different locations, if the differences are not the result of an intention to discriminate because of race, color, religion, national origin, sex, or age forty (40) and over, or because the person is a qualified individual with a disability, nor is it an unlawful practice for an employer to give and to act upon the results of any professionally developed ability test provided that the test, its administration or action upon the results is not designed, intended, or used to discriminate because of race, color, religion, national origin, sex, or age forty (40) and over, or because the person is a qualified individual with a disability.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

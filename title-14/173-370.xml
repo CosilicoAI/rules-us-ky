@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/173.370"/>
+          <FRBRuri value="/us-ky/act/krs/173.370"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/173.370/eng"/>
+          <FRBRuri value="/us-ky/act/krs/173.370/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/173.370/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/173.370/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_173_370">
+        <num>173.370</num>
+        <content>
+          <p>At the close of its fiscal year the board of trustees of every library shall make a report to the legislative body of the governmental unit wherein the board serves, showing the condition of its trust during the year, the sums of money received for the library fund, the sums of money expended and the purposes of the expenditures, the number of books and bound periodicals on hand, the number added during the year, the number discarded, the number lent, and such other statistics and information and such suggestions as they deem of public interest. A report shall also be filed with the Department for Libraries and Archives at Frankfort, Kentucky, upon forms supplied by said department.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

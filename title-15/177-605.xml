@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/177.605"/>
+          <FRBRuri value="/us-ky/act/krs/177.605"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/177.605/eng"/>
+          <FRBRuri value="/us-ky/act/krs/177.605/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/177.605/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/177.605/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_605">
+        <num>177.605</num>
+        <content>
+          <p>Before any of said bonds shall be sold, said State Property and Buildings Commission shall advertise not less than once in each of the four (4) weeks preceding the day of sale in at least three (3) newspapers of general circulation in Kentucky and in some one (1) or more recognized financial journals published in the city of New York for bids therefor, and all bids shall be in writing and sealed, and on the day fixed therefor shall be publicly opened by the State Property and Buildings Commission at a time and place designated in the advertisement for bids. None of said bonds shall be sold at less than par and accrued interest, and each advertisement for bids shall so state. Said bonds shall be sold to the highest and best bidder. Said State Property and Buildings Commission shall have the right to reject any and all bids. Any premium and accrued interest received shall be deposited in the sinking fund provided by  to for the payment of said bonds and interest thereon. On the sale of said bonds, all matured coupons shall be detached and destroyed by the State Property and Buildings Commission and a record made of such destruction. The cost incurred by the State Property and Buildings Commission in advertising for bids and in making the sale of said bonds shall be certified by said commission to the Finance and Administration Cabinet and shall be paid out of the state road fund.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

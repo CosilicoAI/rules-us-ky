@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/269.250"/>
+          <FRBRuri value="/us-ky/act/krs/269.250"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/269.250/eng"/>
+          <FRBRuri value="/us-ky/act/krs/269.250/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/269.250/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/269.250/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_269_250">
+        <num>269.250</num>
+        <content>
+          <p>The county engineer shall remove any obstruction not removed by the property owner within sixty (60) days after having been notified. The county engineer shall do this work in the same manner as road work is done in the county. He or his deputies shall keep an accurate account of the cost of the work and charge it against the property owner whose duty it was to do it. This cost shall be a lien upon the land and shall be added to the tax bill next due to the county.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

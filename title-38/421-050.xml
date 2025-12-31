@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/421.050"/>
+          <FRBRuri value="/us-ky/act/krs/421.050"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/421.050/eng"/>
+          <FRBRuri value="/us-ky/act/krs/421.050/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/421.050/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/421.050/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_421_050">
+        <num>421.050</num>
+        <content>
+          <p>In all criminal or penal actions that are removed from any court of this state to a federal court, the officers of the federal court and the witnesses who are subpoenaed and attend such court in behalf of the state are entitled to the same fees, per diem and mileage allowed under United States statutes to such officers and witnesses for similar services in similar cases when subpoenaed by and for the United States. Such fees, per diem and mileage shall be paid by the Finance and Administration Cabinet upon presentation of the certificate of the clerk of the federal court, approved by the judge thereof. The certificate shall show the amount due each officer and witness.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/164.480"/>
+          <FRBRuri value="/us-ky/act/krs/164.480"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/164.480/eng"/>
+          <FRBRuri value="/us-ky/act/krs/164.480/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/164.480/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/164.480/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_480">
+        <num>164.480</num>
+        <content>
+          <p>Every person who was engaged in any branch of the military or naval service of the United States, prescribed and classified by the United States War Department as a part of such service, during the wars that were declared on April 6, 1917, and any wars declared thereafter, respectively, and who at the time of his enlistment was a resident of Kentucky, is entitled to a free scholarship in any state higher educational institution that he chooses for a period required for the completion of the course of study selected by him. The scholarship includes free tuition, matriculations and other fees, room rent, fuel and lights, and the advantages and privileges of the institution, but does not include free board. Provided, however, that if the federal government provides for the education of veterans of any of the wars herein referred to, then this section shall not apply to such veterans.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

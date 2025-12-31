@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/36.110"/>
+          <FRBRuri value="/us-ky/act/krs/36.110"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/36.110/eng"/>
+          <FRBRuri value="/us-ky/act/krs/36.110/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/36.110/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/36.110/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_110">
+        <num>36.110</num>
+        <content>
+          <p>The staff of the commander in chief shall consist of an administrative and personal staff. The administrative staff shall consist of the adjutant general and such other officers of the Kentucky National Guard, of the grade prescribed by the Department of Defense of the United States for the administrative staff for Kentucky, as are detailed by the Governor. The personal staff shall consist of not more than four (4) aides-de-camp, detailed from commissioned officers of the National Guard in active service from grades below that of colonel. Such detail shall not add to the grade of the officer so appointed. The officers detailed as aides-de-camp shall not be relieved from duty with their respective organizations but shall perform all duties pertaining thereto except when on duty as aides-de-camp under orders of the Governor. The staff shall be appointed by the Governor and shall hold office during his pleasure or during the term for which he was elected.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

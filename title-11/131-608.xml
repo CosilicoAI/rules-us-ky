@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/131.608"/>
+          <FRBRuri value="/us-ky/act/krs/131.608"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/131.608/eng"/>
+          <FRBRuri value="/us-ky/act/krs/131.608/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/131.608/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/131.608/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_131_608">
+        <num>131.608</num>
+        <content>
+          <p>in full compliance with the provisions of  to  to   and and any administrative regulations promulgated thereunder. The participating manufacturer and the nonparticipating manufacturer shall execute and deliver an annual certification to the Attorney General on a form prescribed by the Attorney General no later than April 30 of each year. The nonparticipating manufacturer shall also submit a quarterly certification at the time and on a form prescribed by the Attorney General.</p>
+          <p>for ten (10) years from the expiration of probation or final discharge from parole or maximum expiration of sentence.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/58.050"/>
+          <FRBRuri value="/us-ky/act/krs/58.050"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/58.050/eng"/>
+          <FRBRuri value="/us-ky/act/krs/58.050/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/58.050/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/58.050/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_58_050">
+        <num>58.050</num>
+        <content>
+          <p>All money received from the bonds shall be applied solely for the acquisition, construction, maintenance or improvement of the public project, and the necessary expense of preparing, printing and selling said bonds, or to advance the payment of the interest on the bonds during the first three (3) years following the date of the bonds, or to provide an initial debt service reserve; and the proceeds of such bonds may be supplemented by contributions from the issuing governmental agency or from any other source toward the cost of construction of the project or toward the creation of a debt service reserve for the protection and benefit of the bondholders, or for any other purpose related to the financing of the acquisition and construction of such public project; and it may be further provided that any contribution made for the purpose of assisting in the initial establishment of a debt service reserve for the benefit and protection of the bondholders may be returned or reimbursed to the contributor thereof whenever other equivalent funds have been provided from the revenues of said project or from any other source toward the establishment of such debt service reserve.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

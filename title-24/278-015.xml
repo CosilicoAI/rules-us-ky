@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/278.015"/>
+          <FRBRuri value="/us-ky/act/krs/278.015"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/278.015/eng"/>
+          <FRBRuri value="/us-ky/act/krs/278.015/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/278.015/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/278.015/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_278_015">
+        <num>278.015</num>
+        <content>
+          <p>Notwithstanding any of the provisions of KRS , any water district; combined water, gas, or sewer district; or water commission, except a joint commission created under the provisions of  to  shall be a public utility and shall be subject to the jurisdiction of the Public Service Commission in the same manner and to the same extent as any other utility as defined in , except:</p>
+          <p>Within twenty (20) days after any such increase in rates, the district shall file its revised tariffs with the commission, together with a copy of the notice from its wholesale supplier showing the increase in the rate charged to the utility, and a statement of the volume of purchased water used or sewage treated to calculate the increase in rates. The commission shall approve the filing or establish revised rates by order no later than thirty (30) days after the above documents are filed with it. Prior to or at the time of the first billing of the new rates, the district shall give notice to its customers of the increase.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/244.370"/>
+          <FRBRuri value="/us-ky/act/krs/244.370"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/244.370/eng"/>
+          <FRBRuri value="/us-ky/act/krs/244.370/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/244.370/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/244.370/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_244_370">
+        <num>244.370</num>
+        <content>
+          <p>No whiskey produced from grains which are cooked, fermented, and distilled in Kentucky, except whiskey the barrel containing which is branded “Corn Whiskey” under the internal revenue laws, shall be bottled in Kentucky or removed from this state unless such whiskey has been aged in oak barrels for a period of not less than one (1) full year; provided, however, that whiskey aged less than one (1) year may be removed from the state and bottled, or bottled in Kentucky, if the word “Kentucky” or any word or phrase implying Kentucky origin does not appear on the front label or elsewhere on the retail container or package except in the name and address of the distiller as required by federal regulation. For violations of this section, the department shall revoke the permit of the licensee from whose warehouse or premises such whiskey shall have been removed or in which such whiskey shall have been bottled.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

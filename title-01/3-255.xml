@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/3.255"/>
+          <FRBRuri value="/us-ky/act/krs/3.255"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/3.255/eng"/>
+          <FRBRuri value="/us-ky/act/krs/3.255/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/3.255/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/3.255/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3_255">
+        <num>3.255</num>
+        <content>
+          <p>“Concurrent legislative jurisdiction for purposes of criminal law enforcement,” as used in  to  means the joint power of the United States and the Commonwealth of Kentucky to enact and enforce their own criminal laws, including those pertaining to motor vehicle traffic control, over the lands in question. Under concurrent legislative jurisdiction for purposes of criminal law enforcement, both the United States and the Commonwealth of Kentucky, or either of them, may take jurisdiction over a given criminal offense, according to the laws of the respective sovereign.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

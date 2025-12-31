@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/247.088"/>
+          <FRBRuri value="/us-ky/act/krs/247.088"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/247.088/eng"/>
+          <FRBRuri value="/us-ky/act/krs/247.088/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/247.088/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/247.088/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247_088">
+        <num>247.088</num>
+        <content>
+          <p>The College of Agriculture of the University of Kentucky, through the agricultural experiment station and the cooperative extension service shall assess the effect of agricultural practices upon groundwater resources, establish basic and applied research programs to determine agricultural management practices which may be necessary to protect groundwater resources, and establish and implement an educational program to encourage the use of agricultural practices which conserve, maintain, and improve soil productivity and to assure protection of groundwater. The college shall seek the cooperation of the Division of Conservation within the Energy and Environment Cabinet, the Kentucky Farm Bureau, and other organizations in implementing the educational program.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

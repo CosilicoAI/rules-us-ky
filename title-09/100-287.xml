@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/100.287"/>
+          <FRBRuri value="/us-ky/act/krs/100.287"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/100.287/eng"/>
+          <FRBRuri value="/us-ky/act/krs/100.287/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/100.287/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/100.287/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_100_287">
+        <num>100.287</num>
+        <content>
+          <p>The State Department of Highways may file with the planning commission of any planning unit exercising subdivision jurisdiction, a map of the territory within one (1) mile on either or both sides of any existing or proposed highway. After receipt of the map by the planning commission, no preliminary plats shall be approved by the commission until one (1) copy of such preliminary plat has been referred to the designated office of the Department of Highways for its review. If the Department of Highways desires to make any recommendations on the plan, it shall communicate such to the planning commission within fifteen (15) days after the receipt of the plat.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

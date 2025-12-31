@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/120.360"/>
+          <FRBRuri value="/us-ky/act/krs/120.360"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/120.360/eng"/>
+          <FRBRuri value="/us-ky/act/krs/120.360/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/120.360/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/120.360/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_120_360">
+        <num>120.360</num>
+        <content>
+          <p>It shall be unlawful for any
+    candidate in any primary or general election to agree not to file a suit contesting
+    the election, or to agree to dismiss or cease prosecuting such suit after
+    it has been filed, in consideration of the payment or promise to pay to him,
+    or to any other person, of any money, deputyship, clerkship, employment, or
+    anything of value by such successful candidate or by any other person. Any
+    person who violates this section shall be ineligible thereafter to hold, or
+    become a candidate for nomination or election to, any public office in this
+    state, or to have his name printed on any official ballot in a primary or
+    general election. Any qualified voter may maintain an action to enjoin the
+    printing of the name of a person upon the official ballots for any primary
+    or general election, on the ground that such person has violated this section,
+    and in such action the violation may be proved by parol evidence.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/344.140"/>
+          <FRBRuri value="/us-ky/act/krs/344.140"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/344.140/eng"/>
+          <FRBRuri value="/us-ky/act/krs/344.140/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/344.140/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/344.140/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_344_140">
+        <num>344.140</num>
+        <content>
+          <p>It is an unlawful practice for a person, directly or indirectly, to publish, circulate, issue, display, or mail, or cause to be published, circulated, issued, displayed, or mailed, a written, printed, oral, or visual communication, notice, or advertisement, which indicates that the goods, services, facilities, privileges, advantages, and accommodations of a place of public accommodation, resort, or amusement will be refused, withheld from, or denied an individual on account of disability, race, color, religion, or national origin, or that the patronage of, or presence at, a place of public accommodation, resort, or amusement, of an individual, on account of disability, race, color, religion, or national origin is objectionable, unwelcome, unacceptable, or undesirable.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

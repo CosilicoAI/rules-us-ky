@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/278.271"/>
+          <FRBRuri value="/us-ky/act/krs/278.271"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/278.271/eng"/>
+          <FRBRuri value="/us-ky/act/krs/278.271/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/278.271/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/278.271/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_278_271">
+        <num>278.271</num>
+        <content>
+          <p>Notwithstanding any provision of law to the contrary, upon application by a regulated utility, the commission may allow recovery of costs which are not recovered in the existing rates of the utility for the purchase of electric power from a biomass energy facility that has received a certificate from the Kentucky State Board on Electric Generation and Transmission Siting pursuant to  to  No recovery shall be allowed unless the full costs of the purchase power agreement over the full term of the agreement, which shall be included as part of the application, have been found by the commission to be fair, just, and reasonable. In determining whether the agreement is fair, just, and reasonable, the commission may consider the policy set forth by the General Assembly in (2). The commission’s approval of cost recovery under this section shall be valid for the entire initial term of the agreement.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

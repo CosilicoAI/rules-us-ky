@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/426.295"/>
+          <FRBRuri value="/us-ky/act/krs/426.295"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/426.295/eng"/>
+          <FRBRuri value="/us-ky/act/krs/426.295/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/426.295/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/426.295/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_426_295">
+        <num>426.295</num>
+        <content>
+          <p>In an action for the possession of specific personal property, the plaintiff may have judgment for its delivery, if it can be had; and, if not, for its value and for damages for its detention. If the property have been delivered to the plaintiff, and the defendant claim a return thereof, judgment for the defendant may be for the return of the property, or its value if a return cannot be had, and damages for the taking and withholding of the property. There shall be no pre-judgment attachment of specific personal property except under the provisions of KRS chapter 425.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

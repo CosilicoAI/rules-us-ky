@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/67.835"/>
+          <FRBRuri value="/us-ky/act/krs/67.835"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/67.835/eng"/>
+          <FRBRuri value="/us-ky/act/krs/67.835/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/67.835/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/67.835/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_67_835">
+        <num>67.835</num>
+        <content>
+          <p>Notwithstanding any contrary provision of the comprehensive plan of a charter county government, the legislative body of a charter county government may defer redistricting of the legislative districts of the body subsequent to each decennial census by the United States Bureau of Census, until after completion of the redistricting of General Assembly seats within the charter county subsequent to the census. The redistricting of charter county government legislative districts shall be effective for the first regular charter county government primary election scheduled more than one hundred eighty (180) days after completion of the redistricting. The redistricting shall become effective no later than two (2) years after the release of census data upon which the redistricting is based.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

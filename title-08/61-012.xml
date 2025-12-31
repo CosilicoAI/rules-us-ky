@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/61.012"/>
+          <FRBRuri value="/us-ky/act/krs/61.012"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/61.012/eng"/>
+          <FRBRuri value="/us-ky/act/krs/61.012/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/61.012/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/61.012/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_61_012">
+        <num>61.012</num>
+        <content>
+          <p>No person shall be qualified to hold any appointive state office or position, made by gubernatorial appointment, until the person provides the secretary of the Personnel Cabinet with his sworn statement made under penalty of perjury that he has not knowingly violated any provision of the campaign finance laws of the Commonwealth and that his appointment to a state office or position will not violate any provision of the campaign finance laws of the Commonwealth. “Knowingly” means, with respect to conduct or to a circumstance described by a statute defining an offense, that a person is aware or should have been aware that his conduct is of that nature or that the circumstance exists.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

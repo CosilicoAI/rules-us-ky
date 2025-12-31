@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/222.435"/>
+          <FRBRuri value="/us-ky/act/krs/222.435"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/222.435/eng"/>
+          <FRBRuri value="/us-ky/act/krs/222.435/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/222.435/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/222.435/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_222_435">
+        <num>222.435</num>
+        <content>
+          <p>When the court is authorized to issue an order that the respondent be transported to a hospital, the court may, or if the respondent fails to attend an examination scheduled before the hearing provided for in  then the court shall, issue a summons. A summons so issued shall be directed to the respondent and shall command the respondent to appear at a time and place therein specified. If a respondent who has been summoned fails to appear at the hospital or the examination, then the court may order the sheriff or other peace officer to transport the respondent to a hospital or psychiatric facility designated by the cabinet for treatment under . The sheriff or other peace officer may, upon agreement of a person authorized by the peace officer, authorize the cabinet, a private agency on contract with the cabinet, or an ambulance service designated by the cabinet to transport the respondent to the hospital. The transportation costs of the sheriff, other peace officer, ambulance service, or other private agency on contract with the cabinet shall be included in the costs of treatment for a substance use disorder to be paid by the petitioner.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

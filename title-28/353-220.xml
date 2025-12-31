@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/353.220"/>
+          <FRBRuri value="/us-ky/act/krs/353.220"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/353.220/eng"/>
+          <FRBRuri value="/us-ky/act/krs/353.220/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/353.220/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/353.220/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_353_220">
+        <num>353.220</num>
+        <content>
+          <p>A consolidation agreement, within the provisions of  to  is an agreement which provides for the consolidation of an oil and gas lease, or some portion thereof, with some other oil and gas lease or leases, or portions thereof, so that the oil and gas leases or portions thereof embraced in such agreement shall be operated and developed for oil and gas purposes as one (1) unit lease, and all royalties which may accrue from production on such consolidated area shall be treated as an entirety and shall be divided among and paid to the owners (or their lawful representatives) of the royalties in such area upon an acreage basis, so that each shall receive a share of such royalties calculated upon the basis of the ratio between each owner’s interest in royalty and the entire interest in the royalties embraced in the consolidated area.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

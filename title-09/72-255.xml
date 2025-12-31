@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/72.255"/>
+          <FRBRuri value="/us-ky/act/krs/72.255"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/72.255/eng"/>
+          <FRBRuri value="/us-ky/act/krs/72.255/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/72.255/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/72.255/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_72_255">
+        <num>72.255</num>
+        <content>
+          <p>The secretary of justice and public safety shall adopt administrative regulations to carry out the provisions of KRS , including but not limited to the adoption of forms, fees for examinations, certification requirements, reports of medical examiners and certified coroners, and other costs incidental to the administration of this chapter. The advisory commission provided for in  shall review and may recommend new regulations or changes in the regulations provided for in this section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

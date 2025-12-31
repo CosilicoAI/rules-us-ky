@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/92.450"/>
+          <FRBRuri value="/us-ky/act/krs/92.450"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/92.450/eng"/>
+          <FRBRuri value="/us-ky/act/krs/92.450/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/92.450/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/92.450/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_92_450">
+        <num>92.450</num>
+        <content>
+          <p>When any property subject to taxation by any city of the second class has been omitted from assessment for any year, the city may, by its duly authorized attorney or agent, bring action in the name of the city against the person liable for such taxes, and recover judgment for such amount as the taxes, interest and penalties would be if the property had been assessed at its assessable value for such year, and for the costs of the action. In the action it shall be sufficient for the city to allege and prove the description and value of the property, that it was subject to assessment and taxation by the city for the year in question and was omitted from assessment, that the taxes thereon for that year have not been paid, and that the defendant is liable for the taxes. The court may hear evidence and determine the assessable value of the property for the year in question. In cases where the omitted property has changed ownership the action may be against the person who was the owner at the time the assessment should have been made, or against the owner at the time of the action, or against both. Personal judgment may be given against the person who was the owner at the time the assessment should have been made, unless he was a person under disability, and a judgment in rem may be given against the property, under which the property may be sold by order of the court in satisfaction of the taxes, interest, penalties and costs.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

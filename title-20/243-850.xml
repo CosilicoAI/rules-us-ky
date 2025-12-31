@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/243.850"/>
+          <FRBRuri value="/us-ky/act/krs/243.850"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/243.850/eng"/>
+          <FRBRuri value="/us-ky/act/krs/243.850/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/243.850/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/243.850/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_243_850">
+        <num>243.850</num>
+        <content>
+          <p>For the purpose of assisting in the enforcement of  to and or any amendments thereof, every licensee, except retailers, whether subject to the payment of taxes imposed by said sections or any amendments thereof, shall, on or before the twentieth day of each month, render to the Department of Revenue a statement, in writing, of all his trafficking in alcoholic beverages during the preceding month. Such statement shall be taken directly from the records of the reporting licensee, and shall set forth on forms furnished by the Department of Revenue such information as shall be required by it. Such statement shall include alcohol destined for sale outside the state, as well as alcoholic beverages subject to the tax imposed by  to and or any amendments thereof. Provided, that the Department of Revenue shall have authority to require from retail licensees and other licensees, other reports and statements at such times as are necessary for the enforcement of  to and or any amendments thereof.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

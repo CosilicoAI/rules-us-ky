@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/15.210"/>
+          <FRBRuri value="/us-ky/act/krs/15.210"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/15.210/eng"/>
+          <FRBRuri value="/us-ky/act/krs/15.210/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/15.210/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/15.210/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_210">
+        <num>15.210</num>
+        <content>
+          <p>Whenever the Attorney General shall undertake any of the actions prescribed herein, he shall be authorized to exercise all powers and perform all duties in respect to such criminal actions or proceedings which the prosecuting attorney would otherwise perform or exercise, including, but not limited to the authority to sign, file and present any and all complaints, affidavits, information, presentments, accusations, indictments, subpoenas, and processes of any kind, and to appear before all grand juries, courts or tribunals.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

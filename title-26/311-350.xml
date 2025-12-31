@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/311.350"/>
+          <FRBRuri value="/us-ky/act/krs/311.350"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/311.350/eng"/>
+          <FRBRuri value="/us-ky/act/krs/311.350/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/311.350/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/311.350/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_311_350">
+        <num>311.350</num>
+        <content>
+          <p>Any college receiving human bodies shall keep a record of them in a book to be kept at the college for that purpose. The book shall at all times be subject to inspection by any officer of the state or county, or relative or friend of any deceased person whose body may have been delivered to or be in the possession of the college. The record shall show the name, if known, the age, sex, date and cause of death, the date when the body came into the possession of the college, the date of interment and the final place of interment, together with any distinguishing marks by which the body may be identified.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

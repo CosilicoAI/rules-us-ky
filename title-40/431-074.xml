@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/431.074"/>
+          <FRBRuri value="/us-ky/act/krs/431.074"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/431.074/eng"/>
+          <FRBRuri value="/us-ky/act/krs/431.074/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/431.074/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/431.074/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_431_074">
+        <num>431.074</num>
+        <content>
+          <p>The Administrative Office of the Courts shall retain an index of expungement orders entered under . The index shall only be accessible to persons preparing a certification of eligibility for expungement pursuant to . If the index indicates that the person applying for expungement has had a prior felony expunged under , the person preparing the report may, notwithstanding the provisions of , access the expunged record and include information from the expunged record in the certification.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

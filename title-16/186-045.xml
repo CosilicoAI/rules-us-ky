@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/186.045"/>
+          <FRBRuri value="/us-ky/act/krs/186.045"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/186.045/eng"/>
+          <FRBRuri value="/us-ky/act/krs/186.045/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/186.045/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/186.045/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_186_045">
+        <num>186.045</num>
+        <content>
+          <p>The secured party shall also deliver a copy of the termination statement to the debtor or the debtor’s transferee. For failure to file the termination statement within the allowable time, the secured party shall be subject to the penalty provided in . Except as provided in subsection (3) of this section, within five (5) days after the receipt of such documents, the county clerk shall note the filing in the index, in language prescribed by the cabinet, that the termination statement has been filed. Upon presentation of the owner’s title showing a security interest to the county clerk where the termination statement was submitted, and with the copy of the termination statement submitted by the secured party, the clerk shall discharge the security interest by noting on the title that the termination statement has been filed and place the seal of the county clerk thereon. The clerk shall return the owner’s title to the owner. The county clerk shall then file the termination statement in the place from which the title lien statement was removed. Termination statements shall be retained in the clerk’s files for a period of two (2) years subsequent to the date of filing a statement, at which time they may be destroyed. The fee for these services are included in the provisions of .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

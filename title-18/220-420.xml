@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/220.420"/>
+          <FRBRuri value="/us-ky/act/krs/220.420"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/220.420/eng"/>
+          <FRBRuri value="/us-ky/act/krs/220.420/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/220.420/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/220.420/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_220_420">
+        <num>220.420</num>
+        <content>
+          <p>There shall be a statutory mortgage lien upon all property of the sanitation district in favor of the holders of the bonds and coupons, to secure payment of the bonds and coupons. The sanitary works constructed or acquired by the board of directors, together with any extensions and appurtenances thereto, shall remain subject to the lien until the payment in full of the principal and interest of the bonds. Any holder of the bonds or coupons may by proper proceedings protect and enforce the lien, and may by proper proceedings, including mandamus, compel the performance of all duties required by  to  including the making and collection of sufficient rates, the segregation of the income and revenue and the application thereof. The venue of such action shall be in the county in which the district or its largest area lies.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/217.290"/>
+          <FRBRuri value="/us-ky/act/krs/217.290"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/217.290/eng"/>
+          <FRBRuri value="/us-ky/act/krs/217.290/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/217.290/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/217.290/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_217_290">
+        <num>217.290</num>
+        <content>
+          <p>The floors, side walls, ceilings, furniture, receptacles, implements and machinery of every establishment or place where food intended for sale is produced, prepared, manufactured, packed, stored, sold or distributed, and all vehicles used in the transportation of such food, shall not be kept or permitted to remain in an unclean, unhealthy or unsanitary condition. An unclean, unhealthful and unsanitary condition shall be deemed to exist if food in the process of production, preparation, manufacture, packing, storing, sale, distribution or transportation is not securely protected from flies, dust and dirt, and as far as may be necessary by all reasonable means from all other foreign or injurious contamination; or if the refuse, dirt or waste products subject to decomposition and fermentation incident to the manufacture, preparation, packing, storing, selling, distributing or transportation of food is not removed daily; or if all machinery, equipment and utensils are not thoroughly cleaned daily, or if the clothing of persons therein employed is unclean.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/360.070"/>
+          <FRBRuri value="/us-ky/act/krs/360.070"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/360.070/eng"/>
+          <FRBRuri value="/us-ky/act/krs/360.070/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/360.070/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/360.070/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_360_070">
+        <num>360.070</num>
+        <content>
+          <p>Once in each month or oftener, each bank and each institution authorized to deal in bills of exchange shall fix the rates of exchange at which bills shall be purchased and enter them upon the proceedings of the board of directors, designating the difference to be made, if any, on account of the time the bill has to run. A copy of the rates shall be posted in some conspicuous place in the public room of the bank or institution. If the rates of exchange are fixed by a branch of the bank or institution, they shall not be entered on its records or acted upon by it until corrected, if necessary, and approved by the principal bank or institution. Any alteration made in the rates of exchange shall, before it is acted upon, be noted on the copy posted in the public room. All officers of any such bank or institution shall conform to its rates of exchange so fixed.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

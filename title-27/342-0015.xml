@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/342.0015"/>
+          <FRBRuri value="/us-ky/act/krs/342.0015"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/342.0015/eng"/>
+          <FRBRuri value="/us-ky/act/krs/342.0015/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/342.0015/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/342.0015/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_342_0015">
+        <num>342.0015</num>
+        <content>
+          <p>The substantive provisions of 1996 (1st Extra. Sess.) Ky. Acts ch. 1 shall apply to any claim arising from an injury or last exposure to the hazards of an occupational disease occurring on or after December 12, 1996. Procedural provisions of 1996 (1st Extra. Sess.) Ky. Acts ch. 1 shall apply to all claims irrespective of the date of injury or last exposure, including, but not exclusively, the mechanisms by which claims are decided and workers are referred for medical evaluations. The provisions of , 8), 2)(e),  3),  3), 4), and 11) are remedial.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

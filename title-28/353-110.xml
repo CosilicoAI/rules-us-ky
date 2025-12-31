@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/353.110"/>
+          <FRBRuri value="/us-ky/act/krs/353.110"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/353.110/eng"/>
+          <FRBRuri value="/us-ky/act/krs/353.110/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/353.110/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/353.110/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_353_110">
+        <num>353.110</num>
+        <content>
+          <p>Prior to the abandonment of a well drilled through a workable coal bed the well operator shall notify, by certified mail, return receipt requested or by registered mail, the operator or owner of the coal bed and the department of the intention to plug and abandon the well. The notice shall give the number of the well and its location, and fix the time at which the work of plugging and filling will be commenced, the time not to be less than five (5) days after the day on which the notice is received, or in due course should be received, by the department. The department shall prescribe the form of notice to be used. A representative or representatives of the coal operator or owner and of the department may be present at the plugging and filling of the well. Whether or not such representatives appear, the well operator may proceed, at the time fixed, to plug and fill the well. When the plugging and filling have been completed, an affidavit setting forth the time and manner in which the well was plugged shall be made in triplicate by two (2) experienced men who participated in the work. The affidavit shall be made on forms furnished by the department. One (1) copy of the affidavit shall be retained by the well operator, one (1) mailed to each coal operator and each owner, and one (1) to the department.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

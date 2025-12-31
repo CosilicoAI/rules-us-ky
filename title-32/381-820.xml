@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/381.820"/>
+          <FRBRuri value="/us-ky/act/krs/381.820"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/381.820/eng"/>
+          <FRBRuri value="/us-ky/act/krs/381.820/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/381.820/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/381.820/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_381_820">
+        <num>381.820</num>
+        <content>
+          <p>Once the property is submitted to the condominium property regime, a unit in the building(s) may be individually conveyed and encumbered and may be the subject of ownership, possession or sale and of all types of juridic acts inter vivos or mortis causa, as if it were sole and entirely independent of the other units in the building(s) of which they form a part, and the corresponding individual titles and interest shall be recordable.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

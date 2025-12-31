@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/140.060"/>
+          <FRBRuri value="/us-ky/act/krs/140.060"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/140.060/eng"/>
+          <FRBRuri value="/us-ky/act/krs/140.060/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/140.060/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/140.060/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_140_060">
+        <num>140.060</num>
+        <content>
+          <p>All transfers to educational, religious or other institutions, societies, or associations, whose sole object and purpose are to carry on charitable, educational, or religious work, all transfers for or upon trust for any charitable, educational, or religious purpose, and all transfers to cities, and towns or public institutions in this state for public purposes shall be exempt from the tax imposed by this chapter. But no such corporation or association shall be entitled to such exemption if any officer, member, stockholder or employee thereof shall receive or may be lawfully entitled to receive any pecuniary profit from the operations thereof, except reasonable compensation for services in effecting one or more of such purposes or as proper beneficiary of its strictly charitable purpose; or if the organization thereof, for any such avowed purpose, be a guise or pretense for directly or indirectly making any other pecuniary profit for such corporation or association, or for any of its members or employees, or if it be not in good faith organized or conducted exclusively for one or more of such purposes.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

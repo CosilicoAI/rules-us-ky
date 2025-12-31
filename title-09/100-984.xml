@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/100.984"/>
+          <FRBRuri value="/us-ky/act/krs/100.984"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/100.984/eng"/>
+          <FRBRuri value="/us-ky/act/krs/100.984/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/100.984/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/100.984/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_100_984">
+        <num>100.984</num>
+        <content>
+          <p>Any sponsoring private or governmental agency shall be permitted to operate a residential care facility in any residential district, zone, or subdivision subject only to compliance with the same limitations upon area, height, yard, screening, parking, number of dwelling units, and number of occupants per dwelling unit as apply to other residences in the district, zone, or subdivision. For purposes of determining the number of occupants in a residential care facility, or in any of the dwelling units which comprise the facility, employees of the sponsoring agency providing services to persons with disabilities shall be counted only if their permanent residence is maintained at the facility. No conditional use permit not otherwise required for other residences within a zone or land use category shall be required for the operation of a residential care facility.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/247.859"/>
+          <FRBRuri value="/us-ky/act/krs/247.859"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/247.859/eng"/>
+          <FRBRuri value="/us-ky/act/krs/247.859/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/247.859/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/247.859/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247_859">
+        <num>247.859</num>
+        <content>
+          <p>The hours, voting places, rules and regulations, and the area within which the referendum will be conducted shall be established and determined by the Commissioner of Agriculture. The said referendum date, area, hours, voting places, and rules and regulations with respect to the holding of the referendum shall be published by the Commissioner through the medium of the public press in the state at least thirty (30) days before holding the referendum, and direct written notice thereof shall likewise be given to each county or area agent in any county covered by the referendum. Such notice shall likewise contain a statement of the amount of the assessment proposed to be levied, which assessment in any event shall not exceed one cent ($0.01) for each fifteen (15) dozen lot of eggs or portion thereof bought or sold by a handler, and shall likewise state the method by which such assessment shall be collected and how the proceeds thereof shall be administered and the purposes to which the same shall be applied, which purposes shall be in keeping with the provisions of  to</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

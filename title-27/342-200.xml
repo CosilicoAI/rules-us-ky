@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/342.200"/>
+          <FRBRuri value="/us-ky/act/krs/342.200"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/342.200/eng"/>
+          <FRBRuri value="/us-ky/act/krs/342.200/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/342.200/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/342.200/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_342_200">
+        <num>342.200</num>
+        <content>
+          <p>The notice shall not be invalid or insufficient because of any inaccuracy in complying with  unless it is shown that the employer was in fact misled to his injury thereby. Want of notice or delay in giving notice shall not be a bar to proceedings under this chapter if it is shown that the employer, his agent or representative had knowledge of the injury or that the delay or failure to give notice was occasioned by mistake or other reasonable cause.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

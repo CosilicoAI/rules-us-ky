@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/107.370"/>
+          <FRBRuri value="/us-ky/act/krs/107.370"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/107.370/eng"/>
+          <FRBRuri value="/us-ky/act/krs/107.370/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/107.370/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/107.370/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_107_370">
+        <num>107.370</num>
+        <content>
+          <p>In addition to its general powers specified in  to  the board, after approval of any proposed project by resolution of the fiscal court, shall have power to finance and construct buildings and related facilities for the joint or separate use of any one (1) or more of the governmental units within the territorial limits of the county, or of federal agencies, and to convey or lease said buildings and facilities in whole or in part, or space therein, to said governmental units or federal agencies in accordance with the provisions of  to  The board may cause any such building and related facilities to be designed in anticipation of reasonably foreseeable future needs; and to the extent the capacity thereof may be surplus to needs existing at the time of occupancy, such surplus capacity may be leased to nongovernmental persons or parties, subject to cancellation upon reasonable notice when such capacity or facilities shall be required for the purposes of governmental units. Said board shall have the government, management, regulation, control and operation of any buildings financed, constructed and leased pursuant to the provisions of  to and shall have the power to improve, reconstruct, repair and maintain said buildings and all additions thereto; provided, however, that the board may contract with the lessee of any building for the maintenance and operation of such building. The board shall also have power, acting in the name of the district, as follows:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

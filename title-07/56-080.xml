@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/56.080"/>
+          <FRBRuri value="/us-ky/act/krs/56.080"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/56.080/eng"/>
+          <FRBRuri value="/us-ky/act/krs/56.080/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/56.080/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/56.080/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_56_080">
+        <num>56.080</num>
+        <content>
+          <p>Before July 1 of each year, the cabinet shall reconsider its appraisal and valuation of public buildings and personal property belonging to or under the control and use of the state or any state agency, and shall certify any changes in value to the agency that has the custody or control of the property. The appraisal and valuation shall equal the amount that the cabinet deems necessary to replace the property at the time of the appraisal, which may be less actual depreciation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/273.197"/>
+          <FRBRuri value="/us-ky/act/krs/273.197"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/273.197/eng"/>
+          <FRBRuri value="/us-ky/act/krs/273.197/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/273.197/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/273.197/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_273_197">
+        <num>273.197</num>
+        <content>
+          <p>Unless otherwise provided in the articles of incorporation or the bylaws, notice stating the place, day and hour of meeting and, in case of a special meeting, the purpose or purposes for which the meeting is called, shall be given not less than ten (10) nor more than thirty-five (35) days before the date of the meeting, by or at the direction of the president, or the secretary, or the officers or persons calling the meeting, to each member entitled to vote at such meeting.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

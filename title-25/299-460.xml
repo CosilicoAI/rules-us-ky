@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/299.460"/>
+          <FRBRuri value="/us-ky/act/krs/299.460"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/299.460/eng"/>
+          <FRBRuri value="/us-ky/act/krs/299.460/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/299.460/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/299.460/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_299_460">
+        <num>299.460</num>
+        <content>
+          <p>The commissioner shall examine into the management of any company whenever he deems it prudent for the protection of policyholders in this state, but not less frequently than once in every four (4) years. He shall also examine into the management of a company upon the application of ten (10) of its members, or twenty-five percent (25%) of its board of directors, or its president or secretary. The company shall pay all expenses of the examination which shall promptly be deposited in the State Treasury “Examination Expense Revolving Fund” established in . If the commissioner finds that the company or any director, agent, adjuster, employee, administrator, or officer has been or is violating the provisions of  to  or the bylaws of the company, he shall proceed in like manner as with other insurers guilty of like violations. The commissioner may issue orders, conduct investigations, hold hearings, issue subpoenas, assess penalties, and take other reasonable and necessary actions as with other insurers.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

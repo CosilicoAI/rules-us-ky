@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/278.502"/>
+          <FRBRuri value="/us-ky/act/krs/278.502"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/278.502/eng"/>
+          <FRBRuri value="/us-ky/act/krs/278.502/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/278.502/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/278.502/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_278_502">
+        <num>278.502</num>
+        <content>
+          <p>Any corporation or partnership organized for the purpose of, and any individual engaged in or proposing to engage in, constructing, maintaining, or operating oil or gas wells or pipelines for transporting or delivering oil or gas, including oil and gas products, in public service may, if it is unable to contract or agree with the owner after a good faith effort to do so, condemn the lands and material or the use and occupation of the lands that are necessary for constructing, maintaining, drilling, utilizing, and operating pipelines, underground oil or gas storage fields, and wells giving access thereto and all necessary machinery, equipment, pumping stations, appliances, and fixtures, including tanks and telephone lines, and other communication facilities, for use in connection therewith, and the necessary rights of ingress and egress to construct, examine, alter, repair, maintain, operate, or remove such pipelines or underground gas storage fields, to drill new wells and utilize existing wells in connection therewith, and remove pipe, casing, equipment, and other facilities relating to such underground storage fields and access wells. The proceedings for condemnation shall be as provided in the Eminent Domain Act of Kentucky.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/148.835"/>
+          <FRBRuri value="/us-ky/act/krs/148.835"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/148.835/eng"/>
+          <FRBRuri value="/us-ky/act/krs/148.835/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/148.835/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/148.835/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_148_835">
+        <num>148.835</num>
+        <content>
+          <p>The Department of Parks shall establish a promotion program within the Department of Parks to require that if purchasing agricultural products, state parks purchase Kentucky-grown agricultural products if the purchasing officer determines that they are available, can be priced on the menu to encourage their sale, and meet the quality standards set by the Department of Parks. The commissioner of the Department of Parks shall promulgate administrative regulations in accordance with KRS  to implement the promotion program as set forth in this section no later than October 1, 2011.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

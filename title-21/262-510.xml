@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/262.510"/>
+          <FRBRuri value="/us-ky/act/krs/262.510"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/262.510/eng"/>
+          <FRBRuri value="/us-ky/act/krs/262.510/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/262.510/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/262.510/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_262_510">
+        <num>262.510</num>
+        <content>
+          <p>If, upon the facts presented at the hearing, under , the board of adjustment determines that there are great practical difficulties or unnecessary hardship in the way of applying the strict letter of any of the land-use regulations upon the lands of the petitioner, it shall make and record that determination and make and record findings of fact as to the specific conditions which establish those great practical difficulties or unnecessary hardship. Upon the basis of such findings and determination, the board of adjustment may authorize such variance from the terms of the land-use regulations, in their application to the lands of the petitioner, as will relieve the great practical difficulties or unnecessary hardship and will not be contrary to the public interest. The variance shall be such that the spirit of the land-use regulations shall be observed, the public health, safety and welfare secured and substantial justice done.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

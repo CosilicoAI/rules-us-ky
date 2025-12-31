@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/230.363"/>
+          <FRBRuri value="/us-ky/act/krs/230.363"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/230.363/eng"/>
+          <FRBRuri value="/us-ky/act/krs/230.363/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/230.363/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/230.363/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_230_363">
+        <num>230.363</num>
+        <content>
+          <p>Any person who has made a report of unclaimed pari-mutuel tickets to the racing commission as required by  shall, between November 1 and November 15 of each year, turn over to the racing commission the sum represented by the unclaimed pari-mutuel tickets so reported; but if the person making the report or the owner of the unclaimed pari-mutuel ticket certifies to the racing commission by sworn statement that any or all of the statutory conditions necessary to create a presumption of abandonment no longer exists or never did exist, or shall certify existence of any fact or circumstance in which there is substantial evidence to rebut such presumption, then, the person reporting the unclaimed pari-mutuel tickets or holding the sum represented by the unclaimed pari-mutuel tickets as reported shall not be required to turn over said sum to the racing commission except upon order of court. If the holder of any unclaimed pari-mutuel ticket files an action in court claiming the sum which has been reported under the provisions of , the person reporting or holding the sum represented by said unclaimed pari-mutuel ticket shall be under no duty while any such action is pending to turn over said sum to the racing commission, but shall have the duty of notifying the racing commission of the pendency of such action.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

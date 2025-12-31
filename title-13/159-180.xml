@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/159.180"/>
+          <FRBRuri value="/us-ky/act/krs/159.180"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/159.180/eng"/>
+          <FRBRuri value="/us-ky/act/krs/159.180/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/159.180/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/159.180/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_159_180">
+        <num>159.180</num>
+        <content>
+          <p>Every parent, guardian, or custodian of a child residing in any school district in this state is legally responsible for any violation of  to by the child. Before any proceedings are instituted against the parent, guardian, or custodian for violation of  to  a written notice of the violation shall be served on the person by the director of pupil personnel, and one (1) day shall be given for the termination of the violation. After such notice, if the violation is continued or if the provisions of  to are again violated during the school term by the child, no further notice shall be necessary and the parent or guardian shall be punishable as provided in . A notice by certified mail, return receipt requested, or by personal service by the director of pupil personnel shall be a legal notice.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

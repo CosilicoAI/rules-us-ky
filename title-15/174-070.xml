@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/174.070"/>
+          <FRBRuri value="/us-ky/act/krs/174.070"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/174.070/eng"/>
+          <FRBRuri value="/us-ky/act/krs/174.070/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/174.070/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/174.070/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_174_070">
+        <num>174.070</num>
+        <content>
+          <p>All funds, credits, assets, appropriations, outstanding obligations, personnel, equipment, any and all resources or other tangible personal property and any business or other matter undertaken or now vested in the Department of Highways, Department of Motor Transportation, Department of Aeronautics, Department of Public Safety, Department of Revenue, relating to functions transferred under 1974 Acts ch. 74, are hereby transferred and vested in the cabinet.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/35.360"/>
+          <FRBRuri value="/us-ky/act/krs/35.360"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/35.360/eng"/>
+          <FRBRuri value="/us-ky/act/krs/35.360/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/35.360/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/35.360/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_35_360">
+        <num>35.360</num>
+        <content>
+          <p>The appellate review of records of trial provided by this code, the proceedings, findings, and sentences of courts-martial as approved, reviewed, or affirmed as required by this code, and all dismissals and discharges carried into execution under sentences by courts-martial following the approval, review, or affirmation as required by this code, are final and conclusive. Orders publishing the proceedings of courts-martial and all action taken pursuant to those proceedings are binding upon all departments, courts, agencies, and officers of the United States and the several states, subject only to action upon a petition for a new trial as provided in  and to action under .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

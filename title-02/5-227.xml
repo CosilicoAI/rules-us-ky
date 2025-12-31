@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/5.227"/>
+          <FRBRuri value="/us-ky/act/krs/5.227"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/5.227/eng"/>
+          <FRBRuri value="/us-ky/act/krs/5.227/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/5.227/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/5.227/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_227">
+        <num>5.227</num>
+        <content>
+          <p>The Twenty-seventh Representative District shall consist of the following territory:</p>
+          <p>—CENSUS— COUNTY PREC NAME TRACT BLK SECT HARDIN A101 WEST POINT HARDIN A102 FORT KNOX 000202 2013 HARDIN A102 FORT KNOX 000202 3001 HARDIN A102 FORT KNOX 000202 3003 HARDIN A102 FORT KNOX 000202 3004 HARDIN A102 FORT KNOX 000202 3005 HARDIN A102 FORT KNOX 000202 3006 HARDIN A102 FORT KNOX 000202 3009 HARDIN A102 FORT KNOX 000202 3010 HARDIN A102 FORT KNOX 000202 3011 HARDIN A102 FORT KNOX 000202 3012 HARDIN A102 FORT KNOX 000202 3013 HARDIN A102 FORT KNOX 000202 3014 HARDIN A102 FORT KNOX 000202 3015 HARDIN A102 FORT KNOX 000202 3016 HARDIN A102 FORT KNOX 000202 3017 HARDIN A102 FORT KNOX 000202 3018 HARDIN A102 FORT KNOX 000202 3019 HARDIN A102 FORT KNOX 000202 3020 HARDIN A102 FORT KNOX 000202 3021 HARDIN A102 FORT KNOX 000202 3029 HARDIN A102 FORT KNOX 000202 3030 HARDIN A102 FORT KNOX 000202 3031 HARDIN A102 FORT KNOX 000202 3032 HARDIN A102 FORT KNOX 000202 3033 HARDIN A102 FORT KNOX 000202 3034 HARDIN A102 FORT KNOX 000202 3035 HARDIN A102 FORT KNOX 000202 3036 HARDIN A102 FORT KNOX 000202 3037 HARDIN A102 FORT KNOX 000202 3038 HARDIN A102 FORT KNOX 000202 3039 HARDIN A102 FORT KNOX 000202 3040 HARDIN A102 FORT KNOX 000202 3041 HARDIN A102 FORT KNOX 000202 3042 HARDIN A102 FORT KNOX 000202 3043 HARDIN A102 FORT KNOX 000202 3044 HARDIN A102 FORT KNOX 000202 3047 HARDIN A102 FORT KNOX 000202 3048 HARDIN A102 FORT KNOX 000202 3053 HARDIN A102 FORT KNOX 000202 3054 HARDIN A102 FORT KNOX 000202 3055 HARDIN A102 FORT KNOX 000202 3056 HARDIN A102 FORT KNOX 000202 3057 HARDIN A102 FORT KNOX 000202 3058 HARDIN A102 FORT KNOX 000202 3059 0102 HARDIN A102 FORT KNOX 000202 3064 HARDIN A102 FORT KNOX 000202 3065 HARDIN A102 FORT KNOX 000202 3066 HARDIN A102 FORT KNOX 000202 3067 0102 HARDIN A102 FORT KNOX 000202 3069 0102 HARDIN A102 FORT KNOX 000202 3070 HARDIN A102 FORT KNOX 000202 3071 HARDIN A102 FORT KNOX 000400 1000 HARDIN A102 FORT KNOX 000400 1006 0202 HARDIN A103 RADCLIFF EAST HARDIN A104 RADCLIFF NORTH HARDIN A105 RADCLIFF N.W. HARDIN A106 RADCLIFF WEST HARDIN A107 RED HILL HARDIN B101 RADCLIFF SOUTH HARDIN H104 PARKWAY MEADE</p>
+          <p>Click to view</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/257.552"/>
+          <FRBRuri value="/us-ky/act/krs/257.552"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/257.552/eng"/>
+          <FRBRuri value="/us-ky/act/krs/257.552/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/257.552/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/257.552/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_257_552">
+        <num>257.552</num>
+        <content>
+          <p>If any person holding captive cervids regulated under  to is determined in violation of a Kentucky statute or administrative regulation pertaining to the health requirements, eradication of diseases, importation, and identification of those cervids, then that person shall have sixty (60) days from when the violation was identified to come into compliance. During the sixty (60) day period, the cervids shall be subject to quarantine by the Kentucky Department of Agriculture. The permit holder may request an administrative hearing pursuant to KRS  within thirty (30) days of the notice of violation and may appeal the final decision to Franklin Circuit Court in accordance with KRS . If a final determination upholds the Kentucky Department of Agriculture, the permit holder’s cervids may be disposed of by the department without compensation to the owner.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

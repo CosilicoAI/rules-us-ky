@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/157.640"/>
+          <FRBRuri value="/us-ky/act/krs/157.640"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/157.640/eng"/>
+          <FRBRuri value="/us-ky/act/krs/157.640/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/157.640/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/157.640/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_157_640">
+        <num>157.640</num>
+        <content>
+          <p>The School Facilities Construction Commission is the successor agency of the Kentucky School Building Authority created by the 1978 Acts of the General Assembly Chapter 153. All powers, duties, obligations, and assets of the Kentucky School Building Authority, including an obligation for only those projects which have been approved for funding or partial funding as of July 1, 1985, and for which funds have been appropriated by the General Assembly as of June 30, 1986, are hereby transferred to the School Facilities Construction Commission. The commission is hereby empowered with all rights of successorship necessary to assure continuance of all legal and contractual functions and liabilities associated with the outstanding bonds issued in the name of the Kentucky School Building Authority and may refund such bonds previously issued in the name of the Kentucky School Building Authority.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

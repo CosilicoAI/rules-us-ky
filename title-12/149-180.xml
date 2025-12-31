@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/149.180"/>
+          <FRBRuri value="/us-ky/act/krs/149.180"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/149.180/eng"/>
+          <FRBRuri value="/us-ky/act/krs/149.180/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/149.180/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/149.180/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_149_180">
+        <num>149.180</num>
+        <content>
+          <p>Whenever possible, the secretary for energy and environment shall collect the costs of firefighting done and approved as provided in , from the person responsible for the origin of the fire by his negligence or intent. The recovered costs shall be deposited in a special fund in the Energy and Environment Cabinet. The recovered costs shall be repaid to the county in which the costs were incurred, if such county has fully paid its annual assessment to the statewide system as provided for in  for the year in which the fire suppression costs were incurred. If a county is not eligible to receive the recovered costs, the money shall be used by the Division of Forestry to improve fire protection services. The funds so repaid to the county shall be placed in the county forest fire protection fund provided for in . Any money in the Energy and Environment Cabinet’s, or its predecessor’s, special fund upon July 15, 1998, that were not repaid to a county for having failed to fully pay its annual assessment, shall be used by the Division of Forestry to improve fire protection services. In the event the suppression cost is not collected, the Commonwealth’s attorney of the county in which the fire occurred shall institute and prosecute the necessary proceedings. Costs recovered under this section shall be ordered to be paid directly to the Energy and Environment Cabinet. The court shall not direct that the costs be paid through the circuit clerk.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/432.590"/>
+          <FRBRuri value="/us-ky/act/krs/432.590"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/432.590/eng"/>
+          <FRBRuri value="/us-ky/act/krs/432.590/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/432.590/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/432.590/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_432_590">
+        <num>432.590</num>
+        <content>
+          <p>Whoever willfully sells, trades, barters, gives away or makes, or assists in making any unauthorized disposition of any food commodity donated under any program of the state or federal government, or shall withhold or threaten to withhold from or offer to provide the commodities to any person in order to influence the vote of any person at an election of public office, or whoever, not being an authorized recipient thereof, willfully converts to his own use or benefit any such food commodity, shall, upon conviction thereof, be punished by a fine of not less than $100 or more than $500, or by imprisonment for not less than thirty (30) days or more than six (6) months, or both.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

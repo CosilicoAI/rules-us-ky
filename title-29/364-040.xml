@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/364.040"/>
+          <FRBRuri value="/us-ky/act/krs/364.040"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/364.040/eng"/>
+          <FRBRuri value="/us-ky/act/krs/364.040/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/364.040/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/364.040/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_364_040">
+        <num>364.040</num>
+        <content>
+          <p>Any person who takes up any logs, or any tree prepared for sale, where the log or tree is not part of a fleet, raft or platform, and keeps it in his possession for more than thirty (30) days before the owner thereof offers to pay the fees provided for by  shall have a claim against the owner for twenty-five cents ($0.25) for every such log or tree, in addition to the fees provided for by .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

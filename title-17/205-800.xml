@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/205.800"/>
+          <FRBRuri value="/us-ky/act/krs/205.800"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/205.800/eng"/>
+          <FRBRuri value="/us-ky/act/krs/205.800/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/205.800/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/205.800/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_205_800">
+        <num>205.800</num>
+        <content>
+          <p>Where establishment of paternity and enforcement and collection of child support is by law the responsibility of local officials, the cabinet shall refer cases to the appropriate official for such. The cabinet may enter into cooperative arrangements with appropriate courts and law enforcement officials to assist the cabinet in administering the program of child support recovery, including the entering into of financial arrangements with such courts and officials as provided for under the provisions of federal law and regulations and any other matters of common concern to such courts or officials and the cabinet.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/272.400"/>
+          <FRBRuri value="/us-ky/act/krs/272.400"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/272.400/eng"/>
+          <FRBRuri value="/us-ky/act/krs/272.400/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/272.400/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/272.400/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_272_400">
+        <num>272.400</num>
+        <content>
+          <p>The articles of incorporation may be altered or amended at any regular or special meeting called for that purpose. An amendment must first be approved by two-thirds (2/3) of the directors and then adopted by a vote representing a majority of all the members of the association. Amendments, when so adopted, shall be recorded in accordance with the provisions of the general corporation law of this state, except that the fee to be charged by the Secretary of State for filing such an amendment shall be one dollar ($1).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

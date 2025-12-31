@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/179.300"/>
+          <FRBRuri value="/us-ky/act/krs/179.300"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/179.300/eng"/>
+          <FRBRuri value="/us-ky/act/krs/179.300/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/179.300/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/179.300/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_179_300">
+        <num>179.300</num>
+        <content>
+          <p>The county road engineer may enter upon any of the lands adjacent to any public road for the purpose of opening any existing ditch or drain, or for digging a new ditch or drain for the free passage of water for the drainage of public roads. He may enter upon land adjoining streams to drive piles, throw up embankments, or to perform any other work necessary to keep the streams within their proper channels, and to prevent their encroachment upon public roads or abutments of bridges. He may also enter upon the lands adjoining a public road, which during the time of high water is subject to overflow from streams to remove or change the position of a fence or other obstructions, preventing the free flow of water under or through a bridge or culvert whenever it is necessary for the protection of a public road or bridge.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/99.190"/>
+          <FRBRuri value="/us-ky/act/krs/99.190"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/99.190/eng"/>
+          <FRBRuri value="/us-ky/act/krs/99.190/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/99.190/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/99.190/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_99_190">
+        <num>99.190</num>
+        <content>
+          <p>Whenever a redevelopment corporation shall not have obtained the certificates of approval of its development plan required by  to within twelve (12) months of the date upon which it became a redevelopment corporation, or shall not have substantially complied with its development plan within the time limits for the completion of each stage thereof as therein stated, reasonable delays caused by unforeseen difficulties excepted, or shall do, permit to be done or fail or omit to do anything contrary to or required of it by, as the case may be,  to  or shall be about so to do, permit to be done or fail or omit to have done, as the case may be, then any such fact may be certified by the planning commission or the supervising agency, whichever shall have supervision thereof, to the chief legal officer of the city, who may thereupon commence a proceeding in the Circuit Court of the county in which such city is located in the city’s name for the purpose of having such action, failure or omission, or threatened action, failure or omission, established by order of the court for the purpose stated in , or stopped, prevented or otherwise rectified by mandamus, injunction or otherwise. Such proceedings shall be commenced by a petition to the Circuit Court alleging the violation complained of and praying for appropriate relief. It shall thereupon be the duty of the court to specify the time, not exceeding twenty (20) days after service of a copy of the petition, within which the redevelopment corporation complained of must answer the petition. The court shall, immediately after a default in answering or after answer, as the case may be, inquire into the facts and circumstances in such manner as the court shall direct without other or formal proceedings, and without respect to any technical requirements. Such other persons or corporations as it shall seem to the court necessary or proper to join as parties in order to make its orders of judgment effective may be joined as parties. The final judgment or order in any such action or proceeding shall dismiss the action or proceeding or establish the failure complained of or direct that a mandamus order, or an injunction, or both, issue, or grant such other relief as the court may deem appropriate.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/235.066"/>
+          <FRBRuri value="/us-ky/act/krs/235.066"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/235.066/eng"/>
+          <FRBRuri value="/us-ky/act/krs/235.066/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/235.066/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/235.066/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_235_066">
+        <num>235.066</num>
+        <content>
+          <p>At least thirty (30) days prior to the expiration of registration of any motorboat previously registered in the Commonwealth as provided by , the owner of the motorboat shall be notified by mail on the same notice required by  of the date of expiration. In addition, the Transportation Cabinet shall provide appropriate forms and information to permit renewal of motorboat registration to be completed by mail. Any registration renewal by mail shall require payment of an additional two dollars ($2) fee which shall be received by the county clerk. Nonreceipt of the notice herein shall not constitute a defense to any registration related offense.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

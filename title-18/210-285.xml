@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/210.285"/>
+          <FRBRuri value="/us-ky/act/krs/210.285"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/210.285/eng"/>
+          <FRBRuri value="/us-ky/act/krs/210.285/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/210.285/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/210.285/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_210_285">
+        <num>210.285</num>
+        <content>
+          <p>In addition to the specific authority granted by other provisions of KRS Chapters 202A, 202B, and 210, the Cabinet for Health and Family Services shall have authority to prescribe the form of applications, records, reports, and medical certificates provided for under KRS Chapters 202A, 202B, and 210 and the information required to be contained therein; to require reports from the head of any hospital relating to the admission, examination, diagnosis, release, or discharge of any patient; to visit hospitals regularly to review the hospitalization procedures of all new patients admitted between visits; to investigate by personal visit complaints made by any persons on behalf of any patients or by any patients themselves; and to adopt such rules and regulations not inconsistent with the provisions of KRS Chapters 202A, 202B, and 210 as it may find to be reasonably necessary for proper and efficient hospitalization of the mentally ill.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

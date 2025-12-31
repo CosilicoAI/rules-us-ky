@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/353.762"/>
+          <FRBRuri value="/us-ky/act/krs/353.762"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/353.762/eng"/>
+          <FRBRuri value="/us-ky/act/krs/353.762/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/353.762/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/353.762/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_353_762">
+        <num>353.762</num>
+        <content>
+          <p>In the discretion of the authority, any bonds issued under  to may be secured by a trust indenture or trust indentures by and between the authority and a corporate trustee, which may be any trust company or bank having the powers of a trust company in or outside of Kentucky. The trust indenture or the proceedings providing for the issuance of the bonds may:</p>
+          <p>It is lawful for any bank or trust company which may act as depository of the proceeds of bonds or of revenues to furnish indemnifying bonds or pledge securities as may be required by the rights and remedies of the bondholders and of the trustee. All expenses incurred in carrying out the provisions of the trust indenture or proceedings may be treated as a part of the cost of the project or projects.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/95.442"/>
+          <FRBRuri value="/us-ky/act/krs/95.442"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/95.442/eng"/>
+          <FRBRuri value="/us-ky/act/krs/95.442/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/95.442/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/95.442/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_95_442">
+        <num>95.442</num>
+        <content>
+          <p>Any city with a population equal to or greater than eight thousand (8,000) based upon the most recent federal decennial census, may elect to operate under  to  and, by ordinance, create a civil service commission. Any classified employee in the police or fire department who accepts an appointment and qualifies as chief of police, assistant chief of police, chief of firefighters, or assistant chief of firefighters shall be deemed to have received a leave of absence from the classified service for, and during the incumbency of, any of those respective positions. If an individual should cease to serve in any of those positions, there shall be restored to him or her the same classification and rank which he or she held prior to his or her appointment.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

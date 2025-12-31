@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/146.460"/>
+          <FRBRuri value="/us-ky/act/krs/146.460"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/146.460/eng"/>
+          <FRBRuri value="/us-ky/act/krs/146.460/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/146.460/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/146.460/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_146_460">
+        <num>146.460</num>
+        <content>
+          <p>The office shall establish and publish a public register of natural areas which shall include areas other than nature preserves considered by the office to be particularly worthy of preservation for the public purposes of present and future scientific research, education, scenic and aesthetic enjoyment or which provide habitat and protection for plant and animal species and communities and other natural features. No natural area shall be construed to be unworthy of preservation because it is not included in the register. Publication of the register is notice to all public agencies that the registered natural areas are worthy of preservation. No area so registered shall be a nature preserve unless and until it shall have been dedicated as provided for in  to</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

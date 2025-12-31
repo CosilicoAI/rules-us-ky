@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/132.097"/>
+          <FRBRuri value="/us-ky/act/krs/132.097"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/132.097/eng"/>
+          <FRBRuri value="/us-ky/act/krs/132.097/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/132.097/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/132.097/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_132_097">
+        <num>132.097</num>
+        <content>
+          <p>There shall be exempt from ad valorem tax for state purposes, personal property placed in a warehouse or distribution center for the purpose of subsequent shipment to an out-of-state destination. Personal property shall be deemed to be held for shipment to an out-of-state destination if the owner can reasonably demonstrate that the personal property will be shipped out of state within the next six (6) months.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

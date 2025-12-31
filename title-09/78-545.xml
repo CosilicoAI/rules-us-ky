@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/78.545"/>
+          <FRBRuri value="/us-ky/act/krs/78.545"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/78.545/eng"/>
+          <FRBRuri value="/us-ky/act/krs/78.545/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/78.545/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/78.545/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_78_545">
+        <num>78.545</num>
+        <content>
+          <p>The following matters shall be administered for the County Employees Retirement System in the same manner subject to the same limitations and requirements as provided for the Kentucky Employees Retirement System as follows:</p>
+          <p>Effective April 1, 2021, as it relates to ,    and  references to “Kentucky Retirement Systems” or “systems administered by Kentucky Retirement Systems” as it relates to benefit eligibility shall include the County Employees Retirement System and references to “Kentucky Retirement Systems” or the “Kentucky Retirement Systems board of trustees” as it relates to administrative decisions, duties, requirements, or conflict of interest provisions shall for purposes of the County Employees Retirement System mean the County Employees Retirement System or County Employees Retirement System board of trustees, as applicable.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

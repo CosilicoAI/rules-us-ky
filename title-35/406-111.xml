@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/406.111"/>
+          <FRBRuri value="/us-ky/act/krs/406.111"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/406.111/eng"/>
+          <FRBRuri value="/us-ky/act/krs/406.111/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/406.111/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/406.111/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_406_111">
+        <num>406.111</num>
+        <content>
+          <p>If the court finds that the conclusions of all the experts, as disclosed by the evidence based upon the tests, are that the alleged father is not the father of the child, the question of paternity shall be resolved accordingly. If the court finds that the statistical probability of paternity equals or exceeds ninety-nine percent (99%), as calculated by the experts qualified as examiners of genetic markers, and that the paternity index, as calculated by the experts qualified as examiners of genetic markers, is one hundred (100) to one (1) or greater, there is a rebuttable presumption, affecting the burden of proof, of paternity. This presumption shall only be rebutted by a preponderance of the evidence. If the presumption is not rebutted, the court may enter a summary judgment of paternity, pursuant to Rule 56 of the Rules of Civil Procedure.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

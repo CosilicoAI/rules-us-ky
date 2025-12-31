@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/620.027"/>
+          <FRBRuri value="/us-ky/act/krs/620.027"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/620.027/eng"/>
+          <FRBRuri value="/us-ky/act/krs/620.027/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/620.027/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/620.027/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_620_027">
+        <num>620.027</num>
+        <content>
+          <p>The District Court has jurisdiction, concurrent with that of the Circuit Court, to determine matters of child custody and visitation in cases that come before the District Court where the need for a permanent placement and custody order is established as set forth in this chapter. The District Court, in making these determinations, shall utilize the provisions of KRS  relating to child custody and visitation. In any case where the child is actually residing with a grandparent in a stable relationship, the court may recognize the grandparent as having the same standing as a parent for evaluating what custody arrangements are in the best interest of the child.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

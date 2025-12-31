@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/171.204"/>
+          <FRBRuri value="/us-ky/act/krs/171.204"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/171.204/eng"/>
+          <FRBRuri value="/us-ky/act/krs/171.204/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/171.204/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/171.204/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_171_204">
+        <num>171.204</num>
+        <content>
+          <p>To the extent of funds available, grants may be made to qualifying public libraries based on formulas and regulations designed by the Department for Libraries and Archives or provided as special grants for an approved program. The Department for Libraries and Archives may provide partial grants or loans for constructing county or district library buildings or for improving libraries and library services of all types, through such methods and services as will best accomplish this purpose, and may accept federal funds for these purposes.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

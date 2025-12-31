@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/220.515"/>
+          <FRBRuri value="/us-ky/act/krs/220.515"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/220.515/eng"/>
+          <FRBRuri value="/us-ky/act/krs/220.515/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/220.515/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/220.515/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_220_515">
+        <num>220.515</num>
+        <content>
+          <p>The district may establish a surcharge or other rate, fee, or charge to be made applicable to users in areas where facilities are to be acquired, constructed, or established, and to amortize part or all of the costs thereof, in addition to the charge authorized by . The surcharges, rates, fees, or charges shall be determined on the basis of one (1) or more of the factors stated in , and may include, at the discretion of the district, a finance charge not to exceed ten percent (10%). In carrying out any rate, fee, or charge classification, the district shall follow the procedures set forth in .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

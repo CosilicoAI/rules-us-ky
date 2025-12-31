@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/279.125"/>
+          <FRBRuri value="/us-ky/act/krs/279.125"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/279.125/eng"/>
+          <FRBRuri value="/us-ky/act/krs/279.125/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/279.125/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/279.125/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_279_125">
+        <num>279.125</num>
+        <content>
+          <p>Notwithstanding the provisions of any other section of the Kentucky Revised Statutes, unless specific authorization is granted by the Public Service Commission, no corporation formed under this chapter shall transmit, distribute or furnish electric energy for resale, either directly or indirectly, to any electric utility now or hereafter owned or controlled, in whole or in part, by any municipality or municipalities, or instrumentalities thereof, incorporated on June 21, 1974, except to any such electric utility to which such corporation’s electric facilities are physically connected on June 21, 1974; and provided, further, that no provision herein shall prevent a corporation organized under this chapter from interconnecting for exchanges of energy with any such municipal utility which, on June 21, 1974, owns and operates electric generating facilities adequate to supply the electric requirements of the municipality. The required authorization as used in this section shall not be construed to extend the jurisdiction of the Public Service Commission over municipally owned electric systems.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/403.215"/>
+          <FRBRuri value="/us-ky/act/krs/403.215"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/403.215/eng"/>
+          <FRBRuri value="/us-ky/act/krs/403.215/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/403.215/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/403.215/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_403_215">
+        <num>403.215</num>
+        <content>
+          <p>After July 15, 1990, any new or modified order or decree which contains provisions for the support of a minor child or minor children, shall provide for a wage assignment which shall begin immediately except for good cause shown, and which shall be paid based upon the payment schedule of wages of the employer to whom the wage assignment is directed, and at a minimum, on a monthly basis. If good cause is shown, the wage assignment shall take effect when an arrearage accrues that is equal to the amount of support payable for one (1) month, pursuant to . Notice of all orders providing for wage assignment issued in Kentucky on or after January 1, 1994, shall be sent to the employer using the federally approved Income Withholding for Support (IWO) form that contains the accompanying OMB number.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

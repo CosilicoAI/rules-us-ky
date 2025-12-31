@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/372.020"/>
+          <FRBRuri value="/us-ky/act/krs/372.020"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/372.020/eng"/>
+          <FRBRuri value="/us-ky/act/krs/372.020/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/372.020/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/372.020/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_372_020">
+        <num>372.020</num>
+        <content>
+          <p>If any person loses to another at one (1) time, or within twenty-four (24) hours, five dollars ($5) or more, or anything of that value, and pays, transfers or delivers it, the loser or any of his creditors may recover it, or its value, from the winner, or any transferee of the winner, having notice of the consideration, by action brought within five (5) years after the payment, transfer or delivery. Recovery may be had against the winner, although the payment, transfer or delivery was made to the endorsee, assignee, or transferee of the winner. If the conveyance or transfer was of real estate, or the right thereto, in violation of , the heirs of the loser may recover it back by action brought within two (2) years after his death, unless it has passed to a purchaser in good faith for valuable consideration without notice.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

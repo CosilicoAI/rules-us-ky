@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/381.900"/>
+          <FRBRuri value="/us-ky/act/krs/381.900"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/381.900/eng"/>
+          <FRBRuri value="/us-ky/act/krs/381.900/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/381.900/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/381.900/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_381_900">
+        <num>381.900</num>
+        <content>
+          <p>Taxes, assessments and other charges of this state, or of any political subdivision, or of any special improvement district, or any other taxing or assessing authority shall be assessed against and collected on each individual unit, each of which shall be carried on the tax books as a separate and distinct entity for that purpose, and not on the property as a whole. The valuation of the general and limited common elements shall be assessed proportionately among the co-owners thereof. No forfeiture or sale of the improvements or property as a whole for delinquent taxes, assessments or charges shall ever divest or in anywise affect the title to an individual unit so long as taxes, assessments and charges to said individual unit are currently paid.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

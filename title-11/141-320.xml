@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/141.320"/>
+          <FRBRuri value="/us-ky/act/krs/141.320"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/141.320/eng"/>
+          <FRBRuri value="/us-ky/act/krs/141.320/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/141.320/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/141.320/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_141_320">
+        <num>141.320</num>
+        <content>
+          <p>If the remuneration paid by an employer to an employee for services performed during one-half (1/2) or more of any payroll period of not more than thirty-one (31) consecutive days constitutes wages, all the remuneration paid by such employer to such employee for such period shall be deemed to be wages; but if the remuneration paid by an employer to an employee for services performed during more than one-half (1/2) of any such payroll period does not constitute wages, then none of the remuneration paid by such employer to such employee for such period shall be deemed to be wages.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

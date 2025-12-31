@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/439.358"/>
+          <FRBRuri value="/us-ky/act/krs/439.358"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/439.358/eng"/>
+          <FRBRuri value="/us-ky/act/krs/439.358/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/439.358/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/439.358/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_439_358">
+        <num>439.358</num>
+        <content>
+          <p>The provisions of granting final discharges from parole, and the release from being again confined on the same sentence in the penitentiary following the granting of such discharge or following the restoration of the parolee’s civil rights, as set out in  to  shall be followed in all cases of those persons confined or paroled before, on, or committed after June 14, 1962.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

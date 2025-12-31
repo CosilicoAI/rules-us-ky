@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/367.811"/>
+          <FRBRuri value="/us-ky/act/krs/367.811"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/367.811/eng"/>
+          <FRBRuri value="/us-ky/act/krs/367.811/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/367.811/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/367.811/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_367_811">
+        <num>367.811</num>
+        <content>
+          <p>It shall be unlawful for any offeror to make any oral or written representation, actual or hypothetical, regarding the business opportunity’s potential sales, income, gross or net profit unless such sales, income, or profits are examples based upon the actual earnings made by existing consumer/investors of the business opportunity. Upon request by the division, names and addresses of the consumer/investors shall be made available for verification of the earnings claims. If such actual or hypothetical earnings examples are in excess of the average net earnings realized by all of the consumer/investors of the business opportunity, then there must be a full and complete disclosure of the average net earnings actually realized by all of these consumer/investors.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

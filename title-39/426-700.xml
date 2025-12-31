@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/426.700"/>
+          <FRBRuri value="/us-ky/act/krs/426.700"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/426.700/eng"/>
+          <FRBRuri value="/us-ky/act/krs/426.700/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/426.700/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/426.700/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_426_700">
+        <num>426.700</num>
+        <content>
+          <p>Every sale made under an order of court must be public, either for cash or upon reasonable credits to be fixed by the court; and shall be made after such notice of the time, place and terms of sale as the order may direct; and, unless the order direct otherwise, shall be made at the door of the courthouse of the county in which the property, or the greater part thereof, may be situated; and the notice of sale must state for what sum of money it is to be made.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

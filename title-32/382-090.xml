@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/382.090"/>
+          <FRBRuri value="/us-ky/act/krs/382.090"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/382.090/eng"/>
+          <FRBRuri value="/us-ky/act/krs/382.090/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/382.090/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/382.090/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_382_090">
+        <num>382.090</num>
+        <content>
+          <p>Any option or offer to sell real or other property, or any interest therein, when acknowledged or proven as deeds are required to be, may be recorded in the county in which the property is situated, in the same offices in which deeds are recorded, and in a separate book kept for that purpose, and the record of all such recorded options or offers to sell, shall, from the time of lodging them for record, be notice of such contracts to all persons.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

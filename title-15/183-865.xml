@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/183.865"/>
+          <FRBRuri value="/us-ky/act/krs/183.865"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/183.865/eng"/>
+          <FRBRuri value="/us-ky/act/krs/183.865/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/183.865/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/183.865/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_183_865">
+        <num>183.865</num>
+        <content>
+          <p>All of the powers, provisions, and duties relating to the zoning and use of land, structures, and air space within and around military and public use airports, heliports, and sea plane bases within the state are hereby conferred upon, delegated to and vested in the commission. The commission shall also exercise all powers, provisions, and duties relating to the use of navigable air space within the state. Nothing contained in this chapter shall prevent a governmental unit from acquiring airports, airport facilities, or air navigation facilities, or from taking any action authorized by law for the elimination of any airport hazard, either alone or jointly with the commission.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

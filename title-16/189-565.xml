@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/189.565"/>
+          <FRBRuri value="/us-ky/act/krs/189.565"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/189.565/eng"/>
+          <FRBRuri value="/us-ky/act/krs/189.565/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/189.565/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/189.565/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_189_565">
+        <num>189.565</num>
+        <content>
+          <p>The operator of any motor vehicle used in the transportation of inflammable liquids or explosives shall stop such motor vehicle before crossing at grade the main track of any railroad or interurban electric railway, except where the crossing is a guarded crossing protected by gates or a flag controlled crossing or operated by an employee of the railroad or interurban company. The stop shall be made no closer than a marked stop line or fifteen (15) feet, nor more than thirty (30) feet, from the nearest track to be crossed. After making the stop, the operator shall look carefully in each direction and shall not start his vehicle until he has ascertained that no cars, trains, or other on-track equipment are approaching in either direction.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/212.510"/>
+          <FRBRuri value="/us-ky/act/krs/212.510"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/212.510/eng"/>
+          <FRBRuri value="/us-ky/act/krs/212.510/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/212.510/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/212.510/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_212_510">
+        <num>212.510</num>
+        <content>
+          <p>If, at any time in the future, the causes, prevention and cure of tuberculosis or any other disease may be so well established that research becomes unnecessary, or the purposes for which endowments, gifts or donations were made become unnecessary, then the board is authorized, with the consent of the mayor of said city and the county judge/executive of said county, or by an order of a Circuit Court having general equity jurisdiction, to devote the funds and income therefrom which have been donated, set up, or otherwise received for research work, along any particular line of disease and cure as may nearest approach the disease or purpose for which said funds were donated and received, or with the consent of the mayor of said city and the county judge/executive of said county, or upon an order of a Circuit Court having general equity jurisdiction, may donate said funds to such research institutions as can best carry out the wishes of various donors for the general purposes for which said endowments, gifts or donations were made.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

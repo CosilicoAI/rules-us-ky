@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/426.552"/>
+          <FRBRuri value="/us-ky/act/krs/426.552"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/426.552/eng"/>
+          <FRBRuri value="/us-ky/act/krs/426.552/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/426.552/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/426.552/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_426_552">
+        <num>426.552</num>
+        <content>
+          <p>The clerk, before making the indorsements required by paragraph (d) of subsection (1) of , shall require the person claiming right thereto to file an affidavit showing his right. If the affiant state that he is a personal representative or successor of a decedent, the clerk shall also require him to file a copy, properly certified, of his appointment as such by a competent tribunal in the United States; and, unless the appointment was made in Kentucky, the clerk shall also require of him a covenant, with good surety, that he will dispose, according to law, of any property which he may receive upon the execution. If the affiant state that he is a devisee of a decedent, the clerk shall require him to file a copy of the will, certified by a county clerk in this state in which the will or a copy is recorded.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

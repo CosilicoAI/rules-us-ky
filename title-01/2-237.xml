@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/2.237"/>
+          <FRBRuri value="/us-ky/act/krs/2.237"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/2.237/eng"/>
+          <FRBRuri value="/us-ky/act/krs/2.237/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/2.237/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/2.237/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_237">
+        <num>2.237</num>
+        <content>
+          <p>The third week of August of each year shall be designated as Coal Miners Appreciation Week, and the Monday of the fourth week shall be designated as Coal Truck Driver Appreciation Day. The Governor may annually issue a proclamation designating the third week of August as Coal Miners Appreciation Week and the Monday of the fourth week as Coal Truck Driver Appreciation Day, and calling upon coal mining businesses and all citizens of the Commonwealth to observe the occasion and honor the coal miners and coal truck drivers of the Commonwealth.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

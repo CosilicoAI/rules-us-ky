@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/56.513"/>
+          <FRBRuri value="/us-ky/act/krs/56.513"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/56.513/eng"/>
+          <FRBRuri value="/us-ky/act/krs/56.513/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/56.513/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/56.513/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_56_513">
+        <num>56.513</num>
+        <content>
+          <p>Such loan agreements may be recorded as receivables upon the books of account of the commission, the secretary of the Finance and Administration Cabinet, or other borrowing agency, and construction contracts may be awarded against the same to the amount of money which the lender contractually agrees to make available to the borrowing agency, the same as in the case of loan agreements made with departments or agencies of the United States government.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

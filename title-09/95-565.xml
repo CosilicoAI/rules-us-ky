@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/95.565"/>
+          <FRBRuri value="/us-ky/act/krs/95.565"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/95.565/eng"/>
+          <FRBRuri value="/us-ky/act/krs/95.565/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/95.565/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/95.565/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_95_565">
+        <num>95.565</num>
+        <content>
+          <p>Any member of the police or fire department of a city with a pension fund established under , who, while a member of the police or fire department, entered the Armed Forces of the United States, and who was honorably discharged therefrom, shall upon his return to that police or fire department be entitled to the same pension or benefits provided by , and his beneficiaries shall be entitled to the same pension under , as if the member had remained on active duty with that police or fire department, and his time served in the Armed Forces shall be added to his previous service and shall be construed for purposes of eligibility for pensions or benefits, either for himself or his beneficiaries, as a part and continuation of his consecutive years of service with that police or fire department. This section shall apply only to those members who served in World War II, who apply for reinstatement within ninety (90) days after the date on which the member first received or could have received an honorable discharge, and shall not apply to those members reenlisting in the Armed Forces of the United States.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

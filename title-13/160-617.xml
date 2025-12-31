@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/160.617"/>
+          <FRBRuri value="/us-ky/act/krs/160.617"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/160.617/eng"/>
+          <FRBRuri value="/us-ky/act/krs/160.617/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/160.617/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/160.617/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_160_617">
+        <num>160.617</num>
+        <content>
+          <p>Notwithstanding , or any other provision to the contrary, any utility, cable service provider, or satellite broadcast and wireless cable service provider required to pay the tax authorized by  or may increase its rates in any school district in which it is required to pay the school tax by the amount of the school tax imposed, up to three percent (3%). Any utility, cable service provider, or satellite broadcast and wireless cable service provider so increasing its rates shall separately state on the bills sent to its customers the amount of the increase and shall identify the amount as: “Rate increase for school tax.”</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

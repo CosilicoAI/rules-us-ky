@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/260.771"/>
+          <FRBRuri value="/us-ky/act/krs/260.771"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/260.771/eng"/>
+          <FRBRuri value="/us-ky/act/krs/260.771/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/260.771/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/260.771/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_260_771">
+        <num>260.771</num>
+        <content>
+          <p>If the covered produce that has been issued a stop movement order or sought to be destroyed is found to be in violation of any provision of 21 C.F.R pt. 112,  to  or administrative regulations adopted pursuant to , it shall be the duty of the Circuit Court to render judgment that covered produce be forfeited to the Commonwealth and that the goods be destroyed or sold by the department for any purpose other than to be used for food. Either party may appeal the Circuit Court’s decision to the Court of Appeals.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

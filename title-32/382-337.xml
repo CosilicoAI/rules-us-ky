@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/382.337"/>
+          <FRBRuri value="/us-ky/act/krs/382.337"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/382.337/eng"/>
+          <FRBRuri value="/us-ky/act/krs/382.337/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/382.337/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/382.337/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_382_337">
+        <num>382.337</num>
+        <content>
+          <p>Any party to a deed or the attorney who prepared the deed or other persons with personal knowledge may execute and file with the county clerk his or her affidavit to correct or supplement information regarding the marital status of any party to a deed, or to supplement or correct information contained in or absent from the acknowledgment or notary portion of a deed, and for no other purpose. Nothing in this section is intended to replace any existing statutory requirement regarding the execution and filing of deeds. The affidavit shall contain the name, address, and signature of the person who prepared the instrument as required by .</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

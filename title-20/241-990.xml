@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/241.990"/>
+          <FRBRuri value="/us-ky/act/krs/241.990"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/241.990/eng"/>
+          <FRBRuri value="/us-ky/act/krs/241.990/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/241.990/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/241.990/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_241_990">
+        <num>241.990</num>
+        <content>
+          <p>Any person who after an opportunity to be heard is found by the commissioner to have violated any of the provisions of , or acted as county administrator in violation of subsection (1) of , or acted as city administrator or a city employee in violation of subsection (3) of , or acted as an urban-county administrator in violation of , shall automatically vacate his office or position, and upon conviction by a court, he shall be guilty of a Class D felony.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

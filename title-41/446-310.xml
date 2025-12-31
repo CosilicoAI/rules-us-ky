@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/446.310"/>
+          <FRBRuri value="/us-ky/act/krs/446.310"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/446.310/eng"/>
+          <FRBRuri value="/us-ky/act/krs/446.310/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/446.310/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/446.310/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_446_310">
+        <num>446.310</num>
+        <content>
+          <p>When the House or Senate clerk
+    or a member of his staff makes a change or correction on the face of the bill
+    to be presented to the Governor for his approval or other action, he shall
+    deliver a copy of the bill containing the change to the statute reviser and
+    shall affix his signature and the date of making the change on the face of
+    the original bill and the copy sent to the statute reviser in a position near
+    the changed material. Any change not so indicated and signed shall be null
+    and void and shall not be placed in the statutes by the statute reviser.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/162.540"/>
+          <FRBRuri value="/us-ky/act/krs/162.540"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/162.540/eng"/>
+          <FRBRuri value="/us-ky/act/krs/162.540/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/162.540/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/162.540/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_162_540">
+        <num>162.540</num>
+        <content>
+          <p>Upon receiving a request in writing from a board of education, the authority may, in its discretion, assist such board of education in financing any project by acting in the capacity and manner authorized to be performed by cities under  to  and by counties under . When applied to the authority,  to shall be so read that the following terms and passages have the following respective meanings or interpretations:</p>
+          <p>“One (1) or more depositories and paying agents may be selected and designated by the board of education, subject to the approval of the authority, which approval shall not unreasonably be withheld; but each depository and paying agent shall be a financial institution, within or without the Commonwealth, which is a member of the Federal Deposit Insurance Corporation. All deposits of sinking funds and of bond proceeds shall continuously be secured by a pledge to the authority of direct obligations of the United States, exclusive of accrued interest, at all times at least equal to the balance on deposit in the fund or account, such securities to be deposited with the authority or held by a trustee or agent designated by the authority; provided, however, in lieu of requiring such security the authority may in its discretion invest, or cause to be invested and reinvested, any moneys in direct obligations of the United States until such time as cash funds may be needed, and the authority may prescribe for the custody and safekeeping of such securities. When cash funds are needed, the authority shall direct the conversion into cash of such securities, or a sufficient portion thereof, and may require that the same be secured until disbursement, as herein provided. All income from such securities shall accrue to the board of education, but may be retained by the authority and credited upon any rental obligation of the board of education under the lease, or applied to supplement bond proceeds if the same should for any reason turn out to be insufficient to defray the costs and expenses of the project.”</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

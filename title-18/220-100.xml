@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/220.100"/>
+          <FRBRuri value="/us-ky/act/krs/220.100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/220.100/eng"/>
+          <FRBRuri value="/us-ky/act/krs/220.100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/220.100/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/220.100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_220_100">
+        <num>220.100</num>
+        <content>
+          <p>Any owner of real property in the proposed district who has not signed the original petition for the creation of the district and who wishes to object to the organization of the district shall, within sixty (60) days after the giving of notice by the commissioner, file his petition in the Circuit Court of the county in which the larger part of the proposed district is located, naming the commissioner defendant and setting out in the petition his objections to the organization of the district. The commissioner shall be represented in the Circuit Court by the county attorney and in the Court of Appeals by the Attorney General, and he also may require his defense to be made by the petitioners or some of them. The issues may be made up and the case may be docketed for hearing as in an action for a declaration of rights. The burden of proof shall be upon the plaintiff to show cause why the district should not be organized. If the court renders judgment against the commissioner, judgment shall point out the changes required for the establishment of a district, which, if met by the commissioner, shall authorize the creation of the district. If the changes are not met by the commissioner, the proposed district shall not be organized unless new proceedings are instituted for the creation of a district, but such new proceedings shall not be instituted for a period of six (6) months after the date of judgment. If the court gives judgment against the plaintiff, the commissioner shall organize the district. An appeal shall suspend the judgment until the case has been passed upon by the Court of Appeals and final judgment rendered. Either the plaintiff or the commissioner may appeal from the judgment of the Circuit Court to the Court of Appeals, but the commissioner shall not be required to make any appeal bond. Except as otherwise provided in this section, the pleading and practice shall be the same as in other suits in equity.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

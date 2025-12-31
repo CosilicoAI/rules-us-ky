@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/353.060"/>
+          <FRBRuri value="/us-ky/act/krs/353.060"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/353.060/eng"/>
+          <FRBRuri value="/us-ky/act/krs/353.060/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/353.060/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/353.060/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_353_060">
+        <num>353.060</num>
+        <content>
+          <p>2. (a)
+      At the hearing, the well operator and the coal operator or owner, in person or by a representative, shall consider the objections and either agree upon the location as proposed or change it so as to satisfy all objections and meet the approval of the department.</p>
+          <p>3.
+      If no objections are filed within the fifteen (15) day period, the department shall immediately issue to the well operator a drilling permit approving the location and authorizing the well operator to proceed to drill there.</p>
+        </content>
+        <subsection eId="sec_353_060__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Any new location thus selected and agreed upon shall be indicated on a plat in accordance with  and thereupon the department shall issue to the well operator a drilling permit approving the location and authorizing the well operator to drill at the location.</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_353_060__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>If the coal operator and well operator, or the owner and well operator, are unable to agree, the hearing officer shall make a recommendation to the secretary, in view of the purposes and intent of this chapter and in compliance therewith, to fix a location on the tract as near the proposed location as possible and upon final order of the secretary, the department shall issue to the well operator a permit to drill at the new location.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

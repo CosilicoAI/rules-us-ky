@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/426.655"/>
+          <FRBRuri value="/us-ky/act/krs/426.655"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/426.655/eng"/>
+          <FRBRuri value="/us-ky/act/krs/426.655/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/426.655/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/426.655/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_426_655">
+        <num>426.655</num>
+        <content>
+          <p>The party to whom the bond is executed may move the court to which it is returned for a judgment thereon against all or any of the obligors or their representatives, having given to them ten (10) days’ notice of the motion. The court shall direct a jury to be empaneled, and may cause such issues to be tried as it may prescribe, and direct which party shall be considered plaintiff in the issues. If the property, or any part of it, be found subject to the execution, judgment shall be rendered in favor of the plaintiff therein for the value of the property so subject and ten percent (10%) thereon, not exceeding the amount due on the execution and ten percent (10%) thereon. An execution may be issued upon the judgment forthwith, on which the same indorsement shall be made as on the execution in virtue of which the property had been seized.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

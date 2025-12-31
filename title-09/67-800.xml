@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/67.800"/>
+          <FRBRuri value="/us-ky/act/krs/67.800"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/67.800/eng"/>
+          <FRBRuri value="/us-ky/act/krs/67.800/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/67.800/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/67.800/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_67_800">
+        <num>67.800</num>
+        <content>
+          <p>Notwithstanding any statute to the contrary, the fiscal court of any county in which there are no incorporated areas shall receive any appropriate state funds a city is eligible to receive in addition to any state funds a county is eligible to receive. Funds received by a fiscal court pursuant to this section in any county in which there are no incorporated areas, shall be used to perform proper and necessary governmental functions statutorily authorized or required involving the public interests of the citizens of the county.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

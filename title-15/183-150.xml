@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/183.150"/>
+          <FRBRuri value="/us-ky/act/krs/183.150"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/183.150/eng"/>
+          <FRBRuri value="/us-ky/act/krs/183.150/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/183.150/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/183.150/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_183_150">
+        <num>183.150</num>
+        <content>
+          <p>Within the limits of the appropriation made to the cabinet, the cabinet may by agreement provide reimbursement to airport boards, for a period not to extend beyond June 30, 1980, to reimburse them for direct financial aid, or benefits and services in lieu thereof, which the airport boards have expended, in accordance with  for the development of commuter air services that have provided their communities with regularly scheduled passenger, mail and cargo service or any combination thereof.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

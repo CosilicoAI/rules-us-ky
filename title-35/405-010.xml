@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/405.010"/>
+          <FRBRuri value="/us-ky/act/krs/405.010"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/405.010/eng"/>
+          <FRBRuri value="/us-ky/act/krs/405.010/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/405.010/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/405.010/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_405_010">
+        <num>405.010</num>
+        <content>
+          <p>The father and mother of a child under the age of eighteen (18) are equally entitled to its services and earnings. If one of the parents is dead, or has abandoned the child, or been deprived of its custody by court decree, the other is entitled to its services and earnings. The parents jointly may maintain an action for loss of the services or earnings of their child under the age of eighteen (18) when the loss is occasioned by an injury wrongfully or negligently inflicted upon the child. But if either the father or mother is dead, or has abandoned the child, or has been deprived of its custody by court decree, or refuses to sue, the other may sue alone. This section shall not affect the existing law relating to workers’ compensation and industrial accidents.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

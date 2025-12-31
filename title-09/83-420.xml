@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/83.420"/>
+          <FRBRuri value="/us-ky/act/krs/83.420"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/83.420/eng"/>
+          <FRBRuri value="/us-ky/act/krs/83.420/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/83.420/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/83.420/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_83_420">
+        <num>83.420</num>
+        <content>
+          <p>The inhabitants of each city of the first class shall constitute a corporation, with power to govern themselves by any ordinances and resolutions for municipal purposes not in conflict with the Constitution or laws of this state or of the United States. In its corporate capacity the city may contract and be contracted with and may sue and be sued. It may adopt a common seal and change it at pleasure or act without a seal. It may acquire property for municipal purposes by purchase or otherwise. It may hold all its property either in its own name or in the name of others, to the use of the city, for the purposes for which the property was granted or dedicated, and may use, manage, improve, sell and convey, rent or lease its property.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

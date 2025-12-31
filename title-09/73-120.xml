@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/73.120"/>
+          <FRBRuri value="/us-ky/act/krs/73.120"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/73.120/eng"/>
+          <FRBRuri value="/us-ky/act/krs/73.120/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/73.120/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/73.120/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_73_120">
+        <num>73.120</num>
+        <content>
+          <p>The county surveyor shall keep a record of plats, and explanatory notes of all surveys made by him or his deputies, and copies of the record, certified to by the county surveyor, shall be legal evidence in any court. No survey or resurvey of real estate made by any person except the county surveyor or his deputy, shall be considered as legal evidence in any court, unless such survey is made by mutual consent in writing, signed by the parties, and recorded in the county clerk’s or county surveyor’s office, or made by order of court. Any survey or resurvey filed with the county clerk shall meet the requirements of  and shall have required fees attached.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

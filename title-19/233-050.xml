@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/233.050"/>
+          <FRBRuri value="/us-ky/act/krs/233.050"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/233.050/eng"/>
+          <FRBRuri value="/us-ky/act/krs/233.050/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/233.050/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/233.050/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_233_050">
+        <num>233.050</num>
+        <content>
+          <p>Upon the presentation of a petition alleging that a house of prostitution exists, the court may grant a temporary injunction without bond, if the existence of the house of prostitution is made to appear to the satisfaction of the court by evidence in the form of affidavit, depositions, oral testimony or otherwise, as the relator may elect. Three (3) days’ written notice of the application shall be given the defendant before the hearing. When a temporary injunction has been granted it shall be binding on the defendant throughout the state, and any violation of its provisions shall be a contempt.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

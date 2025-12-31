@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/76.090"/>
+          <FRBRuri value="/us-ky/act/krs/76.090"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/76.090/eng"/>
+          <FRBRuri value="/us-ky/act/krs/76.090/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/76.090/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/76.090/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_76_090">
+        <num>76.090</num>
+        <content>
+          <p>This schedule may include additional charges for treatment of sewage, with a surcharge where the sewage contains industrial wastes or other wastes in excess of limitations established by regulations of the district.</p>
+          <p>The district may collect the sewer rates, rentals, and charges, or cause them to be collected and paid to it by agencies it designates, and with whom it may make such contracts or arrangements as the district deems proper. No moneys received on account of the existence or operation of construction subdistricts shall be used for the payment of district obligations, and no other moneys received by the district shall be used for the payment of construction subdistrict bonds or obligations. Except as provided in the preceding sentence, the use of all moneys of the district received from any and all sources is hereby limited exclusively and shall be devoted solely to the payment of all obligations of the district and board created by  to  and no funds from any sources authorized by  to  shall be diverted to any other purposes than those in  to set forth, except that the district shall pay from district area revenues an equitably allocable share of the cost of constructing and operating any nondistrict area facilities to which sewage from the district area is diverted in order to relieve facilities from excessive sewage and costs described in  but otherwise paid for.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

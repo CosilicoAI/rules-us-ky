@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/132.100"/>
+          <FRBRuri value="/us-ky/act/krs/132.100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/132.100/eng"/>
+          <FRBRuri value="/us-ky/act/krs/132.100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/132.100/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/132.100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_132_100">
+        <num>132.100</num>
+        <content>
+          <p>If the General Assembly enacts any act pursuant to Section 171 of the Constitution as amended, classifying property and providing a lower rate of taxation on personal property than on real property, the provisions of the act shall be subject to a referendum upon the written petition of qualified voters equal to at least five percent (5%) of the votes cast in the state for a slate of candidates for Governor and Lieutenant Governor at the last preceding regular election. The petition shall be filed with the Secretary of State not more than four (4) months after the final adjournment of the General Assembly that passed the act on which the referendum is demanded, and shall specify the act or the item, section or part of the act on which the referendum is demanded. The petition shall be uniform in size and style and shall be assembled in one (1) instrument for filing. Each sheet of the petition shall contain the names of voters from one (1) voting precinct only, and shall include the name, number and designation of the precinct in which the voters signing the petition live. The inclusion of an invalid signature on a page shall not invalidate the entire page of the petition, but shall instead result in the invalid signature being stricken and not counted. Each signature shall be executed in ink or indelible pen and shall be followed by the printed name, residence address, and Social Security number or date of birth of legal voters.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

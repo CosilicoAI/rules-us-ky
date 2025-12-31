@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/96.240"/>
+          <FRBRuri value="/us-ky/act/krs/96.240"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/96.240/eng"/>
+          <FRBRuri value="/us-ky/act/krs/96.240/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/96.240/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/96.240/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_96_240">
+        <num>96.240</num>
+        <content>
+          <p>The mayor of a consolidated local government which is formed upon the consolidation of a city of the first class with its county, and which receives upon the consolidation from the city of the first class the shares of capital stock in any corporation engaged in supplying water to the area comprising the consolidated local government, shall appoint, subject to the provisions of , six (6) persons, no more than three (3) of whom shall be members of the same political party, who with the mayor as an ex officio member shall constitute a body corporate known as the “board of waterworks.” Each appointee shall be at least thirty (30) years of age and shall be a resident of the county containing a consolidated local government and be the owner in his or her own right of real estate situated in the consolidated local government. At least one (1) such appointee shall be qualified, as specified in , to serve as president of the board. No officer or employee of the consolidated local government, whether holding a paid or unpaid office, shall be eligible for appointment to the board. Of the persons first appointed, two (2) shall be appointed for a term of two (2) years, two (2) for a term of three (3) years, and two (2) for a term of four (4) years, and such terms shall expire on the date of the annual meeting of the board of waterworks. Their successors shall be appointed in the same manner, but for terms of four (4) years each. Appointees shall be eligible to succeed themselves. All vacancies shall be filled for the unexpired term by appointment in the same manner. Each member shall hold his office until his or her successor has been appointed and qualified. The oath of office of each member shall be filed with the board of the revenue commission of the consolidated local government.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

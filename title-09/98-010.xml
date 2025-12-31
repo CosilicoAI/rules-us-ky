@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/98.010"/>
+          <FRBRuri value="/us-ky/act/krs/98.010"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/98.010/eng"/>
+          <FRBRuri value="/us-ky/act/krs/98.010/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/98.010/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/98.010/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_98_010">
+        <num>98.010</num>
+        <content>
+          <p>The department of public welfare of cities of the first class shall be under the supervision and direction of a director to be designated director of welfare, and shall, except as otherwise provided by law, have exclusive control, under the acts of the General Assembly and the ordinances of the legislative body of said cities, of all matters relating to the provision for and the supervision of the care of dependents and persons mentally deficient; the investigation of conditions that develop dependency, delinquency and mental deficiency; the education of the public regarding such conditions and the adoption of remedial measures; the supervision of public baths, comfort stations and cemeteries, the home for the aged and infirm, and the city workhouse; and may prescribe rules and regulations for the government and discipline of the inmates of the city’s charitable and penal institutions; and the supervision of the maintenance at the University of Louisville of classes in social welfare in order to provide trained workers for service in said department; and such other matters as may by ordinance be placed under the control of the said department not in conflict with any act of the General Assembly. The director of welfare shall have the power to organize the said department for administrative purposes into such divisions as may be necessary for the proper conduct of the business of said department, and to appoint heads or chiefs of such divisions, who, under the supervision and control of said director, shall have the direction of such divisions.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

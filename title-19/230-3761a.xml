@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/230.3761a"/>
+          <FRBRuri value="/us-ky/act/krs/230.3761a"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/230.3761a/eng"/>
+          <FRBRuri value="/us-ky/act/krs/230.3761a/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/230.3761a/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/230.3761a/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_230_3761a">
+        <num>230.3761a</num>
+        <content>
+          <p>(A)
+      This compact shall be liberally construed so as to effectuate its purposes. The provisions of this compact shall be severable and if any phrase, clause, sentence, or provision of this compact is declared to be contrary to the Constitution of the United States or of any member state, or the applicability of this compact to any government, agency, person, or circumstance is held invalid, the validity of the remainder of this compact and its applicability to any government, agency, person, or circumstance shall not be affected. If all or some portion of this compact is held to be contrary to the constitution of any member state, the compact shall remain in full force and effect as to the remaining member states and in full force and effect as to the state affected as to all severable matters.</p>
+          <p>(B)
+      In the event of any allegation, finding, or ruling against the compact or its procedures or actions, provided that a member state has followed the compact’s stated procedures, any rule it purported to adopt using the procedures of this statute shall constitute a duly adopted and valid state rule, and any program that it purported to create or agree to using the procedures of this statute shall constitute a duly made and valid state program and multilateral agreement with the other consenting member states.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/381.9125"/>
+          <FRBRuri value="/us-ky/act/krs/381.9125"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/381.9125/eng"/>
+          <FRBRuri value="/us-ky/act/krs/381.9125/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/381.9125/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/381.9125/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_381_9125">
+        <num>381.9125</num>
+        <content>
+          <p>A condominium may be created pursuant to  to 381.9207 only by recording a declaration executed in the same manner as a deed. The declaration shall be recorded in every county in which any portion of the condominium is located, and shall be indexed in the name of the condominium, the association, and each person executing the declaration. The county clerk shall determine the methods and mechanics for recording and storing any plans and plats associated with a declaration or amendment of a declaration.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

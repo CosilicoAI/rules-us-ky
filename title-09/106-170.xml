@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/106.170"/>
+          <FRBRuri value="/us-ky/act/krs/106.170"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/106.170/eng"/>
+          <FRBRuri value="/us-ky/act/krs/106.170/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/106.170/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/106.170/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_106_170">
+        <num>106.170</num>
+        <content>
+          <p>Any water district or city acquiring any waterworks pursuant to the provisions of this act may, at the time of issuing the bonds for such acquisition, provide for additional bonds for extensions and permanent improvements to be placed in escrow and to be negotiated from time to time as proceeds for that purpose may be necessary, or the water district or city may, at any time, provide for the extension, addition or improvement of the waterworks by an additional issue of bonds. Bonds placed in escrow shall, when negotiated, have equal standing with the bonds of the same issue.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

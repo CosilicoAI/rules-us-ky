@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/118.465"/>
+          <FRBRuri value="/us-ky/act/krs/118.465"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/118.465/eng"/>
+          <FRBRuri value="/us-ky/act/krs/118.465/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/118.465/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/118.465/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_118_465">
+        <num>118.465</num>
+        <content>
+          <p>One (1) United States Senator shall be elected at the regular November election every six (6) years beginning with 1914, and one (1) shall be elected at the regular November election every six (6) years beginning with 1918, to succeed the Senator whose term will expire the succeeding year. The election for United States Senator shall be held and the result shall be ascertained and certified in the same manner as the elections for state officers. After the returns have been canvassed, the Governor shall certify the election of the person elected to the President of the Senate of the United States. The certificate shall be under the seal of the state and shall be countersigned by the Secretary of State. All electors who are eligible to vote for representatives in Congress shall be eligible to vote for United States Senator, and the person receiving the highest number of votes shall be declared elected.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

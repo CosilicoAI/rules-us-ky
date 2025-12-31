@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/138.321"/>
+          <FRBRuri value="/us-ky/act/krs/138.321"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/138.321/eng"/>
+          <FRBRuri value="/us-ky/act/krs/138.321/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/138.321/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/138.321/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_138_321">
+        <num>138.321</num>
+        <content>
+          <p>Any gasoline dealer or special fuels dealer having a license revoked for the violation of any of the provisions contained in KRS  may, within the discretion of the department, be denied the issuance of a gasoline dealer or special fuels dealer license, and any such licensee shall not have an interest in any such license, either disclosed or undisclosed, whether as an individual, partnership, corporation or otherwise.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

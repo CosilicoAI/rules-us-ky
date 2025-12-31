@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ky/act/krs/134.505"/>
+          <FRBRuri value="/us-ky/act/krs/134.505"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ky-legislature"/>
+          <FRBRcountry value="us-ky"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ky/act/krs/134.505/eng"/>
+          <FRBRuri value="/us-ky/act/krs/134.505/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ky/act/krs/134.505/eng/akn"/>
+          <FRBRuri value="/us-ky/act/krs/134.505/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ky-legislature" href="/ontology/organization/us-ky/legislature" showAs="Kentucky General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_134_505">
+        <num>134.505</num>
+        <content>
+          <p>Any person while serving as county attorney who was required by law by reason of his office to prosecute an action or to assist the commissioner of revenue in prosecuting an action to enforce a claim of the state, county, school district and any other taxing district to any land which was purchased by such districts at a sheriff’s sale or sales for delinquent taxes and who did not institute such action before he relinquished his office or otherwise failed to perform substantially all the duties of his office relative to the claim, shall not be entitled to receive any commission or compensation for any such sale or sales when the redemption costs are paid. Any county clerk or other person authorized to collect funds to satisfy unredeemed land sales shall be liable for any such money distributed as a commission to any former county attorney who is not entitled to it.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>
